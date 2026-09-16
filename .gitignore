@@ -1,0 +1,44 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# macOS / editors
+.DS_Store
+._*
+.idea/
+.vscode/
+
+# Downloaded datasets and reference papers (see README for sources)
+/data/raw/
+/reference/
+/audit/sources/
+/audit/outputs/curves.npz
+
+# Generated reports, rater packets, and confidential unblinding keys
+/data/reports*/
+/data/rating_packets*/
+**/answer_key_DO_NOT_SHARE*
+**/packaging_manifest.json
+/v1_freeze/data/
+
+# Temporary audit copies
+*.building/
+/v1_freeze/reports*/
+/v1_freeze/rating_packets*/

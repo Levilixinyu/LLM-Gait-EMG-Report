@@ -1,0 +1,32 @@
+{
+  "stroke_ERS": {
+    "n": 46,
+    "fixed_0_2": 12,
+    "relative_0_2_peak": 32
+  },
+  "control_ERS": {
+    "n": 106,
+    "fixed_0_2": 3,
+    "relative_0_2_peak": 37
+  },
+  "stroke_GAS": {
+    "n": 43,
+    "fixed_0_2": 1,
+    "relative_0_2_peak": 9
+  },
+  "control_GAS": {
+    "n": 109,
+    "fixed_0_2": 0,
+    "relative_0_2_peak": 0
+  },
+  "stroke_BF": {
+    "n": 43,
+    "fixed_0_2": 2,
+    "relative_0_2_peak": 15
+  },
+  "control_BF": {
+    "n": 106,
+    "fixed_0_2": 3,
+    "relative_0_2_peak": 7
+  }
+}

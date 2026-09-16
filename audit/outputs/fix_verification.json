@@ -1,0 +1,152 @@
+{
+  "P0_1": {
+    "Sub50_TA": {
+      "intervals": [
+        [
+          56.6,
+          7.4
+        ]
+      ],
+      "above_threshold_pct": 53.84615384615385,
+      "crosses_boundary": true,
+      "deviation_z_signed": 4.069561327637434,
+      "deviation_phase_pct": 89.4,
+      "late_burst_in_structured_output": true,
+      "prompt_text_matches_structure": true,
+      "prompt_line": "- TA: activation interval(s) 57%-7% (wraps cycle boundary), 54% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.85, max |z| vs healthy reference: 4.1 (above reference, at 89% of cycle)"
+    },
+    "Sub05_GAS": {
+      "intervals": [
+        [
+          91.6,
+          88.4
+        ]
+      ],
+      "above_threshold_pct": 96.90309690309691,
+      "crosses_boundary": true,
+      "deviation_z_signed": 13.329604417750005,
+      "deviation_phase_pct": 80.3,
+      "late_burst_in_structured_output": true,
+      "prompt_text_matches_structure": true,
+      "prompt_line": "- GAS: activation interval(s) 92%-88% (wraps cycle boundary), 97% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.39, max |z| vs healthy reference: 13.3 (above reference, at 80% of cycle)"
+    }
+  },
+  "P0_2_threshold_table": {
+    "ERS_stroke_P": {
+      "n": 46,
+      "frac_of_peak_ge95": 32,
+      "absolute02_ge95": 12
+    },
+    "ERS_controls": {
+      "n": 106,
+      "frac_of_peak_ge95": 37,
+      "absolute02_ge95": 3
+    },
+    "GAS_stroke_P": {
+      "n": 43,
+      "frac_of_peak_ge95": 9,
+      "absolute02_ge95": 1
+    },
+    "GAS_controls": {
+      "n": 109,
+      "frac_of_peak_ge95": 0,
+      "absolute02_ge95": 0
+    },
+    "BF_stroke_P": {
+      "n": 43,
+      "frac_of_peak_ge95": 15,
+      "absolute02_ge95": 2
+    },
+    "BF_controls": {
+      "n": 106,
+      "frac_of_peak_ge95": 7,
+      "absolute02_ge95": 3
+    }
+  },
+  "P0_3_calibration": {
+    "GAS": {
+      "n": 109,
+      "n_over_2": 42,
+      "p50": 1.777,
+      "p95": 3.936,
+      "loo_p50": 1.812,
+      "loo_p95": 4.275
+    },
+    "RF": {
+      "n": 108,
+      "n_over_2": 58,
+      "p50": 2.076,
+      "p95": 4.527,
+      "loo_p50": 2.129,
+      "loo_p95": 5.06
+    },
+    "VL": {
+      "n": 109,
+      "n_over_2": 52,
+      "p50": 1.888,
+      "p95": 4.0,
+      "loo_p50": 1.929,
+      "loo_p95": 4.354
+    },
+    "BF": {
+      "n": 106,
+      "n_over_2": 53,
+      "p50": 1.974,
+      "p95": 4.127,
+      "loo_p50": 2.021,
+      "loo_p95": 4.532
+    },
+    "ST": {
+      "n": 108,
+      "n_over_2": 59,
+      "p50": 2.071,
+      "p95": 3.912,
+      "loo_p50": 2.124,
+      "loo_p95": 4.246
+    },
+    "TA": {
+      "n": 107,
+      "n_over_2": 58,
+      "p50": 2.051,
+      "p95": 4.605,
+      "loo_p50": 2.102,
+      "loo_p95": 5.174
+    },
+    "ERS": {
+      "n": 106,
+      "n_over_2": 52,
+      "p50": 1.937,
+      "p95": 3.646,
+      "loo_p50": 1.982,
+      "loo_p95": 3.919
+    },
+    "CCI_RF_BF": {
+      "n": 106,
+      "p2_5": 0.483,
+      "p50": 0.676,
+      "p97_5": 0.825
+    },
+    "CCI_TA_GAS": {
+      "n": 107,
+      "p2_5": 0.242,
+      "p50": 0.386,
+      "p97_5": 0.592
+    },
+    "GPS_like": {
+      "n": 138,
+      "p50": 5.115,
+      "p95": 10.715
+    }
+  },
+  "P0_3_subjects_any_muscle_over2": {
+    "n_subjects_with_emg": 109,
+    "n_over_2": 109
+  },
+  "P1_2_scale_invariance": {
+    "z_1x": 233.0955637470206,
+    "z_10x": 233.09556375166946,
+    "relative_diff": 1.994398208044967e-11,
+    "invariant": true
+  },
+  "failures": []
+}

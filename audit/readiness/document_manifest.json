@@ -1,0 +1,9 @@
+{
+  "README.md": "e9f8fa9d1939c3944114d45bd9248f3ca0c03bacee8445a52acd2637f1e62eb4",
+  "requirements.txt": "96fc63f1439e1182183dff5f06f60685428551f5da982cd25b970743f152f539",
+  "requirements.lock.txt": "cc0af696397b2aa75e51e6e71b90cd28909faec3ed596dcc968c0579098d5fcc",
+  "docs/expert_trial/TRIAL_RATING_PLAN_DRAFT.md": "01fa96782485ed8a8d43638caf96e302558b6d45a0c0c7a4ac514719a672dd63",
+  "docs/expert_trial/rating_form_template.csv": "fe517b9759227122dc1cafbda9b2828779ac4ceb852e49e61a995759a68c4e32",
+  "data/normative_calibration_v2.json": "8fe1f8b8916d6596ce94bc5f5dfa37a2d11ba6c87a6318461a21c971c0b3a921",
+  "audit/outputs/sdk_smoke_check.json": "1acea6a7fb4f16d3c806ab4ab35e4104e97b285e920fcda0ecfbbb29756a20cf"
+}

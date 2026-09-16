@@ -1,0 +1,47 @@
+{
+  "valid": {
+    "accepted": true,
+    "packet_items": 3
+  },
+  "content_filter": {
+    "accepted": false,
+    "exception": "PacketSelectionError",
+    "message": "stop_reason 'content_filter' is not a success value for openai (allowed: ['stop']): Sub01_P__openai__model-openai__v2.json"
+  },
+  "wrong_provider_stop": {
+    "accepted": false,
+    "exception": "PacketSelectionError",
+    "message": "stop_reason 'end_turn' is not a success value for openai (allowed: ['stop']): Sub01_P__openai__model-openai__v2.json"
+  },
+  "corrupt_archives": {
+    "accepted": true,
+    "packet_items": 3
+  },
+  "mixed_input": {
+    "accepted": false,
+    "exception": "PacketSelectionError",
+    "message": "task_hash mismatch for ('Sub01', 'gemini') (record from a different input/reference/config than the frozen manifest): Sub01_P__gemini__model-gemini__v2.json"
+  },
+  "missing_subject": {
+    "accepted": false,
+    "exception": "PacketSelectionError",
+    "message": "task ('Sub01', 'anthropic') not in the frozen expected-task manifest: Sub01_P__anthropic__model-anthropic__v2.json"
+  },
+  "independent_batches": {
+    "three_unique_same_second_batches": true,
+    "first_batch_byte_identical": true,
+    "all_keys_align": true,
+    "batch_components": [
+      "answer_key_DO_NOT_SHARE.csv",
+      "packaging_manifest.json",
+      "packets",
+      "rubric.json"
+    ],
+    "no_key_in_rater_packets": true
+  },
+  "publication_failure": {
+    "no_new_final_batch": true,
+    "old_batches_unchanged": true,
+    "incomplete_staging_only": true
+  }
+}

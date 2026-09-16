@@ -1,0 +1,80 @@
+{
+  "generate_pilot_reports": {
+    "first_calls": 3,
+    "second_run_additional_calls": 0,
+    "records": 3,
+    "versions": [
+      "v2",
+      "v2",
+      "v2"
+    ],
+    "reference_ids": [
+      "main_cohort_excel/all-controls",
+      "main_cohort_excel/all-controls",
+      "main_cohort_excel/all-controls"
+    ],
+    "reference_members": [
+      [
+        "C0",
+        "C1",
+        "C2"
+      ],
+      [
+        "C0",
+        "C1",
+        "C2"
+      ]
+    ],
+    "subjects": [
+      "S01",
+      "S01",
+      "S01"
+    ],
+    "manifest_tasks": 3,
+    "packaging": {
+      "success": true,
+      "packet_items": 3,
+      "key_rows": 3,
+      "id_match": true,
+      "manifest_is_metadata": true
+    }
+  },
+  "generate_control_spotcheck": {
+    "first_calls": 3,
+    "second_run_additional_calls": 0,
+    "records": 3,
+    "versions": [
+      "v2",
+      "v2",
+      "v2"
+    ],
+    "reference_ids": [
+      "main_cohort_excel/loo:C1",
+      "main_cohort_excel/loo:C1",
+      "main_cohort_excel/loo:C1"
+    ],
+    "reference_members": [
+      [
+        "C0",
+        "C2"
+      ],
+      [
+        "C0",
+        "C2"
+      ]
+    ],
+    "subjects": [
+      "C1",
+      "C1",
+      "C1"
+    ],
+    "manifest_tasks": 3,
+    "packaging": {
+      "success": true,
+      "packet_items": 3,
+      "key_rows": 3,
+      "id_match": true,
+      "manifest_is_metadata": true
+    }
+  }
+}

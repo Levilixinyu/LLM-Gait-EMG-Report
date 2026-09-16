@@ -1,0 +1,77 @@
+{
+  "superseded_in_blinding": {
+    "expected_current_reports": 1,
+    "actual_packet_entries": 2,
+    "texts": [
+      "OLD_INVALID_TRUNCATED",
+      "NEW_VALID"
+    ]
+  },
+  "same_second_archive_collision": {
+    "writes": 3,
+    "preserved_files": 2,
+    "texts": [
+      "SECOND",
+      "THIRD"
+    ]
+  },
+  "non_object_json_validation": {
+    "exception": "AttributeError"
+  },
+  "normalized_reference_mislabel": {
+    "actual_n": 3,
+    "actual_points": 101,
+    "source_label": "main_cohort_excel",
+    "claims_138": true,
+    "claims_1001": true
+  },
+  "raw_reference_fixed": {
+    "source_label": "unspecified_raw",
+    "claims_138": false,
+    "claims_1001": false
+  },
+  "partial_nan_fixed": {
+    "cci": {},
+    "quality_warning": true,
+    "strict_json_ok": true
+  },
+  "openai_ids": {
+    "response_model": "M",
+    "request_id": "chatcmpl-RESPONSE",
+    "usage": null
+  },
+  "interval_false_positive_fixed": true,
+  "real_curves": {
+    "n": 238,
+    "strict_json_failures": [],
+    "examples": {
+      "Sub05": [
+        "- GAS: activation interval(s) 92%-88% (wraps cycle boundary), 97% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.39, max |z| vs healthy reference: 13.3 (above reference, at 80% of cycle)",
+        "- TA: activation interval(s) 39%-42%; 43%-77%; 83%-96%, 53% of cycle above threshold, peak normalized amplitude 0.24, max |z| vs healthy reference: 4.6 (below reference, at 0% of cycle)"
+      ],
+      "Sub08": [
+        "No valid EMG data available for this trial (the per-subject reason -- electrode issue vs. analog signals not captured -- is not recorded in the public data)."
+      ],
+      "Sub46": [
+        "- Channels with NO usable data for this trial (the per-subject reason -- electrode issue vs. analog signals not captured -- is not recorded in the public data): GAS, RF, VL, BF, ST, TA"
+      ],
+      "Sub47": [
+        "No valid EMG data available for this trial (the source study documents that no analog (EMG) signals were captured for this participant)."
+      ],
+      "Sub48": [
+        "No valid EMG data available for this trial (the per-subject reason -- electrode issue vs. analog signals not captured -- is not recorded in the public data)."
+      ],
+      "Sub50": [
+        "- GAS: activation interval(s) 7%-54%, 49% of cycle above threshold, peak normalized amplitude 0.71, max |z| vs healthy reference: 2.3 (above reference, at 44% of cycle)",
+        "- TA: activation interval(s) 57%-7% (wraps cycle boundary), 54% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.85, max |z| vs healthy reference: 4.1 (above reference, at 89% of cycle)"
+      ]
+    }
+  },
+  "loo_reference_text": {
+    "actual_kinematic_n": 137,
+    "source_label": "main_cohort_excel",
+    "claims_138": true,
+    "mentions_LOO_method_as_actual_reference": false,
+    "gps": 7.241702477418558
+  }
+}

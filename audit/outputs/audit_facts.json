@@ -1,0 +1,21 @@
+{
+  "n_controls": 138,
+  "n_stroke_sides": 100,
+  "all_excel_mat_curves_match": true,
+  "compared_curves": 1100,
+  "partial_nan_curves": 0,
+  "infinite_values": 0,
+  "pilot_reproduced": true,
+  "all_valid_emg_curves": 1367,
+  "all_multiple_bursts": 1125,
+  "all_boundary_active": 1068,
+  "all_threshold_semantics_changed": 1333,
+  "pilot_valid_emg_curves": 113,
+  "pilot_multiple_bursts": 92,
+  "pilot_boundary_active": 79,
+  "pilot_threshold_semantics_changed": 110,
+  "control_valid_emg_curves": 753,
+  "control_multiple_bursts": 637,
+  "control_boundary_active": 614,
+  "control_threshold_semantics_changed": 749
+}

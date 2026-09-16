@@ -1,0 +1,5 @@
+Snapshot: /private/tmp/gait-readiness
+Python: /Users/lixinyu/.venvs/gait-emg/bin/python
+pytest -q: 45 passed in 2.12s
+pip check: No broken requirements found.
+46 locked distributions match installed versions.

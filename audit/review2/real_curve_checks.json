@@ -1,0 +1,121 @@
+{
+  "n_summaries": 238,
+  "strict_json_failures": [],
+  "target_cases": {
+    "Sub05": {
+      "muscles": [
+        "GAS",
+        "RF",
+        "VL",
+        "BF",
+        "ST",
+        "TA",
+        "ERS"
+      ],
+      "lines": [
+        "- GAS: activation interval(s) 92%-88% (wraps cycle boundary), 97% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.39, max |z| vs healthy reference: 13.3 (above reference, at 80% of cycle)",
+        "- TA: activation interval(s) 39%-42%; 43%-77%; 83%-96%, 53% of cycle above threshold, peak normalized amplitude 0.24, max |z| vs healthy reference: 4.6 (below reference, at 0% of cycle)",
+        "- ERS: activation interval(s) 0%-100%, 100% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.35, max |z| vs healthy reference: 2.5 (below reference, at 2% of cycle)"
+      ]
+    },
+    "Sub46": {
+      "muscles": [
+        "ERS"
+      ],
+      "lines": [
+        "- ERS: activation interval(s) 0%-100%, 100% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.51, max |z| vs healthy reference: 5.1 (above reference, at 83% of cycle)"
+      ]
+    },
+    "Sub47": {
+      "muscles": [],
+      "lines": [
+        "No valid EMG data available for this trial (all channels missing in the source release; the per-subject reason -- electrode issue vs. analog signals not captured -- is not recorded in the public data)."
+      ]
+    },
+    "Sub50": {
+      "muscles": [
+        "GAS",
+        "RF",
+        "VL",
+        "BF",
+        "ST",
+        "TA",
+        "ERS"
+      ],
+      "lines": [
+        "- GAS: activation interval(s) 7%-54%, 49% of cycle above threshold, peak normalized amplitude 0.71, max |z| vs healthy reference: 2.3 (above reference, at 44% of cycle)",
+        "- TA: activation interval(s) 57%-7% (wraps cycle boundary), 54% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.85, max |z| vs healthy reference: 4.1 (above reference, at 89% of cycle)",
+        "- ERS: activation interval(s) 29%-37%; 45%-76%; 80%-93%; 94%-25% (wraps cycle boundary), 82% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.48, max |z| vs healthy reference: 2.0 (above reference, at 60% of cycle)"
+      ]
+    }
+  },
+  "threshold_counts": {
+    "ERS_controls": {
+      "n": 106,
+      "relative": 37,
+      "fixed": 3
+    },
+    "ERS_stroke_P": {
+      "n": 46,
+      "relative": 32,
+      "fixed": 12
+    },
+    "GAS_controls": {
+      "n": 109,
+      "relative": 0,
+      "fixed": 0
+    },
+    "GAS_stroke_P": {
+      "n": 43,
+      "relative": 9,
+      "fixed": 1
+    },
+    "BF_controls": {
+      "n": 106,
+      "relative": 7,
+      "fixed": 3
+    },
+    "BF_stroke_P": {
+      "n": 43,
+      "relative": 15,
+      "fixed": 2
+    }
+  },
+  "calibration": {
+    "GAS": {
+      "n": 109,
+      "p95": 3.9355674306772244,
+      "loo_p95": 4.275149872659757
+    },
+    "RF": {
+      "n": 108,
+      "p95": 4.526737825169446,
+      "loo_p95": 5.05970668265307
+    },
+    "VL": {
+      "n": 109,
+      "p95": 3.999851925433599,
+      "loo_p95": 4.3537215251055335
+    },
+    "BF": {
+      "n": 106,
+      "p95": 4.126978126943426,
+      "loo_p95": 4.532082846403958
+    },
+    "ST": {
+      "n": 108,
+      "p95": 3.9118837828448756,
+      "loo_p95": 4.245853090710924
+    },
+    "TA": {
+      "n": 107,
+      "p95": 4.605011746790983,
+      "loo_p95": 5.173753002473576
+    },
+    "ERS": {
+      "n": 106,
+      "p95": 3.645576776436636,
+      "loo_p95": 3.9193803074421316
+    }
+  }
+}

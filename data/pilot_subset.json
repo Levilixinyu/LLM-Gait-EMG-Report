@@ -1,0 +1,128 @@
+[
+  {
+    "subject_id": "Sub05",
+    "side": "P",
+    "gait_speed_m_s": 0.13652392448613712,
+    "category": "household ambulator (<0.4 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub20",
+    "side": "P",
+    "gait_speed_m_s": 0.17485281946278877,
+    "category": "household ambulator (<0.4 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub11",
+    "side": "P",
+    "gait_speed_m_s": 0.24506380106103415,
+    "category": "household ambulator (<0.4 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub42",
+    "side": "P",
+    "gait_speed_m_s": 0.24611733196331181,
+    "category": "household ambulator (<0.4 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub46",
+    "side": "P",
+    "gait_speed_m_s": 0.3247954533891876,
+    "category": "household ambulator (<0.4 m/s)",
+    "n_valid_muscles": 1
+  },
+  {
+    "subject_id": "Sub31",
+    "side": "P",
+    "gait_speed_m_s": 0.3314208805854404,
+    "category": "household ambulator (<0.4 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub32",
+    "side": "P",
+    "gait_speed_m_s": 0.5187942579785095,
+    "category": "limited community ambulator (0.4-0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub47",
+    "side": "P",
+    "gait_speed_m_s": 0.5356677671048049,
+    "category": "limited community ambulator (0.4-0.8 m/s)",
+    "n_valid_muscles": 0
+  },
+  {
+    "subject_id": "Sub09",
+    "side": "P",
+    "gait_speed_m_s": 0.6235970672577247,
+    "category": "limited community ambulator (0.4-0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub14",
+    "side": "P",
+    "gait_speed_m_s": 0.6328916219674218,
+    "category": "limited community ambulator (0.4-0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub23",
+    "side": "P",
+    "gait_speed_m_s": 0.6415554653481229,
+    "category": "limited community ambulator (0.4-0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub04",
+    "side": "P",
+    "gait_speed_m_s": 0.6500568652449586,
+    "category": "limited community ambulator (0.4-0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub50",
+    "side": "P",
+    "gait_speed_m_s": 0.825841714179837,
+    "category": "full community ambulator (>0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub06",
+    "side": "P",
+    "gait_speed_m_s": 0.856862564901715,
+    "category": "full community ambulator (>0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub12",
+    "side": "P",
+    "gait_speed_m_s": 0.8610525908727853,
+    "category": "full community ambulator (>0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub17",
+    "side": "P",
+    "gait_speed_m_s": 0.905878107959111,
+    "category": "full community ambulator (>0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub39",
+    "side": "P",
+    "gait_speed_m_s": 1.120074162184869,
+    "category": "full community ambulator (>0.8 m/s)",
+    "n_valid_muscles": 7
+  },
+  {
+    "subject_id": "Sub44",
+    "side": "P",
+    "gait_speed_m_s": 1.165604789096947,
+    "category": "full community ambulator (>0.8 m/s)",
+    "n_valid_muscles": 7
+  }
+]

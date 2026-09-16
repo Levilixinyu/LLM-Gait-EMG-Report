@@ -1,0 +1,99 @@
+{
+  "report_count": 66,
+  "report_keys": [
+    "_cohort",
+    "_file",
+    "generated_at",
+    "model",
+    "prompt_version",
+    "provider",
+    "report_text",
+    "stop_reason",
+    "subject_id",
+    "truncated"
+  ],
+  "empty_reports": [],
+  "truncated_reports": [],
+  "stop_reasons": {
+    "('anthropic', 'end_turn')": 22,
+    "('gemini', 'STOP')": 22,
+    "('openai', 'stop')": 22
+  },
+  "length_by_provider": {
+    "anthropic": {
+      "n": 22,
+      "median_chars": 9976.5,
+      "min_chars": 6371,
+      "max_chars": 12728
+    },
+    "openai": {
+      "n": 22,
+      "median_chars": 3943.5,
+      "min_chars": 2562,
+      "max_chars": 5053
+    },
+    "gemini": {
+      "n": 22,
+      "median_chars": 4733.5,
+      "min_chars": 2667,
+      "max_chars": 5927
+    }
+  },
+  "packets": {
+    "n_entries": 54,
+    "n_answer_key_rows": 54,
+    "text_mismatches": [],
+    "packet_entry_keys": [
+      "anon_id",
+      "report_text"
+    ]
+  },
+  "identity_tokens_in_reports": [],
+  "blinding_redaction_examples": {
+    "claude-opus-5": "[model]-[model]-5",
+    "gpt-6-astra": "[model]-6-[model]",
+    "gemini-3.1-pro-preview": "[model]-3.1-pro-preview"
+  },
+  "same_seed_different_directory_order": {
+    "forward": [
+      "openai",
+      "anthropic",
+      "gemini"
+    ],
+    "reverse": [
+      "openai",
+      "anthropic",
+      "gemini"
+    ]
+  },
+  "raw_path_amplitude_scale_test": [
+    {
+      "muscle": "tibialis_anterior",
+      "original_z": 370.57722300107093,
+      "tenfold_amplitude_z": 967.7165404117897,
+      "original_peak_normalized": 1.0,
+      "scaled_peak_normalized": 1.0
+    },
+    {
+      "muscle": "gastrocnemius_medialis",
+      "original_z": 507.72241519553916,
+      "tenfold_amplitude_z": 1251.7455633280376,
+      "original_peak_normalized": 1.0,
+      "scaled_peak_normalized": 1.0
+    },
+    {
+      "muscle": "rectus_femoris",
+      "original_z": 881.2504906931196,
+      "tenfold_amplitude_z": 2415.8356420933355,
+      "original_peak_normalized": 1.0,
+      "scaled_peak_normalized": 1.0
+    },
+    {
+      "muscle": "biceps_femoris",
+      "original_z": 1016.060751695464,
+      "tenfold_amplitude_z": 1753.9895429234152,
+      "original_peak_normalized": 1.0,
+      "scaled_peak_normalized": 1.0
+    }
+  ]
+}

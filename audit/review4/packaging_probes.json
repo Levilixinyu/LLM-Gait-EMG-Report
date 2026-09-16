@@ -1,0 +1,16 @@
+{
+  "non_success_stop": {
+    "packaged": true,
+    "items": 3
+  },
+  "malformed_archive": {
+    "packaged": false,
+    "exception": "JSONDecodeError",
+    "message": "Expecting property name enclosed in double quotes: line 1 column 2 (char 1)"
+  },
+  "mixed_input": {
+    "packaged": true,
+    "items": 3
+  },
+  "stale_output_packet_remains": true
+}

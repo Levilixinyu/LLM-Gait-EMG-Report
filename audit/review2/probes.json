@@ -1,0 +1,91 @@
+{
+  "partial_nan": {
+    "profile": {
+      "intervals": [
+        [
+          10.0,
+          19.9
+        ],
+        [
+          22.0,
+          39.9
+        ]
+      ],
+      "above_threshold_pct": 27.972027972027973,
+      "crosses_cycle_boundary": false,
+      "threshold_value": 0.2,
+      "threshold_frac_of_peak": 0.2,
+      "peak_value": 1.0,
+      "peak_pct": 10.0
+    },
+    "cci": {
+      "TA_vs_GAS": "NaN"
+    },
+    "missing_warning_in_text": false,
+    "strict_json_ok": false
+  },
+  "raw_scaling": [
+    {
+      "muscle": "tibialis_anterior",
+      "z1": 233.0955637470206,
+      "z10": 233.09556375166946,
+      "relative_difference": 1.994398208044967e-11
+    },
+    {
+      "muscle": "gastrocnemius_medialis",
+      "z1": 329.41486006617737,
+      "z10": 329.41486006759357,
+      "relative_difference": 4.299128877226929e-12
+    },
+    {
+      "muscle": "rectus_femoris",
+      "z1": 552.3447848104812,
+      "z10": 552.3447848012371,
+      "relative_difference": 1.673611194136983e-11
+    },
+    {
+      "muscle": "biceps_femoris",
+      "z1": 605.6559019738561,
+      "z10": 605.6559019806926,
+      "relative_difference": 1.1287858277462123e-11
+    }
+  ],
+  "raw_prompt_reference_mismatch": {
+    "actual_reference_subjects": 5,
+    "actual_reference_points": 101,
+    "actual_joint_count": 3,
+    "says_138": true,
+    "says_1001": true,
+    "says_four": true
+  },
+  "cache_validation": {
+    "wrong_subject_and_input": true,
+    "missing_status_whitespace": true,
+    "hash_unchanged_when_src/llm/providers.py": true,
+    "hash_unchanged_when_src/features/kinematic.py": true,
+    "hash_unchanged_when_src/features/spatiotemporal.py": true
+  },
+  "acceptance_false_positive": {
+    "intervals": [
+      [
+        95,
+        5
+      ]
+    ],
+    "expected": [
+      74,
+      87
+    ],
+    "reported_hit": true,
+    "actual_overlap": false
+  },
+  "min_duration_boundary": {
+    "configured_min_pct": 3,
+    "intervals": [
+      [
+        10.0,
+        12.9
+      ]
+    ]
+  }
+}

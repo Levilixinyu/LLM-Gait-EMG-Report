@@ -1,0 +1,3 @@
+Command: /Users/lixinyu/.venvs/gait-emg/bin/python -m pytest -q
+Working directory: /private/tmp/gait-review6
+45 passed in 1.46s

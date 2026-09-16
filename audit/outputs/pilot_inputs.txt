@@ -1,0 +1,429 @@
+Subject: Sub04_P (group: stroke, affected side: paretic)
+Gait speed: 0.65 m/s (limited community ambulator (0.4-0.8 m/s))
+Cadence: 81.3 steps/min
+Step length symmetry index: 0.1%
+Composite kinematic deviation score (GPS-like): 14.65
+
+Muscle activation findings:
+- GAS: onset 1%, offset 62% of gait cycle, peak normalized amplitude 0.66, deviation from normative: 15.9 SD
+- RF: onset 0%, offset 37% of gait cycle, peak normalized amplitude 0.62, deviation from normative: 4.1 SD
+- VL: onset 0%, offset 32% of gait cycle, peak normalized amplitude 0.58, deviation from normative: 3.3 SD
+- BF: onset 0%, offset 36% of gait cycle, peak normalized amplitude 0.69, deviation from normative: 4.1 SD
+- ST: onset 0%, offset 15% of gait cycle, peak normalized amplitude 0.54, deviation from normative: 4.3 SD
+- TA: onset 0%, offset 31% of gait cycle, peak normalized amplitude 0.71, deviation from normative: 2.6 SD
+- ERS: onset 0%, offset 100% of gait cycle, peak normalized amplitude 0.69, deviation from normative: 5.6 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.58
+- RF_vs_BF: CCI = 0.88
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 15.2 deg, Gait Variable Score 8.19
+- KneeAngles: range of motion 43.0 deg, Gait Variable Score 14.82
+- HipAngles: range of motion 40.9 deg, Gait Variable Score 22.52
+- PelvisAngles: range of motion 2.5 deg, Gait Variable Score 8.04
+
+Subject: Sub05_P (group: stroke, affected side: paretic)
+Gait speed: 0.14 m/s (household ambulator (<0.4 m/s))
+Cadence: 45.1 steps/min
+Step length symmetry index: -23.1%
+Composite kinematic deviation score (GPS-like): 14.22
+
+Muscle activation findings:
+- GAS: onset 25%, offset 38% of gait cycle, peak normalized amplitude 0.39, deviation from normative: 13.3 SD
+- RF: onset 19%, offset 45% of gait cycle, peak normalized amplitude 0.41, deviation from normative: 3.3 SD
+- VL: onset 21%, offset 40% of gait cycle, peak normalized amplitude 0.47, deviation from normative: 5.3 SD
+- BF: onset 1%, offset 43% of gait cycle, peak normalized amplitude 0.42, deviation from normative: 3.4 SD
+- ST: onset 1%, offset 8% of gait cycle, peak normalized amplitude 0.50, deviation from normative: 7.0 SD
+- TA: onset not detected, offset not detected of gait cycle, peak normalized amplitude 0.24, deviation from normative: 4.6 SD
+- ERS: onset 4%, offset 10% of gait cycle, peak normalized amplitude 0.35, deviation from normative: 2.5 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.50
+- RF_vs_BF: CCI = 0.81
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 13.4 deg, Gait Variable Score 12.53
+- KneeAngles: range of motion 43.2 deg, Gait Variable Score 22.24
+- HipAngles: range of motion 25.7 deg, Gait Variable Score 12.32
+- PelvisAngles: range of motion 4.8 deg, Gait Variable Score 2.33
+
+Subject: Sub06_P (group: stroke, affected side: paretic)
+Gait speed: 0.86 m/s (full community ambulator (>0.8 m/s))
+Cadence: 99.9 steps/min
+Step length symmetry index: -2.7%
+Composite kinematic deviation score (GPS-like): 3.79
+
+Muscle activation findings:
+- GAS: onset 4%, offset 49% of gait cycle, peak normalized amplitude 0.60, deviation from normative: 3.3 SD
+- RF: onset 0%, offset 52% of gait cycle, peak normalized amplitude 0.68, deviation from normative: 7.3 SD
+- VL: onset 0%, offset 49% of gait cycle, peak normalized amplitude 0.69, deviation from normative: 6.2 SD
+- BF: onset 0%, offset 6% of gait cycle, peak normalized amplitude 0.64, deviation from normative: 1.7 SD
+- ST: onset 0%, offset 64% of gait cycle, peak normalized amplitude 0.74, deviation from normative: 8.0 SD
+- TA: onset 0%, offset 20% of gait cycle, peak normalized amplitude 0.74, deviation from normative: 1.8 SD
+- ERS: onset 12%, offset 34% of gait cycle, peak normalized amplitude 0.70, deviation from normative: 6.2 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.44
+- RF_vs_BF: CCI = 0.64
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 19.9 deg, Gait Variable Score 3.45
+- KneeAngles: range of motion 57.8 deg, Gait Variable Score 5.17
+- HipAngles: range of motion 47.8 deg, Gait Variable Score 3.82
+- PelvisAngles: range of motion 4.6 deg, Gait Variable Score 2.03
+
+Subject: Sub09_P (group: stroke, affected side: paretic)
+Gait speed: 0.62 m/s (limited community ambulator (0.4-0.8 m/s))
+Cadence: 79.0 steps/min
+Step length symmetry index: -9.9%
+Composite kinematic deviation score (GPS-like): 8.04
+
+Muscle activation findings:
+- GAS: onset 25%, offset 54% of gait cycle, peak normalized amplitude 0.59, deviation from normative: 3.1 SD
+- RF: onset 0%, offset 36% of gait cycle, peak normalized amplitude 0.54, deviation from normative: 3.5 SD
+- VL: onset 0%, offset 28% of gait cycle, peak normalized amplitude 0.51, deviation from normative: 4.2 SD
+- BF: onset 0%, offset 16% of gait cycle, peak normalized amplitude 0.50, deviation from normative: 2.6 SD
+- ST: onset 0%, offset 40% of gait cycle, peak normalized amplitude 0.67, deviation from normative: 4.2 SD
+- TA: onset 0%, offset 11% of gait cycle, peak normalized amplitude 0.65, deviation from normative: 2.1 SD
+- ERS: onset 0%, offset 100% of gait cycle, peak normalized amplitude 0.62, deviation from normative: 6.2 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.38
+- RF_vs_BF: CCI = 0.82
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 19.5 deg, Gait Variable Score 3.80
+- KneeAngles: range of motion 51.5 deg, Gait Variable Score 9.22
+- HipAngles: range of motion 47.0 deg, Gait Variable Score 11.70
+- PelvisAngles: range of motion 3.5 deg, Gait Variable Score 4.69
+
+Subject: Sub11_P (group: stroke, affected side: paretic)
+Gait speed: 0.25 m/s (household ambulator (<0.4 m/s))
+Cadence: 59.5 steps/min
+Step length symmetry index: 56.9%
+Composite kinematic deviation score (GPS-like): 13.58
+
+Muscle activation findings:
+- GAS: onset 57%, offset 76% of gait cycle, peak normalized amplitude 0.39, deviation from normative: 9.8 SD
+- RF: onset 75%, offset 85% of gait cycle, peak normalized amplitude 0.49, deviation from normative: 9.1 SD
+- VL: onset 93%, offset 100% of gait cycle, peak normalized amplitude 0.25, deviation from normative: 4.7 SD
+- BF: onset 0%, offset 33% of gait cycle, peak normalized amplitude 0.40, deviation from normative: 3.1 SD
+- ST: onset 0%, offset 42% of gait cycle, peak normalized amplitude 0.38, deviation from normative: 4.6 SD
+- TA: onset 79%, offset 85% of gait cycle, peak normalized amplitude 0.41, deviation from normative: 3.7 SD
+- ERS: onset 0%, offset 17% of gait cycle, peak normalized amplitude 0.50, deviation from normative: 4.5 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.57
+- RF_vs_BF: CCI = 0.54
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 20.1 deg, Gait Variable Score 9.59
+- KneeAngles: range of motion 55.2 deg, Gait Variable Score 23.91
+- HipAngles: range of motion 41.3 deg, Gait Variable Score 8.23
+- PelvisAngles: range of motion 3.7 deg, Gait Variable Score 2.55
+
+Subject: Sub12_P (group: stroke, affected side: paretic)
+Gait speed: 0.86 m/s (full community ambulator (>0.8 m/s))
+Cadence: 95.9 steps/min
+Step length symmetry index: -6.4%
+Composite kinematic deviation score (GPS-like): 5.83
+
+Muscle activation findings:
+- GAS: onset 57%, offset 61% of gait cycle, peak normalized amplitude 0.35, deviation from normative: 12.2 SD
+- RF: onset 25%, offset 44% of gait cycle, peak normalized amplitude 0.65, deviation from normative: 6.8 SD
+- VL: onset 0%, offset 22% of gait cycle, peak normalized amplitude 0.79, deviation from normative: 8.3 SD
+- BF: onset 0%, offset 12% of gait cycle, peak normalized amplitude 0.77, deviation from normative: 2.8 SD
+- ST: onset 0%, offset 30% of gait cycle, peak normalized amplitude 0.60, deviation from normative: 2.4 SD
+- TA: onset 0%, offset 26% of gait cycle, peak normalized amplitude 0.86, deviation from normative: 3.2 SD
+- ERS: onset 0%, offset 17% of gait cycle, peak normalized amplitude 0.85, deviation from normative: 5.0 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.29
+- RF_vs_BF: CCI = 0.40
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 15.1 deg, Gait Variable Score 5.76
+- KneeAngles: range of motion 49.1 deg, Gait Variable Score 8.55
+- HipAngles: range of motion 48.0 deg, Gait Variable Score 5.33
+- PelvisAngles: range of motion 3.3 deg, Gait Variable Score 1.10
+
+Subject: Sub14_P (group: stroke, affected side: paretic)
+Gait speed: 0.63 m/s (limited community ambulator (0.4-0.8 m/s))
+Cadence: 105.6 steps/min
+Step length symmetry index: 21.0%
+Composite kinematic deviation score (GPS-like): 6.51
+
+Muscle activation findings:
+- GAS: onset 64%, offset 69% of gait cycle, peak normalized amplitude 0.26, deviation from normative: 5.7 SD
+- RF: onset 0%, offset 44% of gait cycle, peak normalized amplitude 0.70, deviation from normative: 7.5 SD
+- VL: onset 0%, offset 39% of gait cycle, peak normalized amplitude 0.50, deviation from normative: 5.6 SD
+- BF: onset 0%, offset 27% of gait cycle, peak normalized amplitude 0.56, deviation from normative: 2.6 SD
+- ST: onset 0%, offset 19% of gait cycle, peak normalized amplitude 0.62, deviation from normative: 4.5 SD
+- TA: onset 0%, offset 37% of gait cycle, peak normalized amplitude 0.53, deviation from normative: 4.0 SD
+- ERS: onset 0%, offset 100% of gait cycle, peak normalized amplitude 0.57, deviation from normative: 5.9 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.23
+- RF_vs_BF: CCI = 0.70
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 14.8 deg, Gait Variable Score 7.26
+- KneeAngles: range of motion 58.0 deg, Gait Variable Score 5.56
+- HipAngles: range of motion 35.7 deg, Gait Variable Score 9.23
+- PelvisAngles: range of motion 3.0 deg, Gait Variable Score 0.77
+
+Subject: Sub17_P (group: stroke, affected side: paretic)
+Gait speed: 0.91 m/s (full community ambulator (>0.8 m/s))
+Cadence: 104.4 steps/min
+Step length symmetry index: 4.6%
+Composite kinematic deviation score (GPS-like): 6.03
+
+Muscle activation findings:
+- GAS: onset 0%, offset 23% of gait cycle, peak normalized amplitude 0.82, deviation from normative: 10.4 SD
+- RF: onset 0%, offset 17% of gait cycle, peak normalized amplitude 0.59, deviation from normative: 3.5 SD
+- VL: onset 0%, offset 32% of gait cycle, peak normalized amplitude 0.72, deviation from normative: 4.5 SD
+- BF: onset 0%, offset 38% of gait cycle, peak normalized amplitude 0.60, deviation from normative: 4.2 SD
+- ST: onset 0%, offset 42% of gait cycle, peak normalized amplitude 0.89, deviation from normative: 7.0 SD
+- TA: onset 0%, offset 18% of gait cycle, peak normalized amplitude 0.65, deviation from normative: 1.9 SD
+- ERS: onset 0%, offset 25% of gait cycle, peak normalized amplitude 0.58, deviation from normative: 4.6 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.76
+- RF_vs_BF: CCI = 0.78
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 33.2 deg, Gait Variable Score 3.93
+- KneeAngles: range of motion 45.7 deg, Gait Variable Score 9.41
+- HipAngles: range of motion 39.5 deg, Gait Variable Score 4.25
+- PelvisAngles: range of motion 3.9 deg, Gait Variable Score 4.84
+
+Subject: Sub20_P (group: stroke, affected side: paretic)
+Gait speed: 0.17 m/s (household ambulator (<0.4 m/s))
+Cadence: 63.7 steps/min
+Step length symmetry index: -11.9%
+Composite kinematic deviation score (GPS-like): 14.91
+
+Muscle activation findings:
+- GAS: onset 36%, offset 39% of gait cycle, peak normalized amplitude 0.28, deviation from normative: 5.0 SD
+- RF: onset 0%, offset 3% of gait cycle, peak normalized amplitude 0.42, deviation from normative: 7.3 SD
+- VL: onset 0%, offset 60% of gait cycle, peak normalized amplitude 0.53, deviation from normative: 5.0 SD
+- BF: onset 3%, offset 79% of gait cycle, peak normalized amplitude 0.51, deviation from normative: 5.8 SD
+- ST: onset 2%, offset 11% of gait cycle, peak normalized amplitude 0.50, deviation from normative: 5.4 SD
+- TA: onset 0%, offset 3% of gait cycle, peak normalized amplitude 0.54, deviation from normative: 3.7 SD
+- ERS: onset 1%, offset 6% of gait cycle, peak normalized amplitude 0.47, deviation from normative: 3.7 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.59
+- RF_vs_BF: CCI = 0.77
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 15.7 deg, Gait Variable Score 17.11
+- KneeAngles: range of motion 38.4 deg, Gait Variable Score 20.47
+- HipAngles: range of motion 24.4 deg, Gait Variable Score 13.25
+- PelvisAngles: range of motion 4.1 deg, Gait Variable Score 1.39
+
+Subject: Sub23_P (group: stroke, affected side: paretic)
+Gait speed: 0.64 m/s (limited community ambulator (0.4-0.8 m/s))
+Cadence: 84.8 steps/min
+Step length symmetry index: -2.8%
+Composite kinematic deviation score (GPS-like): 6.15
+
+Muscle activation findings:
+- GAS: onset 8%, offset 11% of gait cycle, peak normalized amplitude 0.34, deviation from normative: 4.1 SD
+- RF: onset 0%, offset 45% of gait cycle, peak normalized amplitude 0.60, deviation from normative: 3.7 SD
+- VL: onset 0%, offset 31% of gait cycle, peak normalized amplitude 0.70, deviation from normative: 3.1 SD
+- BF: onset 0%, offset 6% of gait cycle, peak normalized amplitude 0.61, deviation from normative: 6.6 SD
+- ST: onset 0%, offset 23% of gait cycle, peak normalized amplitude 0.81, deviation from normative: 3.8 SD
+- TA: onset 0%, offset 13% of gait cycle, peak normalized amplitude 0.68, deviation from normative: 3.1 SD
+- ERS: onset 0%, offset 7% of gait cycle, peak normalized amplitude 0.69, deviation from normative: 6.4 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.40
+- RF_vs_BF: CCI = 0.56
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 23.7 deg, Gait Variable Score 6.73
+- KneeAngles: range of motion 42.9 deg, Gait Variable Score 9.57
+- HipAngles: range of motion 39.8 deg, Gait Variable Score 2.38
+- PelvisAngles: range of motion 5.2 deg, Gait Variable Score 2.93
+
+Subject: Sub31_P (group: stroke, affected side: paretic)
+Gait speed: 0.33 m/s (household ambulator (<0.4 m/s))
+Cadence: 70.5 steps/min
+Step length symmetry index: -64.2%
+Composite kinematic deviation score (GPS-like): 14.37
+
+Muscle activation findings:
+- GAS: onset 9%, offset 24% of gait cycle, peak normalized amplitude 0.51, deviation from normative: 15.2 SD
+- RF: onset 24%, offset 57% of gait cycle, peak normalized amplitude 0.45, deviation from normative: 7.6 SD
+- VL: onset 0%, offset 5% of gait cycle, peak normalized amplitude 0.46, deviation from normative: 4.1 SD
+- BF: onset 10%, offset 35% of gait cycle, peak normalized amplitude 0.55, deviation from normative: 4.8 SD
+- ST: onset 2%, offset 32% of gait cycle, peak normalized amplitude 0.49, deviation from normative: 4.0 SD
+- TA: onset 19%, offset 24% of gait cycle, peak normalized amplitude 0.40, deviation from normative: 3.4 SD
+- ERS: onset 1%, offset 6% of gait cycle, peak normalized amplitude 0.58, deviation from normative: 7.5 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.65
+- RF_vs_BF: CCI = 0.63
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 30.3 deg, Gait Variable Score 14.23
+- KneeAngles: range of motion 51.5 deg, Gait Variable Score 21.64
+- HipAngles: range of motion 40.1 deg, Gait Variable Score 11.82
+- PelvisAngles: range of motion 11.5 deg, Gait Variable Score 3.98
+
+Subject: Sub32_P (group: stroke, affected side: paretic)
+Gait speed: 0.52 m/s (limited community ambulator (0.4-0.8 m/s))
+Cadence: 84.5 steps/min
+Step length symmetry index: -18.1%
+Composite kinematic deviation score (GPS-like): 8.39
+
+Muscle activation findings:
+- GAS: onset 94%, offset 100% of gait cycle, peak normalized amplitude 0.35, deviation from normative: 5.2 SD
+- RF: onset 0%, offset 14% of gait cycle, peak normalized amplitude 0.38, deviation from normative: 3.4 SD
+- VL: onset 0%, offset 48% of gait cycle, peak normalized amplitude 0.52, deviation from normative: 4.7 SD
+- BF: onset 3%, offset 11% of gait cycle, peak normalized amplitude 0.47, deviation from normative: 1.8 SD
+- ST: onset 0%, offset 16% of gait cycle, peak normalized amplitude 0.68, deviation from normative: 4.2 SD
+- TA: onset 0%, offset 5% of gait cycle, peak normalized amplitude 0.49, deviation from normative: 2.8 SD
+- ERS: onset 0%, offset 14% of gait cycle, peak normalized amplitude 0.62, deviation from normative: 7.6 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.68
+- RF_vs_BF: CCI = 0.71
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 18.8 deg, Gait Variable Score 9.91
+- KneeAngles: range of motion 46.2 deg, Gait Variable Score 11.45
+- HipAngles: range of motion 40.1 deg, Gait Variable Score 7.08
+- PelvisAngles: range of motion 5.3 deg, Gait Variable Score 1.50
+
+Subject: Sub39_P (group: stroke, affected side: paretic)
+Gait speed: 1.12 m/s (full community ambulator (>0.8 m/s))
+Cadence: 95.8 steps/min
+Step length symmetry index: -1.6%
+Composite kinematic deviation score (GPS-like): 8.54
+
+Muscle activation findings:
+- GAS: onset 32%, offset 50% of gait cycle, peak normalized amplitude 0.72, deviation from normative: 2.3 SD
+- RF: onset 0%, offset 39% of gait cycle, peak normalized amplitude 0.73, deviation from normative: 7.9 SD
+- VL: onset 0%, offset 17% of gait cycle, peak normalized amplitude 0.53, deviation from normative: 2.7 SD
+- BF: onset 0%, offset 36% of gait cycle, peak normalized amplitude 0.64, deviation from normative: 9.0 SD
+- ST: onset 0%, offset 4% of gait cycle, peak normalized amplitude 0.77, deviation from normative: 2.7 SD
+- TA: onset 0%, offset 11% of gait cycle, peak normalized amplitude 0.75, deviation from normative: 3.7 SD
+- ERS: onset 0%, offset 15% of gait cycle, peak normalized amplitude 0.82, deviation from normative: 2.6 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.42
+- RF_vs_BF: CCI = 0.74
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 32.0 deg, Gait Variable Score 6.05
+- KneeAngles: range of motion 55.0 deg, Gait Variable Score 14.86
+- HipAngles: range of motion 45.1 deg, Gait Variable Score 2.99
+- PelvisAngles: range of motion 1.5 deg, Gait Variable Score 5.08
+
+Subject: Sub42_P (group: stroke, affected side: paretic)
+Gait speed: 0.25 m/s (household ambulator (<0.4 m/s))
+Cadence: 73.3 steps/min
+Step length symmetry index: 85.8%
+Composite kinematic deviation score (GPS-like): 10.92
+
+Muscle activation findings:
+- GAS: onset 1%, offset 61% of gait cycle, peak normalized amplitude 0.39, deviation from normative: 10.5 SD
+- RF: onset 0%, offset 59% of gait cycle, peak normalized amplitude 0.39, deviation from normative: 3.1 SD
+- VL: onset 0%, offset 37% of gait cycle, peak normalized amplitude 0.44, deviation from normative: 4.0 SD
+- BF: onset 0%, offset 32% of gait cycle, peak normalized amplitude 0.44, deviation from normative: 3.0 SD
+- ST: onset 0%, offset 45% of gait cycle, peak normalized amplitude 0.60, deviation from normative: 5.3 SD
+- TA: onset 63%, offset 81% of gait cycle, peak normalized amplitude 0.50, deviation from normative: 2.8 SD
+- ERS: onset 0%, offset 10% of gait cycle, peak normalized amplitude 0.44, deviation from normative: 2.9 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.53
+- RF_vs_BF: CCI = 0.77
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 9.4 deg, Gait Variable Score 7.48
+- KneeAngles: range of motion 32.4 deg, Gait Variable Score 14.31
+- HipAngles: range of motion 26.0 deg, Gait Variable Score 13.23
+- PelvisAngles: range of motion 3.9 deg, Gait Variable Score 6.42
+
+Subject: Sub44_P (group: stroke, affected side: paretic)
+Gait speed: 1.17 m/s (full community ambulator (>0.8 m/s))
+Cadence: 114.7 steps/min
+Step length symmetry index: -1.9%
+Composite kinematic deviation score (GPS-like): 6.70
+
+Muscle activation findings:
+- GAS: onset 32%, offset 54% of gait cycle, peak normalized amplitude 0.88, deviation from normative: 4.4 SD
+- RF: onset 0%, offset 29% of gait cycle, peak normalized amplitude 0.80, deviation from normative: 2.5 SD
+- VL: onset 0%, offset 28% of gait cycle, peak normalized amplitude 0.87, deviation from normative: 2.8 SD
+- BF: onset 0%, offset 25% of gait cycle, peak normalized amplitude 0.81, deviation from normative: 2.8 SD
+- ST: onset 0%, offset 16% of gait cycle, peak normalized amplitude 0.92, deviation from normative: 3.1 SD
+- TA: onset 0%, offset 8% of gait cycle, peak normalized amplitude 0.68, deviation from normative: 2.2 SD
+- ERS: onset 0%, offset 7% of gait cycle, peak normalized amplitude 0.69, deviation from normative: 4.2 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.43
+- RF_vs_BF: CCI = 0.80
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 23.5 deg, Gait Variable Score 5.50
+- KneeAngles: range of motion 59.7 deg, Gait Variable Score 11.10
+- HipAngles: range of motion 46.3 deg, Gait Variable Score 1.48
+- PelvisAngles: range of motion 2.9 deg, Gait Variable Score 4.89
+
+Subject: Sub46_P (group: stroke, affected side: paretic)
+Gait speed: 0.32 m/s (household ambulator (<0.4 m/s))
+Cadence: 89.7 steps/min
+Step length symmetry index: 41.9%
+Composite kinematic deviation score (GPS-like): 7.68
+
+Muscle activation findings:
+- ERS: onset 0%, offset 6% of gait cycle, peak normalized amplitude 0.51, deviation from normative: 5.1 SD
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 8.2 deg, Gait Variable Score 6.53
+- KneeAngles: range of motion 28.2 deg, Gait Variable Score 10.51
+- HipAngles: range of motion 23.5 deg, Gait Variable Score 9.01
+- PelvisAngles: range of motion 2.0 deg, Gait Variable Score 1.25
+
+Subject: Sub47_P (group: stroke, affected side: paretic)
+Gait speed: 0.54 m/s (limited community ambulator (0.4-0.8 m/s))
+Cadence: 98.1 steps/min
+Step length symmetry index: -15.4%
+Composite kinematic deviation score (GPS-like): 8.80
+
+Muscle activation findings:
+No valid EMG data available for this trial (all channels dropped for data-quality reasons).
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 18.0 deg, Gait Variable Score 7.62
+- KneeAngles: range of motion 35.7 deg, Gait Variable Score 9.46
+- HipAngles: range of motion 33.0 deg, Gait Variable Score 11.73
+- PelvisAngles: range of motion 3.8 deg, Gait Variable Score 5.01
+
+Subject: Sub50_P (group: stroke, affected side: paretic)
+Gait speed: 0.83 m/s (full community ambulator (>0.8 m/s))
+Cadence: 85.8 steps/min
+Step length symmetry index: -0.7%
+Composite kinematic deviation score (GPS-like): 6.86
+
+Muscle activation findings:
+- GAS: onset 16%, offset 53% of gait cycle, peak normalized amplitude 0.71, deviation from normative: 2.3 SD
+- RF: onset 0%, offset 25% of gait cycle, peak normalized amplitude 0.84, deviation from normative: 3.1 SD
+- VL: onset 0%, offset 24% of gait cycle, peak normalized amplitude 0.77, deviation from normative: 2.1 SD
+- BF: onset 0%, offset 18% of gait cycle, peak normalized amplitude 0.70, deviation from normative: 3.6 SD
+- ST: onset 0%, offset 14% of gait cycle, peak normalized amplitude 0.68, deviation from normative: 4.7 SD
+- TA: onset 0%, offset 7% of gait cycle, peak normalized amplitude 0.85, deviation from normative: 4.1 SD
+- ERS: onset 0%, offset 10% of gait cycle, peak normalized amplitude 0.48, deviation from normative: 2.0 SD
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.35
+- RF_vs_BF: CCI = 0.80
+
+Joint kinematic findings:
+- AnkleAngles: range of motion 25.9 deg, Gait Variable Score 2.78
+- KneeAngles: range of motion 52.8 deg, Gait Variable Score 7.75
+- HipAngles: range of motion 38.6 deg, Gait Variable Score 5.41
+- PelvisAngles: range of motion 3.8 deg, Gait Variable Score 9.56

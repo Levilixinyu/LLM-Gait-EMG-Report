@@ -1,0 +1,52 @@
+{
+  "checked": 113,
+  "archive_problems": [],
+  "live_v1_report_packet_changes": [],
+  "source_changed_files": [
+    {
+      "file": "src/features/emg_signal.py",
+      "status": "changed"
+    },
+    {
+      "file": "src/features/data_types.py",
+      "status": "changed"
+    },
+    {
+      "file": "src/features/pipeline.py",
+      "status": "changed"
+    },
+    {
+      "file": "src/features/mat_spatiotemporal.py",
+      "status": "changed"
+    },
+    {
+      "file": "src/eval/blinding.py",
+      "status": "changed"
+    },
+    {
+      "file": "scripts/generate_pilot_reports.py",
+      "status": "changed"
+    },
+    {
+      "file": "scripts/audit_fix_verification.py",
+      "status": "new"
+    },
+    {
+      "file": "tests/test_blinding.py",
+      "status": "new"
+    },
+    {
+      "file": "tests/test_emg_signal.py",
+      "status": "new"
+    },
+    {
+      "file": "README.md",
+      "status": "changed"
+    },
+    {
+      "file": "requirements.lock.txt",
+      "status": "new"
+    }
+  ],
+  "live_v1_checked_files": 86
+}

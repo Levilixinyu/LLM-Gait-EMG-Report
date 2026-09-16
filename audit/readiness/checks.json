@@ -1,0 +1,149 @@
+{
+  "verified_cache_hashes": {
+    "outputs/curves.npz": true,
+    "outputs/metadata.json": true,
+    "outputs/spatiotemporal_original.json": true
+  },
+  "summaries_strict_json": 238,
+  "channel_completeness": {
+    "control_avg": {
+      "7": 102,
+      "4": 1,
+      "6": 5,
+      "0": 29,
+      "5": 1
+    },
+    "stroke_P": {
+      "7": 43,
+      "0": 4,
+      "1": 3
+    },
+    "stroke_N": {
+      "7": 44,
+      "0": 4,
+      "1": 2
+    }
+  },
+  "pilot_n": 18,
+  "pilot_complete_n": 16,
+  "complete_paretic_outside_18_development": [
+    "Sub01",
+    "Sub02",
+    "Sub03",
+    "Sub07",
+    "Sub10",
+    "Sub13",
+    "Sub15",
+    "Sub16",
+    "Sub18",
+    "Sub19",
+    "Sub21",
+    "Sub22",
+    "Sub24",
+    "Sub25",
+    "Sub26",
+    "Sub27",
+    "Sub28",
+    "Sub29",
+    "Sub30",
+    "Sub33",
+    "Sub34",
+    "Sub35",
+    "Sub36",
+    "Sub38",
+    "Sub40",
+    "Sub41",
+    "Sub49"
+  ],
+  "complete_paretic_outside_18_development_n": 27,
+  "examples": {
+    "control_Sub49_avg": {
+      "speed": null,
+      "gps": 3.7509610619392806,
+      "reference": {
+        "source": "main_cohort_excel",
+        "method": "leave_one_out",
+        "excluded_subjects": [
+          "Sub49"
+        ],
+        "n_subjects": 137,
+        "n_points": 1001,
+        "calibration_family": "main_cohort_excel"
+      },
+      "assistance_mentioned": false
+    },
+    "stroke_Sub05_P": {
+      "speed": 0.13652392448613712,
+      "gps": 14.220513789149924,
+      "reference": {
+        "source": "main_cohort_excel",
+        "method": "pooled",
+        "excluded_subjects": [],
+        "n_subjects": 138,
+        "n_points": 1001,
+        "calibration_family": "main_cohort_excel"
+      },
+      "assistance_mentioned": false
+    },
+    "stroke_Sub09_P": {
+      "speed": 0.6235970672577247,
+      "gps": 8.035978732320679,
+      "reference": {
+        "source": "main_cohort_excel",
+        "method": "pooled",
+        "excluded_subjects": [],
+        "n_subjects": 138,
+        "n_points": 1001,
+        "calibration_family": "main_cohort_excel"
+      },
+      "assistance_mentioned": false
+    },
+    "stroke_Sub46_P": {
+      "speed": 0.3247954533891876,
+      "gps": 7.678595927677902,
+      "reference": {
+        "source": "main_cohort_excel",
+        "method": "pooled",
+        "excluded_subjects": [],
+        "n_subjects": 138,
+        "n_points": 1001,
+        "calibration_family": "main_cohort_excel"
+      },
+      "assistance_mentioned": false
+    },
+    "stroke_Sub47_P": {
+      "speed": 0.5356677671048049,
+      "gps": 8.803389961010705,
+      "reference": {
+        "source": "main_cohort_excel",
+        "method": "pooled",
+        "excluded_subjects": [],
+        "n_subjects": 138,
+        "n_points": 1001,
+        "calibration_family": "main_cohort_excel"
+      },
+      "assistance_mentioned": false
+    },
+    "stroke_Sub50_P": {
+      "speed": 0.825841714179837,
+      "gps": 6.8640108839530365,
+      "reference": {
+        "source": "main_cohort_excel",
+        "method": "pooled",
+        "excluded_subjects": [],
+        "n_subjects": 138,
+        "n_points": 1001,
+        "calibration_family": "main_cohort_excel"
+      },
+      "assistance_mentioned": false
+    }
+  },
+  "sdk_existing_artifact_all_pass": true,
+  "installed_lock_mismatches": [],
+  "report_counts": {
+    "reports": 54,
+    "reports_control_spotcheck": 12,
+    "reports_v2": 0,
+    "reports_control_spotcheck_v2": 0
+  }
+}

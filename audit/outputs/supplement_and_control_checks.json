@@ -1,0 +1,70 @@
+{
+  "control_ages_n": 138,
+  "max_speed_abs_error": 4.9713242829430015e-05,
+  "controls_with_emg": 109,
+  "controls_with_any_peak_z_over_2": 109,
+  "spotcheck": {
+    "Sub10": {
+      "age": 81,
+      "gps": 7.1892263725097285,
+      "gps_within_cohort_percentile": 81.15942028985508
+    },
+    "Sub49": {
+      "age": 60,
+      "gps": 3.7237801846788514,
+      "gps_within_cohort_percentile": 22.463768115942027
+    },
+    "Sub93": {
+      "age": 39,
+      "gps": 4.400584678369531,
+      "gps_within_cohort_percentile": 37.68115942028986
+    },
+    "Sub98": {
+      "age": 36,
+      "gps": 4.045725295721096,
+      "gps_within_cohort_percentile": 27.536231884057973
+    }
+  },
+  "Sub10_age_75plus_reference_sensitivity": {
+    "n_reference": 22,
+    "gvs": {
+      "AnkleAngles": 2.5116347583192042,
+      "KneeAngles": 6.543612617591975,
+      "HipAngles": 8.137182593968209,
+      "PelvisAngles": 5.583858480488701
+    },
+    "gps": 6.052280383169861
+  },
+  "readme_thresholds": {
+    "stroke_ERS": {
+      "n": 46,
+      "fixed_0_2": 12,
+      "relative_0_2_peak": 32
+    },
+    "control_ERS": {
+      "n": 106,
+      "fixed_0_2": 3,
+      "relative_0_2_peak": 37
+    },
+    "stroke_GAS": {
+      "n": 43,
+      "fixed_0_2": 1,
+      "relative_0_2_peak": 9
+    },
+    "control_GAS": {
+      "n": 109,
+      "fixed_0_2": 0,
+      "relative_0_2_peak": 0
+    },
+    "stroke_BF": {
+      "n": 43,
+      "fixed_0_2": 2,
+      "relative_0_2_peak": 15
+    },
+    "control_BF": {
+      "n": 106,
+      "fixed_0_2": 3,
+      "relative_0_2_peak": 7
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "results": {
+    "anthropic": {
+      "elapsed_s": 2.1,
+      "requested_model": "claude-opus-5",
+      "response_model": "claude-opus-5",
+      "request_id": "req_011Cf7pFuNwskGEUccHfYm4L",
+      "response_id": "msg_011Cf7pFunWkpWTWtT2ohyAs",
+      "stop_reason": "end_turn",
+      "usage": {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 0,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "inference_geo": "global",
+        "input_tokens": 22,
+        "output_tokens": 4,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        },
+        "server_tool_use": null,
+        "service_tier": "standard"
+      },
+      "text": "OK",
+      "checks": {
+        "text_non_blank": true,
+        "stop_reason_success": true,
+        "response_model_present": true,
+        "usage_present": true,
+        "some_id_present": true,
+        "record_strict_json": true
+      }
+    },
+    "openai": {
+      "elapsed_s": 2.0,
+      "requested_model": "gpt-6-astra",
+      "response_model": "gpt-6-astra",
+      "request_id": "req_cf9639e072cb47e2b41d882142b92148",
+      "response_id": "chatcmpl-EOrJd7wMtQ09OknJmoub3u1ji6AVX",
+      "stop_reason": "stop",
+      "usage": {
+        "completion_tokens": 4,
+        "prompt_tokens": 19,
+        "total_tokens": 23,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": 0,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": 0,
+          "text_tokens": null
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null
+        }
+      },
+      "text": "OK",
+      "checks": {
+        "text_non_blank": true,
+        "stop_reason_success": true,
+        "response_model_present": true,
+        "usage_present": true,
+        "some_id_present": true,
+        "record_strict_json": true
+      }
+    },
+    "gemini": {
+      "elapsed_s": 3.0,
+      "requested_model": "gemini-3.1-pro-preview",
+      "response_model": "gemini-3.1-pro-preview",
+      "request_id": null,
+      "response_id": "tgeravrPOfrVz7IPpP1A",
+      "stop_reason": "STOP",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 1,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 11,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 11
+          }
+        ],
+        "thoughts_token_count": 143,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 155,
+        "traffic_type": null
+      },
+      "text": "OK",
+      "checks": {
+        "text_non_blank": true,
+        "stop_reason_success": true,
+        "response_model_present": true,
+        "usage_present": true,
+        "some_id_present": true,
+        "record_strict_json": true
+      }
+    }
+  },
+  "failures": []
+}

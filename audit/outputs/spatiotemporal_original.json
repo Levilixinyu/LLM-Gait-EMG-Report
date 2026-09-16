@@ -1,0 +1,802 @@
+[
+  {
+    "subject_id": "Sub01",
+    "side": "P",
+    "gait_speed_m_s": 0.25161365478585024,
+    "cadence_steps_min": 64.69028237775997,
+    "step_length_m": 0.28944914876475614,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub01",
+    "side": "N",
+    "gait_speed_m_s": 0.2542797412044495,
+    "cadence_steps_min": 65.83547888706826,
+    "step_length_m": 0.1805352739708642,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub02",
+    "side": "P",
+    "gait_speed_m_s": 0.9095287357192439,
+    "cadence_steps_min": 117.15664841844149,
+    "step_length_m": 0.48183570767803313,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub02",
+    "side": "N",
+    "gait_speed_m_s": 0.9034287471938192,
+    "cadence_steps_min": 117.68412621397205,
+    "step_length_m": 0.4512215893326894,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub03",
+    "side": "P",
+    "gait_speed_m_s": 0.10950669860316208,
+    "cadence_steps_min": 44.880892894560105,
+    "step_length_m": 0.20699861364021607,
+    "n_strides": 15
+  },
+  {
+    "subject_id": "Sub03",
+    "side": "N",
+    "gait_speed_m_s": 0.11356189202562979,
+    "cadence_steps_min": 46.74004573507466,
+    "step_length_m": 0.08729758417468148,
+    "n_strides": 15
+  },
+  {
+    "subject_id": "Sub04",
+    "side": "P",
+    "gait_speed_m_s": 0.6500568652449586,
+    "cadence_steps_min": 81.32704485234223,
+    "step_length_m": 0.4815213315948786,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub04",
+    "side": "N",
+    "gait_speed_m_s": 0.6529604495136896,
+    "cadence_steps_min": 80.86442966051871,
+    "step_length_m": 0.4819239539147424,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub05",
+    "side": "P",
+    "gait_speed_m_s": 0.13652392448613712,
+    "cadence_steps_min": 45.11186450470861,
+    "step_length_m": 0.20069435255412502,
+    "n_strides": 12
+  },
+  {
+    "subject_id": "Sub05",
+    "side": "N",
+    "gait_speed_m_s": 0.14046779558305875,
+    "cadence_steps_min": 46.36845968998494,
+    "step_length_m": 0.15910586164462354,
+    "n_strides": 13
+  },
+  {
+    "subject_id": "Sub06",
+    "side": "P",
+    "gait_speed_m_s": 0.856862564901715,
+    "cadence_steps_min": 99.9449548864625,
+    "step_length_m": 0.5244912267758238,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub06",
+    "side": "N",
+    "gait_speed_m_s": 0.8661195113729334,
+    "cadence_steps_min": 100.8872259478195,
+    "step_length_m": 0.5106168266954723,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub07",
+    "side": "P",
+    "gait_speed_m_s": 0.36468111813541415,
+    "cadence_steps_min": 75.76640753977738,
+    "step_length_m": 0.2754951035266766,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub07",
+    "side": "N",
+    "gait_speed_m_s": 0.36338140079553083,
+    "cadence_steps_min": 76.29420044428716,
+    "step_length_m": 0.3052834309069635,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub08",
+    "side": "P",
+    "gait_speed_m_s": 0.4895180072077259,
+    "cadence_steps_min": 81.25151453623869,
+    "step_length_m": 0.4066927964787969,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub08",
+    "side": "N",
+    "gait_speed_m_s": 0.4871515248666481,
+    "cadence_steps_min": 80.62110862957489,
+    "step_length_m": 0.318342405349036,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub09",
+    "side": "P",
+    "gait_speed_m_s": 0.6235970672577247,
+    "cadence_steps_min": 79.00188558086087,
+    "step_length_m": 0.49694659702087157,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub09",
+    "side": "N",
+    "gait_speed_m_s": 0.6121471972276604,
+    "cadence_steps_min": 78.85198809742815,
+    "step_length_m": 0.4500369648606052,
+    "n_strides": 4
+  },
+  {
+    "subject_id": "Sub10",
+    "side": "P",
+    "gait_speed_m_s": 0.2358838804383105,
+    "cadence_steps_min": 72.15488274024337,
+    "step_length_m": 0.1814910620884419,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub10",
+    "side": "N",
+    "gait_speed_m_s": 0.23418222204971917,
+    "cadence_steps_min": 72.75509059723835,
+    "step_length_m": 0.21364542784965013,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub11",
+    "side": "P",
+    "gait_speed_m_s": 0.24506380106103415,
+    "cadence_steps_min": 59.464417343924026,
+    "step_length_m": 0.17619254625032582,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub11",
+    "side": "N",
+    "gait_speed_m_s": 0.2417933719305867,
+    "cadence_steps_min": 59.556479775686306,
+    "step_length_m": 0.31630907660414825,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub12",
+    "side": "P",
+    "gait_speed_m_s": 0.8610525908727853,
+    "cadence_steps_min": 95.89240441405333,
+    "step_length_m": 0.5589520391327621,
+    "n_strides": 3
+  },
+  {
+    "subject_id": "Sub12",
+    "side": "N",
+    "gait_speed_m_s": 0.8705291130050675,
+    "cadence_steps_min": 96.95050157486902,
+    "step_length_m": 0.5240534034794228,
+    "n_strides": 3
+  },
+  {
+    "subject_id": "Sub13",
+    "side": "P",
+    "gait_speed_m_s": 0.3872710018336786,
+    "cadence_steps_min": 72.72419682353821,
+    "step_length_m": 0.32787501822048487,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub13",
+    "side": "N",
+    "gait_speed_m_s": 0.38199137461921656,
+    "cadence_steps_min": 71.71071207109883,
+    "step_length_m": 0.31237184744519314,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub14",
+    "side": "P",
+    "gait_speed_m_s": 0.6328916219674218,
+    "cadence_steps_min": 105.56492547145832,
+    "step_length_m": 0.3197481415351196,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub14",
+    "side": "N",
+    "gait_speed_m_s": 0.6058517182790303,
+    "cadence_steps_min": 103.10630146847139,
+    "step_length_m": 0.39492223801626897,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub15",
+    "side": "P",
+    "gait_speed_m_s": 0.417753281670889,
+    "cadence_steps_min": 77.14574930915929,
+    "step_length_m": 0.25903151572693567,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub15",
+    "side": "N",
+    "gait_speed_m_s": 0.41323546362333696,
+    "cadence_steps_min": 76.60563111386656,
+    "step_length_m": 0.37970219627242086,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub16",
+    "side": "P",
+    "gait_speed_m_s": 1.3602070000059754,
+    "cadence_steps_min": 116.1672335966997,
+    "step_length_m": 0.7222177503630837,
+    "n_strides": 3
+  },
+  {
+    "subject_id": "Sub16",
+    "side": "N",
+    "gait_speed_m_s": 1.332544227908748,
+    "cadence_steps_min": 115.44866294765477,
+    "step_length_m": 0.6865514067388779,
+    "n_strides": 3
+  },
+  {
+    "subject_id": "Sub17",
+    "side": "P",
+    "gait_speed_m_s": 0.905878107959111,
+    "cadence_steps_min": 104.38606062565104,
+    "step_length_m": 0.5076525195135174,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub17",
+    "side": "N",
+    "gait_speed_m_s": 0.8903106415694303,
+    "cadence_steps_min": 104.59445281752996,
+    "step_length_m": 0.5317460303987639,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub18",
+    "side": "P",
+    "gait_speed_m_s": 0.34009645214020723,
+    "cadence_steps_min": 62.212375386578074,
+    "step_length_m": 0.3346015315005166,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub18",
+    "side": "N",
+    "gait_speed_m_s": 0.34015136926607903,
+    "cadence_steps_min": 62.243719411036,
+    "step_length_m": 0.321654618163678,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub19",
+    "side": "P",
+    "gait_speed_m_s": 0.26066375623154964,
+    "cadence_steps_min": 63.628629297168956,
+    "step_length_m": 0.2331826647065442,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub19",
+    "side": "N",
+    "gait_speed_m_s": 0.25633524848372197,
+    "cadence_steps_min": 63.35193939665059,
+    "step_length_m": 0.2646369990921922,
+    "n_strides": 11
+  },
+  {
+    "subject_id": "Sub20",
+    "side": "P",
+    "gait_speed_m_s": 0.17485281946278877,
+    "cadence_steps_min": 63.730085164460775,
+    "step_length_m": 0.17995398398089157,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub20",
+    "side": "N",
+    "gait_speed_m_s": 0.17890301294442296,
+    "cadence_steps_min": 64.32372805557767,
+    "step_length_m": 0.15981818817698393,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub21",
+    "side": "P",
+    "gait_speed_m_s": 0.3445557436600823,
+    "cadence_steps_min": 74.12365772587187,
+    "step_length_m": 0.259478104640946,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub21",
+    "side": "N",
+    "gait_speed_m_s": 0.351039900845801,
+    "cadence_steps_min": 73.64990159589755,
+    "step_length_m": 0.3018922756815636,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub22",
+    "side": "P",
+    "gait_speed_m_s": 0.4480284488844279,
+    "cadence_steps_min": 78.78190082313122,
+    "step_length_m": 0.332641320156892,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub22",
+    "side": "N",
+    "gait_speed_m_s": 0.4467038166294115,
+    "cadence_steps_min": 78.29096310468262,
+    "step_length_m": 0.3522633923042591,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub23",
+    "side": "P",
+    "gait_speed_m_s": 0.6415554653481229,
+    "cadence_steps_min": 84.83553365497157,
+    "step_length_m": 0.46225736102924087,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub23",
+    "side": "N",
+    "gait_speed_m_s": 0.6532247367449077,
+    "cadence_steps_min": 86.48728616319335,
+    "step_length_m": 0.4496272637702276,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub24",
+    "side": "P",
+    "gait_speed_m_s": 0.3211627928507246,
+    "cadence_steps_min": 94.15454648158901,
+    "step_length_m": 0.23574128694565097,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub24",
+    "side": "N",
+    "gait_speed_m_s": 0.34642870123131786,
+    "cadence_steps_min": 93.55239982909505,
+    "step_length_m": 0.21044213782732266,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub25",
+    "side": "P",
+    "gait_speed_m_s": 0.11197763045809164,
+    "cadence_steps_min": 33.62431960221454,
+    "step_length_m": 0.19070115309041596,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub25",
+    "side": "N",
+    "gait_speed_m_s": 0.113199162652315,
+    "cadence_steps_min": 34.97779054963921,
+    "step_length_m": 0.20792439312069189,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub26",
+    "side": "P",
+    "gait_speed_m_s": 0.32672478541633765,
+    "cadence_steps_min": 87.49980853136935,
+    "step_length_m": 0.21836057071435466,
+    "n_strides": 17
+  },
+  {
+    "subject_id": "Sub26",
+    "side": "N",
+    "gait_speed_m_s": 0.3345226665230167,
+    "cadence_steps_min": 85.07463751028556,
+    "step_length_m": 0.25653966947963297,
+    "n_strides": 16
+  },
+  {
+    "subject_id": "Sub27",
+    "side": "P",
+    "gait_speed_m_s": 0.7501502867571705,
+    "cadence_steps_min": 82.4987061461043,
+    "step_length_m": 0.589066640789452,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub27",
+    "side": "N",
+    "gait_speed_m_s": 0.7614093963159764,
+    "cadence_steps_min": 84.13249400369882,
+    "step_length_m": 0.5027284568965282,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub28",
+    "side": "P",
+    "gait_speed_m_s": 0.20573150345262356,
+    "cadence_steps_min": 46.7838927125115,
+    "step_length_m": 0.3481035589240303,
+    "n_strides": 13
+  },
+  {
+    "subject_id": "Sub28",
+    "side": "N",
+    "gait_speed_m_s": 0.20928813434913932,
+    "cadence_steps_min": 46.952307735562044,
+    "step_length_m": 0.18257474208778887,
+    "n_strides": 12
+  },
+  {
+    "subject_id": "Sub29",
+    "side": "P",
+    "gait_speed_m_s": 0.5668343151490893,
+    "cadence_steps_min": 101.99805108662518,
+    "step_length_m": 0.31127700604111164,
+    "n_strides": 11
+  },
+  {
+    "subject_id": "Sub29",
+    "side": "N",
+    "gait_speed_m_s": 0.5657043961199074,
+    "cadence_steps_min": 102.77805903798298,
+    "step_length_m": 0.35711508195544384,
+    "n_strides": 12
+  },
+  {
+    "subject_id": "Sub30",
+    "side": "P",
+    "gait_speed_m_s": 0.425376122782814,
+    "cadence_steps_min": 76.02432555548835,
+    "step_length_m": 0.33751181025846566,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub30",
+    "side": "N",
+    "gait_speed_m_s": 0.4391406724643676,
+    "cadence_steps_min": 72.88403471751164,
+    "step_length_m": 0.37545943221475103,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub31",
+    "side": "P",
+    "gait_speed_m_s": 0.3314208805854404,
+    "cadence_steps_min": 70.522892870603,
+    "step_length_m": 0.36070837360969904,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub31",
+    "side": "N",
+    "gait_speed_m_s": 0.31375572152548614,
+    "cadence_steps_min": 69.40934827152897,
+    "step_length_m": 0.18537848562080472,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub32",
+    "side": "P",
+    "gait_speed_m_s": 0.5187942579785095,
+    "cadence_steps_min": 84.46079720942872,
+    "step_length_m": 0.4011409292604908,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub32",
+    "side": "N",
+    "gait_speed_m_s": 0.5127697113777856,
+    "cadence_steps_min": 84.93715077600328,
+    "step_length_m": 0.33452695389041925,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub33",
+    "side": "P",
+    "gait_speed_m_s": 0.22475703934465485,
+    "cadence_steps_min": 62.691765520610375,
+    "step_length_m": 0.20208526683975742,
+    "n_strides": 13
+  },
+  {
+    "subject_id": "Sub33",
+    "side": "N",
+    "gait_speed_m_s": 0.2257787144844118,
+    "cadence_steps_min": 63.93313831143733,
+    "step_length_m": 0.2201904024999109,
+    "n_strides": 13
+  },
+  {
+    "subject_id": "Sub34",
+    "side": "P",
+    "gait_speed_m_s": 0.21768174927678563,
+    "cadence_steps_min": 60.99022473203188,
+    "step_length_m": 0.21315630715715286,
+    "n_strides": 15
+  },
+  {
+    "subject_id": "Sub34",
+    "side": "N",
+    "gait_speed_m_s": 0.2234747765084545,
+    "cadence_steps_min": 61.67738102049303,
+    "step_length_m": 0.22228035164848722,
+    "n_strides": 15
+  },
+  {
+    "subject_id": "Sub35",
+    "side": "P",
+    "gait_speed_m_s": 0.6838373877121975,
+    "cadence_steps_min": 90.81279249875315,
+    "step_length_m": 0.44359865793740083,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub35",
+    "side": "N",
+    "gait_speed_m_s": 0.6901504646668821,
+    "cadence_steps_min": 91.57017611942914,
+    "step_length_m": 0.46942101874010944,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub36",
+    "side": "P",
+    "gait_speed_m_s": 0.22732934062845486,
+    "cadence_steps_min": 64.90174713740728,
+    "step_length_m": 0.24273794593533374,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub36",
+    "side": "N",
+    "gait_speed_m_s": 0.2287612710493957,
+    "cadence_steps_min": 66.52367947688134,
+    "step_length_m": 0.16893738807697933,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub37",
+    "side": "P",
+    "gait_speed_m_s": 0.427402685617345,
+    "cadence_steps_min": 81.14136909156022,
+    "step_length_m": 0.28921495179200135,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub37",
+    "side": "N",
+    "gait_speed_m_s": 0.42976108742555724,
+    "cadence_steps_min": 79.68453994798223,
+    "step_length_m": 0.36012658388193136,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub38",
+    "side": "P",
+    "gait_speed_m_s": 0.8100964604388373,
+    "cadence_steps_min": 99.55354781546784,
+    "step_length_m": 0.5183126115304747,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub38",
+    "side": "N",
+    "gait_speed_m_s": 0.7996980709271706,
+    "cadence_steps_min": 98.51990504655687,
+    "step_length_m": 0.4547866699573619,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub39",
+    "side": "P",
+    "gait_speed_m_s": 1.120074162184869,
+    "cadence_steps_min": 95.78614182192136,
+    "step_length_m": 0.7093945981672244,
+    "n_strides": 3
+  },
+  {
+    "subject_id": "Sub39",
+    "side": "N",
+    "gait_speed_m_s": 1.1175529041566012,
+    "cadence_steps_min": 95.0714053255723,
+    "step_length_m": 0.6983780330653776,
+    "n_strides": 4
+  },
+  {
+    "subject_id": "Sub40",
+    "side": "P",
+    "gait_speed_m_s": 0.24112050716069397,
+    "cadence_steps_min": 54.75274091845913,
+    "step_length_m": 0.30063689420289713,
+    "n_strides": 12
+  },
+  {
+    "subject_id": "Sub40",
+    "side": "N",
+    "gait_speed_m_s": 0.23731309872865414,
+    "cadence_steps_min": 54.733249141962894,
+    "step_length_m": 0.22338723178504352,
+    "n_strides": 12
+  },
+  {
+    "subject_id": "Sub41",
+    "side": "P",
+    "gait_speed_m_s": 0.19580319018906875,
+    "cadence_steps_min": 61.180711770382345,
+    "step_length_m": 0.19437129489565527,
+    "n_strides": 12
+  },
+  {
+    "subject_id": "Sub41",
+    "side": "N",
+    "gait_speed_m_s": 0.18337695790931552,
+    "cadence_steps_min": 64.32846895020536,
+    "step_length_m": 0.1877903722835683,
+    "n_strides": 12
+  },
+  {
+    "subject_id": "Sub42",
+    "side": "P",
+    "gait_speed_m_s": 0.24611733196331181,
+    "cadence_steps_min": 73.27775690371382,
+    "step_length_m": 0.12070512799952707,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub42",
+    "side": "N",
+    "gait_speed_m_s": 0.26019611699993067,
+    "cadence_steps_min": 74.19968028748346,
+    "step_length_m": 0.3019022304804513,
+    "n_strides": 10
+  },
+  {
+    "subject_id": "Sub43",
+    "side": "P",
+    "gait_speed_m_s": 0.2240079266141369,
+    "cadence_steps_min": 79.93787868848317,
+    "step_length_m": 0.3307742283474955,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub43",
+    "side": "N",
+    "gait_speed_m_s": 0.22508155216248013,
+    "cadence_steps_min": 79.23325909606285,
+    "step_length_m": 0.03736847799426079,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub44",
+    "side": "P",
+    "gait_speed_m_s": 1.165604789096947,
+    "cadence_steps_min": 114.65893083824274,
+    "step_length_m": 0.6217396994676466,
+    "n_strides": 3
+  },
+  {
+    "subject_id": "Sub44",
+    "side": "N",
+    "gait_speed_m_s": 1.165493508727296,
+    "cadence_steps_min": 112.84740956033238,
+    "step_length_m": 0.6098570251060649,
+    "n_strides": 4
+  },
+  {
+    "subject_id": "Sub45",
+    "side": "P",
+    "gait_speed_m_s": 0.6975184416843759,
+    "cadence_steps_min": 100.82375659934777,
+    "step_length_m": 0.41629860304475585,
+    "n_strides": 8
+  },
+  {
+    "subject_id": "Sub45",
+    "side": "N",
+    "gait_speed_m_s": 0.7121367696810244,
+    "cadence_steps_min": 100.25813895558228,
+    "step_length_m": 0.44115968328608784,
+    "n_strides": 9
+  },
+  {
+    "subject_id": "Sub46",
+    "side": "P",
+    "gait_speed_m_s": 0.3247954533891876,
+    "cadence_steps_min": 89.69286089130077,
+    "step_length_m": 0.17186085979131674,
+    "n_strides": 13
+  },
+  {
+    "subject_id": "Sub46",
+    "side": "N",
+    "gait_speed_m_s": 0.32449656840574853,
+    "cadence_steps_min": 90.29456912427334,
+    "step_length_m": 0.2629609815047526,
+    "n_strides": 13
+  },
+  {
+    "subject_id": "Sub47",
+    "side": "P",
+    "gait_speed_m_s": 0.5356677671048049,
+    "cadence_steps_min": 98.13355364494161,
+    "step_length_m": 0.359702583985373,
+    "n_strides": 5
+  },
+  {
+    "subject_id": "Sub47",
+    "side": "N",
+    "gait_speed_m_s": 0.5328639880292977,
+    "cadence_steps_min": 97.32785454539356,
+    "step_length_m": 0.3082035794020385,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub48",
+    "side": "P",
+    "gait_speed_m_s": 0.3386760361039926,
+    "cadence_steps_min": 64.09270188368173,
+    "step_length_m": 0.32820193705632167,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub48",
+    "side": "N",
+    "gait_speed_m_s": 0.33226511820970545,
+    "cadence_steps_min": 64.9337445886933,
+    "step_length_m": 0.2927804206301851,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub49",
+    "side": "P",
+    "gait_speed_m_s": 0.7926194273583856,
+    "cadence_steps_min": 97.78707729229876,
+    "step_length_m": 0.5054094629739813,
+    "n_strides": 6
+  },
+  {
+    "subject_id": "Sub49",
+    "side": "N",
+    "gait_speed_m_s": 0.8037806951247394,
+    "cadence_steps_min": 98.94938955009617,
+    "step_length_m": 0.47318966216157987,
+    "n_strides": 7
+  },
+  {
+    "subject_id": "Sub50",
+    "side": "P",
+    "gait_speed_m_s": 0.825841714179837,
+    "cadence_steps_min": 85.75770152714976,
+    "step_length_m": 0.576672859091778,
+    "n_strides": 4
+  },
+  {
+    "subject_id": "Sub50",
+    "side": "N",
+    "gait_speed_m_s": 0.8251461279796813,
+    "cadence_steps_min": 86.35513937828995,
+    "step_length_m": 0.5726380545575188,
+    "n_strides": 4
+  }
+]
