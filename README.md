@@ -1,17 +1,14 @@
 # LLM-Gait-EMG-Report
 
-Pilot study: can an LLM draft a clinically usable interpretive summary of surface
+Can an LLM draft a clinically usable interpretive summary of surface
 EMG + kinematic gait-analysis findings for post-stroke gait, validated against
 blinded expert ratings across multiple models (Claude / GPT / Gemini)?
 
-**Research scope (frozen per audit handoff v2 §8.1):** a single-dataset,
-retrospective, exploratory evaluation of whether LLMs can *faithfully describe*
+**Research scope (frozen per audit handoff v2 §8.1):** an evaluation of whether LLMs can *faithfully describe*
 verified kinematic/EMG features, express uncertainty appropriately, and produce
 reports suitable for expert review. Explicitly OUT of scope: automated diagnosis,
 confirming pathophysiological mechanisms (spasticity/weakness), treatment selection,
-outcome prediction, and claims of clinical deployment readiness -- this dataset
-cannot ground-truth any of those (see `audit/MAIN_DATASET_SUITABILITY_2026-09-16.md`,
-esp. the decision table).
+outcome prediction, and claims of clinical deployment readiness.
 
 Dataset: Van Criekinge et al., 2023, *Scientific Data* — "A full-body motion capture
 gait dataset of 138 able-bodied adults across the life span and 50 stroke survivors."
