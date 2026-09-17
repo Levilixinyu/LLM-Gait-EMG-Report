@@ -467,3 +467,7 @@ generalizability, or email the corresponding author for the channel order direct
   doesn't reliably distinguish "limited" from "full" community ambulation against
   real-world (GPS/accelerometer) daily step counts --
   don't let generated report text extrapolate real-world function from gait speed alone.
+
+## 专家数据卡
+
+当前使用[五例临床简版数据卡](docs/expert_trial/data_cards_v5/index.html)，填写和交回方式见[审核指南](docs/expert_trial/DATA_CARD_REVIEW_GUIDE.md)。旧数据卡已清理；当前版本可用于专家审核，内容尚待专家定稿。

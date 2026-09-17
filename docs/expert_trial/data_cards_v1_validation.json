@@ -1,0 +1,59 @@
+{
+  "fresh_release_curves_equal_audited_cache": true,
+  "fresh_release_curve_count": 2618,
+  "cases": [
+    {
+      "case_id": "stroke_Sub09_P",
+      "fresh_release_prompt_matches": true,
+      "system_matches": true,
+      "summary_matches": true,
+      "claude_feature_text_matches": true,
+      "all_items_pending": true,
+      "hashes_match": true,
+      "correct_reference_members": true
+    },
+    {
+      "case_id": "stroke_Sub05_P",
+      "fresh_release_prompt_matches": true,
+      "system_matches": true,
+      "summary_matches": true,
+      "claude_feature_text_matches": true,
+      "all_items_pending": true,
+      "hashes_match": true,
+      "correct_reference_members": true
+    },
+    {
+      "case_id": "stroke_Sub50_P",
+      "fresh_release_prompt_matches": true,
+      "system_matches": true,
+      "summary_matches": true,
+      "claude_feature_text_matches": true,
+      "all_items_pending": true,
+      "hashes_match": true,
+      "correct_reference_members": true
+    },
+    {
+      "case_id": "stroke_Sub47_P",
+      "fresh_release_prompt_matches": true,
+      "system_matches": true,
+      "summary_matches": true,
+      "claude_feature_text_matches": true,
+      "all_items_pending": true,
+      "hashes_match": true,
+      "correct_reference_members": true
+    },
+    {
+      "case_id": "control_Sub49_avg",
+      "fresh_release_prompt_matches": true,
+      "system_matches": true,
+      "summary_matches": true,
+      "claude_feature_text_matches": true,
+      "all_items_pending": true,
+      "hashes_match": true,
+      "correct_reference_members": true
+    }
+  ],
+  "code_still_matches": true,
+  "package_hashes_match": true,
+  "failures": []
+}

@@ -12,30 +12,63 @@ class RubricDimension:
     scale: tuple[int, int] = (1, 5)
 
 
+# Rating conventions shared by all Likert dimensions (audit §8.6; user step-2 spec):
+# - Judge against the case's data card: the exact model input, the curves, and the
+#   reference card, which states WHICH reference applies (pooled main-cohort for
+#   stroke cases; leave-one-out for the healthy case -- their calibration columns
+#   differ and are both printed on the card). Never judge from report style alone.
+# - TWO DISTINCT "NA" situations, never conflated:
+#   (a) the MODEL correctly declares something indeterminate given the supplied data
+#       -- that is CORRECT model behavior: score the dimension normally (often
+#       favorably) and record it under model_indeterminate_handling=correct;
+#   (b) the RATER cannot rate a dimension (material missing, outside expertise,
+#       ambiguous rule) -- enter NA-cannot-rate with a reason; this is a statement
+#       about the rating process, not about the model, and flags a material/rule gap
+#       for the trial round to fix.
 RUBRIC: list[RubricDimension] = [
     RubricDimension(
         key="clinical_accuracy",
         label="Clinical accuracy",
         description=(
-            "Are the interpretive statements consistent with the numeric findings and "
-            "standard gait-analysis knowledge? (1 = frequent incorrect interpretation, "
-            "5 = fully accurate)"
+            "Are the interpretive statements consistent with the numeric findings, the "
+            "supplied metric definitions, and the case's applicable reference? Anchors: "
+            "1 = multiple statements contradict the input or misapply references "
+            "(e.g. calls an in-range CCI 'elevated', reads max-|z| by the 2-SD rule); "
+            "2 = one clear contradiction plus several shaky readings; "
+            "3 = no outright contradiction but several imprecise or reference-free "
+            "characterizations; 4 = accurate with at most minor imprecision that would "
+            "not mislead; 5 = every characterization traceable to the input and its "
+            "stated references, including correct handling of caveated metrics. "
+            "NA-cannot-rate allowed with reason."
         ),
     ),
     RubricDimension(
         key="completeness",
         label="Completeness",
         description=(
-            "Does the report address all clinically salient findings present in the "
-            "input data, without omitting notable ones? (1 = major omissions, 5 = complete)"
+            "Does the report address the case checklist's must-describe findings? "
+            "Anchors: 1 = misses most must-describe items; 2 = misses several "
+            "including at least one central finding; 3 = covers the central findings "
+            "but omits multiple secondary ones; 4 = covers all but 1-2 minor items; "
+            "5 = every must-describe item addressed (including missing-data "
+            "disclosures). Rate against the adjudicated checklist, not personal "
+            "expectation. NA-cannot-rate allowed with reason."
         ),
     ),
     RubricDimension(
         key="hallucination",
         label="Freedom from unsupported claims",
         description=(
-            "Does the report avoid stating findings, values, or muscles not present in "
-            "the input data? (1 = frequent fabrication, 5 = no unsupported claims)"
+            "Does the report avoid stating findings/values/muscles not in the input, "
+            "AND avoid the checklist's cannot-infer assertions (mechanisms, treatment, "
+            "real-world function, cross-muscle strength)? Anchors: 1 = fabricated data "
+            "or confident mechanism/treatment claims; 2 = at least one clear "
+            "unsupported assertion stated as fact; 3 = no fabricated data but "
+            "pathologizing language without reference basis; 4 = essentially clean, "
+            "hedged appropriately; 5 = fully clean -- uncertain things are explicitly "
+            "marked indeterminate or framed as questions. A correct indeterminate "
+            "declaration by the model counts FOR this dimension, not against it. "
+            "NA-cannot-rate allowed with reason."
         ),
     ),
     RubricDimension(
@@ -43,7 +76,12 @@ RUBRIC: list[RubricDimension] = [
         label="Clinical usefulness / readability",
         description=(
             "Would this report, as a first draft, save a clinician meaningful time "
-            "writing the interpretive section? (1 = not useful, 5 = highly useful as-is)"
+            "writing the interpretive section? Anchors: 1 = rewriting from scratch "
+            "would be faster; 2 = only fragments salvageable; 3 = usable skeleton but "
+            "substantial editing needed; 4 = minor edits only; 5 = near-ready draft "
+            "with well-prioritized findings. Length alone is not usefulness -- a "
+            "longer report earns nothing for length per se. NA-cannot-rate allowed "
+            "with reason."
         ),
     ),
 ]

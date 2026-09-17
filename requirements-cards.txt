@@ -1,0 +1,3 @@
+# Optional plotting dependency for scripts/build_expert_trial_package.py.
+-r requirements.lock.txt
+matplotlib==3.11.2

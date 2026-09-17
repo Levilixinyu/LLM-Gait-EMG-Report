@@ -1,0 +1,4 @@
+item_id,category,draft_statement,evidence,expert_decision,expert_edit,expert_id,review_date
+C01,must_describe_candidate,行走速度为 0.54 m/s（低于本研究健康参考人群的步速范围）。这一点是否需要写进报告？,gait_speed_m_s,PENDING,,,
+C02,must_describe_candidate,关节运动曲线与参考的差异由大到小为：髋关节 11.73°、膝关节 9.46°、踝关节 7.62°、骨盆 5.01°。请选出报告应重点描述的关节和变化；不必逐项复述评分。,Joint kinematic findings,PENDING,,,
+C03,must_describe_candidate,本例没有可用肌电记录。报告应说明只能评价已有的关节运动和行走参数；不能把EMG缺失写成无肌肉活动。,missing_emg_channels; model input missing-data statement,PENDING,,,

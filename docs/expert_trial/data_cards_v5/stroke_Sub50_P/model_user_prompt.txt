@@ -1,0 +1,40 @@
+Here are the quantitative gait analysis findings for one patient. Draft the report described in the system instructions.
+
+Metric definitions (read before interpreting any number below):
+- All joint angles and ROM values are SAGITTAL PLANE only. Coronal/transverse data are not included.
+- EMG curves are ensemble averages of per-cycle envelopes, each cycle normalized to that subject's own per-muscle maximum before averaging. Amplitudes are therefore relative within-muscle values -- they are NOT absolute activation, force, or strength, and must not be compared across muscles as "stronger/weaker".
+- Activation intervals are the regions where the averaged envelope exceeds 20% of that curve's own peak, minimum retained interval 3% of the cycle (by sample count). An interval written as (X%-Y%) with X > Y wraps across the 100%->0% cycle boundary (activity continuous across the cycle-defining event). An onset of 0% is the analysis-window boundary, not necessarily a physiological onset. "No interval detected" means no region met the threshold + duration criteria; it does NOT mean the muscle is inactive or non-functional.
+- CCI is the Falconer-Winter co-contraction index computed on the full continuous envelopes (2*common area / summed areas), so it can be non-zero even when the DETECTED burst intervals of the pair do not overlap (sub-threshold activity contributes).
+- The composite kinematic deviation score is the RMS of the per-joint Gait Variable Scores over the sagittal channels provided ("GPS-like", not the validated 9-variable GPS).
+- Step length symmetry index: 200*(paretic - non-paretic)/(paretic + non-paretic), in %. NEGATIVE means the paretic-side step is SHORTER. Two operational step-length definitions exist (successive-footfall: each heel's position at its own initial contact; instantaneous: both heels at the same instant) and give different values for some subjects -- the definition actually used is stated next to the symmetry value.
+- "Max |z| deviation" is the LARGEST absolute z-score across all 1001 phase points of the cycle, comparing this curve to the healthy-cohort mean/SD at each phase. This is an extreme-value statistic, NOT a single-observation z-score: in this dataset every one of 109 healthy controls exceeds |z| = 2 on at least one muscle, and per-muscle healthy 95th percentiles for this statistic run 3.65 (ERS) to 4.61 (TA) -- higher still under leave-one-out. Do not label a value abnormal by the conventional 2-SD rule; use the healthy reference range given per muscle where provided.
+- Healthy-cohort CCI reference (this dataset): RF-vs-BF median 0.68 (2.5th-97.5th pct 0.48-0.83); TA-vs-GAS median 0.39 (0.24-0.59). Composite score reference: median 5.1, 95th percentile 10.7.
+- COHORT BACKGROUND (calibration context, not necessarily the exact reference used for this subject -- the actual reference composition is stated in a dedicated line with the subject data below): the full healthy cohort is 138 subjects for kinematics, effective n = 106-109 per muscle for EMG (29 controls have no usable EMG; completeness varies by age), pooling both body sides and all ages; it is not age- or speed-matched to this subject. A leave-one-out run uses one subject fewer than these counts.
+- SPEED SUPPORT LIMIT (applies to most stroke subjects in this dataset): the healthy reference cohort's self-selected walking speeds span 0.80-1.79 m/s. If this subject's gait speed is below 0.80 m/s, NO speed-matched healthy reference exists in this dataset -- 41 of the 50 stroke subjects are below that floor. Deviations from the reference then conflate slow-walking effects with stroke-specific control changes, and the two cannot be separated from these data. Describe deviations from the reference as such; do not attribute them wholly to stroke pathology.
+- Fields NOT included in this summary but existing in the source dataset (deliberately out of scope for this version, not missing from the data): age, sex, time post-stroke, clinical scores (FAC/POMA/TIS), non-paretic-side curves, per-subject toe-off timing. Do not state that such information "does not exist" -- say it was not provided. Where a finding is absent because no interval met detection criteria or a channel is missing, that specific reason is stated inline.
+
+Subject: Sub50_P (group: stroke, affected side: paretic)
+Gait speed: 0.83 m/s (full community ambulator (>0.8 m/s))
+Cadence: 85.8 steps/min
+Step length symmetry index: -0.7% (step-length definition: successive_footfall)
+Composite kinematic deviation score (GPS-like): 6.86
+Deviation reference actually used for this subject: 138 healthy subjects (pooled), 1001 phase points, source: main_cohort_excel.
+
+Muscle activation findings:
+- GAS: activation interval(s) 7%-54%, 49% of cycle above threshold, peak normalized amplitude 0.71, max |z| vs healthy reference: 2.3 (above reference, at 44% of cycle)
+- RF: activation interval(s) 44%-61%; 64%-70%; 83%-26% (wraps cycle boundary), 66% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.84, max |z| vs healthy reference: 3.1 (above reference, at 85% of cycle)
+- VL: activation interval(s) 84%-90%; 95%-26% (wraps cycle boundary), 37% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.77, max |z| vs healthy reference: 2.1 (below reference, at 94% of cycle)
+- BF: activation interval(s) 58%-65%; 80%-21% (wraps cycle boundary), 55% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.70, max |z| vs healthy reference: 3.6 (above reference, at 10% of cycle)
+- ST: activation interval(s) 53%-65%; 80%-44% (wraps cycle boundary), 77% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.68, max |z| vs healthy reference: 4.7 (above reference, at 33% of cycle)
+- TA: activation interval(s) 57%-7% (wraps cycle boundary), 54% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.85, max |z| vs healthy reference: 4.1 (above reference, at 89% of cycle)
+- ERS: activation interval(s) 29%-37%; 45%-76%; 80%-93%; 94%-25% (wraps cycle boundary), 82% of cycle above threshold, active across cycle boundary, peak normalized amplitude 0.48, max |z| vs healthy reference: 2.0 (above reference, at 60% of cycle)
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.35
+- RF_vs_BF: CCI = 0.80
+
+Joint kinematic findings (sagittal plane):
+- AnkleAngles: range of motion 25.9 deg, Gait Variable Score 2.78
+- KneeAngles: range of motion 52.8 deg, Gait Variable Score 7.75
+- HipAngles: range of motion 38.6 deg, Gait Variable Score 5.41
+- PelvisAngles: range of motion 3.8 deg, Gait Variable Score 9.56

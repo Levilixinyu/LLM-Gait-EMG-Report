@@ -1,0 +1,6 @@
+item_id,category,draft_statement,evidence,expert_decision,expert_edit,expert_id,review_date
+C01,must_describe_candidate,行走速度为 0.83 m/s。这一点是否需要写进报告？,gait_speed_m_s,PENDING,,,
+C02,must_describe_candidate,关节运动曲线与参考的差异由大到小为：骨盆 9.56°、膝关节 7.75°、髋关节 5.41°、踝关节 2.78°。请选出报告应重点描述的关节和变化；不必逐项复述评分。,Joint kinematic findings,PENDING,,,
+C03,must_describe_candidate,半腱肌（ST）在本例中相对参考的标准化差异最大，位于步态周期约 33%处，曲线高于参考。请结合图形判断是否值得重点描述，或修改为更重要的发现。,ST.z_signed; ST.z_phase_pct,PENDING,,,
+C04,must_describe_candidate,请看股直肌、股外侧肌、股二头肌、半腱肌、胫骨前肌、竖脊肌的肌电曲线：哪些活动时段值得报告？如需描述，请写出肌肉和主要时段，无需逐段核对算法划分。,Muscle activation findings; intervals,PENDING,,,
+C05,must_describe_candidate,肌肉共同活动指标（CCI）：胫骨前肌_vs_腓肠肌 0.35；股直肌_vs_股二头肌 0.80。结合给出的参考范围，是否有值得写进报告的发现？,Co-contraction indices,PENDING,,,

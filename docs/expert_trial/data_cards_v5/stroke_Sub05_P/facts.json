@@ -1,0 +1,367 @@
+[
+  {
+    "fact_id": "identity",
+    "value": "stroke/Sub05_P/paretic",
+    "evidence": "Subject line",
+    "model_visible": true
+  },
+  {
+    "fact_id": "gait_speed_m_s",
+    "value": 0.136524,
+    "evidence": "gait_speed_m_s",
+    "model_visible": true
+  },
+  {
+    "fact_id": "cadence_steps_min",
+    "value": 45.111865,
+    "evidence": "cadence_steps_min",
+    "model_visible": true
+  },
+  {
+    "fact_id": "step_length_symmetry_index",
+    "value": -23.117546,
+    "evidence": "step_length_symmetry_index",
+    "model_visible": true
+  },
+  {
+    "fact_id": "gait_profile_score",
+    "value": 14.220514,
+    "evidence": "gait_profile_score",
+    "model_visible": true
+  },
+  {
+    "fact_id": "GAS.intervals",
+    "value": [
+      [
+        91.6,
+        88.4
+      ]
+    ],
+    "evidence": "Muscle activation findings: GAS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "GAS.above_threshold_pct",
+    "value": 96.90309690309691,
+    "evidence": "Muscle activation findings: GAS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "GAS.peak",
+    "value": 0.3897818484913071,
+    "evidence": "Muscle activation findings: GAS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "GAS.z_signed",
+    "value": 13.329604417750005,
+    "evidence": "Muscle activation findings: GAS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "GAS.z_phase_pct",
+    "value": 80.3,
+    "evidence": "Muscle activation findings: GAS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "RF.intervals",
+    "value": [
+      [
+        86.1,
+        78.0
+      ]
+    ],
+    "evidence": "Muscle activation findings: RF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "RF.above_threshold_pct",
+    "value": 95.4045954045954,
+    "evidence": "Muscle activation findings: RF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "RF.peak",
+    "value": 0.4055506616539146,
+    "evidence": "Muscle activation findings: RF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "RF.z_signed",
+    "value": -3.3442813509602476,
+    "evidence": "Muscle activation findings: RF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "RF.z_phase_pct",
+    "value": 5.7,
+    "evidence": "Muscle activation findings: RF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "VL.intervals",
+    "value": [
+      [
+        6.5,
+        69.4
+      ],
+      [
+        97.1,
+        3.2
+      ]
+    ],
+    "evidence": "Muscle activation findings: VL",
+    "model_visible": true
+  },
+  {
+    "fact_id": "VL.above_threshold_pct",
+    "value": 70.22977022977022,
+    "evidence": "Muscle activation findings: VL",
+    "model_visible": true
+  },
+  {
+    "fact_id": "VL.peak",
+    "value": 0.4688279147930432,
+    "evidence": "Muscle activation findings: VL",
+    "model_visible": true
+  },
+  {
+    "fact_id": "VL.z_signed",
+    "value": -5.3075739328776645,
+    "evidence": "Muscle activation findings: VL",
+    "model_visible": true
+  },
+  {
+    "fact_id": "VL.z_phase_pct",
+    "value": 5.3,
+    "evidence": "Muscle activation findings: VL",
+    "model_visible": true
+  },
+  {
+    "fact_id": "BF.intervals",
+    "value": [
+      [
+        51.0,
+        64.0
+      ],
+      [
+        65.0,
+        86.0
+      ],
+      [
+        90.0,
+        50.8
+      ]
+    ],
+    "evidence": "Muscle activation findings: BF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "BF.above_threshold_pct",
+    "value": 95.1048951048951,
+    "evidence": "Muscle activation findings: BF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "BF.peak",
+    "value": 0.4151184570661859,
+    "evidence": "Muscle activation findings: BF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "BF.z_signed",
+    "value": 3.4267876976525247,
+    "evidence": "Muscle activation findings: BF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "BF.z_phase_pct",
+    "value": 28.6,
+    "evidence": "Muscle activation findings: BF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ST.intervals",
+    "value": [
+      [
+        47.7,
+        50.6
+      ],
+      [
+        51.1,
+        47.4
+      ]
+    ],
+    "evidence": "Muscle activation findings: ST",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ST.above_threshold_pct",
+    "value": 99.4005994005994,
+    "evidence": "Muscle activation findings: ST",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ST.peak",
+    "value": 0.5017032152168314,
+    "evidence": "Muscle activation findings: ST",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ST.z_signed",
+    "value": 6.996225449325648,
+    "evidence": "Muscle activation findings: ST",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ST.z_phase_pct",
+    "value": 35.0,
+    "evidence": "Muscle activation findings: ST",
+    "model_visible": true
+  },
+  {
+    "fact_id": "TA.intervals",
+    "value": [
+      [
+        39.1,
+        42.5
+      ],
+      [
+        42.7,
+        76.8
+      ],
+      [
+        82.9,
+        96.5
+      ]
+    ],
+    "evidence": "Muscle activation findings: TA",
+    "model_visible": true
+  },
+  {
+    "fact_id": "TA.above_threshold_pct",
+    "value": 53.04695304695305,
+    "evidence": "Muscle activation findings: TA",
+    "model_visible": true
+  },
+  {
+    "fact_id": "TA.peak",
+    "value": 0.24415115878472357,
+    "evidence": "Muscle activation findings: TA",
+    "model_visible": true
+  },
+  {
+    "fact_id": "TA.z_signed",
+    "value": -4.561065519740274,
+    "evidence": "Muscle activation findings: TA",
+    "model_visible": true
+  },
+  {
+    "fact_id": "TA.z_phase_pct",
+    "value": 0.0,
+    "evidence": "Muscle activation findings: TA",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ERS.intervals",
+    "value": [
+      [
+        0.0,
+        100.0
+      ]
+    ],
+    "evidence": "Muscle activation findings: ERS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ERS.above_threshold_pct",
+    "value": 100.0,
+    "evidence": "Muscle activation findings: ERS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ERS.peak",
+    "value": 0.35127499841625515,
+    "evidence": "Muscle activation findings: ERS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ERS.z_signed",
+    "value": -2.548771239900315,
+    "evidence": "Muscle activation findings: ERS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "ERS.z_phase_pct",
+    "value": 2.0,
+    "evidence": "Muscle activation findings: ERS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "AnkleAngles.rom_deg",
+    "value": 13.418547955934105,
+    "evidence": "Joint kinematic findings: AnkleAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "AnkleAngles.gvs_deg",
+    "value": 12.534821913014913,
+    "evidence": "Joint kinematic findings: AnkleAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "KneeAngles.rom_deg",
+    "value": 43.15541060562491,
+    "evidence": "Joint kinematic findings: KneeAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "KneeAngles.gvs_deg",
+    "value": 22.24012801785136,
+    "evidence": "Joint kinematic findings: KneeAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "HipAngles.rom_deg",
+    "value": 25.701812686964132,
+    "evidence": "Joint kinematic findings: HipAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "HipAngles.gvs_deg",
+    "value": 12.317653300662801,
+    "evidence": "Joint kinematic findings: HipAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "PelvisAngles.rom_deg",
+    "value": 4.8294727179172074,
+    "evidence": "Joint kinematic findings: PelvisAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "PelvisAngles.gvs_deg",
+    "value": 2.3286073591027177,
+    "evidence": "Joint kinematic findings: PelvisAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "TA_vs_GAS",
+    "value": 0.497,
+    "evidence": "Co-contraction indices: TA_vs_GAS",
+    "model_visible": true
+  },
+  {
+    "fact_id": "RF_vs_BF",
+    "value": 0.808,
+    "evidence": "Co-contraction indices: RF_vs_BF",
+    "model_visible": true
+  },
+  {
+    "fact_id": "missing_emg_channels",
+    "value": [],
+    "evidence": "Missing channel/No valid EMG statement",
+    "model_visible": true
+  }
+]

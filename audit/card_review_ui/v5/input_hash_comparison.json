@@ -1,0 +1,27 @@
+[
+  {
+    "case": "stroke_Sub09_P",
+    "questions": 6,
+    "input_hashes_match": true
+  },
+  {
+    "case": "stroke_Sub05_P",
+    "questions": 6,
+    "input_hashes_match": true
+  },
+  {
+    "case": "stroke_Sub50_P",
+    "questions": 5,
+    "input_hashes_match": true
+  },
+  {
+    "case": "stroke_Sub47_P",
+    "questions": 3,
+    "input_hashes_match": true
+  },
+  {
+    "case": "control_Sub49_avg",
+    "questions": 6,
+    "input_hashes_match": true
+  }
+]

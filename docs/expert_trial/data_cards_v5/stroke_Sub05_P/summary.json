@@ -1,0 +1,198 @@
+{
+  "subject_id": "Sub05_P",
+  "group": "stroke",
+  "affected_side": "paretic",
+  "gait_speed_m_s": 0.13652392448613712,
+  "cadence_steps_min": 45.11186450470861,
+  "step_length_symmetry_index": -23.117546498473505,
+  "muscle_findings": [
+    {
+      "muscle": "GAS",
+      "onset_pct_gait_cycle": 91.6,
+      "offset_pct_gait_cycle": 88.4,
+      "peak_amplitude_norm": 0.3897818484913071,
+      "deviation_z_peak": 13.329604417750005,
+      "activation_intervals": [
+        [
+          91.6,
+          88.4
+        ]
+      ],
+      "above_threshold_pct": 96.90309690309691,
+      "crosses_cycle_boundary": true,
+      "deviation_z_signed": 13.329604417750005,
+      "deviation_phase_pct": 80.3,
+      "nan_pct": 0.0
+    },
+    {
+      "muscle": "RF",
+      "onset_pct_gait_cycle": 86.1,
+      "offset_pct_gait_cycle": 78.0,
+      "peak_amplitude_norm": 0.4055506616539146,
+      "deviation_z_peak": 3.3442813509602476,
+      "activation_intervals": [
+        [
+          86.1,
+          78.0
+        ]
+      ],
+      "above_threshold_pct": 95.4045954045954,
+      "crosses_cycle_boundary": true,
+      "deviation_z_signed": -3.3442813509602476,
+      "deviation_phase_pct": 5.7,
+      "nan_pct": 0.0
+    },
+    {
+      "muscle": "VL",
+      "onset_pct_gait_cycle": 6.5,
+      "offset_pct_gait_cycle": 69.4,
+      "peak_amplitude_norm": 0.4688279147930432,
+      "deviation_z_peak": 5.3075739328776645,
+      "activation_intervals": [
+        [
+          6.5,
+          69.4
+        ],
+        [
+          97.1,
+          3.2
+        ]
+      ],
+      "above_threshold_pct": 70.22977022977022,
+      "crosses_cycle_boundary": true,
+      "deviation_z_signed": -5.3075739328776645,
+      "deviation_phase_pct": 5.3,
+      "nan_pct": 0.0
+    },
+    {
+      "muscle": "BF",
+      "onset_pct_gait_cycle": 51.0,
+      "offset_pct_gait_cycle": 64.0,
+      "peak_amplitude_norm": 0.4151184570661859,
+      "deviation_z_peak": 3.4267876976525247,
+      "activation_intervals": [
+        [
+          51.0,
+          64.0
+        ],
+        [
+          65.0,
+          86.0
+        ],
+        [
+          90.0,
+          50.8
+        ]
+      ],
+      "above_threshold_pct": 95.1048951048951,
+      "crosses_cycle_boundary": true,
+      "deviation_z_signed": 3.4267876976525247,
+      "deviation_phase_pct": 28.6,
+      "nan_pct": 0.0
+    },
+    {
+      "muscle": "ST",
+      "onset_pct_gait_cycle": 47.7,
+      "offset_pct_gait_cycle": 50.6,
+      "peak_amplitude_norm": 0.5017032152168314,
+      "deviation_z_peak": 6.996225449325648,
+      "activation_intervals": [
+        [
+          47.7,
+          50.6
+        ],
+        [
+          51.1,
+          47.4
+        ]
+      ],
+      "above_threshold_pct": 99.4005994005994,
+      "crosses_cycle_boundary": true,
+      "deviation_z_signed": 6.996225449325648,
+      "deviation_phase_pct": 35.0,
+      "nan_pct": 0.0
+    },
+    {
+      "muscle": "TA",
+      "onset_pct_gait_cycle": 39.1,
+      "offset_pct_gait_cycle": 42.5,
+      "peak_amplitude_norm": 0.24415115878472357,
+      "deviation_z_peak": 4.561065519740274,
+      "activation_intervals": [
+        [
+          39.1,
+          42.5
+        ],
+        [
+          42.7,
+          76.8
+        ],
+        [
+          82.9,
+          96.5
+        ]
+      ],
+      "above_threshold_pct": 53.04695304695305,
+      "crosses_cycle_boundary": false,
+      "deviation_z_signed": -4.561065519740274,
+      "deviation_phase_pct": 0.0,
+      "nan_pct": 0.0
+    },
+    {
+      "muscle": "ERS",
+      "onset_pct_gait_cycle": 0.0,
+      "offset_pct_gait_cycle": 100.0,
+      "peak_amplitude_norm": 0.35127499841625515,
+      "deviation_z_peak": 2.548771239900315,
+      "activation_intervals": [
+        [
+          0.0,
+          100.0
+        ]
+      ],
+      "above_threshold_pct": 100.0,
+      "crosses_cycle_boundary": true,
+      "deviation_z_signed": -2.548771239900315,
+      "deviation_phase_pct": 2.0,
+      "nan_pct": 0.0
+    }
+  ],
+  "joint_findings": [
+    {
+      "joint": "AnkleAngles",
+      "rom_deg": 13.418547955934105,
+      "gvs": 12.534821913014913
+    },
+    {
+      "joint": "KneeAngles",
+      "rom_deg": 43.15541060562491,
+      "gvs": 22.24012801785136
+    },
+    {
+      "joint": "HipAngles",
+      "rom_deg": 25.701812686964132,
+      "gvs": 12.317653300662801
+    },
+    {
+      "joint": "PelvisAngles",
+      "rom_deg": 4.8294727179172074,
+      "gvs": 2.3286073591027177
+    }
+  ],
+  "cci_findings": {
+    "TA_vs_GAS": 0.497,
+    "RF_vs_BF": 0.808
+  },
+  "gait_profile_score": 14.220513789149924,
+  "missing_emg_channels": [],
+  "step_length_definition": "successive_footfall",
+  "reference_source": "main_cohort_excel",
+  "reference_meta": {
+    "source": "main_cohort_excel",
+    "method": "pooled",
+    "excluded_subjects": [],
+    "n_subjects": 138,
+    "n_points": 1001,
+    "calibration_family": "main_cohort_excel"
+  }
+}

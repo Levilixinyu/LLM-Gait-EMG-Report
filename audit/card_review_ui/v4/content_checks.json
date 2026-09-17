@@ -1,0 +1,31 @@
+{
+  "common_items": 14,
+  "cases": [
+    {
+      "case_id": "stroke_Sub09_P",
+      "case_items": 18,
+      "inputs_and_facts_unchanged": true
+    },
+    {
+      "case_id": "stroke_Sub05_P",
+      "case_items": 20,
+      "inputs_and_facts_unchanged": true
+    },
+    {
+      "case_id": "stroke_Sub50_P",
+      "case_items": 13,
+      "inputs_and_facts_unchanged": true
+    },
+    {
+      "case_id": "stroke_Sub47_P",
+      "case_items": 7,
+      "inputs_and_facts_unchanged": true
+    },
+    {
+      "case_id": "control_Sub49_avg",
+      "case_items": 16,
+      "inputs_and_facts_unchanged": true
+    }
+  ],
+  "hashes_valid": true
+}
