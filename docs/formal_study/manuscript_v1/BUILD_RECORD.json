@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-25T04:40:29.374056+00:00",
+  "created_at_utc": "2026-09-25T05:53:30.842465+00:00",
   "scope": "English full working manuscript; separate stroke/control results, review-stage comparison and descriptive report length",
   "source_sha256": {
     "data/rating_packets_formal_v1/private/three_rater_model_analysis_v1/ANALYSIS_BUILD_RECORD.json": "c41bb83b61a5195c415f924dd16885c899da4dbfca10ca899d96c9a3ec6cb57c",
@@ -29,7 +29,7 @@
     "docs/formal_study/sample_eligibility_v1/README.md": "f7e5ede1e729b6fd67e661d2c4adf67172898c95f760caf2f5ace5b0f5c9d209",
     "src/features/emg_signal.py": "8b684bfb6edc349ed604235c39a27c36de6431420f3758af28e71c270f6d5666",
     "src/features/kinematic.py": "c153b4a4e87f10faa0b5223490f00330a25bded59fb1f01f8c5802efbf8c5468",
-    "scripts/build_manuscript_draft.py": "2b4aafcc995d9de770bd129f9dc55092e37f8b0224ea11e0749a0133bc62e9fa",
+    "scripts/build_manuscript_draft.py": "cfe73c5b82aa054eb18c4742ac78e8ed2a656520884e151342ddb8119a1f7dd9",
     "docs/formal_study/formal_stages_v1/stage_01/RESULTS.json": "3025aa2238f6b9dc22e78e777e42d5bb324a6d0e805e4fc9b6f14f150355fb70",
     "docs/formal_study/formal_stages_v1/stage_02/RESULTS.json": "699afe801126bf8afad8cc1ef6f1303b3cad63af1f242d90fc8dfea84090b273",
     "docs/formal_study/formal_stages_v1/stage_03/RESULTS.json": "7453dc4b0b6f71604ab45f1ed9269742e5161b33acda31f821d4e6c1c639a675",
@@ -142,15 +142,15 @@
   },
   "output_sha256": {
     "AUTHOR_CONFIRMATION.md": "c5eaf93f93ff49562f46f6c63289e18c725766d12fa467f7352d85b0021649b6",
-    "README.md": "a247418cf2b335d2116400ddd5302d448e7164ef34fdb33cd8bcb8a412e21a78",
-    "Manuscript_tables.xlsx": "d348a7815afe104ce890a90a8ea393c90ecd4cc0c868dfcbd23d309bbab6f65f",
-    "MANUSCRIPT.md": "b0d0e28ebd47620860ac1e81fefde7868f3c0d24b1c62fd914255a896e1a17f0",
-    "TABLE_DATA.json": "4b8df5e80bc8e7fb333776785d6bb1ac360d640d88648c78b50ddf88c39b6db7",
-    "MANUSCRIPT.html": "7e8c5d4d375272fc071cee2bfe6854ca28fc7d1f98e491d57988509aff2428f5",
-    "SOURCE_MAP.md": "92725601ba4f2c7bac338285982d4e48614a01680c9f3cfbc0d74c730e58e0bb"
+    "README.md": "a6eae61d4923918e4ff3cbb64c5ccdf2d844901742f651c9a7cc82cd884417da",
+    "Manuscript_tables.xlsx": "f9c4cf3428ee379461022b17ed08bbbc92fa58b5f034fd7f9fc8cd89fbf05d59",
+    "MANUSCRIPT.md": "612408982b27de2122259433dea0063a78efdf879b9b1126508411537f47872d",
+    "TABLE_DATA.json": "eb66dedeab5b432bb715835485cc0690089812057a1145c32810a78c549715cc",
+    "MANUSCRIPT.html": "87ff56ee8b29cd9e6879b1fe6fa2ac1ce85be1f2dbabc3a32627a1b48ae46e3b",
+    "SOURCE_MAP.md": "70d9bc9b8c43e831f664142d284d80c5cb9214330570fe5e2694ac4ed574d4e5"
   },
-  "external_references_checked_on": "2026-09-24",
-  "table_count": 12,
+  "external_references_checked_on": "2026-09-25",
+  "table_count": 11,
   "generation_plan_canonical_json_sha256": "726dbda2ef559cdfa33ecf7c851935a6bd7274ee85b8a27f31d15447352c6aa4",
   "scores_or_frozen_results_modified": false,
   "author_owned_declarations_inferred": false

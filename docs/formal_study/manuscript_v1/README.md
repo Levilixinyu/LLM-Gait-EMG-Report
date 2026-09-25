@@ -1,6 +1,6 @@
 # English manuscript working draft
 
-Read [the browser version](MANUSCRIPT.html) or edit [the Markdown manuscript](MANUSCRIPT.md). The draft contains an abstract, introduction, methods, results, discussion and limitations, with a separate healthy-control analysis, six main tables and six supplementary tables. Added tables document review chronology, coverage across scoring stages and descriptive report length. [Excel tables](Manuscript_tables.xlsx) use the same source values.
+Read [the browser version](MANUSCRIPT.html) or edit [the Markdown manuscript](MANUSCRIPT.md). The draft contains an abstract, introduction, methods, results, discussion and limitations, with a separate healthy-control analysis, six main tables and five supplementary tables. Supplementary tables include coverage across scoring stages and descriptive report length. [Excel tables](Manuscript_tables.xlsx) use the same source values.
 
 Numerical results come from the frozen model analysis, original independent agreement/outcomes and the subsequent targeted sensitivity. Original reports, reviewer submissions, model-analysis files and the frozen dataset were not modified. The manuscript distinguishes the original two-reviewer plan, later third independent reviewer and post-unblinding follow-up. It does not claim a unanimous pathology annotation after the later disagreement.
 

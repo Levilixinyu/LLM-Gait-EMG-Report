@@ -601,59 +601,7 @@
         "All-planned bounds, %": "48.0 to 56.0"
       }
     ],
-    "S4 Review timeline": [
-      {
-        "Recorded timing": "Before formal generation",
-        "Stage": "Two-reviewer protocol and fixed case requirements",
-        "Interpretation": "119 stroke and 30 control requirements; third reviewer originally reserved for unresolved adjudication."
-      },
-      {
-        "Recorded timing": "2026-09-19T00:09:00.114889+00:00 to 2026-09-19T01:47:15.801637+00:00",
-        "Stage": "Formal generation",
-        "Interpretation": "105 saved reports; operational stages did not change inputs or settings."
-      },
-      {
-        "Recorded timing": "2026-09-19 UTC",
-        "Stage": "Third full independent reviewer added",
-        "Interpretation": "After the first two returns and administrative outcome counts; identities still concealed. Change from the original plan."
-      },
-      {
-        "Recorded timing": "After generation; before D01-D03",
-        "Stage": "Original independent submissions",
-        "Interpretation": "All three reviewed 105 reports independently. Original workbook hashes are retained; later personal changes do not replace this stage."
-      },
-      {
-        "Recorded timing": "2026-09-19 (recorded date; no time zone supplied)",
-        "Stage": "D01-D03 post-independent clarification",
-        "Interpretation": "Required explanation beyond numerical lists; ordered lists still require interpretation; genuine clinical questions are permitted subject to factual/presupposition exceptions."
-      },
-      {
-        "Recorded timing": "After D01-D03; before the blinded freeze",
-        "Stage": "Personal rechecks and shared discussion",
-        "Interpretation": "Source-linked personal changes and unresolved interpretations retained. This is not a new independent review; no exact discussion timestamp is inferred."
-      },
-      {
-        "Recorded timing": "2026-09-23T16:57:14.416061+00:00",
-        "Stage": "Semantic-flag clarification",
-        "Interpretation": "Explicit qualifying human pathology annotation does not require a simultaneous E02 tag."
-      },
-      {
-        "Recorded timing": "2026-09-23T18:23:29.970501+00:00",
-        "Stage": "Blinded post-feedback freeze",
-        "Interpretation": "52 confirmed groups and 16 unresolved Pending groups; original ratings remain separate."
-      },
-      {
-        "Recorded timing": "2026-09-23T19:36:30.271641+00:00",
-        "Stage": "Authorized analysis-team unblinding",
-        "Interpretation": "Mapping joined after freeze, outside reviewer materials."
-      },
-      {
-        "Recorded timing": "2026-09-25T02:38:04.496626+00:00",
-        "Stage": "Targeted wording-return receipt check",
-        "Interpretation": "Eight personal claim reviews after analysis-team unblinding; exploratory overlays preserve disagreements and the frozen baseline."
-      }
-    ],
-    "S5 Coverage across stages": [
+    "S4 Coverage across stages": [
       {
         "Cohort": "Stroke",
         "Model": "Claude Opus 5",
@@ -703,7 +651,7 @@
         "Frozen post-feedback, %": "73.3"
       }
     ],
-    "S6 Descriptive report length": [
+    "S5 Descriptive report length": [
       {
         "Cohort": "Stroke",
         "Model": "Claude Opus 5",
@@ -787,7 +735,7 @@
     "docs/formal_study/sample_eligibility_v1/README.md": "f7e5ede1e729b6fd67e661d2c4adf67172898c95f760caf2f5ace5b0f5c9d209",
     "src/features/emg_signal.py": "8b684bfb6edc349ed604235c39a27c36de6431420f3758af28e71c270f6d5666",
     "src/features/kinematic.py": "c153b4a4e87f10faa0b5223490f00330a25bded59fb1f01f8c5802efbf8c5468",
-    "scripts/build_manuscript_draft.py": "2b4aafcc995d9de770bd129f9dc55092e37f8b0224ea11e0749a0133bc62e9fa",
+    "scripts/build_manuscript_draft.py": "cfe73c5b82aa054eb18c4742ac78e8ed2a656520884e151342ddb8119a1f7dd9",
     "docs/formal_study/formal_stages_v1/stage_01/RESULTS.json": "3025aa2238f6b9dc22e78e777e42d5bb324a6d0e805e4fc9b6f14f150355fb70",
     "docs/formal_study/formal_stages_v1/stage_02/RESULTS.json": "699afe801126bf8afad8cc1ef6f1303b3cad63af1f242d90fc8dfea84090b273",
     "docs/formal_study/formal_stages_v1/stage_03/RESULTS.json": "7453dc4b0b6f71604ab45f1ed9269742e5161b33acda31f821d4e6c1c639a675",
