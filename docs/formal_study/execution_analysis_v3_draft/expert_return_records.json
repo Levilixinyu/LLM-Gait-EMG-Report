@@ -1,0 +1,396 @@
+{
+  "rater1": {
+    "Read first": [
+      {
+        "topic": "Scope",
+        "instruction": "Expert D02/D07 acceptances remain recorded. Reconfirm revised D04 only; address capacity/packet conditions separately. Final case requirements are not reopened."
+      },
+      {
+        "topic": "Save",
+        "instruction": "Save a separate Targeted_confirmation_rater1.xlsx or Targeted_confirmation_rater2.xlsx. Complete only your own fields; study-lead decisions belong to the study lead."
+      },
+      {
+        "topic": "Capacity",
+        "instruction": "Previous values are evidence, not prefilled new commitments. Rater1 has not confirmed availability. Rater2 dates depend on delivery. If delivery dates remain unknown, record a conditional window or Pending; do not invent calendar dates."
+      },
+      {
+        "topic": "Approval",
+        "instruction": "All new decision fields are blank. This workbook neither appoints a third reviewer nor authorizes API generation."
+      }
+    ],
+    "Targeted review": [
+      {
+        "item_id": "D04",
+        "reviewer": "rater1",
+        "text_to_confirm": "PROTOCOL.md section 6; exact revised flag status and examples",
+        "requested_action": "Accept as written or give complete replacement wording. Earlier acceptance does not approve this revision.",
+        "decision": "Accept as written",
+        "comments_or_replacement": "I accept the revised D04 wording in PROTOCOL.md section 6 and all six Flag examples (F01-F06) as written. F01: a confirmed qualifying issue establishes Positive despite a pending issue for the same flag. F02: no confirmed positive with a pending qualifying issue is Indeterminate. F03: complete relevant review with neither confirmed nor pending qualifying issues is Negative. F04: incomplete review without a confirmed positive is Indeterminate. F05: a pending issue relevant only to the other flag does not prevent a Negative result for this fully assessed flag. F06: a correct all-seven-below-3.65 displayed-value comparison alone does not establish unsupported normality and is Negative for that flag after complete relevant review. The contextual treatment of questions presupposing an unsupported clinical deficit is consistent with the existing error rules; question syntax alone neither establishes nor removes an error. The two flags remain nonexclusive descriptive labels on confirmed issue groups, with exact quotations, without new mandatory findings, error categories or duplicate penalties. This closes my D04 wording objection from v1. D02 and D07 acceptances stand without reopening. D10 capacity and scheduling remain Pending, separately from this acceptance. This does not approve study-lead decisions, appoint a human adjudicator or authorize generation. Reviewed protocol SHA-256: a4ce710d7beefe62b9c935a56053c61225609b5bffd8bdc7d416015d8365073e. Source confirmation template SHA-256: 0ed947e23dc4d4fc00c41ca272d4100c52be2293054658a950a78a2c49d03d7f.",
+        "confirmed_by": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "item_id": "D04",
+        "reviewer": "rater2",
+        "text_to_confirm": "PROTOCOL.md section 6; exact revised flag status and examples",
+        "requested_action": "Accept as written or give complete replacement wording. Earlier acceptance does not approve this revision.",
+        "decision": null,
+        "comments_or_replacement": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "item_id": "D10-delivery",
+        "reviewer": "rater2",
+        "text_to_confirm": "Delivery batches retain the already accepted fixed interleaved rater order; reports for one case are separated by at least two other reports.",
+        "requested_action": "Clarify whether this satisfies the case-block condition in your schedule. Do not infer or create a delivery-date commitment.",
+        "decision": null,
+        "comments_or_replacement": null,
+        "confirmed_by": null,
+        "date": null
+      }
+    ],
+    "Flag examples": [
+      {
+        "example": "F01",
+        "confirmed_qualifying_issue": "Yes",
+        "pending_same_flag": "Yes",
+        "relevant_review_complete": "Either",
+        "expected_flag": "Positive",
+        "reason": "A confirmed qualifying issue establishes the flag."
+      },
+      {
+        "example": "F02",
+        "confirmed_qualifying_issue": "No",
+        "pending_same_flag": "Yes",
+        "relevant_review_complete": "Either",
+        "expected_flag": "Indeterminate",
+        "reason": "No confirmed positive; unresolved potentially qualifying issue remains."
+      },
+      {
+        "example": "F03",
+        "confirmed_qualifying_issue": "No",
+        "pending_same_flag": "No",
+        "relevant_review_complete": "Yes",
+        "expected_flag": "Negative",
+        "reason": "Complete relevant review without qualifying confirmed or pending issues."
+      },
+      {
+        "example": "F04",
+        "confirmed_qualifying_issue": "No",
+        "pending_same_flag": "No",
+        "relevant_review_complete": "No",
+        "expected_flag": "Indeterminate",
+        "reason": "An incomplete assessment does not establish a negative."
+      },
+      {
+        "example": "F05",
+        "confirmed_qualifying_issue": "No",
+        "pending_same_flag": "No; only other flag has a pending issue",
+        "relevant_review_complete": "Yes",
+        "expected_flag": "Negative for this flag",
+        "reason": "Determine the two flags independently."
+      },
+      {
+        "example": "F06",
+        "confirmed_qualifying_issue": "None; correct all-seven-below-3.65 comparison only",
+        "pending_same_flag": "No",
+        "relevant_review_complete": "Yes",
+        "expected_flag": "Negative for normality flag",
+        "reason": "The displayed comparison alone is not a clinical normality claim."
+      }
+    ],
+    "Capacity": [
+      {
+        "reviewer": "rater1",
+        "prior_capacity": "Workload acknowledged; capacity and dates pending",
+        "prior_start": "Pending: complete blinded review packet availability and agreed start date",
+        "prior_completion": "Pending: agreed independent-review deadline; reconciliation scheduled separately",
+        "capacity_confirmed": "Pending - workload acknowledged; availability and schedule not confirmed",
+        "actual_or_conditional_delivery_date": "Pending - no actual or agreed conditional delivery date supplied",
+        "independent_review_start": "Pending - start to be agreed after complete blinded packets and review forms are available",
+        "independent_review_completion": "Pending - no supported calendar deadline or delivery-relative duration established",
+        "reconciliation_window": "Pending - schedule separately after both independent reviews are completed and locked",
+        "available_sessions_or_conditions": "The workload remains up to 105 report reviews and 552 coverage judgments, plus issue review, evidence documentation, format checks and reconciliation. No new availability or review-session information has been supplied. No completion promise or hours-per-report estimate is inferred. Retain the fixed interleaved rater order when packets are delivered. This records the current pending status, not a capacity commitment or a signature for another reviewer.",
+        "confirmed_by": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "reviewer": "rater2",
+        "prior_capacity": "Accepted conditional on packet delivery; proposed dates are not a project delivery commitment",
+        "prior_start": "2026-09-21",
+        "prior_completion": "2026-10-02",
+        "capacity_confirmed": null,
+        "actual_or_conditional_delivery_date": null,
+        "independent_review_start": null,
+        "independent_review_completion": null,
+        "reconciliation_window": null,
+        "available_sessions_or_conditions": null,
+        "confirmed_by": null,
+        "date": null
+      }
+    ],
+    "Study lead": [
+      {
+        "decision_id": "D01",
+        "topic": "Primary outcome",
+        "proposal": "Mean case-specific full-coverage proportion in stroke cases; equal participant weight; no 0.5 partial credit or combined coverage/error score.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D03",
+        "topic": "Correctness and other outcomes",
+        "proposal": "Any confirmed E01-E09 case error and unique issue counts; preserve contradictions; format/design concerns separate; joint fully-covered/G03/error-free outcome secondary only.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D05",
+        "topic": "Paired analysis and multiplicity",
+        "proposal": "Complete three-model stroke case sets; equal-case means and paired differences; 20000 BCa case resamples; descriptive 95% and approximate Bonferroni 98.3333% primary-pair intervals; no confirmatory secondary tests.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D06",
+        "topic": "Missingness",
+        "proposal": "Recover administrative material first; no unknown-to-zero conversion or denominator shrinkage; complete-triad analysis plus all-planned-case bounds and explicit delivery accounting.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D08",
+        "topic": "Generation and retries",
+        "proposal": "One intended response; at most three transient-failure attempts, first usable output retained, no quality/truncation regeneration; persistent attempt ledger, 600-second deadline and controlled backoff.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D09",
+        "topic": "Provider settings",
+        "proposal": "Review historical local candidate roster and proposed 8000-token budget; verify exact available identifiers and effective settings before freeze. No provider substitution or equal-compute claim.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D11",
+        "topic": "Readiness and release",
+        "proposal": "Implement offline tested formal runner, exact input hashes, private blinding, persisted retries and analysis checks before the separate batch-generation authorization.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      }
+    ]
+  },
+  "rater2": {
+    "Read first": [
+      {
+        "topic": "Scope",
+        "instruction": "Expert D02/D07 acceptances remain recorded. Reconfirm revised D04 only; address capacity/packet conditions separately. Final case requirements are not reopened."
+      },
+      {
+        "topic": "Save",
+        "instruction": "Save a separate Targeted_confirmation_rater1.xlsx or Targeted_confirmation_rater2.xlsx. Complete only your own fields; study-lead decisions belong to the study lead."
+      },
+      {
+        "topic": "Capacity",
+        "instruction": "Previous values are evidence, not prefilled new commitments. Rater1 has not confirmed availability. Rater2 dates depend on delivery. If delivery dates remain unknown, record a conditional window or Pending; do not invent calendar dates."
+      },
+      {
+        "topic": "Approval",
+        "instruction": "All new decision fields are blank. This workbook neither appoints a third reviewer nor authorizes API generation."
+      }
+    ],
+    "Targeted review": [
+      {
+        "item_id": "D04",
+        "reviewer": "rater1",
+        "text_to_confirm": "PROTOCOL.md section 6; exact revised flag status and examples",
+        "requested_action": "Accept as written or give complete replacement wording. Earlier acceptance does not approve this revision.",
+        "decision": null,
+        "comments_or_replacement": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "item_id": "D04",
+        "reviewer": "rater2",
+        "text_to_confirm": "PROTOCOL.md section 6; exact revised flag status and examples",
+        "requested_action": "Accept as written or give complete replacement wording. Earlier acceptance does not approve this revision.",
+        "decision": "Accept as written",
+        "comments_or_replacement": "Rater2 confirms the revised section 6 wording exactly as written, including the flag status rule and the two contextual examples. The rule now matches the any-error accounting in section 9: a confirmed qualifying issue makes its own flag positive regardless of other pending issues; negative requires a complete relevant review with no confirmed or pending qualifying issue; otherwise indeterminate; the two flags are determined independently. Illustrative cases F01-F06 are all consistent with that rule and with the rubric: F06 reflects the route-C displayed comparison (X08/X32 principle), and the presupposing-question example follows X22/X23 by requiring a confirmed E02 issue first. Rater2 acknowledges that the v1 acceptance did not cover this revised wording; this entry is the confirmation of v2.",
+        "confirmed_by": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "item_id": "D10-delivery",
+        "reviewer": "rater2",
+        "text_to_confirm": "Delivery batches retain the already accepted fixed interleaved rater order; reports for one case are separated by at least two other reports.",
+        "requested_action": "Clarify whether this satisfies the case-block condition in your schedule. Do not infer or create a delivery-date commitment.",
+        "decision": "Accept as written",
+        "comments_or_replacement": "Clarification: \"case blocks\" in the rater2 v1 schedule referred only to delivery batching of complete packets, not to presenting the three reports of one case consecutively or side by side. Delivery batches that preserve the already accepted fixed interleaved rater order, with at least two other reports between reports of the same case, fully satisfy the condition in the rater2 schedule and are the arrangement rater2 accepted under D07. Rater2 will rate in the precomputed order as delivered and will not reorder by case. This clarification creates no delivery-date commitment; the dates in Capacity remain conditional on packet delivery.",
+        "confirmed_by": "rater2",
+        "date": "2026-09-18"
+      }
+    ],
+    "Flag examples": [
+      {
+        "example": "F01",
+        "confirmed_qualifying_issue": "Yes",
+        "pending_same_flag": "Yes",
+        "relevant_review_complete": "Either",
+        "expected_flag": "Positive",
+        "reason": "A confirmed qualifying issue establishes the flag."
+      },
+      {
+        "example": "F02",
+        "confirmed_qualifying_issue": "No",
+        "pending_same_flag": "Yes",
+        "relevant_review_complete": "Either",
+        "expected_flag": "Indeterminate",
+        "reason": "No confirmed positive; unresolved potentially qualifying issue remains."
+      },
+      {
+        "example": "F03",
+        "confirmed_qualifying_issue": "No",
+        "pending_same_flag": "No",
+        "relevant_review_complete": "Yes",
+        "expected_flag": "Negative",
+        "reason": "Complete relevant review without qualifying confirmed or pending issues."
+      },
+      {
+        "example": "F04",
+        "confirmed_qualifying_issue": "No",
+        "pending_same_flag": "No",
+        "relevant_review_complete": "No",
+        "expected_flag": "Indeterminate",
+        "reason": "An incomplete assessment does not establish a negative."
+      },
+      {
+        "example": "F05",
+        "confirmed_qualifying_issue": "No",
+        "pending_same_flag": "No; only other flag has a pending issue",
+        "relevant_review_complete": "Yes",
+        "expected_flag": "Negative for this flag",
+        "reason": "Determine the two flags independently."
+      },
+      {
+        "example": "F06",
+        "confirmed_qualifying_issue": "None; correct all-seven-below-3.65 comparison only",
+        "pending_same_flag": "No",
+        "relevant_review_complete": "Yes",
+        "expected_flag": "Negative for normality flag",
+        "reason": "The displayed comparison alone is not a clinical normality claim."
+      }
+    ],
+    "Capacity": [
+      {
+        "reviewer": "rater1",
+        "prior_capacity": "Workload acknowledged; capacity and dates pending",
+        "prior_start": "Pending: complete blinded review packet availability and agreed start date",
+        "prior_completion": "Pending: agreed independent-review deadline; reconciliation scheduled separately",
+        "capacity_confirmed": null,
+        "actual_or_conditional_delivery_date": null,
+        "independent_review_start": null,
+        "independent_review_completion": null,
+        "reconciliation_window": null,
+        "available_sessions_or_conditions": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "reviewer": "rater2",
+        "prior_capacity": "Accepted conditional on packet delivery; proposed dates are not a project delivery commitment",
+        "prior_start": "2026-09-21",
+        "prior_completion": "2026-10-02",
+        "capacity_confirmed": "Yes",
+        "actual_or_conditional_delivery_date": "Conditional: complete blinded packets for all available reports delivered by 2026-09-21; if later, all dates below shift by the same number of working days. Not a project delivery commitment.",
+        "independent_review_start": "2026-09-21, or the actual delivery date if later",
+        "independent_review_completion": "Ten working days after start (2026-10-02 if delivery is on 2026-09-21); independent record exported and locked before any cross-review",
+        "reconciliation_window": "The week following completion of both independent reviews (target 2026-10-05 to 2026-10-09 if rater1 completes on the same schedule); dependent on rater1 availability and on a third reviewer being appointed for unresolved items",
+        "available_sessions_or_conditions": "Sessions of about 10 to 12 reports per working day. Conditions: frozen case requirements, rubric v2 and exact model inputs included in each packet; opaque per-report IDs; fixed interleaved order with at least two other reports between same-case reports; no other-rater or agent comments in packets; delivery in batches is acceptable provided the order is preserved.",
+        "confirmed_by": "rater2",
+        "date": "2026-09-18"
+      }
+    ],
+    "Study lead": [
+      {
+        "decision_id": "D01",
+        "topic": "Primary outcome",
+        "proposal": "Mean case-specific full-coverage proportion in stroke cases; equal participant weight; no 0.5 partial credit or combined coverage/error score.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D03",
+        "topic": "Correctness and other outcomes",
+        "proposal": "Any confirmed E01-E09 case error and unique issue counts; preserve contradictions; format/design concerns separate; joint fully-covered/G03/error-free outcome secondary only.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D05",
+        "topic": "Paired analysis and multiplicity",
+        "proposal": "Complete three-model stroke case sets; equal-case means and paired differences; 20000 BCa case resamples; descriptive 95% and approximate Bonferroni 98.3333% primary-pair intervals; no confirmatory secondary tests.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D06",
+        "topic": "Missingness",
+        "proposal": "Recover administrative material first; no unknown-to-zero conversion or denominator shrinkage; complete-triad analysis plus all-planned-case bounds and explicit delivery accounting.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D08",
+        "topic": "Generation and retries",
+        "proposal": "One intended response; at most three transient-failure attempts, first usable output retained, no quality/truncation regeneration; persistent attempt ledger, 600-second deadline and controlled backoff.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D09",
+        "topic": "Provider settings",
+        "proposal": "Review historical local candidate roster and proposed 8000-token budget; verify exact available identifiers and effective settings before freeze. No provider substitution or equal-compute claim.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      },
+      {
+        "decision_id": "D11",
+        "topic": "Readiness and release",
+        "proposal": "Implement offline tested formal runner, exact input hashes, private blinding, persisted retries and analysis checks before the separate batch-generation authorization.",
+        "decision": null,
+        "comments_or_revision": null,
+        "confirmed_by": null,
+        "date": null
+      }
+    ]
+  }
+}

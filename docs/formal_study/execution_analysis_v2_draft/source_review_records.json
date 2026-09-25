@@ -1,0 +1,876 @@
+{
+  "rater1": {
+    "Read first": [
+      {
+        "topic": "Status",
+        "instruction": "Review of a proposed execution/analysis plan; no API generation. Finalized case requirements and prior reviews remain unchanged."
+      },
+      {
+        "topic": "Complete",
+        "instruction": "Read PROTOCOL.md. Complete only decisions within your role and identify the reviewer. Save a separate copy per reviewer. Do not sign for another person."
+      },
+      {
+        "topic": "Expert focus",
+        "instruction": "Experts focus on D02, D04, D07 and D10; the study lead owns statistical/operational choices and can request statistical review."
+      },
+      {
+        "topic": "Overall",
+        "instruction": "Complete Overall review and capacity if applicable. Accepting the plan is not the later concrete batch authorization."
+      },
+      {
+        "topic": "Exposure",
+        "instruction": "The Exposure review sheet records the user's known-history attestation for all 35 cases; it is not an expert signature or an external-validation claim."
+      }
+    ],
+    "Plan decisions": [
+      {
+        "decision_id": "D01",
+        "responsible_role": "Study lead",
+        "topic": "Primary outcome",
+        "proposed_decision": "Mean case-specific full-coverage proportion in stroke cases; equal participant weight; no 0.5 partial credit or combined coverage/error score.",
+        "protocol_section": "4",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Study-lead statistical, technical or release decision; no endorsement is entered in this rater1 review.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D02",
+        "responsible_role": "Both experts; study lead",
+        "topic": "Common G03",
+        "proposed_decision": "Apply G03 once to all 35 reference-bearing tasks; report it separately from the primary denominator; permit shared evidence with case requirements.",
+        "protocol_section": "4",
+        "reviewer_decision": "Accept",
+        "comments_or_revision": "Apply G03 once to every available report for all 35 reference-bearing cases (up to 105 judgments per rater), including healthy controls and reports that avoid explicit reference comparisons. Covered requires BOTH a meaningful reference-comparability limitation AND its inferential limit: the comparison cannot directly establish a disease effect or clinical diagnosis; for controls it also cannot establish overall normality. One meaning alone is Partially covered; neither is Not covered. Meanings may be distributed across sections, and the same evidence may satisfy G03 and a case-specific requirement. Separate age/speed keywords and repeated disclaimers are not required. A pooled label or numerical speed range alone is insufficient. Keep G03 outside the primary case-specific denominator. Record contradictory unsupported assertions separately as errors; do not erase otherwise valid coverage. Administrative missing material is handled under the approved rubric and missingness policy, not as an invented omission.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D03",
+        "responsible_role": "Study lead",
+        "topic": "Correctness and other outcomes",
+        "proposed_decision": "Any confirmed E01-E09 case error and unique issue counts; preserve contradictions; format/design concerns separate; joint fully-covered/G03/error-free outcome secondary only.",
+        "protocol_section": "5",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Study-lead statistical, technical or release decision; no endorsement is entered in this rater1 review.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D04",
+        "responsible_role": "Both experts; study lead",
+        "topic": "Control semantic flags",
+        "proposed_decision": "Approve the exact unsupported-pathology and unsupported-overall-normality definitions; flag only confirmed in-scope issues, never group membership or a descriptive deviation alone.",
+        "protocol_section": "6",
+        "reviewer_decision": "Revise",
+        "comments_or_revision": "Accept both proposed semantic definitions and their nonexclusive use as labels on existing confirmed issue groups, with exact quotations and no extra error counts or penalties. Revise the final pending-status sentence in section 6 to match section 9. Complete replacement: \"Determine each semantic flag separately. A flag is positive once at least one confirmed in-scope issue satisfies its definition, even if another potentially qualifying issue remains pending. A flag is negative only after a complete issue review finds no confirmed or pending issue qualifying for that flag. Otherwise it is indeterminate. A pending issue relevant only to the other flag does not make this flag indeterminate once this flag has been fully assessed.\" Membership, descriptive deviations and genuinely qualified assessment questions alone do not trigger either flag. Apply the existing rubric to questions that presuppose an unsupported impairment: question syntax alone does not prevent an assertion from qualifying. No new mandatory report content is introduced. Return the revised operational wording for confirmation; this is not approval as written.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D05",
+        "responsible_role": "Study lead; statistical reviewer if appointed",
+        "topic": "Paired analysis and multiplicity",
+        "proposed_decision": "Complete three-model stroke case sets; equal-case means and paired differences; 20000 BCa case resamples; descriptive 95% and approximate Bonferroni 98.3333% primary-pair intervals; no confirmatory secondary tests.",
+        "protocol_section": "8",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Study-lead statistical, technical or release decision; no endorsement is entered in this rater1 review.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D06",
+        "responsible_role": "Study lead",
+        "topic": "Missingness",
+        "proposed_decision": "Recover administrative material first; no unknown-to-zero conversion or denominator shrinkage; complete-triad analysis plus all-planned-case bounds and explicit delivery accounting.",
+        "protocol_section": "9",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Study-lead statistical, technical or release decision; no endorsement is entered in this rater1 review.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D07",
+        "responsible_role": "Both experts; study lead",
+        "topic": "Review and adjudication",
+        "proposed_decision": "Independent blinded reviews, original labels preserved, human resolution of remaining disputes; descriptive agreement from independent labels only.",
+        "protocol_section": "7",
+        "reviewer_decision": "Accept",
+        "comments_or_revision": "Accept the independent blinded review and documented human adjudication workflow as written. Preserve and lock both complete independent records before either reviewer sees the other response; include explicit completed-with-no-issues states. Reconciliation must cover coverage disagreements AND the union of error issues raised by either reviewer, aligned by report ID and quoted assertion; absence of an issue in one record is not automatic agreement. Apply existing duplicate-grouping rules without overwriting original labels, quotations or timestamps. Record final decisions, reasons, actual decision makers and dates separately. Unresolved content remains Pending until a named human third reviewer adjudicates while blinded; a suggestion alone is not an adjudication. Agreement uses the original independent records, never reconciled labels. Acceptance here concerns the process; it does not certify that independent human reviews or adjudication have already occurred, appoint a third reviewer, or approve the study-lead statistical decisions.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D08",
+        "responsible_role": "Study lead; technical operator",
+        "topic": "Generation and retries",
+        "proposed_decision": "One intended response; at most three transient-failure attempts, first usable output retained, no quality/truncation regeneration; persistent attempt ledger, 600-second deadline and controlled backoff.",
+        "protocol_section": "10",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Study-lead statistical, technical or release decision; no endorsement is entered in this rater1 review.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D09",
+        "responsible_role": "Study lead; technical operator",
+        "topic": "Provider settings",
+        "proposed_decision": "Review historical local candidate roster and proposed 8000-token budget; verify exact available identifiers and effective settings before freeze. No provider substitution or equal-compute claim.",
+        "protocol_section": "10",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Study-lead statistical, technical or release decision; no endorsement is entered in this rater1 review.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D10",
+        "responsible_role": "Both experts",
+        "topic": "Capacity",
+        "proposed_decision": "Each rater reviews up to 105 reports and 552 coverage rows, plus issue review and reconciliation; confirm capacity and enter a realistic schedule.",
+        "protocol_section": "3",
+        "reviewer_decision": "Revise",
+        "comments_or_revision": "The stated workload is understood and its arithmetic is verified: 149 included case requirements x 3 models = 447 case-coverage judgments, plus 105 G03 judgments = 552 coverage judgments across up to 105 reports per rater. Issue review, evidence documentation, format checks and reconciliation are additional work; 552 is not a total-effort estimate. A calendar commitment cannot be confirmed from this package: the delivery/start date, requested deadline and available review sessions are not specified. Capacity and completion date remain pending rather than accepted by default. Confirm a dated schedule after complete blinded packets and review forms are ready, with separate milestones for independent review and subsequent reconciliation. No unsupported hours-per-report estimate or guaranteed completion date is entered.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D11",
+        "responsible_role": "Study lead; technical operator",
+        "topic": "Readiness and release",
+        "proposed_decision": "Implement offline tested formal runner, exact input hashes, private blinding, persisted retries and analysis checks before the separate batch-generation authorization.",
+        "protocol_section": "11-12",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Study-lead statistical, technical or release decision; no endorsement is entered in this rater1 review.",
+        "reviewer": "rater1",
+        "date": "2026-09-18"
+      }
+    ],
+    "Capacity": [
+      {
+        "reviewer": "rater1",
+        "report_assignments": 105,
+        "coverage_judgments": 552,
+        "capacity_confirmed": "Pending - workload acknowledged; schedule not confirmed",
+        "planned_start": "Pending: complete blinded review packet availability and agreed start date",
+        "planned_completion": "Pending: agreed independent-review deadline; reconciliation scheduled separately",
+        "comments": "Up to 105 reports and 552 coverage judgments are acknowledged, plus issue review, evidence recording, format checks and reconciliation. Availability and a feasible calendar have not been established. This entry is not a promise of future completion or another reviewer's capacity confirmation."
+      },
+      {
+        "reviewer": "rater2",
+        "report_assignments": 105,
+        "coverage_judgments": 552,
+        "capacity_confirmed": null,
+        "planned_start": null,
+        "planned_completion": null,
+        "comments": null
+      }
+    ],
+    "Exposure review": [
+      {
+        "case_id": "control_Sub01_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub06_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub07_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub09_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub117_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub14_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub31_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub39_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub62_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub73_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub01_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub02_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub07_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub10_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub13_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub15_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub16_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub18_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub19_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub21_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub22_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub24_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub25_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub26_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub27_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub28_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub29_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub30_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub33_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub34_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub35_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub36_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub38_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub40_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub49_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      }
+    ],
+    "Overall review": [
+      {
+        "reviewer_role": "Study lead",
+        "reviewer": null,
+        "overall_decision": null,
+        "scope_approved_or_exceptions": null,
+        "date": null
+      },
+      {
+        "reviewer_role": "rater1",
+        "reviewer": "rater1",
+        "overall_decision": "Revisions required; capacity and schedule pending",
+        "scope_approved_or_exceptions": "Scope: D02, D04, D07 and D10 only. D02 and D07 accepted; D04 requires the stated flag-status clarification; D10 workload acknowledged but capacity/schedule unconfirmed. D01, D03, D05, D06, D08, D09 and D11 are outside this review scope. No changes to finalized case requirements, historical ratings or adjudications. No exposure attestation, statistical-plan approval, human adjudicator appointment or batch-generation authorization is supplied. Source workbook SHA-256: 475a34e96f899857152aeb64e93cda405c2327add84d9d226520c4cb83bfa819",
+        "date": "2026-09-18"
+      },
+      {
+        "reviewer_role": "rater2",
+        "reviewer": null,
+        "overall_decision": null,
+        "scope_approved_or_exceptions": null,
+        "date": null
+      }
+    ]
+  },
+  "rater2": {
+    "Read first": [
+      {
+        "topic": "Status",
+        "instruction": "Review of a proposed execution/analysis plan; no API generation. Finalized case requirements and prior reviews remain unchanged."
+      },
+      {
+        "topic": "Complete",
+        "instruction": "Read PROTOCOL.md. Complete only decisions within your role and identify the reviewer. Save a separate copy per reviewer. Do not sign for another person."
+      },
+      {
+        "topic": "Expert focus",
+        "instruction": "Experts focus on D02, D04, D07 and D10; the study lead owns statistical/operational choices and can request statistical review."
+      },
+      {
+        "topic": "Overall",
+        "instruction": "Complete Overall review and capacity if applicable. Accepting the plan is not the later concrete batch authorization."
+      },
+      {
+        "topic": "Exposure",
+        "instruction": "The Exposure review sheet records the user's known-history attestation for all 35 cases; it is not an expert signature or an external-validation claim."
+      }
+    ],
+    "Plan decisions": [
+      {
+        "decision_id": "D01",
+        "responsible_role": "Study lead",
+        "topic": "Primary outcome",
+        "proposed_decision": "Mean case-specific full-coverage proportion in stroke cases; equal participant weight; no 0.5 partial credit or combined coverage/error score.",
+        "protocol_section": "4",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "No objection from the rating perspective: full coverage only in the numerator, partial and not-covered kept as separate categories, no 0.5 credit, no combined score. This matches rubric v2 P02/P08.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D02",
+        "responsible_role": "Both experts; study lead",
+        "topic": "Common G03",
+        "proposed_decision": "Apply G03 once to all 35 reference-bearing tasks; report it separately from the primary denominator; permit shared evidence with case requirements.",
+        "protocol_section": "4",
+        "reviewer_decision": "Accept",
+        "comments_or_revision": "Accept: apply common G03 once to each of the 35 reference-bearing reports, report it as a separate outcome outside the primary case-coverage denominator, and allow shared evidence with the case speed items. This is the substantive G03 reading confirmed in the trial and carried into rubric v2 (P03/P04) and the finalized case requirements. Two operational notes: (1) for the three in-range stroke cases (Sub02, Sub16, Sub38) the required statement that an in-range speed does not establish matching satisfies the comparability half of G03, so raters should not look for a second sentence; (2) for controls, the inference half means the comparison must not establish disease or overall normality, and the control provenance/self-exclusion item does not by itself satisfy G03.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D03",
+        "responsible_role": "Study lead",
+        "topic": "Correctness and other outcomes",
+        "proposed_decision": "Any confirmed E01-E09 case error and unique issue counts; preserve contradictions; format/design concerns separate; joint fully-covered/G03/error-free outcome secondary only.",
+        "protocol_section": "5",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "No objection: any confirmed E01-E09 case error plus unique issue-group counts, with format and design concerns separate, is how the trial reconciliation was recorded.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D04",
+        "responsible_role": "Both experts; study lead",
+        "topic": "Control semantic flags",
+        "proposed_decision": "Approve the exact unsupported-pathology and unsupported-overall-normality definitions; flag only confirmed in-scope issues, never group membership or a descriptive deviation alone.",
+        "protocol_section": "6",
+        "reviewer_decision": "Accept",
+        "comments_or_revision": "Accept both flag definitions as written. They attach descriptive labels to already confirmed in-scope issue groups, add no new penalty, may co-occur, and remain indeterminate while a qualifying issue is pending. Two non-blocking clarifications for the rater instructions: (a) the agreed control EMG route C (an explicit statement that all seven displayed max |z| values lie below the supplied 3.65 endpoint) is a displayed comparison and must not trigger the normality flag on its own, consistent with the rubric X08/X32 principle; (b) an open assessment question that presupposes a confirmed deficit (rubric X23) can trigger the pathology flag only after it has been confirmed as an E02 issue, never from the question form alone. Proportions are descriptive, not diagnostic accuracy statistics.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D05",
+        "responsible_role": "Study lead; statistical reviewer if appointed",
+        "topic": "Paired analysis and multiplicity",
+        "proposed_decision": "Complete three-model stroke case sets; equal-case means and paired differences; 20000 BCa case resamples; descriptive 95% and approximate Bonferroni 98.3333% primary-pair intervals; no confirmatory secondary tests.",
+        "protocol_section": "8",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Statistical design owned by the study lead.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D06",
+        "responsible_role": "Study lead",
+        "topic": "Missingness",
+        "proposed_decision": "Recover administrative material first; no unknown-to-zero conversion or denominator shrinkage; complete-triad analysis plus all-planned-case bounds and explicit delivery accounting.",
+        "protocol_section": "9",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "No objection: faithfully captured short or refusal text is rated under the rubric (X38), missing material is administrative, and K_i is never shrunk.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D07",
+        "responsible_role": "Both experts; study lead",
+        "topic": "Review and adjudication",
+        "proposed_decision": "Independent blinded reviews, original labels preserved, human resolution of remaining disputes; descriptive agreement from independent labels only.",
+        "protocol_section": "7",
+        "reviewer_decision": "Accept",
+        "comments_or_revision": "Accept: two independent blinded reviews with original labels, quotes and timestamps preserved; agreement described from independent labels only; documented human reconciliation; a named third human reviewer, blinded to model identity, for unresolved content judgments; agent suggestions are not decisions. This matches the process used in the trial. Requests for the packet design: each rater receives the exact model input, the frozen case requirement rows with their AND/OR components, the four-section report under an opaque per-report ID, and nothing from the other rater or from agent-drafted comments; the three reports of one case separated by at least two others in the fixed order; rater completion recorded as completed-with-issues or completed-with-no-issues. The three-category coverage cross-tabulation with unweighted kappa and the report-level any-error comparison are appropriate descriptive summaries; do not compute issue-level kappa.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D08",
+        "responsible_role": "Study lead; technical operator",
+        "topic": "Generation and retries",
+        "proposed_decision": "One intended response; at most three transient-failure attempts, first usable output retained, no quality/truncation regeneration; persistent attempt ledger, 600-second deadline and controlled backoff.",
+        "protocol_section": "10",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "No objection from the rating perspective: retaining the first usable response without quality-based regeneration is required for the ratings to reflect the model as run.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D09",
+        "responsible_role": "Study lead; technical operator",
+        "topic": "Provider settings",
+        "proposed_decision": "Review historical local candidate roster and proposed 8000-token budget; verify exact available identifiers and effective settings before freeze. No provider substitution or equal-compute claim.",
+        "protocol_section": "10",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Owned by the study lead and technical operator.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D10",
+        "responsible_role": "Both experts",
+        "topic": "Capacity",
+        "proposed_decision": "Each rater reviews up to 105 reports and 552 coverage rows, plus issue review and reconciliation; confirm capacity and enter a realistic schedule.",
+        "protocol_section": "3",
+        "reviewer_decision": "Accept",
+        "comments_or_revision": "Capacity confirmed; see the Capacity sheet for the schedule. Estimate: about 20 to 30 minutes per report for coverage rows, issue review and evidence quotes, i.e. roughly 40 to 50 rater-hours for 105 reports, plus reconciliation. The schedule assumes blinded packets are delivered in case blocks and that the case requirements, rubric and inputs are frozen before the first packet.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      },
+      {
+        "decision_id": "D11",
+        "responsible_role": "Study lead; technical operator",
+        "topic": "Readiness and release",
+        "proposed_decision": "Implement offline tested formal runner, exact input hashes, private blinding, persisted retries and analysis checks before the separate batch-generation authorization.",
+        "protocol_section": "11-12",
+        "reviewer_decision": "Outside my review scope",
+        "comments_or_revision": "Owned by the study lead and technical operator.",
+        "reviewer": "rater2",
+        "date": "2026-09-18"
+      }
+    ],
+    "Capacity": [
+      {
+        "reviewer": "rater1",
+        "report_assignments": 105,
+        "coverage_judgments": 552,
+        "capacity_confirmed": null,
+        "planned_start": null,
+        "planned_completion": null,
+        "comments": null
+      },
+      {
+        "reviewer": "rater2",
+        "report_assignments": 105,
+        "coverage_judgments": 552,
+        "capacity_confirmed": "Yes",
+        "planned_start": "2026-09-21",
+        "planned_completion": "2026-10-02",
+        "comments": "105 report assignments and 552 coverage judgments accepted. Planned pace about 10 to 12 reports per working day in case blocks, completing independent review within ten working days of packet delivery; reconciliation and third-reviewer referrals in the following week (target 2026-10-09). Start date assumes packets are delivered on or before 2026-09-21; if delivery is later, both dates shift by the same amount. Independent review will be exported before any discussion with rater1."
+      }
+    ],
+    "Exposure review": [
+      {
+        "case_id": "control_Sub01_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub06_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub07_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub09_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub117_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub14_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub31_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub39_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub62_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "control_Sub73_avg",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub01_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub02_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub07_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub10_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub13_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub15_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub16_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub18_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub19_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub21_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub22_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub24_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub25_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub26_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub27_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub28_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub29_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub30_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub33_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub34_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub35_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub36_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub38_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub40_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      },
+      {
+        "case_id": "stroke_Sub49_P",
+        "history_status": "No additional use known",
+        "recorded_from": "User confirmation in conversation",
+        "date": "2026-09-18",
+        "additional_details": "Registered case-card/review and reference-calibration uses remain disclosed."
+      }
+    ],
+    "Overall review": [
+      {
+        "reviewer_role": "Study lead",
+        "reviewer": null,
+        "overall_decision": null,
+        "scope_approved_or_exceptions": null,
+        "date": null
+      },
+      {
+        "reviewer_role": "rater1",
+        "reviewer": null,
+        "overall_decision": null,
+        "scope_approved_or_exceptions": null,
+        "date": null
+      },
+      {
+        "reviewer_role": "rater2",
+        "reviewer": "rater2",
+        "overall_decision": "Approve within scope",
+        "scope_approved_or_exceptions": "Approved: D02, D04, D07 as written (with the non-blocking rater-instruction clarifications recorded in comments) and D10 capacity with schedule. D01, D03, D05, D06, D08, D09, D11 are outside my review scope; comments there are observations, not endorsements. This approval does not authorize the batch generation, confirm exposure status externally, or approve statistical choices.",
+        "date": "2026-09-18"
+      }
+    ]
+  }
+}

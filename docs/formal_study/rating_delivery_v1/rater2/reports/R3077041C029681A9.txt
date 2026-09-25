@@ -1,0 +1,45 @@
+**1. Objective Findings**
+- **Subject/Group:** Sub19_P (Stroke group, paretic side evaluation).
+- **Gait Speed:** 0.26 m/s. This speed falls into the household ambulator band (<0.4 m/s), which denotes a speed range but does not directly measure real-world community mobility, safety, or independence.
+- **Cadence:** 63.6 steps/min.
+- **Step Length Symmetry Index:** 12.6% (calculated using the successive_footfall definition). The positive value indicates the step length on the paretic side is longer than that on the non-paretic side.
+- **Analyzed Gait Cycle:** Cycle runs from 0% (initial contact of the paretic limb) to 100% (successive initial contact).
+
+**2. EMG Envelope and Threshold Findings**
+Measurements in this section describe averaged, normalized envelopes and algorithmically detected intervals (where the average envelope exceeds 20% of its own maximum). These values do not establish single-stride physiological onset, offset, absolute muscle strength, force, or true electrical silence outside the intervals. 
+
+- **Interval Coverage and Boundaries:** All evaluated muscles demonstrated above-threshold envelope intervals that wrapped continuously across the cycle-defining initial contact boundary.
+  - BF and ERS were maintained above threshold for 100% of the analysis cycle. 
+  - Nearly continuous above-threshold coverage was also detected for TA (99%, interval 48%-48%), RF (97%, interval 97%-91%), and ST (95%, interval 65%-57%). 
+  - GAS coverage was 70% of the cycle, separated into two intervals: 73%-82% and 97%-57%. 
+  - VL coverage was 52% of the cycle, within a single interval from 99% to 50%.
+- **Peak Envelope Amplitudes:** Peak normalized envelope amplitudes, which reflect relative activity rather than absolute force, were recorded as 0.63 (ERS), 0.56 (ST and TA), 0.55 (GAS), 0.53 (BF), 0.45 (VL), and 0.42 (RF). 
+- **Co-Contraction Indices (CCI):** Based on the whole-cycle continuous envelopes:
+  - TA vs. GAS CCI is 0.72. This is greater than the supplied empirical median (0.39) and exceeds the healthy reference interval of 0.24–0.59.
+  - RF vs. BF CCI is 0.83. This aligns with the upper boundary endpoint of the supplied healthy reference interval (0.48–0.83; median 0.68).
+  *(Note: CCI index values depend heavily on the normalization method and do not automatically establish pathological stiffness, functional deficit, or normative muscular action.)*
+
+**3. Kinematic and Reference Comparisons**
+*Limitation of Reference Comparison:* The subject’s gait speed (0.26 m/s) is well below the minimum self-selected speed of the pooled healthy reference cohort (0.80 m/s). Because no speed-matched reference is available, quantitative deviations from the reference mean conflate the mechanical effects of slow walking with stroke-specific physiological changes. Deviations from this unmatched reference do not inherently establish clinical diagnoses or specific pathological deficits.
+
+- **Kinematic Composite Score:** The composite kinematic deviation score (GPS-like) is 14.54, which exceeds both the median (5.1) and the 95th percentile (10.7) of the supplied healthy reference.
+- **Sagittal Joint Deviations and ROM:**
+  - Knee: Range of motion is 15.6°; Gait Variable Score (GVS) is 18.73.
+  - Hip: Range of motion is 18.7°; GVS is 18.58.
+  - Ankle: Range of motion is 20.7°; GVS is 10.99.
+  - Pelvis: Range of motion is 8.2°; GVS is 5.44.
+  *(Note: Limited sagittal ROM alone does not confirm clinical restriction without matched comparisons).*
+- **Maximum Standarized EMG Deviations (Max |z|):** The values below represent the largest statistical difference from the reference at a specific phase point, not the time of peak envelope amplitude or a specific gait event. Extreme values are expected statistically and should be interpreted alongside provided healthy reference ranges rather than conventional two-standard-deviation limits.
+  - GAS: Max |z| = 8.1 (above the phase-specific reference mean at 2% of the cycle, proximate to initial contact).
+  - ERS: Max |z| = 5.3 (above reference at 81%).
+  - VL: Max |z| = 4.5 (above reference at 28%).
+  - BF: Max |z| = 3.9 (above reference at 19%).
+  - ST: Max |z| = 3.5 (above reference at 49%).
+  - TA: Max |z| = 2.7 (above reference at 35%).
+  - RF: Max |z| = 2.6 (above reference at 29%).
+
+**4. Questions for Further Clinical Assessment**
+- Does the step length asymmetry (+12.6%) reflect a compensatory advancement strategy on the paretic side, impaired advancement on the non-paretic side, or balance/weight-acceptance challenges?
+- Can clinical range-of-motion or spasticity testing help clarify whether the reduced sagittal joint ROMs observed here stem from intrinsic structural contracture, spasticity, or simply mechanical adaptations required for stability at 0.26 m/s?
+- To what extent does the near-continuous above-threshold envelope coverage in BF, ERS, TA, RF, and ST represent underlying tonal abnormalities (e.g., spasticity), compensatory co-activation for postural stability, or artifactual overlap from envelope smoothing at extremely slow cadences?
+- How much of the elevated TA vs. GAS co-contraction index (0.72) is a deliberate neuromuscular stabilization strategy versus impaired reciprocal inhibition?

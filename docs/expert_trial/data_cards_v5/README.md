@@ -1,24 +1,24 @@
-# 5例数据卡草稿
+# Draft data cards for 5 cases
 
-打开 index.html 浏览并交互审核全部病例（图和审核功能内嵌，可离线使用）。每例 card.html 可单独分享。
-最前面的通用审核区只审一次；导出包含common_rules及五例病例区，common_rules不是第六例受试者。
-单例页面也附带同一版通用区，便于独立使用。
-先填写专家编号并点击“开始／载入审核”，再逐条接受/修改/删除和补充条目。
-完成后导出 JSON 交回研究者；CSV可用Excel查看，JSON可跨设备续填。不同专家使用不同编号。
-浏览器暂存不是正式交回，也不会修改磁盘上的原始文件；请务必导出。
-每例还提供 PNG/PDF 图、model_system_prompt.txt、model_user_prompt.txt、model_messages.json、
-summary.json、facts.json、reference_card.md、checklist_DRAFT.md 和专家可编辑 CSV。
+Open index.html to browse and interactively review all cases (figures and review functions are embedded and available offline). Each case's card.html can be shared separately.
+Review the common review section at the beginning only once; the export includes common_rules and the five case sections; common_rules is not a sixth participant.
+Single-case pages also include the same version of the common section for standalone use.
+First enter your expert ID and click “Start／load review”, then accept/modify/delete items individually and add items.
+When finished, export the JSON and return it to the researcher; CSV can be viewed in Excel, and JSON allows completion to resume across devices. Different experts should use different IDs.
+Temporary browser storage is not formal submission and does not modify the original files on disk; be sure to export.
+Each case also provides PNG/PDF figures, model_system_prompt.txt, model_user_prompt.txt, model_messages.json,
+summary.json, facts.json, reference_card.md, checklist_DRAFT.md, and an expert-editable CSV.
 
-这是专家准备材料，没有模型报告、模型身份或答案键。先由专家审定清单，再开展盲评。
-不要将候选“必须描述”条目直接作为扣分标准；不得因模型没有提及专家补充图或未提供的
-详细分位数而扣分。核查数值时考虑模型输入的显示精度，不能用机器全精度追责。
+These are expert preparation materials, with no model reports, model identities, or answer key. Experts first review and finalize the checklists, then blinded rating begins.
+Do not directly use candidate “must describe” items as deduction criteria; do not deduct points because the model did not mention expert supplementary figures or detailed percentiles
+that were not provided. When checking values, consider the display precision of the model input; do not hold the model accountable to full machine precision.
 
-模型输入快照与当前正式入口使用相同函数；任何后续prompt/数据变动都应重新生成新版本，
-并核对实际报告中保存的system_prompt/user_prompt，而不是假定永远一致。
-健康Sub49使用排除本人的137人参考，各肌肉有效n另列；经验校准分布与本例参考成员不是同一个概念。
-此项目仅评估给定证据下的报告忠实性与解释边界，不验证诊断或治疗。
+The model input snapshot uses the same function as the current formal entry point; any subsequent prompt/data changes should trigger regeneration as a new version,
+and the system_prompt/user_prompt saved in the actual reports should be checked rather than assumed to remain identical forever.
+Healthy Sub49 uses a 137-person reference excluding this participant, with the valid n for each muscle listed separately; the empirical calibration distribution and reference membership for this case are not the same concept.
+This project evaluates only report faithfulness and interpretive boundaries given the evidence provided; it does not validate diagnosis or treatment.
 
-生成命令示例：
+Example generation command:
 `python scripts/build_expert_trial_package.py --verified-cache --out docs/expert_trial/data_cards_vNEXT`
-也可省略 --verified-cache 直接读取发布Excel/MAT。已有目录不覆盖，以保留专家编辑。
-manifest.json记录来源、源码和所有交付物哈希；缓存不在Git中，需本地数据或选择直接读取。
+Alternatively, omit --verified-cache to read the released Excel/MAT directly. Existing directories are not overwritten, to preserve expert edits.
+manifest.json records the sources, source code, and hashes of all deliverables; the cache is not in Git, so local data are required or direct reading must be selected.

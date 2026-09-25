@@ -1,0 +1,20 @@
+{
+  "status": "Passed",
+  "v1_package_and_returns_unchanged": true,
+  "original_proposal_fields_match_template": true,
+  "other_reviewers_fields_not_filled": true,
+  "rater1_D04_replacement_reproduced_verbatim": true,
+  "unrelated_protocol_sections_unchanged": true,
+  "new_approval_fields_blank": true,
+  "final_case_requirements_unchanged": true,
+  "english_only": true,
+  "model_calls": 0,
+  "both_experts_accepted_v1": [
+    "D02",
+    "D07"
+  ],
+  "D04_v2_confirmation": "Pending from both reviewers",
+  "rater1_capacity": "Pending",
+  "rater2_capacity": "Conditional acceptance; delivery-order clarification requested",
+  "study_lead_decisions": "Pending"
+}

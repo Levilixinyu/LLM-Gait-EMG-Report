@@ -1,0 +1,19 @@
+{
+  "changes": [
+    {
+      "id": "V2-01",
+      "location": "Section 6",
+      "old_text": "The flags add descriptive labels to existing confirmed issue groups, not new errors or extra penalties. One report may trigger both. Cases with pending potentially qualifying issues remain indeterminate for that flag. Both experts must confirm these operational flag definitions before they are used; until then they remain proposed. Do not label their proportions diagnostic false-positive rates, sensitivity or specificity.",
+      "revised_text": "The flags add descriptive labels to existing confirmed issue groups, not new errors or extra penalties. One report may trigger both.\n\nDetermine each semantic flag separately. A flag is positive once at least one confirmed in-scope issue satisfies its definition, even if another potentially qualifying issue remains pending. A flag is negative only after a complete issue review finds no confirmed or pending issue qualifying for that flag. Otherwise it is indeterminate. A pending issue relevant only to the other flag does not make this flag indeterminate once this flag has been fully assessed.\n\nA control EMG route-C statement that all seven displayed max |z| values are below the supplied 3.65 endpoint is a displayed-value comparison and does not itself trigger the normality flag. A question presupposing an unsupported clinical deficit is assessed as an assertion under the existing rubric; the pathology flag for that presupposition requires a confirmed E02 issue, not question syntax alone. Other flag-qualifying assertions remain assessed under their applicable existing error categories. No new mandatory report content, error category or penalty is introduced.\n\nBoth experts must confirm this revised operational wording before use. Rater2's v1 approval is not approval of the changed wording. Do not label their proportions diagnostic false-positive rates, sensitivity or specificity.",
+      "reason": "Confirmed-positive precedence and independent status for each flag, plus contextual examples.",
+      "confirmation": "Both experts pending"
+    },
+    {
+      "id": "V2-02",
+      "location": "Title/status/source link",
+      "reason": "Accurate revision status and link to unchanged exposure evidence.",
+      "confirmation": "Administrative only"
+    }
+  ],
+  "unchanged": "All other substantive protocol paragraphs, including sample, primary outcome, statistics, retries, blinding and required case content, are byte-identical to v1."
+}

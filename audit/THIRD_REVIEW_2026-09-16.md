@@ -1,103 +1,103 @@
-# 第三轮独立审查：第二批修复之后
+# Third independent review: after the second batch of fixes
 
-日期：2026-09-16。受审源码快照：`review3/source_manifest.json`。
+Date: 2026-09-16. Source snapshot under review: `review3/source_manifest.json`.
 
-## 结论
+## Conclusion
 
-**大部分上一轮问题已修复，不需要再推倒重做。还剩两项影响正式生成/评价的主要衔接问题：历史归档会混进盲评包，以及留一法/自定义参考的说明与计算不一致。** 另有归档命名、缓存类型检查、缺失原因和响应标识的较小收尾问题。
+**Most issues from the previous round have been fixed; there is no need to start over. Two major integration issues affecting formal generation/evaluation remain: historical archives can enter blinded rating packets, and the descriptions of leave-one-out/custom references are inconsistent with the calculations.** There are also smaller closeout issues involving archive naming, cache type checks, reasons for missingness, and response identifiers.
 
-本轮没有调用任何付费API，没有修改正式源代码。复制代码到临时目录后运行测试，额外使用假provider执行两个实际生成入口；从前次已验证的发布曲线快照复算238份摘要。不能把本轮本地通过解释成真实SDK接口或临床有效性已经验证。
+No paid APIs were called in this round, and no production source code was modified. Tests were run after copying the code to a temporary directory, and a fake provider was additionally used to exercise two actual generation entry points; 238 summaries were recomputed from the previously verified snapshot of the released curves. Passing locally in this round cannot be interpreted as verification of the actual SDK interfaces or clinical validity.
 
-## 独立确认通过
+## Independently confirmed passes
 
-- **现有28项测试全部通过。**
-- 患者与健康两个实际入口均调用统一缓存逻辑，均输出v2。假provider端到端试验中，每个入口首次生成3份，完全相同的第二次执行新增调用0次。
-- 健康入口确实排除了被测者。测试被测C1，参考成员仅C0/C2；不是只改reference_id而未改计算。
-- 空白文本、无成功终止状态、输入/参数/数据/代码哈希变化的主要缓存检查已补齐。
-- raw提示词不再错误附上138人、1001点和主数据集分位数。
-- Sub46的六个缺失通道现已明确列出；Sub47使用了已知未采集原因。
-- 可选步长定义现沿records→lookup→summary→文本传递。
-- 环形交集反例95%→5%不覆盖74%–87%，现正确判False；脚本对区间/文本和raw尺度失败能非零退出。
-- normalized路径部分NaN有质量警示，CCI被省略，严格JSON通过。该验证不扩大为所有原始连续信号缺失情况均已支持。
-- 全部238份真实曲线摘要仍通过严格JSON，Sub50/Sub05多段/跨界结果保持正确。
-- README不再指示分发v1评分包，专家参考标准和评价次序已改写；Sub46扶手协助表述已改正。
-- 响应模型、标识与usage开始随报告保存；API SDK完整依赖锁仍是实际调用前的待办。
+- **All 28 existing tests passed.**
+- Both the patient and healthy-control actual entry points invoke the unified caching logic and output v2. In the fake-provider end-to-end test, each entry point generated 3 reports on the first run, with 0 additional calls on an identical second run.
+- The healthy-control entry point did exclude the subject being evaluated. For test subject C1, the reference members were only C0/C2; this was not merely a change to reference_id without changing the calculation.
+- The main cache checks for blank text, lack of a successful termination status, and changes to input/parameter/data/code hashes have been added.
+- The raw prompt no longer incorrectly appends 138 subjects, 1001 points, and main-dataset quantiles.
+- The six missing channels for Sub46 are now explicitly listed; the known reason for non-acquisition is used for Sub47.
+- The optional step-length definition is now passed along records→lookup→summary→text.
+- The circular-intersection counterexample 95%→5% does not cover 74%–87% and is now correctly evaluated as False; the script can exit with a nonzero status for interval/text and raw-scale failures.
+- Partial NaN values in the normalized path produce a quality warning, CCI is omitted, and strict JSON validation passes. This verification does not extend to a claim that all missing-data situations in raw continuous signals are supported.
+- All 238 real-curve summaries still pass strict JSON validation, and the Sub50/Sub05 multi-interval/boundary-crossing results remain correct.
+- README no longer instructs distribution of the v1 rating packets, and the expert reference standard and evaluation sequence have been rewritten; the wording on handrail assistance for Sub46 has been corrected.
+- The response model, identifiers, and usage are now being saved with reports; complete API SDK dependency locking remains a to-do before actual calls.
 
-## T1：归档与盲评打包没有衔接——高优先级，正式评分前必须修复
+## T1: Archiving and blinded rating packet creation are not integrated—high priority, must be fixed before formal rating
 
-位置：`src/llm/generation_cache.py:127–136`，`src/eval/blinding.py:74`。
+Location: `src/llm/generation_cache.py:127–136`, `src/eval/blinding.py:74`.
 
-`place_record()`把旧结果保存为同目录的 `*.superseded-时间.json`。`create_rating_packets()`仍遍历该目录全部 `*.json`，既不排除历史归档，也不检查成功终止/截断状态或同任务唯一性。
+`place_record()` saves old results as `*.superseded-time.json` in the same directory. `create_rating_packets()` still iterates over all `*.json` in that directory, neither excluding historical archives nor checking successful termination/truncation status or uniqueness for the same task.
 
-**独立复现**：先写一份截断的旧报告，再写一份正常新报告，然后调用真实打包函数。应只有1份当前报告，实际产生2条评分项，文本为 `OLD_INVALID_TRUNCATED` 和 `NEW_VALID`。这可能重复纳入同一模型、混合不同输入版本并把失败报告交给评分者。
+**Independent reproduction**: First write a truncated old report, then write a normal new report, and then call the actual packet-creation function. There should be only 1 current report, but 2 rating items were actually produced, with the text `OLD_INVALID_TRUNCATED` and `NEW_VALID`. This could include the same model more than once, mix different input versions, and deliver failed reports to raters.
 
-这是在临时目录构造的真实代码失败模式，未声称正式v2评分包已经污染，因为正式报告还未生成。
+This is a failure mode of the actual code constructed in a temporary directory, not a claim that the formal v2 rating packets have already been contaminated, because the formal reports have not yet been generated.
 
-建议：历史记录移入明确的archive子目录；评分包以本次实验的成功任务清单为准，不以目录里所有JSON为准。校验受试者/侧别、提供商、提示词/输入版本、成功终止、无截断及预期模型数量。历史、失败和重复任务应排除或明确报错。
+Recommendation: Move historical records into an explicit archive subdirectory; base rating packets on the list of successful tasks for the current experiment, not on all JSON files in the directory. Validate subject/side, provider, prompt/input version, successful termination, absence of truncation, and the expected number of models. Historical, failed, and duplicate tasks should be excluded or trigger explicit errors.
 
-验收：新旧并存、失败/截断、缺模型、重复模型、不同输入版本五类情况有本地集成测试；正常一人三模型只能形成三条本轮评分项。
+Acceptance criteria: Local integration tests cover five types of situations: coexisting new and old records, failure/truncation, missing models, duplicate models, and different input versions; normally, one subject with three models must produce only three rating items for the current round.
 
-## T2：留一法已计算，但参考说明仍是全队列——高优先级，健康v2生成前修复
+## T2: Leave-one-out calculations are implemented, but the reference description still refers to the full cohort—high priority, fix before healthy-control v2 generation
 
-位置：`src/features/pipeline.py` 的 `_DEFS_MAIN_COHORT`、`extract_summary_from_normalized()`末尾；健康脚本reference_id与摘要之间的接口。
+Location: `_DEFS_MAIN_COHORT` and the end of `extract_summary_from_normalized()` in `src/features/pipeline.py`; the interface between reference_id in the healthy-control script and the summary.
 
-当前只要提供normative，normalized提取就标记 `reference_source="main_cohort_excel"`，没有携带参考人数、成员或方法。健康脚本的留一信息仅写入生成记录，没有进入模型看到的定义。
+Currently, whenever normative is supplied, normalized extraction labels it `reference_source="main_cohort_excel"`, without carrying the reference subject count, members, or method. The leave-one-out information in the healthy-control script is written only to the generation record and does not enter the definitions seen by the model.
 
-**实测Sub10**：实际参考是另外137人，GPS-like=7.2417，输入仍称138人，且没有说明本次实际采用留一参考。文本中的普通全样本分位数与“留一更高”的背景描述，不等于给出当前统计口径的校准。
+**Sub10 test result**: The actual reference comprises the other 137 subjects, GPS-like=7.2417, but the input still states 138 subjects and does not explain that a leave-one-out reference was actually used in this instance. The ordinary full-sample quantiles in the text and the background description that “leave-one-out is higher” do not amount to calibration for the statistical basis currently used.
 
-**通用反例**：3个对照、101点的NormalizedTrialData，也被自动称为主数据集138人、1001点。这说明R5只修复了raw入口，normalized自定义参考仍不正确。
+**General counterexample**: NormalizedTrialData with 3 controls and 101 points is also automatically described as the main dataset with 138 subjects and 1001 points. This shows that R5 fixed only the raw entry point; normalized custom references remain incorrect.
 
-建议参考构造函数返回结构化元数据：来源、方法、成员/排除者、运动学人数、各肌肉有效人数、相位点数及校准来源；摘要与提示词从该对象生成。对照留一法应明确说出本人已排除，区分本次参考与全队列背景分布，不能默认替用。自定义参考未知时使用通用说明，不能按调用函数名推定数据来源。
+Recommendation: Have the reference constructor return structured metadata: source, method, members/excluded subjects, kinematic subject count, valid subject count for each muscle, number of phase points, and calibration source; generate the summary and prompt from this object. Leave-one-out for controls should explicitly state that the subject has been excluded, distinguish the current reference from the full-cohort background distribution, and not substitute one for the other by default. When a custom reference is unknown, use a generic description; do not infer the data source from the called function's name.
 
-验收：完整主参考、Sub10留一参考、3人自定义参考分别输出正确人数/方法/点数；任何校准分位数都有适用范围标识。
+Acceptance criteria: The full main reference, Sub10 leave-one-out reference, and 3-subject custom reference each output the correct subject count/method/point count; every calibration quantile is labeled with its scope of applicability.
 
-## T3：归档文件秒级时间戳可能覆盖更早历史——中优先级
+## T3: Second-resolution timestamps on archive files may overwrite earlier history—medium priority
 
-位置：`generation_cache.py:133–135`。
+Location: `generation_cache.py:133–135`.
 
-固定同一秒连续写入FIRST、SECOND、THIRD三个版本，最终只剩SECOND和THIRD，FIRST丢失：第二次rename使用同一归档目标，覆盖了第一次归档。正式API通常比一秒慢，这不是每次运行都会发生，但“不覆盖任何历史”的承诺不成立。
+With the time fixed to the same second, writing three versions FIRST, SECOND, THIRD consecutively leaves only SECOND and THIRD, with FIRST lost: the second rename uses the same archive destination, overwriting the first archive. Production API calls usually take longer than one second, so this does not happen on every run, but the promise of “not overwriting any history” does not hold.
 
-建议使用唯一任务/运行标识与不可覆盖的创建方式，并采用临时文件写完再替换当前文件。精度更高的时间戳只能减少碰撞，不能单独充当不覆盖保证。
+Recommendation: Use unique task/run identifiers and a creation method that cannot overwrite existing files, and finish writing a temporary file before replacing the current file. Higher-resolution timestamps can only reduce collisions; alone, they cannot guarantee no overwriting.
 
-验收：冻结时钟连续写入三次，三个版本均保留，且旧内容不变。
+Acceptance criteria: With the clock frozen, write three times consecutively; all three versions are retained, and the old contents remain unchanged.
 
-## T4：缓存遇到合法但非对象JSON会崩溃——中优先级
+## T4: The cache crashes on valid non-object JSON—medium priority
 
-位置：`generation_cache.py:103–113`。
+Location: `generation_cache.py:103–113`.
 
-现有测试只覆盖损坏JSON文本。若文件内容为 `[]`，解析成功后 `.get()` 抛AttributeError。有效性检查在生成循环try块之前，可能终止整批。report_text字段类型错误也缺少明确检查。
+Existing tests cover only malformed JSON text. If the file contains `[]`, parsing succeeds, but `.get()` raises AttributeError. The validity check occurs before the try block in the generation loop and may terminate the entire batch. An explicit check for an incorrect report_text field type is also missing.
 
-建议先验证顶层dict和必要字段类型，失败返回可解释的无效原因；不要让历史坏产物拖垮整个批次。
+Recommendation: First validate that the top level is a dict and that required fields have the correct types, returning an explainable reason for invalidity on failure; do not let bad historical artifacts bring down the entire batch.
 
-验收：列表、null、数字、字符串以及非字符串report_text均判无效且不抛异常。
+Acceptance criteria: Lists, null, numbers, strings, and non-string report_text are all deemed invalid without raising exceptions.
 
-## T5：缺失原因仍只修了一个病例——中优先级，扩展病例前补齐
+## T5: Missing-data reasons have still been fixed for only one case—medium priority, complete before expanding the cases
 
-当前 `DOCUMENTED_NO_ANALOG_SUBJECTS` 只有Sub47。原研究同时列出TVC11、TVC55、TVC57未采集模拟信号，分别对应Sub08、Sub47、Sub48；Sub08/Sub48输出仍称原因未公开，注释也如此断言。
+Currently, `DOCUMENTED_NO_ANALOG_SUBJECTS` contains only Sub47. The original study also lists TVC11, TVC55, TVC57 as having no analog signal acquisition, corresponding to Sub08, Sub47, Sub48 respectively; the Sub08/Sub48 outputs still state that the reason was not disclosed, and the comments make the same assertion.
 
-建议按已核验的原编号映射修正三人；Sub43不能无依据补成同一原因。原因映射应包含数据来源和group，避免不同队列相同Sub编号或通用输入误用。具体来源见主数据集审查及原论文数据记录。
+Recommendation: Correct all three subjects according to the verified mapping of original identifiers; do not assign the same reason to Sub43 without evidence. The reason mapping should include the data source and group to avoid misuse for identical Sub identifiers across different cohorts or generic inputs. For specific sources, see the main-dataset review and the data records in the original paper.
 
-验收：三名已知病例正确说明，原因未知者继续明确未知；健康/自定义同名ID不能套用卒中原因。
+Acceptance criteria: The three known cases have correct explanations, while unknown reasons remain explicitly unknown; stroke reasons must not be applied to identical IDs in healthy-control/custom data.
 
-## T6：响应元数据字段语义仍需整理——较低优先级，实际采集前完成
+## T6: Response metadata field semantics still need organizing—lower priority, complete before actual collection
 
-`extract_openai_metadata()`即使响应对象带有 `_request_id="req-REQUEST"`，仍把 `id="chatcmpl-RESPONSE"` 写入request_id。不同厂商现在把请求标识、消息标识、响应标识混放在同一字段。追溯能力比之前好，但字段含义不一致。
+`extract_openai_metadata()` still writes `id="chatcmpl-RESPONSE"` into request_id even when the response object has `_request_id="req-REQUEST"`. Request identifiers, message identifiers, and response identifiers from different vendors are currently mixed in the same field. Traceability is better than before, but the field meaning is inconsistent.
 
-建议分别保存request_id与response/message_id，缺什么留空，不冒名替代；usage保留JSON可序列化的嵌套明细，当前 `_usage_dict()`会过滤掉嵌套字典。完整SDK依赖锁和实际接口小样例仍未验证，应在正式采集前完成。
+Recommendation: Save request_id and response/message_id separately, leaving missing values empty rather than substituting one under another name; retain JSON-serializable nested details in usage, as the current `_usage_dict()` filters out nested dictionaries. The complete SDK dependency lock and small actual-interface examples remain unverified and should be completed before formal collection.
 
-本轮只检查本地提取函数和模拟对象，没有据此宣称实际服务端字段一定齐全。
+This round checked only local extraction functions and mock objects; no claim was made on that basis that actual server-side fields are necessarily complete.
 
-## 已知未完成事项，不再混同为“修复失败”
+## Known unfinished items, no longer conflated with “failed fixes”
 
-- 个体toe-off、年龄等仍有意不进入输入。可作为预先定义的简化输入条件，但应限制阶段解释；未来若扩大临床解释范围再接入。
-- 正式评分表/病例参考清单与专家试评尚待组织。README方案改正确不等于材料已经制作。
-- 阈值变更仍是方法改变，应保持已有敏感性说明；不用重复回退已经修好的多区间算法。
-- 验收脚本现在能对部分关键失败退出，但阈值表/校准部分仍主要计算并保存，没有与明确期望值绑定的失败条件。不宜把末尾ALL CHECKS PASSED理解为每个数字都已自动对照。
+- Individual toe-off, age, and other information are still intentionally excluded from the input. This can serve as a predefined simplified-input condition, but phase interpretation should be limited; incorporate them later if the scope of clinical interpretation is expanded.
+- Formal rating forms/case reference checklists and expert pilot rating still need to be organized. Correcting the plan in README does not mean the materials have already been produced.
+- A threshold change remains a methodological change, and the existing sensitivity explanation should be retained; there is no need to repeatedly roll back the already-fixed multi-interval algorithm.
+- The acceptance script can now exit on some key failures, but the threshold-table/calibration sections still mainly calculate and save results, without failure conditions tied to explicit expected values. The final ALL CHECKS PASSED should not be interpreted as meaning that every number has been automatically checked against a reference.
 
-## 建议下一步
+## Recommended next steps
 
-优先修T1和T2，再补T3–T5的小范围回归测试。T6与完整SDK锁在实际采集前完成。不要再重复修改已通过的信号提取主逻辑。
+Prioritize fixing T1 and T2, then add narrowly scoped regression tests for T3–T5. Complete T6 and the full SDK lock before actual collection. Do not repeatedly modify the core signal-extraction logic that has already passed.
 
-然后准备3–5例开发材料和少量v2样例，用于核对最终输入和评分可行性。是否调用付费API仍按用户授权执行。
+Then prepare development materials for 3–5 cases and a small number of v2 examples to check the final input and rating feasibility. Whether to call paid APIs remains subject to user authorization.
 
-证据：`review3/probe.py` / `probes.json`，`entrypoints.py` / `entrypoint_checks.json`，`Sub10_LOO_input.txt`，`source_manifest.json`和`source_end_check.json`。
+Evidence: `review3/probe.py` / `probes.json`, `entrypoints.py` / `entrypoint_checks.json`, `Sub10_LOO_input.txt`, `source_manifest.json` and `source_end_check.json`.

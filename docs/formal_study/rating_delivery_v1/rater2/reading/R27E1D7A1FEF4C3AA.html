@@ -1,0 +1,216 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>R27E1D7A1FEF4C3AA - independent review</title><style>body{font:17px/1.6 system-ui,sans-serif;color:#182c35;background:#f3f6f7;margin:0}main{max-width:1100px;margin:auto;padding:28px}header,section,details{background:white;padding:20px 25px;border:1px solid #d4dfe3;border-radius:10px;margin:18px 0}h1{line-height:1.25;font-size:29px}h2{font-size:23px}a{color:#075c78}nav{display:flex;gap:18px;flex-wrap:wrap}.notice{background:#eaf4f5;padding:14px;border-left:4px solid #187786}table{border-collapse:collapse;width:100%;background:white}th,td{border:1px solid #d4dfe3;padding:10px;text-align:left;vertical-align:top}th{background:#eaf0f3}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:16px/1.65 system-ui,sans-serif}code{overflow-wrap:anywhere}img{max-width:100%;height:auto}summary{cursor:pointer;font-weight:650}.scroll{overflow:auto}.small{font-size:14px;color:#465e69}@media print{nav{display:none}body{background:white}main{max-width:none;padding:0}details{break-inside:avoid}table{font-size:12px}}</style></head><body><main><header><nav><a href="../START_HERE.html">Report list</a><a href="../HOW_TO_REVIEW.html">Filling instructions</a><a href="../Independent_ratings.xlsx">Rating workbook</a><a href="RA8E2A0BC8C193783.html">Previous report</a><a href="R458C2720FA49CDB2.html">Next report</a></nav><p class="small">rater2 / Report 50 of 105 / Review spreadsheet row 51</p><h1>R27E1D7A1FEF4C3AA</h1><p>Case: <strong>stroke_Sub16_P</strong></p><p class="notice">Read this report independently. Record judgments in the workbook. Browser pages do not save ratings.</p></header>
+<section><h2>Report: exact saved text</h2><p><a href="../reports/R27E1D7A1FEF4C3AA.txt">Open the original text file</a></p><pre id="report-text"># Gait Report Interpretation — Sub16_P
+**Interpretation version:** limited-evidence-v3.1-candidate
+**Scope:** Research interpretation of a supplied quantitative summary. Not a diagnosis, not a treatment recommendation.
+
+---
+
+## 1. Objective Findings
+
+**Participant and side.** Sub16_P is a participant in the **stroke** cohort; the analysed limb is the **paretic** side. The released cycle for this limb runs from initial contact of the paretic limb (0%) to the next initial contact of that same limb (100%); these are two successive occurrences of the same event, not a single instant. **No intermediate gait event (including toe-off) and no phase boundary are supplied**, so all timing below is expressed purely as a percentage of the analysis cycle.
+
+**Spatiotemporal values as supplied.**
+- Gait speed **1.36 m/s**, labelled &quot;full community ambulator (&gt;0.8 m/s)&quot;. This label denotes a **speed band only**; it does not measure walking independence, safety, or real-world community mobility.
+- Cadence **116.2 steps/min**.
+- Step length symmetry index **−5.1%** (definition used: **successive-footfall**). By the stated sign convention, a negative value means the **paretic step is the shorter of the two**. The alternative instantaneous definition can yield a different value in some subjects and was not the one applied here.
+- Composite kinematic deviation score (**GPS-like**, RMS of sagittal Gait Variable Scores only) = **7.39**.
+
+**Reference used.** Deviations are computed against **138 pooled healthy subjects** (1001 phase points, source: main_cohort_excel). This reference pools both body sides and all ages and is **not age-, sex-, or speed-matched** to this participant. This subject&#x27;s speed (1.36 m/s) falls inside the healthy cohort&#x27;s overall self-selected speed span (0.80–1.79 m/s), so the dataset-wide &quot;no speed-matched reference&quot; floor does not apply here — but a speed lying inside an overall range **does not establish that an appropriately matched reference subgroup exists**. Any difference from this reference is therefore a **difference from an empirical pooled comparison distribution**, and cannot by itself establish a disease effect, a stroke-specific control change, or a clinical diagnosis. The same caution applies symmetrically to control participants.
+
+**What is not available in this input.** Individual toe-off and event timings; matched muscle-specific normal timing bands; stride-to-stride variability; raw-signal quality checks; expert waveform plots; coronal- and transverse-plane kinematics; non-paretic-side EMG or kinematics; and demographic/clinical fields (age, sex, time post-stroke, stroke severity scores). Some of these fields may exist in the wider release; their absence **here** is an information boundary of this summary and must not be described as absent from the source dataset. Seven EMG channels (GAS, RF, VL, BF, ST, TA, ERS) are supplied, with no documented absent recordings for this participant.
+
+---
+
+## 2. EMG Envelope and Threshold Findings
+
+**How to read these numbers.** All EMG values are properties of an **ensemble-averaged envelope** per muscle, normalized to a shared maximum across available strides (participant-, side-, and muscle-specific denominator; not shared between sides), then thresholded at **20% of that curve&#x27;s own peak** with a **minimum retained interval of 3% of the cycle**. Consequently:
+- Amplitudes are **relative envelope values** — not neural drive, force, or strength. Muscles must not be ranked as stronger or weaker from them.
+- Intervals are **detections on a mean curve**, not physiological onsets, offsets, contraction durations, or proof of inactivity outside the intervals. A region without a retained interval may have been below threshold, or above threshold for less than 3% of the cycle; the supplied evidence does not distinguish these, and does not establish that any muscle had no below-threshold segment.
+- An averaged curve **cannot** show that the same pattern occurred in every stride.
+- Percentages are cycle positions only. No interval is assigned here to stance, swing, loading, push-off, clearance, or weight acceptance, and no timing is called normal, early, late, or prolonged, because the required event and matched-timing references are not supplied.
+
+**Per-muscle summary (as detected):**
+
+| Muscle | Retained interval(s) (% cycle) | Coverage | Peak norm. amp. | Max abs. z (location) |
+|---|---|---|---|---|
+| GAS | 1–6; 9–15; 21–47 | 39% | 0.88 | 3.4 above reference @ 35% |
+| RF | 30–33; 40–48; 58–67; **82–13 (wraps)** | 55% | 0.72 | 3.1 above reference @ 43% |
+| VL | 22–27; 28–34; 36–46; **82–18 (wraps)** | 61% | 0.63 | 1.5 below reference @ 98% |
+| BF | 28–43; 60–64; **85–27 (wraps)** | 61% | 0.63 | 2.8 above reference @ 35% |
+| ST | 50–64; **79–42 (wraps)** | 79% | 0.84 | 4.6 above reference @ 37% |
+| TA | 59–75; **94–7 (wraps)** | 30% | 0.74 | 2.2 below reference @ 76% |
+| ERS | 47–64; 79–82 | 23% | 0.80 | 2.8 above reference @ 56% |
+
+**Boundary continuity.** Five channels (RF, VL, BF, ST, TA) show a retained interval that **wraps the 100%→0% boundary**, i.e. the mean envelope remained above its 20%-of-peak threshold across the cycle-defining initial-contact boundary. GAS has a detected onset at **1%**, numerically close to that boundary, and its first interval begins after the analysis-window start rather than at 0%. Wrapping is a statement about the averaged envelope at that boundary only; it carries no implication for any single stride or for muscle function at that event.
+
+**Standardized differences (max |z|).** Max |z| is an **extreme-value statistic** over 1001 phase points — the largest standardized difference from the phase-specific reference mean — and it marks **where the standardized difference is greatest, not where envelope amplitude peaks and not a gait event**. The conventional 2-SD rule does **not** apply: in this dataset every one of 109 healthy controls exceeds |z| = 2 on at least one muscle, and per-muscle healthy 95th percentiles for this statistic run **3.65 (ERS) to 4.61 (TA)**, higher still under leave-one-out. Against the two per-muscle percentiles actually supplied, **ERS 2.8 lies below the ERS 95th percentile of 3.65** and **TA 2.2 lies below the TA 95th percentile of 4.61**. Per-muscle 95th percentiles for GAS, RF, VL, BF and ST are **not supplied**, so their values (3.4, 3.1, 1.5, 2.8, 4.6) cannot be classified as inside or outside their own healthy ranges; ST&#x27;s 4.6 is the largest here and sits near the upper end of the supplied across-muscle percentile span, but the ST-specific limit needed to interpret it is unavailable. &quot;Above reference&quot; and &quot;below reference&quot; in this table mean **relative to the phase-specific reference mean at that phase point**, not relative to a healthy percentile limit.
+
+**Co-contraction indices.** CCI is the Falconer–Winter index over the **full continuous normalized envelopes** for the whole cycle (2 × common area / summed areas). It is a whole-cycle overlap index — **not simultaneous activation time, not force, not a phase-specific result** — and can be non-zero even when detected intervals do not overlap, because sub-threshold activity contributes. It is also method-dependent (normalization and envelope processing), so values and thresholds from other studies or algorithms do not transfer.
+- **TA vs GAS = 0.38**, against a healthy median of 0.39 (2.5th–97.5th pct 0.24–0.59): within the interval and essentially at the median.
+- **RF vs BF = 0.73**, against a healthy median of 0.68 (0.48–0.83): within the interval, above the median, and nearer the upper endpoint than the lower.
+
+Lying inside these empirical intervals does **not** establish physiologically normal co-activation or normal muscle function; lying outside them would not establish pathological co-activation, stiffness, impaired motor control, or any diagnosis.
+
+---
+
+## 3. Kinematic and Reference Comparisons
+
+All kinematic values are **sagittal plane only**; coronal and transverse channels are not included, so no statement about frontal- or transverse-plane mechanics is possible.
+
+| Channel (sagittal) | ROM (deg) | Gait Variable Score |
+|---|---|---|
+| Ankle | 27.1 | 1.84 |
+| Knee | 56.4 | 10.83 |
+| Hip | 45.0 | 3.14 |
+| Pelvis | 2.1 | 9.38 |
+
+**Composite (GPS-like) = 7.39**, the RMS of the four sagittal GVS values above. This is **not** the validated 9-variable GPS. Against the supplied composite reference (median 5.1, 95th percentile 10.7), 7.39 is **above the median and below the 95th percentile**. Note that the composite reference percentiles are **pooled calibration values**, not matched leave-one-out normal limits for this participant.
+
+**What GVS and the composite can and cannot say.** Both are **summary magnitudes of difference** from the stated pooled reference across the cycle. Neither localizes the deviation to a phase of the cycle, nor indicates its direction (e.g. greater flexion vs greater extension), nor identifies which portion of the waveform drives it. Within this subject&#x27;s profile, **knee (10.83)** contributes the largest single-joint difference, followed by **pelvis (9.38)**, with hip (3.14) and ankle (1.84) smaller; this ranking describes the summary statistics only and does not indicate a mechanism, a lesion effect, or a target for intervention.
+
+**ROM interpretation limit.** ROM values alone do not establish a clinical restriction or excess: no ROM reference distribution is supplied for any joint here. In particular, the small sagittal pelvic ROM (2.1°) cannot be called restricted, and the knee ROM (56.4°) cannot be called normal or abnormal, without an appropriate matched comparison that this input does not provide. A joint may show a low GVS with atypical mechanics, or a high GVS driven by a systematic offset rather than a shape change; these possibilities are not separable from these summary values.
+
+**Overall comparability caveat (applies to Sections 2 and 3 alike).** The comparison reference is a pooled, non-matched healthy cohort. Differences from it are descriptive discrepancies from that particular empirical distribution. They do **not**, individually or in combination, establish a disease effect, a stroke-specific impairment, a severity grade, or statistical significance — none of which is supplied or derivable here.
+
+---
+
+## 4. Questions for Further Clinical Assessment
+
+These are open questions raised by the limits of this summary. None presupposes that the mechanism or measurement issue in question has been observed.
+
+1. **Event timing.** Are individual gait events (particularly paretic toe-off, and contralateral events) available in the wider release for this participant? Without them, no interval in Section 2 can be placed in a stance/swing framework, and no timing can be characterized as early, delayed, or prolonged.
+2. **Matched reference.** Is an age-, sex-, and speed-matched healthy subgroup (or a leave-one-out reference) retrievable for a 1.36 m/s ambulator, and would the EMG and kinematic deviations persist against such a reference? Would per-muscle 95th-percentile limits for GAS, RF, VL, BF and ST be obtainable so that their max |z| values can be placed in range?
+3. **Contralateral data.** Are non-paretic-side EMG and kinematics available for this subject? Because the EMG denominator is side-specific, any between-side amplitude comparison would need explicit handling of that normalization difference.
+4. **Signal quality.** Have raw-signal quality checks (crosstalk, baseline noise, electrode placement, artefact at the cycle boundary) been performed for the five channels whose envelopes wrap the initial-contact boundary, and for ERS? Whether such an issue exists is unknown from this summary.
+5. **Stride-level behaviour.** Are per-stride envelopes or variability measures retrievable, to determine whether the averaged pattern — especially the high-coverage channels (ST 79%, VL 61%, BF 61%) — reflects a consistent per-stride pattern or an average of differing strides?
+6. **Out-of-plane and composite composition.** Are coronal/transverse kinematics available, given that the composite here rests on four sagittal channels only? For the knee and pelvis GVS specifically, would waveform review clarify whether the summary difference reflects an offset, a shape difference, or a phase shift?
+7. **Clinical context.** Are time post-stroke, clinical scores, footwear/orthosis use, and assistive-device use documented for this session, and are the walking conditions during capture comparable to those assumed by the reference cohort?
+8. **Symmetry definition.** Would the instantaneous step-length definition yield a materially different symmetry value for this subject than the successive-footfall value of −5.1%, and which definition is preferred for the intended comparison?</pre></section>
+<section><h2>Requirements for this report</h2><p>Fill the corresponding Coverage rows in the workbook. G03 is included once. These are the approved requirements, not prefilled judgments.</p><div class="scroll"><table><tr><th>Excel row</th><th>ID</th><th>Required content</th><th>Components / optional content</th></tr><tr><td>258</td><td>R037</td><td>Describe walking speed 1.36 m/s and that it is within the stated reference speed range; this does not establish individual matching.</td><td>AND: displayed speed and that it lies within the supplied 0.80-1.79 m/s span AND that an in-range speed does not establish an individually matched reference. Optional: position within the span. One sentence may also serve the comparability half of G03.</td></tr><tr><td>259</td><td>R038</td><td>Identify knee AND pelvis as the principal GVS differences AND distinguish the pelvic GVS difference from its small measured excursion (pelvic ROM 2.1 degrees). Exact GVS values are optional; identify the findings as reference-relative sagittal summary differences.</td><td>AND: knee AND pelvis AND contrast between pelvic GVS and small pelvic excursion (ROM 2.1). No offset direction, restriction or normative claim. Exact values optional.</td></tr><tr><td>260</td><td>R039</td><td>Describe EITHER (A) the ST envelope above its phase-specific reference mean at approximately 37% of the analysis cycle OR (B) broad ST mean-envelope above-threshold extent spanning the cycle boundary. One complete route suffices. The displayed max |z| 4.6 and coverage 79% are optional anchors.</td><td>Route A: ST AND above-mean direction AND approximate location. Route B: ST AND broad detected above-threshold extent AND boundary spanning. Exact magnitude, coverage and segment endpoints are optional. A displayed 4.6-versus-4.61 comparison is permitted; it does not determine hidden unrounded classification or physiological normality. No separate uncertainty sentence is a coverage component.</td></tr><tr><td>261</td><td>R042</td><td>Describe the supplied successive-footfall step-length index -5.1% and its meaning: the paretic step is shorter.</td><td>AND: displayed index and the direction supported by its sign. Optional: formula, definition wording. Acceptable phrasing for small displayed values: &quot;a small difference with the paretic step slightly shorter/longer&quot; (not a cutoff). Prohibited: restating the index as a percentage shortening (E01), severity grades, whole-gait symmetry generalization (E07 issue, not an omission).</td></tr><tr><td>262</td><td>G03</td><td>Express a meaningful limitation of reference comparability AND why the comparison cannot establish disease effects or clinical diagnosis; for controls it cannot establish disease or overall normality. One statement may also support a case requirement.</td><td>AND: comparability and inference limitations</td></tr></table></div></section>
+<details><summary>Exact model input: system instruction</summary><p><a href="../materials/stroke_Sub16_P/model_system_prompt.txt">Original file</a></p><pre id="system-text">Draft a research gait-report interpretation for a physical therapist
+or physiatrist using only the supplied quantitative summary. This is a limited-evidence
+interpretation task, not diagnosis or treatment selection.
+
+Rules:
+- Describe the participant&#x27;s actual group and side, available findings, and missing
+  channels accurately. Healthy-group membership does not prove normal physiology;
+  deviations from an empirical reference do not by themselves establish disease.
+- Treat detected EMG intervals and coverage as properties of an averaged envelope
+  under the stated threshold and duration rule. Do not convert them into physiological
+  onset, offset, duration, continuous contraction, or inactivity outside the intervals.
+  You may describe reported coverage, retained intervals and boundary continuity at
+  the mean-envelope level. Do not infer the same pattern in every individual stride.
+  Say no below-threshold segment only when the supplied evidence establishes that;
+  a rounded coverage value or no retained interval alone does not establish it.
+- Individual toe-off and matched muscle-specific timing references are not supplied
+  in this task. Use percentages of the analysis cycle. When the input explicitly
+  identifies an initial-contact boundary, you may name that boundary or describe
+  numerical proximity to it. Do not assign stance/swing, loading response, pre-swing,
+  mid-stance or another event to a percentage, or substitute a conventional 60% split.
+  Anatomical muscle actions may be named, but do not map an interval to a gait-phase
+  function such as clearance, push-off or weight acceptance. Do not characterize
+  timing as normal, early, delayed or prolonged without the required evidence.
+- Respect the supplied normalization method. Relative envelope amplitude is not
+  strength or force, and average curves do not establish stride-to-stride variability.
+- Report CCI as a whole-cycle overlap index of normalized EMG envelopes. You may
+  compare it with the supplied empirical interval or a supplied median, including
+  proximity to an endpoint. Do not invent an unavailable median. Being within that
+  interval does not establish physiologically normal co-activation or normal muscle
+  function; being outside it does not establish pathological co-activation, stiffness,
+  impaired control or a diagnosis. CCI is not simultaneous activation time, muscular
+  force or a phase-specific result. It depends on normalization and envelope methods;
+  do not transfer values or thresholds from other studies or algorithms.
+- Describe GVS and GPS-like as summary differences from the stated reference.
+  Neither localizes waveform direction or phase; ROM alone does not establish a
+  clinical restriction without an appropriate comparison. Do not treat pooled
+  calibration percentiles as matched leave-one-out normal limits.
+- Where using a reference comparison, convey both limited comparability and the
+  inability to establish a disease effect or clinical diagnosis from that comparison.
+  One clear explanation per report is enough; age and speed need not be recited as
+  separate checklist words. A speed inside an overall range does not prove that
+  an appropriate matched reference exists. Apply these limits to controls as well.
+- The location of maximum |z| is the largest standardized difference from the
+  reference, not necessarily the time of peak envelope amplitude or a gait event.
+  Above/below reference in an EMG row means relative to the phase-specific reference
+  mean at that location, not relative to a healthy percentile limit.
+- Preserve numerical direction and the displayed precision. Do not invent values,
+  clinical severity grades, statistical significance, or unavailable reference values.
+  Descriptive comparisons with supplied values remain allowed. Near-boundary rounded
+  values do not justify classifying hidden unrounded values.
+- Clinical follow-up questions may ask whether a mechanism or measurement issue
+  exists; do not presuppose it has already been observed. Do not recommend treatment.
+
+If EMG is unavailable, section 2 may simply state that envelope timing, amplitude
+and CCI cannot be assessed. Reference-only plots do not provide patient EMG.
+
+Use exactly these four sections:
+1. Objective Findings
+2. EMG Envelope and Threshold Findings
+3. Kinematic and Reference Comparisons
+4. Questions for Further Clinical Assessment
+</pre></details>
+<details><summary>Exact model input: case summary</summary><p><a href="../materials/stroke_Sub16_P/model_user_prompt.txt">Original file</a></p><pre id="user-text">Candidate interpretation version: limited-evidence-v3.1-candidate
+Draft the four-section report using only this subject&#x27;s supplied evidence.
+
+Metric definitions (read before interpreting any number below):
+- All joint angles and ROM values are SAGITTAL PLANE only. Coronal/transverse data are not included.
+- The released EMG curves are ensemble-averaged envelopes. For each participant and recorded muscle, normalization uses a shared maximum across the available strides before averaging; individual strides are not independently rescaled to their own peaks. This pipeline uses the released mean curves without further amplitude normalization. In the checked stroke release, the denominator is participant-, side-, and muscle-specific; it is not shared between sides. The local array audit verified 614 evaluable combinations, not all 700; 86 lacked valid nonzero paired samples. Amplitudes are relative envelope values, not absolute neural activation, force, or strength. Do not rank muscles as stronger or weaker from these amplitudes, or infer stride-to-stride variability from an average curve.
+- Above-threshold intervals are the regions where the averaged envelope exceeds 20% of that curve&#x27;s own peak, minimum retained interval 3% of the cycle (by sample count). An interval written as (X%-Y%) with X &gt; Y wraps across the 100%-&gt;0% cycle boundary (envelope remains above threshold across the cycle-defining event). An onset of 0% is the analysis-window boundary, not necessarily a physiological onset. &quot;No interval detected&quot; means no region met the threshold + duration criteria; it does NOT mean the muscle is inactive or non-functional.
+- CCI is the Falconer-Winter co-contraction index computed on the full continuous envelopes (2*common area / summed areas), so it can be non-zero even when the DETECTED burst intervals of the pair do not overlap (sub-threshold activity contributes).
+- The composite kinematic deviation score is the RMS of the per-joint Gait Variable Scores over the sagittal channels provided (&quot;GPS-like&quot;, not the validated 9-variable GPS).
+- Step length symmetry index: 200*(paretic - non-paretic)/(paretic + non-paretic), in %. NEGATIVE means the paretic-side step is SHORTER. Two operational step-length definitions exist (successive-footfall: each heel&#x27;s position at its own initial contact; instantaneous: both heels at the same instant) and give different values for some subjects -- the definition actually used is stated next to the symmetry value.
+- &quot;Max |z| deviation&quot; is the LARGEST absolute z-score across all 1001 phase points of the cycle, comparing this curve to the healthy-cohort mean/SD at each phase. This is an extreme-value statistic, NOT a single-observation z-score: in this dataset every one of 109 healthy controls exceeds |z| = 2 on at least one muscle, and per-muscle healthy 95th percentiles for this statistic run 3.65 (ERS) to 4.61 (TA) -- higher still under leave-one-out. Do not label a value abnormal by the conventional 2-SD rule; use the healthy reference range given per muscle where provided.
+- Healthy-cohort CCI reference (this dataset): RF-vs-BF median 0.68 (2.5th-97.5th pct 0.48-0.83); TA-vs-GAS median 0.39 (0.24-0.59). Composite score reference: median 5.1, 95th percentile 10.7.
+- COHORT BACKGROUND (calibration context, not necessarily the exact reference used for this subject -- the actual reference composition is stated in a dedicated line with the subject data below): the full healthy cohort is 138 subjects for kinematics, effective n = 106-109 per muscle for EMG (29 controls have no usable EMG; completeness varies by age), pooling both body sides and all ages; it is not age- or speed-matched to this subject. A leave-one-out run uses one subject fewer than these counts.
+- SPEED SUPPORT LIMIT (applies to most stroke subjects in this dataset): the healthy reference cohort&#x27;s self-selected walking speeds span 0.80-1.79 m/s. If this subject&#x27;s gait speed is below 0.80 m/s, NO speed-matched healthy reference exists in this dataset -- 41 of the 50 stroke subjects are below that floor. Deviations from the reference then conflate slow-walking effects with stroke-specific control changes, and the two cannot be separated from these data. Describe deviations from the reference as such; do not attribute them wholly to stroke pathology.
+- Additional source fields are outside this input. Age, sex and gait events may be available in the release; time post-stroke, stroke clinical scores and a non-paretic-side designation apply only to the stroke cohort, as applicable. Do not claim every listed field exists for every participant. Distinguish not supplied, not applicable and documented absent recordings.
+
+The released paretic-side cycle runs from initial contact of that limb at 0% to its next initial contact at 100%. The cycle boundary may be called initial contact; the endpoints are successive occurrences, not one instant. No intermediate event or phase boundary is supplied.
+
+Model-visible information boundary: the summary contains mean-curve metrics and algorithm-detected intervals, not individual toe-off, matched normal muscle timing, stride-level variability, raw-signal quality checks, or expert plots. Information not supplied here must not be described as absent from the source dataset. Gait-cycle percentages alone do not identify gait phases.
+
+Subject: Sub16_P (group: stroke, affected side: paretic)
+Gait speed: 1.36 m/s (full community ambulator (&gt;0.8 m/s)) [The ambulation label denotes a speed band only, not measured walking independence, safety or real-world community mobility.]
+Cadence: 116.2 steps/min
+Step length symmetry index: -5.1% (step-length definition: successive_footfall)
+Composite kinematic deviation score (GPS-like): 7.39
+Deviation reference actually used for this subject: 138 healthy subjects (pooled), 1001 phase points, source: main_cohort_excel.
+
+EMG envelope findings:
+- GAS: above-threshold interval(s) 1%-6%; 9%-15%; 21%-47%, 39% of cycle above threshold, peak normalized amplitude 0.88, max |z| vs healthy reference: 3.4 (above reference, at 35% of cycle)
+- RF: above-threshold interval(s) 30%-33%; 40%-48%; 58%-67%; 82%-13% (wraps cycle boundary), 55% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.72, max |z| vs healthy reference: 3.1 (above reference, at 43% of cycle)
+- VL: above-threshold interval(s) 22%-27%; 28%-34%; 36%-46%; 82%-18% (wraps cycle boundary), 61% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.63, max |z| vs healthy reference: 1.5 (below reference, at 98% of cycle)
+- BF: above-threshold interval(s) 28%-43%; 60%-64%; 85%-27% (wraps cycle boundary), 61% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.63, max |z| vs healthy reference: 2.8 (above reference, at 35% of cycle)
+- ST: above-threshold interval(s) 50%-64%; 79%-42% (wraps cycle boundary), 79% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.84, max |z| vs healthy reference: 4.6 (above reference, at 37% of cycle)
+- TA: above-threshold interval(s) 59%-75%; 94%-7% (wraps cycle boundary), 30% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.74, max |z| vs healthy reference: 2.2 (below reference, at 76% of cycle)
+- ERS: above-threshold interval(s) 47%-64%; 79%-82%, 23% of cycle above threshold, peak normalized amplitude 0.80, max |z| vs healthy reference: 2.8 (above reference, at 56% of cycle)
+
+Co-contraction indices:
+- TA_vs_GAS: CCI = 0.38
+- RF_vs_BF: CCI = 0.73
+
+Joint kinematic findings (sagittal plane):
+- AnkleAngles: range of motion 27.1 deg, Gait Variable Score 1.84
+- KneeAngles: range of motion 56.4 deg, Gait Variable Score 10.83
+- HipAngles: range of motion 45.0 deg, Gait Variable Score 3.14
+- PelvisAngles: range of motion 2.1 deg, Gait Variable Score 9.38</pre></details>
+<details><summary>Reference context for expert review</summary><p><a href="../materials/stroke_Sub16_P/reference_card.md">Original file</a></p><pre id="reference-text"># Reference context: stroke/Sub16_P
+
+Mean/SD reference: 138 controls; method pooled; exclusions: [].
+
+Effective reference counts: GAS=109, RF=108, VL=109, BF=106, ST=108, TA=107, ERS=106, AnkleAngles=138, KneeAngles=138, HipAngles=138, PelvisAngles=138.
+
+The exact system and user input files define what the model receives. The EMG and kinematic plots are supplementary expert evidence, not model inputs.
+The plotted mean plus/minus one SD is descriptive, not a clinical normal band. Negative lower EMG bands can result from mean minus SD; they do not imply negative recorded EMG.
+The max-|z| p95 span in the input is pooled calibration context. Complete muscle-specific LOO thresholds are not supplied; an appropriately indeterminate classification is allowed.
+Controls are excluded from their own mean/SD reference, but cohort-level calibration has prior reference-data reuse. It is not an independent matched clinical limit.
+GPS-like is a four-channel sagittal composite, not the validated nine-variable GPS. The pooled median/p95 background is not a matched LOO normality boundary.
+CCI uses continuous normalized envelopes over the whole analysis cycle. An empirical interval comparison does not establish normal muscle function.
+Threshold intervals and rounded coverage describe the averaged envelope. Rounded 100% coverage and one interval do not prove absence of short below-threshold gaps.
+Use the group-specific cycle and normalization provenance in the actual input. No individual intermediate gait events or matched normal muscle timing are supplied.
+Administrative age and published bilateral speed are not added to this input. Expert-visible plots do not justify requiring unseen direction, phase or morphology.
+
+For a new-case requirement, cite exact input evidence. Select clinically useful descriptive content without inferring a diagnosis or severity from rank alone.
+</pre></details>
+<details><summary>EMG and kinematic curves</summary><p>The curves are supplementary expert evidence. Only the saved text inputs were supplied to the model; do not require curve-only observations.</p><h2>EMG</h2><a href="../materials/stroke_Sub16_P/curves_emg.png"><img src="../materials/stroke_Sub16_P/curves_emg.png" alt="EMG curves for stroke_Sub16_P" loading="lazy"></a><h2>Kinematics</h2><a href="../materials/stroke_Sub16_P/curves_kinematics.png"><img src="../materials/stroke_Sub16_P/curves_kinematics.png" alt="Kinematic curves for stroke_Sub16_P" loading="lazy"></a></details>
+<section><nav><a href="RA8E2A0BC8C193783.html">Previous report</a><a href="../START_HERE.html">Report list</a><a href="R458C2720FA49CDB2.html">Next report</a></nav></section></main></body></html>

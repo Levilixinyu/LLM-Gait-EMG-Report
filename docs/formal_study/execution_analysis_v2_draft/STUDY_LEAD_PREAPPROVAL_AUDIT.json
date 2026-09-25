@@ -1,0 +1,33 @@
+{
+  "audit_at_utc": "2026-09-18T20:27:06.467285+00:00",
+  "status": "Audit advice; existing approvals and user statements not overwritten",
+  "recommendations": {
+    "D01": "Accept as written",
+    "D03": "Accept outcome choices; clarify joint-success unknown-state logic",
+    "D05": "Accept as exploratory prespecified analysis",
+    "D06": "Accept with required missingness bounds and accounting",
+    "D08": "Accept principles; clarify captured-text and permanent-error precedence",
+    "D09": "Do not freeze concrete settings before verification; 8000 remains a candidate",
+    "D11": "Accept readiness requirements, not a certification of completed checks"
+  },
+  "protocol_or_workbook_modified": false,
+  "approval_cells_filled": false,
+  "model_calls": 0,
+  "existing_package_and_sources_hashes_unchanged": true,
+  "audit_sha256": "c7256ae80c44e670de76cc2ce8c158b8ac7e4b9cfe68e7f587a63e4cf24b22cc",
+  "reviewed_files_sha256": {
+    "docs/formal_study/execution_analysis_v2_draft/PROTOCOL.md": "a4ce710d7beefe62b9c935a56053c61225609b5bffd8bdc7d416015d8365073e",
+    "docs/formal_study/execution_analysis_v2_draft/plan.json": "21083a33f225e2fe61cd9153bacb3d865f2333d942a5a9ff788a8624ffc3a431",
+    "docs/formal_study/execution_analysis_v2_draft/Targeted_confirmation.xlsx": "0ed947e23dc4d4fc00c41ca272d4100c52be2293054658a950a78a2c49d03d7f",
+    "src/llm/providers.py": "d4328b02daa362fead60c90094987b81f486bf40b37679824b37d55a86b67236",
+    "src/llm/generation_runner.py": "b4c5dbfe4de70305518d2f4da47d11f3e4667625662e887fe728ef94be0a0b46"
+  },
+  "source_urls": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create",
+    "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+    "https://ai.google.dev/gemini-api/docs/generate-content/thinking",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html"
+  ]
+}

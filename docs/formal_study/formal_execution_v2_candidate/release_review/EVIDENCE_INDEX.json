@@ -1,0 +1,13 @@
+{
+  "evidence_sha256": {
+    "docs/formal_study/formal_execution_v1_candidate/validation_record.json": "1713c752ea1161fbcb03ab1f42417b116b1b623f3dbd5c71a71896ec7aef7ba8",
+    "docs/formal_study/formal_execution_v1_candidate/test_results.xml": "0b08755cfdbe4c62d7eb049cfe2394fd830ceae4d98929a44fb0501ce60dccaf",
+    "docs/formal_study/formal_execution_v1_candidate/HUMAN_FINAL_DECISIONS.md": "5274396034d003b2c68e4c5707493ef0cd990ff9b7d12965a0d6f23cde9051e4",
+    "docs/formal_study/full_length_once_v1/RESULTS.json": "e8059c9fe26d12769faa58e3f7ea4bdb46e2e949444859d81c9262f945b273f7",
+    "docs/formal_study/claude_16000_followup_v1/RESULTS.json": "eb1fc1f59c3c94fc3b4a695581850a7528102a2620717ff5e6798b4caa2d0998",
+    "docs/formal_study/claude_clinical_probe_v1/RESULTS.json": "2900feda5578dabb7ce5eb20164ba49f7d7088fc0f7d02bd50acbe1978b3abe6",
+    "docs/formal_study/formal_execution_v2_candidate/validation_record.json": "3b4e3e12af472d156688f83d832a763dea7fbadad5e37f9b1a3f2a03d971cc08",
+    "docs/formal_study/formal_execution_v2_candidate/CAP_CHANGE_RECORD.json": "286d7650a6ab4675e7730ba3ac54ca39365f169f1f6d760e9ac096129d474838"
+  },
+  "historical_outcomes_unchanged": true
+}

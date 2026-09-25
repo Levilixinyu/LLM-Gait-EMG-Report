@@ -1,0 +1,3 @@
+# Current formal review scope
+
+The approved rubric v2 is retained verbatim, including its historical draft wording. RUBRIC_APPROVAL_STATUS.md records the subsequent approval. Its five-case annex is developmental; the Coverage sheet contains the final requirements for these 35 cases. G03 applies once to each report. Curves and reference cards help verify evidence, but cannot create mandatory model content that was not supplied. The two control flags annotate existing confirmed or pending in-scope issue groups; they are not new error categories. Preserve original independent judgments before discussion. Report files are verbatim.

@@ -1,0 +1,12 @@
+{
+  "scope": "Project text, scoring workbooks and distributed ZIP contents; raw model-generation stream evidence and source-data binaries excluded because they are not reviewer records.",
+  "text_files_scanned": 2428,
+  "containers_scanned": 87,
+  "unreadable_relevant_files": 0,
+  "reviewer_identity": "Three human experts; original scoring independently performed by the reviewers, confirmed by study lead",
+  "remaining_candidate_matches": "Manually inspected: study-lead administrative recording, a synthetic test fixture, and the project rule separating technical processing from human judgments; no live record attributes scoring to a non-human reviewer.",
+  "scores_and_frozen_dataset_unchanged": true,
+  "manuscript_tables_verified": 9,
+  "generation_scripts_updated": true,
+  "superseded_originals": "Outside active project; excluded from routine discovery and scoring"
+}

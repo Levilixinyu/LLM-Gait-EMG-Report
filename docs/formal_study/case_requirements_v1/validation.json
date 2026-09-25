@@ -1,0 +1,15 @@
+{
+  "status": "Passed",
+  "source_hashes_verified": 8,
+  "accepted_176_rows_match": true,
+  "rater2_accepts_exact_R099_replacement": true,
+  "reply_chain_verified": true,
+  "original_sources_unchanged": true,
+  "other_212_rows_unchanged": true,
+  "workbook_matches_csv_rows": true,
+  "english_only": true,
+  "substantive_changed_rows": [
+    "R099"
+  ],
+  "unresolved_items": 0
+}

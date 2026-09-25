@@ -1,4 +1,7 @@
-"""Prompt templates for generating LLM-drafted interpretive summaries of EMG/kinematic
+"""Legacy v2 templates retained for historical comparison. New prospective work uses
+candidate_prompts and its explicit candidate version; do not silently relabel v2 runs.
+
+Prompt templates for generating LLM-drafted interpretive summaries of EMG/kinematic
 gait findings. The system prompt is deliberately scoped to interpretive summary only
 (no treatment prescriptions) to keep model output within a realistic pre-report drafting
 role and reduce the surface for unsupported clinical claims."""

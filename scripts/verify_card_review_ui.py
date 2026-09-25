@@ -2,12 +2,16 @@
 Run from the project Python environment; no personal browser profile or network API.
 Requires data_cards_v5 built first. Writes audit/card_review_ui/ test evidence.
 """
-import subprocess,tempfile,time,json,base64,urllib.request
+import argparse,subprocess,tempfile,time,json,base64,urllib.request
 from pathlib import Path
 from websockets.sync.client import connect
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'audit/card_review_ui/v5';OUT.mkdir(exist_ok=True)
-BASE=ROOT/'docs/expert_trial/data_cards_v5'
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--base',type=Path,default=ROOT/'docs/expert_trial/data_cards_v5')
+parser.add_argument('--out',type=Path,default=ROOT/'audit/card_review_ui/v5')
+args=parser.parse_args()
+OUT=args.out.resolve();OUT.mkdir(parents=True,exist_ok=True)
+BASE=args.base.resolve()
 results={}
 with tempfile.TemporaryDirectory(prefix='gait-review-browser-',dir='/private/tmp') as tmp:
  tmp=Path(tmp);downloads=tmp/'downloads';downloads.mkdir()
@@ -39,7 +43,10 @@ with tempfile.TemporaryDirectory(prefix='gait-review-browser-',dir='/private/tmp
     return r.get('result',{}).get('value')
    def until(code):
     for _ in range(100):
-     if js(code):return
+     try:
+      if js(code):return
+     except RuntimeError as exc:
+      if 'Inspected target navigated or closed' not in str(exc):raise
      time.sleep(.1)
     raise AssertionError(code)
    def fill(selector,value):js(f"(()=>{{let n=document.querySelector({json.dumps(selector)}); n.value={json.dumps(value)}; n.dispatchEvent(new Event('input',{{bubbles:true}}));}})()")
@@ -62,35 +69,35 @@ with tempfile.TemporaryDirectory(prefix='gait-review-browser-',dir='/private/tmp
    panel='#review-stroke_Sub09_P';first=panel+' .review-item:first-of-type'
    # Exact selectors by stable item id, not visual child order.
    item=panel+' [data-item-id="C01"]'
-   decide(item+' select','REVISE');fill(item+' textarea[aria-label="C01 修改后文字"]','明确患侧；保留原始数据范围。');fill(item+' textarea[aria-label="C01 理由"]','需要避免左右侧混淆。')
-   decide(panel+' [data-item-id="C02"] select','REJECT');fill(panel+' [data-item-id="C02"] textarea[aria-label="C02 理由"]','作为可选描述，不强制扣分。')
-   click(panel+' .add-review-item');fill(panel+' .addition textarea[aria-label="补充条目内容"]','补充：核对缺失信息的解释。');fill(panel+' .addition textarea[aria-label="补充条目依据"]','应与输入可得信息一致。')
-   fill(panel+' textarea[aria-label="本例整体意见"]','希望先讨论必提项的临床重要性。')
+   decide(item+' select','REVISE');fill(item+' textarea[aria-label="C01 Revised text"]','Specify the paretic side; retain the original data scope.');fill(item+' textarea[aria-label="C01 Reason"]','Avoid left/right confusion.')
+   decide(panel+' [data-item-id="C02"] select','REJECT');fill(panel+' [data-item-id="C02"] textarea[aria-label="C02 Reason"]','Optional description; no mandatory penalty.')
+   click(panel+' .add-review-item');fill(panel+' .addition textarea[aria-label="Additional item content"]','Addition: check the explanation of missing information.');fill(panel+' .addition textarea[aria-label="Additional item evidence"]','Must be consistent with the information available in the input.')
+   fill(panel+' textarea[aria-label="Overall opinion on this case"]','I would like to discuss the clinical importance of mandatory items first.')
    before=set(downloads.iterdir());click('#export-review-json');review=latest('json',before);data=json.loads(review.read_text());case=next(c for c in data['cases'] if c['case_id']=='stroke_Sub09_P')
    results['common_exported_once']=sum(c['case_id']=='common_rules' for c in data['cases'])==1
-   results['export_preserves_revision']=case['decisions'][0]['edit']=='明确患侧；保留原始数据范围。'
+   results['export_preserves_revision']=case['decisions'][0]['edit']=='Specify the paretic side; retain the original data scope.'
    results['export_preserves_rejection']=case['decisions'][1]['decision']=='REJECT'
-   results['export_preserves_addition']=len(case['additions'])==1 and case['additions'][0]['text'].startswith('补充：')
+   results['export_preserves_addition']=len(case['additions'])==1 and case['additions'][0]['text'].startswith('Addition: ')
    results['common_decision_exported']=next(c for c in data['cases'] if c['case_id']=='common_rules')['decisions'][0]['decision']=='ACCEPT'
    results['unfinished_is_draft']=data['status']=='DRAFT_INCOMPLETE' and data['expert_consensus'] is False
    before=set(downloads.iterdir());click('#export-review-csv');csv=latest('csv',before)
    results['csv_has_utf8_bom']=csv.read_bytes().startswith(b'\xef\xbb\xbf')
-   results['csv_has_review_and_case_id']='明确患侧' in csv.read_text(encoding='utf-8-sig') and 'stroke_Sub09_P' in csv.read_text(encoding='utf-8-sig')
+   results['csv_has_review_and_case_id']='Specify the paretic side' in csv.read_text(encoding='utf-8-sig') and 'stroke_Sub09_P' in csv.read_text(encoding='utf-8-sig')
    js('window.__beforeNavigation=true');rpc('Page.reload');until("!window.__beforeNavigation && document.readyState==='complete' && document.querySelectorAll('.review-item').length>10");fill('#reviewer-id','Rater01');click('#review-start')
-   results['reload_restores_browser_draft']=js(f'document.querySelector({json.dumps(item+" textarea[aria-label=\"C01 修改后文字\"]")}).value')==case['decisions'][0]['edit']
+   results['reload_restores_browser_draft']=js(f'document.querySelector({json.dumps(item+' textarea[aria-label="C01 Revised text"]')}).value')==case['decisions'][0]['edit']
    fill('#reviewer-id','Rater02');click('#review-start')
    results['second_reviewer_is_separate']=js(f'document.querySelector({json.dumps(item+" select")}).value')=='PENDING'
    def upload(path):
     doc=rpc('DOM.getDocument');node=rpc('DOM.querySelector',{'nodeId':doc['root']['nodeId'],'selector':'#review-import'})['nodeId'];rpc('DOM.setFileInputFiles',{'nodeId':node,'files':[str(path)]})
-   upload(review);until("document.querySelector('#review-status').textContent.startsWith('导入完成')")
+   upload(review);until("document.querySelector('#review-status').textContent.startsWith('Import complete')")
    results['json_import_restores_review']=js(f'document.querySelector({json.dumps(item+" select")}).value')=='REVISE' and js("document.querySelector('#reviewer-id').value")=='Rater01'
-   altered=json.loads(review.read_text());altered['cases'][0]['version']='wrong-version';wrong=tmp/'wrong.json';wrong.write_text(json.dumps(altered));upload(wrong);until("document.querySelector('#review-status').textContent.startsWith('导入失败')")
+   altered=json.loads(review.read_text());altered['cases'][0]['version']='wrong-version';wrong=tmp/'wrong.json';wrong.write_text(json.dumps(altered));upload(wrong);until("document.querySelector('#review-status').textContent.startsWith('Import failed')")
    results['wrong_version_rejected_without_mutation']=js(f'document.querySelector({json.dumps(item+" select")}).value')=='REVISE'
    # Imported markup must remain textarea text, never execute.
-   altered=json.loads(review.read_text());altered['cases'][0]['decisions'][0]['edit']='<img src=x onerror="window.__unsafe=true">';unsafe=tmp/'text.json';unsafe.write_text(json.dumps(altered));upload(unsafe);until("document.querySelector('#review-status').textContent.startsWith('导入完成')")
+   altered=json.loads(review.read_text());altered['cases'][0]['decisions'][0]['edit']='<img src=x onerror="window.__unsafe=true">';unsafe=tmp/'text.json';unsafe.write_text(json.dumps(altered));upload(unsafe);until("document.querySelector('#review-status').textContent.startsWith('Import complete')")
    results['import_text_not_html']=js('window.__unsafe===undefined')
    # Restore representative edited text for screenshot.
-   upload(review);until("document.querySelector('#review-status').textContent.startsWith('导入完成')")
+   upload(review);until("document.querySelector('#review-status').textContent.startsWith('Import complete')")
    js("document.getElementById('review-heading-stroke_Sub09_P').scrollIntoView()")
    shot=rpc('Page.captureScreenshot',{'format':'png','captureBeyondViewport':False});(OUT/'interactive_review.png').write_bytes(base64.b64decode(shot['data']))
    # Single-case files also contain working controls and compatible version IDs.

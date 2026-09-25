@@ -1,0 +1,27 @@
+{
+  "registered_at_utc": "2026-09-18T06:51:48.045980+00:00",
+  "user_confirmed_target": {
+    "stroke_participants": 25,
+    "control_participants": 10,
+    "models": 3,
+    "reports_per_case_model": 1,
+    "planned_reports": 105,
+    "raters": 2,
+    "planned_ratings": 210
+  },
+  "authorization_source": "Conversation: user agreed after explicit clarification of 10 control participants, 30 control reports, and 105 reports overall.",
+  "authorization_scope": "Sample-size decision, local qualification checks, and provisional random draw; not expert sign-off or model generation.",
+  "seed_hex": "789dec86848bb9b7e8f38bcb155cb35706f0f2595a8dccce7552afa027e5f24a",
+  "seed_source": "One call to secrets.token_hex(32); no seed screening or reroll.",
+  "algorithm": "Sort ascending by SHA-256 of UTF-8(seed_hex + newline + participant_key), breaking ties by participant_key.",
+  "python_version": "3.13.0",
+  "sampling_frame_sha256": "203a8b724b44b08f03ad6f1e8af142722d6ddb0c657096e4e7d1424b19a58b47",
+  "candidate_count": 98,
+  "control_count": 10,
+  "external_exposure_status": "Pending for all candidates",
+  "selection_scope": "One provisional permutation of the locally eligible pool. First ten are proposed; no final external eligibility is asserted.",
+  "deviation_from_v1": "Register a full permutation before external history is confirmed. After objective history-based exclusions, retain the first ten eligible cases in this same order. Do not redraw.",
+  "replacement_rule": "Record objective ineligibility evidence; promote the first eligible reserve in order. No replacement based on model performance or desired findings.",
+  "stroke_rule": "Use the 25-case conservative planning pool, pending external exposure confirmation. No automatic replacement or relaxation of stroke exclusions.",
+  "script_sha256": "574da15d4545c6f6a93e430582e6fb2eb31c664272c953fce823f77b94f47c97"
+}

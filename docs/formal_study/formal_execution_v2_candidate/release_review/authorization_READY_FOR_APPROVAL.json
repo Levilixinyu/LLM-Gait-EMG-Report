@@ -1,0 +1,45 @@
+{
+  "approved": false,
+  "scope": "Formal 25 stroke plus 10 control reports",
+  "plan_sha256": "726dbda2ef559cdfa33ecf7c851935a6bd7274ee85b8a27f31d15447352c6aa4",
+  "budget_limit_usd": 120.0,
+  "max_total_attempts": 315,
+  "confirmation_source": null,
+  "recorded_by": null,
+  "confirmed_at": null,
+  "release_checks": {
+    "output_allowance_confirmed": {
+      "passed": true,
+      "evidence_path": "docs/formal_study/formal_execution_v2_candidate/CAP_CHANGE_RECORD.json",
+      "evidence_sha256": "286d7650a6ab4675e7730ba3ac54ca39365f169f1f6d760e9ac096129d474838"
+    },
+    "effective_parameters_recorded": {
+      "passed": true,
+      "evidence_path": "docs/formal_study/formal_execution_v2_candidate/release_review/EFFECTIVE_PARAMETERS.md",
+      "evidence_sha256": "cd31fe2ae55e2d895c198d02b637252e030b150cda1329c026cae3637bd92e73"
+    },
+    "representative_synthetic_check_reviewed": {
+      "passed": true,
+      "evidence_path": "docs/formal_study/formal_execution_v2_candidate/release_review/TECHNICAL_EVIDENCE_REVIEW.md",
+      "evidence_sha256": "aee4bdde698c0ca552c10229b4f3dffda5350742ca0afc3d47a095a2d1e2efe2"
+    },
+    "formal_runner_offline_checks_passed": {
+      "passed": true,
+      "evidence_path": "docs/formal_study/formal_execution_v2_candidate/release_review/OFFLINE_EVIDENCE.json",
+      "evidence_sha256": "07b2efaacb638ee4daad39da7565c81b98a7d2240b5ba3349e239d60a325ebf9"
+    },
+    "full_rating_assets_verified": {
+      "passed": true,
+      "evidence_path": "docs/formal_study/formal_execution_v2_candidate/release_review/OFFLINE_EVIDENCE.json",
+      "evidence_sha256": "07b2efaacb638ee4daad39da7565c81b98a7d2240b5ba3349e239d60a325ebf9"
+    },
+    "analysis_and_adjudication_import_verified": {
+      "passed": true,
+      "evidence_path": "docs/formal_study/formal_execution_v1_candidate/validation_record.json",
+      "evidence_sha256": "1713c752ea1161fbcb03ab1f42417b116b1b623f3dbd5c71a71896ec7aef7ba8"
+    }
+  },
+  "interpretation": "Release-check completion refers to evidence review, not identical live success on every configuration. Overall approval is still required.",
+  "technical_limitations_acceptance_pending": true,
+  "technical_limitations_sha256": "aee4bdde698c0ca552c10229b4f3dffda5350742ca0afc3d47a095a2d1e2efe2"
+}

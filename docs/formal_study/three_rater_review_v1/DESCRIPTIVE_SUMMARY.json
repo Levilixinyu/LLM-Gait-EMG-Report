@@ -1,0 +1,99 @@
+{
+  "status": "Descriptive blinded review; no consensus or model outcome analysis",
+  "raters": {
+    "rater1": {
+      "reports": 105,
+      "coverage_rows": 552,
+      "coverage_labels_including_provisional": {
+        "Covered": 532,
+        "Partially covered": 20
+      },
+      "pending_coverage": 1,
+      "issue_records": {
+        "Pending adjudication": 24,
+        "Error": 58
+      }
+    },
+    "rater2": {
+      "reports": 105,
+      "coverage_rows": 552,
+      "coverage_labels_including_provisional": {
+        "Covered": 514,
+        "Partially covered": 29,
+        "Not covered": 9
+      },
+      "pending_coverage": 0,
+      "issue_records": {
+        "Error": 33,
+        "Acceptable": 61,
+        "Pending adjudication": 1
+      }
+    },
+    "rater3": {
+      "reports": 105,
+      "coverage_rows": 552,
+      "coverage_labels_including_provisional": {
+        "Covered": 526,
+        "Partially covered": 26
+      },
+      "pending_coverage": 0,
+      "issue_records": {
+        "Error": 5,
+        "Pending adjudication": 26
+      }
+    }
+  },
+  "validation": {
+    "rater1": "PASS (structural validation; not clinical adjudication)",
+    "rater2": "NOT ACCEPTED: Issue quote is not an exact substring of the saved report; validator stops at first failure. See all quote mismatches.",
+    "rater3": "PASS (structural validation; not clinical adjudication)"
+  },
+  "coverage_comparison": {
+    "Agreed final labels": 512,
+    "Different final labels": 39,
+    "Pending in at least one submission": 1
+  },
+  "pairwise_final_label_counts": {
+    "rater1 vs rater2": {
+      "final_pairs": 551,
+      "same_label": 523
+    },
+    "rater1 vs rater3": {
+      "final_pairs": 551,
+      "same_label": 520
+    },
+    "rater2 vs rater3": {
+      "final_pairs": 552,
+      "same_label": 526
+    }
+  },
+  "issue_records": 208,
+  "quote_mismatches": 15,
+  "model_identity_key_read": false,
+  "sources": {
+    "rater1": {
+      "path": "docs/formal_study/rating_delivery_v1/rater1/Independent_ratings_rater1_completed.xlsx",
+      "sha256": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160",
+      "snapshot": "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx",
+      "reviewer": "rater1",
+      "completed": "2026-09-18",
+      "attestation": "Yes"
+    },
+    "rater2": {
+      "path": "docs/formal_study/rating_delivery_v1/rater2/Independent_ratings_rater2_completed.xlsx",
+      "sha256": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5",
+      "snapshot": "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx",
+      "reviewer": "rater2",
+      "completed": "2026-09-18",
+      "attestation": "Yes"
+    },
+    "rater3": {
+      "path": "outputs/rater3_independent/Independent_ratings_rater3_completed.xlsx",
+      "sha256": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+      "snapshot": "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx",
+      "reviewer": "rater3",
+      "completed": "2026-09-19",
+      "attestation": "Yes"
+    }
+  }
+}

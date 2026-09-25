@@ -1,0 +1,43 @@
+{
+  "completed_at_utc": "2026-09-25T04:36:17.693028+00:00",
+  "tests": {
+    "tests": 266,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "test_report_sha256": "75a6ca873c397fae1b410f927dbbdfd63311d69d85f41269fc6290a5af53d9e9",
+  "source_invariants": {
+    "frozen_sha256": "9cf006f23d5660118f5ac4da9e631e68645fa17686a0742841e267e616ca9167",
+    "freeze_source_hashes_verified": 128,
+    "consolidation_source_hashes_verified": 119,
+    "original_nine_table_values_unchanged": true,
+    "rating_judgments_changed": false,
+    "historical_live_plan_changed": false,
+    "api_calls": 0
+  },
+  "new_tables": [
+    "S4 Review timeline",
+    "S5 Coverage across stages",
+    "S6 Descriptive report length"
+  ],
+  "reproduction_validation_sha256": "4de221dabf8fe4cd47e3d16acc2240589ae3e4228f5de3d1c73f7f3ad08cb3c9",
+  "manuscript_build_record_sha256": "2cdccf510446e59600a22e9ea6ce8b16ffd6b1602e715411d758a616ca8e9fc2",
+  "remaining": [
+    "Author credentials and institutional ethics determination",
+    "Authorship, affiliations, funding and competing interests",
+    "Target journal and official reporting-checklist completion",
+    "Public release/license and expert-record sharing permissions"
+  ],
+  "implementation_files_sha256": {
+    "tests/test_full_length_once.py": "a8bd239a47244479f9b41aa6e9085a8be62dbeb6beb7ac6ac3269557a2bfdb27",
+    "tests/test_reproduction_bundle.py": "e374acfd7fb1b35940c3eab0ce8473f868abe25d7628f1d5309d17f0b759518e",
+    "scripts/reproduce_analysis.py": "77cd65c50360f9085cbfa601489e14caf4bdffe703016805300f8163908a903e",
+    "scripts/build_reproduction_bundle.py": "0409dad646c3fae4b0bb3f6574b4b8f59448388579037b1234b98e0a930ce490",
+    "scripts/build_manuscript_draft.py": "57a20a441b85dc951a93abea2a41a7ed0dc2777247b1989143006b35d60d51b4",
+    "requirements-analysis.lock.txt": "01dc4abd1c2e47eef450dbe08c69155adb9349035d2487b59006a6e74edd40f9",
+    "requirements-cards.txt": "d3b04beeb7b5ccdadddf77f76774a7946ff78b82a653704955a603e914681d79",
+    "README.md": "722b0d091f93a875dbd92707832202953a79fc4905e6eecd8d9ea5b9fbf22b4f",
+    "docs/REPOSITORY_CONTENTS.md": "dc5fdccecbe0d5c615c23b7e02781003576b82bacd035a0d56a46b87ac39b558"
+  }
+}

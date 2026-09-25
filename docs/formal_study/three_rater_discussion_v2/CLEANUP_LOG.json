@@ -1,0 +1,323 @@
+{
+  "date": "2026-09-20",
+  "scope": "Superseded files from the three-rater review and discussion workflow only. No datasets, report outputs, approved protocols, original independent submissions or current expert returns removed.",
+  "deleted_files": [
+    {
+      "path": "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_merged_for_confirmation.xlsx",
+      "sha256": "a7bfbae7bc580ce4d689240f33b5cfa1ba1af20604a2e4932a027a4448cabea0",
+      "bytes": 37188,
+      "reason": "Superseded distributed template; full fields retained in the three latest returns."
+    },
+    {
+      "path": "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_completed.xlsx",
+      "sha256": "206b7d42d06b9ff80d8e9c16d95db64c44e63c36a4c5de2c4a435e9ab7409a96",
+      "bytes": 340251,
+      "reason": "Intermediate rater1 discussion return superseded by its merged confirmation return."
+    },
+    {
+      "path": "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_rater2_return_preserved.xlsx",
+      "sha256": "e8ab19baba8c62dd1ffd363d73e3813c048400b6146f6ec38bb4c816923b2f46",
+      "bytes": 311302,
+      "reason": "Intermediate rater2 return superseded by its merged confirmation return."
+    },
+    {
+      "path": "outputs/rater3_independent/Three_rater_discussion_completed.xlsx",
+      "sha256": "72024e3ccbdc5ff6cb97bfc9719372278d3dd15ec90cf220e90705d521b39711",
+      "bytes": 307237,
+      "reason": "Intermediate rater3 return superseded by its corrected merged return."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/Three_rater_discussion.xlsx",
+      "sha256": "dabfdbdc19e292672aa15453f2f4463da56c662e4233ed8df55b6fb7c62c9884",
+      "bytes": 224262,
+      "reason": "Initial derived discussion workbook superseded by retained detailed inventory and current positions; original submissions retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/DISAGREEMENT_RECOMMENDATIONS.md",
+      "sha256": "0ece5405f4cad658bf66530d55c16fe38c48a0e14909180a69e842ed282fef64",
+      "bytes": 10977,
+      "reason": "Superseded advice and communications."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/REVIEW_SUMMARY.md",
+      "sha256": "9e715e76d1a542f58d028fc150a1b4d1e607f83d7882288e64631bc0187046eb",
+      "bytes": 11431,
+      "reason": "Obsolete initial review narrative; original counts, receipts and rules logs retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/MESSAGES_TO_RATERS.md",
+      "sha256": "ad55c76a174bcbf64305b7eadfd10c9a78540958cbfa4623320fc503beacf84a",
+      "bytes": 5400,
+      "reason": "Completed-stage communication instructions."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/RATER1_RATER2_DETAILED_AUDIT.md",
+      "sha256": "1f5d90996d4fc1155a1cb8ed7f3c8150b1915532532059f5d682396f7016330d",
+      "bytes": 5667,
+      "reason": "Redundant audit narrative; detailed audit workbook retained as a builder dependency."
+    },
+    {
+      "path": "scripts/merge_three_rater_discussion_returns.py",
+      "sha256": "cf21e994065726ffd8043e8dec1639e7a6eb41fe1508d9b9b98755d5c52b3741",
+      "bytes": 11523,
+      "reason": "Retired intermediate merger replaced by build_latest_discussion_positions.py."
+    },
+    {
+      "path": "scripts/add_three_rater_disagreement_advice.py",
+      "sha256": "e4c03db6563185ab769729955496a979ba1aa2b51750eef52a28b4d58c418c68",
+      "bytes": 18614,
+      "reason": "Retired advice generator for the deleted initial discussion workbook."
+    },
+    {
+      "path": "scripts/apply_three_rater_discussion_rules.py",
+      "sha256": "882d6fa6b3d291469765dd8344df457e468adb7d7656c45786887b5bbbb380cc",
+      "bytes": 7073,
+      "reason": "Completed-stage worksheet annotation script; rule log and instructions retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Personal_recheck_rater1.xlsx",
+      "sha256": "03046f3042a50061703be90571f845bd79935b4792c3dadc972e5f78d7700e4f",
+      "bytes": 74485,
+      "reason": "Blank completed-stage template; completed personal recheck retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Targeted_review_items_rater1.xlsx",
+      "sha256": "7edbfb2d0f3d4b36627cf2c9ce5a7cf1fd595dbd63694205794dee1a0cdef313",
+      "bytes": 17727,
+      "reason": "Blank targeted template; complete targeted v2 return retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Targeted_review_items_rater1_completed.xlsx",
+      "sha256": "0e04d6bb1f50e9603ba8acb1c54eb41e4499b45432ae65e1776b1ac94ca1440c",
+      "bytes": 42203,
+      "reason": "Superseded v1 response; complete v2 response retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/TARGETED_REVIEW_RETURN_CHECK.md",
+      "sha256": "bcbae5195da7310510b0063fd15a35e660ff14cfaaf55e624f34edeed2da13dc",
+      "bytes": 6351,
+      "reason": "Superseded return-check communication; current audit and original returns retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Personal_recheck_rater2.xlsx",
+      "sha256": "e82fa9e574496961bd999ceac310f71d825db26ae303f10ce4fd6a7faf816ff9",
+      "bytes": 85425,
+      "reason": "Blank completed-stage template; completed personal recheck retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Targeted_review_items_rater2.xlsx",
+      "sha256": "54b20ffb47eac325ee363bd8aff5402a895ba4aa8963d2cb749375e122189052",
+      "bytes": 31688,
+      "reason": "Blank targeted template; complete targeted v2 return retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Targeted_review_items_rater2_completed.xlsx",
+      "sha256": "c9c5b2443f2dc2ccfb71fc90d3ba511804fd4588a5761649a1153d6abf545684",
+      "bytes": 47133,
+      "reason": "Superseded v1 response; complete v2 response retained."
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/TARGETED_REVIEW_RETURN_CHECK.md",
+      "sha256": "701a86e48c27e1b20631a98763da1f982268d7d65392302635c880d3acde3e7c",
+      "bytes": 12464,
+      "reason": "Superseded return-check communication; current audit and original returns retained."
+    }
+  ],
+  "protected_before": {
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_current_positions.xlsx": "d64974a28882daae9ff9b79a7e3a870fe77e4198899957ea14c6b1c980d24211",
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion.xlsx": "42c19d64058612aa464671ea9dc3c6f5374f9ab7883ffc808eb1c47649a20de0",
+    "docs/formal_study/three_rater_discussion_v2/MERGED_RETURN_REVIEW.md": "4e5c9baec9d11d71098f9daba40384f27845428d9897ea95cc47dd3ba7fc0e23",
+    "outputs/rater3_independent/Final_ratings_rater3.xlsx": "cbd4a35d10beefb8099190ba2fba55e5b70f4d5d3d55d7551e164ac559c05bea",
+    "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx": "5921fc53d578770fbfd0b28c670f999e05c186c5ccc7b5bc7a8d89d610843c4d",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/RATER1_RATER2_DETAILED_AUDIT.xlsx": "161c22dcf2a4154ed8249b55cfb4e40b1536a31832ca6b76dd707a697c874e35",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/RECHECK_INSTRUCTIONS.md": "4a096b1d567fd73130a864bd4b78d946851b3ae6b3650da5a6f2f13662dd121b",
+    "docs/formal_study/three_rater_review_v1/DISCUSSION_RULES_LOG.json": "d9803cc0b92bf15e74d52a4e29fdfcbd80a6a0f03727621c85845745b5e4a2c5",
+    "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160",
+    "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5",
+    "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_merged_for_confirmation_rater1.xlsx": "c5dcdc9bf57bc9d5f6c4be398d7f109a3f00bd0d43a68ab6a11094019d6c4624",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Personal_recheck_rater1_completed.xlsx": "95bd4d7084c8ea9eac307942b0f80e2df686116cf132193d1e3dbdcf4689b2ea",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Targeted_review_items_rater1_completed_v2.xlsx": "c3aac57b51721d9a7939ac120d76226b251beaee27549826c7f147fb95abc243",
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_merged_for_confirmation_rater2.xlsx": "7cf056c5d7565eb380cf76a19b81e275695f26ff097fc80559c6c630a54b8733",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Personal_recheck_rater2_completed.xlsx": "84a58cbe9034b645bcfe1827eb19db30f886916930e57fcc466144ac5ddac191",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Targeted_review_items_rater2_completed_v2.xlsx": "6b33a378500f5530eb71840c82e8bb0e888df5b42d7af3b387749940870a0132"
+  },
+  "protected_after": {
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_current_positions.xlsx": "003a7da768086ad38ecfac33779bbd7565a91b79dea0bdfd3729595c25470d31",
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion.xlsx": "42c19d64058612aa464671ea9dc3c6f5374f9ab7883ffc808eb1c47649a20de0",
+    "docs/formal_study/three_rater_discussion_v2/MERGED_RETURN_REVIEW.md": "5710fd5822e02972740b92347320f74b384a8d6b5c5f86a7370ea72310e574f6",
+    "outputs/rater3_independent/Final_ratings_rater3.xlsx": "cbd4a35d10beefb8099190ba2fba55e5b70f4d5d3d55d7551e164ac559c05bea",
+    "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx": "5921fc53d578770fbfd0b28c670f999e05c186c5ccc7b5bc7a8d89d610843c4d",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/RATER1_RATER2_DETAILED_AUDIT.xlsx": "161c22dcf2a4154ed8249b55cfb4e40b1536a31832ca6b76dd707a697c874e35",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/RECHECK_INSTRUCTIONS.md": "4a096b1d567fd73130a864bd4b78d946851b3ae6b3650da5a6f2f13662dd121b",
+    "docs/formal_study/three_rater_review_v1/DISCUSSION_RULES_LOG.json": "d9803cc0b92bf15e74d52a4e29fdfcbd80a6a0f03727621c85845745b5e4a2c5",
+    "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160",
+    "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5",
+    "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_merged_for_confirmation_rater1.xlsx": "c5dcdc9bf57bc9d5f6c4be398d7f109a3f00bd0d43a68ab6a11094019d6c4624",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Personal_recheck_rater1_completed.xlsx": "95bd4d7084c8ea9eac307942b0f80e2df686116cf132193d1e3dbdcf4689b2ea",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Targeted_review_items_rater1_completed_v2.xlsx": "c3aac57b51721d9a7939ac120d76226b251beaee27549826c7f147fb95abc243",
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_merged_for_confirmation_rater2.xlsx": "7cf056c5d7565eb380cf76a19b81e275695f26ff097fc80559c6c630a54b8733",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Personal_recheck_rater2_completed.xlsx": "84a58cbe9034b645bcfe1827eb19db30f886916930e57fcc466144ac5ddac191",
+    "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Targeted_review_items_rater2_completed_v2.xlsx": "6b33a378500f5530eb71840c82e8bb0e888df5b42d7af3b387749940870a0132"
+  },
+  "changed_derived_files": [
+    "docs/formal_study/three_rater_discussion_v2/Three_rater_current_positions.xlsx",
+    "docs/formal_study/three_rater_discussion_v2/MERGED_RETURN_REVIEW.md"
+  ],
+  "verification": "Current builder now uses the retained rater1 return as its layout source. Latest expert returns, original independent ratings and full-inventory inputs retained byte-for-byte. Only derived current snapshot and audit note changed among the protected files.",
+  "post_cleanup_build": "Passed: current workbook rebuilt after deleting obsolete files; 21 matching substantive decisions, 11 shared Pending, 6 differences. Source return hashes unchanged.",
+  "subsequent_cleanups": [
+    {
+      "date": "2026-09-21",
+      "authorization": "User requested deletion of unnecessary old versions and duplicate obsolete communications after a scoring-material audit.",
+      "deleted_files": [
+        {
+          "path": "docs/formal_study/three_rater_discussion_v2/MERGED_RETURN_REVIEW.md",
+          "sha256": "ab77fbb63046a77c34ca035f43f6f7b4f80af06e91ea055fe82bff97a386d97b",
+          "bytes": 19018,
+          "reason": "Superseded accumulated discussion narrative. Final expert source files and DISCUSSION_FEEDBACK.json retain the decision evidence; the current scoring audit replaces the active narrative."
+        },
+        {
+          "path": "docs/formal_study/three_rater_review_v1/personal_rechecks/RETURN_STATUS.md",
+          "sha256": "667c4a549defa0365e4f83d183f673c885db0221ecbf2c92c3df119a66e59897",
+          "bytes": 728,
+          "reason": "Duplicate stage-status note that still directs readers to the already completed consolidation step. Current consolidated README and audit supersede it; machine-readable return history remains retained."
+        }
+      ],
+      "protected_before": {
+        "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion.xlsx": "42c19d64058612aa464671ea9dc3c6f5374f9ab7883ffc808eb1c47649a20de0",
+        "docs/formal_study/three_rater_discussion_v2/Three_rater_current_positions.xlsx": "0e9a858aaceadb7ab7326488141a1bedc0ece7267f0db2eda9074f778d336d3d",
+        "docs/formal_study/three_rater_discussion_v2/DISCUSSION_FEEDBACK.json": "f6bd59ccbaee29c202dae6bba52d3566b50b05e5db80e2eeab42df65c9bbb3f4",
+        "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160",
+        "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5",
+        "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R021DB73696962BA6.txt": "08a7624c03d70a66bb7d57c0d3f4b10164d619058edfd76b8e8773fa6485f3f6",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R041BC5B249CC9DC2.txt": "1457aa3214420acc05e2502d3d4ef3f485fe9e16d3fc9a8cd4ecd8c85fca93c0",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R075761E4007BA0F7.txt": "9d3cd302c671e3e602bc8bc40ae143b76cd656fbb4d16efb18d1206e66ddf8c4",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R07F9130B63B4F9C2.txt": "2c9946bc1d834b0318d240fb2d0330faf06b244ba19a5d5128551a580f64b5d3",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R0C44EC0AE866FB58.txt": "74aa3cb9aa5833e2c8b75934a8f8b3dd529688353f8de3724862235612101de8",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R0F89A9D3E41B8707.txt": "a5422cdca01d40df844f4698c244c020c79ed7a6d14e68bc6ab1a0215ade558f",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R18C0D9D4DF5C8281.txt": "db582a4ca8b9831dccb821ee89f80c36e45e3e2b4318ebb8f1f4f77253915dde",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R1976A4BAD24C1414.txt": "4560ed9871df7a5c250eb958f44d8fc47c524acbed218086e67190051870006b",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R19E4468ADE32EF20.txt": "64e39a6484a1132745305f2ba342d57ec5015bb07d37ea98ebf8d7faf52d07e0",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R1A750BD04CD3E51B.txt": "f0a5c3aa46d1111cdca9e7a9d2a0927bcd55e56e982f3660a2ea6f969184aed0",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R1C5F93E05D9CC9EA.txt": "778dc054d6afb7311bfd28f4be12f9d419686340581b52ea22ebcde98e257046",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R1D4B237475466B91.txt": "cb385922cef4b2f7617ba0e9ce1afa9efa6538912c71cb0c0a79f7663690d3b5",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R1E2D350548AA90DA.txt": "a7ab725326bec5ae850727fcaedb8e6136e519e6c5e24478d59050b0d4c1cb48",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R20EBB14838E1771E.txt": "f87fb170239673ada7c3773eb9b3be1a3d1b2f683aa1d95410a2289920975eb6",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R21398342391F57B4.txt": "2b40f810d74f62afbf4809628cfbb103d78c2c2f06be033cb3f41588c2ec0477",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R248AD7BC90BAC7D5.txt": "ded684e8bca27c2449631c5026c956b7688d2fe3a0258f98b38fc28d39a34d79",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R25F5AA9361D9E14F.txt": "42b90c924fa9738969cc89af9a064410d599660958f5da4fc14481477e7ab6f0",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R27E1D7A1FEF4C3AA.txt": "9c822007496bf876ac77be2bccf2e804718aaee9c54ebedd0964c636bc77f803",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R2833044D10EF4BA5.txt": "ce53b8887f183ace937dd7d9446d2069c52f321b727aee3d22602f74b2cbd7c8",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R2FC0F723576C250B.txt": "e1dc2a240a4530f4e14f9a56cf91b7711e5aca282df9add001121b994c5db96c",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R3077041C029681A9.txt": "2d4ad99bda6435e18f8f648eb24a76662bb805fe7437fe4c1edb7d64fb3c4335",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R30A4CB21E5FCB535.txt": "460d80fa8308d8ac93fff1f5d95dce5fc7230ef024bedcc9383f39c5670c4687",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R31D0B47CA4DF36CF.txt": "a3ef191d09b501579d7442685b29ecbd61a250549ff85db36758e40772669c44",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R320DCD2D7ECF50B9.txt": "fdc6d4e8e9074fb743812c276b06321784d7c0f43fd61baafe72fb4756acdaa4",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R3308905E05BE00CE.txt": "620a6c12b43ee5fbf315db79cd98366636b5c67f00c683a5e3f62240d9620a22",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R35A2ECF06979D30D.txt": "8e2d940a342c20157a2d51218954cd7b4a5f21cab00963c36897116becc0bf70",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R35C7A84FBF5C7923.txt": "6d2923ca6261e58da94b013ccad00e43f5339d2f17ca621ce8deabd52c1d605b",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R370766F1A57479E3.txt": "882e57f1e73d33861fbf3790db75d5f49ae2cac7dff2a8b0274dedac9e713df8",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R3AD4A91F72A3469A.txt": "2483999f1aee4e2ba5e50e65348f272cb6cff1d67ba7bd79fb9c00cc98f38973",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R3F108C318A0050C4.txt": "c1016ff93f72b3bd3ca8e647b1292911e675264cbc79064fb48fd6ff80eab076",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R458C2720FA49CDB2.txt": "63982a7d1a3fc1fa5285ecfdf90a340f0252815a9824ce1e845971def6bd17fb",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R46397B55216F396B.txt": "cbf0ccb775ae96772d1a82c6c792cd0cef97a8f093a9039293d83d9e16546e15",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R4835C5BD71F87EC3.txt": "f79ad6ca6fbaeb82260349d7304a59dfe050ea016154d3d4b5b88af6e6d485e6",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R484B21985B793064.txt": "eac0235d2dffc77f72650245d29c1d66400666059ceef7c161b53c916f599128",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R4AE3E3AA930A3633.txt": "cd788329f35e2e9a740c6d3fb275a8b8955564d5a5d17ad92ac256e9e4770a48",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R50EA6F09D1E119D6.txt": "f44537168d70ee4e598e645585d1675987a3224942d63a0031b65eb04cdfad39",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R51450076F1E48FEF.txt": "910cfe9d0a4fb067df7ebf43895918ffcf7178deb1970f3048d67547657fdaf6",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R5311F78DF2AA63EE.txt": "5c61958cc4e703edad8e76f10c7b7c0cfd990a6b5ff7ac2782d1100c84e9bf45",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R5431A80D2C1C1257.txt": "7a8e619ffb1698ef884688a04dfa45ae2a915bc92ea8178664446aceb1d0bed6",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R559B9390823DE92A.txt": "7d933825a3e057ffefb900caa49e5b7499cf3a847124edc008cd9930775a0877",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R5C46511D7E171835.txt": "d0ce93f534e5f528644cca7d9df495ca0b0886427a7411340fb8904ef1c3e006",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R5C51D15B05E765CD.txt": "06feaad8e6750920815aa78829eb28d658d6bcd5285f582ff4cd22f0a4449c0f",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R5F404DA56F2E1FA6.txt": "4289464fdd0f2a560f8ef172af4d8df36d99c163e53e87f6458df82d20c1eecf",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R61170EB85BD38391.txt": "dbba68663c5c6eeada447acf4cd171df2271ffe2608e691ae0f7932e2b4eb6ce",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R695105C813DF3F8D.txt": "73897ed5876a167b81787ff9b4f5a9dae68bdc4939b608aeda1d81f1d7074a25",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R6C4CDABDD4936BE3.txt": "4cec85da97a15f089381a8dea3aed259efb8f98e3bc7e4b29a7cfc4aa1504256",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R7162190F941CB937.txt": "69199a69182879d360d0c5f8799e1763eedd42e13477852c0ab7084d6f3f9c68",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R7188FEF1D4474FE0.txt": "1981a0e93db6234d06e462f2fd5a60e1376f3c5a4dddeeb2eb276eb6ff789954",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R749F14DE109E0673.txt": "7288f5acf59905e0d47431650dcc1277238f9125781cba74fc7fb67ce9273fc6",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R752227E22E0A9732.txt": "4b07d57cb082db18c9d249e7646dc20013484a25c8fa1c181bedf0c509d434ba",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R755BB9629402BE66.txt": "49971601b4cb00b3094f3463153ca585cbec32a01ae9c27581916880d8cd62eb",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R75DDE0A093290272.txt": "8ce71be53a32344e990172eb89e872c0225e723cabfec4878b7c6f43a3c78e83",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R811F7437E4D8D1C5.txt": "84967d363e96db08b3635ab3053f7b01c85064b2508387c6e054f5748b1978f6",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R84055C6AA9900A0E.txt": "981891d03e8aafae8a6a1c5913921cc4314151ff50dc30b33e24b0895947fc16",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R8414BCE9A2D7D578.txt": "9296f827db0b4e4de09a729d190eaef168aeb67446a855c6391f3490540938cb",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R84656555A6E3EAD7.txt": "982ccaff1afcffccfa50e774fd850f27fbaed86d9a53e6240ea37b7c5d7b9383",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R84CDF9281B922AAC.txt": "286072cd637ab52bf82bfd1be0bb0cf420ae66df9dae715058cec6301f5995cc",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R8F0EC5849D858EC4.txt": "9ea9223588feba14ae703507914814b65e71c2f3f44ee1c29b90fb663e08a778",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R97CCB29B5A884F41.txt": "4434172e183a6aba0aac6dfb52172784fe6cc2565efb2638594d1b68b6f8bcc8",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R99084CAB7BCC7FC1.txt": "089ee8606f9b11ebf1c2b4c12aa6a0ded40004e6e9e6c8cb524765d46a958693",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R9C328CA899FB4EDC.txt": "8ccd5d3f4657b216fabdcc3e1e410608843e9845963a4f25133432e4bb834700",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/R9F780EDD1CAE80B6.txt": "c9b269fe3af9182202a90b5afebad590bf4766e5aeb042112f618aeeb81b2d33",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RA159ABE875C420AB.txt": "d333cdf51873097021f1d249b91e21087c7d6e57310c45097435a4dfc94d5b9b",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RA41394F3D63E1EB5.txt": "4671eb779fce5f59954a591036bfac1ed090d561c25d2e40cd3ef8d83199bfd1",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RA5354EEC7114E5CC.txt": "3e49384cdd540ed81bef77ac379e8b3fae292ee96661d5b923e0eedec8e3e22e",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RA857737CABCC0FB8.txt": "d04a9c07c4fbf41710b5d2fa9888e8d050eccb20a9f77090b8528466dda97ebe",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RA8E2A0BC8C193783.txt": "8c80389047b401a345b6471bd4a026c60d7622f61c188a33736a119bc4ce0a07",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RABAADEA37D48C316.txt": "5d3b7e05e56b2e201b6ad60540834f5407631eaaff5515f3c6e966e0836b402c",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RACE6E7367BC5E74A.txt": "420895c87857894167f3d5fa083d9a0fcbc019e07c7780ab6330a7a8df8744f1",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RAF1EC507128A4A63.txt": "bcb743fe10831044b8ce384cd8a37aa2470f66dba52e9ce65e93472a962f6d74",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RAF417EE5FDC33A78.txt": "7715f7e549d11d973a4796ad4a5c9db6bcd138a11e89a36f5795097258a20f42",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RB223CA1AE4B4A63C.txt": "cf9790bde0af1323fee86276c8c243daecf7a555c2f89756891832e590dfcba9",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RB50B434C0C49CEA2.txt": "9c2f2e9931438570b5600dbc8b486f437a600e7b384806c0f9e4762b9df4151e",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RBC489C2F38AA75FE.txt": "22c53db7f8f953a76a854ee753a7e177b0a9cb81d296ee103d323fca7c44ce45",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RBCE2F0081BE4D5F4.txt": "e70d3585d2367408df6ee570a3c30cf73c1b30a930946abdb58ac9853886cbbb",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RBF92630356E55FE7.txt": "3468edf7c58d740c8d92e13f51eb7d9cf28eea9a88b25125240fd044d36b207c",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RC0B47BA812A09BB5.txt": "a0cf7d639c8ab80598afafd196803b5e53dd4a426c455f1239134297d05cb9c3",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RC480C32314C096B2.txt": "f71d782e608af42d544d1e303a6ac30014844f8f1b1b2194bb357699b7c0c897",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RCB4DAF6627D94EF3.txt": "0a9c31769b61e4e2a297613bc48de1e714f2ab4732332db086aa2f8b8acbd86d",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RCD6DB0709946E9D9.txt": "303f2d493eec5dc0e6d82ee7fe28ec495e40b2cfcc313c5819aff6f9c717a7f8",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RCE5885C1F2A1BA90.txt": "4d97c2566c9cbb81201129fc77d36af503ff958386c9e33fc95d75cc3298303e",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RCEFF3C5106CC99EA.txt": "7522648098e9bd4b0e0ba80dad03bdd953d77500776e5fa0bd34b13c3aca18a7",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RD00BCB39D52FD30B.txt": "39e3a21dc90c100b039f5dd27b9726f1c3a3f2fc6120ed4ead5f95f51fad0727",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RD6F72D3B31EDFA92.txt": "8ec16e48f456dd2e73257f4804ba903edbe55af097d80c8c7cabb08951437c84",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RD78C2EBF0560C22B.txt": "e8b3cb2209ace82eac8bbd6833f8ab718817f149cabb1aab60d059e3a2386beb",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RDA54C462B28D37CB.txt": "76320416bcd7c4326b89551db7f67d8e2055449f30b8bdf2e89b7de8df1d42c5",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RDB18B7C593D48194.txt": "f7da314121acd4d80323f68e91c5870fcf1c8fc0d0aec51a28f60571ddf9638f",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RDBE98A8F7EC455C5.txt": "a8421302b9cdf484b182541116f532c6cf9377edd7547330a013395e103d7429",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RDD87EDB7D3C0CF99.txt": "f5abe4a8964fa3ed2f6570054d01858d3029439764d87622269c2d9016fa13c7",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RDEBA7F747795D5A2.txt": "71d8e184fe2611828057e41cb5462a06b024a8140bf7d4a7502423c5281590ea",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RE21CC4FB82DBEB46.txt": "d9e5886def651995327099fca88de562936cbbd21bb1cc41c5daa38292483bbd",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RE68C712B44209423.txt": "0eede6ec68270f1c673b5afe1ab9d58bd102b576216ecee982d26451bfaeba92",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RE6F8701EEB40440A.txt": "4626d1aff52ed17d4eb0168c5170633438d6145976a9a5ad9ff507ac457f5c8d",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/REB162D9F656B2188.txt": "59cd1874d3b9a02f53fc33ce1da4df79d8229c38337679cee24dabd9581864b6",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/REB63B5C959B61142.txt": "0221bc5057dbe06c5912000a6832b693a0f4abd581e7329ec9c065554ea504bb",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/REB6E8F4480E6599B.txt": "c1f81f4fd98325eb629a3e99d5a764c0b8535da008f0664297686ac69bba80df",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RED421A7034CB7BCD.txt": "36b2b9333fba1539f0afb79ad8cc6bdacfc53ad471f4e74f164937d654e3b32f",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RF25681A2D7942A13.txt": "8500bd563cf96b5cf0d032786249c48e1dc033f1b3c6d81c4822456d448eaddc",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RF34F0C076D946599.txt": "ed4fca4beae084a2ced1b7724470f6e3a18ec43024de965255d8c3f4d0612f95",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RF47E397C5898FACA.txt": "ffc1b125d4396cd516618c0789720c22ef7b77c98ac98b2a21dd438b8a023e07",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RF54650FBBAF5772D.txt": "ad0038e0d604267b76a6c1e8c18f2035ffc9cb3590e062439d0857619b3780ef",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RF7C83B923C0D7F42.txt": "70204eb6c1ceeaeadff91ba011074da9bb1957eea56c43fbdf42c78e4c340042",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RF7FE7DBDE55034BF.txt": "f081a79e62a81655f98e77e6bc1a21117fcc2d3137abe73af9b2a93d485db68f",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RF973ED392216FC1A.txt": "b12638e47ca36f5a5d631b20fb5e55471246c6abb3ab0f11618de521e87ef1bc",
+        "docs/formal_study/rating_delivery_v1/rater2/reports/RFDBC4A9D68B47B2E.txt": "e5efb1ae26159bbd55e7ebf42f6662b7bc4a62e57d1141f25ef46f5aa03d7ec1",
+        "docs/formal_study/consolidated_ratings_v1/RESIDUAL_RETURN_CHECK.json": "5462874621b4ee229ac3a4ce63a29d81d7ce7538e5449fa2f261a30ea86b732c",
+        "docs/formal_study/consolidated_ratings_v1/Residual_record_review_rater1.xlsx": "d446fa0e898492f8e0f434665503381f208b62eb3a4a470f10f1365974ef2768",
+        "docs/formal_study/consolidated_ratings_v1/Residual_record_review_rater2.xlsx": "745fbc181c350957670a482426bf71c6f623af7b7967976c6189435bae09d2dd",
+        "outputs/rater3_independent/Residual_record_review_rater3.xlsx": "fa9670d5a30af990320b1a5b10cebbfe187b1d98eb6ee5d5c3c713c828144b37",
+        "docs/formal_study/three_rater_review_v1/personal_rechecks/RATER1_RATER2_DETAILED_AUDIT.xlsx": "161c22dcf2a4154ed8249b55cfb4e40b1536a31832ca6b76dd707a697c874e35",
+        "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Targeted_review_items_rater2_completed_v2.xlsx": "6b33a378500f5530eb71840c82e8bb0e888df5b42d7af3b387749940870a0132",
+        "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Personal_recheck_rater2_completed.xlsx": "84a58cbe9034b645bcfe1827eb19db30f886916930e57fcc466144ac5ddac191",
+        "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Targeted_review_items_rater1_completed_v2.xlsx": "c3aac57b51721d9a7939ac120d76226b251beaee27549826c7f147fb95abc243",
+        "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Personal_recheck_rater1_completed.xlsx": "95bd4d7084c8ea9eac307942b0f80e2df686116cf132193d1e3dbdcf4689b2ea",
+        "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_merged_for_confirmation_rater1.xlsx": "c5dcdc9bf57bc9d5f6c4be398d7f109a3f00bd0d43a68ab6a11094019d6c4624",
+        "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion_merged_for_confirmation_rater2.xlsx": "7cf056c5d7565eb380cf76a19b81e275695f26ff097fc80559c6c630a54b8733",
+        "outputs/rater3_independent/Final_ratings_rater3.xlsx": "cbd4a35d10beefb8099190ba2fba55e5b70f4d5d3d55d7551e164ac559c05bea",
+        "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx": "caa2c7f327c9fd80f4aa70642b386f3e10c9972c6260c5f1c3ca01a89c6a3afe",
+        "docs/formal_study/consolidated_ratings_v1/Consolidated_ratings_working.xlsx": "d73b46705223cdf9ca20903cd3f11c196b14bb551f5f9400db86bee6d0e45ba8",
+        "docs/formal_study/consolidated_ratings_v1/SCORING_AUDIT_2026-09-21.xlsx": "8613966f9b25555856c909fb9007c361d8513344ba93cf80f7fa2087da17f12a"
+      },
+      "status": "Completed; protected hashes unchanged.",
+      "retained_historical_materials": "Original independent submissions, current expert responses, necessary rechecks, frozen manifests/approved materials, builder inputs, and machine-readable process logs.",
+      "protected_files_verified": 126,
+      "deleted_count": 2,
+      "deleted_bytes": 19746
+    }
+  ]
+}

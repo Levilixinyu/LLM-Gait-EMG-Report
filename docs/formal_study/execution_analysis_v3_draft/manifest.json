@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-09-18T20:31:11.912934+00:00",
+  "script_sha256": "8c7c3aa1686d1441d5dadd4a43fc2faf34c74e71f035b2791921e7ecf3fee9b5",
+  "source_sha256": {
+    "docs/formal_study/execution_analysis_v2_draft/plan.json": "21083a33f225e2fe61cd9153bacb3d865f2333d942a5a9ff788a8624ffc3a431",
+    "docs/formal_study/execution_analysis_v2_draft/review_audit.json": "726ec5abf0cb352596916e2a52cdbac4abaf838a7be1bcc8b03d36b5b3b24733",
+    "docs/formal_study/execution_analysis_v2_draft/change_log.json": "572c3fac77380415dc3a06c4cbaa77e7c9eb1b6489250f011071eb7f0327f894",
+    "docs/formal_study/execution_analysis_v2_draft/README.md": "ef3824fff198e12748c40a6fc23de47e392f38a15f2b1a2fe9ee8608fd2c2654",
+    "docs/formal_study/execution_analysis_v2_draft/validation.json": "1beff7d475c384e857b2655e35ac5828dc9fcb2e7066b5a1889e7bf538ab0462",
+    "docs/formal_study/execution_analysis_v2_draft/source_review_records.json": "d67cd7bdad4499a01e26029fdca34ef6d7e32db17c3356f9c2c0eae82b6f2806",
+    "docs/formal_study/execution_analysis_v2_draft/Targeted_confirmation.xlsx": "0ed947e23dc4d4fc00c41ca272d4100c52be2293054658a950a78a2c49d03d7f",
+    "docs/formal_study/execution_analysis_v2_draft/PROTOCOL.md": "a4ce710d7beefe62b9c935a56053c61225609b5bffd8bdc7d416015d8365073e",
+    "docs/formal_study/execution_analysis_v2_draft/STUDY_LEAD_PREAPPROVAL_AUDIT.md": "c7256ae80c44e670de76cc2ce8c158b8ac7e4b9cfe68e7f587a63e4cf24b22cc",
+    "docs/formal_study/execution_analysis_v2_draft/STUDY_LEAD_PREAPPROVAL_AUDIT.json": "a7a801d66b5d9e1e6290a04303768a1055b6770556a752aacc5e43d1c35c09ba",
+    "docs/formal_study/execution_analysis_v2_draft/Targeted_confirmation_rater1.xlsx": "ac0c00ea71db42d376a4c349b02d249fcebacad35e9f336169c036b413f73d78",
+    "docs/formal_study/execution_analysis_v2_draft/Targeted_confirmation_rater2.xlsx": "e1d731eab392d5ed5caeeecad43476ca849eb2b4d2422d3a722228cd8e427591"
+  },
+  "output_sha256": {
+    "plan.json": "60937d892ab8dc6c8b666c13e904489f4f12c47077ec358690baa55bdc2227d2",
+    "change_log.json": "8924320b996e377f65466468f6f91315f4977cc761532b46abc693dfc2185e05",
+    "RATER1_AVAILABILITY_UPDATE.json": "7290903365c7cc78a355316f99aee2e4256772935d5185251374cef9bf92ba9b",
+    "expert_return_records.json": "33b7cdc1e747aeebbde8cfdfdfcae2f61c77896da53c3d1df89fea2be3c09d89",
+    "README.md": "ed037c4dd8d1a05a6385a1a67475427e7c47b14e207b2fa8b828a60c1b4de017",
+    "validation.json": "182a82e8f236f487046687b17ac80d4399f0337974b2e00cfe7f66529ba5bcda",
+    "Study_lead_decisions.xlsx": "dd18fb1974895a4a7e15863493007d231fff0c80b638ecc3391d4854943692a9",
+    "STUDY_LEAD_CONFIRMATION.json": "be2f0ef62983574746b958bbfafc6ac1b8fdc30ce44eb465fbed94e376c40185",
+    "APPROVAL_STATUS.md": "432a90f7240459e377a7afbaf8185b20150e0f203eef1764f230d5ed83b79453",
+    "PROTOCOL.md": "62a6c7baaa28aa0ac3321768b1875aa47e98349b69e18d1d20db1a879bfabeb6"
+  },
+  "administrative_amendments": [
+    {
+      "record": "RATER1_AVAILABILITY_UPDATE.json",
+      "reason": "Later explicit user information updates availability; no previous expert return or protocol wording is changed.",
+      "previous_manifest_sha256": "65ce3b27a653576b1f032c84762d335712da5f9b47895b00b9776cd7ba6bfbad"
+    }
+  ]
+}

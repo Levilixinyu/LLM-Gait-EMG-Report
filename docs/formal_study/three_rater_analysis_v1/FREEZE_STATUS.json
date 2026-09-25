@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-09-23T19:32:33.195806+00:00",
+  "status": "Complete: frozen dataset and internal outcomes validated.",
+  "semantic_flag_confirmation_recorded": true,
+  "blocked_source": null,
+  "expected_sha256": null,
+  "source_download_requested": true,
+  "freeze_process_result": "TimeoutError: [Errno 60] Operation timed out while reading a required source.",
+  "freeze_record_exists": true,
+  "previously_blocked_residual_source_now_verified_sha256": "fa9670d5a30af990320b1a5b10cebbfe187b1d98eb6ee5d5c3c713c828144b37",
+  "next_action": "Review the completed model-comparison results and prepare study reporting; no further rater rerating is required by this analysis.",
+  "model_mapping_read": false,
+  "rating_changes": 0,
+  "followup_checks": [
+    {
+      "checked_at_utc": "2026-09-23T17:57:07.816221+00:00",
+      "user_report": "User reported that the download was complete.",
+      "observed_fileprovider_status": {
+        "isDownloadRequested": 1,
+        "isDownloaded": 0,
+        "isDownloading": 1,
+        "isKeepDownloaded": 0
+      },
+      "local_flags": "compressed,dataless",
+      "source": "outputs/rater3_independent/Scoring_audit_response_rater3.xlsx",
+      "assessment": "The requested source is still an iCloud placeholder from this process; local availability is not verified. No alternate matching response workbook was found in the active rater3 and consolidated-rating directories.",
+      "freeze_record_exists": false
+    },
+    {
+      "checked_at_utc": "2026-09-23T18:00:17.236144+00:00",
+      "audit_response_sha256": "e970e7e61908eaac6d9a02886dcf3bdd8ae064515382a21f1b958afa67a82196",
+      "residual_source_re_evicted": true,
+      "download_command_returned_success_but_provider_did_not_report_an_active_request": true
+    },
+    {
+      "checked_at_utc": "2026-09-23T19:32:33.195041+00:00",
+      "result": "Completed frozen snapshot independently validated.",
+      "dataset_sha256": "9cf006f23d5660118f5ac4da9e631e68645fa17686a0742841e267e616ca9167",
+      "reports": 105,
+      "participants": 35,
+      "coverage_rows": 552,
+      "confirmed_issue_groups": 52,
+      "pending_groups": 16,
+      "all_report_outcomes_reconciled_with_groups_and_coverage": true,
+      "semantic_flag_retained_without_requiring_personal_E02": true,
+      "validation_scope": "Frozen captured bytes and manifest; source cloud files are not redundantly reread. Source digests were checked by the completed freeze process."
+    }
+  ],
+  "audit_response_verified_sha256": "e970e7e61908eaac6d9a02886dcf3bdd8ae064515382a21f1b958afa67a82196",
+  "latest_fileprovider_status": {
+    "isDownloaded": 0,
+    "isDownloading": 0,
+    "isDownloadRequested": 0,
+    "isKeepDownloaded": 0
+  },
+  "freeze_record": "docs/formal_study/analysis_freeze_v1/FREEZE_RECORD.json",
+  "dataset_sha256": "9cf006f23d5660118f5ac4da9e631e68645fa17686a0742841e267e616ca9167",
+  "subsequent_analysis": {
+    "status": "Completed after study-lead authorization",
+    "results": "docs/formal_study/model_comparison_v1/README.md",
+    "protected_build_record": "data/rating_packets_formal_v1/private/three_rater_model_analysis_v1/ANALYSIS_BUILD_RECORD.json",
+    "model_mapping_joined_at_analysis_stage": true,
+    "frozen_snapshot_unchanged": true
+  }
+}

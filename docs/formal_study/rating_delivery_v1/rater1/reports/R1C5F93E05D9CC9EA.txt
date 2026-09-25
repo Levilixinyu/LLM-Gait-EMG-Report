@@ -1,0 +1,47 @@
+**1. Objective Findings**
+* Subject: Sub62
+* Group: Control
+* Affected Side: Not applicable (control participant)
+* Gait Speed: Not provided
+* Cadence: Not provided
+* Step Length Symmetry Index: Not applicable (paretic/non-paretic index does not apply)
+
+**2. EMG Envelope and Threshold Findings**
+The following EMG findings represent averaged envelopes normalized to each muscle's respective maximum amplitude across the available strides. Above-threshold intervals are regions where the mean envelope exceeds 20% of its peak for a minimum of 3% of the analysis cycle (0% to 100%, anchored at the initial contact of contributing strides). These parameters describe the algorithmic average and do not establish precise physiological muscle onsets, offsets, continuous contraction duration, or complete inactivity outside the detected intervals.
+
+* **GAS:** The envelope exceeded the threshold from 18% to 50% of the cycle, yielding 31% coverage. The peak normalized amplitude was 0.51.
+* **RF:** The envelope was above threshold across two intervals: 62% to 68%, and 81% wrapping across the initial contact boundary to 43% of the cycle. Total coverage was 70%, with a peak normalized amplitude of 0.49.
+* **VL:** A single interval exceeded the threshold from 81%, wrapping across the initial contact boundary to 48% of the cycle, yielding 68% coverage. The peak normalized amplitude was 0.61.
+* **BF:** The envelope was above threshold from 60% to 66% and from 68% wrapping across the boundary to 56% of the cycle. This provided 95% total coverage, with a peak normalized amplitude of 0.65.
+* **ST:** Multiple above-threshold intervals were present (22% to 28%, 34% to 48%, 55% to 65%, and 70% wrapping across the boundary to 19%), resulting in 81% coverage. The peak normalized amplitude was 0.58.
+* **TA:** The envelope was above threshold across three intervals: 11% to 18%, 56% to 84%, and 87% wrapping across the boundary to 9% of the cycle. Total coverage was 58%, with a peak normalized amplitude of 0.35.
+* **ERS:** The envelope remained above threshold continuously from 0% to 100% of the cycle (100% coverage). The peak normalized amplitude was 0.56.
+
+Whole-cycle co-contraction indices (CCI) of normalized continuous envelopes were evaluated:
+* **TA vs GAS:** CCI = 0.29. This is within the provided healthy-cohort median reference interval (0.24–0.59).
+* **RF vs BF:** CCI = 0.77. This is also within the provided healthy-cohort median reference interval (0.48–0.83).
+
+**3. Kinematic and Reference Comparisons**
+Data were compared to a leave-one-out reference of 137 healthy controls, consisting of 1001 phase points pooled across body sides, ages, and gait speeds. Because this participant’s actual gait speed is not provided, exact matching is impossible, limiting direct comparability. Furthermore, healthy-group membership does not guarantee normal physiology, and deviations from an empirical statistical reference do not establish a diagnosis, disease mechanism, or pathological limitation.
+
+Sagittal Joint Kinematics:
+* **Composite Kinematic Deviation Score (GPS-like):** 7.36 (reference median 5.1, 95th percentile 10.7)
+* **Ankle:** Range of Motion (ROM) 27.9 degrees; Gait Variable Score (GVS) 2.20
+* **Knee:** ROM 57.9 degrees; GVS 4.80
+* **Hip:** ROM 40.8 degrees; GVS 11.04
+* **Pelvis:** ROM 1.3 degrees; GVS 8.19
+
+EMG Maximum Absolute z-score Deviations (largest standardized difference from the phase-specific reference mean, not necessarily the peak amplitude):
+* **GAS:** 1.4 (below reference mean at 4% of cycle)
+* **RF:** 1.3 (below reference mean at 3% of cycle)
+* **VL:** 2.7 (above reference mean at 44% of cycle)
+* **BF:** 2.2 (above reference mean at 41% of cycle)
+* **ST:** 1.9 (above reference mean at 43% of cycle)
+* **TA:** 3.1 (below reference mean at 0% of cycle)
+* **ERS:** 2.9 (above reference mean at 77% of cycle)
+
+**4. Questions for Further Clinical Assessment**
+* Does the minimal sagittal pelvis ROM (1.3 degrees) coupled with a relatively high GVS (8.19) reflect the subject’s authentic habitual movement, or might it indicate a marker tracking issue or instrumentation artifact?
+* Does a clinical assessment suggest that the elevated hip kinematics GVS (11.04) represents a functional movement variation or adaptation?
+* Since gait speed and cadence are omitted, would an objective measurement of temporal-spatial parameters provide helpful context for appraising the observed kinematic deviations?
+* What is the clinical significance, if any, of the high continuous envelope coverage (100% in ERS, 95% in BF) during observational assessment of the individual's functional movement?

@@ -1,0 +1,1032 @@
+{
+  "schema": "gait-project-english-conversion/v1",
+  "status": "completed_and_validated",
+  "date": "2026-09-17",
+  "archive_root_role": "External archive only; never an automatic input or fallback",
+  "archive_location": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report",
+  "original_path_encoding": "UTF-8 percent encoding, for provenance only; do not use for routine data discovery",
+  "translation_method": "API translations plus assistant contextual translation, repeated-text reuse, and manual contextual corrections; not a new human expert review",
+  "unique_source_translation_units": 3666,
+  "human_assessments_or_signatures_created": false,
+  "existing_English_model_report_text_modified": false,
+  "original_source_hashes_relabelled": false,
+  "files": [
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "README.md",
+      "english_path": "README.md",
+      "original_sha256": "d0f06fd041d0cd2e04186f48affb6e7c7305f21d01aa97697bf49210547a1f88",
+      "english_sha256": "fe2f6c2f43c8ffe2c5f707feafd728eab6b715aca74c0a5b5e021fa7f9cf043f",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/CLAUDE_FIXES_2026-09-16.md",
+      "english_path": "audit/CLAUDE_FIXES_2026-09-16.md",
+      "original_sha256": "4d942985d17e4160590274fa225c3941d1eb6b3bf4b737c985bf98df6a218870",
+      "english_sha256": "c858cf0ed1f72c09a7e305877e08d7466339becdc7901156bb8bbf511b2b2f45",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/CLAUDE_HANDOFF_2026-09-16.md",
+      "english_path": "audit/CLAUDE_HANDOFF_2026-09-16.md",
+      "original_sha256": "84ba43bfccae20c2b2f9844be245234660b9e0eaf0461f6e5e7432ed41369e6a",
+      "english_sha256": "e3c9e0435723fcf4d9f177723856569da4daee63f9cf8d41a34798935ec9384c",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/FIFTH_REVIEW_2026-09-16.md",
+      "english_path": "audit/FIFTH_REVIEW_2026-09-16.md",
+      "original_sha256": "7e708ab44d629941c21c7609fd923265b321510ba79170650caee5283e0567d6",
+      "english_sha256": "cd94094f82fd7201a84e92ab42912543748caa0b264cb273fd217b14a99646b0",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/FOURTH_REVIEW_2026-09-16.md",
+      "english_path": "audit/FOURTH_REVIEW_2026-09-16.md",
+      "original_sha256": "4371d67fe777dc6f485a7bd348a75fa6b928905e5594d8a02853f8f7a1e67a79",
+      "english_sha256": "3aafed799a1ec15a0587fab601beff96e438965a80f567314e2509b3e54513fd",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/MAIN_DATASET_SUITABILITY_2026-09-16.md",
+      "english_path": "audit/MAIN_DATASET_SUITABILITY_2026-09-16.md",
+      "original_sha256": "8f830dbb4c355b486bc3b0c0e8350e9cd00ca4b12134825c9fb22daee40ba70c",
+      "english_sha256": "7a86f62f6b4a528a6a5ea7475628164c2171d1eca7639a5e1002ee795c5d26ae",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/POST_FIX_REVIEW_2026-09-16.md",
+      "english_path": "audit/POST_FIX_REVIEW_2026-09-16.md",
+      "original_sha256": "54a2ec3873b209f500165f12b99f1f3edef67196c10290ee50be8e761b8aeb6b",
+      "english_sha256": "2b86451dc288ed1d5008c721c07a4068401e0cb496a357593dbe166c7069ca64",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/PROJECT_AUDIT_2026-09-16.md",
+      "english_path": "audit/PROJECT_AUDIT_2026-09-16.md",
+      "original_sha256": "f2fa9c8de55be026cdac92f2da6838891a1ed8e5557e001f71792f6a051e840c",
+      "english_sha256": "cf15312c1cd7f3d9acbe02aeb98ff2458602c473c4e1fc9d080c79d8137491c0",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/PROJECT_READINESS_2026-09-16.md",
+      "english_path": "audit/PROJECT_READINESS_2026-09-16.md",
+      "original_sha256": "562cbe2e6988dc157364710d8ef5453f95aeb2bea59ea65ab8a7d79a97920afb",
+      "english_sha256": "577421162d39da4708540028333f9e366892c3be6dd5a7914a6ebd973cd8bd35",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/SIXTH_REVIEW_2026-09-16.md",
+      "english_path": "audit/SIXTH_REVIEW_2026-09-16.md",
+      "original_sha256": "d0ebdeea37af326c2af56f7ff1be8739fc2cea67e3c52c2203ced97cde09bce1",
+      "english_sha256": "5e44f3ba1d418dbbe787eea2442f304a7ae6b560235d0b3a3bad281160792915",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/THIRD_REVIEW_2026-09-16.md",
+      "english_path": "audit/THIRD_REVIEW_2026-09-16.md",
+      "original_sha256": "06a9f1899190e370a7983b9428bf93bc7c2a60ed09680d8bb02b21cc6c82916f",
+      "english_sha256": "02d59bff5482ed6610ac9fa8fff76a00cbed6eea457cb1537315c69ebf34e482",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "audit/card_review_ui/retired_versions/cleanup.json",
+      "english_path": "audit/card_review_ui/retired_versions/cleanup.json",
+      "original_sha256": "f266e0e603dfe1f45e4c315491c16a412e3f69fa6e2f9c275bb1fee206547107",
+      "english_sha256": "4fc3be36f0d54600c49870dda6ae29a95249e81b7b311e23ce00299b51f1d865",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "data/rating_packets/DEPRECATED_v1_README.txt",
+      "english_path": "data/rating_packets/DEPRECATED_v1_README.txt",
+      "original_sha256": "dbf41db2f2769c27cd5bea6c8b17f22e10c122e2cf612993fe7097de0bc83c06",
+      "english_sha256": "5ab83fc407dad39d6aa35f31880194e3ab81fa05554f307359ff16bc83a7b321",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/DATA_CARD_REVIEW_GUIDE.md",
+      "english_path": "docs/expert_trial/DATA_CARD_REVIEW_GUIDE.md",
+      "original_sha256": "75ee930e77d9b20fe373c03a41920382606435b7c63d797ffeb0b479a5197825",
+      "english_sha256": "8f0c771a853719225573b520d73aefeb40394726eb36bdf5368e7609d052f9e3",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/TRIAL_RATING_PLAN_DRAFT.md",
+      "english_path": "docs/expert_trial/TRIAL_RATING_PLAN_DRAFT.md",
+      "original_sha256": "90c709cf5e9016306312c8f7407001570ba3299ec1e479240d2e6c0cd324ed57",
+      "english_sha256": "1b25e8a46c8faaf026b7154bac176e219483c7573ce6761f0e32033276d7147e",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/README.md",
+      "english_path": "docs/expert_trial/data_cards_v5/README.md",
+      "original_sha256": "51dc86b123282e3f604395dc2645f629378bb662a7dd31f43acbbe930870cf54",
+      "english_sha256": "625787d04c9534db745188f4680cb609507f50f218d9e6256c031e47548842c6",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/common_checklist_DRAFT.csv",
+      "english_path": "docs/expert_trial/data_cards_v5/common_checklist_DRAFT.csv",
+      "original_sha256": "2c2f9fb803be65b387db19dd1fcd276e20b040a2a5e43d9af47f91d180481d70",
+      "english_sha256": "34b5869ec10453b9566ec5c52170e3abdcc7db1a3f9f22e7b4d0d6b6c7997730",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/common_checklist_DRAFT.json",
+      "english_path": "docs/expert_trial/data_cards_v5/common_checklist_DRAFT.json",
+      "original_sha256": "47e43c946627aa887d139e7205990bbbac1a93bd8b86883106c0901fa15c9eee",
+      "english_sha256": "e29f9114cffefec0c8f3336ba06bc9bf13c6357d7ef2bf5fd6266364d3af1477",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/common_checklist_DRAFT.md",
+      "english_path": "docs/expert_trial/data_cards_v5/common_checklist_DRAFT.md",
+      "original_sha256": "41b8dec4301eae1dbd8d2802fbac6989570eeb71c2a675dd97df3c8c8f8d0a54",
+      "english_sha256": "20293a9fbbe93708a52d232eb25f908f32bf40cdd4d9a3122df64fff7e1b346f",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/control_Sub49_avg/card.html",
+      "english_path": "docs/expert_trial/data_cards_v5/control_Sub49_avg/card.html",
+      "original_sha256": "473c4b55733ec8c149bb8361a4f316615ea3cdbb0ba3d519e92ee50c23e27f5e",
+      "english_sha256": "d65298f3bc2c7f983ad204bd86efb1a8c5c90ce96731a1257ec7dd992a6c67bc",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/control_Sub49_avg/checklist_DRAFT.md",
+      "english_path": "docs/expert_trial/data_cards_v5/control_Sub49_avg/checklist_DRAFT.md",
+      "original_sha256": "20fc5ffd51bbc06a88c9a5cb4573381886fee8038e5a6d26c722083e21201a56",
+      "english_sha256": "564f13f6f141a43ad6764ae3e62c904aa356cb7d2f53b2ccac4f649763b5538e",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/control_Sub49_avg/expert_checklist_DRAFT.csv",
+      "english_path": "docs/expert_trial/data_cards_v5/control_Sub49_avg/expert_checklist_DRAFT.csv",
+      "original_sha256": "24b1509e1b58f976aee5b63dfe608c022be1b54a219bcb103794b5bc9c417f90",
+      "english_sha256": "85aec547f34ede48d78471e5c4ee21201559d7498dcc3bbefa6483b479dbea3c",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/control_Sub49_avg/reference_card.md",
+      "english_path": "docs/expert_trial/data_cards_v5/control_Sub49_avg/reference_card.md",
+      "original_sha256": "a218cfc705fe0fa763dd7720fdc189b31df94247237766b5c1e4cbfe63bfeac7",
+      "english_sha256": "abee324b1cff5f374f403a725dffc4604132f838cb525ff56d705c39afc3891c",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/index.html",
+      "english_path": "docs/expert_trial/data_cards_v5/index.html",
+      "original_sha256": "3a929c3c7df4fd703e44bdb18eb8191a3c52076ac9d1568e8e133ad419835fab",
+      "english_sha256": "2e19c87dc24744bd65b2e473bda6c67a6e9037834d24ee578eace09819a0d043",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/card.html",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/card.html",
+      "original_sha256": "aae78225f702ad56a261be2128924e8230a6c3269eaed008e7ecb318dfb7184f",
+      "english_sha256": "fe9a82f0775ffcb4a2b3eaede62ad69612bd0203dc2012b955faa3340cfbc353",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/checklist_DRAFT.md",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/checklist_DRAFT.md",
+      "original_sha256": "f784606e53a7f15851b35ab9a03999cafee507a55528131272bdef8d675e418c",
+      "english_sha256": "174a15236b55dddcd43a608ef7dd0cbab69ee76799ee37c945bc7cfbfcd094be",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/expert_checklist_DRAFT.csv",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/expert_checklist_DRAFT.csv",
+      "original_sha256": "3fb55f29400997ac4674919c56183202af63aa0184e63de3244e30ee30c008f6",
+      "english_sha256": "d8dcb17aa2fba2cb149d52e11fe6fb0a82cd135b2c211f525f370a89bdb88ba4",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/reference_card.md",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/reference_card.md",
+      "original_sha256": "6b871385d4e4f867ca956bd6beaf947a1f053adf0e883b8acfb8f8d0f8b870d6",
+      "english_sha256": "afcdc5a758ef2baeb4eee203fd61237ffd22973fdfd0667560dcdc60d7883672",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/card.html",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/card.html",
+      "original_sha256": "32016ee4c0ab31a976b895c30736bea1c512cd4e2308108c40eaf85b96034b98",
+      "english_sha256": "154ed59f7c131e77370499924776edf13fc0311ae88cc6edb094fba70c2bc1bd",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/checklist_DRAFT.md",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/checklist_DRAFT.md",
+      "original_sha256": "0f7c863e83e4665492754a8c678f4567a7b64cc5eaf68125dbbbe79726c349db",
+      "english_sha256": "8cbd9da3cbdaa3a2d3765d84f9b93fbf3d69daea5a8127dba3a7c14fef664c91",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/expert_checklist_DRAFT.csv",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/expert_checklist_DRAFT.csv",
+      "original_sha256": "c358e72066716a359bcfcd443a51e4e8976fa0274fadda797d5138f12d218ad5",
+      "english_sha256": "eb3ced677f3bc8824141435cdcbd9836db6debc1b6282c724a7616306fe2b0fa",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/reference_card.md",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/reference_card.md",
+      "original_sha256": "be6fc372ccae1677209d74c06adc19b379479ec240ac988c40ac88a7517471d7",
+      "english_sha256": "4ee4970e6ac84abc64dd31fd0d0a4585f5bc8390100a4a30bb911a7f78ebad90",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/card.html",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/card.html",
+      "original_sha256": "19a848abb62470a4ef98dcc1a596ba90220a0e75517e0519ce8660f697c46cb7",
+      "english_sha256": "023d8194683b2184d88edf3782d4e4a66257188e9f06fb98012d6845902c6d0e",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/checklist_DRAFT.md",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/checklist_DRAFT.md",
+      "original_sha256": "455a2ccd0d5abb430bfe1a1c130f3c3fbd1b83b3d2b58f38add1a26ef9c7abfd",
+      "english_sha256": "7a1b06b4405e69e6f7102bec60a669e4bbd6992cc1eadf9c0d8b589e6b23de82",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/expert_checklist_DRAFT.csv",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/expert_checklist_DRAFT.csv",
+      "original_sha256": "cdba76c8ea1819f9479461f3a3b7f5b733c6097b418db866975e5bc345032c75",
+      "english_sha256": "96f3583e5a71a2927c412cab2280676b87552cb766e7c13b9f10ba4eec24f860",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/reference_card.md",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/reference_card.md",
+      "original_sha256": "b224dea46a9eb6fefb8fdc0a6c2a8de6aae308236475ec5095c2e318c2fa149f",
+      "english_sha256": "b0c5880b515fc7cc9c794fa992f1a27ea0b3cfe03359a7b410cee592787359ad",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/card.html",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/card.html",
+      "original_sha256": "d39e67fed48de618d20e420bbbb8a9fd4c8ee035c504226ad112ec9a90255143",
+      "english_sha256": "ae9f1fd2081df1a86f2b957ba4308e2dd1e94c827b7d054e7c679dfcc5e08c95",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/checklist_DRAFT.md",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/checklist_DRAFT.md",
+      "original_sha256": "49ce1e2a55a72cec4bb88913bd161ae1b1dd0deee29ef6015bbd43f7b7af3afd",
+      "english_sha256": "3ba3bd8ab2281af28e854d2d82223e10e88a7cbea2b561471933b5e439b6c601",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/expert_checklist_DRAFT.csv",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/expert_checklist_DRAFT.csv",
+      "original_sha256": "26a9df6e9d2405e2ee145a1833c5ac4bb4ea6dedef8f481d5da099de8bfe7c9c",
+      "english_sha256": "734940fc9222044a48685db66555768c4021a5a79e87b1c22bdc50c43a124152",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/reference_card.md",
+      "english_path": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/reference_card.md",
+      "original_sha256": "494748cf49b219c5a3015c172d5ae76c3369974c509640d3a1ef11c9b7558329",
+      "english_sha256": "653a05c203d2e9168b552630ce9bb34adedea3aec199d1c1573f87d4b314bbd1",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/README.md",
+      "english_path": "docs/expert_trial/expert_rate/README.md",
+      "original_sha256": "6ab37104eda97229107927fe3a6fe898977a03c6ce1b5247dd52e03964d1edc6",
+      "english_sha256": "6c58598e1c0f38a0c29054a403bcd4f68fbd6f194ab70473bf8546c67dcca66b",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/rater_1.json",
+      "english_path": "docs/expert_trial/expert_rate/rater_1.json",
+      "original_sha256": "fc6decd2df7e5e076dc9479798c6c5bebcc89b73642f84ef39e28b650be2dc2e",
+      "english_sha256": "8267a84acfc303d0cf3c1790e0d1c94248b6594f2f268002bc90b30317670ef1",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/rater_2.html",
+      "english_path": "docs/expert_trial/expert_rate/rater_2.html",
+      "original_sha256": "11be31181bfd540028adfa6ee5fad7b04d19d8b61ecc6c78482743125994f097",
+      "english_sha256": "3241bcb95bfac539e453de4e8b8e6d842c941cc355f7a428933691f098b3c0e9",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/reconciliation/RATER1_CONFIRMATION_REVIEW.md",
+      "english_path": "docs/expert_trial/expert_rate/reconciliation/RATER1_CONFIRMATION_REVIEW.md",
+      "original_sha256": "71d761185c5834cfc318af639622eedc2b6a1863d02d1dd7e1144e8ebc0bb9f1",
+      "english_sha256": "a933c035cfbe8d71c011fda6811b47aaf0db31ba68d1ec67577b719316f2817d",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/reconciliation/gait_adjudication_completion_rater1_confirmed(1).xlsx",
+      "english_path": "docs/expert_trial/expert_rate/reconciliation/gait_adjudication_completion_rater1_confirmed(1).xlsx",
+      "original_sha256": "ce7aed7580910486b445d169009b38e774808e91239e067feaa40516d3d58773",
+      "english_sha256": "506785e31ebc4a89742ff182f18ce0ab281909f610c094cff17179ae1857a715",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/reconciliation/item_comparison_adjudicated.csv",
+      "english_path": "docs/expert_trial/expert_rate/reconciliation/item_comparison_adjudicated.csv",
+      "original_sha256": "f829a42b80bcc705dcc90bca6453e1856acd24f286860367aa33cc6ef7a6e8f6",
+      "english_sha256": "3db9c0b672743bb2ea0fba3033eb1d40d7eb224a56ae3bc41c208219646660b6",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/reconciliation/rater1_comments_response_proposed.csv",
+      "english_path": "docs/expert_trial/expert_rate/reconciliation/rater1_comments_response_proposed.csv",
+      "original_sha256": "23088990b41ecc8fa402281397ead45048aa5849d212742abb39d40b2fff402e",
+      "english_sha256": "72b5f209a16ea370b784f4220dee89c7b6a749c35c05ecd7ff0cf2d296f7394b",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/README.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/README.md",
+      "original_sha256": "268d0997eb0052693380d514c0a7c88c38a067d02de8539303687f5e5a4b705f",
+      "english_sha256": "cc83cfd9ff890076aa2aa9334c28e41de2a1620da6f7455728d33337439296f1",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/delivery_validation.json",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/delivery_validation.json",
+      "original_sha256": "d9e220dc5b84f703e4896697fc7b5f8c6531e2df44dcb323f327b57bd3528927",
+      "english_sha256": "6e1a9e451285ed42e220988be7e43ee1c08ccc8bf3254d012f663381eb3090d5",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/control_Sub49_avg/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/control_Sub49_avg/reference_card.md",
+      "original_sha256": "a218cfc705fe0fa763dd7720fdc189b31df94247237766b5c1e4cbfe63bfeac7",
+      "english_sha256": "abee324b1cff5f374f403a725dffc4604132f838cb525ff56d705c39afc3891c",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/stroke_Sub05_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/stroke_Sub05_P/reference_card.md",
+      "original_sha256": "6b871385d4e4f867ca956bd6beaf947a1f053adf0e883b8acfb8f8d0f8b870d6",
+      "english_sha256": "afcdc5a758ef2baeb4eee203fd61237ffd22973fdfd0667560dcdc60d7883672",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/stroke_Sub09_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/stroke_Sub09_P/reference_card.md",
+      "original_sha256": "be6fc372ccae1677209d74c06adc19b379479ec240ac988c40ac88a7517471d7",
+      "english_sha256": "4ee4970e6ac84abc64dd31fd0d0a4585f5bc8390100a4a30bb911a7f78ebad90",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/stroke_Sub47_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/stroke_Sub47_P/reference_card.md",
+      "original_sha256": "b224dea46a9eb6fefb8fdc0a6c2a8de6aae308236475ec5095c2e318c2fa149f",
+      "english_sha256": "b0c5880b515fc7cc9c794fa992f1a27ea0b3cfe03359a7b410cee592787359ad",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/stroke_Sub50_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/cases/stroke_Sub50_P/reference_card.md",
+      "original_sha256": "494748cf49b219c5a3015c172d5ae76c3369974c509640d3a1ef11c9b7558329",
+      "english_sha256": "653a05c203d2e9168b552630ce9bb34adedea3aec199d1c1573f87d4b314bbd1",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/confirmed_checklist.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/confirmed_checklist.xlsx",
+      "original_sha256": "49a147f2b72c31f9d17d8d276bc7bb79c7c7ebd47e9058fc1829cec28c684ce4",
+      "english_sha256": "bca58162c87517cef05b386050f6a85df8e2ea51940bbb634a12c6cfa1735ae4",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/expert_confirmation_provenance.json",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/expert_confirmation_provenance.json",
+      "original_sha256": "4a9092fdee81955820a435a584493000999307bd83d599c05b1dc8c099bc234f",
+      "english_sha256": "b26204abc55a1539673dff489c3085da691253ae65bb0f9ac680a681ad70fb3a",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/rating_template.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/frozen/rating_template.xlsx",
+      "original_sha256": "92460d535219dbac7f682e97c6e101930411e5c0e4a358282c61c056d9621139",
+      "english_sha256": "b9ce238496f271cc72abc2735c2dd42442bb0e0386029974cebfeee139adbdba",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/packaging_check.json",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/packaging_check.json",
+      "original_sha256": "1772edf15d2f7a4c4a8448ea44d15f30421738524813f32051e8d14caa26c022",
+      "english_sha256": "411d6119f0f8b675e08541e9d54b4ffb71d9ebd634df151483fbd8260192bc8c",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/control_Sub49_avg/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/control_Sub49_avg/reference_card.md",
+      "original_sha256": "a218cfc705fe0fa763dd7720fdc189b31df94247237766b5c1e4cbfe63bfeac7",
+      "english_sha256": "abee324b1cff5f374f403a725dffc4604132f838cb525ff56d705c39afc3891c",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/index.html",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/index.html",
+      "original_sha256": "e9f1b7bf5d40366f8fe128f4b430cbde2c71e5d40a1e5c713e776075907ad2fc",
+      "english_sha256": "9f92f09bd18aa799d6715e7f535dfe92346c302d7fdaabd078cfb9bb6e339072",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/stroke_Sub05_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/stroke_Sub05_P/reference_card.md",
+      "original_sha256": "6b871385d4e4f867ca956bd6beaf947a1f053adf0e883b8acfb8f8d0f8b870d6",
+      "english_sha256": "afcdc5a758ef2baeb4eee203fd61237ffd22973fdfd0667560dcdc60d7883672",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/stroke_Sub09_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/stroke_Sub09_P/reference_card.md",
+      "original_sha256": "be6fc372ccae1677209d74c06adc19b379479ec240ac988c40ac88a7517471d7",
+      "english_sha256": "4ee4970e6ac84abc64dd31fd0d0a4585f5bc8390100a4a30bb911a7f78ebad90",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/stroke_Sub47_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/stroke_Sub47_P/reference_card.md",
+      "original_sha256": "b224dea46a9eb6fefb8fdc0a6c2a8de6aae308236475ec5095c2e318c2fa149f",
+      "english_sha256": "b0c5880b515fc7cc9c794fa992f1a27ea0b3cfe03359a7b410cee592787359ad",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/stroke_Sub50_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/stroke_Sub50_P/reference_card.md",
+      "original_sha256": "494748cf49b219c5a3015c172d5ae76c3369974c509640d3a1ef11c9b7558329",
+      "english_sha256": "653a05c203d2e9168b552630ce9bb34adedea3aec199d1c1573f87d4b314bbd1",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99%E5%A4%8D%E6%A0%B8%E6%A0%B8%E9%AA%8C.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/Complete_materials_review_verification.md",
+      "original_sha256": "7b2c81fd50746670879d519f4e4d0d3617dbd73a93472b56524ba50cb8d14f68",
+      "english_sha256": "d7abf89304a062962783b2d6c77173a833226b92c610fea84d54d245400f90d0",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/%E5%B7%B2%E7%A1%AE%E8%AE%A4%E6%89%A7%E8%A1%8C%E6%B8%85%E5%8D%95.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/Confirmed_execution_checklist.xlsx",
+      "original_sha256": "38e5b4e8ec3210ffc0ed62b9283e67abbaaa9a0d7c495cce02267ff8796f01c8",
+      "english_sha256": "c4412b651988a282d591070b51442d97e76c65fff2f5875e508e937cb785f271",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/%E5%BC%80%E5%A7%8B%E9%98%85%E8%AF%BB.txt",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/Read_first.txt",
+      "original_sha256": "d8da47a6713219d558c05f8a173bb62b171398e00d84aa658804125f3c3390aa",
+      "english_sha256": "5541b0ac478ae05d8d6bfb9e0830ce782ff2699d543b644b123d03a85bdfda88",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/%E6%94%B6%E4%BB%B6%E6%A0%B8%E9%AA%8C.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/Receipt_verification.md",
+      "original_sha256": "f9e17ae385096fc7e2c28fa2a2cc9260319baaa6121ebaf36f650296fbcde998",
+      "english_sha256": "3811be8f3a3f13982d80369c9f1600bd5a706bdec8da193c2e1f6e5938b20073",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/Independent_rating_form.xlsx",
+      "original_sha256": "53d23329de207f4420285cf6e38abd68408e7f792fe0389b0640c6cba693f15a",
+      "english_sha256": "adfe910d10f0f2e79115fc699e902b5769ede13459aca7d5956bef80910c4eee",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8_rater1_G03%E7%BB%9F%E4%B8%80%E5%8F%A3%E5%BE%84%E5%A4%8D%E6%A0%B8.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/Independent_rating_form_rater1_G03_Unified_criteria_review.xlsx",
+      "original_sha256": "70af7e00e25131dd8afbc5e2403e8cadae6b34990dda5f9770a7b91936a04e72",
+      "english_sha256": "0094f2f0734ead1d72da3f21f13862136498c4588308ab3c16b0ce35809ffe3c",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8_rater1_%E5%AE%8C%E6%95%B4%E6%9D%90%E6%96%99%E5%A4%8D%E6%A0%B8.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/Independent_Rating_Form_rater1_Complete_Materials_Review.xlsx",
+      "original_sha256": "ddd60698869682a37aeb1d2c3105364caa29592367af9a11f82723e3ef836fa8",
+      "english_sha256": "98cae1156aa97a3e344e175e98b1b8f0c99306e0700121acd3e656689463dbfb",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/control_Sub49_avg/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/control_Sub49_avg/reference_card.md",
+      "original_sha256": "a218cfc705fe0fa763dd7720fdc189b31df94247237766b5c1e4cbfe63bfeac7",
+      "english_sha256": "abee324b1cff5f374f403a725dffc4604132f838cb525ff56d705c39afc3891c",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/index.html",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/index.html",
+      "original_sha256": "e9f1b7bf5d40366f8fe128f4b430cbde2c71e5d40a1e5c713e776075907ad2fc",
+      "english_sha256": "9f92f09bd18aa799d6715e7f535dfe92346c302d7fdaabd078cfb9bb6e339072",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/stroke_Sub05_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/stroke_Sub05_P/reference_card.md",
+      "original_sha256": "6b871385d4e4f867ca956bd6beaf947a1f053adf0e883b8acfb8f8d0f8b870d6",
+      "english_sha256": "afcdc5a758ef2baeb4eee203fd61237ffd22973fdfd0667560dcdc60d7883672",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/stroke_Sub09_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/stroke_Sub09_P/reference_card.md",
+      "original_sha256": "be6fc372ccae1677209d74c06adc19b379479ec240ac988c40ac88a7517471d7",
+      "english_sha256": "4ee4970e6ac84abc64dd31fd0d0a4585f5bc8390100a4a30bb911a7f78ebad90",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/stroke_Sub47_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/stroke_Sub47_P/reference_card.md",
+      "original_sha256": "b224dea46a9eb6fefb8fdc0a6c2a8de6aae308236475ec5095c2e318c2fa149f",
+      "english_sha256": "b0c5880b515fc7cc9c794fa992f1a27ea0b3cfe03359a7b410cee592787359ad",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/stroke_Sub50_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/stroke_Sub50_P/reference_card.md",
+      "original_sha256": "494748cf49b219c5a3015c172d5ae76c3369974c509640d3a1ef11c9b7558329",
+      "english_sha256": "653a05c203d2e9168b552630ce9bb34adedea3aec199d1c1573f87d4b314bbd1",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/%E5%B7%B2%E7%A1%AE%E8%AE%A4%E6%89%A7%E8%A1%8C%E6%B8%85%E5%8D%95.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/Confirmed_execution_checklist.xlsx",
+      "original_sha256": "d3be63446c8dbc179310053e144d8b305355ec28e7f08d73a38313dd114cf984",
+      "english_sha256": "e66e1f01821d999c5dc0bbee84931c57faef76988b6b4d8d1f7dae08118c0905",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/%E5%BC%80%E5%A7%8B%E9%98%85%E8%AF%BB.txt",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/Read_first.txt",
+      "original_sha256": "d8da47a6713219d558c05f8a173bb62b171398e00d84aa658804125f3c3390aa",
+      "english_sha256": "5541b0ac478ae05d8d6bfb9e0830ce782ff2699d543b644b123d03a85bdfda88",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/Independent_rating_form.xlsx",
+      "original_sha256": "bd30ae090b13fd126ed91538a8384f40e56c2b12ffd5cc0def962985968f8acf",
+      "english_sha256": "a02ef0cf2694a6fb7444f85f8fe2bb6620125b97e012037e9eb5e8a74df90000",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/control_Sub49_avg/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/control_Sub49_avg/reference_card.md",
+      "original_sha256": "a218cfc705fe0fa763dd7720fdc189b31df94247237766b5c1e4cbfe63bfeac7",
+      "english_sha256": "abee324b1cff5f374f403a725dffc4604132f838cb525ff56d705c39afc3891c",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/index.html",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/index.html",
+      "original_sha256": "e9f1b7bf5d40366f8fe128f4b430cbde2c71e5d40a1e5c713e776075907ad2fc",
+      "english_sha256": "9f92f09bd18aa799d6715e7f535dfe92346c302d7fdaabd078cfb9bb6e339072",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/stroke_Sub05_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/stroke_Sub05_P/reference_card.md",
+      "original_sha256": "6b871385d4e4f867ca956bd6beaf947a1f053adf0e883b8acfb8f8d0f8b870d6",
+      "english_sha256": "afcdc5a758ef2baeb4eee203fd61237ffd22973fdfd0667560dcdc60d7883672",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/stroke_Sub09_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/stroke_Sub09_P/reference_card.md",
+      "original_sha256": "be6fc372ccae1677209d74c06adc19b379479ec240ac988c40ac88a7517471d7",
+      "english_sha256": "4ee4970e6ac84abc64dd31fd0d0a4585f5bc8390100a4a30bb911a7f78ebad90",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/stroke_Sub47_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/stroke_Sub47_P/reference_card.md",
+      "original_sha256": "b224dea46a9eb6fefb8fdc0a6c2a8de6aae308236475ec5095c2e318c2fa149f",
+      "english_sha256": "b0c5880b515fc7cc9c794fa992f1a27ea0b3cfe03359a7b410cee592787359ad",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/stroke_Sub50_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/stroke_Sub50_P/reference_card.md",
+      "original_sha256": "494748cf49b219c5a3015c172d5ae76c3369974c509640d3a1ef11c9b7558329",
+      "english_sha256": "653a05c203d2e9168b552630ce9bb34adedea3aec199d1c1573f87d4b314bbd1",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/%E5%B7%B2%E7%A1%AE%E8%AE%A4%E6%89%A7%E8%A1%8C%E6%B8%85%E5%8D%95.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/Confirmed_execution_checklist.xlsx",
+      "original_sha256": "38e5b4e8ec3210ffc0ed62b9283e67abbaaa9a0d7c495cce02267ff8796f01c8",
+      "english_sha256": "c4412b651988a282d591070b51442d97e76c65fff2f5875e508e937cb785f271",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/%E5%BC%80%E5%A7%8B%E9%98%85%E8%AF%BB.txt",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/Read_first.txt",
+      "original_sha256": "d8da47a6713219d558c05f8a173bb62b171398e00d84aa658804125f3c3390aa",
+      "english_sha256": "5541b0ac478ae05d8d6bfb9e0830ce782ff2699d543b644b123d03a85bdfda88",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/Independent_rating_form.xlsx",
+      "original_sha256": "53d23329de207f4420285cf6e38abd68408e7f792fe0389b0640c6cba693f15a",
+      "english_sha256": "adfe910d10f0f2e79115fc699e902b5769ede13459aca7d5956bef80910c4eee",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/control_Sub49_avg/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/control_Sub49_avg/reference_card.md",
+      "original_sha256": "a218cfc705fe0fa763dd7720fdc189b31df94247237766b5c1e4cbfe63bfeac7",
+      "english_sha256": "abee324b1cff5f374f403a725dffc4604132f838cb525ff56d705c39afc3891c",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/index.html",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/index.html",
+      "original_sha256": "e9f1b7bf5d40366f8fe128f4b430cbde2c71e5d40a1e5c713e776075907ad2fc",
+      "english_sha256": "9f92f09bd18aa799d6715e7f535dfe92346c302d7fdaabd078cfb9bb6e339072",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/stroke_Sub05_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/stroke_Sub05_P/reference_card.md",
+      "original_sha256": "6b871385d4e4f867ca956bd6beaf947a1f053adf0e883b8acfb8f8d0f8b870d6",
+      "english_sha256": "afcdc5a758ef2baeb4eee203fd61237ffd22973fdfd0667560dcdc60d7883672",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/stroke_Sub09_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/stroke_Sub09_P/reference_card.md",
+      "original_sha256": "be6fc372ccae1677209d74c06adc19b379479ec240ac988c40ac88a7517471d7",
+      "english_sha256": "4ee4970e6ac84abc64dd31fd0d0a4585f5bc8390100a4a30bb911a7f78ebad90",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/stroke_Sub47_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/stroke_Sub47_P/reference_card.md",
+      "original_sha256": "b224dea46a9eb6fefb8fdc0a6c2a8de6aae308236475ec5095c2e318c2fa149f",
+      "english_sha256": "b0c5880b515fc7cc9c794fa992f1a27ea0b3cfe03359a7b410cee592787359ad",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/stroke_Sub50_P/reference_card.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/stroke_Sub50_P/reference_card.md",
+      "original_sha256": "494748cf49b219c5a3015c172d5ae76c3369974c509640d3a1ef11c9b7558329",
+      "english_sha256": "653a05c203d2e9168b552630ce9bb34adedea3aec199d1c1573f87d4b314bbd1",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/%E5%B7%B2%E7%A1%AE%E8%AE%A4%E6%89%A7%E8%A1%8C%E6%B8%85%E5%8D%95.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/Confirmed_execution_checklist.xlsx",
+      "original_sha256": "d3be63446c8dbc179310053e144d8b305355ec28e7f08d73a38313dd114cf984",
+      "english_sha256": "e66e1f01821d999c5dc0bbee84931c57faef76988b6b4d8d1f7dae08118c0905",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/%E5%BC%80%E5%A7%8B%E9%98%85%E8%AF%BB.txt",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/Read_first.txt",
+      "original_sha256": "d8da47a6713219d558c05f8a173bb62b171398e00d84aa658804125f3c3390aa",
+      "english_sha256": "5541b0ac478ae05d8d6bfb9e0830ce782ff2699d543b644b123d03a85bdfda88",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/Independent_rating_form.xlsx",
+      "original_sha256": "bd30ae090b13fd126ed91538a8384f40e56c2b12ffd5cc0def962985968f8acf",
+      "english_sha256": "a02ef0cf2694a6fb7444f85f8fe2bb6620125b97e012037e9eb5e8a74df90000",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8_rater2.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/Independent_Rating_Form_rater2.xlsx",
+      "original_sha256": "f37c613dd4c7447375506809f22fa4999c0c8458509b9d6d0633a6d87766ae1c",
+      "english_sha256": "b79dfd9938cd2f74076265c8c6deb9c19f7b58d5213d58110e72873d0a8b85a0",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8_rater2_%E8%A1%A5%E5%85%85%E7%89%88.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/Independent_Rating_Form_rater2_Supplemented.xlsx",
+      "original_sha256": "6e52529019d7c4912e0f6a857457d83733a8357c9707174f596046d02868dc4b",
+      "english_sha256": "a6a8307a56028f4fe7f70e877be39953f4ce8cdc786ffa9cd253515159f88b2b",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/README.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/README.md",
+      "original_sha256": "834c50979d3a4f19a59f49379ee6992753c52238abe4c275685b2c08ce90cf54",
+      "english_sha256": "b9f81d6f79d63ac5322c149afa90048861f8255efceef0fd0ae96756191979f0",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/rater2_%E8%A3%81%E5%AE%9A%E6%84%8F%E8%A7%81_2026-09-17.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/rater2_Adjudication_Opinions_2026-09-17.xlsx",
+      "original_sha256": "f267b8d1564ddb006af28b23df823acd1500256b113c657be11a30b4e2102e9c",
+      "english_sha256": "b959705a798ad609ce817feff6ee72f68d96f5288a023f5d71a0428915a22c0f",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/Dual_Rater_Discussion_Q055_Human_reviewed.xlsx",
+      "original_sha256": "8d9c37148542fdadbdbf240115fb7c937ab01b2dbe6773d312fc19c0b2b7e784",
+      "english_sha256": "6f56a451255f1905a788b99ae3a23eb6532aa4d404261e59cdce36e883b55414",
+      "kind": "English_evidence_translation",
+      "original_path_reference": "Exact original locator retained in the isolated pre-correction manifest; original content hash preserved."
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/%E5%8F%8C%E8%AF%84%E5%88%86%E8%80%85%E8%AE%A8%E8%AE%BA_rater1%E6%84%8F%E8%A7%81%E4%B8%8E%E9%94%99%E8%AF%AF%E5%85%B3%E8%81%94.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/Dual_rater_discussion_rater1_opinions_and_error_linkage.xlsx",
+      "original_sha256": "83c0dde1ae065922d8ce6264b90be353aa03280141065a309d23f9a446df57d8",
+      "english_sha256": "fc2668bd9c0fcf27663da7246de3e48d7d4509f98d924378d5e48974e4eebeae",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/%E5%8F%8C%E8%AF%84%E5%88%86%E8%80%85%E8%AE%A8%E8%AE%BA_rater2%E5%8F%8D%E9%A6%88.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/Dual_rater_discussion_rater2_feedback.xlsx",
+      "original_sha256": "8550aa25027cf487c77543b6ec3aad266e4acd2e38431e463a238a4cfd6bb4e3",
+      "english_sha256": "325dc8d2b8607411dba536619a9d083117a14aad4e7c0d30afa7698179c0ccbd",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/%E5%8F%8C%E8%AF%84%E5%88%86%E8%80%85%E8%AE%A8%E8%AE%BA_rater2%E7%AC%AC%E4%BA%8C%E8%BD%AE%E5%9B%9E%E5%A4%8D.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/Dual_rater_discussion_rater2_second_round_response.xlsx",
+      "original_sha256": "76cd038469f88c67b966e7e7ff08e8bf35ea4a39ac933c50fd1f4f3a605b6e57",
+      "english_sha256": "fe38eee013228b947ccfe1086d29b39d8b903591817ac4ae1efc937184c0767e",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/%E8%BF%87%E7%A8%8B%E6%97%A5%E5%BF%97.md",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/PROCESS_LOG.md",
+      "original_sha256": "97b0bb76fe48218bd674546f708074594ca136e843dd48a9dccae817e7a01b9a",
+      "english_sha256": "fa3aaa1f7e7cef2358736c43541dd7f8d022154d45c7f255b152b7ef9e78036c",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/%E8%BF%87%E7%A8%8B%E8%AE%B0%E5%BD%95.json",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/process_records.json",
+      "original_sha256": "8946f970537bc7042cc0a68a6b4c143fd5a40a1bec323ef4c3283361d09e0e84",
+      "english_sha256": "c90f8162053f2006b1e97640e4448382b28242a3ca1b8721ec1a3234b0cb290c",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/%E4%BA%94%E4%BE%8B%E8%AF%95%E8%AF%84_%E8%AF%84%E5%88%86%E8%80%851.zip",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/Five_case_pilot_rating_rater1.zip",
+      "original_sha256": "3873cf7ea60d67417c62d3cc7302e5d8da80df0a65e97c0308a735c03e69d24d",
+      "english_sha256": "c4b1c5f5615e245ce7bab267ea5a56c5d7da9f2fb5a3ae61866987f1e8ef2a77",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/%E4%BA%94%E4%BE%8B%E8%AF%95%E8%AF%84_%E8%AF%84%E5%88%86%E8%80%852.zip",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/Five_case_pilot_rating_rater2.zip",
+      "original_sha256": "aeb46f07ba606d8c2cc476462a738406dc6e6c1d9090c1d54e407178d7522402",
+      "english_sha256": "90d6f03e7fb2ae578ccee29e7b312d958e19973519b284910169011e4b901451",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/working_review_2026-09-17/README.md",
+      "english_path": "docs/expert_trial/expert_rate/working_review_2026-09-17/README.md",
+      "original_sha256": "6053cd25e5b7f4b264be2030b5da70ca3d83e90816d1399b0ca51511982a159b",
+      "english_sha256": "d9a0714900e4ebc22a40613eb9f88afc43fc4637110764dbb33347051ad56e6d",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/working_review_2026-09-17/manifest.json",
+      "english_path": "docs/expert_trial/expert_rate/working_review_2026-09-17/manifest.json",
+      "original_sha256": "85e7d00e71756b1e8f8487db88c92e8e6056c1dee93c45707f086292f842a9ae",
+      "english_sha256": "130d497100f519ff8767bf18ebebb768618a7b320fa9f80a82bdb087e3e95f80",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/working_review_2026-09-17/wording_confirmation_check.json",
+      "english_path": "docs/expert_trial/expert_rate/working_review_2026-09-17/wording_confirmation_check.json",
+      "original_sha256": "4a9092fdee81955820a435a584493000999307bd83d599c05b1dc8c099bc234f",
+      "english_sha256": "b26204abc55a1539673dff489c3085da691253ae65bb0f9ac680a681ad70fb3a",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/working_review_2026-09-17/%E4%BA%94%E4%BE%8B%E6%89%A7%E8%A1%8C%E6%B8%85%E5%8D%95_rater1%E6%8E%AA%E8%BE%9E%E7%A1%AE%E8%AE%A4.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/working_review_2026-09-17/Five_case_execution_checklist_rater1_wording_confirmation.xlsx",
+      "original_sha256": "f440b8b59eeae309a2ce1288666f00b3d0108d9ba1eb62fd1947b9365829ab66",
+      "english_sha256": "1ee86461ab032e9285f692cbf121e97f5d1255be744866d273fc64743d8c789b",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/working_review_2026-09-17/%E4%BA%94%E4%BE%8B%E6%89%A7%E8%A1%8C%E6%B8%85%E5%8D%95_%E5%B7%A5%E4%BD%9C%E7%89%88.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/working_review_2026-09-17/Five_case_execution_checklist_working.xlsx",
+      "original_sha256": "6496f093a5833d8ae2ad7c92b66c9b3b5cf5df5a1c952e587d273ae329fd16be",
+      "english_sha256": "56abe75c0900b2fc5544d6bb2e5c2bc8558a554a81a0beceac55425c3dec4b0f",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/working_review_2026-09-17/%E4%BA%94%E4%BE%8B%E6%89%A7%E8%A1%8C%E6%B8%85%E5%8D%95_%E6%8E%AA%E8%BE%9E%E7%A1%AE%E8%AE%A4%E6%95%B4%E5%90%88%E7%89%88.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/working_review_2026-09-17/Five_case_execution_checklist_Integrated_wording_confirmation.xlsx",
+      "original_sha256": "49a147f2b72c31f9d17d8d276bc7bb79c7c7ebd47e9058fc1829cec28c684ce4",
+      "english_sha256": "d267074039202c56e34667a08e920e0098392e82e30ce65f32bddbc5b98ee2aa",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/working_review_2026-09-17/%E4%BA%94%E4%BE%8B%E7%8B%AC%E7%AB%8B%E8%AF%84%E5%88%86%E8%A1%A8_%E7%A9%BA%E7%99%BD.xlsx",
+      "english_path": "docs/expert_trial/expert_rate/working_review_2026-09-17/Five_case_independent_rating_form_blank.xlsx",
+      "original_sha256": "92460d535219dbac7f682e97c6e101930411e5c0e4a358282c61c056d9621139",
+      "english_sha256": "5b8d340ad2c9c410788e896f726a90e5c72b8858df32f07eb7d981993af9e7af",
+      "kind": "English_evidence_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "scripts/build_expert_trial_package.py",
+      "english_path": "scripts/build_expert_trial_package.py",
+      "original_sha256": "8a94b058f162397d8809719cd89b11b97e0ddfb84aa6fcdeb26fa532cc753bd9",
+      "english_sha256": "fc98647860c182c6dc1bfb9dcb6cab71089ad8b652916f227e9e08c6087fdabf",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "scripts/run_five_case_trial.py",
+      "english_path": "scripts/run_five_case_trial.py",
+      "original_sha256": "31fbafa40205669420178f33fc7fd1cf9f87f83119046096d91bc602d43fe3c6",
+      "english_sha256": "2486d7132baa7e380fa182f69130b38a32ad49e567bd1a2a8c62708a2b618136",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "scripts/verify_card_review_ui.py",
+      "english_path": "scripts/verify_card_review_ui.py",
+      "original_sha256": "ab7753b0869eda5f42feee9996b6402414d195c7e27f1d4ce96a29c8717d7372",
+      "english_sha256": "9ab434d3fb9bf4280702cc453b1513fe176942ba1f2ec045de185e9f0b8fd9b8",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "src/eval/assets/card_review.js",
+      "english_path": "src/eval/assets/card_review.js",
+      "original_sha256": "eaededbf2f2763b7b7b5377f38b73e8e169b294847b6ba666efcd92cfc250649",
+      "english_sha256": "64eb5871b1b4d81e5e724adf456f3d95bda1810c4f23cea9eb534674c92d1316",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "tests/test_expert_trial_package.py",
+      "english_path": "tests/test_expert_trial_package.py",
+      "original_sha256": "e13b846bdaab45f5baaf6feb16aabb7410e71582462e181aef4924b6cd10948e",
+      "english_sha256": "f8d0ea4591fe2e6e3f170c733b749f33531d2712b69b93bfa14d8a317893b4ad",
+      "kind": "English_working_translation"
+    },
+    {
+      "original_archive": "english-migration-supplement-2026-09-17",
+      "original_path_percent_encoded": "audit/card_review_ui/interactive_review.png",
+      "english_path": "audit/card_review_ui/interactive_review_transcript.md",
+      "original_sha256": "7b42a4571cde76ad697afe7dfa9d195250fb6cb34acaf3c45000a9a9576d7704",
+      "english_sha256": "210ae5c7ad36df6dea6bdcbe841055d0da10482bce0d5a48c1709604f6994f1a",
+      "kind": "historical_screenshot_English_text_transcription"
+    },
+    {
+      "original_archive": "english-migration-supplement-2026-09-17",
+      "original_path_percent_encoded": "audit/card_review_ui/v4/interactive_review.png",
+      "english_path": "audit/card_review_ui/v4/interactive_review_transcript.md",
+      "original_sha256": "3aec506583ba7052a52b1a21994f7f9f6a199aec629047470506768458130815",
+      "english_sha256": "871468a984b3ea860e3d31c34fdca9bbea80ee09977b1db3c17e439320be0f42",
+      "kind": "historical_screenshot_English_text_transcription"
+    },
+    {
+      "original_archive": "english-migration-supplement-2026-09-17",
+      "original_path_percent_encoded": "audit/card_review_ui/v5/interactive_review.png",
+      "english_path": "audit/card_review_ui/v5/interactive_review.png",
+      "original_sha256": "680fa65aee34adeacb6eeb42d510a13a15741e544f43fdc676d9731587839a7a",
+      "english_sha256": "da229069217f21e174adadbb32da3650551f4e1da6fa86ab16c790aa80631c24",
+      "kind": "new_English_browser_verification"
+    },
+    {
+      "original_archive": "english-migration-supplement-2026-09-17",
+      "original_path_percent_encoded": "audit/card_review_ui/v5/browser_checks.json",
+      "english_path": "audit/card_review_ui/v5/browser_checks.json",
+      "original_sha256": "77fa4a827392efaa96e3302a8cfeba8c859e86b7b0437a7467236fc0801991c6",
+      "english_sha256": "77fa4a827392efaa96e3302a8cfeba8c859e86b7b0437a7467236fc0801991c6",
+      "kind": "new_English_browser_verification"
+    },
+    {
+      "original_archive": "original-language-2026-09-17",
+      "original_path_percent_encoded": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/trial_summary/summary_manifest.json",
+      "english_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/trial_summary/summary_manifest.json",
+      "original_sha256": "fa8ca0ac27ed4593d5c61baafa10327f909bc66a6f5a8be737cb517c5fbecd90",
+      "english_sha256": "50b82e9a3912db79833c614cface065db0a55da640cf627fcde5d182d8061162",
+      "kind": "translation_status_metadata_update"
+    }
+  ],
+  "reviewer_attribution_reference_note": "The current Q055 workbook was renamed and its reviewer metadata corrected. Pre-existing registered hashes identify historical source bytes; the current workbook hash and isolated original provenance are recorded separately in docs/formal_study/human_reviewer_identity_v1/CORRECTION_RECORD.json. No score changed."
+}

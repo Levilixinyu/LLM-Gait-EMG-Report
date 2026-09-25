@@ -1,0 +1,1069 @@
+{
+  "receipt_date": "2026-09-21",
+  "status": "Complete targeted returns received and clarifications recorded. Ready to incorporate explicit issue decisions and flags; category sets remain personal proposals, not common decisions.",
+  "reviewer_status": "Three human reviewers, as confirmed by the user.",
+  "stage": "Post-feedback targeted review; not original independent reliability data.",
+  "sources": [
+    {
+      "rater": "rater1",
+      "path": "docs/formal_study/consolidated_ratings_v1/Scoring_audit_response_rater1.xlsx",
+      "sha256": "0c81814e6be9982b111709c3579591bb1f80bbe8ff125c4ad224c686ab116ffb"
+    },
+    {
+      "rater": "rater2",
+      "path": "docs/formal_study/consolidated_ratings_v1/Scoring_audit_response_rater2.xlsx",
+      "sha256": "992d0f852ef62bfbfa282ff6d792210e1128b77ff433b4f45ef2dc3668b1e0c3"
+    },
+    {
+      "rater": "rater3",
+      "path": "outputs/rater3_independent/Scoring_audit_response_rater3.xlsx",
+      "sha256": "e970e7e61908eaac6d9a02886dcf3bdd8ae064515382a21f1b958afa67a82196"
+    }
+  ],
+  "checks": {
+    "rater1": {
+      "complete_targeted_rows": 1,
+      "complete_flag_rows": 2,
+      "complete_category_proposals": 6,
+      "only_own_response_cells_changed": true,
+      "changed_cell_count": 38,
+      "exact_quotes_match": true,
+      "english_only": true,
+      "formula_or_error_cells": 0
+    },
+    "rater2": {
+      "complete_targeted_rows": 1,
+      "complete_flag_rows": 1,
+      "complete_category_proposals": 6,
+      "only_own_response_cells_changed": true,
+      "changed_cell_count": 33,
+      "exact_quotes_match": true,
+      "english_only": true,
+      "formula_or_error_cells": 0
+    },
+    "rater3": {
+      "complete_targeted_rows": 1,
+      "complete_flag_rows": 21,
+      "complete_category_proposals": 6,
+      "only_own_response_cells_changed": true,
+      "changed_cell_count": 133,
+      "exact_quotes_match": true,
+      "english_only": true,
+      "formula_or_error_cells": 0
+    }
+  },
+  "returned_records": {
+    "rater1": {
+      "targeted_issue": [
+        {
+          "Finding": "F01",
+          "Report ID": "RDB18B7C593D48194",
+          "Case": "stroke_Sub15_P",
+          "Line": 6,
+          "Exact quote": "medial gastrocnemius (GAS)",
+          "Proposed category": "E01",
+          "Basis": "Input supplies GAS without a head designation; compare the accepted separate E01 in R25F5AA9361D9E14F.",
+          "Rater": "rater1",
+          "Returned disposition": "Error",
+          "Returned categories": "E01",
+          "Returned reason": "Rater1 assessment: report line 6 identifies the recorded GAS channel as medial gastrocnemius. The actual Sub15 system and user inputs provide GAS without a medial/lateral-head designation or a channel legend establishing the medial head. Generic anatomical naming does not establish which head was recorded. The added head-specific identity is unsupported supplied-data detail (E01), even if anatomically plausible; this is not a claim that the actual electrode necessarily targeted a different head. One new issue group, separate from the existing speed-band Error and within-median Pending. Decision follows the actual input, not the audit proposal or another reviewer's label.",
+          "Confirmation date": "2026-09-21"
+        }
+      ],
+      "control_flags": [
+        {
+          "Record key": "rater1|R25F5AA9361D9E14F|I002",
+          "Rater": "rater1",
+          "Report ID": "R25F5AA9361D9E14F",
+          "Case": "control_Sub06_avg",
+          "Decision": "Error",
+          "Categories": "E01",
+          "Quote": "medial gastrocnemius (GAS)",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Rater1: the medial-head addition misstates the specificity of the recorded channel. It does not infer pathology, clinical impairment, or normal physiology/function. Both flags are No for this claim only; the separate constrained-pelvic-ROM claim and its pathology flag are not affected.",
+          "Confirmed by": "rater1",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater1|R1C5F93E05D9CC9EA|I002",
+          "Rater": "rater1",
+          "Report ID": "R1C5F93E05D9CC9EA",
+          "Case": "control_Sub62_avg",
+          "Decision": "Error",
+          "Categories": "E01",
+          "Quote": "high continuous envelope coverage (100% in ERS, 95% in BF)",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Rater1: this record concerns the BF component of line 47, described as continuous despite 95% coverage and two supplied retained intervals. It is a signal-description error, not an established pathological/clinical impairment or normal-function inference. The question asks about clinical significance, if any; it does not assert it. Both flags are No for this claim. The separately linked ERS continuity issue remains separate; the Error disposition is unchanged.",
+          "Confirmed by": "rater1",
+          "Date": "2026-09-21"
+        }
+      ],
+      "category_proposals": [
+        {
+          "Report ID": "R3077041C029681A9",
+          "Case": "stroke_Sub19_P",
+          "Quote": "the reduced sagittal joint ROMs observed here",
+          "rater1 tags": "E07;E02",
+          "rater2 tags": "E07",
+          "rater3 tags": "E07",
+          "Common tags if confirmed": "E07",
+          "Reason": "rater1 proposal: The embedded premise reduced sagittal joint ROMs observed here interprets measured excursion as a demonstrated reduction without a ROM comparator. E07 directly covers that unsupported kinematic conclusion. Contracture/spasticity are proposed causes for testing, not established diagnoses, so I propose E07 alone rather than an additional E02 for the same premise. Existing per-rater tags and Error/Pending labels are preserved. This is a proposed category set only, not joint confirmation.",
+          "Confirmed by": "rater1",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "RE68C712B44209423",
+          "Case": "stroke_Sub18_P",
+          "Quote": "For RF, ST and ERS the reported coverage is 100% and the retained interval spans the full analysis window;",
+          "rater1 tags": "E01;E03",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E03",
+          "Common tags if confirmed": "E01",
+          "Reason": "rater1 proposal: The report includes ST in the full-analysis-window retained-interval statement, although the actual ST entry is 52%-51% (wrapping), with displayed 100% coverage. This misreports retained interval extent. The same sentence explicitly refuses an every-sample/no-below-threshold inference, so E03 is not additionally needed for this scoped factual error. Keep Error, one group; do not change the separate threshold-interpretation dispositions. Existing per-rater tags and Error/Pending labels are preserved. This is a proposed category set only, not joint confirmation.",
+          "Confirmed by": "rater1",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "REB162D9F656B2188",
+          "Case": "stroke_Sub01_P",
+          "Quote": "**RF (4.3), VL (4.2), ST (4.1), BF (2.3)** lie within the 3.65–4.61 span of per-muscle 95th percentiles;",
+          "rater1 tags": "E01;E05",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E05",
+          "Common tags if confirmed": "E01;E05",
+          "Reason": "rater1 proposal: BF 2.3 is below, not within, the supplied 3.65-4.61 span. E01 captures the false numerical inclusion and E05 the incorrect placement relative to the empirical reference-percentile span. These are two tags for one assertion, not two issue counts. This does not assert a muscle-specific or clinical normality classification. Existing per-rater tags and Error/Pending labels are preserved. This is a proposed category set only, not joint confirmation.",
+          "Confirmed by": "rater1",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R25F5AA9361D9E14F",
+          "Case": "control_Sub06_avg",
+          "Quote": "the constrained sagittal pelvis range of motion (1.1 degrees)",
+          "rater1 tags": "E07;E02",
+          "rater2 tags": "E07",
+          "rater3 tags": "E07;E02",
+          "Common tags if confirmed": "E07",
+          "Reason": "rater1 proposal: Constrained sagittal pelvis ROM labels the measured 1.1-degree excursion as a restriction without a supplied ROM comparator. E07 is the specific applicable category. The question asks for a clinical basis and offers typical mechanics as an alternative; it does not establish an additional diagnosis requiring a separate E02 tag. The unsupported restriction premise remains Error, and its existing pathology flag is unchanged. The medial-head identity claim is separate. Existing per-rater tags and Error/Pending labels are preserved. This is a proposed category set only, not joint confirmation.",
+          "Confirmed by": "rater1",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R18C0D9D4DF5C8281",
+          "Case": "stroke_Sub10_P",
+          "Quote": "RF's listing contains adjacent/overlapping segments (68–72, 72–81) within the broader wrapping interval (95–61)",
+          "rater1 tags": "E01;E03",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E03",
+          "Common tags if confirmed": "E01",
+          "Reason": "rater1 proposal: The circular interval 95%-61% contains the end/start portions of the cycle, not 68%-72% or 72%-81%. The claim that those intervals lie within it is a false interval-containment statement. The displayed entries touch at 72%, so that adjacency is not the error. E01 alone captures the incorrect geometry; this scoped clause does not add physiological activation or sample-level threshold inference requiring E03. Existing per-rater tags and Error/Pending labels are preserved. This is a proposed category set only, not joint confirmation.",
+          "Confirmed by": "rater1",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R0C44EC0AE866FB58",
+          "Case": "control_Sub39_avg",
+          "Quote": "BF (3.3) and ERS (3.3) sit within the range of the quoted per-muscle 95th-percentile values",
+          "rater1 tags": "E01;E05",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E05",
+          "Common tags if confirmed": "E01;E05",
+          "Reason": "rater1 proposal: BF and ERS at 3.3 are below the lower endpoint 3.65, not within the quoted 3.65-4.61 percentile span. E01 covers the incorrect numerical relation and E05 its use in reference placement. The subsequent correct ERS-below-3.65 statement does not explicitly retract the earlier shared assertion. One grouped claim with two tags, not two errors; neither tag by itself creates a pathology or normality flag. Existing per-rater tags and Error/Pending labels are preserved. This is a proposed category set only, not joint confirmation.",
+          "Confirmed by": "rater1",
+          "Date": "2026-09-21"
+        }
+      ]
+    },
+    "rater2": {
+      "targeted_issue": [
+        {
+          "Finding": "F01",
+          "Report ID": "RDB18B7C593D48194",
+          "Case": "stroke_Sub15_P",
+          "Line": 6,
+          "Exact quote": "medial gastrocnemius (GAS)",
+          "Proposed category": "E01",
+          "Basis": "Input supplies GAS without a head designation; compare the accepted separate E01 in R25F5AA9361D9E14F.",
+          "Rater": "rater2",
+          "Returned disposition": "Error",
+          "Returned categories": "E01",
+          "Returned reason": "rater2 decision: Error, E01 (invented/misreported fact), low consequence. Checked the supplied inputs for stroke_Sub15_P: the model user prompt, the metric definitions and the shared rules label the channel only as \"GAS\" (EMG line, CCI pair TA_vs_GAS, healthy CCI reference); no file supplies a medial-head designation, and the report itself does not derive it from any supplied field. \"Medial gastrocnemius\" therefore adds anatomical specificity not established by the input. Same claim type and same disposition as the separately accepted E01 in R25F5AA9361D9E14F (control_Sub06_avg, rater2 I003). One new issue group in this report, separate from the speed-band Error (rater2 I003) and the within-median Pending; no clinical content, no severity weight, and no control flag (stroke report).",
+          "Confirmation date": "2026-09-21"
+        }
+      ],
+      "control_flags": [
+        {
+          "Record key": "rater2|R320DCD2D7ECF50B9|DISC_OTHER_R320DCD2D7ECF50B9_I002",
+          "Rater": "rater2",
+          "Report ID": "R320DCD2D7ECF50B9",
+          "Case": "control_Sub06_avg",
+          "Decision": "Pending adjudication",
+          "Categories": "E07",
+          "Quote": "Sagittal pelvic angle is also the channel most sensitive to marker placement and model definition",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Pathology: No. The sentence is a measurement-method remark (sensitivity of the sagittal pelvic channel to marker placement and model definition); it infers no disease, pathological mechanism or clinical impairment for this control participant. Normality: No. It infers no normal physiology, timing or function either; the surrounding paragraph explicitly declines to call the 1.1-degree excursion restricted or typical. The underlying decision remains Pending adjudication (E07 scope question under rubric section 9); these flags annotate that Pending record only and do not change it.",
+          "Confirmed by": "rater2",
+          "Date": "2026-09-21"
+        }
+      ],
+      "category_proposals": [
+        {
+          "Report ID": "R3077041C029681A9",
+          "Case": "stroke_Sub19_P",
+          "Quote": "the reduced sagittal joint ROMs observed here",
+          "rater1 tags": "E07;E02",
+          "rater2 tags": "E07",
+          "rater3 tags": "E07",
+          "Common tags if confirmed": "E07",
+          "Reason": "rater2 proposal. Tagging policy proposed: the first tag names the mechanism of the assessed fault; a second tag is added only when the same wording independently crosses a second rubric boundary; category-frequency tables use the first tag unless the group adopts the full set. Additional tags do not create additional error groups. Group proposal: E07 only. The asserted fault is that ROM values are called \"reduced ... observed here\" without a supplied ROM reference (kinematic summary overinterpretation). The contracture/spasticity alternatives are a permitted clinical possibility under D03 and are not asserted, so E02 does not independently apply.",
+          "Confirmed by": "rater2",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "RE68C712B44209423",
+          "Case": "stroke_Sub18_P",
+          "Quote": "For RF, ST and ERS the reported coverage is 100% and the retained interval spans the full analysis window;",
+          "rater1 tags": "E01;E03",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E03",
+          "Common tags if confirmed": "E01;E03",
+          "Reason": "rater2 proposal. Tagging policy proposed: the first tag names the mechanism of the assessed fault; a second tag is added only when the same wording independently crosses a second rubric boundary; category-frequency tables use the first tag unless the group adopts the full set. Additional tags do not create additional error groups. Group proposal: E01;E03. E01 for misdescribing the supplied ST interval (52%-51% wrapping, not a 0%-100% window); E03 independently applies because the sentence treats a rounded 100% coverage as equivalent to a full-window retained interval, which is the threshold-precision boundary in rubric section 8.",
+          "Confirmed by": "rater2",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "REB162D9F656B2188",
+          "Case": "stroke_Sub01_P",
+          "Quote": "**RF (4.3), VL (4.2), ST (4.1), BF (2.3)** lie within the 3.65–4.61 span of per-muscle 95th percentiles;",
+          "rater1 tags": "E01;E05",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E05",
+          "Common tags if confirmed": "E01;E05",
+          "Reason": "rater2 proposal. Tagging policy proposed: the first tag names the mechanism of the assessed fault; a second tag is added only when the same wording independently crosses a second rubric boundary; category-frequency tables use the first tag unless the group adopts the full set. Additional tags do not create additional error groups. Group proposal: E01;E05. E01 for the misreported position of BF 2.3 (below, not within, 3.65-4.61); E05 because the misstatement is specifically a reference-position classification against the supplied percentile span. rater2 accepts adding E05 to its own record.",
+          "Confirmed by": "rater2",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R25F5AA9361D9E14F",
+          "Case": "control_Sub06_avg",
+          "Quote": "the constrained sagittal pelvis range of motion (1.1 degrees)",
+          "rater1 tags": "E07;E02",
+          "rater2 tags": "E07",
+          "rater3 tags": "E07;E02",
+          "Common tags if confirmed": "E07;E02",
+          "Reason": "rater2 proposal. Tagging policy proposed: the first tag names the mechanism of the assessed fault; a second tag is added only when the same wording independently crosses a second rubric boundary; category-frequency tables use the first tag unless the group adopts the full set. Additional tags do not create additional error groups. Group proposal: E07;E02. E07 for asserting a restriction (\"constrained\") from ROM without a supplied comparator; E02 independently applies because a constrained ROM in a control participant is an unsupported clinical-impairment inference, which is also why the pathology flag is Yes (rater1/rater2). rater2 accepts adding E02 to its own record; the flag annotation is unchanged.",
+          "Confirmed by": "rater2",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R18C0D9D4DF5C8281",
+          "Case": "stroke_Sub10_P",
+          "Quote": "RF's listing contains adjacent/overlapping segments (68–72, 72–81) within the broader wrapping interval (95–61)",
+          "rater1 tags": "E01;E03",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E03",
+          "Common tags if confirmed": "E01",
+          "Reason": "rater2 proposal. Tagging policy proposed: the first tag names the mechanism of the assessed fault; a second tag is added only when the same wording independently crosses a second rubric boundary; category-frequency tables use the first tag unless the group adopts the full set. Additional tags do not create additional error groups. Group proposal: E01 only. The fault is a geometric misdescription of supplied intervals (68-72% and 72-81% lie outside a 95%-61% wrapping interval); no threshold or amplitude inference is made, so E03 does not independently apply. If the group prefers the union, rater2 does not object to E01;E03 but would not count E03 in a first-tag frequency table.",
+          "Confirmed by": "rater2",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R0C44EC0AE866FB58",
+          "Case": "control_Sub39_avg",
+          "Quote": "BF (3.3) and ERS (3.3) sit within the range of the quoted per-muscle 95th-percentile values",
+          "rater1 tags": "E01;E05",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E05",
+          "Common tags if confirmed": "E01;E05",
+          "Reason": "rater2 proposal. Tagging policy proposed: the first tag names the mechanism of the assessed fault; a second tag is added only when the same wording independently crosses a second rubric boundary; category-frequency tables use the first tag unless the group adopts the full set. Additional tags do not create additional error groups. Group proposal: E01;E05, same reasoning as REB162D9F656B2188 (BF 3.3 and ERS 3.3 lie below, not within, the 3.65-4.61 span; the misstatement is a reference-position classification). rater2 accepts adding E05 to its own record. Control flags on this record remain No/No.",
+          "Confirmed by": "rater2",
+          "Date": "2026-09-21"
+        }
+      ]
+    },
+    "rater3": {
+      "targeted_issue": [
+        {
+          "Finding": "F01",
+          "Report ID": "RDB18B7C593D48194",
+          "Case": "stroke_Sub15_P",
+          "Line": 6,
+          "Exact quote": "medial gastrocnemius (GAS)",
+          "Proposed category": "E01",
+          "Basis": "Input supplies GAS without a head designation; compare the accepted separate E01 in R25F5AA9361D9E14F.",
+          "Rater": "rater3",
+          "Returned disposition": "Error",
+          "Returned categories": "E01",
+          "Returned reason": "Verified against Sub15 inputs: the user prompt lists \"GAS: above-threshold interval(s) 33%-60%; 96%-28% (wraps cycle boundary), 59% of cycle above threshold\" (input line 29) with no head designation, and \"medial\" occurs in none of the Sub15 system prompt, user prompt, reference card, or figure files (per-file grep counts all zero). Report line 6 \"medial gastrocnemius (GAS)\" therefore adds an unsupported anatomical specificity. Same defect as the accepted separate E01 in R25F5AA9361D9E14F/Sub06. Separate from the existing speed-band Error and within-median Pending claim.",
+          "Confirmation date": "2026-09-21"
+        }
+      ],
+      "control_flags": [
+        {
+          "Record key": "rater3|R370766F1A57479E3|I001",
+          "Rater": "rater3",
+          "Report ID": "R370766F1A57479E3",
+          "Case": "control_Sub117_avg",
+          "Decision": "Error",
+          "Categories": "E01",
+          "Quote": "Two co-contraction indices: TA-vs-GAS and RF-vs-GAS/BF pairs as listed in Section 2",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Pure metric-identity claim (pair labels); states no impairment and no normal function.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|RA5354EEC7114E5CC|I001",
+          "Rater": "rater3",
+          "Report ID": "RA5354EEC7114E5CC",
+          "Case": "control_Sub62_avg",
+          "Decision": "Error",
+          "Categories": "E03",
+          "Quote": "the supplied evidence indicates no retained below-threshold segment.",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Detector-output claim about retained segments; no pathological or normal-physiology inference stated.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|RA5354EEC7114E5CC|I002",
+          "Rater": "rater3",
+          "Report ID": "RA5354EEC7114E5CC",
+          "Case": "control_Sub62_avg",
+          "Decision": "Error",
+          "Categories": "E03",
+          "Quote": "Sub-threshold segments shorter than 3% of the cycle would not be retained by the duration rule,",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Correction: the \"True methodological statement\" label is withdrawn. The 3% duration rule governs retention of above-threshold runs; below-threshold gaps are never \"retained\" at any length, so \"sub-threshold segments shorter than 3% would not be retained\" inverts the rule and implies longer gaps would be retained (E03 defect, consistent with the Error disposition). The sentence's conclusion (intervals not an exhaustive map) is sound but does not cure the misstated premise. Flags remain No/No: the claim states no impairment and no normal function.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R25F5AA9361D9E14F|I001",
+          "Rater": "rater3",
+          "Report ID": "R25F5AA9361D9E14F",
+          "Case": "control_Sub06_avg",
+          "Decision": "Error",
+          "Categories": "E07;E02",
+          "Quote": "the constrained sagittal pelvis range of motion (1.1 degrees)",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "Yes",
+          "Returned normality": "No",
+          "Reason": "\"Constrained\" asserts a restrictive deficit of pelvic ROM as premise (E07;E02); no normal-function inference. Agrees with rater1/rater2 pathology Yes.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R458C2720FA49CDB2|I002",
+          "Rater": "rater3",
+          "Report ID": "R458C2720FA49CDB2",
+          "Case": "control_Sub73_avg",
+          "Decision": "Error",
+          "Categories": "E01",
+          "Quote": "the channel with the highest coverage (67%)",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Coverage ranking fact (67%); no impairment or normality inference.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R320DCD2D7ECF50B9|I001",
+          "Rater": "rater3",
+          "Report ID": "R320DCD2D7ECF50B9",
+          "Case": "control_Sub06_avg",
+          "Decision": "Error",
+          "Categories": "E01",
+          "Quote": "closer to the lower endpoint than to the median",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Positional fact relative to interval endpoints; no impairment or normality inference.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R0C44EC0AE866FB58|I001",
+          "Rater": "rater3",
+          "Report ID": "R0C44EC0AE866FB58",
+          "Case": "control_Sub39_avg",
+          "Decision": "Error",
+          "Categories": "E03",
+          "Quote": "the averaged ERS envelope did not fall below its own 20% threshold anywhere in the analysed window",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Every-sample detector claim (E03); states no impairment and no normal function.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R0C44EC0AE866FB58|I002",
+          "Rater": "rater3",
+          "Report ID": "R0C44EC0AE866FB58",
+          "Case": "control_Sub39_avg",
+          "Decision": "Error",
+          "Categories": "E03",
+          "Quote": "the mean envelope was below threshold outside those intervals",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Gap-region detector claim (E03); no impairment or normality inference stated.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R0C44EC0AE866FB58|I003",
+          "Rater": "rater3",
+          "Report ID": "R0C44EC0AE866FB58",
+          "Case": "control_Sub39_avg",
+          "Decision": "Error",
+          "Categories": "E01;E05",
+          "Quote": "BF (3.3) and ERS (3.3) sit within the range of the quoted per-muscle 95th-percentile values",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Reference-position statement (E01;E05); places values without inferring normal function or impairment.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R84CDF9281B922AAC|I001",
+          "Rater": "rater3",
+          "Report ID": "R84CDF9281B922AAC",
+          "Case": "control_Sub117_avg",
+          "Decision": "Error",
+          "Categories": "E03",
+          "Quote": "leaving no below-threshold segment",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Detector-output claim (E03); no impairment or normality inference stated.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|REB6E8F4480E6599B|I001",
+          "Rater": "rater3",
+          "Report ID": "REB6E8F4480E6599B",
+          "Case": "control_Sub73_avg",
+          "Decision": "Error",
+          "Categories": "E08",
+          "Quote": "Given that gait speed was not recorded for this participant,",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Missingness premise (E08: speed unrecorded); draws no pathological or normality conclusion itself.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|RCB4DAF6627D94EF3|I001",
+          "Rater": "rater3",
+          "Report ID": "RCB4DAF6627D94EF3",
+          "Case": "control_Sub39_avg",
+          "Decision": "Error",
+          "Categories": "E08",
+          "Quote": "Because gait speed is unrecorded,",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Missingness premise (E08); no impairment or normality inference.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R99084CAB7BCC7FC1|I001",
+          "Rater": "rater3",
+          "Report ID": "R99084CAB7BCC7FC1",
+          "Case": "control_Sub31_avg",
+          "Decision": "Error",
+          "Categories": "E08",
+          "Quote": "the participant's unrecorded self-selected walking speed and cadence",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Missingness premise (E08: speed/cadence unrecorded); no impairment or normality inference.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|RED421A7034CB7BCD|I001",
+          "Rater": "rater3",
+          "Report ID": "RED421A7034CB7BCD",
+          "Case": "control_Sub14_avg",
+          "Decision": "Error",
+          "Categories": "E08",
+          "Quote": "the participant's gait speed is unrecorded",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Missingness premise (E08); no impairment or normality inference.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R84CDF9281B922AAC|I002",
+          "Rater": "rater3",
+          "Report ID": "R84CDF9281B922AAC",
+          "Case": "control_Sub117_avg",
+          "Decision": "Error",
+          "Categories": "E08",
+          "Quote": "the participant's true, unrecorded walking speed",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Missingness premise (E08); no impairment or normality inference.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R61170EB85BD38391|I001",
+          "Rater": "rater3",
+          "Report ID": "R61170EB85BD38391",
+          "Case": "control_Sub09_avg",
+          "Decision": "Pending adjudication",
+          "Categories": "E03",
+          "Quote": "at the mean-envelope level this indicates no retained segment below the 20% threshold anywhere in the averaged cycle.",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Detector-output claim (Pending E03); no impairment or normality inference. Pending stays Pending.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R458C2720FA49CDB2|I003",
+          "Rater": "rater3",
+          "Report ID": "R458C2720FA49CDB2",
+          "Case": "control_Sub73_avg",
+          "Decision": "Pending adjudication",
+          "Categories": "E03",
+          "Quote": "a low or atypical denominator would affect both peak amplitudes and the 20%-of-peak threshold, and hence coverage and detected intervals",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Methodological conditional on normalization (Pending E03); no impairment or normality inference. Pending stays Pending.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|RABAADEA37D48C316|I001",
+          "Rater": "rater3",
+          "Report ID": "RABAADEA37D48C316",
+          "Case": "control_Sub09_avg",
+          "Decision": "Error",
+          "Categories": "E03",
+          "Quote": "The envelope exceeds the threshold continuously from 0% to 100%",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Threshold-continuity detector claim (E03); states no impairment and no normal function.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R1C5F93E05D9CC9EA|I002",
+          "Rater": "rater3",
+          "Report ID": "R1C5F93E05D9CC9EA",
+          "Case": "control_Sub62_avg",
+          "Decision": "Error",
+          "Categories": "E03",
+          "Quote": "The envelope remained above threshold continuously from 0% to 100% of the cycle",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Threshold-continuity detector claim (E03); no impairment or normality inference stated.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R320DCD2D7ECF50B9|DISC_OTHER_R320DCD2D7ECF50B9_I002",
+          "Rater": "rater3",
+          "Report ID": "R320DCD2D7ECF50B9",
+          "Case": "control_Sub06_avg",
+          "Decision": "Pending adjudication",
+          "Categories": "E07",
+          "Quote": "Sagittal pelvic angle is also the channel most sensitive to marker placement and model definition",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Methodological caution on marker/model sensitivity (Pending E07); states no impairment and no normal function. Pending stays Pending.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Record key": "rater3|R25F5AA9361D9E14F|RESIDUAL",
+          "Rater": "rater3",
+          "Report ID": "R25F5AA9361D9E14F",
+          "Case": "control_Sub06_avg",
+          "Decision": "Error",
+          "Categories": "E01",
+          "Quote": "medial gastrocnemius (GAS)",
+          "Existing pathology": null,
+          "Existing normality": null,
+          "Returned pathology": "No",
+          "Returned normality": "No",
+          "Reason": "Anatomical label (E01 medial-head addition); no impairment or normality inference.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        }
+      ],
+      "category_proposals": [
+        {
+          "Report ID": "R3077041C029681A9",
+          "Case": "stroke_Sub19_P",
+          "Quote": "the reduced sagittal joint ROMs observed here",
+          "rater1 tags": "E07;E02",
+          "rater2 tags": "E07",
+          "rater3 tags": "E07",
+          "Common tags if confirmed": "E07",
+          "Reason": "rater3 proposal: retain E07 only. The false premise (\"reduced ROMs observed\") is an unsupported kinematic summary (E07); the candidate causes (contracture/spasticity/adaptation) are posed as question alternatives, so D03 clears them and no E02 is asserted. Decline the added E02.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "RE68C712B44209423",
+          "Case": "stroke_Sub18_P",
+          "Quote": "For RF, ST and ERS the reported coverage is 100% and the retained interval spans the full analysis window;",
+          "rater1 tags": "E01;E03",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E03",
+          "Common tags if confirmed": "E01;E03",
+          "Reason": "rater3 proposal: retain E01;E03. ST wrap 52-51 is not a full 0-100 window yet is grouped with RF/ERS as spanning the full window (E01 interval misdescription, input line 33); the caveat avoids a gap-proof claim but does not fix the misdescription, and the full-window span is read beyond what retained output supports (E03).",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "REB162D9F656B2188",
+          "Case": "stroke_Sub01_P",
+          "Quote": "**RF (4.3), VL (4.2), ST (4.1), BF (2.3)** lie within the 3.65–4.61 span of per-muscle 95th percentiles;",
+          "rater1 tags": "E01;E05",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E05",
+          "Common tags if confirmed": "E01",
+          "Reason": "rater3 proposal (revised): E01 only; E05 withdrawn. E01 retained: BF 2.3 lies below the quoted 3.65-4.61 span yet is grouped as \"within\" (verified against Sub01 max-|z| values). E05 withdrawn: an invalid-reference-classification charge requires using the span as a cutoff, but the same sentence explicitly declines classification (\"specific per-muscle limits are not supplied, so they cannot be classified as inside or outside a healthy limit here\"). The refusal removes the E05 basis; the false \"within\" placement remains E01.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R25F5AA9361D9E14F",
+          "Case": "control_Sub06_avg",
+          "Quote": "the constrained sagittal pelvis range of motion (1.1 degrees)",
+          "rater1 tags": "E07;E02",
+          "rater2 tags": "E07",
+          "rater3 tags": "E07;E02",
+          "Common tags if confirmed": "E07;E02",
+          "Reason": "rater3 proposal (corrected): retain E07;E02. Correction: line 42 IS a Section-4 clinical question (\"Does clinical observation reveal a basis for ... or typical mechanics?\"); the earlier \"not a D03 question\" wording is withdrawn. Retained ground is the label, not the mood: \"constrained\" characterizes the ROM as restricted (E02 language boundary) with no matched comparator (E07), and the \"typical mechanics\" disjunct does not un-embed that label. Contrast R3077, where \"reduced\" is magnitude-direction language and every candidate cause sits as a neutral D03 alternative. If the constrained/reduced language distinction is rejected, this collapses to E07.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R18C0D9D4DF5C8281",
+          "Case": "stroke_Sub10_P",
+          "Quote": "RF's listing contains adjacent/overlapping segments (68–72, 72–81) within the broader wrapping interval (95–61)",
+          "rater1 tags": "E01;E03",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E03",
+          "Common tags if confirmed": "E01;E03",
+          "Reason": "rater3 proposal (corrected): retain E01;E03. The physiological-interpretation wording is withdrawn: the sentence explicitly states the segmentation pattern is \"a property of the segmentation output as supplied, not a separate physiological event,\" which is acknowledged and saves the physiology reading. E01 retained: segments 68-72/72-81 lie outside the 95-61 wrap (95-100 + 0-61), so \"within the broader wrapping interval\" is arithmetically false. E03 retained on narrowed ground: \"adjacent/overlapping\" plus hierarchical containment (\"segments ... within the broader interval\") infers overlap/structure from shared rounded listed endpoints (72) and a flat run list, beyond what the rounded listing supports; the physiological hedge does not cover this structural overread.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        },
+        {
+          "Report ID": "R0C44EC0AE866FB58",
+          "Case": "control_Sub39_avg",
+          "Quote": "BF (3.3) and ERS (3.3) sit within the range of the quoted per-muscle 95th-percentile values",
+          "rater1 tags": "E01;E05",
+          "rater2 tags": "E01",
+          "rater3 tags": "E01;E05",
+          "Common tags if confirmed": "E01;E05",
+          "Reason": "rater3 proposal: retain E01;E05, with E05 narrowed. E01: both 3.3 values sit below 3.65 yet are stated to \"sit within\" the 3.65-4.61 range (flat misplacement). E05: BF is positioned against the pooled span with no BF-specific limit cited, while the same sentence demonstrates the correct method for ERS (3.3 below the stated ERS 3.65) and the report elsewhere declines pooled-span positioning when the muscle limit is missing (VL 7.4, \"cannot be positioned precisely\"). The ERS-specific citation itself is correct and is not the error; the error is the missing BF-specific basis. Later correct ERS comparison does not cure the BF placement.",
+          "Confirmed by": "rater3",
+          "Date": "2026-09-21"
+        }
+      ]
+    }
+  },
+  "category_comparison": {
+    "R3077041C029681A9": {
+      "rater1": "E07",
+      "rater2": "E07",
+      "rater3": "E07"
+    },
+    "RE68C712B44209423": {
+      "rater1": "E01",
+      "rater2": "E01;E03",
+      "rater3": "E01;E03"
+    },
+    "REB162D9F656B2188": {
+      "rater1": "E01;E05",
+      "rater2": "E01;E05",
+      "rater3": "E01"
+    },
+    "R25F5AA9361D9E14F": {
+      "rater1": "E07",
+      "rater2": "E07;E02",
+      "rater3": "E07;E02"
+    },
+    "R18C0D9D4DF5C8281": {
+      "rater1": "E01",
+      "rater2": "E01",
+      "rater3": "E01;E03"
+    },
+    "R0C44EC0AE866FB58": {
+      "rater1": "E01;E05",
+      "rater2": "E01;E05",
+      "rater3": "E01;E05"
+    }
+  },
+  "protected_baseline_hashes": [
+    {
+      "path": "docs/formal_study/consolidated_ratings_v1/Consolidated_ratings_working.xlsx",
+      "sha256": "d73b46705223cdf9ca20903cd3f11c196b14bb551f5f9400db86bee6d0e45ba8"
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx",
+      "sha256": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160"
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx",
+      "sha256": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649"
+    },
+    {
+      "path": "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx",
+      "sha256": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5"
+    }
+  ],
+  "follow_up_scope": "No additional reviewer response requested for these items. Personal interpretive differences are retained; analysis policy must not treat them as joint category approval.",
+  "findings": [
+    {
+      "id": "RC01",
+      "source": "rater3 / Control flags / L6",
+      "type": "Reason contradicts retained decision and supplied rule",
+      "detail": "The reason calls the quoted below-threshold duration statement true, but the retained decision is Error E03 and the rubric filters above-threshold runs. No/No flags do not depend on calling the statement true. Confirm intended wording without forcing a disposition.",
+      "status": "Resolved by source correction",
+      "resolution": "The true-statement wording is withdrawn; Error E03 and No/No retained."
+    },
+    {
+      "id": "RC02",
+      "source": "rater3 / Category alignment / H5",
+      "type": "Incorrect description of sentence form",
+      "detail": "The reason says this is not a D03 question. Report R25F5AA9361D9E14F line 42 is a Section 4 question. An asserted constrained-ROM premise inside that question may still support the reviewer's chosen tags; do not require tag agreement.",
+      "status": "Resolved by source correction",
+      "resolution": "The revised reason correctly identifies a Section 4 question and locates the proposed error in its embedded constrained-ROM premise. The proposed additional E02 is an interpretation, not a mandated keyword classification. Rater1 E07 and rater2/rater3 E07;E02 remain separate personal proposals."
+    },
+    {
+      "id": "RC03",
+      "source": "rater3 / Category alignment / H4 and H7",
+      "type": "Overbroad reference-classification rationale",
+      "detail": "The scoped false within-span comparisons are confirmed numerical errors. Sub01 explicitly declines classification against unsupplied muscle-specific limits; Sub39 names the ERS-specific 3.65 limit. Do not present mere endpoint-span comparison as automatically prohibited or assert substitution without identifying the relevant text. E05 may be retained with a reason addressing the actual erroneous reference placement.",
+      "status": "Response complete; interpretation retained as a personal proposal",
+      "resolution": "Sub01 E05 withdrawn by rater3. Sub39 E01;E05 retained with narrower BF rationale. This does not establish that all descriptive pooled-span comparisons require muscle-specific limits; existing rules allow appropriate endpoint comparisons. No shared new rule or forced tag agreement."
+    },
+    {
+      "id": "RC04",
+      "source": "rater3 / Category alignment / H6",
+      "type": "Rationale conflicts with explicit report qualification",
+      "detail": "The reason says the report reads physiological interval structure beyond retained output, but R18C0D9D4DF5C8281 line 42 explicitly calls this segmentation output, not a separate physiological event. E01 containment error is established; E03 remains the reviewer's proposal and needs its own supported explanation if retained.",
+      "status": "Response complete; category scope remains interpretive",
+      "resolution": "Physiological interpretation withdrawn. E03 now proposed for structural overreading of retained intervals. Other raters may classify this only as E01; neither view is forced into a common decision."
+    },
+    {
+      "id": "RC05",
+      "source": "rater3 / all response date cells",
+      "type": "Chronology clarification",
+      "detail": "All returned dates are 2026-09-20 while the audit template is dated 2026-09-21. Preserve supplied dates and record receipt as September 21; ask whether dates refer to earlier assessment or current confirmation. Do not silently redate or infer misconduct.",
+      "status": "Resolved by source correction and reviewer explanation",
+      "resolution": "All 28 response dates are now September 21; reviewer explanation retained in source revision history."
+    }
+  ],
+  "source_revisions": [
+    {
+      "receipt_date": "2026-09-21",
+      "rater": "rater3",
+      "path": "outputs/rater3_independent/Scoring_audit_response_rater3.xlsx",
+      "previous_sha256": "56f6433b03bc1d79693ee3a5d3ee2bf5b4233aabe784ac76c44062b4638f559e",
+      "sha256": "6a91d28daac43f621e7d85d74597699a93933e3ea0051deeb52df6e283e75748",
+      "changed_response_cell": "Category alignment!H5",
+      "previous_reason": "rater3 proposal: retain E07;E02. \"Constrained ... (1.1 degrees)\" declaratively asserts a restrictive deficit with no matched ROM comparator (E07), and the deficit premise itself states impairment direction (E02). Unlike R3077, this is not a D03 question.",
+      "new_reason": "rater3 proposal (corrected): retain E07;E02. Correction: line 42 IS a Section-4 clinical question (\"Does clinical observation reveal a basis for ... or typical mechanics?\"); the earlier \"not a D03 question\" wording is withdrawn. Retained ground is the label, not the mood: \"constrained\" characterizes the ROM as restricted (E02 language boundary) with no matched comparator (E07), and the \"typical mechanics\" disjunct does not un-embed that label. Contrast R3077, where \"reduced\" is magnitude-direction language and every candidate cause sits as a neutral D03 alternative. If the constrained/reduced language distinction is rejected, this collapses to E07.",
+      "assessment": "RC02 factual sentence-form correction resolved. E07;E02 retained as rater3 personal proposal; no shared constrained/reduced rule adopted. Other clarification items remain open."
+    },
+    {
+      "receipt_date": "2026-09-21",
+      "rater": "rater3",
+      "previous_sha256": "6a91d28daac43f621e7d85d74597699a93933e3ea0051deeb52df6e283e75748",
+      "sha256": "e970e7e61908eaac6d9a02886dcf3bdd8ae064515382a21f1b958afa67a82196",
+      "changes": [
+        {
+          "sheet": "Targeted issue",
+          "report_id": "RDB18B7C593D48194",
+          "field": "Confirmation date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R370766F1A57479E3",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "RA5354EEC7114E5CC",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "RA5354EEC7114E5CC",
+          "field": "Reason",
+          "before": "True methodological statement about the duration rule; no impairment or normality inference.",
+          "after": "Correction: the \"True methodological statement\" label is withdrawn. The 3% duration rule governs retention of above-threshold runs; below-threshold gaps are never \"retained\" at any length, so \"sub-threshold segments shorter than 3% would not be retained\" inverts the rule and implies longer gaps would be retained (E03 defect, consistent with the Error disposition). The sentence's conclusion (intervals not an exhaustive map) is sound but does not cure the misstated premise. Flags remain No/No: the claim states no impairment and no normal function."
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "RA5354EEC7114E5CC",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R25F5AA9361D9E14F",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R458C2720FA49CDB2",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R320DCD2D7ECF50B9",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R0C44EC0AE866FB58",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R0C44EC0AE866FB58",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R0C44EC0AE866FB58",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R84CDF9281B922AAC",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "REB6E8F4480E6599B",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "RCB4DAF6627D94EF3",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R99084CAB7BCC7FC1",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "RED421A7034CB7BCD",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R84CDF9281B922AAC",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R61170EB85BD38391",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R458C2720FA49CDB2",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "RABAADEA37D48C316",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R1C5F93E05D9CC9EA",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R320DCD2D7ECF50B9",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Control flags",
+          "report_id": "R25F5AA9361D9E14F",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "R3077041C029681A9",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "RE68C712B44209423",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "REB162D9F656B2188",
+          "field": "Common tags if confirmed",
+          "before": "E01;E05",
+          "after": "E01"
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "REB162D9F656B2188",
+          "field": "Reason",
+          "before": "rater3 proposal: retain E01;E05. BF 2.3 lies below the quoted 3.65-4.61 span yet is grouped as \"within\" (E01 misplacement, verified against Sub01 max-|z| values); judging per-muscle values against the pooled span instead of muscle-specific limits is an invalid reference classification (E05).",
+          "after": "rater3 proposal (revised): E01 only; E05 withdrawn. E01 retained: BF 2.3 lies below the quoted 3.65-4.61 span yet is grouped as \"within\" (verified against Sub01 max-|z| values). E05 withdrawn: an invalid-reference-classification charge requires using the span as a cutoff, but the same sentence explicitly declines classification (\"specific per-muscle limits are not supplied, so they cannot be classified as inside or outside a healthy limit here\"). The refusal removes the E05 basis; the false \"within\" placement remains E01."
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "REB162D9F656B2188",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "R25F5AA9361D9E14F",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "R18C0D9D4DF5C8281",
+          "field": "Reason",
+          "before": "rater3 proposal: retain E01;E03. Segments 68-72/72-81 lie outside the 95-61 wrap (95-100 + 0-61); shared rounded endpoints do not establish overlap or containment (E01), and the segmentation listing is read as a physiological interval structure beyond retained output (E03).",
+          "after": "rater3 proposal (corrected): retain E01;E03. The physiological-interpretation wording is withdrawn: the sentence explicitly states the segmentation pattern is \"a property of the segmentation output as supplied, not a separate physiological event,\" which is acknowledged and saves the physiology reading. E01 retained: segments 68-72/72-81 lie outside the 95-61 wrap (95-100 + 0-61), so \"within the broader wrapping interval\" is arithmetically false. E03 retained on narrowed ground: \"adjacent/overlapping\" plus hierarchical containment (\"segments ... within the broader interval\") infers overlap/structure from shared rounded listed endpoints (72) and a flat run list, beyond what the rounded listing supports; the physiological hedge does not cover this structural overread."
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "R18C0D9D4DF5C8281",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "R0C44EC0AE866FB58",
+          "field": "Reason",
+          "before": "rater3 proposal: retain E01;E05. Both 3.3 values sit below the 3.65-4.61 span yet are stated to \"sit within\" it (E01 misplacement); the pooled-span comparison substitutes for muscle-specific limits (E05).",
+          "after": "rater3 proposal: retain E01;E05, with E05 narrowed. E01: both 3.3 values sit below 3.65 yet are stated to \"sit within\" the 3.65-4.61 range (flat misplacement). E05: BF is positioned against the pooled span with no BF-specific limit cited, while the same sentence demonstrates the correct method for ERS (3.3 below the stated ERS 3.65) and the report elsewhere declines pooled-span positioning when the muscle limit is missing (VL 7.4, \"cannot be positioned precisely\"). The ERS-specific citation itself is correct and is not the error; the error is the missing BF-specific basis. Later correct ERS comparison does not cure the BF placement."
+        },
+        {
+          "sheet": "Category alignment",
+          "report_id": "R0C44EC0AE866FB58",
+          "field": "Date",
+          "before": "2026-09-20",
+          "after": "2026-09-21"
+        }
+      ],
+      "date_explanation": "User-forwarded reviewer statement: dates denote this confirmation, not an earlier assessment. September 20 was a local-system-date entry error, corrected to September 21 as the actual UTC confirmation date. This explanation is recorded as supplied, not independently verified."
+    }
+  ]
+}

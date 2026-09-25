@@ -1,0 +1,94 @@
+[
+  {
+    "fact_id": "identity",
+    "value": "stroke/Sub47_P/paretic",
+    "evidence": "Subject line",
+    "model_visible": true
+  },
+  {
+    "fact_id": "gait_speed_m_s",
+    "value": 0.535668,
+    "evidence": "gait_speed_m_s",
+    "model_visible": true
+  },
+  {
+    "fact_id": "cadence_steps_min",
+    "value": 98.133554,
+    "evidence": "cadence_steps_min",
+    "model_visible": true
+  },
+  {
+    "fact_id": "step_length_symmetry_index",
+    "value": -15.42103,
+    "evidence": "step_length_symmetry_index",
+    "model_visible": true
+  },
+  {
+    "fact_id": "gait_profile_score",
+    "value": 8.80339,
+    "evidence": "gait_profile_score",
+    "model_visible": true
+  },
+  {
+    "fact_id": "AnkleAngles.rom_deg",
+    "value": 18.033253526944776,
+    "evidence": "Joint kinematic findings: AnkleAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "AnkleAngles.gvs_deg",
+    "value": 7.61548362627251,
+    "evidence": "Joint kinematic findings: AnkleAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "KneeAngles.rom_deg",
+    "value": 35.74571047932152,
+    "evidence": "Joint kinematic findings: KneeAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "KneeAngles.gvs_deg",
+    "value": 9.455133262964189,
+    "evidence": "Joint kinematic findings: KneeAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "HipAngles.rom_deg",
+    "value": 33.023710764887355,
+    "evidence": "Joint kinematic findings: HipAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "HipAngles.gvs_deg",
+    "value": 11.725550790620245,
+    "evidence": "Joint kinematic findings: HipAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "PelvisAngles.rom_deg",
+    "value": 3.7642593820401427,
+    "evidence": "Joint kinematic findings: PelvisAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "PelvisAngles.gvs_deg",
+    "value": 5.011488999952483,
+    "evidence": "Joint kinematic findings: PelvisAngles",
+    "model_visible": true
+  },
+  {
+    "fact_id": "missing_emg_channels",
+    "value": [
+      "GAS",
+      "RF",
+      "VL",
+      "BF",
+      "ST",
+      "TA",
+      "ERS"
+    ],
+    "evidence": "Missing channel/No valid EMG statement",
+    "model_visible": true
+  }
+]

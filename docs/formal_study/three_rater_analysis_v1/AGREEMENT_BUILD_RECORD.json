@@ -1,0 +1,22 @@
+{
+  "computed_at_utc": "2026-09-23T16:40:17.758541+00:00",
+  "source_sha256": {
+    "docs/formal_study/three_rater_analysis_v1/AGREEMENT_AUTHORIZATION.json": "655ac07f824ce2eafdc3331f3dff2dfb50b3a7c2fe484dc0efde2d0b86167632",
+    "docs/formal_study/case_requirements_v1/case_requirements.csv": "c836e6fae801ee15da142a989764f79223843a6509df27c26d7fb763fac27806",
+    "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160",
+    "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5",
+    "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+    "src/eval/three_rater_blinded.py": "211dc937793f53e6546fd7957db55cc2493b87a0e262bb45f1f30579cfb11235",
+    "src/eval/formal_analysis.py": "445f730e37d7f0ea496be9c099f67728b49608be8993dfa973ff1017b05d46bd",
+    "scripts/analyze_three_rater_agreement.py": "29377d1cbce10a3f0798183cf00da5519ae7a8cd8fa4472d24682f77f101e850"
+  },
+  "output_sha256": {
+    "INDEPENDENT_AGREEMENT.json": "aeae1c95a5b666b1e022ed2bfa02d6146550e7386fc451dff467f84b4c641574",
+    "Independent_agreement.xlsx": "1e6c30db07a1319ed963d7bf687611443a6f63c9456d44b0b0f7ce5dcf7ac21f",
+    "INDEPENDENT_AGREEMENT.md": "5c73af992eb1362b32ce7096893e9e17fed2f5a5af8f645117344f3de3d813da"
+  },
+  "source_workbooks_unchanged": true,
+  "model_mapping_read": false,
+  "summary_rows": 18,
+  "trace_rows": 1971
+}

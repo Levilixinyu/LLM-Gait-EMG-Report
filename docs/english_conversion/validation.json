@@ -1,0 +1,163 @@
+{
+  "status": "passed",
+  "conversion_files": 127,
+  "unique_translation_units": 3666,
+  "working_text_files_scanned": 569,
+  "remaining_non_English_text_or_paths": [],
+  "unchanged_preexisting_text_files_verified": 466,
+  "workbooks_checked": 24,
+  "numeric_cells_present": 223,
+  "workbook_numeric_values_unchanged_from_original": true,
+  "formulas_checked": 7,
+  "dropdown_lengths_valid": true,
+  "unresolved_links": [],
+  "program_tests": {
+    "passed": 49,
+    "failed": 0
+  },
+  "browser_checks": {
+    "common_plus_five_case_forms": true,
+    "common_section_first": true,
+    "locked_until_reviewer": true,
+    "common_exported_once": true,
+    "export_preserves_revision": true,
+    "export_preserves_rejection": true,
+    "export_preserves_addition": true,
+    "common_decision_exported": true,
+    "unfinished_is_draft": true,
+    "csv_has_utf8_bom": true,
+    "csv_has_review_and_case_id": true,
+    "reload_restores_browser_draft": true,
+    "second_reviewer_is_separate": true,
+    "json_import_restores_review": true,
+    "wrong_version_rejected_without_mutation": true,
+    "import_text_not_html": true,
+    "single_case_ui_works": true,
+    "common_shared_with_single_page": true,
+    "no_browser_runtime_errors": true
+  },
+  "pdf_language_checks": [
+    {
+      "path": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/curves_kinematics.pdf",
+      "extracted_chars": 457,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/stroke_Sub09_P/curves_emg.pdf",
+      "extracted_chars": 986,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/curves_kinematics.pdf",
+      "extracted_chars": 452,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/stroke_Sub47_P/curves_emg.pdf",
+      "extracted_chars": 1297,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/curves_kinematics.pdf",
+      "extracted_chars": 437,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/stroke_Sub50_P/curves_emg.pdf",
+      "extracted_chars": 962,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/curves_kinematics.pdf",
+      "extracted_chars": 447,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/stroke_Sub05_P/curves_emg.pdf",
+      "extracted_chars": 982,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/control_Sub49_avg/curves_kinematics.pdf",
+      "extracted_chars": 449,
+      "cjk_chars": 0
+    },
+    {
+      "path": "docs/expert_trial/data_cards_v5/control_Sub49_avg/curves_emg.pdf",
+      "extracted_chars": 964,
+      "cjk_chars": 0
+    },
+    {
+      "path": "audit/sources/VanCriekinge_2023_supplement.pdf",
+      "extracted_chars": 22524,
+      "cjk_chars": 0
+    },
+    {
+      "path": "audit/outputs/audit_evidence.pdf",
+      "extracted_chars": 784,
+      "cjk_chars": 0
+    },
+    {
+      "path": "reference/tamaya, 2023.pdf",
+      "extracted_chars": 46584,
+      "cjk_chars": 0
+    },
+    {
+      "path": "reference/Nusreena, 2024.pdf",
+      "extracted_chars": 36634,
+      "cjk_chars": 0
+    }
+  ],
+  "blinded_report_checks": [
+    {
+      "path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater1/index.html",
+      "n_reports": 15,
+      "unchanged": true
+    },
+    {
+      "path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rater2/index.html",
+      "n_reports": 15,
+      "unchanged": true
+    },
+    {
+      "path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater1/index.html",
+      "n_reports": 15,
+      "unchanged": true
+    },
+    {
+      "path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/raters/rater2/index.html",
+      "n_reports": 15,
+      "unchanged": true
+    }
+  ],
+  "zip_checks": [
+    {
+      "file": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/Five_case_pilot_rating_rater1.zip",
+      "members": 29,
+      "English_text_and_names": true,
+      "original_issued_membership_preserved": true,
+      "private_mapping_excluded": true
+    },
+    {
+      "file": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/Five_case_pilot_rating_rater2.zip",
+      "members": 29,
+      "English_text_and_names": true,
+      "original_issued_membership_preserved": true,
+      "private_mapping_excluded": true
+    }
+  ],
+  "final_pilot_coverage": {
+    "Covered": 68,
+    "Partially covered": 5,
+    "Not covered": 2
+  },
+  "final_issue_groups": {
+    "Error": 33,
+    "Acceptable": 22
+  },
+  "Q055_AI_origin_and_user_attested_human_review_preserved": true,
+  "historical_screenshot_transcriptions": 2,
+  "archive_integrity_verified_before_installation": true,
+  "external_archives_accessed_by_this_validator": false,
+  "original_model_inputs_and_reports_regenerated": false
+}

@@ -1,0 +1,77 @@
+{
+  "version": "formal-provider-configuration-v2",
+  "status": "Output cap approved; formal generation not authorized",
+  "output_cap_tokens": 16000,
+  "providers": [
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-5",
+      "api_route": "Messages API, streamed",
+      "sdk_package": "anthropic",
+      "parameters": {
+        "max_tokens": 16000,
+        "thinking": {
+          "type": "adaptive"
+        },
+        "output_config": {
+          "effort": "high"
+        }
+      },
+      "client_retry_configuration": {
+        "max_retries": 0
+      },
+      "documentation": [
+        "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5",
+        "https://platform.claude.com/docs/en/build-with-claude/effort"
+      ]
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-6-astra",
+      "api_route": "Chat Completions API, streamed with usage",
+      "sdk_package": "openai",
+      "parameters": {
+        "max_completion_tokens": 16000,
+        "reasoning_effort": "high",
+        "n": 1,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "client_retry_configuration": {
+        "max_retries": 0
+      },
+      "documentation": [
+        "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create"
+      ]
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.1-pro-preview",
+      "api_route": "Generate Content API, generate_content_stream",
+      "sdk_package": "google-genai",
+      "parameters": {
+        "max_output_tokens": 16000,
+        "thinking_config": {
+          "thinking_level": "HIGH",
+          "include_thoughts": false
+        },
+        "candidate_count": 1
+      },
+      "client_retry_configuration": {
+        "http_options": {
+          "retry_options": {
+            "attempts": 1
+          }
+        }
+      },
+      "documentation": [
+        "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+        "https://ai.google.dev/gemini-api/docs/generate-content/thinking"
+      ]
+    }
+  ],
+  "interpretation": "The output allowance includes reasoning/thinking and visible output. High effort is retained for every provider; equal caps do not establish equal compute. A larger cap does not guarantee complete output or resolve a provider refusal."
+}

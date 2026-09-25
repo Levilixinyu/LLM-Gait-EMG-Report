@@ -1,0 +1,26 @@
+{
+  "changes": [
+    {
+      "id": "D03",
+      "operation": "Add exact authorized audit clarification in section 9",
+      "text": "For the secondary joint-success indicator, classify success only when all included case requirements and G03 are finally Covered and the completed issue review contains no confirmed or pending in-scope error. Classify failure when at least one requirement or G03 is finally Partially covered or Not covered, or when a confirmed in-scope error exists, even if another component remains unresolved. Otherwise classify the joint indicator as unknown. An unavailable report is unknown, not a confirmed failure. Preserve the complete-review denominator for its main descriptive point estimate and use these known/unknown states for all-planned-case bounds."
+    },
+    {
+      "id": "D08",
+      "operation": "Add exact authorized audit clarification in section 10",
+      "text": "A usable captured response means non-whitespace report text attributable to the correct frozen task and retained with its raw response or stream evidence. It does not require all four sections, successful clinical interpretation or a normal finish reason. Preserve any recoverable partial text and do not discard it to obtain a replacement. A completed response with no report text is a terminal no-report outcome. Where no report text was captured, classify provider error codes and payloads before applying the HTTP retry list: authentication, unsupported parameters/models and permanent quota/billing errors stop the batch even if a response also has a generally retryable status code. Uncertain transient classification pauses for documented technical review rather than triggering an automatic content-selection opportunity."
+    },
+    {
+      "id": "D09",
+      "operation": "Replace historical budget paragraph in section 10",
+      "old_text": "Proposal: retain the existing 8,000-token output-budget setting per provider adapter, with optional sampling/reasoning settings omitted unless an explicitly documented provider requirement dictates otherwise. Equal numeric caps do not guarantee equal visible-output or reasoning budgets. Record each actual request field and whether omitted settings use provider defaults. Any decision to change a cap or reasoning setting must precede formal outputs, have a documented rationale, and be incorporated into a new configuration hash.",
+      "text": "Before formal generation, register each provider's exact model identifier or available snapshot, API route, reasoning/thinking configuration, output-token allowance and its documented semantics, timeout, SDK version and effective retry settings. Set reproducible request parameters explicitly where supported; where a setting is omitted, document the provider default and its verification date. Provider effort labels are not assumed to represent equal compute. Treat the existing 8,000 value as a historical candidate until a predeclared configuration check supports the intended evaluation. Use only synthetic material outside the selected 35 cases for any separately authorized live compatibility check; assess successful response capture, token-limit/finish behavior and parameter compatibility, not clinical answer quality or model ranking. Freeze all settings before formal case outputs, and do not change settings or regenerate reports in response to formal result quality."
+    },
+    {
+      "id": "Administrative",
+      "operation": "Update title/status and record user/expert confirmations; preserve original return files"
+    }
+  ],
+  "no_expert_case_requirement_changes": true,
+  "section_6_byte_identical": true
+}

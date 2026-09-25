@@ -1,0 +1,49 @@
+**1. Objective Findings**
+- **Participant Group**: Healthy control (Affected side: Not applicable)
+- **Gait Speed**: Not provided
+- **Cadence**: Not provided
+- **Step Length Symmetry Index**: Not applicable (control participant without a defined paretic side)
+- **Reference Cohort**: Comparisons are made against an unmatched, pooled dataset of 137 healthy controls (leave-one-out method), evaluated across 1001 phase points of the stride cycle. 
+
+**2. EMG Envelope and Threshold Findings**
+The following findings are derived from ensemble-averaged, amplitude-normalized EMG envelopes. Detected intervals indicate where the envelope exceeds 20% of its own peak for a minimum of 3% of the cycle, anchored from the initial contact of contributing strides (0%). These intervals describe the thresholded average signal; they do not determine single-stride physiological onset/offset, continuous contraction, or absolute muscular force. 
+
+- **Gastrocnemius (GAS)**: The envelope exceeds the threshold from 5% to 47% of the cycle (42% total coverage). The peak normalized amplitude is 0.64.
+- **Rectus Femoris (RF)**: Above-threshold intervals are observed from 62% to 66% and from 86% to 48% (wrapping across the initial contact boundary). Total coverage is 65%, with a peak normalized amplitude of 0.66.
+- **Vastus Lateralis (VL)**: The envelope exceeds the threshold from 89% to 22%, wrapping across the cycle boundary (34% total coverage). The peak normalized amplitude is 0.64.
+- **Biceps Femoris (BF)**: The envelope exceeds the threshold from 78% to 9%, wrapping across the cycle boundary (32% total coverage). The peak normalized amplitude is 0.61.
+- **Semitendinosus (ST)**: The envelope exceeds the threshold from 67% to 12%, wrapping across the cycle boundary (45% total coverage). The peak normalized amplitude is 0.70.
+- **Tibialis Anterior (TA)**: Above-threshold intervals are observed from 52% to 80% and from 86% to 21% (wrapping across the cycle boundary). Total coverage is 63%, with a peak normalized amplitude of 0.56.
+- **Erector Spinae (ERS)**: The envelope exceeds the threshold continuously from 0% to 100%, indicating 100% cycle coverage, crossing the initial contact boundary. The peak normalized amplitude is 0.59.
+
+**Co-contraction Indices (CCI)**:
+CCI values measure the overlap of the full, normalized continuous envelopes (including sub-threshold activity) and do not represent absolute simultaneous force. Being within the empirical reference range does not independently establish physiologically normal muscle function.
+- **TA vs. GAS**: 0.35. This falls within the reference cohort’s 2.5th–97.5th percentile interval (0.24–0.59; median 0.39).
+- **RF vs. BF**: 0.58. This falls within the reference cohort’s 2.5th–97.5th percentile interval (0.48–0.83; median 0.68).
+
+**3. Kinematic and Reference Comparisons**
+Kinematic deviations (Gait Variable Scores, GVS) and maximum absolute z-scores (|z|) are derived from a pooled comparison. Because the participant's age and gait speed are not provided, differences from the empirical reference may reflect unmeasured speed, demographic variations, or calibration methodology rather than isolated physiological deviations. 
+
+- **Composite Kinematic Deviation Score (GPS-like)**: 4.35 (reference cohort median is 5.1).
+- **Sagittal Joint Kinematics (Range of Motion & GVS)**:
+  - **Ankle**: ROM 19.7°, GVS 6.17
+  - **Knee**: ROM 53.2°, GVS 2.99
+  - **Hip**: ROM 46.7°, GVS 4.84
+  - **Pelvis**: ROM 0.9°, GVS 2.27
+  - *Note: ROM represents the full sagittal excursion but does not, in isolation, define a clinical restriction.*
+
+**Maximum EMG Envelope Deviations (Max |z|)**:
+The max |z| indicates the largest standardized difference from the phase-matched reference mean, not a clinical severity grade or necessarily the time of peak envelope amplitude. 
+- **GAS**: Max |z| = 2.0 (above reference mean at 28% of the cycle).
+- **RF**: Max |z| = 2.3 (above reference mean at 90% of the cycle).
+- **VL**: Max |z| = 1.2 (below reference mean at 55% of the cycle).
+- **BF**: Max |z| = 1.5 (above reference mean at 99% of the cycle).
+- **ST**: Max |z| = 2.2 (above reference mean at 98% of the cycle).
+- **TA**: Max |z| = 1.6 (below reference mean at 62% of the cycle).
+- **ERS**: Max |z| = 1.6 (above reference mean at 9% of the cycle).
+
+**4. Questions for Further Clinical Assessment**
+- What were the participant's self-selected gait speed and cadence? The absence of speed data prevents determining whether an appropriate speed-matched reference exists, limiting contextual interpretation of the kinematics and EMG profiles.
+- Is the notably low sagittal pelvic ROM (0.9°) consistent with the clinical observation of this individual's walking mechanics, or does it reflect a measurement artifact?
+- Are there any underlying clinical factors, musculoskeletal constraints, or specific task instructions that may account for the continuous above-threshold envelope observed in the ERS?
+- Does the participant display step length symmetry during functional walking, and are there clinical notes confirming an unremarkable gait pattern consistent with their control group designation?

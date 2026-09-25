@@ -1,0 +1,49 @@
+**1. Objective Findings**
+- **Subject/Group:** Sub29_P (Stroke group, paretic side).
+- **Gait Speed:** 0.57 m/s (categorized within the "limited community ambulator" speed band of 0.4-0.8 m/s, which denotes a speed range rather than measured real-world safety or independence).
+- **Cadence:** 102.0 steps/min.
+- **Step Length Symmetry Index:** 13.7% (using the successive-footfall definition). Because a negative value indicates a shorter paretic-side step, this positive value indicates the step on the paretic side is longer than the non-paretic step.
+- **Available Data:** Sagittal plane kinematics (ankle, knee, hip, pelvis) and EMG for seven muscles (GAS, RF, VL, BF, ST, TA, ERS). No missing channels were identified in the supplied dataset. 
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings are derived from ensemble-averaged envelopes normalized to their own peak across available strides. Envelope amplitudes are relative values and do not represent absolute muscular force, strength, or stride-to-stride variability. Above-threshold intervals indicate periods where the mean envelope exceeded 20% of its own peak for at least 3% of the cycle, not physiological onsets, offsets, or absolute inactivity outside these boundaries. 
+
+- **GAS:** Peak normalized amplitude 0.55. Above-threshold coverage was 65% of the cycle, consisting of an interval from 94% to 58%, wrapping across the 100% to 0% initial contact boundary.
+- **RF:** Peak normalized amplitude 0.57. Above-threshold coverage was 95% of the cycle, consisting of an interval from 80% to 75%, wrapping across the initial contact boundary.
+- **VL:** Peak normalized amplitude 0.63. Above-threshold coverage was 70% of the cycle, consisting of an interval from 82% to 52%, wrapping across the initial contact boundary.
+- **BF:** Peak normalized amplitude 0.54. Above-threshold coverage was 63% of the cycle, consisting of an interval from 85% to 48%, wrapping across the initial contact boundary.
+- **ST:** Peak normalized amplitude 0.54. Above-threshold coverage was 74% of the cycle, consisting of an interval from 82% to 56%, wrapping across the initial contact boundary.
+- **TA:** Peak normalized amplitude 0.48. Above-threshold coverage was 90% of the cycle, consisting of an interval from 56% to 46%, wrapping across the initial contact boundary.
+- **ERS:** Peak normalized amplitude 0.41. The envelope remained above threshold for 100% of the cycle (0%-100%), wrapping across the initial contact boundary.
+
+Co-contraction indices (CCI) compute whole-cycle overlap of normalized continuous envelopes, accommodating sub-threshold activity:
+- **TA vs GAS CCI:** 0.54.
+- **RF vs BF CCI:** 0.73.
+
+**3. Kinematic and Reference Comparisons**
+Comparisons are made against a pooled healthy cohort (n=138). Because the participant’s gait speed (0.57 m/s) is below the healthy reference range (0.80–1.79 m/s), no speed-matched reference exists in this dataset. Deviations from the reference conflate slow-walking effects with stroke-specific control changes and cannot establish clinical diagnoses or underlying disease mechanisms.
+
+- **Kinematics (Sagittal Plane):** 
+  The composite kinematic deviation score (GPS-like) was 9.00 (reference median 5.1, 95th percentile 10.7).
+  - Ankle: Range of motion (ROM) 17.1°, Gait Variable Score (GVS) 8.94.
+  - Knee: ROM 34.7°, GVS 12.84.
+  - Hip: ROM 27.2°, GVS 7.74.
+  - Pelvis: ROM 1.3°, GVS 4.43.
+
+- **EMG Envelopes (Max |z| Deviations):**
+  Maximum |z| values identify the largest standardized difference from the phase-specific reference mean; they do not indicate peak amplitude timing.
+  - GAS: 3.5 (above reference mean at 1% of the cycle).
+  - RF: 4.1 (above reference mean at 87% of the cycle).
+  - VL: 3.3 (above reference mean at 31% of the cycle).
+  - BF: 5.1 (above reference mean at 34% of the cycle).
+  - ST: 3.2 (above reference mean at 27% of the cycle).
+  - TA: 3.9 (above reference mean at 31% of the cycle).
+  - ERS: 2.5 (below reference mean at 2% of the cycle).
+
+- **CCI Comparisons:**
+  The TA vs GAS CCI (0.54) falls within the empirical healthy 2.5th–97.5th percentile interval (0.24–0.59). The RF vs BF CCI (0.73) also falls within its respective interval (0.48–0.83). Falling within these intervals does not establish physiologically normal muscle function or coordination.
+
+**4. Questions for Further Clinical Assessment**
+- Does the extensive above-threshold EMG coverage (e.g., 90–100% of the cycle in the RF, TA, and ERS) correlate with clinically assessed hypertonia/spasticity, or might it reflect elevated baseline noise or measurement artifact in the recordings?
+- Are the observed sagittal plane joint limits (e.g., knee ROM of 34.7°, ankle ROM of 17.1°) associated with passive range-of-motion restrictions or contractures upon physical examination?
+- How do the step length asymmetry and the reported kinematic deviations present functionally at the subject's measured walking speed, particularly concerning balance and weight transfer during initial contact?

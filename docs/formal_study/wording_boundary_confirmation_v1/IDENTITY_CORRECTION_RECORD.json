@@ -1,0 +1,31 @@
+{
+  "recorded_at_utc": "2026-09-24T05:45:26.326330+00:00",
+  "authority": "HUMAN_REVIEW_CONFIRMATION.json",
+  "purpose": "Authorized administrative correction of reviewer-name fields to record confirmed human review and adoption; not a new signature or unaided-authorship claim",
+  "records": [
+    {
+      "reviewer": "rater1",
+      "source": "docs/formal_study/wording_boundary_confirmation_v1/rater1_review_materials/Wording_boundary_confirmation_rater1_completed.xlsx",
+      "source_sha256_before": "e8454eaa6c1a93b5ef8563fe5de419a5bf788be4abf3362092cadfb121b3440b",
+      "active_sha256_after": "df2944a9b95d9060a5b42f58e8275b500cbb108f61cea5c3fd76d0b9e25ce5c4",
+      "changed_cells": [
+        "Completion!B2"
+      ],
+      "replacement": "rater1 (human expert reviewer; reviewed and adopted)",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/wording_boundary_returns_2026-09-24/Wording_boundary_confirmation_rater1_completed_pre_correction.xlsx.original",
+      "judgments_and_exposure_unchanged": true
+    },
+    {
+      "reviewer": "rater3",
+      "source": "outputs/rater3_independent/Wording_boundary_confirmation_rater3_completed.xlsx",
+      "source_sha256_before": "9b500306e6ece944eb206b22ea8354a18685d579531010dc8775421525a85c16",
+      "active_sha256_after": "dc616ed5cef5593465b5315b8454c28609dfc9db324224ebe959f02204074dea",
+      "changed_cells": [
+        "Completion!B2"
+      ],
+      "replacement": "rater3 (human expert reviewer; reviewed and adopted)",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/wording_boundary_returns_2026-09-24/Wording_boundary_confirmation_rater3_completed_pre_correction.xlsx.original",
+      "judgments_and_exposure_unchanged": true
+    }
+  ]
+}

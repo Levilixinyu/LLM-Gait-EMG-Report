@@ -1,0 +1,40 @@
+**1. Objective Findings**
+Subject Sub26_P is in the stroke group, with data evaluated for the paretic side. The participant’s gait speed is 0.33 m/s (categorized within the household ambulator band of <0.4 m/s), and cadence is 87.5 steps/min. The step length symmetry index is 16.1% using the successive-footfall definition; a positive value indicates the paretic-side step is longer. The composite kinematic deviation score (GPS-like) is 17.20.
+
+The healthy reference cohort's self-selected walking speeds span 0.80–1.79 m/s. Because this participant’s gait speed (0.33 m/s) is below this floor, no speed-matched healthy reference exists in this dataset. Comparisons with the reference therefore conflate slow-walking effects with stroke-specific physiological changes, and these factors cannot be separated using the provided data.
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings are based on the averaged normalized envelopes crossing a 20% amplitude threshold. Peak normalized amplitudes reflect relative envelope values, not absolute force or muscular strength.
+
+*   **Coverage and Intervals:**
+    *   The RF and ERS mean envelopes were above threshold for 100% of the gait cycle, continuing across the initial-contact boundary.
+    *   The BF envelope was above threshold for 87% of the cycle, with an interval from 86% to 71% that wraps across the initial-contact boundary.
+    *   The VL envelope was above threshold for 75% of the cycle, with an interval from 90% to 65% wrapping across the initial-contact boundary.
+    *   The TA envelope was above threshold for 72% of the cycle, with an interval from 73% to 42% wrapping across the initial-contact boundary.
+    *   The ST envelope was above threshold for 70% of the cycle across two intervals (55%–71% and 88%–42%), wrapping across the initial-contact boundary.
+    *   The GAS envelope was above threshold for 69% of the cycle across two intervals (1%–43% and 51%–78%).
+*   **Peak Normalized Amplitudes:** ST (0.59), ERS (0.51), TA (0.46), BF (0.46), RF (0.45), GAS (0.41), and VL (0.38).
+*   **Co-contraction Indices (CCI):** CCI represents a whole-cycle overlap index of normalized continuous envelopes, dependent on normalization and algorithm methods; it does not measure absolute simultaneous activation time or guarantee functional abnormality. The TA vs. GAS CCI is 0.62, which is above the provided empirical healthy-cohort interval (median 0.39, 2.5th–97.5th percentile 0.24–0.59). The RF vs. BF CCI is 0.78, which falls within the supplied empirical interval (median 0.68, 2.5th–97.5th percentile 0.48–0.83). 
+
+**3. Kinematic and Reference Comparisons**
+The composite kinematic deviation score (17.20) exceeds the healthy-cohort 95th percentile limit (10.7). Joint-level Gait Variable Scores (GVS) represent summary differences from the non-speed-matched reference and do not localize directional deviation or specific gait phases. 
+
+*   **Sagittal Kinematics:**
+    *   Knee: Range of motion 42.7°, GVS 24.14
+    *   Hip: Range of motion 29.4°, GVS 20.68
+    *   Ankle: Range of motion 18.4°, GVS 13.06
+    *   Pelvis: Range of motion 4.6°, GVS 1.61
+*   **EMG Envelope Deviations:** Max |z| indicates the largest standardized deviation from the phase-specific healthy reference mean, not a conventional single-observation normal limit or the timing of peak amplitude.
+    *   GAS: max |z| 7.7 (above reference mean at 69% of the cycle)
+    *   RF: max |z| 6.6 (above reference mean at 80% of the cycle)
+    *   BF: max |z| 5.3 (above reference mean at 60% of the cycle)
+    *   ERS: max |z| 4.8 (above reference mean at 72% of the cycle)
+    *   VL: max |z| 4.2 (above reference mean at 52% of the cycle)
+    *   ST: max |z| 3.7 (above reference mean at 28% of the cycle)
+    *   TA: max |z| 3.5 (below reference mean at 71% of the cycle)
+
+**4. Questions for Further Clinical Assessment**
+*   How do the observed sagittal kinematic deviation summaries at the knee and hip correlate with visual assessments of the patient's joint mobility and control during slow walking?
+*   Are the extensive above-threshold EMG envelopes (such as RF and ERS at 100% coverage) reflective of compensatory control strategies for low gait speed, underlying muscular stiffness, or altered post-stroke motor recruitment upon physical examination?
+*   Does clinical observation reveal specific kinematic strategies or mechanical limitations that correspond to the measured 16.1% step length asymmetry?
+*   Are there observable clinical features that explain the TA envelope operating below the reference mean at 71% of the cycle?

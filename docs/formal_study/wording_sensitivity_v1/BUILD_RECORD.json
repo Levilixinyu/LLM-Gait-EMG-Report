@@ -1,0 +1,42 @@
+{
+  "computed_at_utc": "2026-09-25T02:45:01.994165+00:00",
+  "analysis_type": "Exploratory post-unblinding targeted sensitivity",
+  "authorization": "Study lead requested continuation after receipt of all three final targeted returns.",
+  "source_sha256": {
+    "data/rating_packets_formal_v1/private/three_rater_model_analysis_v1/ANALYSIS_BUILD_RECORD.json": "c41bb83b61a5195c415f924dd16885c899da4dbfca10ca899d96c9a3ec6cb57c",
+    "docs/formal_study/analysis_freeze_v1/BLINDED_OUTCOMES.json": "9cf006f23d5660118f5ac4da9e631e68645fa17686a0742841e267e616ca9167",
+    "data/rating_packets_formal_v1/private/three_rater_model_analysis_v1/mapping_snapshot.json": "c6322c5a0fc32e3dea1342f2fae228c5cb42d643d355a7668cb7acc77ddf8d4f",
+    "data/rating_packets_formal_v1/private/three_rater_model_analysis_v1/final_outcomes.json": "1e8b9e28d04f1d80ff09f0c36a4b56a95f9a7f08b5b2f6ce4e115762c5504ad0",
+    "docs/formal_study/wording_boundary_confirmation_v1/return_review/RETURN_CHECK.json": "d38d4d25af22704e9338c5ea67af84c4b45b9082e6e08d3782b2ac415659c0a4",
+    "docs/formal_study/wording_boundary_confirmation_v1/return_review/RATER2_RATIONALE_CORRECTION.json": "32e64985bc728f948f4af9bb54c117d4b38156eaaf1d8282f23c2ee6abbe94fa",
+    "docs/formal_study/wording_boundary_confirmation_v1/rater1_review_materials/Wording_boundary_confirmation_rater1_completed.xlsx": "df2944a9b95d9060a5b42f58e8275b500cbb108f61cea5c3fd76d0b9e25ce5c4",
+    "docs/formal_study/wording_boundary_confirmation_v1/Wording_boundary_confirmation_rater2_completed.xlsx": "fa1011604ff6ea0505941f1c97404ff360f637aaa9b49221c01b5ad42242de28",
+    "outputs/rater3_independent/Wording_boundary_confirmation_rater3_completed.xlsx": "dc616ed5cef5593465b5315b8454c28609dfc9db324224ebe959f02204074dea",
+    "scripts/analyze_wording_sensitivity.py": "7625d02817347f40f546f16c08549e09be6a0455e161198c42f0ed8f86a7ad5f",
+    "src/eval/wording_sensitivity.py": "3382696ecae21a7d8d9db1f228fc5b974fa8d298561d6bc46833d43aede82851",
+    "src/eval/formal_analysis.py": "445f730e37d7f0ea496be9c099f67728b49608be8993dfa973ff1017b05d46bd"
+  },
+  "output_sha256": {
+    "docs/formal_study/wording_sensitivity_v1/README.md": "5243522a11b944fb070be97bd40452882bbd105e1194c93fbae82b341d4f2141",
+    "docs/formal_study/wording_sensitivity_v1/MANUSCRIPT_ADDENDUM.md": "955fb1c402732a1fbea1882741fb3a6ca6b739e39f94d4a7d32aed72f0b4687e",
+    "docs/formal_study/wording_sensitivity_v1/Wording_sensitivity.xlsx": "3666b9c8614f9bb0d9ad572e9c0931d140357adcba4c4716cce2c1f2b6078d52",
+    "data/rating_packets_formal_v1/private/wording_sensitivity_v1/ANALYSIS.json": "e720706d5d8d5f7e66e0789736eb1801075ef85549a4eb5e234ececa80bd47e3"
+  },
+  "scenarios": [
+    "frozen",
+    "rater1",
+    "rater2",
+    "rater3",
+    "disputed_pending",
+    "disputed_acceptable",
+    "disputed_error"
+  ],
+  "reports_per_scenario": 105,
+  "coverage_recomputed": false,
+  "original_independent_ratings_replaced": false,
+  "frozen_outcomes_modified": false,
+  "rater_workbooks_modified": false,
+  "majority_vote_used": false,
+  "shared_categories_created": false,
+  "baseline_parity": "All frozen report endpoints and cohort binary summaries exactly reproduced before overlay."
+}

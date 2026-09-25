@@ -1,0 +1,23 @@
+# Personal recheck after clarification of discussion rules
+
+This is a targeted recheck of your own ratings, not a fresh independent scoring round or a request to agree with another reviewer. The study lead clarified these rules after the original independent submissions. Model identities remain blinded. No peer ratings, agent-proposed answers, or model identity mapping are included.
+
+## Rules
+
+1. **D01: numerical findings without interpretation.** When correct substantive numerical findings are present but the required interpretation of the principal differences is missing, use Partially covered. Names alone or unrelated content do not earn partial coverage.
+2. **D02: ordering needs explanation.** A list sorted by magnitude still needs a brief explanation of the required finding. Equivalent wording anywhere in the report is sufficient; no particular keyword is mandatory. Follow each checklist component: do not demand a second principal joint where the requirement only asks for another joint difference. Required contrasts and similar-magnitude relationships still need to be conveyed.
+3. **D03: clinical questions propose possibilities for verification.** A follow-up question about a possible mechanism, compensation, impairment, or clinical correlate is not by itself an assertion that it exists. Do not mark an error solely because a question mentions such a possibility. Separately check wrong numbers, incorrect metric/muscle identities, and explicit assertions that an abnormal finding has already been observed. Preserve any unresolved scope disagreement with a reason.
+
+## What to review
+
+- **Coverage recheck:** your 105 GVS-related requirements, one per report. These include originally agreed items to apply the rules consistently. Review the relevant passages, not every coverage item or the whole report from scratch. Enter Keep, Revise, or Unresolved. If revising, enter the revised label and status; explain changes or unresolved readings with source evidence.
+- **Clinical questions:** Section 4 from all 105 reports, with references to your own recorded question-related issues. Mark Keep, Changes recorded, or Unresolved after reviewing the questions under D03. Keep means no changes are needed to your recorded issue decisions for that report; it does not mean every question is automatically acceptable. This focused sweep also allows you to notice a relevant claim you had not previously recorded.
+- **Question issue recheck:** your own issue records selected because the quotation contains a question mark or the location names Section 4/a question. This mechanical selection does not mean the issue is wrong. Review Keep, Revise, or Unresolved; leave original columns unchanged. Correct revised quotes must be exact substrings of the saved report, including Markdown. Check the full context in your original blinded materials when necessary.
+- **Additional findings:** add a relevant issue missed by the selection, or a new issue discovered during the targeted check. Existing local issue IDs refer only to your own report; do not reuse an existing ID for a different claim. Give exact evidence and a reason. An empty sheet is allowed if nothing additional was found.
+- **Quote corrections, if present:** replace the listed non-exact quotations with verbatim report text in the correction column. A quote mismatch is not itself a clinical scoring error. If multiple passages are needed, use one exact quote plus additional locations in the reason. Record any changed judgment explicitly in the relevant recheck sheet or Additional findings.
+
+Use your original blinded reports, model inputs, requirement wording, and approved rubric. This supplement does not reproduce the full original review package. Do not open the cross-rater discussion workbook or agent advice before your personal recheck. If you already saw peer judgments or recommendations, disclose that fact in Completion; you can still complete this recheck, but it is not a new independent assessment. Model-identity blinding and freedom from peer influence are separate matters.
+
+## Return
+
+Save a new file named Personal_recheck_<rater>_completed.xlsx. Fill Completion with your name, date, prior exposure, completion status, and any reservations about the clarified rules. Leave the original submitted workbook unchanged. The expected outcome is your reasoned personal recheck, not a particular score or agreement with others. Do not prefill signatures or mark other reviewers as approving. Original independent ratings remain the baseline; post-clarification revisions and subsequent consensus remain separate records.

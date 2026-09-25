@@ -1,0 +1,44 @@
+**1. Objective Findings**
+Subject Sub73 is a participant in the healthy control group. Gait speed and cadence are not provided for this participant. The paretic/non-paretic step-length symmetry index is not applicable to controls. According to the dataset documentation for the healthy release, kinematic and EMG data represent an average of pooled strides from both body sides, anchored from initial contact (0%) to the subsequent initial contact (100%) of the contributing strides. No coronal or transverse plane data are included. It should be noted that membership in the healthy control group does not by itself prove normal physiology.
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings describe features of the averaged envelopes based on a 20% relative amplitude threshold and a 3% minimum duration rule. Peak normalized amplitudes reflect relative envelope values under this specific processing pipeline, not absolute muscular force, strength, or individual stride-to-stride variability.
+
+*   **Boundary Continuity:** The averaged envelopes for RF, VL, BF, ST, TA, and ERS all retain above-threshold intervals that wrap across the cycle-defining boundary (initial contact). GAS does not retain an above-threshold interval crossing this boundary. 
+*   **Retained Intervals and Coverage:**
+    *   **GAS:** 28%-46% (18% of the cycle above threshold; peak normalized amplitude 0.61).
+    *   **RF:** 42%-49%, 52%-63%, and 88%-21% (51% total coverage; peak normalized amplitude 0.63).
+    *   **VL:** 87%-20% (33% total coverage; peak normalized amplitude 0.68).
+    *   **BF:** 61%-67% and 73%-14% (47% total coverage; peak normalized amplitude 0.55).
+    *   **ST:** 64%-10% (47% total coverage; peak normalized amplitude 0.62).
+    *   **TA:** 12%-17%, 30%-40%, 55%-79%, and 83%-11% (67% total coverage; peak normalized amplitude 0.64).
+    *   **ERS:** 45%-58% and 83%-37% (70% total coverage; peak normalized amplitude 0.66).
+*   **Co-Contraction Indices (CCI):** CCI is computed as a whole-cycle overlap index using the continuous, normalized envelopes, inclusive of sub-threshold activity. 
+    *   The TA vs. GAS CCI is 0.32, which is near the dataset median (0.39) and falls within the supplied reference interval (0.24–0.59).
+    *   The RF vs. BF CCI is 0.72, which is near the dataset median (0.68) and falls within the supplied reference interval (0.48–0.83). 
+    *   *Note:* Falling within an empirical reference interval does not establish physiologically normal co-activation or muscle function. 
+
+**3. Kinematic and Reference Comparisons**
+Deviations are compared against a leave-one-out reference of 137 healthy controls (excluding Sub73). This reference pools all ages and body sides and is not matched to this participant's age or unrecorded gait speed. Therefore, deviations from this empirical reference may reflect differences in walking speed or individual biomechanics rather than a disease effect, and these comparisons cannot establish a clinical diagnosis.
+
+*   **Kinematics (Sagittal Plane Only):**
+    *   **Composite Score:** The composite kinematic deviation score (GPS-like) is 5.47. This is close to the reference cohort median of 5.1 and below the 95th percentile of 10.7.
+    *   **Joint-Specific Ranges of Motion and Gait Variable Scores (GVS):**
+        *   Hip: ROM 42.5°, GVS 7.55
+        *   Pelvis: ROM 1.7°, GVS 5.56
+        *   Knee: ROM 55.3°, GVS 4.10
+        *   Ankle: ROM 24.8°, GVS 3.88
+    *   *Note:* A ROM value alone does not establish a clinical restriction without an appropriate matched comparison.
+*   **EMG Envelope Deviations:** The maximum absolute z-scores (|z|) signify the single largest standardized deviation from the phase-specific reference mean across the 1001-point cycle, not the time of peak amplitude or clinical abnormality. 
+    *   TA: max |z| = 2.1 (above reference at 60% of the cycle).
+    *   GAS: max |z| = 1.7 (below reference at 27% of the cycle).
+    *   VL: max |z| = 1.7 (above reference at 2% of the cycle).
+    *   RF: max |z| = 1.6 (below reference at 11% of the cycle).
+    *   ST: max |z| = 1.6 (above reference at 82% of the cycle).
+    *   BF: max |z| = 1.2 (above reference at 63% of the cycle).
+    *   ERS: max |z| = 1.2 (below reference at 56% of the cycle).
+
+**4. Questions for Further Clinical Assessment**
+*   Given that gait speed was not recorded for this participant, to what extent might the subject's self-selected walking speed explain any subtle kinematic or EMG deviations from the unmatched reference group?
+*   Do the individual strides exhibit significant side-to-side or step-to-step variability that has been masked by the pooled left/right averaging process applied in this control dataset?
+*   Are there any observational clinical findings that contextualize the slightly higher GVS seen at the hip (7.55) compared to the more distal joints?

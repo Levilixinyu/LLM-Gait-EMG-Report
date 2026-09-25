@@ -1,131 +1,131 @@
-# 主数据集可用性评估
+# Main dataset suitability assessment
 
-对象：Van Criekinge 等，2023，138名健常成人与50名卒中受试者步态数据。
-日期：2026-09-16。
+Subject: Van Criekinge et al., 2023, gait data from 138 healthy adults and 50 stroke subjects.
+Date: 2026-09-16.
 
-## 结论
+## Conclusion
 
-**可以继续作为本项目的主要数据集。最适合的用途是：评价LLM能否忠实描述经过验证的运动学和归一化EMG特征、合理表达不确定性，并生成可供专家评价的研究性报告。**
+**It can continue to serve as the main dataset for this project. Its most suitable use is to evaluate whether LLMs can faithfully describe validated kinematic and normalized EMG features, appropriately express uncertainty, and generate research reports for expert evaluation.**
 
-它本身不能提供全部临床解释的金标准，也不足以单独验证自动诊断、痉挛/肌无力机制判断、治疗选择、疗效预测或跨医院部署能力。不建议因为当前代码错误就放弃这个数据集；需要修复使用方法并收窄研究结论。
+By itself, it cannot provide a gold standard for all clinical interpretations, nor is it sufficient on its own to validate automated diagnosis, judgments about spasticity/muscle weakness mechanisms, treatment selection, treatment outcome prediction, or cross-hospital deployment capability. Abandoning this dataset because of the current code errors is not recommended; the methods of use need to be fixed and the research conclusions narrowed.
 
-## 核查范围与证据
+## Scope of verification and evidence
 
-已核对主论文的方法与限制、官方补充表、变量说明Excel、公开文件元数据、本地两份数据Excel和卒中MAT。既有复算覆盖138名对照、50名卒中双侧，验证1100条卒中Excel/MAT曲线与100条公布步速。
+The methods and limitations of the main paper, official supplementary tables, variable-description Excel file, public file metadata, two local data Excel files, and stroke MAT files have been checked. Previous recalculations covered 138 controls and both sides of 50 stroke participants, validating 1100 stroke Excel/MAT curves and 100 published walking speeds.
 
-本次进一步核查：实际可用EMG人数、临床表与MAT对应、辅助行走记录、两组步速支持范围，以及MAT逐周期EMG完整性。未重新审核全部连续C3D信号，未下载健康者完整MAT；不能把“平均曲线可读取”称为全部原始信号通过质量审核。
+Further checks in this review: the number of participants with actually usable EMG, correspondence between clinical tables and MAT files, assisted-walking records, walking-speed support ranges of the two groups, and stride-by-stride EMG completeness in MAT files. Not all continuous C3D signals were re-reviewed, and the complete healthy-participant MAT files were not downloaded; “mean curves are readable” cannot be described as all raw signals having passed quality review.
 
-## 1. 数据内容足以支持当前描述性任务
+## 1. The data content is sufficient to support the current descriptive task
 
-| 数据层级 | 可以用于什么 | 不应据此做什么 |
+| Data level | What it can be used for | What should not be done on this basis |
 |---|---|---|
-| 两份Excel：每人1001点平均曲线 | 四项矢状面运动学、七肌肉归一化EMG的平均波形描述 | 重建逐步波动、原始噪声或真实时间域生理onset |
-| 已下载卒中MAT | 分侧/逐周期曲线、个体事件、临床变量、更多三维变量 | 将所有存在的字段当作已验证质量或临床结论 |
-| 尚未下载的健康MAT | 可进一步构造处理对称的分侧、逐周期健康参考 | 未读取前宣称健康逐步数据已全部验证 |
-| 原始C3D发布文件 | 必要时审查原始EMG、事件与力平台接触 | 仅因文件公开就认为原始信号已审核 |
-| 补充材料 | 人口学、临床评分、辅助行走情况、步速核对 | 替代病例的完整病史、专家报告或诊断金标准 |
+| Two Excel files: 1001-point mean curves per participant | Describing mean waveforms for four sagittal-plane kinematic measures and normalized EMG from seven muscles | Reconstructing stride-to-stride fluctuations, raw noise, or physiological onset in the actual time domain |
+| Downloaded stroke MAT files | Side-specific/stride-by-stride curves, individual events, clinical variables, and additional three-dimensional variables | Treating all existing fields as quality-validated or as clinical conclusions |
+| Healthy-participant MAT files not yet downloaded | Further constructing side-specific, stride-by-stride healthy references using symmetric processing | Claiming that all healthy stride-level data have been validated before reading them |
+| Released raw C3D files | Reviewing raw EMG, events, and force-plate contacts when necessary | Assuming raw signals have been reviewed merely because the files are public |
+| Supplementary materials | Checking demographics, clinical scores, assisted-walking status, and walking speed | Replacing complete case histories, expert reports, or diagnostic gold standards |
 
-肌肉名称和侧别有明确映射，主数据不存在外部CSV中EMG1–16无法确认肌肉的同类障碍。七块肌肉覆盖部分重要步行肌群，但不是全身全部肌肉；没有记录的肌肉功能不能由模型补写。
+Muscle names and laterality have explicit mappings; the main dataset does not have the same obstacle as the external CSV, where the muscles corresponding to EMG1–16 cannot be confirmed. The seven muscles cover some important walking muscle groups, but not all muscles in the body; the model must not invent functions of muscles that were not recorded.
 
-## 2. 应以实际可用人数描述EMG样本量
+## 2. EMG sample size should be described using the number of participants with actually usable data
 
-以下是当前处理后Excel的有限值完整性，不等于原始信噪比合格认证：
+The following concerns finite-value completeness in the currently processed Excel files, not certification that the raw signal-to-noise ratio is adequate:
 
-| 样本 | 总人数 | 七通道完整 | 部分通道 | 无有效EMG |
+| Sample | Total participants | All seven channels complete | Partial channels | No valid EMG |
 |---|---:|---:|---:|---:|
-| 健康对照 | 138 | 102 | 7 | 29 |
-| 卒中患侧 | 50 | 43 | 3 | 4 |
-| 卒中非患侧 | 50 | 44 | 2 | 4 |
+| Healthy controls | 138 | 102 | 7 | 29 |
+| Stroke affected side | 50 | 43 | 3 | 4 |
+| Stroke unaffected side | 50 | 44 | 2 | 4 |
 
-健康者不同肌肉的有效人数为106–109；不能把所有EMG参考都写成n=138。全部参与者的当前四项运动学平均曲线完整。
+The number of healthy participants with valid data varies from 106–109 across muscles; not all EMG references can be reported as n=138. The current mean curves for all four kinematic measures are complete for all participants.
 
-患侧部分通道病例：Sub37、Sub45、Sub46各只有1个有效通道；无有效EMG：Sub08、Sub43、Sub47、Sub48。这些病例可用于信息缺失实验或运动学报告，但不能与完整病例不加区分地评价EMG解释能力。
+Cases with partial channels on the affected side: Sub37, Sub45, and Sub46 each have only 1 valid channel; no valid EMG: Sub08, Sub43, Sub47, and Sub48. These cases can be used for missing-information experiments or kinematic reports, but cannot be used to evaluate EMG interpretation capability without distinguishing them from complete cases.
 
-原论文记录的是是否有模拟采集，当前统计的是发布后处理曲线是否可用；两个层级人数不同，不能直接认定文件坏了或全部缺失都由电极故障造成。
+The original paper recorded whether analog acquisition was performed, whereas the current statistics concern whether the released processed curves are usable; participant counts differ between these two levels, so it cannot be directly concluded that the files are corrupted or that all missing data were caused by electrode failures.
 
-建议主分析使用预先定义的完整性规则，另设缺失信息分析。43名患侧完整者是候选样本规模，仍需质量检查，不代表已经获得43名临床上全面可解释的病例。
+It is recommended that the primary analysis use predefined completeness rules, with a separate missing-information analysis. The 43 participants with complete affected-side data represent a candidate sample size and still require quality checks; this does not mean that 43 clinically fully interpretable cases have already been obtained.
 
-## 3. 最重要的参考局限：多数患者比所有健康对照更慢
+## 3. The most important reference limitation: most patients walk more slowly than all healthy controls
 
-独立解析补充表5，对每人两侧公布步速取平均：
+Supplementary Table 5 was parsed independently, averaging the published walking speeds for both sides of each participant:
 
-| 人群 | 最低步速 | 中位数 | 最高步速 |
+| Population | Minimum walking speed | Median | Maximum walking speed |
 |---|---:|---:|---:|
-| 健康对照，n=138 | 0.8028 | 1.1842 | 1.7930 |
-| 卒中，n=50 | 0.1116 | 0.4001 | 1.3464 |
+| Healthy controls, n=138 | 0.8028 | 1.1842 | 1.7930 |
+| Stroke, n=50 | 0.1116 | 0.4001 | 1.3464 |
 
-单位：m/s。**41/50名患者低于健康对照最低步速。**
+Unit: m/s. **41/50 patients walk below the minimum walking speed of the healthy controls.**
 
-因此：
+Therefore:
 
-- 当前健康参考表示“这批健康者在其自选速度下的表现”。
-- 对大多数患者，数据内没有速度匹配的健康者，不能通过简单筛选解决。
-- 年龄匹配不能同时消除步速差异。
-- 在正常步速范围拟合回归，再外推到0.1–0.4 m/s，并不能自动建立可靠慢速常模。
-- 可以描述偏离参考的程度，但不能把全部差异归因于卒中特异性神经控制异常。
+- The current healthy reference represents “the performance of this group of healthy participants at their self-selected speeds.”
+- For most patients, there are no speed-matched healthy participants within the data, and simple filtering cannot resolve this.
+- Age matching does not simultaneously eliminate walking-speed differences.
+- Fitting a regression over the normal walking-speed range and then extrapolating to 0.1–0.4 m/s does not automatically establish reliable slow-speed norms.
+- The degree of deviation from the reference can be described, but not all differences can be attributed to stroke-specific abnormalities in neural control.
 
-如果目标是区分“慢速本身”与“卒中病理”的贡献，需要适合的受控慢速健康数据或其他独立证据。本项目现阶段可以不解决这个生理归因问题，但必须让提示词、专家评分和论文结论尊重这一边界。
+If the goal is to distinguish the contributions of “slow speed itself” and “stroke pathology,” suitable controlled slow-speed data from healthy participants or other independent evidence are needed. The project need not resolve this physiological attribution question at its current stage, but the prompts, expert scoring, and paper conclusions must respect this boundary.
 
-## 4. 人群与临床标签需要谨慎使用
+## 4. Population and clinical labels need to be used cautiously
 
-本地MAT显示：卒中年龄19–85岁，中位68.5岁；卒中后14–139天，中位45.5天。主队列不能描述为慢性卒中代表样本。发布数据来自有特定招募条件、能够完成实验室步行的人群，不代表所有卒中患者。
+The local MAT files show: age of stroke participants 19–85 years, median 68.5 years; time since stroke 14–139 days, median 45.5 days. The main cohort cannot be described as a representative sample of chronic stroke. The released data come from a population with specific recruitment criteria who could complete laboratory walking, and do not represent all stroke patients.
 
-需明确保留以下不一致：论文方法描述排除FAC≤2及TIS≥20，但补充表/MAT中有18人FAC=2，并有TIS=20记录。应按发布值报告，注明招募描述与记录不完全一致；若需要解释原因，应向作者核实。不能擅自更改分值、删人或编造“评分日期变化”的解释。
+The following inconsistency must be explicitly retained: the paper's methods describe excluding FAC≤2 and TIS≥20, but the supplementary tables/MAT files contain 18 participants with FAC=2 and records with TIS=20. The released values should be reported, noting that the recruitment description and records are not fully consistent; if an explanation is needed, it should be verified with the authors. Scores must not be arbitrarily changed, participants removed, or an explanation involving “changes in assessment dates” fabricated.
 
-补充材料记录TVC48、TVC51、TVC54有辅助行走，对应项目Sub41、Sub43、Sub46。应把辅助状态纳入病例说明，或预先定义敏感性分析；不能写成全体均完全独立无辅助行走。
+The supplementary materials record assisted walking for TVC48, TVC51, and TVC54, corresponding to project cases Sub41, Sub43, and Sub46. Assistance status should be included in the case descriptions, or a sensitivity analysis should be predefined; the entire cohort must not be described as walking fully independently without assistance.
 
-对照组是研究筛选的健常人群，不是对每种潜在病变均有确诊排除的临床金标准。因此可以评价无依据的病理化解释，但不能因为模型怀疑标签就判其发现了真实隐匿疾病。
+The control group is a healthy population screened for the study, not a clinical gold standard in which every potential pathology has been definitively ruled out. Unsupported pathological interpretations can therefore be evaluated, but a model questioning the label cannot be judged to have discovered a real occult disease merely on that basis.
 
-## 5. 运动学/EMG可用，不等于动力学可以直接加入
+## 5. Usable kinematics/EMG does not mean kinetics can be added directly
 
-作者特别提醒卒中组动力学有效接触和质量核查不充分。项目不能因MAT中有GRF、力矩、功率就直接推导推进力不足、代偿机制或治疗建议。若加入动力学，应另行审核有效落脚、步态事件与异常值，必要时回到C3D。
+The authors specifically caution that valid-contact and quality checks for kinetics in the stroke group were insufficient. The project must not directly infer insufficient propulsive force, compensatory mechanisms, or treatment recommendations merely because GRF, moments, and power are present in the MAT files. If kinetics are added, valid foot contacts, gait events, and outliers should be reviewed separately, returning to C3D when necessary.
 
-EMG按个人肌肉峰值归一化，更适合研究相对波形与时序。归一化峰值不代表绝对力量，也不支持直接横跨肌肉判断强弱。Excel已经平均，掩盖了逐步差异；必要时应从MAT提供有效周期数与变异性。
+EMG is normalized to each individual's muscle peak and is better suited to studying relative waveforms and timing. Normalized peaks do not represent absolute force and do not support direct comparisons of strength across muscles. The Excel data have already been averaged, masking stride-to-stride differences; when necessary, valid stride counts and variability should be provided from the MAT files.
 
-本项目既有max|z|>2、单段激活、CCI未校准等问题属于使用/解释缺陷，不是据此证明原数据无用。应先修复再评价模型。
+The project's existing issues involving max|z|>2, single-interval activation, and uncalibrated CCI are defects in use/interpretation, not evidence that the original data are useless. These should be fixed before evaluating the models.
 
-## 6. 没有现成的临床报告真值，需要补建评价标准
+## 6. No ready-made clinical report ground truth is available; evaluation standards need to be developed
 
-当前释放文件提供测量和部分临床变量，没有可直接对照的每人完整专家报告、全部机制诊断或治疗结果标签。
+The currently released files provide measurements and some clinical variables, but no complete expert report for each participant, comprehensive mechanism diagnoses, or treatment outcome labels for direct comparison.
 
-应分开三层评价：
+Three levels of evaluation should be separated:
 
-1. **数字事实**：数值、侧别、区间和排序，可由独立计算核验。
-2. **解释边界**：某个推断是否超出所给证据，需要预先制定评分规则及专家判断。
-3. **真实临床结论**：是否存在特定病理机制、何种治疗有效，需要额外病例资料与临床验证。
+1. **Numerical facts**: values, laterality, intervals, and rankings, which can be verified through independent calculations.
+2. **Interpretive boundaries**: whether an inference exceeds the supplied evidence, requiring predefined scoring rules and expert judgment.
+3. **Actual clinical conclusions**: whether a specific pathological mechanism exists and which treatment is effective, requiring additional case information and clinical validation.
 
-可以完成前两层研究，不应将其称为第三层已经验证。FAC、TIS、POMA也不是每句话的答案；若作为预测终点，不能同时把它作为输入泄漏给模型。
+Research at the first two levels can be completed, but should not be described as having validated the third level. FAC, TIS, and POMA are not answers to every statement either; if used as a prediction endpoint, a measure must not simultaneously be leaked to the model as input.
 
-## 7. 建议采用的研究设计
+## 7. Recommended study design
 
-- 将当前18人视为开发/试验阶段病例；若反复用于改提示词，需披露，不能再把同一批当作完全未见的确认性测试。
-- 对全部50人建立固定质量表，按预定规则确定主分析与缺失实验样本。完整病例可能有选择偏差，应比较被纳入/排除者的基本特征。
-- 保留四项运动学，使用全部EMG激活区间、个体事件、指标定义、有效周期数和参考限制。
-- 患者与健康参考尽可能采用对称的处理方法。若要正式比较逐步变异或双侧特征，应获取健康MAT；当前平均曲线描述实验不必为此立刻下载全部原始C3D。
-- 使用独立/留一参考评价健康者；如需选择阈值，区分开发与最终评价。
-- 专家评分以受试者为重复测量单位。左右侧、多个步态周期和多个模型输出不能冒充独立患者。
-- 对外称为“单数据集、回顾性、探索性LLM报告评价”。跨中心可靠性、治疗建议和真实临床部署留给后续验证。
+- Treat the current 18 participants as development/pilot-stage cases; repeated use for prompt refinement must be disclosed, and the same group can no longer be treated as a completely unseen confirmatory test set.
+- Establish a fixed quality table for all 50 participants and determine the primary-analysis and missing-data experiment samples according to predefined rules. Complete cases may be subject to selection bias, so the basic characteristics of included/excluded participants should be compared.
+- Retain the four kinematic measures and use all EMG activation intervals, individual events, metric definitions, valid stride counts, and reference limitations.
+- Use symmetric processing methods for patients and healthy references as far as possible. For formal comparisons of stride-to-stride variability or bilateral features, obtain the healthy-participant MAT files; the current experiment describing mean curves does not require immediate downloading of all raw C3D files for this purpose.
+- Use an independent/leave-one-out reference to evaluate healthy participants; if thresholds need to be selected, distinguish development from final evaluation.
+- Expert scoring should use the participant as the repeated-measures unit. Left and right sides, multiple gait cycles, and multiple model outputs must not be passed off as independent patients.
+- Describe the work externally as a “single-dataset, retrospective, exploratory evaluation of LLM reports.” Leave cross-center reliability, treatment recommendations, and actual clinical deployment for subsequent validation.
 
-## 8. 决策表
+## 8. Decision table
 
-| 目标 | 判定 | 前提 |
+| Objective | Judgment | Prerequisite |
 |---|---|---|
-| 从已验证特征生成描述性报告 | 可用，适合当前项目 | 修复提取与输入规范，建立专家评分 |
-| 比较模型的忠实性、过度推断和缺失信息处理 | 可用 | 固定任务与评分标准，避免事后排名 |
-| 平均EMG模式与运动学联合分析 | 有条件可用 | 明确归一化、速度差异和参考限制 |
-| 精确原始EMG onset验证 | 当前Excel不够 | 连续信号、处理链和事件验证 |
-| 证明痉挛、肌无力或具体病理机制 | 单凭本数据不够 | 额外临床真值与相应验证 |
-| 直接进行卒中动力学解释 | 不能直接使用未核查字段 | 独立有效接触与信号质量审查 |
-| 预测治疗效果、证明临床部署有效 | 当前研究不支持 | 相应纵向结局/独立临床验证 |
+| Generate descriptive reports from validated features | Usable, suitable for the current project | Fix extraction and input specifications, and establish expert scoring |
+| Compare models' faithfulness, over-inference, and handling of missing information | Usable | Fix tasks and scoring criteria, and avoid post hoc rankings |
+| Joint analysis of mean EMG patterns and kinematics | Conditionally usable | Clearly state normalization, speed differences, and reference limitations |
+| Precise validation of raw EMG onset | Current Excel files are insufficient | Continuous signals, processing pipeline, and event validation |
+| Demonstrate spasticity, muscle weakness, or specific pathological mechanisms | These data alone are insufficient | Additional clinical ground truth and corresponding validation |
+| Directly interpret stroke kinetics | Unchecked fields cannot be used directly | Independent review of valid contacts and signal quality |
+| Predict treatment outcomes or demonstrate effective clinical deployment | Not supported by the current study | Corresponding longitudinal outcomes/independent clinical validation |
 
-依据：[原论文](https://www.nature.com/articles/s41597-023-02767-y)、[官方数据集合](https://doi.org/10.6084/m9.figshare.c.6503791.v1)、本地官方补充材料 `sources/VanCriekinge_2023_supplement.pdf`、变量说明 `../data/raw/MATdatafiles_description.xlsx`，以及本地直接复算。
+Basis: [original paper](https://www.nature.com/articles/s41597-023-02767-y), [official data collection](https://doi.org/10.6084/m9.figshare.c.6503791.v1), local official supplementary materials `sources/VanCriekinge_2023_supplement.pdf`, variable descriptions `../data/raw/MATdatafiles_description.xlsx`, and direct local recalculations.
 
-新增复算程序：`assess_main_dataset.py`；输出：`outputs/main_dataset_suitability.json`、`outputs/main_dataset_stride_emg_quality.csv`。其余基础证据见前次审查报告。
+New recalculation program: `assess_main_dataset.py`; outputs: `outputs/main_dataset_suitability.json`, `outputs/main_dataset_stride_emg_quality.csv`. See the previous review report for the remaining foundational evidence.
 
-## 补充：本次逐周期检查完成结果
+## Supplement: completed results of this stride-by-stride check
 
-- 检查50人×2侧×7肌肉，共700个MAT通道条目；非空通道有效周期数为2–17，中位8。未发现部分NaN周期，也没有仅1个有效周期的通道。有效周期数不同，报告均值时应同时记录周期数和变异性。
-- 双侧七肌肉均完整者为43人。其中34人的双侧平均步速仍低于健康参考最低值；排除缺失病例不会解决速度支持范围不足。
-- 补充表2的50人年龄、性别、卒中后时间、病灶侧别、FAC、POMA与TIS均与MAT对应值一致。因此FAC/TIS的不一致是论文纳入描述与发布临床记录之间的问题，不是本次MAT读取或受试者排序错误。
-- 健康对照20–39岁组共45人，仅23人七通道完整；40–59岁为37/44，60–79岁为29/34，80岁以上为13/15。EMG完整样本与全体健康人群的年龄构成不同，不能假定缺失完全随机。
-- 既有事件检查在Sub43患侧发现1个非正持续时间周期；现有时空参数计算会排除它。后续逐周期分析必须继承一致的质量掩码，不能把所有数组行都当成可用步态周期。
+- Checked 50 participants×2 sides×7 muscles, totaling 700 MAT channel entries; nonempty channels had 2–17 valid strides, with a median of 8. No partially NaN strides were found, nor any channels with only 1 valid stride. Valid stride counts differ, so stride counts and variability should also be recorded when reporting means.
+- 43 participants had complete data for all seven muscles bilaterally. Of these, 34 still had a bilateral mean walking speed below the minimum healthy reference value; excluding cases with missing data will not resolve insufficient speed-range support.
+- Age, sex, time since stroke, lesion side, FAC, POMA, and TIS for all 50 participants in Supplementary Table 2 matched the corresponding MAT values. The FAC/TIS inconsistency is therefore an issue between the paper's inclusion description and the released clinical records, not an error in this MAT reading or participant ordering.
+- The healthy-control 20–39-year age group contains 45 participants, only 23 of whom have all seven channels complete; the figures are 37/44 for ages 40–59, 29/34 for ages 60–79, and 13/15 for those over 80. The age composition of the EMG-complete sample differs from that of the full healthy population, so missingness cannot be assumed to be completely random.
+- Previous event checks identified 1 stride with non-positive duration on the affected side of Sub43; the existing spatiotemporal parameter calculation excludes it. Subsequent stride-by-stride analyses must inherit a consistent quality mask and must not treat all array rows as usable gait cycles.

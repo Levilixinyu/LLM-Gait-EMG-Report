@@ -1,0 +1,34 @@
+{
+  "source": "data/rating_packets_formal_v1/raters only",
+  "private_key_read": false,
+  "human_ratings_created": false,
+  "model_calls": 0,
+  "delivery_sent": false,
+  "raters": {
+    "rater1": {
+      "reports": 105,
+      "review_rows": 105,
+      "coverage_rows": 552,
+      "canonical_files_verified": 289,
+      "zip": "Formal_review_rater1.zip",
+      "zip_sha256": "28d8f009eb5f8980af476aab4b8c4ed9153be94e207975a25292990858680dc5",
+      "zip_bytes": 27191010,
+      "metadata_change": "reports.json dictionary keys sorted by opaque report ID; values and independent reading order unchanged",
+      "workbook_bytes_unchanged": true,
+      "report_bytes_unchanged": true
+    },
+    "rater2": {
+      "reports": 105,
+      "review_rows": 105,
+      "coverage_rows": 552,
+      "canonical_files_verified": 289,
+      "zip": "Formal_review_rater2.zip",
+      "zip_sha256": "afbf9ca7aeb0accb1d4d6b3032353d417a87e9bb13642b49d788a683c1ff1034",
+      "zip_bytes": 27190846,
+      "metadata_change": "reports.json dictionary keys sorted by opaque report ID; values and independent reading order unchanged",
+      "workbook_bytes_unchanged": true,
+      "report_bytes_unchanged": true
+    }
+  },
+  "script_sha256": "306f0a45f067c26a4a287c56e169d48f8ee80f11b4c2a9cb19e3b38f2a555065"
+}

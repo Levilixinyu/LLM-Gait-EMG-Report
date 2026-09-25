@@ -1,0 +1,47 @@
+{
+  "validated_at_utc": "2026-09-25T04:41:16.270953+00:00",
+  "bundle_path": "data/reproducibility_v1/Analysis_reproduction_v1.zip",
+  "bundle_sha256": "a8e0bae56d0f47a4198a2194abeba5ac0d0e6e00f884a3583869fb94416ce8ae",
+  "bundle_bytes": 819865,
+  "python": "3.13.0",
+  "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "environment": "New isolated venv with only the four pinned analysis dependencies installed; no system-site-packages.",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "openpyxl": "3.1.5",
+    "et_xmlfile": "2.0.0"
+  },
+  "pip_check": "No broken requirements found.",
+  "run_command": "python -B scripts/reproduce_analysis.py --output ../reproduced-results",
+  "replay_result": {
+    "status": "PASS",
+    "python": "3.13.0",
+    "manifest_sha256": "e9b6659d4d35b53cac3ba12688f08d15f3a17ad1ff70cfdfc973ca7707bd9236",
+    "files_verified": 151,
+    "reports": 105,
+    "participants": 35,
+    "original_reviews": 3,
+    "manuscript_tables": 12,
+    "wording_scenarios": 7,
+    "frozen_estimates_exact": true,
+    "original_estimates_exact": true,
+    "agreement_exact": true,
+    "wording_summaries_and_report_rows_exact": true,
+    "manuscript_tables_exact": true,
+    "source_inputs_modified": false,
+    "api_calls": 0,
+    "scope_limit": "Starts from preserved judgments and supplied summaries; does not regenerate model outputs or independently rerate reports or rebuild features from raw recordings."
+  },
+  "public_release_authorized": false,
+  "git_push_performed": false,
+  "last_update": {
+    "scope": "Study-lead-confirmed reviewer academic background; all numerical tables and rating judgments unchanged.",
+    "superseded_validation": {
+      "validated_at_utc": "2026-09-25T04:36:17.659275+00:00",
+      "bundle_sha256": "9bf1649f280ec00a2f877022362a610e1a2e0feed2a4a81c05cced30ff0eab2c"
+    },
+    "confirmation_path": "docs/formal_study/REVIEWER_BACKGROUND_CONFIRMATION.json",
+    "confirmation_sha256": "5978a44a9229bd7caf203f0e82f9db0e0ea8d38e8f4e8337b2fe27a5ae12227a"
+  }
+}

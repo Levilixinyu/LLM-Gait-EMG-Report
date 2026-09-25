@@ -1,0 +1,384 @@
+{
+  "checked_at_utc": "2026-09-25T02:38:04.496626+00:00",
+  "status": "Receipt and personal-position review; no new consensus or score import",
+  "frozen_sha256": "9cf006f23d5660118f5ac4da9e631e68645fa17686a0742841e267e616ca9167",
+  "returns": {
+    "rater1": {
+      "receipt_status": "Read",
+      "source": "docs/formal_study/wording_boundary_confirmation_v1/rater1_review_materials/Wording_boundary_confirmation_rater1_completed.xlsx",
+      "sha256": "df2944a9b95d9060a5b42f58e8275b500cbb108f61cea5c3fd76d0b9e25ce5c4",
+      "identical_copies": [],
+      "technical_problems": [],
+      "form_complete_and_template_intact": true,
+      "decision_counts": {
+        "Error": 5,
+        "Pending adjudication": 2,
+        "Acceptable": 1
+      },
+      "decisions": {
+        "AG004": {
+          "decision": "Error",
+          "reason": "Line 43 asks whether the reduced sagittal joint ROMs observed here stem from particular causes. The open question concerns the cause; reduced and observed assert the reduction itself. The input supplies knee 15.6, hip 18.7, ankle 20.7 and pelvis 8.2 degrees, without a ROM comparator establishing reduction. Line 31 correctly warns that ROM alone cannot confirm restriction, but does not retract the later premise. Under D03 and rubric 8, retain Error for the unsupported kinematic characterization, not for asking about contracture or spasticity.",
+          "categories": "E07",
+          "reservation": "Retain the specific E07 classification proposed in the prior category review. A merely small absolute excursion or measured excursion bounds would be different; no automatic adjective rule is proposed.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG011": {
+          "decision": "Pending adjudication",
+          "reason": "On reconsideration, the denominator interpretation is not explicit enough for a definite E01. Line 2 correctly names the successive-footfall symmetry index -6.6% and its direction. Line 40 calls its parenthetical the noted asymmetry, supporting an index-based shorthand reading. Conversely, paretic step 6.6% shorter ordinarily denotes shortening relative to the non-paretic step. From the supplied index formula, that latter percentage is 100*(1-193.4/206.6), approximately 6.389%, not 6.6%. This is a metric-denominator distinction, not harmless decimal rounding. The wording does not settle which denominator is asserted; retain the competing readings as Pending under rubric 2-3 and E01 boundaries. The clinical association remains a permitted question.",
+          "categories": null,
+          "reservation": "Revision of the earlier Error interpretation for this targeted return only. Potential category E01 if the ordinary percent-shortening reading is adopted. Historical records are not overwritten.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG019": {
+          "decision": "Error",
+          "reason": "Line 48 first describes ERS reported 100% coverage and a full-window retained interval, then says evidence indicates no retained below-threshold segment and explains this as an envelope that stays above 20% of its own peak. The latter explanatory sentence strengthens the passage beyond an interval-list description into continued signal-level exceedance. Displayed coverage/endpoints and supplied boundary continuity do not guarantee absence of a below-threshold portion. The physiological disclaimer does not retract this signal-level claim. The following non-exhaustive-list caution is considered, but does not explicitly withdraw the ERS-specific stays-above assertion. Retain E03 under rubric 8.",
+          "categories": "E03",
+          "reservation": "The retained-list reading is plausible if the first sentence is isolated. My Error decision depends on its immediate stays-above explanation, not the word retained alone. The separate neighboring 3% filter claim is outside this decision.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG023": {
+          "decision": "Error",
+          "reason": "Line 42 asks for a basis for the constrained sagittal pelvis range of motion (1.1 degrees), or whether this is characteristic of typical mechanics. I read the definite constrained-excursion premise as asserting restricted movement, while leaving its cause and habitual status open. The input provides measured excursion and pelvis GVS 9.05, neither a ROM reference nor observed clinical restriction. Habitual mechanics could explain a constraint but does not expressly withdraw the characterization. The general no-disease disclaimer in line 38 likewise does not retract the particular restriction premise. Retain E07 under D03 and the ROM boundary; no diagnosis or specific mechanism is independently scored.",
+          "categories": "E07",
+          "reservation": "The alternative reading treats constrained as small absolute excursion. I do not adopt it for this sentence because it seeks a clinical basis for an already qualified limitation. The separate pathology flag records this semantic judgment, not an automatic implication of E07.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG028": {
+          "decision": "Acceptable",
+          "reason": "Revise the earlier Error interpretation for this return. The complete parenthesis is categorized functionally as a limited community ambulator band, immediately attached to 0.42 m/s. The band is the actual input label for 0.4-0.8 m/s. Despite the imprecise adverb functionally, the object remains a band; the passage does not say independence, safety, actual community walking ability or a measured functional examination result was established. The approved E02 boundary requires the additional functional inference, not just the adverb. On this full construction I accept speed-band naming.",
+          "categories": null,
+          "reservation": "Acceptance is specific to the complete band wording. A statement that the participant was demonstrated to walk independently or safely would remain unsupported. No general functional conclusion is approved.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG048": {
+          "decision": "Error",
+          "reason": "The question asks about possible clinical correlates, which D03 allows. Its premise nevertheless calls continuous 100% threshold coverage observed in RF/ERS. Section 2 describes these envelopes as having remained above threshold for 100% of the cycle under a Continuous Coverage heading, strengthening the premise as uninterrupted exceedance rather than merely quoting displayed numbers. The input supplies rounded 100% coverage, 0%-100% intervals and boundary continuity; these do not establish every-sample exceedance. Retain E03 for the repeated signal-level assertion, not for the proposed tone/spasticity mechanisms.",
+          "categories": "E03",
+          "reservation": "Treat the Section 2 statement and its question repetition as one claim group. The separate within-median Pending item is not reopened. This reading does not equate the asserted signal continuity with physiological contraction.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG050": {
+          "decision": "Pending adjudication",
+          "reason": "Revise the BF-only Error interpretation to Pending for this return. The input and line 15 both give BF 95% with two retained intervals, 60%-66% and wrapping 68%-56%. If high continuous envelope coverage asserts a single uninterrupted above-threshold run, that is contradicted. However, line 47 retains 95% and does not explicitly say one interval or BF continuously above threshold; continuous may modify the envelope representation whose total coverage is high. The immediately relevant report correctly distinguishes both intervals. This does not automatically cure a contradiction, but makes the later compressed noun phrase ambiguous rather than a definite contradictory assertion. Clinical significance, if any is a permitted open question.",
+          "categories": null,
+          "reservation": "Potential E01 for false interval structure if the single-run reading is adopted; not a confirmed error. The ERS assertion at line 18 is separately assessable and unchanged. BF and ERS remain distinct linked claims regardless of this disposition.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG051": {
+          "decision": "Error",
+          "reason": "Retain E03 after checking the complete line 11. Continuously explicitly modifies across the cycle boundary, and that boundary property is supplied for RF/VL/BF/ST/ERS: it is not the error. The broader Continuous Above-Threshold Activity heading combined with maintained above-threshold activity for 100% of the gait cycle asserts persistence throughout the cycle. The actual input permits reporting the displayed 100%, retained 0%-100% and boundary continuity, but does not establish a full-precision no-gap guarantee. The line 9 mean-envelope/physiological disclaimer does not qualify that persistence assertion. One grouped signal-level inference across the five listed muscles; no physiological contraction claim or clinical correlate is inferred.",
+          "categories": "E03",
+          "reservation": "I considered the supplied-output shorthand reading. The heading plus maintained-for-the-whole-cycle predicate leads me to retain the stronger reading. No Error is inferred solely from the boundary clause, the word continuously, or the mere reporting of 100%. The moderately-shorter-step Pending remains untouched.",
+          "frozen_individual_decision": "Error"
+        }
+      },
+      "control_annotation": {
+        "item": "AG023",
+        "flag": "Yes",
+        "reason": "For this specific passage I read constrained pelvic range of motion as an asserted movement restriction, not merely the measured 1.1-degree excursion. Asking whether the restriction is habitual or has a clinical basis leaves its cause open but presupposes the limitation. No input comparator establishes that limitation. Thus Yes refers to an unsupported clinical-impairment inference, not an established disease diagnosis; it is my semantic annotation accompanying AG023 Error E07, not a flag inferred from the tag, question format, or healthy-group membership. Other claims and flags are unchanged."
+      },
+      "completion_verbatim": {
+        "Reviewer name": "rater1 (human expert reviewer; reviewed and adopted)",
+        "Confirmation date (YYYY-MM-DD; optionally time zone)": "2026-09-23 (America/Chicago)",
+        "All eight items and the control annotation completed? (Yes/No)": "Yes",
+        "Model identity knowledge for these reports (None/Some/All/Unsure)": "None",
+        "Exposure to model comparison results before/during this return (None/Some/Unsure)": "None",
+        "Peer or outside advice seen during this targeted round (describe, or None)": "The packet's assistant-prepared alternative readings, rules and synthetic threshold example were read. No other reviewer's response to this targeted packet was opened. Earlier rounds in this thread exposed me to peer ratings, audit suggestions and discussion positions; those prior exposures persist. I have been told the study team unblinded, but have not been given report-to-model identities or model comparison results.",
+        "Do these responses reflect your own judgments without a required consensus? (Yes/No)": "Yes",
+        "Material problems or unfinished items (describe, or None)": "None. All eight items and the control annotation completed from the supplied reports/inputs. No unrelated issue was changed.",
+        "Overall reservations about the existing rules (describe, or None)": "Apply D03 at claim level: an open question does not erase a definite false premise, while an awkward adjective alone does not establish one. Pending here preserves unresolved semantic scope. Changes in this return: AG011 and AG050 to Pending; AG028 to Acceptable. Other targeted Error dispositions retained. These are current personal responses, not consensus or automatic edits to frozen outcomes."
+      },
+      "current_return_attribution_needs_confirmation": false,
+      "human_review_and_adoption_confirmed": true,
+      "attribution_note": "The reviewer is a human expert. Original ratings were independently made by the reviewer, as confirmed by the study lead. This targeted return records the reviewer's own subsequent judgment; it is not a new initial independent-rating round."
+    },
+    "rater2": {
+      "receipt_status": "Read",
+      "source": "docs/formal_study/wording_boundary_confirmation_v1/Wording_boundary_confirmation_rater2_completed.xlsx",
+      "sha256": "fa1011604ff6ea0505941f1c97404ff360f637aaa9b49221c01b5ad42242de28",
+      "identical_copies": [],
+      "technical_problems": [],
+      "form_complete_and_template_intact": true,
+      "decision_counts": {
+        "Error": 6,
+        "Pending adjudication": 1,
+        "Acceptable": 1
+      },
+      "decisions": {
+        "AG004": {
+          "decision": "Error",
+          "reason": "Line 43: \"the reduced sagittal joint ROMs observed here\". \"Reduced\" is a comparative descriptor presented as an observed finding; the input supplies knee 15.6, hip 18.7 and ankle 20.7 degrees but no ROM reference, and the system prompt states that ROM alone does not establish clinical restriction. The follow-up alternatives (contracture, spasticity, mechanical adaptation) are permitted possibilities under D03; the premise that a reduction was observed is the separately assessable assertion, and it is unsupported. Line 31 (\"Limited sagittal ROM alone does not confirm clinical restriction\") disclaims the clinical conclusion but repeats the same comparative characterization (\"limited\"), so it does not cure the premise. Distinct from \"observed limits\" wording (excursion bounds), which I read as descriptive.",
+          "categories": "E07",
+          "reservation": "Reading B (descriptive shorthand) was considered; rejected because \"reduced\" and \"limited\" both compare the supplied values with an unstated expectation, whereas a neutral descriptor (\"small excursion\", \"observed limits\") would not.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG011": {
+          "decision": "Error",
+          "reason": "Line 40: \"paretic step 6.6% shorter\". The supplied index is 200*(P-N)/(P+N) = -6.6%. Read as ordinary percentage shortening (relative to the non-paretic step, the default reading when no denominator is named) the value is about 6.4%, not 6.6%; only with the mean-step denominator would 6.6% be exact, and that denominator is not stated. Section 1 defines the index correctly, but line 40 restates it with a different implicit denominator, which is a low-consequence arithmetic/metric restatement rather than shorthand for the index. The frozen case requirement for this index explicitly names restating it as a percentage shortening as E01. The clinical part of the question is permitted under D03 and is not scored.",
+          "categories": "E01",
+          "reservation": "Reading A (shorthand for the noted asymmetry) is possible; I do not adopt it because the sentence supplies a number with \"shorter\", which readers will take as a shortening percentage. Low consequence; one group.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG019": {
+          "decision": "Error",
+          "reason": "Line 48: \"this is the one channel for which the supplied evidence indicates no retained below-threshold segment. This reflects an envelope that stays above 20% of *its own* peak\". Taken alone, \"no retained below-threshold segment\" could be an imprecise description of the displayed single 0%-100% interval (the detector retains above-threshold runs, so no retained gap exists). In the complete paragraph, however, the author glosses the phrase as \"an envelope that stays above 20% of its own peak\", i.e. the every-sample reading; the displayed 0%-100% interval and rounded 100% coverage do not establish that no sample fell below threshold (rubric 8; synthetic example in the rules page). The contraction disclaimer that follows addresses physiology, not signal-level precision. The 3% filter sentence in line 49 is outside this item.",
+          "categories": "E03",
+          "reservation": "Reading B (list description) would apply if the first sentence stood alone; the paragraph's own gloss resolves the meaning toward the stronger claim.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG023": {
+          "decision": "Error",
+          "reason": "Line 42: \"Does clinical observation reveal a basis for the constrained sagittal pelvis range of motion (1.1 degrees), or is this characteristic of the participant's typical mechanics?\". The question is open about the cause, but \"constrained\" is asserted as the property to be explained in both alternatives; the input supplies pelvic ROM 1.1 degrees with no ROM reference, and the system prompt states that ROM alone does not establish restriction. A neutral size descriptor (\"very small excursion\") would be acceptable; \"constrained\" establishes a restriction from a supplied ROM value, which is the E07 boundary. The offered alternatives are permitted under D03 and are not the ground.",
+          "categories": "E07",
+          "reservation": "Reading A (asking about significance without asserting a limitation) was considered; rejected because the alternative \"typical mechanics\" explains the constraint rather than questioning whether one exists. Pathology annotation given separately.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG028": {
+          "decision": "Pending adjudication",
+          "reason": "Line 4: \"a walking speed of 0.42 m/s (categorized functionally as a limited community ambulator band)\". The input supplies the label with the note that it denotes a speed band only, not measured independence, safety or community mobility. Two readings remain: (1) \"categorized functionally\" presents the band as a functional classification of this participant, contradicting the supplied note (E02, low consequence); (2) the adverb is imprecise naming of a band whose name happens to be functional vocabulary, the phrase still ends in \"band\", and no independence, safety or mobility conclusion is drawn anywhere in the sentence. The rule says to judge the actual assertion rather than the word; the actual assertion adds nothing about measured function, but it does mislabel what the supplied label denotes. The rubric and context do not resolve which of these the sentence asserts, so I record Pending rather than an error or a clearance. If resolved as an error the applicable category is E02.",
+          "categories": null,
+          "reservation": "My earlier record for this passage was Error E02; on rereading, the absence of any functional conclusion about the participant makes reading (2) equally supportable, hence Pending.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG048": {
+          "decision": "Error",
+          "reason": "Line 33: \"the continuous 100% threshold coverage observed in the RF and ERS muscle envelopes\", with the Section 2 heading \"Cycle Boundary and Continuous Coverage\" (line 9). The input supplies 0%-100% intervals with 100% displayed coverage and boundary continuity for RF and ERS; those may be described. \"Continuous ... coverage observed\" adds the claim that coverage was uninterrupted as an observed fact, which the rounded display does not guarantee (rules page example: displayed 0%-100% and 100% with two dips). The clinical correlates (tone, spasticity, postural strategy) are possibilities under D03 and are not scored; the signal-level premise is the assessed assertion. Same reading as the agreed \"continuously above threshold\" cases.",
+          "categories": "E03",
+          "reservation": "Reading A (summary of the displayed result) is possible for \"100% coverage\" alone; \"continuous\" and \"observed\" go beyond the display.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG050": {
+          "decision": "Acceptable",
+          "reason": "Line 47, BF component of \"high continuous envelope coverage (100% in ERS, 95% in BF)\". Supplied BF data: two retained intervals, 60%-66% and 68%-56% (wrapping), 95% coverage; the retained runs are separated at 66%-68% and 56%-60%. A 95% figure by itself would be compatible with one uninterrupted run, so the number does not decide the reading; the supplied intervals do: BF was not one uninterrupted run. If \"continuous\" in line 47 asserted a single uninterrupted BF run, it would contradict the supplied intervals and the report's own Section 2 line 15, which correctly reports both BF intervals and the gap between them (\"from 60% to 66% and from 68% wrapping across the boundary to 56%\"). Read against that context, I do not take line 47 as a new factual statement about BF interval structure: the report has already described BF accurately, the noun in line 47 is \"coverage\" with the correct 95% figure attached, and \"continuous envelope\" in this report also names the unthresholded continuous envelope used for CCI (line 20). The phrase is loose summary wording in a question, not an assertion that BF exceeded threshold without interruption; no BF value, interval or direction is misreported (E01) and no physiological duration is inferred (E03). Acceptable retained. The ERS component is a separate existing group and is not assessed here.",
+          "categories": null,
+          "reservation": "Competing reading recorded: because the same report uses \"continuously from 0% to 100%\" for ERS in the uninterrupted sense (line 18), \"continuous\" in line 47 could be read as attributing the same uninterrupted property to BF, which the supplied intervals contradict; on that reading the BF component would be a low-consequence E01 (misdescribed interval structure) rather than E03. I do not adopt it because line 15 already gives the correct BF structure and line 47 adds no BF fact beyond the 95% figure. My earlier record for the BF component was Error E01; this return revises it to Acceptable.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG051": {
+          "decision": "Error",
+          "reason": "Line 11: heading \"Continuous Above-Threshold Activity\" and \"maintained above-threshold activity for 100% of the gait cycle, remaining above threshold continuously across the cycle boundary (initial contact)\". The input supplies 0%-100% intervals, 100% displayed coverage and boundary continuity for RF, VL, BF, ST and ERS. The clause \"continuously across the cycle boundary\" does describe the supplied boundary flag and is allowed. The heading, however, labels the finding as continuous activity across the whole cycle, and \"maintained ... for 100% of the gait cycle\" presents whole-cycle maintenance as a result rather than a rounded coverage figure; together they assert the stronger no-gap guarantee that the display does not establish (rubric 8). \"Activity\" is softened by the Section 2 note, which I do not count separately. One grouped issue for the five muscles.",
+          "categories": "E03",
+          "reservation": "Reading A (only the boundary property is claimed) would hold without the \"Continuous Above-Threshold Activity\" heading; with it, the whole-cycle reading is the natural one. Consistent with my Acceptable reading of a bare \"maintained above-threshold amplitude for 100% of the gait cycle\" elsewhere, where no such heading exists.",
+          "frozen_individual_decision": "Error"
+        }
+      },
+      "control_annotation": {
+        "item": "AG023",
+        "flag": "No",
+        "reason": "The passage asserts an unsupported restriction of pelvic excursion (\"constrained\", scored E07), but it does not assert a pathological or clinical-impairment basis for it: the same sentence offers \"characteristic of the participant's typical mechanics\" as an explanation, and Section 3 states that deviations do not establish disease or pathological impairment. Under the 2026-09-23 clarification, no flag is inferred from E07 or from a question, and a positive flag requires the impairment assertion itself. My earlier Yes annotation for this record is revised to No on that basis. If the group reads \"constrained range of motion\" itself as an impairment claim, the annotation would be Yes; I record that reading as a reservation, not as my judgment."
+      },
+      "completion_verbatim": {
+        "Reviewer name": "rater2",
+        "Confirmation date (YYYY-MM-DD; optionally time zone)": "2026-09-24 (Asia/Shanghai)",
+        "All eight items and the control annotation completed? (Yes/No)": "Yes",
+        "Model identity knowledge for these reports (None/Some/All/Unsure)": "None",
+        "Exposure to model comparison results before/during this return (None/Some/Unsure)": "None",
+        "Peer or outside advice seen during this targeted round (describe, or None)": "None during this round. Before this round, the merged discussion workbook and the scoring audit exposed rater1/rater3 positions on several of these passages; nothing from other reviewers was consulted while completing this return, and the packet itself contains no peer positions.",
+        "Do these responses reflect your own judgments without a required consensus? (Yes/No)": "Yes",
+        "Material problems or unfinished items (describe, or None)": "None. The ZIP was initially unreadable on the study computer because the files were iCloud placeholders; after download all files were extracted and read. All eight items and the annotation are completed.",
+        "Overall reservations about the existing rules (describe, or None)": "(1) Continuity wording: I apply one rule across items: describing the displayed 0%-100% interval, 100% coverage and boundary continuity is allowed; \"continuous/continuously/stays above\" presented as observed for the whole cycle is E03; AG050 shows the rule needs a carve-out for loose use of \"continuous\" in a question when the same report has already reported the muscle's multiple retained intervals correctly; a coverage figure alone does not settle whether one run or several is meant. (2) AG028 and similar label wording (\"categorized functionally\") need one documented reading; I left it Pending. (3) The pathology annotation clarification (E07 alone does not imply a flag) changed my AG023 annotation from Yes to No; the frozen record should note the date of the clarification. (4) Two of my decisions differ from my earlier records (AG028 Error to Pending; AG050 Error to Acceptable); the others are unchanged."
+      },
+      "current_return_attribution_needs_confirmation": false,
+      "human_review_and_adoption_confirmed": true,
+      "attribution_note": "The reviewer is a human expert. Original ratings were independently made by the reviewer, as confirmed by the study lead. This targeted return records the reviewer's own subsequent judgment; it is not a new initial independent-rating round."
+    },
+    "rater3": {
+      "receipt_status": "Read",
+      "source": "outputs/rater3_independent/Wording_boundary_confirmation_rater3_completed.xlsx",
+      "sha256": "dc616ed5cef5593465b5315b8454c28609dfc9db324224ebe959f02204074dea",
+      "identical_copies": [],
+      "technical_problems": [],
+      "form_complete_and_template_intact": true,
+      "decision_counts": {
+        "Error": 7,
+        "Acceptable": 1
+      },
+      "decisions": {
+        "AG004": {
+          "decision": "Error",
+          "reason": "Q43 presupposes \"reduced sagittal joint ROMs observed here\" against no matched comparator: inputs supply excursion values plus GVS only (Sub19 input lines 42-45), and the report line-31 note states limited ROM alone does not confirm restriction. D03 clears the questioned causes (contracture/spasticity/adaptation), not the deficit premise. Reading B rejected: the disclaimer reinforces rather than supplies the missing comparator.",
+          "categories": "E07",
+          "reservation": null,
+          "frozen_individual_decision": "Error"
+        },
+        "AG011": {
+          "decision": "Error",
+          "reason": "Line 2 correctly names the successive-footfall index (-6.6%, defined as 200*(P-NP)/(P+NP) per Sub02 input lines 10/24), but Q40 restates it as \"6.6% shorter\" (ordinary percentage shortening, denominator NP). True equivalent is ~6.39%, so 6.6 is not rounding but the index number reused under a different denominator: E01 metric identity/arithmetic. D03 protects the association question, not the premise number. Small absolute size noted; identity error stands.",
+          "categories": "E01",
+          "reservation": "Magnitude ~0.2pp; E01 on identity, not materiality.",
+          "frozen_individual_decision": "Error"
+        },
+        "AG019": {
+          "decision": "Error",
+          "reason": "First clause uses retained-list vocabulary, but the sentence upgrades it: \"an envelope that stays above 20% of its own peak\" states full-window signal exceedance, not list description. The \"does not imply continuous contraction\" hedge covers physiology only, not every-sample exceedance. Same structure as the D012 family, Error E03. Reading B rejected: retained/under-this-rule does not cover the stays-above upgrade.",
+          "categories": "E03",
+          "reservation": null,
+          "frozen_individual_decision": "Error"
+        },
+        "AG023": {
+          "decision": "Error",
+          "reason": "\"Constrained\" presupposes a restricted pelvic ROM with no matched comparator (input line 45: 1.1 deg + GVS 9.05 only) (E07); as restriction-state language it embeds an impairment characterization (E02 language boundary). The typical-mechanics alternative leaves the label in place, unlike neutral D03 cause lists. Reading A rejected: offering an alternative does not un-embed the deficit label.",
+          "categories": "E07;E02",
+          "reservation": "If constrained/reduced distinction is rejected, collapses to E07 (noted previously).",
+          "frozen_individual_decision": "Error"
+        },
+        "AG028": {
+          "decision": "Error",
+          "reason": "Input line 22 supplies 0.42 m/s with the band label plus explicit bracket: label denotes a speed band ONLY, not measured independence, safety or mobility. \"Categorized functionally as a ... band\" re-characterizes the band assignment as functional categorization, contradicting the bracket. No independence/safety specifics added, but the functional reading itself is the E02 violation. Reading B rejected: ends-in-band does not neutralize functionally against the disclaimer.",
+          "categories": "E02",
+          "reservation": null,
+          "frozen_individual_decision": "Error"
+        },
+        "AG048": {
+          "decision": "Acceptable",
+          "reason": "\"Continuous 100% threshold coverage observed\" summarizes the supplied display: RF/ERS retained 0%-100% with 100% coverage and across-boundary flags (Sub49 input lines 30/35), restated at report line 9. Observed/coverage is display vocabulary, not a no-sample-exists assertion; clinical correlates are questions (D03); line-8 note separates coverage from contraction. Reading B rejected: no full-precision guarantee stated.",
+          "categories": null,
+          "reservation": null,
+          "frozen_individual_decision": "Error"
+        },
+        "AG050": {
+          "decision": "Error",
+          "reason": "BF component only. Report line 15 and Sub62 input line 32 give two BF intervals (60%-66%; 68%-56% wrap, 95% total), yet Q47 premises continuous envelope coverage (95% in BF). Continuous directly contradicts the two-interval listing; 95% via disjoint runs is not one uninterrupted run. D03 protects the significance question, not the false premise. ERS excluded per scope.",
+          "categories": "E01",
+          "reservation": null,
+          "frozen_individual_decision": "Error"
+        },
+        "AG051": {
+          "decision": "Error",
+          "reason": "Heading plus maintained-above-threshold-for-100% predicates uninterrupted whole-cycle exceedance. Only the boundary clause is supplied (inputs: 0%-100% + across-boundary flag for all five muscles); boundary continuity does not entail whole-cycle no-gap. Line-9 note covers force/variability/onset only. Same structure as D012 (unanimous Error E03). Reading A rejected: continuously cannot be confined to the boundary clause when heading and maintained-for-100% state the whole-cycle claim.",
+          "categories": "E03",
+          "reservation": null,
+          "frozen_individual_decision": "Error"
+        }
+      },
+      "control_annotation": {
+        "item": "AG023",
+        "flag": "Yes",
+        "reason": "Yes: constrained applies restriction-state (impairment) language to the control 1.1-degree pelvic ROM with no matched comparator. The typical-mechanics alternative questions the finding without removing the label. Decided independently of the E02 tag, also selected on Decisions."
+      },
+      "completion_verbatim": {
+        "Reviewer name": "rater3 (human expert reviewer; reviewed and adopted)",
+        "Confirmation date (YYYY-MM-DD; optionally time zone)": "2026-09-23",
+        "All eight items and the control annotation completed? (Yes/No)": "Yes",
+        "Model identity knowledge for these reports (None/Some/All/Unsure)": "None",
+        "Exposure to model comparison results before/during this return (None/Some/Unsure)": "None",
+        "Peer or outside advice seen during this targeted round (describe, or None)": "None during this targeted round. For transparency: earlier discussion rounds in this review cycle exposed rater1/rater2 positions via shared workbooks and audit summaries; this return assesses only the eight packet passages against packet inputs and rules.",
+        "Do these responses reflect your own judgments without a required consensus? (Yes/No)": "Yes",
+        "Material problems or unfinished items (describe, or None)": "None",
+        "Overall reservations about the existing rules (describe, or None)": "None"
+      },
+      "current_return_attribution_needs_confirmation": false,
+      "human_review_and_adoption_confirmed": true,
+      "attribution_note": "The reviewer is a human expert. Original ratings were independently made by the reviewer, as confirmed by the study lead. This targeted return records the reviewer's own subsequent judgment; it is not a new initial independent-rating round."
+    }
+  },
+  "comparison": [
+    {
+      "Item": "AG004",
+      "Report": "R3077041C029681A9",
+      "Case": "stroke_Sub19_P",
+      "rater1": "Error",
+      "rater2": "Error",
+      "rater3": "Error",
+      "Receipt comparison": "Matching submitted labels"
+    },
+    {
+      "Item": "AG011",
+      "Report": "R248AD7BC90BAC7D5",
+      "Case": "stroke_Sub02_P",
+      "rater1": "Pending adjudication",
+      "rater2": "Error",
+      "rater3": "Error",
+      "Receipt comparison": "Divergent submitted labels"
+    },
+    {
+      "Item": "AG019",
+      "Report": "RA5354EEC7114E5CC",
+      "Case": "control_Sub62_avg",
+      "rater1": "Error",
+      "rater2": "Error",
+      "rater3": "Error",
+      "Receipt comparison": "Matching submitted labels"
+    },
+    {
+      "Item": "AG023",
+      "Report": "R25F5AA9361D9E14F",
+      "Case": "control_Sub06_avg",
+      "rater1": "Error",
+      "rater2": "Error",
+      "rater3": "Error",
+      "Receipt comparison": "Matching submitted labels"
+    },
+    {
+      "Item": "AG028",
+      "Report": "RDB18B7C593D48194",
+      "Case": "stroke_Sub15_P",
+      "rater1": "Acceptable",
+      "rater2": "Pending adjudication",
+      "rater3": "Error",
+      "Receipt comparison": "Divergent submitted labels"
+    },
+    {
+      "Item": "AG048",
+      "Report": "RA857737CABCC0FB8",
+      "Case": "stroke_Sub49_P",
+      "rater1": "Error",
+      "rater2": "Error",
+      "rater3": "Acceptable",
+      "Receipt comparison": "Divergent submitted labels"
+    },
+    {
+      "Item": "AG050",
+      "Report": "R1C5F93E05D9CC9EA",
+      "Case": "control_Sub62_avg",
+      "rater1": "Pending adjudication",
+      "rater2": "Acceptable",
+      "rater3": "Error",
+      "Receipt comparison": "Divergent submitted labels"
+    },
+    {
+      "Item": "AG051",
+      "Report": "RAF417EE5FDC33A78",
+      "Case": "stroke_Sub13_P",
+      "rater1": "Error",
+      "rater2": "Error",
+      "rater3": "Error",
+      "Receipt comparison": "Matching submitted labels"
+    }
+  ],
+  "source_returns_modified": false,
+  "frozen_outcomes_modified": false,
+  "model_results_modified": false,
+  "human_adoption_inferred": false,
+  "human_review_confirmation": {
+    "recorded_at_utc": "2026-09-24T02:52:56.391352+00:00",
+    "authority": "Direct study-lead confirmation in the current conversation",
+    "instruction_english_translation": "Search again. Remove the reviewer-identity disclaimers from the active records; all returns have been reviewed by human reviewers.",
+    "scope": "All three raters are human experts. Their original scoring judgments were independently made by the reviewers themselves, as confirmed by the study lead. Later targeted returns contain their own subsequent judgments.",
+    "confirmed_roles": [
+      "rater1",
+      "rater2",
+      "rater3"
+    ],
+    "applies_to": "Human reviewer identity and personal scoring responsibility; original independent scoring remains separate from later discussion and rechecks.",
+    "administrative_action": "Correct active reviewer-name fields and derived receipt summaries; preserve all scores, reasons, category choices, flags, dates and exposure responses. Preserve pre-correction originals in an isolated provenance-only archive excluded from scoring imports.",
+    "rater2_receipt_status": "Received and read; study lead reported completion on 2026-09-24",
+    "original_independent_ratings_changed": false,
+    "frozen_outcomes_changed": false,
+    "confirmed_current_return_roles": [
+      "rater1",
+      "rater2",
+      "rater3"
+    ],
+    "updated_at_utc": "2026-09-24T05:45:26.326330+00:00",
+    "rater2_source_sha256": "fa1011604ff6ea0505941f1c97404ff360f637aaa9b49221c01b5ad42242de28",
+    "rater2_initial_received_sha256": "4ea9e2b0cecce1c48f29e5b16a8d848899cdea0163a0983fa5fc7b0f85958558",
+    "rater2_rationale_update": "Three rationale cells revised; personal decision and control annotation unchanged. See return_review/RATER2_RATIONALE_CORRECTION.json.",
+    "latest_identity_confirmation_record": "../human_reviewer_identity_v1/CORRECTION_RECORD.json"
+  },
+  "output_sha256": {
+    "Submitted_positions.xlsx": "436c0c17642cad8f2d91143d81e7aa9b0edb3ac9813b27318497f5e32d75effe",
+    "README.md": "d253270c9b743f9e49302a614debc7f848be746608fdd84f54ada6501b1b1001"
+  }
+}

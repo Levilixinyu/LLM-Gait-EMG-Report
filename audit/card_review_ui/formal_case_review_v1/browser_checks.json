@@ -1,0 +1,21 @@
+{
+  "all_35_case_forms": true,
+  "common_read_once_not_reopened": true,
+  "locked_until_reviewer": true,
+  "exactly_35_cases_exported": true,
+  "export_preserves_revision": true,
+  "export_preserves_rejection": true,
+  "export_preserves_addition": true,
+  "unfinished_is_draft": true,
+  "csv_has_utf8_bom": true,
+  "csv_has_review_and_case_id": true,
+  "reload_restores_browser_draft": true,
+  "second_reviewer_is_separate": true,
+  "json_import_restores_review": true,
+  "wrong_version_rejected_without_mutation": true,
+  "import_text_not_html": true,
+  "single_control_ui_works": true,
+  "single_control_has_matching_version": true,
+  "single_control_images_embedded": true,
+  "no_browser_runtime_errors": true
+}

@@ -34,6 +34,8 @@ dist/
 # Generated reports, rater packets, and confidential unblinding keys
 /data/reports*/
 /data/rating_packets*/
+/data/compatibility_checks/
+/data/reproducibility_v1/
 **/answer_key_DO_NOT_SHARE*
 **/packaging_manifest.json
 /v1_freeze/data/
@@ -42,3 +44,6 @@ dist/
 *.building/
 /v1_freeze/reports*/
 /v1_freeze/rating_packets*/
+
+# Expert submissions and local reconciliation (may contain reviewer identities)
+/docs/expert_trial/expert_rate/

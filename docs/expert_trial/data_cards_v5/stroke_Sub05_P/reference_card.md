@@ -1,18 +1,18 @@
-# 参考说明：stroke_Sub05_P
+# Reference notes: stroke_Sub05_P
 
-**草稿。经验分布不是临床诊断阈值。**
+**Draft. An empirical distribution is not a clinical diagnostic threshold.**
 
-实际参考：138人，pooled；排除：[]。
+Reference actually used: 138 participants, pooled; exclusions: [].
 
-## A. 模型实际获得的信息
+## A. Information actually provided to the model
 
-请以 model_user_prompt.txt 原文为准：max|z|定义、pooled p95总体跨度3.65–4.61（仅端点肌肉）、LOO更高的提醒、CCI范围、pooled GPS-like背景和速度限制。未逐肌肉完整提供LOO数值。
+Please refer to the original text in model_user_prompt.txt: the definition of max|z|, the overall pooled p95 span of 3.65–4.61 (only the muscles at the endpoints), the reminder that LOO is higher, CCI ranges, pooled GPS-like background, and speed limitations. Complete LOO values were not provided for each muscle.
 
-## B. 仅供专家准备阶段核查的补充表
+## B. Supplementary table solely for expert verification during preparation
 
-**下表精确数值和图形没有发送给模型；不得把遗漏它们自动计为模型错误。正式评分前专家必须决定是否把这些参考加入未来统一输入，或维持允许不可判定的当前任务。**
+**The exact values in the table below and the plots were not sent to the model; their omission must not automatically be counted as a model error. Before formal scoring, experts must decide whether to add these references to future standardized inputs or retain the current task, which permits indeterminate judgments.**
 
-| 肌肉 | 本例有效参考n | 校准分布n | pooled p95 | LOO p95 | 本例方法对应的背景列 |
+| Muscle | Valid reference n for this case | Calibration distribution n | pooled p95 | LOO p95 | Background column corresponding to this case's method |
 |---|---:|---:|---:|---:|---|
 | GAS | 109 | 109 | 3.936 | 4.275 | p95 |
 | RF | 108 | 108 | 4.527 | 5.06 | p95 |
@@ -22,24 +22,24 @@
 | TA | 107 | 107 | 4.605 | 5.174 | p95 |
 | ERS | 106 | 106 | 3.646 | 3.919 | p95 |
 
-LOO列是全体有效健康者各自排除本人的经验分布，并非专为Sub49重新校准的137人诊断阈值；包含该例作为校准观察的可能性也不应隐去。患者的pooled比较也只表示相对这组自选步速健康者的偏差。
+The LOO column is the empirical distribution for all valid healthy individuals, each with themselves excluded, not a diagnostic threshold recalibrated specifically for Sub49 using 137 individuals; the possibility that this case is included as a calibration observation should not be concealed either. The patient's pooled comparison likewise indicates only deviation relative to this group of healthy individuals walking at self-selected speeds.
 
-CCI在输入中给出TA–GAS 0.24–0.59、RF–BF 0.48–0.83的经验2.5–97.5分位数；它不依赖z参考均值。
-输入GPS-like中位5.1/p95 10.7来自pooled背景。健康例GPS-like计算使用LOO均值，不能把背景p95直接冒充匹配的LOO诊断界限。
+The input provides empirical 2.5–97.5 percentiles for CCI: TA–GAS 0.24–0.59 and RF–BF 0.48–0.83; CCI does not depend on the z reference mean.
+The input GPS-like median 5.1/p95 10.7 comes from the pooled background. GPS-like calculations for healthy cases use the LOO mean; the background p95 must not be directly passed off as a matched LOO diagnostic limit.
 
-图中的均值±1 SD仅描述相位分布，不是个体曲线95%区间或临床正常界限；负的带下界只是均值减SD的显示，不代表观察到负EMG。
-EMG为发布的平均包络；原数据使用每人每肌肉跨可用周期的共同峰值归一化。图上阈值另外取平均曲线峰值的20%，二者不要混淆。
-未提供每人toe-off，因此图上不标精确支撑/摆动期；七块肌肉并不代表全部肌肉。
+The mean±1 SD in the plots describes only the phase-wise distribution, not a 95% interval for individual curves or a clinical normal limit; a negative lower band boundary merely displays the mean minus SD and does not mean that negative EMG was observed.
+EMG consists of the published mean envelopes; the original data were normalized using a common peak across available cycles for each muscle in each individual. The plotted threshold is separately set at 20% of the mean curve's peak; do not confuse the two.
+Individual toe-off was not provided, so precise stance/swing phases are not marked on the plots; the seven muscles do not represent all muscles.
 
-资料来源：原数据 https://doi.org/10.6084/m9.figshare.c.6503791.v1 ；方法 https://www.nature.com/articles/s41597-023-02767-y ；本地 data/normative_calibration_v2.json（哈希见manifest）。
+Sources: original data https://doi.org/10.6084/m9.figshare.c.6503791.v1 ; methods https://www.nature.com/articles/s41597-023-02767-y ; local file data/normative_calibration_v2.json (see manifest for hash).
 
-## 本例区间注释（阅读提示，不是必须复述项）
+## Interval annotations for this case (reading guidance, not items that must be repeated)
 
-| 肌肉 | 阈值区间（%周期） | 注释 |
+| Muscle | Threshold intervals (% of cycle) | Annotation |
 |---|---|---|
-| GAS | [(91.6, 88.4)] | 跨100%→0%连续；0%不是新一次生理起始。 |
-| RF | [(86.1, 78.0)] | 跨100%→0%连续；0%不是新一次生理起始。 |
-| VL | [(6.5, 69.4), (97.1, 3.2)] | 跨100%→0%连续；0%不是新一次生理起始。 |
-| BF | [(51.0, 64.0), (65.0, 86.0), (90.0, 50.8)] | 跨100%→0%连续；0%不是新一次生理起始。 |
-| ST | [(47.7, 50.6), (51.1, 47.4)] | 跨100%→0%连续；0%不是新一次生理起始。 |
-| ERS | [(0.0, 100.0)] | 全周期过阈值；未检出明确起止转换。 |
+| GAS | [(91.6, 88.4)] | Continuous across 100%→0%; 0% is not a new physiological onset. |
+| RF | [(86.1, 78.0)] | Continuous across 100%→0%; 0% is not a new physiological onset. |
+| VL | [(6.5, 69.4), (97.1, 3.2)] | Continuous across 100%→0%; 0% is not a new physiological onset. |
+| BF | [(51.0, 64.0), (65.0, 86.0), (90.0, 50.8)] | Continuous across 100%→0%; 0% is not a new physiological onset. |
+| ST | [(47.7, 50.6), (51.1, 47.4)] | Continuous across 100%→0%; 0% is not a new physiological onset. |
+| ERS | [(0.0, 100.0)] | Above threshold throughout the cycle; no clear onset or offset transitions detected. |

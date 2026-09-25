@@ -1,0 +1,13 @@
+{
+  "status": "Passed offline candidate validation",
+  "task_count": 105,
+  "only_task_change": "Provider-specific output cap: 8000 to 16000",
+  "reviewed_prompts_models_schedule_and_other_parameters_unchanged": true,
+  "historical_files_verified_unchanged": 21,
+  "candidate_plan_file_sha256": "8e446616091adb981957e8c3525a5bae7319acde9d7ce8153868bb912b33b152",
+  "new_api_calls": 0,
+  "formal_generation_authorized": false,
+  "one_attempt_all_slots_reservation_usd": 59.64,
+  "three_attempt_all_slots_reservation_usd": 178.92,
+  "unchanged_candidate_budget_limit_usd": 120.0
+}

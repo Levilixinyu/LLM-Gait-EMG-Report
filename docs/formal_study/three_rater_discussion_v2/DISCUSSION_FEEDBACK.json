@@ -1,0 +1,381 @@
+{
+  "received_date": "2026-09-20",
+  "source_kind": "Study lead forwarded three reviewer messages in the current conversation, in rater1/rater2/rater3 order.",
+  "translation_status": "English contextual summaries of bilingual forwarded feedback; not verbatim quotations, original workbook edits, or new signatures.",
+  "scope": "Six unresolved discussion items only. Current individual preferences and conditional fallbacks remain distinct; no proposed R02/R07 supplement is treated as approved.",
+  "rows": [
+    {
+      "rater": "rater1",
+      "item": "D002",
+      "position": "Pending adjudication",
+      "reason_summary": "Final targeted response, 2026-09-20: agree to retain Pending E03 as the final disposition; retained-list description versus unsupported gap assertion remains unresolved.",
+      "prior_record": {
+        "rater": "rater1",
+        "item": "D002",
+        "position": "Pending adjudication",
+        "reason_summary": "The indicates/anywhere wording may describe the interval list or assert exclusion of below-threshold segments. The detector does not supply a below-threshold gap result. A physiological-contraction disclaimer does not resolve that signal-level ambiguity. Retain Pending E03."
+      },
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater1",
+      "item": "D004",
+      "position": "Pending adjudication",
+      "reason_summary": "Final targeted response, 2026-09-20: agree to retain Pending E03 as the final disposition; retained-list description versus unsupported gap assertion remains unresolved.",
+      "prior_record": {
+        "rater": "rater1",
+        "item": "D004",
+        "position": "Pending adjudication",
+        "reason_summary": "Retained as a gap makes below-threshold gaps appear to be detector output. A description of an unsplit displayed list would be acceptable, but that reading of the actual predicate remains uncertain. Retain Pending E03."
+      },
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater1",
+      "item": "D008",
+      "position": "Acceptable",
+      "reason_summary": "Change to Acceptable. Consistent with expresses compatibility rather than proof. In the full-window context this is a cautious interpretation of the displayed output; inaccurate terminology alone does not establish a fabricated independent gap result. Earlier Pending overemphasized terminological imprecision."
+    },
+    {
+      "rater": "rater1",
+      "item": "D024",
+      "position": "Pending adjudication",
+      "reason_summary": "Final targeted response, 2026-09-20: agree to final Pending E02 for significant; E04 remains withdrawn.",
+      "prior_record": {
+        "rater": "rater1",
+        "item": "D024",
+        "position": "Pending adjudication",
+        "reason_summary": "Retain Pending E02 only, with no E04 allegation. The significant standardized deviation premise may mean numerical emphasis or statistical significance. The value 21.7 supports a large difference, but is not a significance test. Neither Error nor unambiguous clearance is established."
+      },
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater1",
+      "item": "rater1|RA857737CABCC0FB8|I001",
+      "position": "Pending adjudication",
+      "reason_summary": "Final targeted response, 2026-09-20: reject the proposed wording rule as sufficient for clearance; agree to final Pending E01, one issue group for this report.",
+      "prior_record": {
+        "rater": "rater1",
+        "item": "rater1|RA857737CABCC0FB8|I001",
+        "position": "Pending adjudication",
+        "reason_summary": "The interval placement is correct but within a scalar median is not a defined numerical relation. Awkward coordination and an incorrect median comparison remain competing readings. Do not credit an above-median assertion merely because the reader can calculate it. Retain Pending E01."
+      },
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater1",
+      "item": "rater1|RDB18B7C593D48194|I002",
+      "position": "Pending adjudication",
+      "reason_summary": "Final targeted response, 2026-09-20: reject the proposed wording rule as sufficient for clearance; agree to final Pending E01, grouping repeated statements once within this report.",
+      "prior_record": {
+        "rater": "rater1",
+        "item": "rater1|RDB18B7C593D48194|I002",
+        "position": "Pending adjudication",
+        "reason_summary": "Apply the same Pending E01 boundary as Sub49. Both interval comparisons are correct; median wording remains ambiguous. If an error is agreed, group the two repetitions once within this report, without merging across reports."
+      },
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater2",
+      "item": "D002",
+      "position": "Acceptable",
+      "reason_summary": "Prefer Acceptable: retained scopes the description to the displayed interval list rather than every sample. Acknowledge incorrect detector terminology. Would accept Pending for D002 alone if anywhere is jointly read as extending the assertion to all samples. This is a conditional fallback, not the current position.",
+      "accepted_final_disposition": "Pending adjudication",
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater2",
+      "item": "D004",
+      "position": "Acceptable",
+      "reason_summary": "Acceptable: retained as a gap is read as a detector-scoped list description. Does not accept a blanket Pending disposition for D004 merely by grouping it with D002. Proposed R02 supplement remains unapproved.",
+      "accepted_final_disposition": "Pending adjudication",
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater2",
+      "item": "D008",
+      "position": "Acceptable",
+      "reason_summary": "Acceptable: consistent with and retained-region wording describe compatibility with the displayed interval list, not proof about every sample. Proposed R02 supplement remains unapproved."
+    },
+    {
+      "rater": "rater2",
+      "item": "D024",
+      "position": "Pending adjudication",
+      "reason_summary": "Pending E02. Both numerical emphasis and statistical-significance readings are plausible beside standardized deviation. Could accept Acceptable under a jointly documented contextual interpretation rule, with consistent consideration of related degree-word claims. No such rule is assumed approved.",
+      "accepted_final_disposition": "Pending adjudication",
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater2",
+      "item": "rater1|RA857737CABCC0FB8|I001",
+      "position": "Acceptable",
+      "reason_summary": "Prefer Acceptable: correct interval placement and a correctly quoted median are read as faulty coordination, not an explicit false direction. Proposes R07 distinguishing this from an explicitly wrong median comparison. Would accept Pending E01 if the group cannot resolve scalar-containment wording; does not accept automatic Error.",
+      "accepted_final_disposition": "Pending adjudication",
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater2",
+      "item": "rater1|RDB18B7C593D48194|I002",
+      "position": "Acceptable",
+      "reason_summary": "Same preferred Acceptable position and conditional Pending E01 fallback as Sub49. Two repeated statements form one issue group within this report if an issue is retained. Do not merge groups across reports.",
+      "accepted_final_disposition": "Pending adjudication",
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater3",
+      "item": "D002",
+      "position": "Acceptable",
+      "reason_summary": "Closing reply: no unified interpretation from rater3 side - detector-scope reading stands (detector nouns + explicit disclaimer). Rater3 agrees to final Pending close if no common rule is adopted (no forced verdict). Split remains R1 Pending vs R2+R3 Acceptable unless R1 moves.",
+      "source_kind": "Verbatim latest workbook closing reply, not a new signature.",
+      "source_file": "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx",
+      "source_sha256": "caa2c7f327c9fd80f4aa70642b386f3e10c9972c6260c5f1c3ca01a89c6a3afe",
+      "source_sheet": "Interpretation discussion",
+      "source_row": 3,
+      "prior_record": {
+        "rater": "rater3",
+        "item": "D002",
+        "position": "Acceptable",
+        "reason_summary": "Correct prior returned Pending to Acceptable; reports that the intended substantive position was Acceptable throughout. Reads anywhere as inheriting detector scope, with no every-sample no-gap assertion. Would reconsider if a specific signal-level assertion is identified. Detector wording plus a disclaimer is proposed as a rule, not an approved rule."
+      }
+    },
+    {
+      "rater": "rater3",
+      "item": "D004",
+      "position": "Acceptable",
+      "reason_summary": "Closing reply: no unified interpretation from rater3 side - detector-scoped wording plus non-establishment caution stands. Rater3 agrees to final Pending close if no common rule is adopted. Split remains R1 Pending vs R2+R3 Acceptable unless R1 moves.",
+      "source_kind": "Verbatim latest workbook closing reply, not a new signature.",
+      "source_file": "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx",
+      "source_sha256": "caa2c7f327c9fd80f4aa70642b386f3e10c9972c6260c5f1c3ca01a89c6a3afe",
+      "source_sheet": "Interpretation discussion",
+      "source_row": 4,
+      "prior_record": {
+        "rater": "rater3",
+        "item": "D004",
+        "position": "Acceptable",
+        "reason_summary": "Correct prior returned Pending to Acceptable; reads retained as a gap and the following limits as detector-scoped wording. Would reconsider if an explicit envelope-level no-gap assertion is identified. No automatic exemption has been approved."
+      }
+    },
+    {
+      "rater": "rater3",
+      "item": "D008",
+      "position": "Acceptable",
+      "reason_summary": "Correct prior returned Pending to Acceptable. Reads detected interval spans and consistent with as detector-scoped compatibility. The prior description of rater1 as Pending is stale; rater1 now explicitly accepts D008."
+    },
+    {
+      "rater": "rater3",
+      "item": "D024",
+      "position": "Pending adjudication",
+      "reason_summary": "Rater3 moves to Pending: on reflection the statistical-significance reading of \"significant + z-statistic\" is natural and would be unsupported (no test, level, or cutoff anywhere); the emphasis reading, though available, is not compelled now that no in-sentence disambiguator survives. Per R04/R05 this is genuine ambiguity - Pending, not Error (anchored 21.7 + question form). E04 withdrawal confirmed (never held). Shared-Pending close with R1/R2.",
+      "source_kind": "Verbatim latest workbook closing reply, not a new signature.",
+      "source_file": "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx",
+      "source_sha256": "caa2c7f327c9fd80f4aa70642b386f3e10c9972c6260c5f1c3ca01a89c6a3afe",
+      "source_sheet": "Interpretation discussion",
+      "source_row": 19,
+      "prior_record": {
+        "rater": "rater3",
+        "item": "D024",
+        "position": "Acceptable",
+        "reason_summary": "Acceptable. Reads significant as reference-anchored numerical emphasis at max absolute z 21.7, with no statistical test, alpha or cutoff invoked. The clinical question seeks verification and does not equate 81% with late stance. Challenges the competing statistical-significance reading; this argument does not create consensus."
+      }
+    },
+    {
+      "rater": "rater3",
+      "item": "rater1|RA857737CABCC0FB8|I001",
+      "position": "Acceptable",
+      "reason_summary": "Final close accepted: RA857 I001 stays Pending adjudication (E01), one issue group for this report, not a confirmed error. Rater3 retains the Acceptable wording-rule reading (median quoted as point value alongside the interval; loose \"within\" coordination; both placements numerically correct) as preferred interpretation only.",
+      "source_kind": "Verbatim latest workbook closing reply, not a new signature.",
+      "source_file": "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx",
+      "source_sha256": "caa2c7f327c9fd80f4aa70642b386f3e10c9972c6260c5f1c3ca01a89c6a3afe",
+      "source_sheet": "Other pending claims",
+      "source_row": 6,
+      "prior_record": {
+        "rater": "rater3",
+        "item": "rater1|RA857737CABCC0FB8|I001",
+        "position": "Pending adjudication",
+        "reason_summary": "Retain Pending. Within a scalar median is a category problem on a strict reading, but correct interval placement permits a loose-coordination reading. Requests an agreed wording rule and asks rater2 to state it. Rater2 has already proposed such a rule; it has not been jointly adopted."
+      },
+      "accepted_final_disposition": "Pending adjudication",
+      "final_pending_disposition_accepted": true
+    },
+    {
+      "rater": "rater3",
+      "item": "rater1|RDB18B7C593D48194|I002",
+      "position": "Acceptable",
+      "reason_summary": "Final close accepted: RDB18 I002 stays Pending adjudication (E01), one issue group for this report (grouped TA/RF repeats count once), not a confirmed error. Rater3 retains the Acceptable wording-rule reading (same point-value input structure; placements correct) as preferred interpretation only.",
+      "source_kind": "Verbatim latest workbook closing reply, not a new signature.",
+      "source_file": "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx",
+      "source_sha256": "caa2c7f327c9fd80f4aa70642b386f3e10c9972c6260c5f1c3ca01a89c6a3afe",
+      "source_sheet": "Other pending claims",
+      "source_row": 8,
+      "prior_record": {
+        "rater": "rater3",
+        "item": "rater1|RDB18B7C593D48194|I002",
+        "position": "Pending adjudication",
+        "reason_summary": "Retain Pending on the same scalar-median versus coordination ambiguity. Requests a common rule rather than an automatic Error disposition. The forwarded numerical shorthand is not a replacement for the verified report values."
+      },
+      "accepted_final_disposition": "Pending adjudication",
+      "final_pending_disposition_accepted": true
+    }
+  ],
+  "latest_closing_return": {
+    "file": "outputs/rater3_independent/Three_rater_discussion_merged_rater3_completed.xlsx",
+    "sha256": "caa2c7f327c9fd80f4aa70642b386f3e10c9972c6260c5f1c3ca01a89c6a3afe",
+    "status": "All five targeted final Pending dispositions accepted. Rater3 condition for D002/D004 is satisfied: no common interpretive rule was adopted. Preferences remain separate; no further targeted re-review required for these five."
+  },
+  "rater1_final_targeted_response": {
+    "source_kind": "English response forwarded by the study lead in conversation; paragraph wrapping normalized only.",
+    "response_date": "2026-09-20",
+    "verbatim_text": "Reviewer: rater1\nResponse date: 2026-09-20\nScope: Final targeted response on the five remaining items.\n\n1. D002 and D004: I cannot resolve the distinction between an imprecise description of the retained interval list and an unsupported gap-detection assertion. I agree to retain Pending adjudication (E03) for each item as the final disposition.\n\n2. D024: I agree to retain Pending adjudication (E02) for the ambiguous use of “significant.” E04 is withdrawn and is not reopened.\n\n3. “Within median” — RA857737CABCC0FB8 / I001 and RDB18B7C593D48194 / I002: I do not accept the proposed wording rule as sufficient to clear these two statements. Correct interval placement does not resolve whether “within the median” is faulty coordination or a mistaken comparison. I agree to retain Pending adjudication (E01) for both reports, with one issue group per report. The repeated statements within RDB18B7C593D48194 belong to the same group.\n\nThese Pending dispositions preserve unresolved interpretations and do not count as confirmed errors. No further full review is requested. This response confirms rater1’s position only; three-rater agreement requires the other two raters’ explicit confirmation.",
+    "scope": "Rater1 explicitly accepts final Pending for all five. No confirmation is inferred for rater2 or rater3."
+  },
+  "rater2_final_targeted_response": {
+    "source_kind": "Bilingual final reply forwarded by the study lead in conversation; English contextual summary, not a newly signed workbook.",
+    "received_date": "2026-09-20",
+    "rows": [
+      {
+        "item": "D002",
+        "preferred_interpretation": "Acceptable",
+        "accepted_final_disposition": "Pending adjudication",
+        "category": "E03",
+        "count_as_confirmed_error": false,
+        "grouping_or_scope": "One claim in this report."
+      },
+      {
+        "item": "D004",
+        "preferred_interpretation": "Acceptable",
+        "accepted_final_disposition": "Pending adjudication",
+        "category": "E03",
+        "count_as_confirmed_error": false,
+        "grouping_or_scope": "One claim in this report."
+      },
+      {
+        "item": "D024",
+        "preferred_interpretation": "No definite preference; ambiguity retained",
+        "accepted_final_disposition": "Pending adjudication",
+        "category": "E02",
+        "count_as_confirmed_error": false,
+        "grouping_or_scope": "E04 withdrawn and not reopened."
+      },
+      {
+        "item": "rater1|RA857737CABCC0FB8|I001",
+        "preferred_interpretation": "Acceptable",
+        "accepted_final_disposition": "Pending adjudication",
+        "category": "E01",
+        "count_as_confirmed_error": false,
+        "grouping_or_scope": "One issue group for this report."
+      },
+      {
+        "item": "rater1|RDB18B7C593D48194|I002",
+        "preferred_interpretation": "Acceptable",
+        "accepted_final_disposition": "Pending adjudication",
+        "category": "E01",
+        "count_as_confirmed_error": false,
+        "grouping_or_scope": "Both repeated statements at lines 21-22 form one issue group for this report, not a cross-report group."
+      }
+    ],
+    "flags": "No pathology or overall-normality flag changes for any of the five items.",
+    "scope": "Rater2 keeps preferred interpretations as discussion evidence but explicitly accepts final Pending for all five and does not obstruct closure. No new signature or confirmation for another rater is inferred."
+  },
+  "final_disposition_register": [
+    {
+      "item": "D002",
+      "proposed_final_disposition": "Pending adjudication",
+      "category": "E03",
+      "rater1": "Explicitly accepted in final forwarded response",
+      "rater2": "Explicitly accepted in final forwarded response",
+      "rater3": "Accepted final Pending when no common rule is adopted; condition met because the alternative readings remain unresolved and no shared rule was adopted.",
+      "status": "Final Pending disposition accepted; interpretation remains unresolved",
+      "count_as_confirmed_error": false,
+      "grouping_or_scope": "One claim in this report.",
+      "accepted_final_disposition": "Pending adjudication",
+      "registration_date": "2026-09-20",
+      "accepted_by": [
+        "rater1",
+        "rater2",
+        "rater3"
+      ]
+    },
+    {
+      "item": "D004",
+      "proposed_final_disposition": "Pending adjudication",
+      "category": "E03",
+      "rater1": "Explicitly accepted in final forwarded response",
+      "rater2": "Explicitly accepted in final forwarded response",
+      "rater3": "Accepted final Pending when no common rule is adopted; condition met because the alternative readings remain unresolved and no shared rule was adopted.",
+      "status": "Final Pending disposition accepted; interpretation remains unresolved",
+      "count_as_confirmed_error": false,
+      "grouping_or_scope": "One claim in this report.",
+      "accepted_final_disposition": "Pending adjudication",
+      "registration_date": "2026-09-20",
+      "accepted_by": [
+        "rater1",
+        "rater2",
+        "rater3"
+      ]
+    },
+    {
+      "item": "D024",
+      "proposed_final_disposition": "Pending adjudication",
+      "category": "E02",
+      "rater1": "Explicitly accepted in final forwarded response",
+      "rater2": "Explicitly accepted in final forwarded response",
+      "rater3": "Explicitly retains Pending; E04 withdrawn",
+      "status": "Final Pending disposition accepted; interpretation remains unresolved",
+      "count_as_confirmed_error": false,
+      "grouping_or_scope": "E04 withdrawn and not reopened.",
+      "accepted_final_disposition": "Pending adjudication",
+      "registration_date": "2026-09-20",
+      "accepted_by": [
+        "rater1",
+        "rater2",
+        "rater3"
+      ]
+    },
+    {
+      "item": "rater1|RA857737CABCC0FB8|I001",
+      "proposed_final_disposition": "Pending adjudication",
+      "category": "E01",
+      "rater1": "Explicitly accepted in final forwarded response",
+      "rater2": "Explicitly accepted in final forwarded response",
+      "rater3": "Explicit final Pending acceptance in workbook, Other pending claims row 6 or 8, dated 2026-09-20; preferred Acceptable reading preserved.",
+      "status": "Final Pending disposition accepted; interpretation remains unresolved",
+      "count_as_confirmed_error": false,
+      "grouping_or_scope": "One issue group for this report.",
+      "accepted_final_disposition": "Pending adjudication",
+      "registration_date": "2026-09-20",
+      "accepted_by": [
+        "rater1",
+        "rater2",
+        "rater3"
+      ]
+    },
+    {
+      "item": "rater1|RDB18B7C593D48194|I002",
+      "proposed_final_disposition": "Pending adjudication",
+      "category": "E01",
+      "rater1": "Explicitly accepted in final forwarded response",
+      "rater2": "Explicitly accepted in final forwarded response",
+      "rater3": "Explicit final Pending acceptance in workbook, Other pending claims row 6 or 8, dated 2026-09-20; preferred Acceptable reading preserved.",
+      "status": "Final Pending disposition accepted; interpretation remains unresolved",
+      "count_as_confirmed_error": false,
+      "grouping_or_scope": "Both repeated statements at lines 21-22 form one issue group for this report, not a cross-report group.",
+      "accepted_final_disposition": "Pending adjudication",
+      "registration_date": "2026-09-20",
+      "accepted_by": [
+        "rater1",
+        "rater2",
+        "rater3"
+      ]
+    }
+  ],
+  "closure_completed": {
+    "scope": "Five targeted dispositions only, not full-study analytical approval.",
+    "registration_date": "2026-09-20",
+    "disposition": "Pending adjudication",
+    "confirmed_error_count_for_these_items": 0,
+    "interpretations_resolved": false,
+    "new_signatures_created": false,
+    "grouping": "One issue group per report; Sub15 repeated TA/RF statements grouped once.",
+    "statistical_boundary": "Pending is not a confirmed error or a confirmed correct claim. This agreement does not define denominators, missing-assessment handling or sensitivity analyses."
+  }
+}

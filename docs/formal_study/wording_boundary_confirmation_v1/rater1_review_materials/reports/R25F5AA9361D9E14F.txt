@@ -1,0 +1,43 @@
+**1. Objective Findings**
+Participant Sub06 is documented as a member of the control group (affected side: not applicable). Gait speed and cadence are not provided in the supplied data, and the paretic/non-paretic step length symmetry index is not applicable to controls. The available quantitative data consist of sagittal plane kinematics (ankle, knee, hip, and pelvis) and mean EMG envelope metrics for the medial gastrocnemius (GAS), rectus femoris (RF), vastus lateralis (VL), biceps femoris (BF), semitendinosus (ST), tibialis anterior (TA), and erector spinae (ERS). The composite kinematic deviation score (GPS-like) is 5.91.
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings describe regions where the ensemble-averaged, normalized envelope exceeds 20% of its own peak for at least 3% of the analysis cycle. The 0% to 100% cycle is defined from initial contact to subsequent initial contact of contributing strides. Retained intervals are properties of this averaged normalized curve and do not denote absolute force, independent stride-to-stride behavior, or absolute physiological onset/offset times.
+
+- **GAS:** The mean envelope met the threshold from 14% to 51% (total coverage 37% of the cycle), with a peak normalized amplitude of 0.61.
+- **RF:** Retained intervals were detected from 61% to 65% and from 90% to 42%, remaining above threshold across the cycle-defining boundary (total coverage 56%); peak normalized amplitude was 0.60.
+- **VL:** The envelope met the threshold from 88% to 44%, wrapping across the initial contact boundary (total coverage 56%); peak normalized amplitude was 0.67.
+- **BF:** The envelope met the threshold from 80% to 9%, wrapping across the cycle boundary (total coverage 30%); peak normalized amplitude was 0.60.
+- **ST:** The envelope met the threshold from 81% to 20%, wrapping across the cycle boundary (total coverage 39%); peak normalized amplitude was 0.77.
+- **TA:** Retained intervals were detected from 56% to 79% and from 90% to 25%, remaining above threshold across the cycle boundary (total coverage 58%); peak normalized amplitude was 0.78.
+- **ERS:** The envelope met the threshold from 66% to 55%, maintaining continuous above-threshold activity across the cycle-defining boundary (total coverage 90%); peak normalized amplitude was 0.67.
+
+Whole-cycle co-contraction indices (CCI), based on the overlap of the full continuous normalized envelopes (including sub-threshold activity), are as follows:
+- TA vs. GAS CCI is 0.34, falling within the supplied healthy reference interval (median 0.39; 2.5th-97.5th percentile range 0.24–0.59).
+- RF vs. BF CCI is 0.58, falling within its healthy reference interval (median 0.68; 2.5th-97.5th percentile range 0.48–0.83).
+These indices depend strictly on relative envelope processing and do not measure simultaneous muscular force or phase-specific clinical control. 
+
+**3. Kinematic and Reference Comparisons**
+Sagittal plane kinematic summaries and profile deviations (Gait Variable Scores, GVS) were calculated using a leave-one-out comparison against 137 healthy controls:
+- **Ankle:** Range of motion (ROM) 21.3 degrees, GVS 1.78
+- **Knee:** ROM 54.8 degrees, GVS 4.32
+- **Hip:** ROM 43.3 degrees, GVS 6.01
+- **Pelvis:** ROM 1.1 degrees, GVS 9.05
+
+The participant's composite GPS-like score of 5.91 lies slightly above the cohort median of 5.1 but within the 95th percentile limit (10.7). 
+
+Maximum absolute z-scores (max |z|) represent the single largest standardized difference from the phase-specific healthy reference mean, not necessarily the timing of peak envelope amplitude or a localized gait event:
+- **GAS:** 1.5 (above reference mean at 45% of cycle)
+- **RF:** 1.8 (below reference mean at 82% of cycle)
+- **VL:** 2.4 (above reference mean at 31% of cycle)
+- **BF:** 1.4 (above reference mean at 1% of cycle)
+- **ST:** 2.1 (above reference mean at 91% of cycle)
+- **TA:** 2.3 (above reference mean at 12% of cycle)
+- **ERS:** 4.1 (above reference mean at 36% of cycle)
+
+*Limitations of Comparison:* The participant's gait speed was not supplied, meaning it is unknown if they were walking within the reference cohort's self-selected range. Additionally, belonging to a healthy group does not prove all underlying physiology is "normal," and deviations from a pooled empirical reference do not by themselves establish disease or pathological impairment.
+
+**4. Questions for Further Clinical Assessment**
+- What were the participant's actual gait speed and cadence during data collection, and could these factors partially explain the sagittal kinematics, particularly the pelvis GVS of 9.05?
+- Does clinical observation reveal a basis for the constrained sagittal pelvis range of motion (1.1 degrees), or is this characteristic of the participant's typical mechanics?
+- Is the 90% above-threshold envelope coverage in the ERS indicative of a deliberate trunk stabilization pattern during this task, or could it reflect a signal measurement/baseline artifact?

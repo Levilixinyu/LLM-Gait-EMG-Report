@@ -1,6 +1,6 @@
 {
   "timestamp": "2026-09-17T01:07:58.720423+00:00",
-  "user_instruction": "保留可用临床简版，删除无用旧数据卡",
+  "user_instruction": "Retain the usable concise clinical version and delete unusable old data cards",
   "active_package": "docs/expert_trial/data_cards_v5",
   "removed": [
     {

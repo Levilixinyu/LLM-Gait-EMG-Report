@@ -1,0 +1,879 @@
+{
+  "version": "rubric-v2-draft-for-limited-evidence-v3.1",
+  "registered_date": "2026-09-18",
+  "status": "approved_as_written_by_both_reviewers",
+  "scope": "Prospective rubric and five development-case annex only",
+  "basis": "Original returned workbooks, with user-provided submission paths; administrative registration, not new reviewer decisions",
+  "reviews": [
+    {
+      "reviewer": "rater1",
+      "date": "2026-09-18",
+      "decision": "Approve as written",
+      "path": "docs/formal_study/rubric_v2_draft/Expert_rubric_review_v2_rater1.xlsx",
+      "sha256": "13710df578bdd8c6ffb9b3035090c0a76ed08eb64d002ea69868a86fe4215472",
+      "accepted_counts": {
+        "Policy review": 8,
+        "Case requirements": 20,
+        "Error definitions": 9,
+        "Examples": 42
+      },
+      "total_accepted": 79,
+      "proposal_cells_match_reviewed_template": true,
+      "reviewer_material_hashes_checked": 7,
+      "non_english_cells": [],
+      "comments": [
+        {
+          "sheet": "Policy review",
+          "item_id": "P01",
+          "comment": "Accept the development-case annex and optional-content scope. These application rows do not establish independent observations or a formal sample; new cases need their own requirements before output inspection."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P02",
+          "comment": "V2-01/V2-02 resolve my requests. Actual captured short output remains assessable; missing review files are administrative. Meaningful partial coverage is distinct from names alone or a wrong-only component."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P03",
+          "comment": "Accept AND/OR logic, mixed ST/VL routes, per-domain conditional missingness and G03 applicability to all five tasks. Mentioning one conditional domain does not trigger an inventory of the others."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P04",
+          "comment": "Accept substantive G03 and shared C01 evidence. Sub50's no-matching statement can satisfy the comparability component of both items; G03 still requires the inference limitation."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P05",
+          "comment": "Accept supported uncertainty and visible-precision review. No fixed cycle-location tolerance is needed for this confirmation; disputed approximations remain documented for adjudication."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P06",
+          "comment": "V2-03/V2-06 resolve contradiction, correction and duplication handling. Correct-then-wrong preserves the correct component and separately records the unretracted error. Wrong-only receives no credit for that component. Explicit correction is read in context. Pending coverage adjudication is separate from Cannot assess."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P07",
+          "comment": "V2-05 resolves mixed-claim scope. Accept the added language distinctions: X32 defines its descriptive use locally and establishes no severity cutoffs; X33 remains pending rather than automatically erroneous. Explicit unsupported clinical grades or statistical claims are errors. Methodological context does not shield an independently assessable case assertion."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P08",
+          "comment": "Accept independent completion, preservation and separate approval scope. Pending adjudication is not a confirmed error. No weights, denominators or statistical plan are approved."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/C01",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/C02",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/C03",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/C04",
+          "comment": "Resolved: substantive findings are required for both muscles; mixed complete numerical/interval routes are allowed. Exact magnitudes/locations/endpoints are optional for this item. Names alone are Not covered, consistent with P02 and X39."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/SL01",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/C01",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/C02",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/C03",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/C04",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/SL01",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub50_P/C01",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub50_P/C02",
+          "comment": "Resolved: all three components are explicit. The pelvic GVS-versus-small-excursion contrast is required; exact figures are optional. No normative ROM classification or inferred offset direction is required. X40 supplies the appropriate partial example."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub50_P/C03",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub50_P/SL01",
+          "comment": "Resolved: index and near-zero/small-difference meaning suffice without a mandatory negative disclaimer. X30 is scoped correctly; X31 separately records the unsupported whole-gait generalization."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub47_P/C01",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub47_P/C02",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub47_P/C03",
+          "comment": "Accept a concise missing-EMG statement with the collective assessment consequence. No fabricated content or separate naming of every derived domain is required when all EMG-derived interpretation is clearly unavailable."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub47_P/SL01",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "control_Sub49_avg/C01",
+          "comment": "Accept the stated substantive core, logic and optional-content boundary for this development case. Use equivalent wording and supplied precision; do not require hidden plot findings or clinical classifications."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "control_Sub49_avg/C06",
+          "comment": "Accept control provenance and self-exclusion, with conditional branches separately triggered per discussed domain. Not supplied and not applicable remain distinct; general left/right symmetry is not ruled out."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E01",
+          "comment": "Accept. Metric-identity and signed-direction errors stay within case scope; explicit corrections and contradictions follow P06."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E02",
+          "comment": "Accept the new degree-word boundaries in context. A local descriptive anchor is not a validated severity class. Ambiguous emphasis remains pending when unresolved; explicit unsupported grading or statistical certainty is an error. X32 does not authorize a general moderate band between median and p95."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E03",
+          "comment": "Accept mean-envelope and duration-filter boundaries. Neither 100% rounded coverage nor a maximum-z location establishes physiological continuous activity or onset."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E04",
+          "comment": "Accept. The source-qualified initial-contact anchor and anatomy remain allowed, but neither establishes normal timing, toe-off or phase-specific function, including for controls."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E05",
+          "comment": "Accept. Mean-relative direction and supplied endpoint comparisons remain distinct from matched reference limits and clinical normality."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E06",
+          "comment": "Accept prospective CCI boundaries. Empirical range membership does not establish physiological normality, pathology or activation time; Q055 is unchanged."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E07",
+          "comment": "Accept scoped metric descriptions and separate whole-gait overgeneralization. No obligatory negative disclaimer accompanies a correctly limited step-length statement."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E08",
+          "comment": "Accept missingness/applicability distinctions; no recorded EMG is not evidence of inactivity."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E09",
+          "comment": "Accept mixed-claim clarification: record participant-specific attribution even when linked to an excluded design guarantee; do not multiply one assertion by its tags."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X01",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X02",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X03",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X04",
+          "comment": "Resolved. Standardized magnitude and envelope direction are distinct; both numerical routes are complete. Locations are optional for Sub09 C04."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X05",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X06",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X07",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X08",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X09",
+          "comment": "Accept the optional comparison; it does not by itself satisfy the full Sub50 C03 direction/location requirement."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X10",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X11",
+          "comment": "Accept with Sub09 now explicit; the value is not generalized to other cases."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X12",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X13",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X14",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X15",
+          "comment": "Resolved. Sub05 supplies the TA maximum-z location at 0%; the event anchor alone is not used to infer the maximum."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X16",
+          "comment": "Resolved. The example now uses the supplied maximum-z location rather than inventing an interval, isolating the unsupported phase-function inference."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X17",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X18",
+          "comment": "Accept the error decision and caution against automatic missing-recording credit from ambiguous activity wording."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X19",
+          "comment": "Accept full C06 coverage when no conditional domain is discussed."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X20",
+          "comment": "Accept the conditional statements; they do not replace the provenance/self-exclusion core."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X21",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X22",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X23",
+          "comment": "Accept the proposed assessment in its stated case and context. Whole-report coverage and assertion-level errors remain separate."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X24",
+          "comment": "Accept as an unsupported design concern kept outside case-error counts; this is not endorsement of the guarantee."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X25",
+          "comment": "Accept direction-component credit plus a separately recorded unretracted error. ST and other required components still determine whole-row coverage."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X26",
+          "comment": "Accept no credit for the wrong VL direction. Other correct substantive components, if present, determine partial coverage of the whole item."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X27",
+          "comment": "Accept an explicit correction in context; the withdrawn false assertion is not another endorsed claim."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X28",
+          "comment": "Accept the design concern and distinct E09 case claim, cross-linked without duplicate counting."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X29",
+          "comment": "Accept E01: supplied metric identity is a case-level fact, not excluded design advice."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X30",
+          "comment": "Accept the index and scoped small-difference interpretation. No disclaimer is mandatory."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X31",
+          "comment": "Accept coverage of the index/near-zero finding plus a separate E07 whole-gait overgeneralization."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X32",
+          "comment": "Accept this exact, explicitly reference-anchored descriptive use. The sentence defines its intended relative-position meaning and denies a clinical severity class. It supplies no validated moderate cutoff and must not be generalized to all values between median and p95. An unqualified moderate impairment assertion would require separate contextual assessment."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X33",
+          "comment": "Accept Pending adjudication as the proposed issue status. The example's acceptance is not a final Error or Acceptable judgment on marked; record context and competing readings."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X34",
+          "comment": "Accept E04 for unsupported normal timing in a control; any additional E05 tag does not create another event."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X35",
+          "comment": "Accept the unsupported onset inference. The valid boundary statement in X15 does not support physiological activation onset."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X36",
+          "comment": "Accept one issue group for the same unsupported deficit, retaining both assertion and question locations."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X37",
+          "comment": "Accept an error for explicit unsupported statistical significance/p value, distinct from ambiguous colloquial significant."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X38",
+          "comment": "Accept actual captured-output assessment without automatic Cannot assess. Administrative loss and any technical exclusion are separate decisions."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X39",
+          "comment": "Accept Not covered for names alone; no substantive muscle finding is conveyed."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X40",
+          "comment": "Accept Partially covered: pelvis/knee priorities are present but the required excursion contrast is absent."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X41",
+          "comment": "Accept pending coverage adjudication without guessed direction credit or Cannot assess. This example does not license credit merely because a correct option is among alternatives."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X42",
+          "comment": "Accept E02 for an explicit unsupported validated severity classification, distinct from informal emphasis."
+        }
+      ]
+    },
+    {
+      "reviewer": "rater2",
+      "date": "2026-09-18",
+      "decision": "Approve as written",
+      "path": "docs/formal_study/rubric_v2_draft/Expert_rubric_review_v2_rater2.xlsx",
+      "sha256": "509a88fbe6de483f6fffe647c0eff24ba702eebf2e5f82d3121b6b7a34c72403",
+      "accepted_counts": {
+        "Policy review": 8,
+        "Case requirements": 20,
+        "Error definitions": 9,
+        "Examples": 42
+      },
+      "total_accepted": 79,
+      "proposal_cells_match_reviewed_template": true,
+      "reviewer_material_hashes_checked": 0,
+      "non_english_cells": [],
+      "comments": [
+        {
+          "sheet": "Policy review",
+          "item_id": "P01",
+          "comment": "Unchanged from v1; optional status of CCI, cadence, formulas, audit counts and exhaustive interval lists is retained. Agree."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P02",
+          "comment": "V2-01 and V2-02 resolve my v1 comments. The distinction between lost/corrupt review materials (Cannot assess) and a faithfully captured short or truncated response (assess what is there, record the format problem, exclusion only under a separate prespecified rule) is the right one. Wrong-only components earning no credit and names-only earning nothing (X26, X39) matches the trial adjudication."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P03",
+          "comment": "Per-domain conditional branches for Sub49 C06 remove the risk that one mention of speed triggers an inventory of cadence and symmetry. Agree that G03 applies to all five tasks regardless of whether the report calls its values comparisons."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P04",
+          "comment": "V2-04 adopts my request: the Sub50 statement that in-range speed does not establish matching satisfies both its C01 component and the comparability half of G03, with the inference limitation still required. No second sentence is sought. Agree."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P05",
+          "comment": "I proposed the numeric location tolerance as optional and do not require it. Retaining semantic, precision-based review with documented adjudication of disputed locations is acceptable. If formal rating shows repeated disagreement over \"approximately\", the convention can be added then with evidence."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P06",
+          "comment": "V2-03 and V2-06 are acceptable: correct-then-contradicted receives coverage plus a logged E01, wrong-only receives no coverage, explicit retractions are read in context, ambiguous alternatives go to pending coverage adjudication rather than Cannot assess, and presuppositions in follow-up questions join the existing issue group. One non-blocking addition for the Future rating fields sheet: give the coverage record a \"contradicted_elsewhere\" flag (yes/no) and the \"adjudication_status\" field named in RUBRIC section 2, so the analysis plan can later separate \"covered and uncontradicted\" from \"covered but contradicted\" without re-rating. The rubric semantics need not change."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P07",
+          "comment": "V2-05 and V2-12 resolve my requests. Design concerns are enumerated, mixed sentences are split and cross-linked (X28), metric identity stays E01 (X29), explicit severity grades and statistical claims are E02 (X37, X42), reference-anchored magnitude words may be descriptive (X32), and unanchored degree words are Pending adjudication rather than automatic errors (X33). This is the written rule that was missing after the trial and I confirm it."
+        },
+        {
+          "sheet": "Policy review",
+          "item_id": "P08",
+          "comment": "Unchanged; agree."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/C01",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/C02",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/C03",
+          "comment": "Unchanged from v1; accepted again for this version. Above-mean direction remains a required component."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/C04",
+          "comment": "Revised routes are clear: AND across muscles, OR within each muscle, mixed routes allowed, exact values optional, names alone Not covered (X39). Wording note only: \"a meaningful standardized deviation\" could be read as requiring the model to characterise 4.2 as notable, which it cannot do without a muscle-specific percentile. Suggested phrasing: \"identifies the muscle as showing a standardized deviation from the reference AND states the above-mean direction; quoting 4.2 is optional\". Not blocking."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub09_P/SL01",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/C01",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/C02",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/C03",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/C04",
+          "comment": "Unchanged from v1; accepted again for this version. X25-X27 and X41 now show how the VL direction component is handled under contradiction, wrong-only, correction and ambiguity."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub05_P/SL01",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub50_P/C01",
+          "comment": "Unchanged from v1; accepted again for this version. See P04 for the shared-evidence rule with G03."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub50_P/C02",
+          "comment": "The three AND components are now explicit and the GVS-versus-small-excursion contrast is required while exact figures stay optional (X40). This is what I accepted in v1 as the intended reading; the explicit wording is better."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub50_P/C03",
+          "comment": "Unchanged from v1; accepted again for this version. X09 correctly notes that the endpoint comparison alone does not cover this row."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub50_P/SL01",
+          "comment": "V2-09 adopts my requested change: index AND near-zero meaning are required, no negative disclaimer is mandatory, and a whole-gait symmetry generalization is an E07 issue rather than an omission (X30, X31). Agree."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub47_P/C01",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub47_P/C02",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub47_P/C03",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "stroke_Sub47_P/SL01",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "control_Sub49_avg/C01",
+          "comment": "Unchanged from v1; accepted again for this version."
+        },
+        {
+          "sheet": "Case requirements",
+          "item_id": "control_Sub49_avg/C06",
+          "comment": "Per-domain conditional branches (V2-10) are the correct refinement; X19 and X20 now state clearly that the conditional statements alone do not cover provenance and self-exclusion."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E01",
+          "comment": "Metric identity retained in case scope; contradictions and corrections referred to P06. Agree."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E02",
+          "comment": "My v1 revision request is implemented: explicit severity grades and statistical claims in Scope; anchored descriptive magnitude acceptable; unanchored degree words Pending adjudication; the Sub50 near-zero description exempted. Agree."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E03",
+          "comment": "Unchanged; agree."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E04",
+          "comment": "Control normal-phasing claim added as requested (X34). Agree."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E05",
+          "comment": "Unchanged; the control timing case is placed under E04 with E05 as an optional additional tag, which is fine."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E06",
+          "comment": "Unchanged; prospective only."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E07",
+          "comment": "Whole-gait symmetry generalization from a single step-length index added as requested; scoped small-difference statements allowed. Agree."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E08",
+          "comment": "Unchanged; agree."
+        },
+        {
+          "sheet": "Error definitions",
+          "item_id": "E09",
+          "comment": "Boundary now states that a participant-specific causal assertion stays in case scope even when joined to an excluded design guarantee (X28). Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X01",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X02",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X03",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X04",
+          "comment": "Revised wording separates magnitude from above-mean direction; good."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X05",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X06",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X07",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X08",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X09",
+          "comment": "The added note that this optional comparison does not cover Sub50 C03 by itself is correct."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X10",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X11",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X12",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X13",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X14",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X15",
+          "comment": "Case anchor (Sub05 TA at 0%) now explicit."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X16",
+          "comment": "Now refers to the supplied max-z location rather than an invented interval; good."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X17",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X18",
+          "comment": "The added caution that \"no EMG activity was measured\" is ambiguous and does not itself establish coverage is right."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X19",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X20",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X21",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X22",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X23",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X24",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X25",
+          "comment": "Covered for the direction component plus E01 for the unretracted contradiction is consistent with the two-record principle. See P06 comment on a \"contradicted_elsewhere\" flag so the analysis can identify these rows."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X26",
+          "comment": "Agree, including the caution not to label every wrong-only row partial automatically."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X27",
+          "comment": "Agree; the final position is assessed, and the retracted statement is not a second endorsed claim."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X28",
+          "comment": "This resolves the mixed-claim boundary that was implicit in the trial Q018 discussion."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X29",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X30",
+          "comment": "This is the scoped statement that must be Covered without a disclaimer; agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X31",
+          "comment": "Agree: finding covered, generalization E07."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X32",
+          "comment": "I confirm the distinction: reference-anchored descriptive magnitude is not a severity class. Suggested improvement, not blocking: the synthetic sentence currently contains its own justification (\"moderate here describes that relative position, not a clinical severity class\"), which real reports will not include. A more realistic calibration example is: \"GPS-like 6.86 lies above the supplied median 5.1 and below the pooled 95th percentile 10.7, a moderate deviation from the reference.\" The proposed assessment (acceptable descriptive wording, no severity grade) should apply to that bare form as well; if the panel would not accept the bare form, the rule in section 7 needs narrowing."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X33",
+          "comment": "Pending adjudication is the treatment I proposed; agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X34",
+          "comment": "Requested control timing example added; agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X35",
+          "comment": "Requested prohibited-onset companion to X15 added; agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X36",
+          "comment": "Matches the merging rule I asked for in P06."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X37",
+          "comment": "Agree; distinct from colloquial \"significant\"."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X38",
+          "comment": "Agree; the actual captured output is rated, and exclusion is a separate prespecified decision."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X39",
+          "comment": "Agree."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X40",
+          "comment": "Agree; contrast required, numbers optional."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X41",
+          "comment": "Agree; pending coverage adjudication, not Cannot assess and not inferred credit."
+        },
+        {
+          "sheet": "Examples",
+          "item_id": "X42",
+          "comment": "Agree; explicitly classificatory claim without a supplied basis is E02, unlike the informal wording in X33."
+        }
+      ]
+    }
+  ],
+  "approved_output_sha256": {
+    "EXAMPLES.md": "44951690858316f0c653803980037b5dd20213e554a4b510ce0cd35fedd1db69",
+    "rubric.json": "18e6cf1fa15bec3094cd7357603e7702f3c079c6c89405fc4e6763cf0d49bb9f",
+    "case_requirements.csv": "df3d1ae99628dc4720eeeaae445693f0208bc4d05d3ccf14953c57c178d07279",
+    "CASE_REQUIREMENTS.md": "5a8ba5865d1e8e7b6b9914165f4376ac051c2487136b1ac5a093578a8602ef0e",
+    "README.md": "379a77f10cac957d5e72c9ae6e3159475417b211f10043abed4e327311f9cd72",
+    "RESPONSE_TO_REVIEWERS.md": "6b20683316c60b7a0617295fa951e94f2c7e58d41ef52c5b4cdab18dde47decd",
+    "RUBRIC.md": "8ca337533cbf6868f5f5328061fd48550a5b1118fb1c145435fc1e6e71a338c1",
+    "Expert_rubric_review.xlsx": "0cfbb3bf65a17f268b36242732e7d558d81d8dc50cffbbf198427a790badff64",
+    "MESSAGE_TO_REVIEWERS.md": "82e28aaaefbf86e3881bd1c2ee308d00e2023bc3ae3ea0401e9921349ca473e1",
+    "source_review_records.json": "dbe897acb62e4dbc82894dff7001c4d20b27fcc35b031b45ebe4a2de1346d53a"
+  },
+  "historical_manifest_sha256": "a5d5a85a23db1dd34d30afa5f76d8b92643833f63f56d1436a133fcf93a31f10",
+  "unchanged_prompt_approval_sha256": "085bb60004b89dad7d6e46a5e41d43133328968ace39c5ce2296731871a0ca47",
+  "scope_limits": {
+    "new_case_requirements_approved": false,
+    "weights_approved": false,
+    "sample_approved": false,
+    "statistical_plan_approved": false,
+    "technical_failure_policy_approved": false,
+    "formal_batch_authorized": false
+  },
+  "nonblocking_followups": [
+    {
+      "item": "coverage capture",
+      "proposal": "Consider contradicted_elsewhere and linked issue IDs in future rating forms. adjudication_status already exists in the reviewed Future rating fields sheet.",
+      "approved_rubric_changed": false
+    },
+    {
+      "item": "Sub09 C04 wording",
+      "proposal": "Review meaningful as substantive finding, not clinical significance; rater2 suggested future wording refinement.",
+      "approved_rubric_changed": false
+    },
+    {
+      "item": "X32 bare wording",
+      "proposal": "Rater2 suggested a more natural unqualified example. Do not treat it as joint approval: rater1 limited acceptance to the exact explicitly anchored example and did not approve a general moderate category. Assess future wording contextually under the approved rubric or submit an explicit new example for review.",
+      "approved_rubric_changed": false
+    }
+  ],
+  "original_submissions_and_rubric_modified": false,
+  "model_calls": 0,
+  "historical_reratings": 0
+}

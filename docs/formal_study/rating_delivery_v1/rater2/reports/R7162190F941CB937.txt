@@ -1,0 +1,39 @@
+**1. Objective Findings**
+Subject Sub27_P is a participant in the stroke group, with data analyzed for the paretic side. The supplied data include sagittal plane joint kinematics and surface EMG; coronal and transverse kinematic channels are absent. The participant's gait speed is 0.75 m/s with a cadence of 82.5 steps/min. The step length symmetry index is -15.8% (using the successive-footfall definition), indicating that the step length of the paretic limb is shorter than that of the non-paretic limb. 
+
+A critical limitation in interpreting these data is that the participant's gait speed (0.75 m/s) falls below the minimum speed (0.80 m/s) of the pooled healthy reference cohort. Consequently, no speed-matched reference exists in this dataset. Any recorded deviations from the reference conflate the effects of slow ambulation with stroke-specific physiological changes, and these two factors cannot be separated using the provided evidence.
+
+**2. EMG Envelope and Threshold Findings**
+EMG parameters are derived from ensemble-averaged envelopes normalized to their own peak amplitudes during available strides. The relative amplitudes do not represent absolute muscle force, strength, or stride-to-stride variability. Under the applied algorithm (threshold of 20% of peak, minimum duration of 3% of the cycle), all seven evaluated muscles exhibited above-threshold activity that crossed the analysis-cycle boundary (0%/100%, corresponding to consecutive initial contacts). 
+
+Total above-threshold envelope coverage across the cycle was: ERS 81%, RF 76%, VL 69%, TA 69%, GAS 58%, ST 58%, and BF 35%. 
+- Multiple discrete above-threshold intervals within the average curve were detected for RF (11%-61%, 69%-76%, 90%-95%, and 99%-11%), GAS (22%-28%, 36%-66%, and 99%-21%), ST (45%-62% and 86%-28%), and BF (16%-20%, 57%-60%, and 89%-15%).
+- Single continuous above-threshold intervals wrapping the cycle boundary were retained for VL (87%-56%), TA (68%-37%), and ERS (49%-28%).
+- Peak normalized amplitudes ranged from 0.55 (GAS) to 0.81 (ERS).
+
+Whole-cycle co-contraction indices (CCI) calculated from the overlapping normalized envelopes were 0.40 for TA vs GAS and 0.54 for RF vs BF. Both indices fall within the dataset's healthy empirical intervals (0.24-0.59 and 0.48-0.83, respectively), with TA vs GAS near the reference median of 0.39 and RF vs BF below the reference median of 0.68. This normalization-dependent overlap metric does not establish either physiologically normal muscle function or pathological co-activation.
+
+**3. Kinematic and Reference Comparisons**
+The composite kinematic deviation score (GPS-like, encompassing the supplied sagittal channels) is 6.81. This summary difference is above the healthy reference median (5.1) but remains below the 95th percentile (10.7) for the pooled cohort. 
+
+Sagittal Range of Motion (ROM) and per-joint Gait Variable Scores (GVS) are:
+- Knee: ROM 59.2°, GVS 9.04
+- Ankle: ROM 34.8°, GVS 7.82
+- Hip: ROM 41.6°, GVS 5.03
+- Pelvis: ROM 7.8°, GVS 4.16
+
+The maximum absolute z-scores (max |z|) represent the single largest standardized deviations of the averaged EMG envelopes from the unmatched reference mean at specific phase points, not necessarily the timing of peak envelope amplitude. Locations and directions of max |z| were:
+- GAS: 15.2 (above reference mean, at 57% of cycle)
+- ERS: 8.2 (above reference mean, at 63% of cycle)
+- VL: 6.4 (above reference mean, at 36% of cycle)
+- RF: 6.2 (above reference mean, at 36% of cycle)
+- TA: 5.9 (above reference mean, at 32% of cycle)
+- ST: 3.4 (above reference mean, at 51% of cycle)
+- BF: 2.9 (above reference mean, at 97% of cycle)
+
+As noted in Section 1, these comparisons cannot establish a clinical diagnosis or isolate stroke pathology due to the lack of appropriate speed-matched normative data.
+
+**4. Questions for Further Clinical Assessment**
+- Does clinical examination reveal specific joint mobility constraints, spasticity, or strength deficits at the knee and ankle that correspond to the sagittal kinematic deviations captured by the GVS?
+- Is the observed paretic step length asymmetry (-15.8%) primarily a result of limited advancement of the paretic limb, or is it a compensatory strategy related to stance instability on the non-paretic limb?
+- Given the broad above-threshold envelope coverage for muscles such as ERS (81%) and RF (76%), does physical assessment demonstrate sustained muscle tone/stiffness throughout the gait cycle, or are these prolonged intervals an artifact of the un-rescaled continuous envelope during slow walking?

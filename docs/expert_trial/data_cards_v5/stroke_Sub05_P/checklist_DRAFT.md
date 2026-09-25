@@ -1,25 +1,25 @@
-# 专家清单草稿：stroke_Sub05_P
+# Draft expert checklist: stroke_Sub05_P
 
-所有条目待专家审定。must_describe_candidate不是已经生效的扣分规则；临床重要性不能由数值排序自动决定。
+All items are pending expert approval. must_describe_candidate is not a deduction rule already in effect; clinical importance cannot be determined automatically by numerical ranking.
 
-## 必须描述：候选，待专家筛选
+## Must describe: candidates pending expert selection
 
-- [ ] C01 行走速度为 0.14 m/s（低于本研究健康参考人群的步速范围）。这一点是否需要写进报告？（依据：gait_speed_m_s）
-- [ ] C02 关节运动曲线与参考的差异由大到小为：膝关节 22.24°、踝关节 12.53°、髋关节 12.32°、骨盆 2.33°。请选出报告应重点描述的关节和变化；不必逐项复述评分。（依据：Joint kinematic findings）
-- [ ] C03 腓肠肌（GAS）在本例中相对参考的标准化差异最大，位于步态周期约 80%处，曲线高于参考。请结合图形判断是否值得重点描述，或修改为更重要的发现。（依据：GAS.z_signed; GAS.z_phase_pct）
-- [ ] C04 请看腓肠肌、股直肌、股外侧肌、股二头肌、半腱肌、胫骨前肌、竖脊肌的肌电曲线：哪些活动时段值得报告？如需描述，请写出肌肉和主要时段，无需逐段核对算法划分。（依据：Muscle activation findings; intervals）
-- [ ] C05 以下曲线几乎全程高于本例所用的相对阈值：腓肠肌 96.9%、股直肌 95.4%、股二头肌 95.1%、半腱肌 99.4%、竖脊肌 100.0%。这是否值得报告？可以选择“不必写入”；该数值本身不能说明持续异常收缩。（依据：Muscle activation findings; above_threshold_pct）
-- [ ] C06 肌肉共同活动指标（CCI）：胫骨前肌_vs_腓肠肌 0.50；股直肌_vs_股二头肌 0.81。结合给出的参考范围，是否有值得写进报告的发现？（依据：Co-contraction indices）
+- [ ] C01 Walking speed is 0.14 m/s (below the walking speed range of this study's healthy reference population). Does this need to be included in the report? (Basis: gait_speed_m_s)
+- [ ] C02 Differences between the joint kinematic curves and the reference, from largest to smallest, are: knee 22.24°, ankle 12.53°, hip 12.32°, pelvis 2.33°. Please select the joints and changes that the report should emphasize; there is no need to restate each score. (Basis: Joint kinematic findings)
+- [ ] C03 The gastrocnemius (GAS) has the largest standardized difference relative to the reference in this case, at approximately 80% of the gait cycle, with the curve above the reference. Please use the plots to judge whether this warrants emphasis, or replace it with a more important finding. (Basis: GAS.z_signed; GAS.z_phase_pct)
+- [ ] C04 Please examine the EMG curves for the gastrocnemius, rectus femoris, vastus lateralis, biceps femoris, semitendinosus, tibialis anterior, and erector spinae: which activity intervals are worth reporting? If a description is needed, specify the muscles and main intervals; there is no need to check the algorithmic segmentation interval by interval. (Basis: Muscle activation findings; intervals)
+- [ ] C05 The following curves are above the relative threshold used for this case for almost the entire cycle: gastrocnemius 96.9%, rectus femoris 95.4%, biceps femoris 95.1%, semitendinosus 99.4%, erector spinae 100.0%. Is this worth reporting? You may choose “No need to include”; the value itself does not indicate sustained abnormal contraction. (Basis: Muscle activation findings; above_threshold_pct)
+- [ ] C06 Muscle co-activation indices (CCI): tibialis anterior_vs_gastrocnemius 0.50; rectus femoris_vs_biceps femoris 0.81. Considering the provided reference ranges, are there any findings worth including in the report? (Basis: Co-contraction indices)
 
-## 允许解释：候选
-
-
-## 不能据此推断：待专家核定
+## Permitted interpretations: candidates
 
 
-## 专家定稿记录
+## Cannot be inferred from this evidence: pending expert verification
 
-第一位专家：____  日期：____
-第二位专家：____  日期：____
-版本：____；分歧/修改说明：____
-不得先看模型输出后倒推参考；如需调整，保留原草稿和版本。
+
+## Expert finalization record
+
+First expert: ____  Date: ____
+Second expert: ____  Date: ____
+Version: ____; Disagreement/revision notes: ____
+Do not view model outputs first and then reverse-engineer the reference; if adjustments are needed, retain the original draft and version.

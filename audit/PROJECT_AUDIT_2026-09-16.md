@@ -1,28 +1,28 @@
-# LLM-Gait-EMG-Report 项目审查
+# LLM-Gait-EMG-Report Project Review
 
-审查日期：2026-09-16。审查对象：当前本地项目、对应 Claude 会话记录、公开数据原文件与补充材料。本次只增加 `audit/` 审查材料，未修改正式源代码、README、原始数据或已生成报告，未调用付费模型重新生成报告。
+Review date: 2026-09-16. Review scope: the current local project, corresponding Claude conversation records, original public data files, and supplementary materials. This review only added review materials under `audit/`; it did not modify production source code, README, original data, or generated reports, and did not call paid models to regenerate reports.
 
-## 结论与范围
+## Conclusion and scope
 
-项目已完成可运行的探索性原型：加载数据、提取特征、选择18名卒中受试者、生成三个模型的54份报告及18份评分包，另生成4名健康对照的12份报告。这些工程结果真实存在；但“特征提取已验证”“健康对照假阳性检查通过”“Claude 明显优于其他模型”超出了现有证据。
+The project has completed a runnable exploratory prototype: loading data, extracting features, selecting 18 stroke subjects, generating 54 reports from three models and 18 rating packets, and additionally generating 12 reports for 4 healthy controls. These engineering outputs genuinely exist; however, “feature extraction has been validated,” “the healthy-control false-positive check passed,” and “Claude is clearly superior to the other models” go beyond the available evidence.
 
-最重要的障碍在特征输入与评价设计：提取程序只输出第一段 EMG 激活，README 的阈值统计与正式程序不一致，峰值绝对 z 分数没有校准为临床异常阈值。它们会直接影响报告内容以及模型间比较。应先修复和冻结输入，再开展正式专家盲评。
+The most important obstacles concern feature input and evaluation design: the extraction program outputs only the first EMG activation interval, README threshold statistics are inconsistent with the production program, and peak absolute z scores have not been calibrated as clinical abnormality thresholds. These directly affect report content and comparisons between models. Inputs should be fixed and frozen before formal blinded expert rating.
 
-本次读取了 Claude 对应会话的文本记录，检查项目实现及全部66份报告的结构/终止信息和54条评分包对应关系；复算全体138名健康对照和50名卒中受试者的双侧特征；比对1100条卒中 Excel/MAT 曲线，核对补充材料中的100条双侧步速。报告内容采用病例追踪和重点逐段复核，**没有冒充完成66份报告的独立临床专家评分**。未审核全部原始连续 C3D，也未重新采集或核验受试者真实病史。
+This review read the text records of the corresponding Claude conversation, inspected the project implementation and the structure/termination information of all 66 reports and 54 rating-packet correspondences; recalculated bilateral features for all 138 healthy controls and 50 stroke subjects; compared 1100 stroke Excel/MAT curves, and checked 100 bilateral walking-speed values in the supplementary materials. Report content was examined through case tracing and focused paragraph-by-paragraph review, **without pretending to have completed independent clinical expert ratings of 66 reports**. Not all original continuous C3D data were reviewed, nor were subjects' actual medical histories recollected or verified.
 
-## 1. 已确认正确的部分
+## 1. Components confirmed to be correct
 
-- 五份主要下载文件的 MD5 均匹配 Figshare 官方记录，未发现下载截断或文件错配。
-- 1100条卒中 Excel 曲线与 MAT 对应步态周期平均值一致；受试者顺序、双侧对应和矢状面选择成立。扫描2618条曲线，没有部分 NaN 或无穷值；存在整条缺失，需要区别对待。
-- 138名对照和100个卒中侧别均能提取；seed=42 的18人试验子集可重现，三个速度层各6人。
-- 计算步速与原论文 Supplementary Table 5 的100条公布数值一致到其四位小数精度，最大绝对差0.00004972 m/s。这是独立于“看起来符合临床范围”的验证。
-- 66份报告均非空，保存的终止状态均正常，无截断标记；54条评分包文本与来源报告一致。不能把“正常结束”进一步解释为“临床内容正确”。
-- 当前报告未发现模型自称名称，因此下述匿名化代码缺陷尚未造成这批报告中的实际名字泄漏。
-- Claude 确实修复过截断追踪、API 参数、环境变量加载和早期步长近零问题。GPS-like 作为四个矢状面变量的 RMS 偏差，数学实现基本成立，且已经声明不是完整标准 GPS。
+- The MD5 values of the five main downloaded files all match the official Figshare records; no download truncation or file mismatch was found.
+- The 1100 stroke Excel curves match the corresponding gait-cycle averages in MAT; subject order, bilateral correspondence, and sagittal-plane selection are valid. Scanning 2618 curves found no partial NaN values or infinities; entire curves are missing in some cases and require different handling.
+- Features can be extracted for all 138 controls and 100 stroke sides; the 18-person trial subset with seed=42 is reproducible, with 6 people in each of the three speed strata.
+- Calculated walking speeds match the 100 published values in the original paper's Supplementary Table 5 to their four-decimal-place precision, with a maximum absolute difference of 0.00004972 m/s. This is validation independent of “appearing to fall within a clinical range.”
+- All 66 reports are nonempty, all saved termination statuses are normal, and none has a truncation flag; the 54 rating-packet texts match their source reports. “Normal completion” cannot be further interpreted as “correct clinical content.”
+- No model self-identification by name was found in the current reports, so the anonymization code defect described below has not yet caused actual name leakage in this batch of reports.
+- Claude did fix truncation tracking, API parameters, environment-variable loading, and the early near-zero step-length issue. The mathematical implementation of GPS-like as the RMS deviation of four sagittal-plane variables is largely valid, and it has already been stated that this is not the complete standard GPS.
 
-主要文件校验值：
+Checksums of the main files:
 
-| 文件 | MD5 |
+| File | MD5 |
 |---|---|
 | AbleBodiedAdults.xlsx | 7d6585bb1bfd61f53840aa3a0eb288de |
 | PostStrokeAdults.xlsx | d79ec047d50f5a957d164a25bffabf32 |
@@ -30,123 +30,123 @@
 | MATdatafiles_description.xlsx | 91e19f0c0bbac2cabab087bf17cbbc65 |
 | NrStrides.xlsx | d66c33d1b460dfd7dec38767453b484e |
 
-## 2. 高优先级：只保留第一段激活，已影响真实报告
+## 2. High priority: retaining only the first activation interval has already affected actual reports
 
-位置：`src/features/emg_signal.py` 的 `onset_offset_pct_from_cycle()`。找到第一段符合阈值和最短持续时间的区间就返回，后续区间全部丢弃；跨0/100%周期边界的连续激活也没有循环处理。输入文本没有明确说明“这只是第一段”。
+Location: `onset_offset_pct_from_cycle()` in `src/features/emg_signal.py`. It returns as soon as it finds the first interval meeting the threshold and minimum-duration requirements, discarding all subsequent intervals; continuous activation crossing the 0/100% cycle boundary is also not handled circularly. The input text does not explicitly state “this is only the first interval.”
 
-18人试验子集共有113条有效 EMG 曲线，其中92条含多个符合条件的线性区间，79条在周期两端均高于阈值。这里“多个线性区间”不等于多个独立生理 burst，周期两端可能属于同一次连续激活。
+The 18-person trial subset contains 113 valid EMG curves, of which 92 contain multiple qualifying linear intervals and 79 are above threshold at both ends of the cycle. Here, “multiple linear intervals” does not mean multiple independent physiological bursts; the two ends of the cycle may belong to the same continuous activation.
 
-- **Sub50 患侧 TA**：按正式阈值，有0–7.09%和56.74–100%两段；模型只收到0–7%。Gemini 的报告以“Absence of Swing-Phase TA Activation”为问题标题，并追问足下垂/近端代偿。后半周期信号明明存在，是程序省略的。这属于输入缺陷诱发的过度推断，不能全部算作模型自身能力问题。
-- **Sub05 患侧 GAS**：有24.98–37.76%和74.53–86.61%两段，模型仅收到第一段；最大绝对 z=13.33 却发生在80.3%，即被省略的后段。该点患者值0.3495、对照均值0.0419、SD=0.0231。不能未经检查把这个大偏差统称为“接近零的 SD 造成的假象”。仅凭相位百分比也不应替代个人 toe-off 来判定具体支撑/摆动阶段。
-- “not detected”只代表没有满足所设阈值与最短持续时间的区间，不等于无肌肉活动或失去肌肉功能。
+- **Sub50 affected-side TA**: under the production threshold, there are two intervals, 0–7.09% and 56.74–100%; the model received only 0–7%. Gemini's report used “Absence of Swing-Phase TA Activation” as an issue heading and raised follow-up questions about foot drop/proximal compensation. The signal in the latter half of the cycle clearly exists; it was omitted by the program. This is overinterpretation induced by an input defect and cannot be attributed entirely to the model's own capabilities.
+- **Sub05 affected-side GAS**: there are two intervals, 24.98–37.76% and 74.53–86.61%, but the model received only the first; the maximum absolute z=13.33 occurs at 80.3%, in the omitted later interval. At this point, the patient value is 0.3495, the control mean is 0.0419, and SD=0.0231. This large deviation cannot be categorically described as “an artifact caused by near-zero SD” without examination. Phase percentages alone should also not replace individual toe-off in determining the specific stance/swing phase.
+- “not detected” only means that no interval met the specified threshold and minimum-duration requirements; it does not mean no muscle activity or loss of muscle function.
 
-修复：输出所有保留区间、总持续比例、周期边界状态；明确阈值与最短持续时间。加入已有的个体 gait events。若继续用平均包络，应称“平均包络超阈值区间”，不要宣称已获得原始逐步生理 onset。
+Fix: output all retained intervals, total duration proportion, and cycle-boundary status; specify the threshold and minimum duration. Incorporate the available individual gait events. If the mean envelope continues to be used, call these “above-threshold intervals of the mean envelope,” rather than claiming to have obtained original step-by-step physiological onsets.
 
-## 3. 高优先级：README 的阈值统计不是正式 pipeline 的统计
+## 3. High priority: README threshold statistics are not the production pipeline statistics
 
-原数据按每人每肌肉可用步态周期中的最大值归一化，之后再平均，因此平均曲线峰值不必等于1。正式程序比较 `curve > 0.2`；Claude 诊断统计比较 `curve > 0.2 * curve.max()`。两者不同。
+The original data were normalized by the maximum across available gait cycles for each muscle of each person and then averaged, so the mean curve's peak need not equal 1. The production program compares `curve > 0.2`; Claude's diagnostic statistics compare `curve > 0.2 * curve.max()`. These are different.
 
-用同一批数据重算“至少95%采样点高于阈值”：
+Recalculation using the same data of “at least 95% of sampled points above threshold”:
 
-| 肌肉/人群 | README 使用的 0.2×平均曲线峰值 | 正式程序固定0.2 |
+| Muscle/population | 0.2×mean curve peak used in README | Fixed 0.2 in production program |
 |---|---:|---:|
-| ERS 卒中患侧 | 32/46 | 12/46 |
-| ERS 健康对照 | 37/106 | 3/106 |
-| GAS 卒中患侧 | 9/43 | 1/43 |
-| GAS 健康对照 | 0/109 | 0/109 |
-| BF 卒中患侧 | 15/43 | 2/43 |
-| BF 健康对照 | 7/106 | 3/106 |
+| ERS stroke affected side | 32/46 | 12/46 |
+| ERS healthy controls | 37/106 | 3/106 |
+| GAS stroke affected side | 9/43 | 1/43 |
+| GAS healthy controls | 0/109 | 0/109 |
+| BF stroke affected side | 15/43 | 2/43 |
+| BF healthy controls | 7/106 | 3/106 |
 
-已精确复现 README 数字的来源。表本身不是凭空编造，但被用于解释另一种算法；“健康 ERS 35%全周期激活”的结论不能用于当前输入。另一个口径问题是“≥95%点超阈值”不等于“无任何 off 点”或程序返回完整0–100%连续区间。
+The source of the README numbers has been reproduced exactly. The table itself was not fabricated, but it was used to explain a different algorithm; the conclusion that “35% of healthy ERS shows full-cycle activation” cannot be applied to the current input. Another definitional issue is that “≥95% of points above threshold” does not mean “no off points at all” or that the program returns a complete continuous 0–100% interval.
 
-应选择并说明所需阈值定义，做敏感性分析，再重写表格及解释；不能只修改文字让数字看起来一致。
+The intended threshold definition should be selected and explained, sensitivity analysis performed, and the table and interpretation then rewritten; merely changing the wording to make the numbers appear consistent is not sufficient.
 
-## 4. 高优先级：健康对照检查没有建立有效的异常标准
+## 4. High priority: the healthy-control check has not established a valid abnormality criterion
 
-当前 `deviation_z_peak` 是1001个相位点中最大的绝对 z 值，丢失方向和发生相位。它不具有单一固定观测值 z 分数的解释，不能直接用“>2 SD”作为全曲线/个人临床异常阈值。
+The current `deviation_z_peak` is the maximum absolute z value among 1001 phase points, losing direction and the phase of occurrence. It does not have the interpretation of a z score for a single fixed observation, and “>2 SD” cannot be directly used as a clinical abnormality threshold for the entire curve/individual.
 
-复算结果：**109名有 EMG 的健康对照，109名至少一块肌肉 max|z|>2**。例如 RF 为58/108，TA为58/107。每肌肉该统计量的健康样本第95百分位约3.65–4.61，而非2。这里健康受试者还参与了自己的参考均值与SD计算；留一法通常使其分数进一步增大。上述百分比是统计量行为，**不是109名健康人有疾病，也不是LLM诊断假阳性率100%**。
+Recalculated results: **109 healthy controls with EMG, and 109 with max|z|>2 in at least one muscle**. For example, RF was 58/108 and TA was 58/107. For each muscle, the 95th percentile of this statistic in the healthy sample was approximately 3.65–4.61, not 2. Here, healthy participants also contributed to the calculation of their own reference mean and SD; leave-one-out calculations generally increase their scores further. The percentages above reflect the behavior of the statistic, **not that 109 healthy people have a disease, nor that the LLM diagnostic false-positive rate is 100%**.
 
-同样，健康对照 RF–BF CCI 中位数0.676、样本2.5–97.5百分位0.483–0.825。把0.63或0.65直接叫“异常升高”没有本队列支持。这些分位数只作内部校准说明，不构成临床诊断参考区间。
+Similarly, the healthy-control RF–BF CCI median was 0.676, with sample 2.5–97.5 percentiles of 0.483–0.825. Directly calling 0.63 or 0.65 “abnormally elevated” is not supported by this cohort. These percentiles serve only to illustrate internal calibration and do not constitute a clinical diagnostic reference interval.
 
-四名 spot-check 对照的 GPS-like：
+GPS-like values for the four spot-check controls:
 
-| 受试者 | 年龄 | GPS-like | 在138名对照中的经验百分位 |
+| Participant | Age | GPS-like | Empirical percentile among 138 controls |
 |---|---:|---:|---:|
 | Sub10 | 81 | 7.19 | 81.16 |
 | Sub49 | 60 | 3.72 | 22.46 |
 | Sub93 | 39 | 4.40 | 37.68 |
 | Sub98 | 36 | 4.05 | 27.54 |
 
-全体对照 GPS-like 第95百分位为10.71。Sub10 不是本队列极端运动学离群者；质疑其健康标签不是天然更高阶的正确推理。用另外22名≥75岁对照作探索性参考，其分数变为6.05，但这不足以证明年龄解释了全部差异。
+The 95th percentile of GPS-like across all controls was 10.71. Sub10 is not an extreme kinematic outlier in this cohort; questioning the healthy label is not inherently a higher-order form of correct reasoning. Using another 22 controls aged ≥75 as an exploratory reference changed the score to 6.05, but this is insufficient to establish that age explains all the differences.
 
-此外，输入明确告知 `Group: control`。此试验可研究“已知标签时如何解释偏差”，不能称为不知道标签的正常/异常识别试验。4名受试者×3模型的12次调用也不是12个独立病例。
+In addition, the input explicitly stated `Group: control`. This experiment can investigate “how deviations are explained when the label is known,” but cannot be called a normal/abnormal identification experiment with unknown labels. The 12 calls for 4 participants×3 models are not 12 independent cases either.
 
-## 5. Claude 的工作与结论：应保留贡献，撤回排名
+## 5. Claude's work and conclusions: retain the contributions, withdraw the ranking
 
-合理之处：Claude 在若干报告中确实提醒周期边界、第二段激活可能被省略、EMG/运动学差异可能有非病理解释；这比直接把未报告当作不存在更审慎。
+Reasonable aspects: In several reports, Claude did point out cycle boundaries, the possible omission of a second activation segment, and possible nonpathological explanations for EMG/kinematic differences; this is more cautious than directly treating what was not reported as nonexistent.
 
-不成立或需要修正之处：
+Aspects that are unsupported or require revision:
 
-1. “未给出具体疾病名称”不等于“没有无依据的病理化解释”。Sub49 的 Gemini 报告将 CCI=0.63称为 elevated，并对1.6°骨盆 ROM 提出僵硬/受限解释；其平面及参考范围原本就没传给模型。Claude 的同例也把 CCI=0.63称为 high，并将>2 SD 当作内部矛盾的依据。这些都应按预先定义的标准评分。
-2. Claude 对 Sub50 写“6.86低于四项GVS中的三项”，列出的值包括5.41，实际只有9.56与7.75高于6.86。这是明确算术错误；代理随后把这种讨论称作优秀分析不够审慎。
-3. Sub10 报告把部分偏差解释成幅度升高，而输入只有无方向的 max|z|，不能由此判定升高还是降低、幅度还是时间错位。
-4. “Claude 明显更强”来自少量、未盲化、事后选择的案例，没有独立专家评分和不确定性估计。最多可形成待检验的定性假设。
-5. GPT 的谨慎不能简单贬为套话：输入确实缺少平面、参考区间、归一化和指标定义。应同时评价事实准确性、明确指出可得结论的能力与报告实用性，不能把多作推断自动判成更好。
+1. “No specific disease name was given” does not mean “there was no unsupported pathological interpretation.” The Gemini report for Sub49 called CCI=0.63 elevated and proposed a stiffness/restriction interpretation for the 1.6° pelvic ROM; its plane and reference range had not been passed to the model in the first place. Claude also called CCI=0.63 high in the same case and treated >2 SD as evidence of internal inconsistency. These should all be scored against predefined criteria.
+2. For Sub50, Claude wrote “6.86 is lower than three of the four GVS values,” with 5.41 among the listed values; in fact, only 9.56 and 7.75 are higher than 6.86. This is a clear arithmetic error; the agent's subsequent description of this discussion as excellent analysis was insufficiently cautious.
+3. The Sub10 report interpreted some deviations as increased amplitude, whereas the input contained only nondirectional max|z|, which cannot determine an increase versus a decrease, or amplitude differences versus temporal misalignment.
+4. “Claude is clearly stronger” was based on a small number of unblinded, post hoc selected cases, without independent expert scoring or uncertainty estimates. At most, this can generate a qualitative hypothesis to be tested.
+5. GPT's caution cannot simply be dismissed as boilerplate: the input genuinely lacked the plane, reference intervals, normalization, and metric definitions. Factual accuracy, the ability to explicitly identify supportable conclusions, and report utility should all be evaluated; making more inferences cannot automatically be judged better.
 
-现阶段也不能反向宣布 GPT 或 Gemini 更好。本审查没有完成模型排名。
+Nor can GPT or Gemini be declared better in the opposite direction at this stage. This audit has not completed a model ranking.
 
-## 6. 模型输入缺失了本来已经有的信息
+## 6. The model input omitted information that was already available
 
-`src/features/pipeline.py` 的 `to_prompt_text()` 应明确：矢状面、单位、平均包络归一化方法、CCI公式、max|z|定义及其符号/相位、GPS-like组成、对称性指标的公式与方向。必要时附对应参考分布、相位区间摘要或可追踪曲线。
+`to_prompt_text()` in `src/features/pipeline.py` should explicitly specify: the sagittal plane, units, mean-envelope normalization method, CCI formula, max|z| definition and its sign/phase, GPS-like components, and the formulas and directionality of symmetry metrics. Where necessary, include the corresponding reference distributions, phase-interval summaries, or traceable curves.
 
-MAT 已包含年龄、性别、卒中后时间、临床评分、双侧信息和 gait events；补充材料也有健康者人口学与步速。当前没有传给模型，不应在解释中笼统说数据集不存在这些信息。患侧平均 toe-off 相位在不同受试者间变化很大，不能固定按健康人的某个百分比划分所有人的摆动期。
+The MAT files already contain age, sex, time since stroke, clinical scores, bilateral information, and gait events; the supplementary materials also contain healthy-participant demographics and walking speed. These have not currently been passed to the model, and explanations should not broadly state that this information does not exist in the dataset. The mean toe-off phase on the affected side varies substantially across participants; a fixed percentage from healthy people cannot be used to define everyone's swing phase.
 
-峰值归一化 EMG 不是绝对力量或激活强度，不宜直接横跨肌肉比较“更弱”。对照曲线汇总双侧而卒中曲线分侧，且未严格匹配年龄/步速等因素；“同一研究协议”不等于临床匹配参考。
+Peak-normalized EMG is not absolute force or activation intensity, and should not be used to directly compare “weaker” activity across muscles. Control curves pool both sides, whereas stroke curves are separated by side, and factors such as age/walking speed were not strictly matched; “the same study protocol” does not mean a clinically matched reference.
 
-## 7. 数据集与文献描述
+## 7. Dataset and literature descriptions
 
-- 主数据集 Van Criekinge 2023 的卒中纳入条件为发病后5个月内；MAT 中 TPS 为14–139天。README 第163行称其为 chronic stroke cohort 不准确。不要与另一个慢性卒中数据集混淆。
-- README 第66行称没有任何预计算时空参数，表述过度：补充表5公布了步速，且本次成功对齐。MAT 仍然有价值，可以计算其他参数、做一致性检查。
-- MAT 是经过处理和周期归一化的释放版本，不是原始连续 EMG；真正的原始 onset 验证需要连续信号与可靠事件。
-- 全通道缺失并不自动代表电极故障或数据质量筛除；原研究记录了部分参与者没有采集模拟信号。应记录实际缺失原因，未知时明确未知。
-- Hohsoh 等2024（README称Chatpun研究）外部数据集确实存在。重新下载 Claude 用过的 `N2_Trial01.csv`（19,104,899字节）：Fz的单位确实是N，三平台最大值约19.93、60.10、0；FootSwitch通道约±0.2V。因此 Claude 对这**一个文件**缺少清晰足底接触的观察基本可复现，不是把电压误当牛顿。论文/公开元数据未给出可直接使用的EMG1–16肌肉侧别映射；不能凭典型波形猜完映射就当作外部真值。没有重下载/审查全部32份CSV，不能断言所有试次都无法使用。
-- 相关2026论文可检索到，不能因年份或模型名称而判其虚构。针极/电诊断报告研究的任务、异常病例筛选和输入规则与本项目不同，不能直接移植性能结论或正常/异常判定标准。
+- The stroke inclusion criterion for the main Van Criekinge 2023 dataset was within 5 months of onset; TPS in the MAT files was 14–139 days. Describing it as a chronic stroke cohort on line 163 of the README is inaccurate. Do not confuse it with another chronic stroke dataset.
+- The statement on line 66 of the README that there are no precomputed spatiotemporal parameters is overstated: Supplementary Table 5 published walking speeds, which were successfully aligned in this audit. The MAT files remain valuable for calculating other parameters and conducting consistency checks.
+- The MAT files are a processed, cycle-normalized release, not raw continuous EMG; genuine raw onset validation requires continuous signals and reliable events.
+- Missing all channels does not automatically indicate electrode failure or exclusion for data quality; the original study documented that analog signals were not collected for some participants. The actual reason for missingness should be recorded, and explicitly marked unknown when unknown.
+- The external dataset from Hohsoh et al. 2024 (called the Chatpun study in the README) does exist. `N2_Trial01.csv` (19,104,899 bytes), which Claude had used, was downloaded again: the unit of Fz is indeed N, with maxima across the three platforms of approximately 19.93, 60.10, and 0; the FootSwitch channels are approximately ±0.2V. Thus, Claude's observation of a lack of clear foot-ground contact in this **one file** is largely reproducible, rather than a misinterpretation of voltage as newtons. The paper/public metadata did not provide a directly usable EMG1–16 muscle-and-side mapping; a mapping guessed from typical waveforms cannot then be treated as external ground truth. Not all 32 CSV files were downloaded again/reviewed, so it cannot be asserted that all trials are unusable.
+- The relevant 2026 papers are retrievable and cannot be judged fictitious based on the year or model names. The tasks, abnormal-case selection, and input rules in needle EMG/electrodiagnostic report studies differ from those in this project; their performance conclusions or normal/abnormal classification criteria cannot be transferred directly.
 
-来源：[主数据论文](https://www.nature.com/articles/s41597-023-02767-y)、[官方数据集合](https://doi.org/10.6084/m9.figshare.c.6503791.v1)、[原论文补充材料](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41597-023-02767-y/MediaObjects/41597_2023_2767_MOESM1_ESM.pdf)、[外部研究](https://pubmed.ncbi.nlm.nih.gov/39553714/)、[外部数据集](https://doi.org/10.6084/m9.figshare.26065414.v1)、[相关步态研究](https://www.frontiersin.org/journals/medical-technology/articles/10.3389/fmedt.2026.1863908/full)、[电诊断报告研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC13332575/)。
+Sources: [Main data paper](https://www.nature.com/articles/s41597-023-02767-y), [Official data collection](https://doi.org/10.6084/m9.figshare.c.6503791.v1), [Original paper supplementary materials](https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41597-023-02767-y/MediaObjects/41597_2023_2767_MOESM1_ESM.pdf), [External study](https://pubmed.ncbi.nlm.nih.gov/39553714/), [External dataset](https://doi.org/10.6084/m9.figshare.26065414.v1), [Related gait study](https://www.frontiersin.org/journals/medical-technology/articles/10.3389/fmedt.2026.1863908/full), [Electrodiagnostic report study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13332575/).
 
-## 8. 其他实现缺陷与尚未解决的问题
+## 8. Other implementation defects and unresolved issues
 
-**RawTrialData路径存在归一化比较错误。** `pipeline.py` 中将未归一化 `mean_cycle` 与归一化健康参考比较，而同一肌肉其他输出采用 `norm_cycle`。同一合成信号放大10倍、归一化波形不变，TA的z从370.58变成967.72。此缺陷不影响当前Excel路径的54份报告，但推翻“两个路径均已验证”的表述。`detect_onset_offset()` 虽有实现，并没有接入当前raw特征提取路径。现有测试仅1项，审查环境运行通过，说明它不足以捕获这些问题。
+**There is a normalization comparison error in the RawTrialData path.** In `pipeline.py`, unnormalized `mean_cycle` is compared with the normalized healthy reference, while other outputs for the same muscle use `norm_cycle`. When the same synthetic signal was amplified 10-fold, with the normalized waveform unchanged, TA z changed from 370.58 to 967.72. This defect does not affect the 54 reports from the current Excel path, but invalidates the statement that “both paths have been validated.” Although `detect_onset_offset()` is implemented, it has not been integrated into the current raw feature-extraction path. There is only 1 existing test, which passed in the audit environment, indicating that it is insufficient to catch these issues.
 
-**步长定义必须明确，暂不判为已证实算法错误。** 文档说“对侧着地瞬间两脚间距”，代码用对侧着地位置减本侧前一次着地位置。连续足落点距离和同时刻标记点间距是不同操作定义；不能未经协议确认就把其中一种宣布为真值。改用同时刻两脚位置计算的敏感性结果中，Sub45对称指数由+5.80%变为−0.27%，Sub03由−81.35%变为−89.93%。现有“步长和≈跨步长”是内部一致性，不足以单独称为ground-truth验证。速度独立核对通过，不受此争议影响。
+**The step-length definition must be clarified; this is not yet judged a confirmed algorithmic error.** The documentation says “the distance between the feet at the instant of contralateral foot contact,” while the code subtracts the previous ipsilateral contact position from the contralateral contact position. The distance between successive foot placements and the distance between markers at the same instant are different operational definitions; neither can be declared ground truth without confirming the protocol. In sensitivity results calculated using the positions of both feet at the same instant instead, the Sub45 symmetry index changed from +5.80% to −0.27%, and Sub03 from −81.35% to −89.93%. The existing “sum of step lengths≈stride length” is internal consistency and is insufficient on its own to be called ground-truth validation. The independent speed cross-check passed and is unaffected by this dispute.
 
-**匿名化潜在缺陷。** `src/eval/blinding.py`先替换厂商词，再替换完整模型ID，导致完整匹配失效：`gemini-3.1-pro-preview`变成`[model]-3.1-pro-preview`，版本仍可识别。当前报告没有这些自称，因此没有发现此次实际泄漏。应先替换完整ID。文件枚举未排序，跨环境重建的顺序仍需固定；本机相反建文件顺序的测试得到同序，不能称为已经实测出现随机化不一致。
+**Potential anonymization defect.** `src/eval/blinding.py` replaces vendor terms before replacing full model IDs, causing full matches to fail: `gemini-3.1-pro-preview` becomes `[model]-3.1-pro-preview`, leaving the version identifiable. The current reports contain no such self-identifications, so no actual leakage was found in this instance. Full IDs should be replaced first. File enumeration is unsorted, and the order for reconstruction across environments still needs to be fixed; a local test with reversed file-creation order produced the same order, so it cannot be claimed that randomization inconsistency has already been observed empirically.
 
-**评分方案尚不完整。** 评分包只有匿名ID和报告文字，未包含事实核验输入、正式评分填写表和经裁决的参考答案。三模型报告长度差异明显（22份/模型，字符中位数Claude9977、GPT3944、Gemini4734），可能影响偏好判断；这不是已证实破盲。应明确临床评分者获得哪些数据、如何区分输入不足与模型错误，并评价长度/格式因素。
+**The scoring scheme is still incomplete.** The scoring package contains only anonymous IDs and report text, without fact-checking inputs, formal scoring forms, or adjudicated reference answers. Report lengths differ markedly across the three models (22 reports/model, median character counts Claude9977, GPT3944, Gemini4734), which may affect preference judgments; this is not confirmed unblinding. It should be specified which data clinical raters receive and how to distinguish insufficient input from model errors, and length/format factors should be evaluated.
 
-**可重复性不足。** 保存记录包含请求的模型名称、版本字符串与终止信息，但未完整保存当次输入和system prompt、源代码/数据哈希、实际响应模型版本、参数、usage和request ID等。当前重建的 `pilot_inputs.txt` 是从当前代码重建，不是当时请求的原始留档。依赖没有锁定；批处理仅凭文件存在跳过，损坏/截断文件也可能被跳过。应以输入和配置哈希定义任务，并验证已有产物再跳过。
+**Insufficient reproducibility.** Saved records include the requested model name, version string, and termination information, but do not fully preserve the input and system prompt used for that call, source-code/data hashes, actual responding model version, parameters, usage, request ID, etc. The currently reconstructed `pilot_inputs.txt` was rebuilt from the current code, not archived from the original requests at the time. Dependencies are not locked; batch processing skips files solely based on their existence, so corrupted/truncated files may also be skipped. Tasks should be defined by input and configuration hashes, and existing artifacts should be validated before being skipped.
 
-**运行环境判断应克制。** 部分本地文件带有 macOS dataless/云占位状态，读文件时发生长时间等待；没有证明“磁盘占用94%”就是卡顿根因。
+**Judgments about the runtime environment should be restrained.** Some local files had macOS dataless/cloud-placeholder status, causing long waits when reading files; it has not been established that “94% disk usage” was the root cause of the stalls.
 
-## 9. 推荐后续顺序
+## 9. Recommended next-step sequence
 
-1. 保留现有输出为v1探索性结果，避免覆盖历史。
-2. 修复多区间和周期边界、统一归一化/阈值；明确步长定义，修复raw路径和匿名化。
-3. 冻结完整特征输入规范，补上已知平面、指标公式、个体事件和参考校准；验证每个代表病例的曲线→特征→文本链条。
-4. 使用独立/留出或明确的留一法参考，预先定义健康控制试验与错误类型；把“标签已知的解释任务”与“隐藏标签的识别任务”分开。
-5. 建立专家参考与评分表，再生成v2三模型报告。保留相同病例、固定参数，记录全部请求/响应元数据。
-6. 正式比较以受试者为重复测量单位，考虑模型、受试者和评分者的交叉结构；18名患者是探索性样本，不是54个独立样本。先报告效应与不确定性，再考虑模型优劣结论。
+1. Retain existing outputs as v1 exploratory results and avoid overwriting the history.
+2. Fix handling of multiple intervals and cycle boundaries, and standardize normalization/thresholds; clarify the step-length definition, and fix the raw path and anonymization.
+3. Freeze the complete feature-input specification, adding the known plane, metric formulas, individual events, and reference calibration; validate the curve→feature→text chain for each representative case.
+4. Use independent/held-out references or an explicit leave-one-out reference, and predefine the healthy-control experiment and error types; separate the “interpretation task with known labels” from the “identification task with hidden labels.”
+5. Establish expert references and scoring forms, then generate v2 reports from the three models. Retain the same cases, fix parameters, and record all request/response metadata.
+6. For the formal comparison, use participants as the repeated-measures units and account for the crossed structure of models, participants, and raters; 18 patients constitute an exploratory sample, not 54 independent samples. Report effects and uncertainty first, then consider conclusions about model superiority.
 
-## 10. 审查证据与复算
+## 10. Audit evidence and recalculation
 
-- `recompute.py`：全数据复算、MAT/Excel对照、激活区间与z分数、时空参数敏感性。
-- `validate_artifacts.py`：66份报告、54条评分包、匿名化和raw路径尺度测试。
-- `postprocess.py`：补充表步速核验、阈值表复现、对照分布和图形。
-- `outputs/audit_evidence.png` / `.pdf`：两例被省略曲线与健康对照分布。
-- `outputs/audit_facts.json`、`artifact_checks.json`、`supplement_and_control_checks.json`：主要统计。
-- `outputs/activation_windows.csv`、`z_scores.csv`、`mat_excel_comparison.csv`、`published_speed_comparison.csv`：逐项证据。
-- `outputs/external_sample_check.json`：外部CSV的摘要；原下载保留于临时目录，不改变项目正式数据集。
-- `sources/`：公开补充材料、Figshare官方元数据与外部论文提取文本。
+- `recompute.py`: full-data recalculation, MAT/Excel comparison, activation intervals and z-scores, and spatiotemporal parameter sensitivity.
+- `validate_artifacts.py`: 66 reports, 54 scoring-package entries, anonymization and raw-path scaling tests.
+- `postprocess.py`: supplementary-table walking-speed verification, threshold-table reproduction, control distributions and plots.
+- `outputs/audit_evidence.png` / `.pdf`: omitted curves from two cases and healthy-control distributions.
+- `outputs/audit_facts.json`, `artifact_checks.json`, `supplement_and_control_checks.json`: main statistics.
+- `outputs/activation_windows.csv`, `z_scores.csv`, `mat_excel_comparison.csv`, `published_speed_comparison.csv`: item-by-item evidence.
+- `outputs/external_sample_check.json`: summary of the external CSV; the original download is retained in a temporary directory, without altering the project's formal dataset.
+- `sources/`: public supplementary materials, official Figshare metadata, and text extracted from external papers.
 
-使用独立临时环境 `/private/tmp/gait-audit-venv`，未修补项目原虚拟环境；依赖列表见 `audit_environment.txt`。在项目根目录依次运行上述三个脚本即可复算主体结果，前提是原数据与审查补充材料可读。脚本只生成审查产物，不请求模型API。
+A separate temporary environment, `/private/tmp/gait-audit-venv`, was used, without patching the project's original virtual environment; see `audit_environment.txt` for the dependency list. Running the three scripts above in sequence from the project root directory recalculates the main results, provided that the original data and audit supplementary materials are readable. The scripts generate only audit artifacts and do not make model API requests.

@@ -3,6 +3,8 @@ builds a normative reference from healthy-control trials, and converts a summary
 into LLM-ready prompt text / JSON."""
 from __future__ import annotations
 
+from .emg_provenance import RAW_PIPELINE_EMG
+
 import json
 from dataclasses import asdict
 
@@ -184,6 +186,7 @@ def extract_patient_summary(
     gps = gait_profile_score(gvs_by_joint) if gvs_by_joint else None
 
     return PatientFeatureSummary(
+        emg_processing=RAW_PIPELINE_EMG,
         subject_id=trial.subject_id,
         group=trial.group,
         affected_side=trial.affected_side,
@@ -212,6 +215,9 @@ def to_json(summary: PatientFeatureSummary) -> dict:
 # may ONLY ship with data actually referenced against that cohort. A raw-path summary
 # built on e.g. 5 synthetic controls must not be captioned with main-cohort numbers.
 
+# Historical v2 text is retained for byte-comparable replay only.
+# Prospective interpretation uses src.llm.candidate_prompts with explicit preprocessing
+# provenance; the old normalization sentence must not be reused in new studies.
 _DEFS_COMMON = """Metric definitions (read before interpreting any number below):
 - All joint angles and ROM values are SAGITTAL PLANE only. Coronal/transverse data are not included.
 - EMG curves are ensemble averages of per-cycle envelopes, each cycle normalized to that subject's own per-muscle maximum before averaging. Amplitudes are therefore relative within-muscle values -- they are NOT absolute activation, force, or strength, and must not be compared across muscles as "stronger/weaker".
@@ -413,11 +419,13 @@ def extract_summary_from_normalized(
     step_length_symmetry_index: float | None = None,
     step_length_definition: str | None = None,
 ) -> PatientFeatureSummary:
-    """Same as extract_patient_summary() but for NormalizedTrialData. Note the source
-    curves are per-cycle peak-normalized THEN averaged, so a mean curve's own peak is
-    usually < 1 -- activation thresholding is therefore fraction-of-this-curve's-peak
-    (see analyze_activation), not an absolute cutoff (v1 accidentally used absolute
-    0.2 here; audit P0-2). Channels that are entirely NaN are recorded in
+    """Extract features from supplied mean curves without rescaling their amplitudes.
+    The released cohort uses a shared maximum across available strides before
+    averaging, not independent per-stride peak normalization. Custom inputs need
+    their own explicit emg_processing provenance. A mean curve need not peak at 1:
+    interval detection uses 20% of that curve's own peak (see analyze_activation),
+    not an absolute cutoff of 0.2 (the historical P0-2 bug). Channels entirely NaN
+    are recorded in
     missing_emg_channels rather than silently omitted; the per-subject REASON is
     handled at serialization (documented no-analog-capture subjects vs. unrecorded --
     audit R6)."""
@@ -459,6 +467,7 @@ def extract_summary_from_normalized(
     subject_label = f"{trial.subject_id}_{trial.side}" if trial.side != "avg" else trial.subject_id
 
     return PatientFeatureSummary(
+        emg_processing=trial.emg_processing,
         subject_id=subject_label,
         group=trial.group,
         affected_side=side_map.get(trial.side),

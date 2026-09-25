@@ -1,0 +1,39 @@
+**1. Objective Findings**
+- **Subject/Group:** Sub01_P, stroke group, paretic side. 
+- **Gait Speed:** 0.25 m/s. This speed corresponds to the "household ambulator" band (<0.4 m/s), which is a classification of speed rather than a measured metric of real-world community mobility, safety, or functional independence.
+- **Cadence:** 64.7 steps/min.
+- **Step Length Symmetry Index:** -46.3% (using the successive-footfall definition). The negative value indicates that the step length on the paretic side is shorter than on the non-paretic side.
+- **Kinematic Deviation:** The composite kinematic deviation score (GPS-like) is 15.32.
+
+**2. EMG Envelope and Threshold Findings**
+Evaluated muscle envelopes (GAS, RF, VL, BF, ST, TA, and ERS) were derived utilizing participant-, side-, and muscle-specific normalization to a shared maximum across available strides. These relative envelope values reflect the algorithm’s threshold and duration criteria (20% of peak, minimum 3% duration) rather than absolute neural activation, force, or stride-to-stride variability. 
+
+- **Envelope Coverage and Timing:** 
+  - The ERS envelope exceeded the threshold for 100% of the analysis cycle (interval: 0%-100%).
+  - All other assessed muscles exhibited widespread threshold coverage and recorded detected intervals that wrapped across the initial contact boundary (100% to 0%). 
+  - GAS coverage was 90% (interval: 86%-76%).
+  - RF coverage was 86% (intervals: 77%-88%; 92%-66%).
+  - VL coverage was 71% (interval: 92%-63%).
+  - BF coverage was 89% (intervals: 42%-50%; 50%-58%; 60%-76%; 82%-39%).
+  - ST coverage was 74% (intervals: 42%-46%; 51%-55%; 58%-76%; 88%-37%).
+  - TA coverage was 82% (intervals: 12%-63%; 75%-6%).
+- **Peak Normalized Amplitudes:** ERS (0.63), ST (0.56), BF (0.55), TA (0.51), RF (0.50), GAS (0.46), and VL (0.45).
+- **Maximum |z| Deviations:** The largest standardized differences from the phase-specific reference mean (all reported as above the reference) occurred at the following cycle percentages: GAS (10.7 at 68%), ERS (7.7 at 78%), RF (4.3 at 81%), VL (4.2 at 34%), ST (4.1 at 24%), TA (4.1 at 37%), and BF (2.3 at 21%).
+- **Co-contraction Indices (CCI):** The whole-cycle overlap index for normalized envelopes yielded a TA vs GAS CCI of 0.67, which falls above the provided empirical healthy-cohort 2.5th-97.5th percentile interval (0.24-0.59). The RF vs BF CCI was 0.72, residing within its respective healthy interval (0.48-0.83). Note that CCI is highly dependent on envelope and normalization methodology; residing outside or inside the provided interval does not establish pathological co-activation, impaired control, or normal physiological muscle function.
+
+**3. Kinematic and Reference Comparisons**
+Sagittal plane joint range of motion (ROM) and individual Gait Variable Scores (GVS) are as follows:
+- **Ankle:** ROM 11.6°, GVS 16.27
+- **Knee:** ROM 54.3°, GVS 22.25
+- **Hip:** ROM 46.8°, GVS 11.32
+- **Pelvis:** ROM 11.4°, GVS 7.17
+
+The composite kinematic deviation score (15.32) falls outside the 95th percentile (10.7) of the 138-subject pooled healthy cohort. 
+
+*Cautionary Note on Reference Comparisons:* The pooled healthy reference cohort is not matched for age or speed. The subject's gait speed (0.25 m/s) is well below the minimum threshold (0.80 m/s) of the healthy reference cohort, meaning an appropriate speed-matched reference does not exist in this dataset. Consequently, all provided kinematic deviations (GVS) and EMG envelope z-scores conflate the mechanical effects of walking extremely slowly with stroke-specific control changes. Neither ROM nor deviation scores independently establish a clinical restriction, disease effect, or diagnosis.
+
+**4. Questions for Further Clinical Assessment**
+- Does clinical observation of lower extremity tone or selective motor control align with the high percentage of above-threshold EMG coverage seen across all evaluated muscles, notably the 100% threshold coverage of the ERS and widespread boundary wrapping at initial contact?
+- Do physical assessments of stance stability or weight acceptance correlate with the marked successive-footfall step length asymmetry (shorter paretic step)?
+- Are the observed sagittal ROM values and elevated GVS at the knee and ankle accompanied by clinically verifiable active or passive range-of-motion restrictions?
+- To what degree might the marked kinematic deviations and EMG standardized differences be mechanically necessitated by the mechanics of navigating at a severe velocity restriction (0.25 m/s) rather than primarily neurological impairment?

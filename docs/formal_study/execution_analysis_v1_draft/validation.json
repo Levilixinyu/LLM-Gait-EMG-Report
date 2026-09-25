@@ -1,0 +1,19 @@
+{
+  "status": "Passed",
+  "source_hashes_unchanged": 81,
+  "selected_cases": 35,
+  "stroke": 25,
+  "controls": 10,
+  "planned_report_slots": 105,
+  "included_case_requirements": 149,
+  "proposed_coverage_judgments_per_rater": 552,
+  "review_decisions": 11,
+  "approval_fields_blank": true,
+  "external_history_attestation_applies_to_all_selected_cases": true,
+  "input_hash_verification": {
+    "Current bytes match reviewed manifest": 70
+  },
+  "english_only": true,
+  "model_calls": 0,
+  "protocol_approved": false
+}

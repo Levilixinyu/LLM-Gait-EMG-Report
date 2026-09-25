@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-09-18T20:01:32.334406+00:00",
+  "script_sha256": "636dc53545c7b0b7661f8ad2b4dfd65bbd64592cc76874f368facc96a368c7ae",
+  "source_sha256": {
+    "docs/formal_study/execution_analysis_v1_draft/Study_plan_review.xlsx": "475a34e96f899857152aeb64e93cda405c2327add84d9d226520c4cb83bfa819",
+    "docs/formal_study/execution_analysis_v1_draft/plan.json": "c8df13240571ea9d6074b56d1dcc2ad64d288d6679482d38a08740f184b4317d",
+    "docs/formal_study/execution_analysis_v1_draft/EXPOSURE_ATTESTATION.md": "2eaa96c12e5faece804eb7bc4e71521bdc775ded71671d7a88fc68cb306c862a",
+    "docs/formal_study/execution_analysis_v1_draft/input_registry.csv": "8a4266a5aa0055ad2aba2095239b3f65ff28d242cd65f82030411a619bf5ec8b",
+    "docs/formal_study/execution_analysis_v1_draft/README.md": "0c64b8e5b04714cd15206b656b6d8bdd0df66a6df5a92bc06a383e42f5bb31d0",
+    "docs/formal_study/execution_analysis_v1_draft/validation.json": "de186ec316e354e49713421f28e178ff4f1278b2dde138d7e70f8e8b5f9db79c",
+    "docs/formal_study/execution_analysis_v1_draft/exposure_confirmation.json": "2a12a0e0babf4726ab714510a8fb6cf0bfef8d7393dc806480988c37266fd53f",
+    "docs/formal_study/execution_analysis_v1_draft/PROTOCOL.md": "adbd0c7c2d0580c90a027cbf0ec2484f2cca207702b885da7d2218420bb722c6",
+    "docs/formal_study/execution_analysis_v1_draft/Study_plan_review_rater1.xlsx": "b5155c332da74f42643d7c6e89612fa7a3471d5bf4975098ba523c84e24c5b1b",
+    "docs/formal_study/execution_analysis_v1_draft/Study_plan_review_rater2.xlsx": "ec8698a75a0f0e112d132e9c96a496b7734f8f24b123d459822561d75b34c2be"
+  },
+  "output_sha256": {
+    "plan.json": "21083a33f225e2fe61cd9153bacb3d865f2333d942a5a9ff788a8624ffc3a431",
+    "review_audit.json": "726ec5abf0cb352596916e2a52cdbac4abaf838a7be1bcc8b03d36b5b3b24733",
+    "change_log.json": "572c3fac77380415dc3a06c4cbaa77e7c9eb1b6489250f011071eb7f0327f894",
+    "README.md": "ef3824fff198e12748c40a6fc23de47e392f38a15f2b1a2fe9ee8608fd2c2654",
+    "validation.json": "1beff7d475c384e857b2655e35ac5828dc9fcb2e7066b5a1889e7bf538ab0462",
+    "source_review_records.json": "d67cd7bdad4499a01e26029fdca34ef6d7e32db17c3356f9c2c0eae82b6f2806",
+    "Targeted_confirmation.xlsx": "0ed947e23dc4d4fc00c41ca272d4100c52be2293054658a950a78a2c49d03d7f",
+    "PROTOCOL.md": "a4ce710d7beefe62b9c935a56053c61225609b5bffd8bdc7d416015d8365073e"
+  }
+}

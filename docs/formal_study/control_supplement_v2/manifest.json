@@ -1,0 +1,29 @@
+{
+  "package": "control-supplement-v2",
+  "status": "User-confirmed targets: 25 stroke and 10 controls. Provisional membership; external history pending; no batch generation.",
+  "outputs_sha256": {
+    "README.md": "14edfdc43453caab6b631b6f541e8d384de0ef6f9cb98a13c0513adff3eb46bc",
+    "Study_sample_and_exposure_review.xlsx": "7e41e16ed65143a4428bdf6045ea28a471fcdbc16533fcc54d5344b95256c794",
+    "control_sampling_frame.csv": "203a8b724b44b08f03ad6f1e8af142722d6ddb0c657096e4e7d1424b19a58b47",
+    "control_sampling_order.csv": "19ccc5137b99f9a21f2316d6193f4ebd3384ec71d72453d57a88465422fc6fcc",
+    "sampling_registration.json": "3119b8634ad207e4a11b51cf195c80b3d39c330a33a0c05af04e722bd75a1440",
+    "selected_study_cases.csv": "41363eecd1cd2a2fd6cfc9f94a87cc0da9813c198e5bec31ccf2aa83010bf4fd",
+    "selection_record.json": "14547d4bdba2e0cc706b22f47e77372c0d0ae956cde6c868f9851f288b1875ad"
+  },
+  "validation": {
+    "registered_permutation_independently_reproduced": true,
+    "control_count": 10,
+    "ordered_reserves": 88,
+    "stroke_count": 25,
+    "planned_reports": 105,
+    "workbook_csv_semantic_round_trip": true,
+    "external_history_fields_blank": true,
+    "english_text_checked": true,
+    "readme_draw_matches_csv": true,
+    "group_qualified_identity_checks": true,
+    "protected_files_unchanged": 43,
+    "source_files_unchanged": true,
+    "existing_output_redraw_refused": true,
+    "no_model_calls": true
+  }
+}

@@ -1,0 +1,6 @@
+# Offline numerical replay and manuscript generation; verified on Python 3.13.
+# API SDKs, raw-data readers and plotting libraries are not required.
+numpy==2.5.3
+scipy==1.18.1
+openpyxl==3.1.5
+et_xmlfile==2.0.0

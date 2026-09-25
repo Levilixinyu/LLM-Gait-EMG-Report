@@ -1,0 +1,82 @@
+{
+  "version": "generation-preflight-v1",
+  "status": "Proposed technical configuration; not frozen or authorized for live use",
+  "documentation_checked_date": "2026-09-18",
+  "configuration_approved": false,
+  "live_compatibility_check_authorized": false,
+  "formal_generation_authorized": false,
+  "historical_candidate_budget_only": true,
+  "attempt_deadline_seconds": 600,
+  "max_transmitted_attempts": 3,
+  "adapter_implementation": {
+    "mock_http_verified": true,
+    "live_verified": false,
+    "transmission_guard": "At most one HTTP dispatch per SDK invocation; hidden retries and redirects blocked",
+    "anthropic_transport": "httpx2 2.13.0 bridge to the explicitly supplied counted HTTP transport",
+    "gemini_wire_normalization": "Convert nested thinking_level/include_thoughts to thinkingLevel/includeThoughts; reject conflicting aliases",
+    "gemini_automatic_function_calling": "Explicitly disabled in SDK configuration",
+    "wire_validation": "Check endpoint, exact input text and registered request parameters before dispatch"
+  },
+  "providers": [
+    {
+      "provider": "anthropic",
+      "model": "claude-opus-5",
+      "api_route": "Messages API, streamed",
+      "sdk_package": "anthropic",
+      "parameters": {
+        "max_tokens": 8000,
+        "thinking": {"type": "adaptive"},
+        "output_config": {"effort": "high"}
+      },
+      "client_retry_configuration": {"max_retries": 0},
+      "documentation": [
+        "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5",
+        "https://platform.claude.com/docs/en/build-with-claude/effort"
+      ]
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-6-astra",
+      "api_route": "Chat Completions API, streamed with usage",
+      "sdk_package": "openai",
+      "parameters": {
+        "max_completion_tokens": 8000,
+        "reasoning_effort": "high",
+        "n": 1,
+        "stream": true,
+        "stream_options": {"include_usage": true}
+      },
+      "client_retry_configuration": {"max_retries": 0},
+      "documentation": [
+        "https://developers.openai.com/api/docs/models/gpt-6-astra",
+        "https://developers.openai.com/api/reference/resources/chat/subresources/completions/methods/create"
+      ]
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.1-pro-preview",
+      "api_route": "Generate Content API, generate_content_stream",
+      "sdk_package": "google-genai",
+      "parameters": {
+        "max_output_tokens": 8000,
+        "thinking_config": {"thinking_level": "HIGH", "include_thoughts": false},
+        "candidate_count": 1
+      },
+      "client_retry_configuration": {"http_options": {"retry_options": {"attempts": 1}}},
+      "documentation": [
+        "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+        "https://ai.google.dev/gemini-api/docs/generate-content/thinking"
+      ]
+    }
+  ],
+  "interpretation": "Explicit high settings are a proposed study choice, not an equal-compute claim or an assertion about the OpenAI default. Token caps include reasoning/thinking and visible output. The 8000 cap is a historical candidate for technical checking only.",
+  "pending": [
+    "Verify live account access and parameter compatibility on separately authorized synthetic inputs",
+    "Decide and freeze the output allowance before any formal case output",
+    "Record omitted sampling defaults and their model-specific applicability",
+    "Obtain exact-plan authorization for the prepared synthetic live entry point and recovery workflow in compatibility_check_v1",
+    "Confirm account-specific live behavior; SDK retry disabling has passed mocked HTTP tests",
+    "Record available snapshot or alias limitation, response model IDs, usage and request/response IDs",
+    "Complete private blinding, rating delivery and analysis validation before formal release"
+  ]
+}

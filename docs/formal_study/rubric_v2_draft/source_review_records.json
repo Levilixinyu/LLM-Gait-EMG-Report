@@ -1,0 +1,961 @@
+[
+  {
+    "reviewer": "rater1",
+    "path": "docs/formal_study/rubric_v1_draft/Expert_rubric_review_rater1.xlsx",
+    "sha256": "6f7681d56b7032f85289139887a24da68802116d1edcab09b2f74a0d3b4297ca",
+    "overall_decision": "Revisions required",
+    "entries": [
+      {
+        "sheet": "Policy review",
+        "item_id": "P01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Agree with the development-case-only scope and optional-content boundaries. Approval of the annex remains subject to the individual row revisions below; 25 application rows are not 25 independent observations."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P02",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Comment": "Retain the semantic coverage categories and the distinction between clinical uncertainty and Cannot assess. Clarify RUBRIC section 1: Cannot assess applies to lost, corrupted, unreadable or mismatched review materials, not simply to a faithfully captured model response that is short, omits sections or ended early. If the supplied response is the actual generation, score assessable content and record omissions/format problems; any technical-failure exclusion is a separate prespecified administrative decision. Also align Sub09 C04: muscle names without a finding do not constitute a meaningful subset."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Agree: apply G03 once to every one of these five reference-bearing tasks, including a report that avoids reference comparisons. Accept per-muscle mixed OR routes and domain-specific conditional branches. Discussing speed alone should not trigger an inventory of cadence and symmetry; apply each branch only to the domain actually discussed."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P04",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Both substantive G03 meanings are required. Inability to separate speed and stroke effects may convey both. C01 independently assesses case speed and reference support; one sentence may support both items. Age/speed keyword counting and duplicate error records are inappropriate."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P05",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Appropriate uncertainty is acceptable but does not replace available required facts. Apply supplied precision and descriptive comparisons only; do not import hidden percentiles or convert empirical limits to diagnostic limits. Disputed rounding remains documented for discussion, without inventing a universal tolerance."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P06",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Comment": "Keep separate coverage and error records and the proposed claim-level deduplication. Add an explicit factual-contradiction rule consistent with X03: an unambiguously correct required fact stated anywhere can receive coverage even if contradicted elsewhere; record the conflicting unsupported claim separately. If the only assertion of that component is wrong, it is not covered. If wording is too ambiguous to identify an actual correct assertion, document the competing readings for adjudication rather than infer credit. Add a paired example for correct-then-wrong VL direction versus wrong-only VL direction. An explicit correction/retraction should be read in context, not counted as a second endorsed assertion."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P07",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Comment": "Agree that a purely methodological guarantee and a format failure are separately recorded. Define the boundary for mixed statements: separate a general design guarantee from an independently assessable conclusion about this participant. Example: \"Matching speed removes every confound, so this participant's deviation proves stroke dysfunction\" contains a design concern plus a case-level disease-attribution error (E09; other tags may apply). Do not exclude the case assertion merely because it occurs in a methodological sentence. Cross-link records without duplicating the same claim. X24 alone may remain outside case-error scope."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P08",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Agree with independent completion, retained original decisions, explicit no-issues completion and pending adjudication. This review approves no statistical weights, denominators or analysis. Revisions required is not approval."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept the case speed plus below-support/no-speed-matched-reference meaning. Equivalent wording is sufficient; the disease-attribution limit remains under G03."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/C02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Hip and knee priority is supported by the visible GVS values. Exact values and unseen waveform direction are not required."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/C03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Muscle, above-mean direction, approximate 81% location and numerical prominence are supported. Do not require a percentile classification or amplitude-peak interpretation."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/C04",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Reviewer comment": "Revise the partial example: \"ST and VL\" without any finding is Not covered, not Partially covered. Specify each numerical route as a meaningful deviation finding plus above-mean direction for that muscle; exact 4.2 and cycle locations are optional, consistent with X04. Each interval route requires broad detected above-threshold extent plus boundary spanning, with exact segment endpoints optional. One complete route for each muscle, including mixed routes, is Covered; a substantive finding for only one muscle is Partially covered. This removes ambiguity without adding hidden references."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/SL01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept the supplied index plus shorter paretic step. Do not equate the normalized index with percentage shortening relative to the other side."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept speed 0.14 m/s and the absence of a reference at that speed; retain the separate G03 inference limitation."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/C02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept knee priority plus ankle and hip prominence; exact ankle-versus-hip ranking and every value are unnecessary."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/C03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept GAS prominence, above-mean direction and approximate 80% location. This location is not the time of peak envelope amplitude."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/C04",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept both muscles with their signed directions and approximate locations. A VL above-mean assertion cannot satisfy its below-mean component; X07 appropriately separates incomplete coverage and the error."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/SL01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept the index and shorter paretic step. X21 is an arithmetic/denominator error, not an alternative interpretation of this index."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub50_P/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept speed, lower-end placement and lack of actual matching. Do not infer real-world community walking ability from the band label."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub50_P/C02",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Reviewer comment": "Make the third required component explicit in the logic and partial example: pelvis has the largest GVS, knee is also prominent, AND pelvic GVS deviation is distinguished from the small measured pelvic excursion. Relabel the optional column \"Exact numerical repetition is optional\" so it does not make the ROM distinction itself optional. A report that prioritizes pelvis/knee but omits that distinction is Partially covered. Small excursion is descriptive here; no pathological restriction, pelvic offset direction or normative ROM claim is required."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub50_P/C03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept ST prominence, above-mean direction and approximate 33% location. A supplied-endpoint comparison remains optional and does not replace required direction/location."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub50_P/SL01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept the index plus its near-zero, small step-length-difference meaning. Read the overall-symmetry limit as an interpretation boundary: no obligatory negative sentence if the report makes only the correctly scoped step-length statement. A claim of overall gait symmetry is separately assessed as an error."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub47_P/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept speed 0.54 m/s and lack of reference support at that speed."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub47_P/C02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept hip, knee and ankle as the main available sagittal differences; exact numerical repetition is unnecessary."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub47_P/C03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept the missing-EMG fact plus its assessment consequence. \"EMG unavailable; EMG-derived findings cannot be assessed\" is sufficient without naming all three domains separately. Mere absence of recordings is not absence of activity."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub47_P/SL01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept the index and shorter paretic step; no formula or exact percentage-shortening conversion is required."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "control_Sub49_avg/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept relative knee/ankle prominence. Do not require disease, clinical severity or whole-gait normality classification."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "control_Sub49_avg/C06",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept control provenance plus explicit self-exclusion. Trigger only the missingness/applicability branch for the domain actually discussed. The task-specific paretic index is inapplicable; general left/right symmetry is not inherently impossible."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. For one false claim, overlapping E tags do not create multiple issue groups. Read contradictory or explicitly corrected statements under the clarified P06 rule."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. Genuine assessment questions remain allowed; presupposed deficits and treatment selection do not become acceptable simply by using a question mark."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. Retain the above-threshold-run versus below-threshold-gap distinction and mean-envelope versus individual-stride distinction."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E04",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. The v3.1 initial-contact anchor is allowed with its group-specific provenance; max-|z| location is not an amplitude peak."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E05",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. Visible empirical comparisons remain permissible; hidden reference values and diagnostic certainty are not supplied evidence."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E06",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. Supplied median/endpoint comparisons are permissible; physiological normality, stiffness and simultaneous-activation time are not established. No retrospective application to Q055."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E07",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. Ranking supplied GVS and reporting ROM is allowed. Clinical restriction and unseen waveform direction are separate unsupported inferences."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E08",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. Distinguish unavailable recordings from physiological inactivity and not supplied from not applicable."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E09",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept. Add the mixed design/case example requested under P07 to the rubric or examples: the participant-specific attribution remains a case error even if a design guarantee appears in the same sentence."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X04",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Reviewer comment": "Retain Covered, but make the standardized magnitude and envelope direction syntactically distinct: \"ST and VL each have max |z| 4.2; at those locations, both envelopes are above their phase-specific reference means. Their muscle-specific percentile classification is indeterminate from the supplied endpoints.\" Keep cycle locations optional for Sub09 C04 and align its partial example with P02."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X05",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X06",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X07",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X08",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X09",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept as an optional comparison. In isolation this is not full coverage of Sub50 C03, because the required above-mean direction and approximate cycle location are not conveyed. State this in teaching guidance if coverage and error decisions are displayed together."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X10",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X11",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept for an input supplying RF-BF 0.82, such as Sub09. Attach the case/input identity to data-specific teaching examples; this number must not be generalized to other cases."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X12",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X13",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X14",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X15",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Reviewer comment": "Keep the acceptable decision but identify the example as Sub05 TA. The 0% maximum standardized-difference location is supplied for Sub05, not for an arbitrary stroke case. Having an initial-contact anchor alone does not establish that a muscle maximum occurs there."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X16",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Reviewer comment": "Retain E04, but replace \"its 80% interval\" with \"its maximum standardized difference at 80% of the cycle\" and identify Sub05. The input provides that location, not an interval at 80%. This isolates the intended unsupported push-off inference rather than mixing it with a misreported interval."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X17",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X18",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "E08 is appropriate. Do not automatically grant missing-recording coverage from the ambiguous phrase \"No EMG activity was measured\"; evaluate what the complete report actually says about availability and assessability."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X19",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "The sentence covers both core components of control C06 when the conditional domains are not discussed. It is not merely evidence for a conditional branch."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X20",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept these conditional statements. They alone do not satisfy the complete C06 core, which also requires control provenance and self-exclusion."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X21",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X22",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X23",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Agree with the proposed assessment in the stated context; evaluate whole-report coverage separately from any assertion-level error."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X24",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Accept as a separately retained unsupported design guarantee, not a validated claim. Add the mixed-claim companion example specified under P07; exclude only the design claim, not a distinct participant-specific attribution."
+        }
+      }
+    ]
+  },
+  {
+    "reviewer": "rater2",
+    "path": "docs/formal_study/rubric_v1_draft/Expert_rubric_review_rater2.xlsx",
+    "sha256": "4aefb1a1e7d76dab12b45f715b2ea5365f5b36816710ddc743624c2eadf7d99e",
+    "overall_decision": "Revisions required",
+    "entries": [
+      {
+        "sheet": "Policy review",
+        "item_id": "P01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Consistent with the completed trial: CCI, cadence, exhaustive interval lists and audit counts stay optional; incorrect optional assertions are still checked. Agree that new formal cases need their own approved requirement rows before any generated output is inspected."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Workable definitions. Two points worth stating explicitly in the next version: (1) a required component conveyed with the wrong sign or wrong muscle counts as \"incorrectly conveyed\", so the row is Partially covered and the false assertion is logged once (as in X07); (2) Cannot assess is never used for a valid report whose content is merely cautious. Both are already implied by RUBRIC.md sections 2 and 3; putting them in the P02 text will prevent the R006-type dispute from recurring."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Agree on AND/OR/conditional logic, on the mixed ST/VL routes for Sub09 C04, and on the conditional Sub49 C06 branch, which matches the trial adjudication. Agree that G03 applies to all five reference-bearing tasks: every input contains reference-derived quantities (max |z|, GVS/GPS-like backgrounds), so a report that uses any of them is making a comparison even if it never uses the word."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P04",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "This is the substantive G03 reading agreed in the trial plus the C01 separation confirmed in the R009/C01 adjudication. Agree that one sentence may serve both and that the disease-attribution caveat is not penalised twice. For Sub50 C01 the third AND component (not thereby speed-matched) overlaps with the G03 comparability limitation; the rubric should say that a report satisfying that component has satisfied the comparability half of G03 for that report, so raters do not look for a second, differently worded sentence."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P05",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Agree with crediting supported indeterminate conclusions and with model-visible precision. Optional improvement for the next version: state one operational tolerance for cycle location so raters do not disagree over \"approximately\". Proposed wording: \"A stated cycle location within 2 percentage points of the displayed value, or the displayed value rounded to the nearest 5%, preserves the finding; larger discrepancies are recorded and referred.\" This does not introduce a tolerance for max |z|, CCI or GVS values, which must keep the displayed precision."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P06",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Matches the trial practice that produced the 55 issue groups. One addition: a claim repeated in section 4 as a presupposition (\"what drives the confirmed X\") belongs to the same issue group as the section 2/3 assertion of X, with both locations listed; this was how R001 row 4 and several other groups were merged and it should be written down."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P07",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Agree. This is the scope position I argued for on Q018 and it is now stated prospectively rather than assumed. For clarity the next version should list what falls under design concern (methodological guarantees, study-design advice, statements about repeat testing) and what remains a case error even though it is about method: misstating a metric identity (e.g. calling GPS-like a spatiotemporal score) is E01, as in the trial."
+        }
+      },
+      {
+        "sheet": "Policy review",
+        "item_id": "P08",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Comment": "Agree, including that no weights, composite score, partial-credit fraction or error-rate denominator are approved here. The requirement to record \"completed with no issues\" explicitly rather than leaving a blank table should stay."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Two-part AND is right: the speed value and its relation to the 0.80 m/s floor. Synonyms such as \"below the reference cohort speed range\" are acceptable for the second component."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/C02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Hip AND knee as priorities; ranking words (\"largest\", \"followed by\") or listing both as the main contributors both satisfy the priority component."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/C03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Encodes the adjudicated R001/C03 outcome: above-mean direction is a required component, and |z| alone does not supply it. Prominence by magnitude or by within-case ranking is the right flexibility."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/C04",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "The per-muscle OR route (numerical or interval) with mixed routes allowed is exactly the adjudicated reading. X04/X05/X06 make the boundary clear."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub09_P/SL01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Index AND direction. Agree that the index must not be restated as a percentage shortening (X21)."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Same structure as Sub09 C01."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/C02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Knee largest AND ankle/hip next, without forcing the ankle-versus-hip order (12.53 vs 12.32 is not a meaningful gap). Agree that ankle ROM 13.4 is a measurement only."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/C03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "GAS above mean at about 80%; the same components as Sub09 C03."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/C04",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Requiring the signed direction for VL (below mean at 5%) is essential; this was the R006 error. Agree that TA and RF remain optional."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub05_P/SL01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Same structure as Sub09 SL01."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub50_P/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Three-part AND is appropriate for this case because the trial showed that the in-range speed invites over-attribution. Accept synonyms for \"near the lower end\" such as \"just above the floor\" or \"at the low end of the range\". See P04 comment on overlap with G03."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub50_P/C02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Pelvis largest AND knee prominent AND the GVS-versus-ROM distinction. Agree that no offset direction is required because it is not model-visible."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub50_P/C03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "ST above mean at about 33%; the endpoint comparison (4.7 above 4.61) stays optional and descriptive (X09)."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub50_P/SL01",
+        "response_fields": {
+          "Reviewer decision": "Revise",
+          "Reviewer comment": "The required core currently bundles two things: (a) the index and its near-zero / small-difference meaning under this definition, and (b) a disclaimer that it is not proof of overall gait symmetry. (a) is a finding and should be required. (b) is a limitation that only matters if the report generalises; requiring it in every report makes a plain, correct statement (\"-0.7%, the paretic step is marginally shorter; the difference is small by this definition\") Partially covered, which is not the intent. Proposed wording: \"Report the supplied successive-footfall index (-0.7%) AND convey that it is near zero, i.e. a small difference under this step-length definition. IF the report generalises this to overall gait or bilateral symmetry, record that generalisation as an issue (E07 or E01 as applicable); it is not a coverage failure.\" Logic: AND for index and near-zero meaning; conditional for the generalisation."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub47_P/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Same structure as Sub09 C01."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub47_P/C02",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Hip, knee AND ankle as the main available differences; no ordering beyond that is needed."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub47_P/C03",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Unavailable EMG AND the three derived domains cannot be assessed; a single collective sentence satisfies it (X17). Agree that a later erroneous claim (X18) is logged separately and does not remove coverage."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "stroke_Sub47_P/SL01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Same structure as Sub09 SL01."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "control_Sub49_avg/C01",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Knee AND ankle as the relatively larger differences; descriptive comparison of 3.75 with the supplied backgrounds is allowed, overall normality is not (X10)."
+        }
+      },
+      {
+        "sheet": "Case requirements",
+        "item_id": "control_Sub49_avg/C06",
+        "response_fields": {
+          "Reviewer decision": "Accept",
+          "Reviewer comment": "Provenance AND self-exclusion as the core, with the speed/cadence/index statements conditional on discussion. This is the adjudicated R015/C06 reading updated for the v3.1 input lines. Agree that \"leave-one-out\" conveys self-exclusion without repeating the count."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E01",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Accept. Keep \"metric identity\" here so that misdescribing GPS-like as a spatiotemporal or nine-variable score remains a case error under P07."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E02",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Revise: add severity and significance language explicitly. Proposed addition to Scope: \"Clinical severity grades, or statistical-significance wording, asserted without a supplied basis.\" Proposed addition to Boundary: \"Magnitude words anchored to a supplied reference value (e.g. above the median but below the 95th percentile) are descriptive and acceptable; magnitude words applied to a value with no supplied reference (e.g. the step-length index) are recorded as an issue for adjudication rather than an automatic error.\" This was the unresolved Q009/Q025/Q038/Q041 question and needs a written rule before formal rating."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E03",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Accept. The boundary sentence about the 3% rule removing short above-threshold runs but not below-threshold gaps is correct and important."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E04",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Accept. Consistent with v3.1: initial-contact boundary and anatomical actions allowed; phase functions and toe-off not."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E05",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Accept. Consider adding to Scope: \"timing described as consistent with normal phasing without a supplied timing reference\", which is the control-case variant seen in the trial (R013/R015); it could also sit under E04."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E06",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Accept. Prospective only; Q055 unchanged."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E07",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Accept. Suggest adding \"generalising a single step-length index to overall gait symmetry\" as an example in Scope, to pair with the Sub50 SL01 revision."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E08",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Accept."
+        }
+      },
+      {
+        "sheet": "Error definitions",
+        "item_id": "E09",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Accept. Matches the R009 adjudication and the v3.1 rule that a speed inside the range does not prove a matched reference."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X01",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X02",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X03",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree; this is the coverage-versus-error separation in one example."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X04",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X05",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X06",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X07",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree; the clearest teaching example in the set."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X08",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree; consistent with the trial resolution of the rounding question."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X09",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X10",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X11",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X12",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X13",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X14",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X15",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree. Suggest a companion example showing the prohibited form: \"TA activation begins at initial contact\" (E03/E04), so raters see the difference between naming the boundary and asserting onset."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X16",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X17",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X18",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X19",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X20",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X21",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X22",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X23",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree."
+        }
+      },
+      {
+        "sheet": "Examples",
+        "item_id": "X24",
+        "response_fields": {
+          "Reviewer comment (rater2)": "Agree with the P07 handling. Three examples are missing and should be added before formal use: (1) an anchored magnitude word that is acceptable (\"above the median but below the 95th percentile, a moderate deviation\") versus an unanchored one that is referred (\"a marked asymmetry\" for the step-length index); (2) a control-case timing claim (\"intervals consistent with normal phasing\") as E04/E05; (3) a Sub50 SL01 generalisation (\"step length symmetry is preserved\") as an issue rather than a coverage failure."
+        }
+      }
+    ]
+  }
+]

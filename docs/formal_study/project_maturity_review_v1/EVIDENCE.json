@@ -1,0 +1,431 @@
+{
+  "reviewed_at_utc": "2026-09-25T04:03:40.433618+00:00",
+  "scope": "Research-chain maturity audit; no new expert scoring",
+  "outcome": "Ready for bounded manuscript completion; reproducibility release and submission information remain incomplete",
+  "numerical_and_source_checks": {
+    "frozen_reports_verified": 105,
+    "participants": 35,
+    "coverage_rows_verified": 552,
+    "issue_groups_verified": 68,
+    "all_claim_anchors_and_per_rater_quotes_exact": true,
+    "main_analysis_recomputed_exactly": true,
+    "original_independent_analyses_recomputed_exactly": true,
+    "reviewed_prompt_pairs_verified": 35,
+    "identical_input_across_models": true,
+    "source_integrity": {
+      "docs/formal_study/analysis_freeze_v1/FREEZE_RECORD.json": {
+        "checked": 128,
+        "exceptions": []
+      },
+      "docs/formal_study/consolidated_ratings_v1/BUILD_RECORD.json": {
+        "checked": 119,
+        "exceptions": []
+      },
+      "docs/formal_study/manuscript_v1/BUILD_RECORD.json": {
+        "checked": 33,
+        "exceptions": []
+      },
+      "docs/formal_study/wording_sensitivity_v1/BUILD_RECORD.json": {
+        "checked": 16,
+        "exceptions": []
+      }
+    },
+    "independent_coverage": {
+      "rater1": {
+        "stroke": {
+          "anthropic": 0.98,
+          "gemini": 0.938,
+          "openai": 0.97
+        },
+        "control": {
+          "anthropic": 0.9666666666666666,
+          "gemini": 0.9,
+          "openai": 0.9
+        }
+      },
+      "rater2": {
+        "stroke": {
+          "anthropic": 0.9640000000000001,
+          "gemini": 0.86,
+          "openai": 0.9520000000000001
+        },
+        "control": {
+          "anthropic": 0.9333333333333332,
+          "gemini": 0.7666666666666667,
+          "openai": 0.9
+        }
+      },
+      "rater3": {
+        "stroke": {
+          "anthropic": 0.992,
+          "gemini": 0.8653333333333333,
+          "openai": 0.992
+        },
+        "control": {
+          "anthropic": 0.9666666666666666,
+          "gemini": 0.8,
+          "openai": 0.9666666666666666
+        }
+      }
+    },
+    "final_coverage": {
+      "stroke": {
+        "anthropic": 0.982,
+        "gemini": 0.818,
+        "openai": 0.97
+      },
+      "control": {
+        "anthropic": 0.9,
+        "gemini": 0.7333333333333333,
+        "openai": 0.8666666666666668
+      }
+    }
+  },
+  "feature_checks": {
+    "cached_cases_recomputed": 35,
+    "cached_numeric_fields": 3302,
+    "differences": [],
+    "cache_hash_verified": true,
+    "direct_stroke_excel_trials": 100,
+    "direct_stroke_arrays_equal_cache": 1100,
+    "stroke_excel_sha256": "905512c4deb0f90d54d01032f577446886280d6a6f8b6ead9c7096aab1ad16dd",
+    "raw_control_excel_reloaded": false,
+    "raw_mat_reloaded": false,
+    "scope": "All selected feature summaries recomputed from hash-verified released-curve/event cache. All 100 stroke side-trials cross-checked against released Excel. No fresh raw C3D or healthy MAT audit."
+  },
+  "tests": {
+    "tests": 262,
+    "failures": 3,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 259,
+    "failure_scope": "Three legacy single-attempt full-length tests: source hash mismatch in formal_release.py; rejection occurs before mock transmission."
+  },
+  "legacy_plan_diff": [
+    {
+      "path": "/source_sha256/src/llm/formal_release.py",
+      "old": "f4145b5287641faf7bef546484e050732ed17e85c3e040471ae749574160ef15",
+      "current": "9b1b5e25c3376ebf0896f983f835b42fd1e27b02a01ad0ffac3871c747ed9562"
+    }
+  ],
+  "test_command": "PYTHONPYCACHEPREFIX=/private/tmp/gait_maturity_pycache python -m pytest -q -p no:cacheprovider tests --basetemp=/private/tmp/gait_maturity_tests_hydrated",
+  "python_syntax_files": 112,
+  "report_lengths_exploratory": {
+    "method": "Whitespace-delimited report token count; descriptive length proxy, not provider billing tokens; computed post hoc for project audit only.",
+    "groups": {
+      "control/anthropic": {
+        "n": 10,
+        "median": 1992.0,
+        "min": 1881,
+        "max": 2265
+      },
+      "control/gemini": {
+        "n": 10,
+        "median": 712.5,
+        "min": 696,
+        "max": 867
+      },
+      "control/openai": {
+        "n": 10,
+        "median": 803.5,
+        "min": 759,
+        "max": 810
+      },
+      "stroke/anthropic": {
+        "n": 25,
+        "median": 2049,
+        "min": 1909,
+        "max": 2419
+      },
+      "stroke/gemini": {
+        "n": 25,
+        "median": 761,
+        "min": 657,
+        "max": 936
+      },
+      "stroke/openai": {
+        "n": 25,
+        "median": 818,
+        "min": 765,
+        "max": 910
+      }
+    }
+  },
+  "asset_hydration": {
+    "source": "docs/formal_study/independent_expert_review_template_v1/Independent_expert_review_template.zip",
+    "method": "Restore dataless working image from byte-identical local packet member only after frozen plan hash validation. No image regeneration.",
+    "restored": [
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub01_avg/curves_kinematics.png",
+        "sha256": "a6bdf234604fc61f0cfe2331a88ee3237d78696639caaea60699f570c77947be",
+        "source_member": "independent_expert_review/materials/control_Sub01_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub06_avg/curves_emg.png",
+        "sha256": "fbb7df68cea2e8a0852dca042d745b0c3f50ae9cbf06438447161b390fe5738b",
+        "source_member": "independent_expert_review/materials/control_Sub06_avg/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub06_avg/curves_kinematics.png",
+        "sha256": "8bcbcd415f5d4960ec78a6376b2bec8eccc2d02f9d8972ee2a68bff684726e0a",
+        "source_member": "independent_expert_review/materials/control_Sub06_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub07_avg/curves_kinematics.png",
+        "sha256": "01c413c1378dbb1ed8288c47fe7c9576f516b753cb94bfdd836c1ae37b3ecd3a",
+        "source_member": "independent_expert_review/materials/control_Sub07_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub09_avg/curves_emg.png",
+        "sha256": "1c255438751ab75308c528d2ecf4351f739fe4866d7fb5c940841ba079ba86b9",
+        "source_member": "independent_expert_review/materials/control_Sub09_avg/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub09_avg/curves_kinematics.png",
+        "sha256": "6c00c33f08b0ef1eb8e83dc9f495cc148f7055d546b3fc4a107647785d5a41ed",
+        "source_member": "independent_expert_review/materials/control_Sub09_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub117_avg/curves_emg.png",
+        "sha256": "95a0a9182c2104e8557669409510e4a915c4dd2a9ccefb5d03caa896f2fd11c6",
+        "source_member": "independent_expert_review/materials/control_Sub117_avg/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub117_avg/curves_kinematics.png",
+        "sha256": "5ffe5b38e11a9c0ae0b5e424ece24dc3d51687b2f9de4ecfad9815db9612922e",
+        "source_member": "independent_expert_review/materials/control_Sub117_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub14_avg/curves_emg.png",
+        "sha256": "298ffa0f5d570b2208c55c5ed314c746458d92ccbde22626bbdd2598335aedf3",
+        "source_member": "independent_expert_review/materials/control_Sub14_avg/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub14_avg/curves_kinematics.png",
+        "sha256": "8e7f96dbbd6305071243800282633a156de89cc4a9945152709e41c66c9bf490",
+        "source_member": "independent_expert_review/materials/control_Sub14_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub31_avg/curves_emg.png",
+        "sha256": "069d0a75e859be1bdce69785c4d095e43fd07b63279cbfe7f5a4a78f634da2e8",
+        "source_member": "independent_expert_review/materials/control_Sub31_avg/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub39_avg/curves_kinematics.png",
+        "sha256": "596c409c201fbef64f1d8c1f5218221486ea5e0534a59350fd3560e038683237",
+        "source_member": "independent_expert_review/materials/control_Sub39_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub62_avg/curves_emg.png",
+        "sha256": "4e1622eef0805975343a5427f4101be06976cf7dfc8f5fabf498fa5d80d427f9",
+        "source_member": "independent_expert_review/materials/control_Sub62_avg/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub62_avg/curves_kinematics.png",
+        "sha256": "94e1917a4661a8d76890e421688ed612fe0d0cc50f18864728a1a52054a913fd",
+        "source_member": "independent_expert_review/materials/control_Sub62_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/control_Sub73_avg/curves_kinematics.png",
+        "sha256": "31dc21593789ced9d960cf1e9a07e41ab8702864045eaded88b7195441047b6c",
+        "source_member": "independent_expert_review/materials/control_Sub73_avg/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub01_P/curves_emg.png",
+        "sha256": "90536034a4a8d071bf9bc0e2cf9d7fc1c68eac16921f8d86298b324723653b29",
+        "source_member": "independent_expert_review/materials/stroke_Sub01_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub02_P/curves_emg.png",
+        "sha256": "c7282bbbc071cd0ff7536c8051d860b52efbb40fa42028c78110eba43a228d45",
+        "source_member": "independent_expert_review/materials/stroke_Sub02_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub07_P/curves_emg.png",
+        "sha256": "fa9190f6f8a88619d2b72fecaac597539274f1a1a424835bfa340e8e11390cda",
+        "source_member": "independent_expert_review/materials/stroke_Sub07_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub07_P/curves_kinematics.png",
+        "sha256": "cd67d3dd0114cf8d2e3c064bf16f060c989c8cf049e7cdf10fdc2160c0de0dd5",
+        "source_member": "independent_expert_review/materials/stroke_Sub07_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub10_P/curves_kinematics.png",
+        "sha256": "e46ba39293d7da49fadd831e8f7100d29ede4c283c05857c81ffb30d07eeec12",
+        "source_member": "independent_expert_review/materials/stroke_Sub10_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub13_P/curves_emg.png",
+        "sha256": "bdddbc0ed5986e3aafacf2a5d44f61ab14e669bf27bd4a83d7152a6f3ee188f0",
+        "source_member": "independent_expert_review/materials/stroke_Sub13_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub13_P/curves_kinematics.png",
+        "sha256": "6776e39b46e3b8cac9b51c9adabaa5d5fdb6d257066b318a7a5e8376d2bee9ea",
+        "source_member": "independent_expert_review/materials/stroke_Sub13_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub15_P/curves_kinematics.png",
+        "sha256": "89082284c3472a14b72ff22dbcb959c80a9ac59b01459bfb9a477483aea3897c",
+        "source_member": "independent_expert_review/materials/stroke_Sub15_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub16_P/curves_emg.png",
+        "sha256": "349704e1a6bd09e58f24a101ce310144e801cae6f3295365b5656727da07b635",
+        "source_member": "independent_expert_review/materials/stroke_Sub16_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub16_P/curves_kinematics.png",
+        "sha256": "74fc87e828ea0deeda5a76f99a70514412eb5e56c605fbdb8076b94438bfe99e",
+        "source_member": "independent_expert_review/materials/stroke_Sub16_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub18_P/curves_emg.png",
+        "sha256": "2a069b348078641aee4839d45cd95f2a663ecb9b46f775b049687b0e6075a4dd",
+        "source_member": "independent_expert_review/materials/stroke_Sub18_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub19_P/curves_emg.png",
+        "sha256": "12628de7ec8e2cdde0c5aeee1617b613062c2af129737a8cb2365ec7cc91b605",
+        "source_member": "independent_expert_review/materials/stroke_Sub19_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub21_P/curves_emg.png",
+        "sha256": "85b9289ed57c838de47a2c562f0d385be73f9ae25352526b7d8958b5712e842c",
+        "source_member": "independent_expert_review/materials/stroke_Sub21_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub21_P/curves_kinematics.png",
+        "sha256": "74a300bc94a62664fd6504a0bc7f959fc43f1687af698d0e353272e2560d3905",
+        "source_member": "independent_expert_review/materials/stroke_Sub21_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub22_P/curves_emg.png",
+        "sha256": "591ba9ce168ba09d93057bdcf35c1d4ebf019fac5996371472b3921da5dbfd0d",
+        "source_member": "independent_expert_review/materials/stroke_Sub22_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub24_P/curves_emg.png",
+        "sha256": "3a80361af52ef2b8bce4067eeecbf2a1953b94eebb17f86043a3b28e6d1af061",
+        "source_member": "independent_expert_review/materials/stroke_Sub24_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub25_P/curves_emg.png",
+        "sha256": "972b067ca75249dbbc75dd41140bb5aa789882be307ad31b6d83ee3aad3dc1bc",
+        "source_member": "independent_expert_review/materials/stroke_Sub25_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub25_P/curves_kinematics.png",
+        "sha256": "2cfc04a941fc142f28f251dc20a23e43f4d895e9f128120cb8279dd6543efb43",
+        "source_member": "independent_expert_review/materials/stroke_Sub25_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub26_P/curves_emg.png",
+        "sha256": "63da08443a4aef65ecec311ffa0ba3cf5522e522a8287d9e8941f69bc8a1f267",
+        "source_member": "independent_expert_review/materials/stroke_Sub26_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub27_P/curves_emg.png",
+        "sha256": "334b1c6a8eccf4056982f80d4fb7ee030748837a2244d15b50a80ffdd6ce2ba3",
+        "source_member": "independent_expert_review/materials/stroke_Sub27_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub28_P/curves_emg.png",
+        "sha256": "fa26b49143f579c1f6958dcd720c8aea1f5e28388448d593ac31be1f8d730df5",
+        "source_member": "independent_expert_review/materials/stroke_Sub28_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub29_P/curves_emg.png",
+        "sha256": "6be30f71db3a26681fc1228d874721f4288750afb238124afbf15a40c752307f",
+        "source_member": "independent_expert_review/materials/stroke_Sub29_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub29_P/curves_kinematics.png",
+        "sha256": "044f6873560817d797b9e8815d541e6082a1d8a1bf0d30274bcbaa79b040a696",
+        "source_member": "independent_expert_review/materials/stroke_Sub29_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub30_P/curves_emg.png",
+        "sha256": "decbd9a45c6b8fc370283ef662d1aea65bb4c9e528ccfecca0b46a9033af0160",
+        "source_member": "independent_expert_review/materials/stroke_Sub30_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub30_P/curves_kinematics.png",
+        "sha256": "3fb16af0a08f2192f1785ff0fdbf8af5795fce45f25dc9f187780d374a9dd199",
+        "source_member": "independent_expert_review/materials/stroke_Sub30_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub33_P/curves_emg.png",
+        "sha256": "1535b49003b3613fc50bcec35bfad646adef7c4d207af517beb9c9aa7352b987",
+        "source_member": "independent_expert_review/materials/stroke_Sub33_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub33_P/curves_kinematics.png",
+        "sha256": "1f05bd989ccb9cc8702b74222e81d77fd389616fab3337c6538229a4fd45444c",
+        "source_member": "independent_expert_review/materials/stroke_Sub33_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub34_P/curves_emg.png",
+        "sha256": "64145e038566ecf26f2d5caf202613dfd821319ab99826ccecdffaab4d7fdfbf",
+        "source_member": "independent_expert_review/materials/stroke_Sub34_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub34_P/curves_kinematics.png",
+        "sha256": "180a7cd341082add8bd408d38dbe919d742a3b31a642b0a84ab8b3ae615a7dad",
+        "source_member": "independent_expert_review/materials/stroke_Sub34_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub35_P/curves_emg.png",
+        "sha256": "4d887c7b46518689fa1da5ad92d34cf6811ca5f5a3e82a61683559320f7fc022",
+        "source_member": "independent_expert_review/materials/stroke_Sub35_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub35_P/curves_kinematics.png",
+        "sha256": "2e2c80e7fba705a10dd5641141318f1c3d44f610fd6a33f6551dee983b1d63c5",
+        "source_member": "independent_expert_review/materials/stroke_Sub35_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub36_P/curves_emg.png",
+        "sha256": "80c72435d6d97b9b1e2aef856c3f085e4078ce49aadeea5b38d8a0b0100ceca1",
+        "source_member": "independent_expert_review/materials/stroke_Sub36_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub38_P/curves_emg.png",
+        "sha256": "311e7d19b9ad8caf8038e345bcd90bfbd941e5b0401a30bf17b99af22b549c99",
+        "source_member": "independent_expert_review/materials/stroke_Sub38_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub38_P/curves_kinematics.png",
+        "sha256": "faabe698be88effd2d40b0ab1762670bd3059ac5ac0e998b44a56b41a0bc553a",
+        "source_member": "independent_expert_review/materials/stroke_Sub38_P/curves_kinematics.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub40_P/curves_emg.png",
+        "sha256": "5e2d7b79ccc5b51e7c10dc042ad7c2bca97842c381c9b5df8f84784632c70a60",
+        "source_member": "independent_expert_review/materials/stroke_Sub40_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub49_P/curves_emg.png",
+        "sha256": "a21be627d04f87834b53a46a42c569ca30d640a4a60ec2eb951fb90953cd3e1d",
+        "source_member": "independent_expert_review/materials/stroke_Sub49_P/curves_emg.png"
+      },
+      {
+        "path": "docs/formal_study/case_review_v1/stroke_Sub49_P/curves_kinematics.png",
+        "sha256": "060c72d0f8deecb71c88e89aad96b6fc9f4eb4f8c6a1c12ef9fc34dece0eb03d",
+        "source_member": "independent_expert_review/materials/stroke_Sub49_P/curves_kinematics.png"
+      }
+    ]
+  },
+  "scores_changed": false,
+  "reports_regenerated": false,
+  "manuscript_changed": false,
+  "new_live_requests": 0,
+  "limitations": [
+    "Original controls Excel and processed MAT not freshly loaded",
+    "No fresh clinical re-rating",
+    "No clean-environment installation",
+    "Git index cloud-only; no current remote-state verification",
+    "Not every historical stream event inspected"
+  ]
+}

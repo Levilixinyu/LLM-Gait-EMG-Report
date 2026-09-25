@@ -1,0 +1,15 @@
+{
+  "status": "Passed",
+  "previous_sources_unchanged": true,
+  "final_case_requirements_unchanged": true,
+  "expert_reviewed_section_6_byte_identical": true,
+  "unrelated_sections_unchanged": true,
+  "exact_authorized_audit_amendments_applied": true,
+  "study_lead_decisions_recorded": 7,
+  "D09_concrete_settings_pending": true,
+  "expert_D04_both_accepted": true,
+  "rater2_delivery_clarification_accepted": true,
+  "rater1_capacity": "Pending",
+  "english_only": true,
+  "model_calls": 0
+}

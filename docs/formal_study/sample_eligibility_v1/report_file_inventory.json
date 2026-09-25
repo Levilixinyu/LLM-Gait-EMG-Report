@@ -1,0 +1,332 @@
+[
+  {
+    "participant_key": "stroke_Sub04",
+    "source": "data/reports/Sub04_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "8992ae3fc760873a1bcead46120979c24ca20343b41824e0eab432ac5d04dbaf"
+  },
+  {
+    "participant_key": "stroke_Sub04",
+    "source": "data/reports/Sub04_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "d14095c951901947f49ab25651677244de65ab6405d48e5ff7c3e23144edc943"
+  },
+  {
+    "participant_key": "stroke_Sub04",
+    "source": "data/reports/Sub04_P__openai__gpt-6-astra__v1.json",
+    "sha256": "d3a1ee3d73d10a67b9ca3408f27855908940dcb4632b0b64a68965d9ba4b0464"
+  },
+  {
+    "participant_key": "stroke_Sub05",
+    "source": "data/reports/Sub05_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "d811f1aa0252d4703cfdc506f0cb0a884981648483d18ea820fa061170da36cd"
+  },
+  {
+    "participant_key": "stroke_Sub05",
+    "source": "data/reports/Sub05_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "59af8c30a812ff377de6fc9e2b10a5b90f0c4bd7a7ed18911161ba2ce3e7761f"
+  },
+  {
+    "participant_key": "stroke_Sub05",
+    "source": "data/reports/Sub05_P__openai__gpt-6-astra__v1.json",
+    "sha256": "096c3c09e518059e115f0bf3a82ff640b4c741570251025d72b68d0ed112fa4a"
+  },
+  {
+    "participant_key": "stroke_Sub06",
+    "source": "data/reports/Sub06_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "e84747d604810cefcbd874465d89fa4037b089c45591e18f500c7684eb967789"
+  },
+  {
+    "participant_key": "stroke_Sub06",
+    "source": "data/reports/Sub06_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "386684aa4f60c1913b26df4cc57f47440435f67038a4c7c4c7338bf36ea715e8"
+  },
+  {
+    "participant_key": "stroke_Sub06",
+    "source": "data/reports/Sub06_P__openai__gpt-6-astra__v1.json",
+    "sha256": "8d0b9721171d8716b906420ae1d777c16f399688a572ef7bf97732043a765ff5"
+  },
+  {
+    "participant_key": "stroke_Sub09",
+    "source": "data/reports/Sub09_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "bf10e7a508a1cbf84035a73b6463ede6442b7edefcabe4156e3985aded2e9e6b"
+  },
+  {
+    "participant_key": "stroke_Sub09",
+    "source": "data/reports/Sub09_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "dba3659e750ca0c5a4523507b84ceee093059d870f3b17a18a12f8c05fd61fa2"
+  },
+  {
+    "participant_key": "stroke_Sub09",
+    "source": "data/reports/Sub09_P__openai__gpt-6-astra__v1.json",
+    "sha256": "afaa78ae95af919f138728dd64f7d65aebc6e1232f52438399967522e195329c"
+  },
+  {
+    "participant_key": "stroke_Sub11",
+    "source": "data/reports/Sub11_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "7fe08de3add887084fc70b070191b6173c6df7ebb1c0c1d7b985e62e7a74a4d8"
+  },
+  {
+    "participant_key": "stroke_Sub11",
+    "source": "data/reports/Sub11_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "c93df6930b5b8715623d3fa70e48ea457773f803ed8eb9b8b029fb72c7c9c54a"
+  },
+  {
+    "participant_key": "stroke_Sub11",
+    "source": "data/reports/Sub11_P__openai__gpt-6-astra__v1.json",
+    "sha256": "a4f6f569e98dfcec93d884efb31f3e909a517b991c6c6109e8a78d5019e0822b"
+  },
+  {
+    "participant_key": "stroke_Sub12",
+    "source": "data/reports/Sub12_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "32486dd4fb1fe43fd0df5e6bdb1028ba8d746a8246e6bad601884b1a7c193299"
+  },
+  {
+    "participant_key": "stroke_Sub12",
+    "source": "data/reports/Sub12_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "53f76acbf7358ee5553a17830effd746bb1ca801320355e70b97427cf4d7ce0e"
+  },
+  {
+    "participant_key": "stroke_Sub12",
+    "source": "data/reports/Sub12_P__openai__gpt-6-astra__v1.json",
+    "sha256": "10325f65a2b7920839c1dc8e75f181d04b5affaea26019aab4a227e44e6f21a6"
+  },
+  {
+    "participant_key": "stroke_Sub14",
+    "source": "data/reports/Sub14_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "22c225a63dd7b12f8c03028213b8ac13ace4a35e80cdc6c1dfc68009a9598a8a"
+  },
+  {
+    "participant_key": "stroke_Sub14",
+    "source": "data/reports/Sub14_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "90e8267d8ebf3ec993d4a5aac3ccfea9186b8e57fb4495cd813b4a0bef5ece8b"
+  },
+  {
+    "participant_key": "stroke_Sub14",
+    "source": "data/reports/Sub14_P__openai__gpt-6-astra__v1.json",
+    "sha256": "05c321e3053ad2bac982a2bc1b96c89ab9046c61df9b94925ae494b7286cb12c"
+  },
+  {
+    "participant_key": "stroke_Sub17",
+    "source": "data/reports/Sub17_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "12d4cd9229cdbf220a83674b4a5a09ba2c4fbf5ed55fa4468fec8b33c6a5a9d8"
+  },
+  {
+    "participant_key": "stroke_Sub17",
+    "source": "data/reports/Sub17_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "aad59208f987a27de7b4fb8fee0591da2d73d1285b7bfab322e642279c390df2"
+  },
+  {
+    "participant_key": "stroke_Sub17",
+    "source": "data/reports/Sub17_P__openai__gpt-6-astra__v1.json",
+    "sha256": "6ae24e8f9c6d1f22cef51e7bc1ffb672f88c87898eae1c37452232b66a6a3782"
+  },
+  {
+    "participant_key": "stroke_Sub20",
+    "source": "data/reports/Sub20_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "ebf47452b3e59d4440179b91ac85e9cd845816b248353796fafcde3443d22826"
+  },
+  {
+    "participant_key": "stroke_Sub20",
+    "source": "data/reports/Sub20_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "27dcde39640ac7625a62afc5f1664cd02e919004ab8905fcc4db8910ab747a19"
+  },
+  {
+    "participant_key": "stroke_Sub20",
+    "source": "data/reports/Sub20_P__openai__gpt-6-astra__v1.json",
+    "sha256": "52bdb076f1a9d5ef47fbd2afaf92508e873897fb5fc2c173ad1703970c8dea6e"
+  },
+  {
+    "participant_key": "stroke_Sub23",
+    "source": "data/reports/Sub23_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "2e6e2eaf73f4707d55a466ee405b923a99e05dbe8a132f050898e91f27bec9f9"
+  },
+  {
+    "participant_key": "stroke_Sub23",
+    "source": "data/reports/Sub23_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "ed4dac601a1f06a3c664cbda2afc9d951fca251cbc83f13d5f390f0bf5b836c0"
+  },
+  {
+    "participant_key": "stroke_Sub23",
+    "source": "data/reports/Sub23_P__openai__gpt-6-astra__v1.json",
+    "sha256": "137890f64d2e2b2b3e76055bc5f00a0ade7bcfffa7d6e2672b53106be2d58ad7"
+  },
+  {
+    "participant_key": "stroke_Sub31",
+    "source": "data/reports/Sub31_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "d2e51d57486937a5089ca582c5ac24216d371366a29893199d0e123b41f69f44"
+  },
+  {
+    "participant_key": "stroke_Sub31",
+    "source": "data/reports/Sub31_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "4f92714f415b07c44184f6a4ad3799b0a09e4de2e6890cd346e71b99b30f7020"
+  },
+  {
+    "participant_key": "stroke_Sub31",
+    "source": "data/reports/Sub31_P__openai__gpt-6-astra__v1.json",
+    "sha256": "f0965714ea51dea4449e474194fdb690efa15961a9d7040b4768087af2ea6e58"
+  },
+  {
+    "participant_key": "stroke_Sub32",
+    "source": "data/reports/Sub32_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "f2762432aa0b92c3495085657b2ce5d82af3ed610951cd1b35f5ce44c50374dd"
+  },
+  {
+    "participant_key": "stroke_Sub32",
+    "source": "data/reports/Sub32_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "efa06cf8f59d0527c27798853e784fcb9d61244930da24bf82a9170ff3dad01a"
+  },
+  {
+    "participant_key": "stroke_Sub32",
+    "source": "data/reports/Sub32_P__openai__gpt-6-astra__v1.json",
+    "sha256": "5015ab1df8504f2befb4c9dbb9745929e263dc91edd1d496095e83c3ae305f99"
+  },
+  {
+    "participant_key": "stroke_Sub39",
+    "source": "data/reports/Sub39_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "bb458ea5080c8695f23886df0271e65945de9d93ffe32d9e368011460a2e02c3"
+  },
+  {
+    "participant_key": "stroke_Sub39",
+    "source": "data/reports/Sub39_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "12822e3feaa29635746bd296ac2c531f48c8f1d873090e38393abde590f64258"
+  },
+  {
+    "participant_key": "stroke_Sub39",
+    "source": "data/reports/Sub39_P__openai__gpt-6-astra__v1.json",
+    "sha256": "d0d5d945a80cf87b9f783471f0a0b0774f6c71063b4c1d9e83cf8a5dbb198152"
+  },
+  {
+    "participant_key": "stroke_Sub42",
+    "source": "data/reports/Sub42_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "56d80d137753b64a6adff141ce6795165a54f7dea34c86a115306162f3d18cac"
+  },
+  {
+    "participant_key": "stroke_Sub42",
+    "source": "data/reports/Sub42_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "b43bfcbe3d4e8913a619a5709ae06a3f2ac3074587dc7651576c295605ae376f"
+  },
+  {
+    "participant_key": "stroke_Sub42",
+    "source": "data/reports/Sub42_P__openai__gpt-6-astra__v1.json",
+    "sha256": "6639872a5d252ac0ccc77591ece208057eaee45d7cf6d51688ff688bc96a98eb"
+  },
+  {
+    "participant_key": "stroke_Sub44",
+    "source": "data/reports/Sub44_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "111947041b69427a41891ff9b4446dea9dbe0291921647fe99831530da0981f3"
+  },
+  {
+    "participant_key": "stroke_Sub44",
+    "source": "data/reports/Sub44_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "7542ae60170da73cc24cc3cb97bb7aad2bb9fa0293f7a78e7ace64dfcb11639a"
+  },
+  {
+    "participant_key": "stroke_Sub44",
+    "source": "data/reports/Sub44_P__openai__gpt-6-astra__v1.json",
+    "sha256": "9af0f6d4dcfc9c6c19cef6ca475e035ed80a7c30d5c4cfa786703635126d0e44"
+  },
+  {
+    "participant_key": "stroke_Sub46",
+    "source": "data/reports/Sub46_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "d1825e34d41c7f8067cbe03aa8e761498ec2bd4d491446cd7adc734f2658237f"
+  },
+  {
+    "participant_key": "stroke_Sub46",
+    "source": "data/reports/Sub46_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "b44f663b061f9d00292c403bc116a2e722952739c04d0bb7b1330002ee97eb7a"
+  },
+  {
+    "participant_key": "stroke_Sub46",
+    "source": "data/reports/Sub46_P__openai__gpt-6-astra__v1.json",
+    "sha256": "6968f12aa6d22692451098fc6a72b171e0b373ae1df3464fa5db7120110cd2f5"
+  },
+  {
+    "participant_key": "stroke_Sub47",
+    "source": "data/reports/Sub47_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "d1748632d62ba3b231e4f78f50af6a9767169ecca70d9652b73a91271c64e203"
+  },
+  {
+    "participant_key": "stroke_Sub47",
+    "source": "data/reports/Sub47_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "787c2e83b22a9c4ef8c7e047c4fad9b98b70f4b472d1e793d9799c792573f225"
+  },
+  {
+    "participant_key": "stroke_Sub47",
+    "source": "data/reports/Sub47_P__openai__gpt-6-astra__v1.json",
+    "sha256": "0035577458d28ab4f33d891e3cefeb9a0469de0dd151f6fe1591f75a8a5b4603"
+  },
+  {
+    "participant_key": "stroke_Sub50",
+    "source": "data/reports/Sub50_P__anthropic__claude-opus-5__v1.json",
+    "sha256": "f2dabd92e1989d13b59b3017b43dc9053236ad705db696ec68948da525c93b83"
+  },
+  {
+    "participant_key": "stroke_Sub50",
+    "source": "data/reports/Sub50_P__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "ec7e58169193167ebdd82eb50041bf37dc014e730c053bee08347752edfb1987"
+  },
+  {
+    "participant_key": "stroke_Sub50",
+    "source": "data/reports/Sub50_P__openai__gpt-6-astra__v1.json",
+    "sha256": "f893156f141506cb58a9ae69304e1a73e56f9eb00f086759b9ae88379c89380b"
+  },
+  {
+    "participant_key": "control_Sub10",
+    "source": "data/reports_control_spotcheck/Sub10__anthropic__claude-opus-5__v1.json",
+    "sha256": "e05bdfe4546a157470ab6607b7e0635ce283a0c8a95ada514124c4a2449fa2ec"
+  },
+  {
+    "participant_key": "control_Sub10",
+    "source": "data/reports_control_spotcheck/Sub10__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "2153e0eb949b5969fee22d10bc159648ba548ebbcc97eabd88d030bf80672a6d"
+  },
+  {
+    "participant_key": "control_Sub10",
+    "source": "data/reports_control_spotcheck/Sub10__openai__gpt-6-astra__v1.json",
+    "sha256": "73a8b5169b8dd0be1ad5bf02a9ec7c9c1950baaff8a494465d00a70465246a92"
+  },
+  {
+    "participant_key": "control_Sub49",
+    "source": "data/reports_control_spotcheck/Sub49__anthropic__claude-opus-5__v1.json",
+    "sha256": "03d80666a0b67796697dc0b162edb10f8a5a4454f3f9810fa75c5f42829fe498"
+  },
+  {
+    "participant_key": "control_Sub49",
+    "source": "data/reports_control_spotcheck/Sub49__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "475a8ed95ec149a62f290f60302ae83d0778b522901d88163d583e60c16e4eca"
+  },
+  {
+    "participant_key": "control_Sub49",
+    "source": "data/reports_control_spotcheck/Sub49__openai__gpt-6-astra__v1.json",
+    "sha256": "78a7bb2d41a9f210e2d453438d38b98f68ed9d6a860afa7b6cf2dd3443341e71"
+  },
+  {
+    "participant_key": "control_Sub93",
+    "source": "data/reports_control_spotcheck/Sub93__anthropic__claude-opus-5__v1.json",
+    "sha256": "1bd570f306e7d0a3444c4be3e44a953f919d7c7d0c66761daa9240de70272144"
+  },
+  {
+    "participant_key": "control_Sub93",
+    "source": "data/reports_control_spotcheck/Sub93__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "3a27f023d759bc4e70c23961b67e3c55a7c648a1533f03cf469f49205739a63e"
+  },
+  {
+    "participant_key": "control_Sub93",
+    "source": "data/reports_control_spotcheck/Sub93__openai__gpt-6-astra__v1.json",
+    "sha256": "b898baa104f65b815285f405c25f3128bdbaf0b6f7240e332cd9a41351c6c2e2"
+  },
+  {
+    "participant_key": "control_Sub98",
+    "source": "data/reports_control_spotcheck/Sub98__anthropic__claude-opus-5__v1.json",
+    "sha256": "af7075534477d76ca7c9bcc3e90eb39f5e9b5b2cb76a09b986bad87064314acb"
+  },
+  {
+    "participant_key": "control_Sub98",
+    "source": "data/reports_control_spotcheck/Sub98__gemini__gemini-3.1-pro-preview__v1.json",
+    "sha256": "6fc0173f3c693cebfea19d5a76c29e26ebfad9bbf2ade8103b3f31780f05e3d2"
+  },
+  {
+    "participant_key": "control_Sub98",
+    "source": "data/reports_control_spotcheck/Sub98__openai__gpt-6-astra__v1.json",
+    "sha256": "83ee584ae85b444dfb8fa2ea9164619a70fceedcbcaefe7a9b9c77e5acc74f5f"
+  }
+]

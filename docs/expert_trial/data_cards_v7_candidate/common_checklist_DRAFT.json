@@ -1,0 +1,42 @@
+[
+  {
+    "item_id": "G01",
+    "category": "allowed_interpretation",
+    "draft_statement": "The report should capture meaningful findings and need not repeat every number. When evidence is insufficient, it may state “currently indeterminate”; please use “Modify” to enter the wording you would like the report to use.",
+    "evidence": "Uniform reporting requirements; see the full model input and reference notes for technical definitions",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "G02",
+    "category": "cannot_infer",
+    "draft_statement": "These materials alone cannot establish a diagnosis of spasticity, muscle weakness, or contracture, nor can they be used to prescribe a treatment plan. Information not recorded should not be guessed or treated as normal.",
+    "evidence": "Uniform reporting requirements; see the full model input and reference notes for technical definitions",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "G03",
+    "category": "cannot_infer",
+    "draft_statement": "When using a reference comparison, explain both its limited comparability and why it cannot establish a disease effect or clinical diagnosis. Naming age and speed separately is not required. A pooled label or speed range alone is insufficient. Case-specific speed findings remain separate requirements. For controls, do not use the comparison to establish disease or overall normality.",
+    "evidence": "Uniform reporting requirements; see the full model input and reference notes for technical definitions",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "G04",
+    "category": "allowed_interpretation",
+    "draft_statement": "Describe threshold findings as properties of the average EMG envelope. They do not establish physiological activation timing or normal gait phases. CCI comparisons describe an empirical range, not normal muscle function. Assess content coverage separately from incorrect assertions. Supplementary plots and reference values not provided to the model cannot be required content.",
+    "evidence": "Uniform reporting requirements; see the full model input and reference notes for technical definitions",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  }
+]

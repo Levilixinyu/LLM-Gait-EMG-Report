@@ -1,0 +1,1143 @@
+{
+  "checked_at_utc": "2026-09-18T17:12:33.266111+00:00",
+  "status": "Merge checks pass; full confirmation pending",
+  "source_sha256": {
+    "Case_requirements_reconciliation.xlsx": "95b0878979029df53e3ab990f320b6852ab314e0ee5fd7d45e3efd4c229ed7b1",
+    "Case_requirements_reconciliation_rater1_reply.xlsx": "981edb83742aed27faca03e867a141572e8233d2157718399927b092408e817e",
+    "Case_requirements_reconciliation_rater2_reply.xlsx": "c2417e9a78a606dcd797e6025489e743ea610c653349d43fc8afdf8a29b784a3",
+    "Case_requirements_reconciliation_consensus.xlsx": "caffdccafbbb8665481dbf2899c71817e3320ff27caa8afee989134cece769ac"
+  },
+  "shared_topics_with_bilateral_responses": 8,
+  "original_rows_with_bilateral_responses": 23,
+  "additional_rows_with_bilateral_responses": 13,
+  "original_rows_awaiting_rater1_confirmation": 177,
+  "pending_discussion_decisions_in_current_consensus": 0,
+  "full_consensus_confirmed": false,
+  "source_fields_preserved": true,
+  "rater1_responses_preserved_in_rater2_reply": true,
+  "adopted_wording_and_components_match_replies": true,
+  "english_only": true,
+  "provenance_checks": [
+    {
+      "path": "docs/formal_study/case_review_reconciliation_v1/Case_requirements_reconciliation_consensus.xlsx",
+      "historical_source_sha256": "e0fa7842e0474d561ded109c1f4ad473047b6a4f0eb36c0dd110fca698729051",
+      "current_sha256": "caffdccafbbb8665481dbf2899c71817e3320ff27caa8afee989134cece769ac",
+      "status": "Historical reviewed version differs from current revised consensus; original hash preserved. No byte-equivalence claim."
+    },
+    {
+      "path": "docs/formal_study/case_review_v1/control_Sub62_avg/model_user_prompt.txt",
+      "sha256": "ed7818fe0bd00ce48c93456e255097e504781d98808aeea69af7a2a3b9db5193",
+      "status": "Match"
+    },
+    {
+      "path": "docs/formal_study/case_review_v1/control_Sub73_avg/model_user_prompt.txt",
+      "sha256": "7381cfe625ee341d1aeffa95108ada833bfa637e31ddd0a8f90f83ef336bb5e3",
+      "status": "Match"
+    },
+    {
+      "path": "docs/formal_study/case_review_v1/control_Sub117_avg/model_user_prompt.txt",
+      "sha256": "a03f92f79558284aa1095a348e637bd9de7de24ca2fa59d764f45575c5c494c8",
+      "status": "Match"
+    },
+    {
+      "path": "docs/formal_study/case_review_v1/control_Sub14_avg/model_user_prompt.txt",
+      "sha256": "85d7ead6a536961582f7351bbdd003b5c036fc9536a5f622ef957ba1aea8f902",
+      "status": "Match"
+    },
+    {
+      "path": "docs/formal_study/case_review_v1/control_Sub09_avg/model_user_prompt.txt",
+      "sha256": "d34df564ccfcde4be929908f7eb68ad0dd3656ff2f6c106c088286d850f465d5",
+      "status": "Match"
+    }
+  ],
+  "confirmed_original_ids": [
+    "R023",
+    "R029",
+    "R039",
+    "R052",
+    "R064",
+    "R071",
+    "R106",
+    "R118",
+    "R134",
+    "R151",
+    "R153",
+    "R157",
+    "R158",
+    "R166",
+    "R168",
+    "R172",
+    "R173",
+    "R177",
+    "R178",
+    "R181",
+    "R183",
+    "R186",
+    "R193"
+  ],
+  "awaiting_rater1_confirmation": [
+    {
+      "comparison_id": "R001",
+      "case_id": "stroke_Sub01_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R002",
+      "case_id": "stroke_Sub01_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R003",
+      "case_id": "stroke_Sub01_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R004",
+      "case_id": "stroke_Sub01_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R005",
+      "case_id": "stroke_Sub01_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R006",
+      "case_id": "stroke_Sub01_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R007",
+      "case_id": "stroke_Sub02_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R008",
+      "case_id": "stroke_Sub02_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R009",
+      "case_id": "stroke_Sub02_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R010",
+      "case_id": "stroke_Sub02_P",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R011",
+      "case_id": "stroke_Sub02_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R012",
+      "case_id": "stroke_Sub02_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R013",
+      "case_id": "stroke_Sub07_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R014",
+      "case_id": "stroke_Sub07_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R015",
+      "case_id": "stroke_Sub07_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R016",
+      "case_id": "stroke_Sub07_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R017",
+      "case_id": "stroke_Sub07_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R018",
+      "case_id": "stroke_Sub07_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R019",
+      "case_id": "stroke_Sub10_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R020",
+      "case_id": "stroke_Sub10_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R021",
+      "case_id": "stroke_Sub10_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R022",
+      "case_id": "stroke_Sub10_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R024",
+      "case_id": "stroke_Sub10_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R025",
+      "case_id": "stroke_Sub13_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R026",
+      "case_id": "stroke_Sub13_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R027",
+      "case_id": "stroke_Sub13_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R028",
+      "case_id": "stroke_Sub13_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R030",
+      "case_id": "stroke_Sub13_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R031",
+      "case_id": "stroke_Sub15_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R032",
+      "case_id": "stroke_Sub15_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R033",
+      "case_id": "stroke_Sub15_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R034",
+      "case_id": "stroke_Sub15_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R035",
+      "case_id": "stroke_Sub15_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R036",
+      "case_id": "stroke_Sub15_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R037",
+      "case_id": "stroke_Sub16_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R038",
+      "case_id": "stroke_Sub16_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R040",
+      "case_id": "stroke_Sub16_P",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R041",
+      "case_id": "stroke_Sub16_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R042",
+      "case_id": "stroke_Sub16_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R043",
+      "case_id": "stroke_Sub18_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R044",
+      "case_id": "stroke_Sub18_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R045",
+      "case_id": "stroke_Sub18_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R046",
+      "case_id": "stroke_Sub18_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R047",
+      "case_id": "stroke_Sub18_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R048",
+      "case_id": "stroke_Sub18_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R049",
+      "case_id": "stroke_Sub19_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R050",
+      "case_id": "stroke_Sub19_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R051",
+      "case_id": "stroke_Sub19_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R053",
+      "case_id": "stroke_Sub19_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R054",
+      "case_id": "stroke_Sub19_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R055",
+      "case_id": "stroke_Sub21_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R056",
+      "case_id": "stroke_Sub21_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R057",
+      "case_id": "stroke_Sub21_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R058",
+      "case_id": "stroke_Sub21_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R059",
+      "case_id": "stroke_Sub21_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R060",
+      "case_id": "stroke_Sub21_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R061",
+      "case_id": "stroke_Sub22_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R062",
+      "case_id": "stroke_Sub22_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R063",
+      "case_id": "stroke_Sub22_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R065",
+      "case_id": "stroke_Sub22_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R066",
+      "case_id": "stroke_Sub22_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R067",
+      "case_id": "stroke_Sub24_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R068",
+      "case_id": "stroke_Sub24_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R069",
+      "case_id": "stroke_Sub24_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R070",
+      "case_id": "stroke_Sub24_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R072",
+      "case_id": "stroke_Sub24_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R073",
+      "case_id": "stroke_Sub25_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R074",
+      "case_id": "stroke_Sub25_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R075",
+      "case_id": "stroke_Sub25_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R076",
+      "case_id": "stroke_Sub25_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R077",
+      "case_id": "stroke_Sub25_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R078",
+      "case_id": "stroke_Sub25_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R079",
+      "case_id": "stroke_Sub26_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R080",
+      "case_id": "stroke_Sub26_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R081",
+      "case_id": "stroke_Sub26_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R082",
+      "case_id": "stroke_Sub26_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R083",
+      "case_id": "stroke_Sub26_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R084",
+      "case_id": "stroke_Sub26_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R085",
+      "case_id": "stroke_Sub27_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R086",
+      "case_id": "stroke_Sub27_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R087",
+      "case_id": "stroke_Sub27_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R088",
+      "case_id": "stroke_Sub27_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R089",
+      "case_id": "stroke_Sub27_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R090",
+      "case_id": "stroke_Sub27_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R091",
+      "case_id": "stroke_Sub28_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R092",
+      "case_id": "stroke_Sub28_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R093",
+      "case_id": "stroke_Sub28_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R094",
+      "case_id": "stroke_Sub28_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R095",
+      "case_id": "stroke_Sub28_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R096",
+      "case_id": "stroke_Sub28_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R097",
+      "case_id": "stroke_Sub29_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R098",
+      "case_id": "stroke_Sub29_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R099",
+      "case_id": "stroke_Sub29_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R100",
+      "case_id": "stroke_Sub29_P",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R101",
+      "case_id": "stroke_Sub29_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R102",
+      "case_id": "stroke_Sub29_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R103",
+      "case_id": "stroke_Sub30_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R104",
+      "case_id": "stroke_Sub30_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R105",
+      "case_id": "stroke_Sub30_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R107",
+      "case_id": "stroke_Sub30_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R108",
+      "case_id": "stroke_Sub30_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R109",
+      "case_id": "stroke_Sub33_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R110",
+      "case_id": "stroke_Sub33_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R111",
+      "case_id": "stroke_Sub33_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R112",
+      "case_id": "stroke_Sub33_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R113",
+      "case_id": "stroke_Sub33_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R114",
+      "case_id": "stroke_Sub33_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R115",
+      "case_id": "stroke_Sub34_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R116",
+      "case_id": "stroke_Sub34_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R117",
+      "case_id": "stroke_Sub34_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R119",
+      "case_id": "stroke_Sub34_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R120",
+      "case_id": "stroke_Sub34_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R121",
+      "case_id": "stroke_Sub35_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R122",
+      "case_id": "stroke_Sub35_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R123",
+      "case_id": "stroke_Sub35_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R124",
+      "case_id": "stroke_Sub35_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R125",
+      "case_id": "stroke_Sub35_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R126",
+      "case_id": "stroke_Sub35_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R127",
+      "case_id": "stroke_Sub36_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R128",
+      "case_id": "stroke_Sub36_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R129",
+      "case_id": "stroke_Sub36_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R130",
+      "case_id": "stroke_Sub36_P",
+      "item_id": "N04",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R131",
+      "case_id": "stroke_Sub36_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R132",
+      "case_id": "stroke_Sub36_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R133",
+      "case_id": "stroke_Sub38_P",
+      "item_id": "N01",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R135",
+      "case_id": "stroke_Sub38_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R136",
+      "case_id": "stroke_Sub38_P",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R137",
+      "case_id": "stroke_Sub38_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R138",
+      "case_id": "stroke_Sub38_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R139",
+      "case_id": "stroke_Sub40_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R140",
+      "case_id": "stroke_Sub40_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R141",
+      "case_id": "stroke_Sub40_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R142",
+      "case_id": "stroke_Sub40_P",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R143",
+      "case_id": "stroke_Sub40_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R144",
+      "case_id": "stroke_Sub40_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R145",
+      "case_id": "stroke_Sub49_P",
+      "item_id": "N01",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R146",
+      "case_id": "stroke_Sub49_P",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R147",
+      "case_id": "stroke_Sub49_P",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R148",
+      "case_id": "stroke_Sub49_P",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R149",
+      "case_id": "stroke_Sub49_P",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R150",
+      "case_id": "stroke_Sub49_P",
+      "item_id": "N06",
+      "proposed_decision": "Retain"
+    },
+    {
+      "comparison_id": "R152",
+      "case_id": "control_Sub62_avg",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R154",
+      "case_id": "control_Sub62_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R155",
+      "case_id": "control_Sub62_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R156",
+      "case_id": "control_Sub07_avg",
+      "item_id": "N01",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R159",
+      "case_id": "control_Sub07_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R160",
+      "case_id": "control_Sub07_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R161",
+      "case_id": "control_Sub01_avg",
+      "item_id": "N01",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R162",
+      "case_id": "control_Sub01_avg",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R163",
+      "case_id": "control_Sub01_avg",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R164",
+      "case_id": "control_Sub01_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R165",
+      "case_id": "control_Sub01_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R167",
+      "case_id": "control_Sub73_avg",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R169",
+      "case_id": "control_Sub73_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R170",
+      "case_id": "control_Sub73_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R171",
+      "case_id": "control_Sub117_avg",
+      "item_id": "N01",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R174",
+      "case_id": "control_Sub117_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R175",
+      "case_id": "control_Sub117_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R176",
+      "case_id": "control_Sub14_avg",
+      "item_id": "N01",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R179",
+      "case_id": "control_Sub14_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R180",
+      "case_id": "control_Sub14_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R182",
+      "case_id": "control_Sub06_avg",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R184",
+      "case_id": "control_Sub06_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R185",
+      "case_id": "control_Sub06_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R187",
+      "case_id": "control_Sub39_avg",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R188",
+      "case_id": "control_Sub39_avg",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R189",
+      "case_id": "control_Sub39_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R190",
+      "case_id": "control_Sub39_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R191",
+      "case_id": "control_Sub09_avg",
+      "item_id": "N01",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R192",
+      "case_id": "control_Sub09_avg",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R194",
+      "case_id": "control_Sub09_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R195",
+      "case_id": "control_Sub09_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R196",
+      "case_id": "control_Sub31_avg",
+      "item_id": "N01",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R197",
+      "case_id": "control_Sub31_avg",
+      "item_id": "N02",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R198",
+      "case_id": "control_Sub31_avg",
+      "item_id": "N03",
+      "proposed_decision": "Modify"
+    },
+    {
+      "comparison_id": "R199",
+      "case_id": "control_Sub31_avg",
+      "item_id": "N04",
+      "proposed_decision": "Omit"
+    },
+    {
+      "comparison_id": "R200",
+      "case_id": "control_Sub31_avg",
+      "item_id": "N05",
+      "proposed_decision": "Omit"
+    }
+  ],
+  "scope": "Administrative provenance, merge and confirmation-scope check. No fresh raw-data or clinical-content adjudication; no model generation; no expert signatures inferred."
+}

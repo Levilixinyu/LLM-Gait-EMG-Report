@@ -1,0 +1,63 @@
+{
+  "status": "Independent reviews complete; consensus pending",
+  "review_validation": {
+    "rater1": {
+      "source_fields_match": true,
+      "complete_decisions": 200,
+      "all_modifications_have_wording": true,
+      "reviewer_and_date_present": true,
+      "english_text_checked": true,
+      "provenance_hashes_verified": 178,
+      "addition_evidence_checked": 13,
+      "counts": {
+        "Retain": 49,
+        "Modify": 91,
+        "Omit": 60
+      }
+    },
+    "rater2": {
+      "source_fields_match": true,
+      "complete_decisions": 200,
+      "all_modifications_have_wording": true,
+      "reviewer_and_date_present": true,
+      "english_text_checked": true,
+      "provenance_hashes_verified": 0,
+      "addition_evidence_checked": 10,
+      "counts": {
+        "Retain": 110,
+        "Omit": 63,
+        "Modify": 27
+      }
+    }
+  },
+  "comparison_counts": {
+    "Both retain original": 47,
+    "Both include; wording/components to align": 82,
+    "Both omit original": 52,
+    "Core inclusion differs": 19
+  },
+  "addition_rows": 13,
+  "both_propose_control_additions": 10,
+  "rater1_only_stroke_additions": 3,
+  "controls_without_required_EMG_under_each_return": {
+    "rater1": [],
+    "rater2": [
+      "control_Sub06_avg",
+      "control_Sub07_avg",
+      "control_Sub09_avg",
+      "control_Sub117_avg",
+      "control_Sub14_avg",
+      "control_Sub62_avg",
+      "control_Sub73_avg"
+    ]
+  },
+  "return_sha256": {
+    "rater1": "be43116b216b58bffa386caa3e1a5ec433d9785ae06f9b860230d007a21f886c",
+    "rater2": "20b0cf97fc06a9966d6219516a3d29a9337f4ed7b587a5d3ed9ced7a672220c6"
+  },
+  "final_consensus": false,
+  "external_exposure_confirmation": "Pending",
+  "model_calls": 0,
+  "verification_scope": "Locally available non-visual package files, both source workbooks, and reviewer provenance hashes verified. Visual assets and other iCloud placeholders were not rehashed in the package sweep; their prior manifest hashes are retained separately. Addition evidence was checked against actual model input text.",
+  "inference_limits": "Comparison labels are mechanical. Agent discussion advice is not an expert adjudication. Independence is stated in returns, not independently witnessed."
+}

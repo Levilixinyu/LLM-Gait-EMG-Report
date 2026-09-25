@@ -1,0 +1,74 @@
+[
+  {
+    "item_id": "N01",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: describe walking speed 0.23 m/s and that it is below the stated 0.80 m/s reference floor; no reference at this speed is supplied.",
+    "evidence": "Gait speed: 0.23 m/s (household ambulator (<0.4 m/s)) [The ambulation label denotes a speed band only, not measured walking independence, safety or real-world community mobility.]",
+    "proposed_components": "Displayed speed AND relation to reference speed support. Disease-attribution limits remain under common G03.",
+    "selection_basis": "Case-specific speed; comparison uses displayed precision. Retain, modify or omit based on expert judgment.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N02",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: identify these leading displayed joint-curve differences: Knee GVS 21.86 degrees; Ankle GVS 16.68 degrees. Choose which joints actually deserve emphasis; ranking is not clinical severity.",
+    "evidence": "- KneeAngles: range of motion 50.8 deg, Gait Variable Score 21.86\n- AnkleAngles: range of motion 17.9 deg, Gait Variable Score 16.68",
+    "proposed_components": "Named joint findings selected by the expert. No unseen waveform direction or phase is required.",
+    "selection_basis": "Two largest displayed GVS values, including ties at the cutoff; not an automatic importance rule.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N03",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: describe Gastrocnemius (GAS) as above the phase-specific reference mean at about 78% of the analysis cycle, with displayed max |z| 18.9. Decide whether it merits inclusion or replace it with a more relevant input-supported finding.",
+    "evidence": "- GAS: above-threshold interval(s) 40%-49%; 54%-97%; 99%-34% (wraps cycle boundary), 88% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.62, max |z| vs healthy reference: 18.9 (above reference, at 78% of cycle)",
+    "proposed_components": "Muscle AND mean-relative direction AND approximate cycle location; magnitude provides descriptive context, not a diagnostic threshold.",
+    "selection_basis": "One of two largest displayed max-|z| values; alphabetical tie-break only selects a review candidate. No uniqueness or exact rank is required.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N04",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: describe Erector spinae (ERS) as above the phase-specific reference mean at about 82% of the analysis cycle, with displayed max |z| 6.3. Decide whether it merits inclusion or replace it with a more relevant input-supported finding.",
+    "evidence": "- ERS: above-threshold interval(s) 60%-100%, 40% of cycle above threshold, peak normalized amplitude 0.53, max |z| vs healthy reference: 6.3 (above reference, at 82% of cycle)",
+    "proposed_components": "Muscle AND mean-relative direction AND approximate cycle location; magnitude provides descriptive context, not a diagnostic threshold.",
+    "selection_basis": "One of two largest displayed max-|z| values; alphabetical tie-break only selects a review candidate. No uniqueness or exact rank is required.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N05",
+    "category": "must_describe_candidate",
+    "draft_statement": "Optional candidate for a core finding: Gastrocnemius (GAS) has 88% displayed above-threshold coverage. Select this only if the envelope-extent finding adds useful case-specific content; otherwise omit it. Use the retained intervals in the input if helpful.",
+    "evidence": "- GAS: above-threshold interval(s) 40%-49%; 54%-97%; 99%-34% (wraps cycle boundary), 88% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.62, max |z| vs healthy reference: 18.9 (above reference, at 78% of cycle)",
+    "proposed_components": "If retained, describe measured above-threshold extent. Do not equate rounded coverage with continuous physiological activation or absence of brief threshold gaps.",
+    "selection_basis": "Largest displayed coverage, alphabetical tie-break. Optional candidate; the 100% display alone is not a pathological or physiological duration claim.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N06",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: describe the supplied successive-footfall step-length index -35.9% and its meaning: the paretic step is shorter. Do not infer overall gait symmetry from this index.",
+    "evidence": "Step length symmetry index: -35.9% (step-length definition: successive_footfall)",
+    "proposed_components": "Displayed index AND supported direction/rounded-zero meaning. A separate whole-gait disclaimer is not automatically required if no generalization is made.",
+    "selection_basis": "Step-length finding available to the model; not a validated severity category.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  }
+]

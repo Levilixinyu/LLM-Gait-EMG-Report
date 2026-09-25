@@ -1,0 +1,517 @@
+{
+  "status": "Authorized descriptive original independent agreement; no model comparison",
+  "computed_at_utc": "2026-09-23T16:40:17.758541+00:00",
+  "stage": "original_independent",
+  "participants": 35,
+  "reports": 105,
+  "model_mapping_read": false,
+  "post_feedback_ratings_used": false,
+  "pathology_flag_clarification_approved_by_this_run": false,
+  "pairs": {
+    "rater1__rater2": {
+      "role": "originally_planned",
+      "cohorts": {
+        "stroke": {
+          "case_requirements": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                331,
+                9,
+                5
+              ],
+              [
+                1,
+                10,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 357,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 0.9551820728291317,
+            "unweighted_kappa": 0.5495623373550987
+          },
+          "G03": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                75,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 75,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 1.0,
+            "unweighted_kappa": null
+          },
+          "any_error": {
+            "labels": [
+              false,
+              true
+            ],
+            "cross_tabulation": [
+              [
+                36,
+                3
+              ],
+              [
+                9,
+                17
+              ]
+            ],
+            "jointly_assessable": 65,
+            "excluded_incomplete_or_unknown": 10,
+            "raw_agreement": 0.8153846153846154,
+            "unweighted_kappa": 0.6
+          }
+        },
+        "control": {
+          "case_requirements": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                75,
+                6,
+                2
+              ],
+              [
+                3,
+                3,
+                1
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 90,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 0.8666666666666667,
+            "unweighted_kappa": 0.3090211132437623
+          },
+          "G03": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                29,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 29,
+            "excluded_unknown_or_pending": 1,
+            "raw_agreement": 1.0,
+            "unweighted_kappa": null
+          },
+          "any_error": {
+            "labels": [
+              false,
+              true
+            ],
+            "cross_tabulation": [
+              [
+                13,
+                0
+              ],
+              [
+                11,
+                5
+              ]
+            ],
+            "jointly_assessable": 29,
+            "excluded_incomplete_or_unknown": 1,
+            "raw_agreement": 0.6206896551724138,
+            "unweighted_kappa": 0.289532293986637
+          }
+        }
+      }
+    },
+    "rater1__rater3": {
+      "role": "authorized_supplementary",
+      "cohorts": {
+        "stroke": {
+          "case_requirements": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                332,
+                13,
+                0
+              ],
+              [
+                7,
+                5,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 357,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 0.9439775910364145,
+            "unweighted_kappa": 0.30531231757151167
+          },
+          "G03": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                75,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 75,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 1.0,
+            "unweighted_kappa": null
+          },
+          "any_error": {
+            "labels": [
+              false,
+              true
+            ],
+            "cross_tabulation": [
+              [
+                35,
+                0
+              ],
+              [
+                17,
+                2
+              ]
+            ],
+            "jointly_assessable": 54,
+            "excluded_incomplete_or_unknown": 21,
+            "raw_agreement": 0.6851851851851852,
+            "unweighted_kappa": 0.13232514177693774
+          }
+        },
+        "control": {
+          "case_requirements": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                77,
+                6,
+                0
+              ],
+              [
+                5,
+                2,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 90,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 0.8777777777777778,
+            "unweighted_kappa": 0.20032310177705956
+          },
+          "G03": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                29,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 29,
+            "excluded_unknown_or_pending": 1,
+            "raw_agreement": 1.0,
+            "unweighted_kappa": null
+          },
+          "any_error": {
+            "labels": [
+              false,
+              true
+            ],
+            "cross_tabulation": [
+              [
+                13,
+                0
+              ],
+              [
+                13,
+                3
+              ]
+            ],
+            "jointly_assessable": 29,
+            "excluded_incomplete_or_unknown": 1,
+            "raw_agreement": 0.5517241379310345,
+            "unweighted_kappa": 0.17142857142857143
+          }
+        }
+      }
+    },
+    "rater2__rater3": {
+      "role": "authorized_supplementary",
+      "cohorts": {
+        "stroke": {
+          "case_requirements": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                329,
+                3,
+                0
+              ],
+              [
+                9,
+                10,
+                0
+              ],
+              [
+                1,
+                5,
+                0
+              ]
+            ],
+            "jointly_assessable": 357,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 0.9495798319327731,
+            "unweighted_kappa": 0.5586235318359771
+          },
+          "G03": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                75,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 75,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 1.0,
+            "unweighted_kappa": null
+          },
+          "any_error": {
+            "labels": [
+              false,
+              true
+            ],
+            "cross_tabulation": [
+              [
+                47,
+                0
+              ],
+              [
+                11,
+                2
+              ]
+            ],
+            "jointly_assessable": 60,
+            "excluded_incomplete_or_unknown": 15,
+            "raw_agreement": 0.8166666666666667,
+            "unweighted_kappa": 0.22169811320754698
+          }
+        },
+        "control": {
+          "case_requirements": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                78,
+                0,
+                0
+              ],
+              [
+                4,
+                5,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "jointly_assessable": 90,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 0.9222222222222223,
+            "unweighted_kappa": 0.6139705882352944
+          },
+          "G03": {
+            "labels": [
+              "Covered",
+              "Partially covered",
+              "Not covered"
+            ],
+            "cross_tabulation": [
+              [
+                29,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0
+              ]
+            ],
+            "jointly_assessable": 30,
+            "excluded_unknown_or_pending": 0,
+            "raw_agreement": 0.9666666666666667,
+            "unweighted_kappa": 0.0
+          },
+          "any_error": {
+            "labels": [
+              false,
+              true
+            ],
+            "cross_tabulation": [
+              [
+                23,
+                2
+              ],
+              [
+                4,
+                1
+              ]
+            ],
+            "jointly_assessable": 30,
+            "excluded_incomplete_or_unknown": 0,
+            "raw_agreement": 0.8,
+            "unweighted_kappa": 0.14285714285714285
+          }
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "docs/formal_study/three_rater_analysis_v1/AGREEMENT_AUTHORIZATION.json": "655ac07f824ce2eafdc3331f3dff2dfb50b3a7c2fe484dc0efde2d0b86167632",
+    "docs/formal_study/case_requirements_v1/case_requirements.csv": "c836e6fae801ee15da142a989764f79223843a6509df27c26d7fb763fac27806",
+    "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160",
+    "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5",
+    "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+    "src/eval/three_rater_blinded.py": "211dc937793f53e6546fd7957db55cc2493b87a0e262bb45f1f30579cfb11235",
+    "src/eval/formal_analysis.py": "445f730e37d7f0ea496be9c099f67728b49608be8993dfa973ff1017b05d46bd",
+    "scripts/analyze_three_rater_agreement.py": "29377d1cbce10a3f0798183cf00da5519ae7a8cd8fa4472d24682f77f101e850"
+  },
+  "checks": {
+    "all_cross_tabs_reconstructed_from_trace": true,
+    "all_kappas_verified_with_exact_fraction_arithmetic": true,
+    "all_source_hashes_match_preparation": true
+  },
+  "limitations": [
+    "Agreement is not correctness; no expert is treated as ground truth.",
+    "Pairwise denominators differ when original Pending states exclude reports.",
+    "Multiple items and reports from each participant are correlated; no naive independent-row intervals or tests are used.",
+    "Supplementary pairs were authorized after blinded rating information had been inspected.",
+    "Post-feedback consensus is not used as independent reliability."
+  ]
+}

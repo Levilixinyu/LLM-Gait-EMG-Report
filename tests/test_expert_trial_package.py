@@ -42,7 +42,7 @@ def test_missing_emg_gets_scope_limit_not_zero_activity():
     summary=extract_summary_from_normalized(trial,norm)
     items=checklist(summary)
     assert all(x['expert_decision']=='PENDING' for x in items)
-    assert any('不能把EMG缺失写成无肌肉活动' in x['draft_statement'] for x in items)
+    assert any('missing EMG must not be described as no muscle activity' in x['draft_statement'] for x in items)
     assert not any('.intervals' in x['evidence'] for x in items)
 
 

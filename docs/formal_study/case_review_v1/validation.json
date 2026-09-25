@@ -1,0 +1,67 @@
+{
+  "verified_at_utc": "2026-09-18T07:10:11.054528+00:00",
+  "case_count": 35,
+  "stroke_count": 25,
+  "control_count": 10,
+  "candidate_items": 200,
+  "curve_figures_png_and_pdf": 70,
+  "checks": {
+    "selected_cases_unchanged": true,
+    "all_case_file_hashes_match": true,
+    "protected_files_unchanged": 35,
+    "approved_source_code_unchanged": true,
+    "identical_approved_system_prompt_for_all_cases": true,
+    "exact_two_message_inputs": true,
+    "all_candidate_evidence_in_model_visible_input": true,
+    "html_csv_workbook_proposals_match": true,
+    "all_expert_decisions_blank_or_pending": true,
+    "all_control_references_exclude_self": true,
+    "english_text_checked": true,
+    "figure_files_present": true,
+    "standalone_figures_embedded": true,
+    "workbook_links_resolve": true,
+    "existing_output_overwrite_refused": true,
+    "no_model_calls": true
+  },
+  "prior_regression_checks": {
+    "approved_five_case_inputs_reproduced": [
+      "stroke_Sub09_P",
+      "stroke_Sub05_P",
+      "stroke_Sub50_P",
+      "stroke_Sub47_P",
+      "control_Sub49_avg"
+    ],
+    "candidate_evidence_contract_tests_passed": 8,
+    "new_requirement_boundary_tests_passed": 3
+  },
+  "browser_checks": {
+    "all_35_case_forms": true,
+    "common_read_once_not_reopened": true,
+    "locked_until_reviewer": true,
+    "exactly_35_cases_exported": true,
+    "export_preserves_revision": true,
+    "export_preserves_rejection": true,
+    "export_preserves_addition": true,
+    "unfinished_is_draft": true,
+    "csv_has_utf8_bom": true,
+    "csv_has_review_and_case_id": true,
+    "reload_restores_browser_draft": true,
+    "second_reviewer_is_separate": true,
+    "json_import_restores_review": true,
+    "wrong_version_rejected_without_mutation": true,
+    "import_text_not_html": true,
+    "single_control_ui_works": true,
+    "single_control_has_matching_version": true,
+    "single_control_images_embedded": true,
+    "no_browser_runtime_errors": true
+  },
+  "browser_checks_sha256": "c8aabbf503bebf9988bc7afc1ffb0941c0a181bc342c3610e0c64ea473d454ef",
+  "browser_test_scope": "Synthetic UI edits in an isolated temporary Chrome profile. Test reviewer IDs in screenshots are not actual expert decisions or submissions.",
+  "verifier_sha256": "22edff4242a3a033136afe1471a6c6ddcc4de6b2f19ac27e6f22fbedd4130412",
+  "browser_verifier_sha256": "d3ed66b8d7c2772dd9bc02c37ac26333e1470cb6ca989f23725a5c92921b3697",
+  "remaining": {
+    "external_exposure_confirmation": "Pending",
+    "expert_requirements": "Pending",
+    "generation": "Not started"
+  }
+}

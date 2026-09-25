@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-09-18T20:31:11.904330+00:00",
+  "date": "2026-09-18",
+  "authority": "User acting as study lead in the active conversation",
+  "confirmation_english": "Okay, proceed as you recommended.",
+  "context": "The user first expressed agreement with all seven Study lead items, requested a critical audit, and then explicitly authorized proceeding with the audit recommendations.",
+  "language_provenance": "English translation; original-language statements remain in the conversation. Administrative recording by the assistant, not an invented handwritten or expert signature.",
+  "audit_source_sha256": "c7256ae80c44e670de76cc2ce8c158b8ac7e4b9cfe68e7f587a63e4cf24b22cc",
+  "accept_as_written": [
+    "D01",
+    "D05",
+    "D06",
+    "D11"
+  ],
+  "accept_with_exact_audit_clarification": [
+    "D03",
+    "D08"
+  ],
+  "D09": "Verification policy accepted; concrete configuration not frozen",
+  "does_not_authorize": [
+    "Live API compatibility calls",
+    "Formal 105-report generation",
+    "Changing expert requirements",
+    "Claiming completed readiness checks",
+    "Confirming another person's availability"
+  ]
+}

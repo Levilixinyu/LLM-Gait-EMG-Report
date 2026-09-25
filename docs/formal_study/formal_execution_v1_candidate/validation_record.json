@@ -1,0 +1,61 @@
+{
+  "checkpoint": "formal-execution-integration-offline-v1",
+  "recorded_utc": "2026-09-18T23:09:08.596502+00:00",
+  "test_counts": {
+    "tests": 55,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "model_calls_this_checkpoint": 0,
+  "formal_reports_generated": 0,
+  "human_decisions_created": 0,
+  "historical_compatibility_sources_unchanged": true,
+  "formal_plan_sha256": "72b490796c7cad2048fdac91c257068907387bcdceb421accef4d0f8d1d3ea37",
+  "synthetic_check_plan_sha256": "1ce7609ee781449f75309d8becaf79ce47a50ff735dc59fa45bdc5c661db6372",
+  "verified_cases": 35,
+  "verified_exact_prompt_files": 70,
+  "verified_curve_pngs": 70,
+  "verified_reference_cards": 35,
+  "verified_case_review_assets": 175,
+  "requirements": 149,
+  "report_slots": 105,
+  "coverage_rows_per_rater": 552,
+  "full_roster_mock_reports": 104,
+  "full_roster_mock_no_report_slots": 1,
+  "both_plans_authorized": false,
+  "english_working_file_check": "Passed",
+  "scope": "Offline implementation and mock HTTP checks; no live capacity or clinical quality claim",
+  "closed_software_gaps": [
+    "Balanced formal schedule and exact-plan live entry point",
+    "Durable attempts and terminal-ledger import",
+    "All real current review assets in both blinded packets",
+    "Final human authority evidence import and separate independent/final analysis artifacts"
+  ],
+  "remaining_release_gates": [
+    "Authorize and review representative-length synthetic check",
+    "Confirm output allowance and final effective-parameter record",
+    "Approve exact formal batch configuration, budget and evidence"
+  ],
+  "artifact_sha256": {
+    "docs/formal_study/formal_execution_v1_candidate/HUMAN_FINAL_DECISIONS.md": "5274396034d003b2c68e4c5707493ef0cd990ff9b7d12965a0d6f23cde9051e4",
+    "docs/formal_study/formal_execution_v1_candidate/README.md": "01069302dfc4771014bf8f01c28cdf256fc7d50b5ac0d6ef05bf98995168449a",
+    "docs/formal_study/formal_execution_v1_candidate/authorization_TEMPLATE.json": "4d29366df902819f7277709262aa5fe3549ad131057de3b5731315265ad68b08",
+    "docs/formal_study/formal_execution_v1_candidate/plan.json": "38ec4aaa8f665f1ab2ba15532c839474427b0115db85d68274f945dba611815d",
+    "docs/formal_study/formal_execution_v1_candidate/test_results.xml": "0b08755cfdbe4c62d7eb049cfe2394fd830ceae4d98929a44fb0501ce60dccaf",
+    "docs/formal_study/full_length_check_v1/README.md": "dc7622f896a10571668552816efebc652d891170c05bef1152ace22914f5f25b",
+    "docs/formal_study/full_length_check_v1/authorization_TEMPLATE.json": "fd6b658fe73feea6e0a26df4936f703ada22e8517a3731644fc2e1af2e8ec7f1",
+    "docs/formal_study/full_length_check_v1/plan.json": "7cc2dd5c8702da085131f5791112c612af9364d48ae1a675ee17dfc73c4627b0",
+    "docs/formal_study/full_length_check_v1/synthetic_system_prompt.txt": "7344890d01b92f0b9c691b754d5d6a5c86d7c393e9425f197406473dea041473",
+    "docs/formal_study/full_length_check_v1/synthetic_user_prompt.txt": "5fddcdfe9537c390a9952831f48e57058f8261148b7714b6346a2ef3cbfeabeb",
+    "scripts/run_formal_batch.py": "9b90d7421aceb0962bc3fdc4ede459025d64ab4f6ebb48e21f3b92f2b65ff16d",
+    "scripts/run_full_length_check.py": "928ab5926548fe8857c0ccbaceede55d56f1732831b6fdc83430cea6933c2acd",
+    "src/eval/formal_consensus.py": "56ad3a41ae2fd8c9a91b05d3c0906d036f2bf67102c0558c1f87ae0814cf1758",
+    "src/llm/formal_batch.py": "51f34965cc4015ec93f7514d6c7ecfee494009d80abeb8f1630aa1cab6135362",
+    "src/llm/formal_release.py": "f4145b5287641faf7bef546484e050732ed17e85c3e040471ae749574160ef15",
+    "src/llm/full_length_check.py": "342ca54285458424d3daed0cc163314eab63d2910e4b55ab7fccd94be4b3a88a",
+    "tests/test_formal_batch.py": "a0b144c83e9471ca56c37f532a28c43160456fa2a3b68c061ab0d7ec671da2f6",
+    "tests/test_formal_consensus.py": "f5790ed4d9e419d5cf40d0f0cfff3ce2d91c02aecbb9e141c6bb5b82e157ff7b",
+    "tests/test_full_length_check.py": "a8cd7cb759ea6247a9232f8ee2aa2076855fc968a98d0eb5cdbe86f42523277b"
+  }
+}

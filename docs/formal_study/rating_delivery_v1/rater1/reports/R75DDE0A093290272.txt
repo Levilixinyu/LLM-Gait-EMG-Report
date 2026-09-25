@@ -1,0 +1,49 @@
+**1. Objective Findings**
+- **Participant Group and Side:** Stroke, paretic side (Sub16_P). 
+- **Gait Speed:** 1.36 m/s. This speed falls into the provided "full community ambulator (>0.8 m/s)" band; however, this label denotes a speed category only and does not measure or verify real-world community mobility, safety, or independence.
+- **Cadence:** 116.2 steps/min.
+- **Step Length Symmetry Index:** -5.1% (using the successive-footfall definition). The negative value indicates the paretic-side step is shorter.
+- **Analysis Cycle:** The evaluated gait cycle runs from 0% to 100%, defined by successive initial contacts of the paretic limb. No other kinematic events or functional phase boundaries are supplied. All 7 provided muscles (GAS, RF, VL, BF, ST, TA, ERS) were recorded and evaluated. 
+
+**2. EMG Envelope and Threshold Findings**
+*Note: Evaluated EMG features describe the ensemble-averaged envelopes after amplitude normalization to their own maximums across available strides. Envelope amplitudes represent relative signal levels, not absolute strength, force, or neural activation. The detected intervals reflect regions where the averaged envelope exceeds 20% of its own peak for at least 3% of the cycle. This thresholding algorithm does not identify physiological single-stride onset or offset, determine continuous contraction, infer stride-to-stride variability, or establish true muscular inactivity outside the detected intervals.*
+
+- **GAS:** 39% of the cycle is above threshold. Retained intervals occur at 1%-6%, 9%-15%, and 21%-47%. The peak normalized amplitude is 0.88.
+- **RF:** 55% of the cycle is above threshold. Retained intervals occur at 30%-33%, 40%-48%, 58%-67%, and 82%-13% (maintaining activity above threshold across the initial-contact boundary). The peak normalized amplitude is 0.72.
+- **VL:** 61% of the cycle is above threshold. Retained intervals occur at 22%-27%, 28%-34%, 36%-46%, and 82%-18% (maintaining activity above threshold across the initial-contact boundary). The peak normalized amplitude is 0.63.
+- **BF:** 61% of the cycle is above threshold. Retained intervals occur at 28%-43%, 60%-64%, and 85%-27% (maintaining activity above threshold across the initial-contact boundary). The peak normalized amplitude is 0.63.
+- **ST:** 79% of the cycle is above threshold. Retained intervals occur at 50%-64% and 79%-42% (maintaining activity above threshold across the initial-contact boundary). The peak normalized amplitude is 0.84.
+- **TA:** 30% of the cycle is above threshold. Retained intervals occur at 59%-75% and 94%-7% (maintaining activity above threshold across the initial-contact boundary). The peak normalized amplitude is 0.74.
+- **ERS:** 23% of the cycle is above threshold. Retained intervals occur at 47%-64% and 79%-82%. The peak normalized amplitude is 0.80.
+
+*Co-contraction Indices (CCI):*
+*Note: CCI measures the whole-cycle overlap of normalized continuous envelopes, which includes sub-threshold activity. CCI values are specific to this normalization method and algorithm; they do not represent simultaneous force or a phase-specific event.*
+- **TA vs GAS:** The CCI is 0.38. This is situated near the median (0.39) of the supplied empirical healthy reference interval (2.5th–97.5th percentiles: 0.24–0.59).
+- **RF vs BF:** The CCI is 0.73. This is situated near the median (0.68) of the supplied empirical healthy reference interval (0.48–0.83).
+*(Disclaimer: Being within these empirical intervals does not establish physiologically normal co-activation, control, or muscle function, nor does it rule out impairment.)*
+
+**3. Kinematic and Reference Comparisons**
+*Note: The following variables are compared against a pooled reference of 138 healthy controls (1001 phase points). Although this subject's speed (1.36 m/s) falls within the reference cohort's overall range (0.80-1.79 m/s), the healthy reference data are not formally matched to this subject by age, speed, or sex. Consequently, observed deviations conflate stroke-specific differences with other unmatched variables. Differences from this reference indicate statistical divergence, not a specific clinical pathology, severity grade, or diagnosis.*
+
+- **Sagittal Joint Kinematics and ROM (Range of Motion):** ROM values reflect cycle-wide sagittal excursion and do not independently establish clinical mobility restrictions. 
+  - Ankle: ROM 27.1 deg; Gait Variable Score (GVS) 1.84.
+  - Knee: ROM 56.4 deg; GVS 10.83.
+  - Hip: ROM 45.0 deg; GVS 3.14.
+  - Pelvis: ROM 2.1 deg; GVS 9.38.
+- **Composite Kinematic Deviation:** The composite sagittal GPS-like score is 7.39. This score falls between the empirical healthy cohort median (5.1) and the 95th percentile (10.7).
+
+- **EMG Max |z| Deviations:** 
+*Note: Max |z| represents the maximum standardized difference from the phase-specific healthy reference mean; it is an extreme-value statistic. It does not identify the time of peak envelope amplitude or a specific gait event. Extreme values are common in healthy samples; do not classify these as abnormal via a traditional 2-SD rule.*
+  - GAS: 3.4 (above the reference mean at 35% of the cycle).
+  - RF: 3.1 (above the reference mean at 43% of the cycle).
+  - VL: 1.5 (below the reference mean at 98% of the cycle).
+  - BF: 2.8 (above the reference mean at 35% of the cycle).
+  - ST: 4.6 (above the reference mean at 37% of the cycle).
+  - TA: 2.2 (below the reference mean at 76% of the cycle).
+  - ERS: 2.8 (above the reference mean at 56% of the cycle).
+
+**4. Questions for Further Clinical Assessment**
+- Do the fragmented multiple retained intervals detected in the quadriceps (VL and RF) and calf (GAS) averaged envelopes reflect genuine fluctuations in motor control strategy, or are they an artifact of the amplitude normalization interacting with the 20% threshold?
+- Are the observed sagittal kinematic deviations for the knee (GVS 10.83) and pelvis (GVS 9.38) linked to structural constraints, compensatory mechanisms, or focal neuromuscular impairments during specific segments of the cycle?
+- Is there an anatomical, spatiotemporal, or measurement factor contributing to the shorter step length on the paretic side (symmetry index -5.1%)?
+- Should sensor placement, soft-tissue artifact, or crosstalk be investigated regarding the relatively high maximum standardized deviation (Max |z| = 4.6) seen in the ST envelope?

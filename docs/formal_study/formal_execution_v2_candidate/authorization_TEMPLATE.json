@@ -1,0 +1,42 @@
+{
+  "approved": false,
+  "budget_limit_usd": 120.0,
+  "confirmation_source": null,
+  "confirmed_at": null,
+  "max_total_attempts": 315,
+  "plan_sha256": "726dbda2ef559cdfa33ecf7c851935a6bd7274ee85b8a27f31d15447352c6aa4",
+  "recorded_by": null,
+  "release_checks": {
+    "analysis_and_adjudication_import_verified": {
+      "evidence_path": null,
+      "evidence_sha256": null,
+      "passed": false
+    },
+    "effective_parameters_recorded": {
+      "evidence_path": null,
+      "evidence_sha256": null,
+      "passed": false
+    },
+    "formal_runner_offline_checks_passed": {
+      "evidence_path": null,
+      "evidence_sha256": null,
+      "passed": false
+    },
+    "full_rating_assets_verified": {
+      "evidence_path": null,
+      "evidence_sha256": null,
+      "passed": false
+    },
+    "output_allowance_confirmed": {
+      "passed": true,
+      "evidence_path": "docs/formal_study/formal_execution_v2_candidate/CAP_CHANGE_RECORD.json",
+      "evidence_sha256": "286d7650a6ab4675e7730ba3ac54ca39365f169f1f6d760e9ac096129d474838"
+    },
+    "representative_synthetic_check_reviewed": {
+      "evidence_path": null,
+      "evidence_sha256": null,
+      "passed": false
+    }
+  },
+  "scope": "Formal 25 stroke plus 10 control reports"
+}

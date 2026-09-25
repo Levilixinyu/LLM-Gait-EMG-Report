@@ -1,0 +1,17 @@
+{
+  "substantive_changes": [
+    {
+      "record_id": "R099",
+      "field": "required_wording",
+      "source_text": "Describe BF envelope above its phase-specific reference mean at approximately 34% of the analysis cycle (displayed max |z| 5.1). Within each route, muscle identity AND mean-relative direction AND approximate cycle location are required. Exact max-|z| repetition is optional. Alternatively, describe the RF mean envelope as above threshold for about 95% of the cycle AND spanning the cycle boundary. Either complete route suffices.",
+      "final_text": "Describe EITHER (A) the BF envelope above its phase-specific reference mean at approximately 34% of the analysis cycle OR (B) the RF mean envelope above the algorithm-defined threshold for approximately 95% of the analysis cycle AND spanning the cycle boundary. One complete route is sufficient; both routes are not required. For route A, muscle identity, mean-relative direction and approximate cycle location are jointly required; exact repetition of max |z| 5.1 is optional. For route B, muscle identity, approximate above-threshold coverage and boundary-spanning status are jointly required; exact interval endpoints are optional."
+    },
+    {
+      "record_id": "R099",
+      "field": "required_components_and_optional_content",
+      "source_text": "OR: one complete route suffices. Required for each route: muscle identity AND direction relative to the phase-specific reference mean AND approximate cycle location. Optional: exact max |z| value, comparison with the supplied endpoint span (descriptive only). Prohibited: percentile classification, gait phase, physiological onset, severity.",
+      "final_text": "OR between routes. Route A requires BF AND above its phase-specific reference mean AND approximately 34% of the analysis cycle. Route B requires RF AND the mean envelope above the algorithm-defined threshold for approximately 95% of the analysis cycle AND spanning the cycle boundary. Exact max |z| 5.1 is optional for route A; interval endpoints 80%-75% are optional for route B. Route B does not require a direction relative to the reference mean or a location of maximum deviation. Apply the approved shared interpretation limits: threshold coverage is not physiological activation duration, continuous contraction or proof of disease; neither route licenses unsupported gait-phase, normal-timing or severity claims."
+    }
+  ],
+  "administrative_changes": "Clean presentation, explicit included/omitted separation and evidence-based confirmation status. No other requirement decisions, wording or component fields changed."
+}

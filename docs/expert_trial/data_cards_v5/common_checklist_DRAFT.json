@@ -2,8 +2,8 @@
   {
     "item_id": "G01",
     "category": "allowed_interpretation",
-    "draft_statement": "报告应抓住有意义的发现，不必复述每个数字。证据不足时可以写“目前无法判断”；请用“修改”写出您希望报告采用的说法。",
-    "evidence": "统一报告要求；技术定义见完整模型输入与参考说明",
+    "draft_statement": "The report should capture meaningful findings and need not repeat every number. When evidence is insufficient, it may state “currently indeterminate”; please use “Modify” to enter the wording you would like the report to use.",
+    "evidence": "Uniform reporting requirements; see the full model input and reference notes for technical definitions",
     "expert_decision": "PENDING",
     "expert_edit": "",
     "expert_id": "",
@@ -12,8 +12,8 @@
   {
     "item_id": "G02",
     "category": "cannot_infer",
-    "draft_statement": "这些资料不能单独确诊痉挛、肌无力或挛缩，也不能据此开出治疗方案。没有记录到的信息，不应猜测或当作正常。",
-    "evidence": "统一报告要求；技术定义见完整模型输入与参考说明",
+    "draft_statement": "These materials alone cannot establish a diagnosis of spasticity, muscle weakness, or contracture, nor can they be used to prescribe a treatment plan. Information not recorded should not be guessed or treated as normal.",
+    "evidence": "Uniform reporting requirements; see the full model input and reference notes for technical definitions",
     "expert_decision": "PENDING",
     "expert_edit": "",
     "expert_id": "",
@@ -22,8 +22,8 @@
   {
     "item_id": "G03",
     "category": "cannot_infer",
-    "draft_statement": "图中的参考带和计算指标只帮助比较，不是疾病诊断界限。走得快慢也会影响比较；肌电曲线的高低不能直接当作肌力大小。",
-    "evidence": "统一报告要求；技术定义见完整模型输入与参考说明",
+    "draft_statement": "The reference bands in the figures and the calculated metrics only aid comparison; they are not diagnostic cutoffs for disease. Walking speed also affects comparison; EMG curve amplitude cannot be directly equated with muscle strength.",
+    "evidence": "Uniform reporting requirements; see the full model input and reference notes for technical definitions",
     "expert_decision": "PENDING",
     "expert_edit": "",
     "expert_id": "",
@@ -32,8 +32,8 @@
   {
     "item_id": "G04",
     "category": "allowed_interpretation",
-    "draft_statement": "不必反复核对每个活动区间：曲线从0%开始不代表肌肉此时才启动，全程超过阈值也不代表持续异常收缩。只在报告误解这些含义时指出问题。模型没收到的图形和详细参考，不能作为漏报扣分依据。",
-    "evidence": "统一报告要求；技术定义见完整模型输入与参考说明",
+    "draft_statement": "There is no need to repeatedly check every activity interval: a curve starting at 0% does not mean the muscle only begins activation at that point, and remaining above threshold throughout does not mean sustained abnormal contraction. Flag issues only when the report misinterprets these meanings. Figures and detailed references not received by the model cannot be grounds for omission deductions.",
+    "evidence": "Uniform reporting requirements; see the full model input and reference notes for technical definitions",
     "expert_decision": "PENDING",
     "expert_edit": "",
     "expert_id": "",

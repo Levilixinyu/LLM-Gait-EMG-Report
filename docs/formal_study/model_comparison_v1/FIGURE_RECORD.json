@@ -1,0 +1,9 @@
+{
+  "source": "data/rating_packets_formal_v1/private/three_rater_model_analysis_v1/final_outcomes.json",
+  "source_sha256": "1e8b9e28d04f1d80ff09f0c36a4b56a95f9a7f08b5b2f6ce4e115762c5504ad0",
+  "script_sha256": "b4ccb7781e2139fab2705a4bc97f5374068a611ad64af9a9a8a2d4f44bdf1253",
+  "output_sha256": {
+    "Paired_stroke_coverage.png": "ce2fc0ef42a7190b94a5f3f66a413c335acd92d608c2d0dcfa9ce44f73e253f4",
+    "Paired_stroke_coverage.svg": "f87774d4c1e2fe6d75b4433d1270943fae8bea38fc112b0487f6f6f00850cca5"
+  }
+}

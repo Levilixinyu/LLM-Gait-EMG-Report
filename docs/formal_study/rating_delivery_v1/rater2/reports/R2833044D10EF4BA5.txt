@@ -1,0 +1,48 @@
+**1. Objective Findings**
+- **Participant Group**: Healthy Control (Sub01)
+- **Side Analyzed**: Not applicable. Data reflects initial-contact-aligned contributing strides pooled and averaged across both left and right sides.
+- **Gait Speed**: Not provided.
+- **Cadence**: Not provided.
+- **Step Length Symmetry**: Not applicable for this control participant.
+- **Composite Kinematic Deviation Score (GPS-like)**: 3.98
+
+**2. EMG Envelope and Threshold Findings**
+The following findings describe algorithm-detected intervals on averaged, normalized EMG envelopes (threshold: >20% of the muscle's own peak, duration: >3% of the analysis cycle). Normalized amplitude values reflect relative envelope peaks, not absolute force or muscular strength. A lack of detected intervals does not establish total physiological inactivity, and these averaged curves do not establish stride-to-stride variability. 
+
+- **Gastrocnemius (GAS)**: Detected interval from 4% to 56% of the gait cycle, representing 52% coverage. Peak normalized amplitude is 0.66.
+- **Rectus Femoris (RF)**: Detected interval from 84% to 49%, wrapping across the cycle-defining initial contact boundary. Coverage is 65% of the cycle. Peak normalized amplitude is 0.53.
+- **Vastus Lateralis (VL)**: Detected interval from 87% to 32%, wrapping across the initial contact boundary. Coverage is 48% of the cycle. Peak normalized amplitude is 0.58.
+- **Biceps Femoris (BF)**: Detected interval from 82% to 10%, wrapping across the initial contact boundary. Coverage is 27% of the cycle. Peak normalized amplitude is 0.59.
+- **Semitendinosus (ST)**: Two detected intervals: 70% to 74% and 79% to 48% (wrapping across the initial contact boundary). Coverage is 74% of the cycle. Peak normalized amplitude is 0.43.
+- **Tibialis Anterior (TA)**: Two detected intervals: 58% to 79% and 84% to 27% (wrapping across the initial contact boundary). Coverage is 65% of the cycle. Peak normalized amplitude is 0.57.
+- **Erector Spinae (ERS)**: Detected interval from 64% to 62%, wrapping across the initial contact boundary. Coverage is 98% of the cycle. Peak normalized amplitude is 0.52.
+
+**Co-Contraction Indices (CCI):**
+CCI reflects the whole-cycle normalized envelope overlap and does not measure simultaneous force output, normal/pathological stiffness, or specific functional phases.
+- **TA vs. GAS**: CCI = 0.40. This value is near the provided empirical reference median of 0.39 (2.5th-97.5th percentile interval: 0.24-0.59).
+- **RF vs. BF**: CCI = 0.67. This value is near the provided empirical reference median of 0.68 (2.5th-97.5th percentile interval: 0.48-0.83).
+
+**3. Kinematic and Reference Comparisons**
+Comparisons in this section utilize a leave-one-out reference from 137 pooled healthy subjects over 1001 phase points. Gait speed for this subject is not provided, meaning true age- and speed-matched comparability cannot be confirmed. Differences from this empirical reference do not inherently establish clinical restriction or pathology, nor does healthy-cohort membership prove normal individual physiology. 
+
+**Kinematics (Sagittal Plane Only):**
+The composite GPS-like score (3.98) is below the provided reference median of 5.1 (95th percentile: 10.7). Range of motion (ROM) values do not independently confirm clinical restriction. 
+- **Ankle**: ROM 26.8°, Gait Variable Score (GVS) 2.39
+- **Knee**: ROM 60.8°, GVS 4.97
+- **Hip**: ROM 43.2°, GVS 1.90
+- **Pelvis**: ROM 2.2°, GVS 5.41
+
+**EMG Deviations (Max |z|):**
+The max |z| score identifies the single largest standardized difference from the phase-specific reference mean across the 1001-point cycle. It does not represent the time of peak envelope amplitude. 
+- **GAS**: Max |z| = 4.9 (above reference mean at 53% of the cycle)
+- **RF**: Max |z| = 1.3 (below reference mean at 67% of the cycle)
+- **VL**: Max |z| = 2.3 (above reference mean at 17% of the cycle)
+- **BF**: Max |z| = 1.4 (above reference mean at 96% of the cycle)
+- **ST**: Max |z| = 3.7 (above reference mean at 35% of the cycle)
+- **TA**: Max |z| = 2.0 (above reference mean at 19% of the cycle)
+- **ERS**: Max |z| = 3.1 (above reference mean at 44% of the cycle)
+
+**4. Questions for Further Clinical Assessment**
+- Does the lack of provided self-selected gait speed or cadence limit the context necessary for fully evaluating the participant's kinematic and muscle activation profiles?
+- Given the narrow sagittal pelvic ROM (2.2°), are there methodological choices or calibration factors influencing this specific channel's measurement?
+- How do these averaged envelope characteristics align with an in-person observational gait assessment, given that cycle-to-cycle variability is not captured by these mean curves?

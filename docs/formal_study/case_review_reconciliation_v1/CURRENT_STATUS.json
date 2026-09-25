@@ -1,0 +1,40 @@
+{
+  "updated_at_utc": "2026-09-18T19:29:41.274815+00:00",
+  "status": "All case requirements confirmed and finalized as case-requirements-v1",
+  "original_requirements_confirmed": 200,
+  "original_requirements_total": 200,
+  "additional_rows_confirmed": 13,
+  "shared_topics_confirmed": 8,
+  "remaining_exception": null,
+  "case_id": "stroke_Sub29_P",
+  "item_id": "N03",
+  "accepted_this_confirmation": 176,
+  "confirmation_list_and_fields_match": true,
+  "markdown_and_json_match": true,
+  "R099_input_evidence_matches": true,
+  "original_consensus_unchanged": true,
+  "requirements_frozen": true,
+  "rater2_R099_confirmation": "Accepted as written",
+  "model_calls": 0,
+  "source_sha256": {
+    "docs/formal_study/case_review_reconciliation_v1/Case_requirements_reconciliation_consensus.xlsx": "caffdccafbbb8665481dbf2899c71817e3320ff27caa8afee989134cece769ac",
+    "docs/formal_study/case_review_reconciliation_v1/RATER1_REMAINING_REQUIREMENTS_CONFIRMATION.json": "0e7ac547ac40ae8fc44f7c797d3fc53051816224b21bd853725515d65a1f2b9f",
+    "docs/formal_study/case_review_reconciliation_v1/RATER1_REMAINING_REQUIREMENTS_CONFIRMATION.md": "d67ee16f11c9d65ffd19b4212c0eb6769ffe6c25d396cef6194e43971813dcb7",
+    "docs/formal_study/case_review_reconciliation_v1/CONSENSUS_RETURN_AUDIT.json": "f9f0f232b8c64474b43df94b338ae0bc765a48109527893fbbc75de914880081",
+    "docs/formal_study/case_review_v1/stroke_Sub29_P/model_user_prompt.txt": "46fc8e1be8bc2c72e0ea168f50b2abf809ed94ed6f187a5e2052085b2b574dc3"
+  },
+  "R099_proposed_replacement": {
+    "proposed_final_decision": "Modify",
+    "proposed_final_wording": "Describe EITHER (A) the BF envelope above its phase-specific reference mean at approximately 34% of the analysis cycle OR (B) the RF mean envelope above the algorithm-defined threshold for approximately 95% of the analysis cycle AND spanning the cycle boundary. One complete route is sufficient; both routes are not required. For route A, muscle identity, mean-relative direction and approximate cycle location are jointly required; exact repetition of max |z| 5.1 is optional. For route B, muscle identity, approximate above-threshold coverage and boundary-spanning status are jointly required; exact interval endpoints are optional.",
+    "proposed_final_required_components": "OR between routes. Route A requires BF AND above its phase-specific reference mean AND approximately 34% of the analysis cycle. Route B requires RF AND the mean envelope above the algorithm-defined threshold for approximately 95% of the analysis cycle AND spanning the cycle boundary. Exact max |z| 5.1 is optional for route A; interval endpoints 80%-75% are optional for route B. Route B does not require a direction relative to the reference mean or a location of maximum deviation. Apply the approved shared interpretation limits: threshold coverage is not physiological activation duration, continuous contraction or proof of disease; neither route licenses unsupported gait-phase, normal-timing or severity claims."
+  },
+  "scope": "Confirmation administration and source-evidence check; no expert decision inferred or historical record modified.",
+  "final_package": "docs/formal_study/case_requirements_v1",
+  "final_manifest_sha256": "2a4d4657d38bf2ff6b24213116d1f3efee2c5cb14c48367b25f298df747de288",
+  "RATER2_R099_confirmation_sha256": "14a3512a27131d3d2f398ee7bbb5602e0772f1f1ba98b7b84514305ef450b03e",
+  "status_history": [
+    "Initial consensus return: 23 original rows explicitly confirmed; 177 awaiting rater1 confirmation.",
+    "Rater1 remaining-row confirmation: 176 accepted; R099 replacement pending rater2.",
+    "Rater2 accepted the exact R099 replacement; all original and addition rows now confirmed."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "checkpoint": "formal-rating-analysis-offline-v1",
+  "recorded_utc": "2026-09-18T22:38:36.466868+00:00",
+  "test_counts": {
+    "tests": 42,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "model_calls_this_checkpoint": 0,
+  "formal_reports_generated": 0,
+  "expert_ratings_or_signatures_created": 0,
+  "completed_compatibility_plan_source_hashes_unchanged": true,
+  "source_and_rehearsal_hashes_verified": true,
+  "new_working_files_cjk_scan": "Passed",
+  "review_status": "Automated engineering verification; not independent statistical or clinical approval",
+  "formal_generation_authorized": false,
+  "remaining_release_gates": [
+    "Final output allowance and effective provider configuration",
+    "Formally authorized frozen 105-slot runner, schedule and cost limits",
+    "Terminal generation-ledger importer and full real-asset packet validation",
+    "Final human-consensus importer with adjudication provenance",
+    "Separate concrete formal-generation authorization"
+  ],
+  "artifact_sha256": {
+    "docs/formal_study/workflow_readiness_v1/CONFIGURATION_REVIEW.md": "82e97d6bc749c7c979ee159abfac61674a3cf080a1644516eb4f4db949c955ef",
+    "docs/formal_study/workflow_readiness_v1/DATA_DICTIONARY.md": "a5d0c020ae98847839b8cda0cafc3930803d7e1ba8b70f64c0e6285dd0d2727c",
+    "docs/formal_study/workflow_readiness_v1/README.md": "a64d60e4b829842a56aec4d1c804fc0ebbf4516ba6cda7322cdfb156316ae712",
+    "docs/formal_study/workflow_readiness_v1/offline_rehearsal.json": "83ff39d02ffe3679bb58fd1c47b9de61167dd68bd8834bdc8f85dc6ded723707",
+    "docs/formal_study/workflow_readiness_v1/test_results.xml": "e5e1c3627d263bf634c8da71a782772bff90d218f522503afa280b2c1bd7db3f",
+    "scripts/verify_formal_rating_analysis.py": "d4b715d2b7cfbd282a765b2777a6cde7c5d694c6da0cdeea15ffbdeb3b0f6f83",
+    "src/eval/formal_analysis.py": "445f730e37d7f0ea496be9c099f67728b49608be8993dfa973ff1017b05d46bd",
+    "src/eval/formal_rating.py": "252a7753b645a40a1845e4bd010538f51054d3dfe711827751338ee58367dd64",
+    "tests/test_formal_analysis.py": "48bd4bfbdd8db5fca6d42dccdcf4385ce3c8a7aa0be6df6df012ed0a1307f7b8",
+    "tests/test_formal_rating.py": "290c6ed6f158a54feb4d9e0c3cce2afb604909fa285c44727a5524952d466e16"
+  }
+}

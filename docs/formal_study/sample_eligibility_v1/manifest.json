@@ -1,0 +1,23 @@
+{
+  "package": "sample-eligibility-v1",
+  "status": "Decision support only; no participants selected or generation approved.",
+  "outputs_sha256": {
+    "README.md": "f7e5ede1e729b6fd67e661d2c4adf67172898c95f760caf2f5ace5b0f5c9d209",
+    "Sample_eligibility_and_decisions.xlsx": "222b5cded37b3de18c6c33ad00e2bb3edff7c7722f170f3d00bd3f4f19a079da",
+    "exposure_evidence.csv": "90ea5a4ddd8fa658c0bacb68f8b76f491e06230c5a42adaaf2b54c5a8febe9e6",
+    "participant_eligibility.csv": "cde0d84ef4b0c19cfbefd891b2e6752ea8aa46fc9450c900cb1fa626bf580a43",
+    "report_file_inventory.json": "ab22b220e6b3094feb52170947c641d3454e22e5f502b1dea2c1c122b3108dec",
+    "side_data_quality.csv": "851ddbfe2b397cf53984e9519051f25c5223e6baa721e9632303b97a18ffedcd",
+    "sub43_verification.json": "acb0d5ce52990beb19f4d65440041bed1be6dee515d891e203fa27f5b1cc7275",
+    "summary.json": "045c479faa1b7399b2cce3cd3baec4e665fb1508c81c593ca46d382dcf54d79b",
+    "verification.json": "b6a260707daf6b37ca795c5e16ed2600bbd64faef897fb4cd13338bad64e15b7"
+  },
+  "validation": {
+    "workbook_csv_semantic_round_trip": true,
+    "review_fields_blank": true,
+    "english_text_checked": true,
+    "existing_output_overwrite_refused": true,
+    "current_sources_unchanged": true,
+    "protected_files_unchanged": 237
+  }
+}

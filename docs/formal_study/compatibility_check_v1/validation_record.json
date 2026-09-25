@@ -1,0 +1,48 @@
+{
+  "recorded_at_utc": "2026-09-18T22:00:30.372257+00:00",
+  "status": "Ready for specific synthetic live authorization; no live calls performed",
+  "tests": 114,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "plan_sha256": "5dd87f902b0b5ec37194218e6e76a4b77c4daa1da82e7551a434d22c6cbd6fac",
+  "model_api_calls": 0,
+  "formal_reports_generated": 0,
+  "authorization_approved": false,
+  "intended_responses": 3,
+  "max_dispatches": 9,
+  "budget_limit_usd": 3.0,
+  "estimated_maximum_token_cost_usd": 2.205,
+  "scope": "Fixed fictional nonclinical inputs only; not formal study execution",
+  "verified": [
+    "Unauthorized or changed plans blocked before reading keys",
+    "SDK dispatch waits for durable parent reservation",
+    "Three-request-per-slot and nine-total limits survive resume",
+    "Completed empty and partial text are not regenerated",
+    "Uncertain remote completion pauses for retrieval review",
+    "Permanent errors cannot be reopened for retry",
+    "Raw attributed response recovery and stale-decision rejection",
+    "Live and mock output roots separated",
+    "English content and source hashes passed"
+  ],
+  "remaining": [
+    "User authorization for this exact synthetic check",
+    "Live account access/parameter validation",
+    "Decision on formal token allowance and configuration freeze",
+    "Formal batch, blinding and analysis release checks"
+  ],
+  "files_sha256": {
+    "src/llm/compatibility_check.py": "7c092e906dccaad78875ec86230632be5a21cad22a35b166ded2e77e6f7d8389",
+    "src/llm/formal_providers.py": "b52dddbef2793ac6fb0224ee935d04cfa7616b087d1d6ae57aba62c8a99af272",
+    "src/llm/formal_generation.py": "2c2ac18319b0ce91cdb5670380b193a106d0146360948698d27b1c5782f21c74",
+    "scripts/run_compatibility_check.py": "f7a2c053997b9b69fbf8605e6a8c5b1921ed6bb9b8d6fad1f88a4c30f1fb1e74",
+    "docs/formal_study/generation_preflight_v1/provider_candidates.json": "18b448308b7e9048ee80a3b9d52da1df9817d989413610018c6ff1a6d1df6f79",
+    "tests/test_compatibility_check.py": "4729d4ebcba7d986492b5217baa4ddf922bfc72aaefc5ae867b4f4a4ac651806",
+    "tests/test_formal_providers.py": "8a35954af59d0d6757118c68b877f1d51362dc1525de736f19e11619ec9d6fa6",
+    "tests/test_formal_generation.py": "8a3402d1f8ba2382420c4bb861201d560c6690f8d12cde6550d20d23f026cde4",
+    "docs/formal_study/compatibility_check_v1/plan.json": "52c8eee9d162be8ff4fac43a524dc25900f70890b56e611ffadc62ce400fb83a",
+    "docs/formal_study/compatibility_check_v1/authorization.json": "a9f06a87cda968fdc88ba309bfa255610d170f918b3b533928d4cd6974b657ac",
+    "docs/formal_study/compatibility_check_v1/test_results.xml": "7ad9b63ee5c1009c043efa81227fea6766ad24e27ef437d85278b1d717158819",
+    "docs/formal_study/compatibility_check_v1/README.md": "5c726dc3cebc33d8a62edc6bdd6508e2cbbf0d68429b108d1b1247e635266763"
+  }
+}

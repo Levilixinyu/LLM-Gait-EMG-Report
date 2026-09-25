@@ -1,0 +1,54 @@
+{
+  "recorded_at_utc": "2026-09-18T22:00:30.372257+00:00",
+  "status": "Offline checks passed; bounded synthetic live package prepared and awaiting specific authorization",
+  "tests": 114,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "sdk_versions": {
+    "openai": "3.14.1",
+    "anthropic": "1.6.0",
+    "google-genai": "2.23.0",
+    "httpx": "0.28.1",
+    "httpx2": "2.13.0"
+  },
+  "model_api_calls": 0,
+  "formal_reports_generated": 0,
+  "verified_prompt_files": 70,
+  "planned_report_slots": 105,
+  "English_content_check": "Passed",
+  "historical_generation_code_modified": false,
+  "historical_reports_or_expert_returns_modified": false,
+  "configuration_frozen": false,
+  "generation_authorized": false,
+  "implemented": [
+    "Stream adapters using actual installed SDKs",
+    "Counted single HTTP dispatch and disabled SDK retries",
+    "Exact wire request/input validation",
+    "Error payload classification and Retry-After parsing",
+    "Complete visible text and usage/ID capture",
+    "SDK mock streams through durable ledger and isolated hard deadline"
+  ],
+  "remaining": [
+    "User authorization for this exact synthetic check",
+    "Live account access/parameter validation",
+    "Decision on formal token allowance and configuration freeze",
+    "Formal batch, blinding and analysis release checks"
+  ],
+  "files_sha256": {
+    "src/llm/compatibility_check.py": "7c092e906dccaad78875ec86230632be5a21cad22a35b166ded2e77e6f7d8389",
+    "src/llm/formal_providers.py": "b52dddbef2793ac6fb0224ee935d04cfa7616b087d1d6ae57aba62c8a99af272",
+    "src/llm/formal_generation.py": "2c2ac18319b0ce91cdb5670380b193a106d0146360948698d27b1c5782f21c74",
+    "scripts/run_compatibility_check.py": "f7a2c053997b9b69fbf8605e6a8c5b1921ed6bb9b8d6fad1f88a4c30f1fb1e74",
+    "docs/formal_study/generation_preflight_v1/provider_candidates.json": "18b448308b7e9048ee80a3b9d52da1df9817d989413610018c6ff1a6d1df6f79",
+    "tests/test_compatibility_check.py": "4729d4ebcba7d986492b5217baa4ddf922bfc72aaefc5ae867b4f4a4ac651806",
+    "tests/test_formal_providers.py": "8a35954af59d0d6757118c68b877f1d51362dc1525de736f19e11619ec9d6fa6",
+    "tests/test_formal_generation.py": "8a3402d1f8ba2382420c4bb861201d560c6690f8d12cde6550d20d23f026cde4",
+    "docs/formal_study/generation_preflight_v1/change_log.json": "9925ea541fbb1d90ec6c414d2ff230fd68927e07c853c5739cd61e4c8e083e48",
+    "docs/formal_study/generation_preflight_v1/test_results.xml": "496ff0ce2591f320e6aaa38933dc496ebfc7532d6b01975a3f7cda5cb765ba0b",
+    "docs/formal_study/generation_preflight_v1/README.md": "b41a03872727eb58f4b3a83efd197780b3941bb425f39daa285e38aa8eb8ff9e",
+    "docs/formal_study/generation_preflight_v1/offline_validation.json": "c8988929e259e4c88791caaa3add53778cf0c02a6f8b7d8c78824c7c066e839a",
+    "docs/formal_study/generation_preflight_v1/task_inventory_DRAFT.json": "eb3a59e494c94ced5bb3ceb3e7268811b4ae3e08ed45b66eeaa1d56e1ef609be"
+  },
+  "combined_test_report": "docs/formal_study/compatibility_check_v1/test_results.xml"
+}

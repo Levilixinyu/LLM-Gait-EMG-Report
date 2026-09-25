@@ -1,0 +1,41 @@
+**1. Objective Findings**
+Participant Sub31 is classified within the dataset’s healthy control group. As a control participant, a paretic/non-paretic designation and the associated step-length symmetry index are not applicable. Gait speed and cadence were not provided in the supplied summary. Sagittal plane kinematics and mean EMG envelopes are available for analysis. The composite sagittal kinematic deviation score (GPS-like) is 4.27.
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings are based on averaged envelopes for each muscle across contributing strides. Above-threshold intervals indicate regions where the mean envelope exceeds 20% of its own maximum and is maintained for at least 3% of the analysis cycle. The cycle is defined from 0% to 100% between consecutive initial contacts of the contributing strides; no intermediate physiological events (such as toe-off) are identified. Note that a lack of a detected interval does not mean the muscle is completely inactive, and these intervals do not establish continuous contraction in individual strides. 
+
+*   **Gastrocnemius (GAS):** Above threshold from 10%-51% (41% coverage). Peak normalized amplitude is 0.72.
+*   **Rectus Femoris (RF):** Two intervals detected at 54%-72% and 95%-21% (wraps across the initial contact boundary). Total coverage is 47%. Peak normalized amplitude is 0.63.
+*   **Vastus Lateralis (VL):** Above threshold from 89%-18% (wraps across the boundary). Total coverage is 29%. Peak normalized amplitude is 0.81.
+*   **Biceps Femoris (BF):** Three intervals detected at 9%-46%, 81%-86%, and 90%-8% (wraps across the boundary). Total coverage is 60%. Peak normalized amplitude is 0.62.
+*   **Semitendinosus (ST):** Two intervals detected at 16%-20% and 74%-6% (wraps across the boundary). Total coverage is 37%. Peak normalized amplitude is 0.69.
+*   **Tibialis Anterior (TA):** Two intervals detected at 59%-78% and 89%-13% (wraps across the boundary). Total coverage is 44%. Peak normalized amplitude is 0.78.
+*   **Erector Spinae (ERS):** Two intervals detected at 1%-19% and 46%-60%. Total coverage is 33%. Peak normalized amplitude is 0.72.
+
+Co-contraction indices (CCI) compute the whole-cycle overlap area of the continuous normalized envelopes. The TA vs. GAS CCI is 0.33, which falls within the reference cohort’s interpercentile range (2.5th–97.5th percentile: 0.24–0.59). The RF vs. BF CCI is 0.48, which lies at the lower boundary of the provided reference range (0.48–0.83). These overlap metrics depend heavily on the normalization method and do not measure absolute force or establish physiological co-activation quality.
+
+**3. Kinematic and Reference Comparisons**
+Kinematic and EMG deviations were calculated against a pooled reference of 137 healthy participants (leave-one-out methodology). Comparisons with this reference do not account for speed or age matching, and control group membership does not inherently prove normal physiology. Deviations from this empirical reference cannot be used to establish or exclude clinical restrictions.
+
+*Sagittal Kinematics and Gait Variable Scores (GVS):*
+*   **Ankle:** Range of motion 27.6°, GVS 1.92
+*   **Knee:** Range of motion 66.2°, GVS 3.96
+*   **Hip:** Range of motion 50.0°, GVS 4.86
+*   **Pelvis:** Range of motion 2.4°, GVS 5.48
+The composite kinematic deviation score of 4.27 is below the healthy reference median of 5.1.
+
+*Maximum |z| Deviations (EMG):*
+The maximum |z| deviation represents the single largest standardized difference from the phase-matched reference mean; it does not necessarily denote the time of peak amplitude or establish clinical abnormality. 
+*   **BF:** 6.0 (above reference, at 29% of cycle)
+*   **RF:** 4.2 (above reference, at 60% of cycle)
+*   **VL:** 2.5 (above reference, at 8% of cycle)
+*   **ERS:** 2.5 (below reference, at 1% of cycle)
+*   **TA:** 2.4 (above reference, at 98% of cycle)
+*   **ST:** 2.1 (above reference, at 82% of cycle)
+*   **GAS:** 1.5 (above reference, at 39% of cycle)
+
+**4. Questions for Further Clinical Assessment**
+*   What were the participant's unrecorded self-selected walking speed and cadence, and how might they influence the observed EMG intervals and kinematic ranges?
+*   Do the maximum deviations observed in the BF and RF envelopes represent individual physiological variation, or are they related to specific aspects of the normalization and averaging protocol?
+*   Where does toe-off occur for this participant, and how would mapping it relative to the cycle percentages clarify the functional context of the detected EMG intervals?
+*   Does the pelvic range of motion (2.4°) and its corresponding GVS (5.48) reflect standard inter-individual kinematic variation or a potential artifact of marker placement during data collection?

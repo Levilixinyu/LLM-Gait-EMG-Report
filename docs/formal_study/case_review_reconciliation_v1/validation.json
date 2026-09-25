@@ -1,0 +1,13 @@
+{
+  "status": "Passed",
+  "source_hashes_verified": 212,
+  "original_rows": 200,
+  "addition_rows": 13,
+  "shared_topics": 8,
+  "navigation_links_verified": 101,
+  "consensus_fields_blank": true,
+  "workbook_csv_match": true,
+  "english_only": true,
+  "original_returns_unchanged": true,
+  "model_calls": 0
+}

@@ -1,0 +1,16 @@
+{
+  "recorded_date": "2026-09-23",
+  "authority": "Study lead, direct conversation instruction",
+  "instruction_english_translation": "Okay, analyze all of them.",
+  "context": "Response to the explanation of pairwise original independent agreement for rater1-rater2, rater1-rater3 and rater2-rater3.",
+  "authorized_pairs": [
+    "rater1__rater2",
+    "rater1__rater3",
+    "rater2__rater3"
+  ],
+  "stage": "original_independent",
+  "unblinding_authorized": false,
+  "pathology_flag_clarification_approved": false,
+  "entire_analysis_addendum_approved": false,
+  "scope": "Compute and document all three original independent agreement comparisons; preserve cohort and domain separation, exclusions and source hashes. No new expert decisions or signatures."
+}

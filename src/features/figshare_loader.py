@@ -4,7 +4,8 @@ angles and peak-normalized EMG envelopes.
 
 Stroke file (PostStrokeAdults.xlsx): one sheet per subject (Sub01..Sub50), columns
 prefixed Pside_/Nside_ (paretic / non-paretic side), each already averaged over that
-subject's strides and EMG-normalized to that subject's own peak muscle activity.
+subject's strides after EMG normalization by a common across-stride peak per
+recorded muscle (side-specific in the checked stroke MAT).
 No moments/powers/GRF (not enough good force-plate data for the stroke cohort).
 
 Able-bodied file (AbleBodiedAdults.xlsx): one sheet per subject (Sub01..Sub138),
@@ -20,6 +21,7 @@ import numpy as np
 import openpyxl
 
 from .data_types import NormalizedTrialData
+from .emg_provenance import RELEASED_COHORT_EMG
 
 EMG_MUSCLES = ["GAS", "RF", "VL", "BF", "ST", "TA", "ERS"]
 KINEMATIC_JOINTS = ["AnkleAngles", "KneeAngles", "HipAngles", "PelvisAngles"]
@@ -61,6 +63,7 @@ def load_stroke_excel(xlsx_path: str) -> list[NormalizedTrialData]:
                     side=side_label,
                     joint_angles=joint_angles,
                     emg_norm=emg_norm,
+                    emg_processing=RELEASED_COHORT_EMG,
                 )
             )
     return trials
@@ -82,6 +85,7 @@ def load_control_excel(xlsx_path: str) -> list[NormalizedTrialData]:
                 side="avg",
                 joint_angles=joint_angles,
                 emg_norm=emg_norm,
+                    emg_processing=RELEASED_COHORT_EMG,
             )
         )
     return trials

@@ -1,0 +1,207 @@
+{
+  "authority": "Direct study-lead confirmation: all three raters are human experts and made their original scoring judgments independently.",
+  "scope": "Reviewer identity and attribution only; original independent ratings and later human rechecks remain distinct.",
+  "changes": [
+    {
+      "active_path": "outputs/rater3_independent/Final_ratings_rater3.xlsx",
+      "original_sha256": "cbd4a35d10beefb8099190ba2fba55e5b70f4d5d3d55d7551e164ac559c05bea",
+      "current_sha256": "e4ad0384b77707f748cf1a58a0cc016a96828663187096dc3a09b42e1a4b1125",
+      "changed_cells": [
+        "Submission metadata!B1",
+        "Submission metadata!B3",
+        "Submission metadata!B8"
+      ],
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/cbd4a35d10beefb8099190ba2fba55e5b70f4d5d3d55d7551e164ac559c05bea.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/Dual_Rater_Discussion_Q055_Human_reviewed.xlsx",
+      "original_sha256": "6f56a451255f1905a788b99ae3a23eb6532aa4d404261e59cdce36e883b55414",
+      "current_sha256": "4ab8e1f6c6e41e44f6001f3e92d0df033a342963d173d59744fc374782e050a5",
+      "changed_cells": [
+        "Error Linkage and Rater1!AH56",
+        "Error Linkage and Rater1!N56",
+        "Error Linkage and Rater1!O56",
+        "Error Linkage and Rater1!Q56",
+        "Q055 Adjudication Materials!B17",
+        "Q055 Adjudication Materials!B2",
+        "Q055 Adjudication Materials!B21",
+        "Q055_Current Adjudication!B15",
+        "Q055_Current Adjudication!B2",
+        "Q055_Current Adjudication!B3",
+        "Q055_Current Adjudication!B6",
+        "Q055_Current Adjudication!B7"
+      ],
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/6f56a451255f1905a788b99ae3a23eb6532aa4d404261e59cdce36e883b55414.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/wording_boundary_confirmation_v1/HUMAN_REVIEW_CONFIRMATION.json",
+      "original_sha256": "d178aef2b81d32a8ba303a59f0134ce7e4a8cd7bb294a51800db57478912062b",
+      "current_sha256": "7739c48f548a094d8b3f82e7a3b263d9bd5ae3cae9f0bc34594a36ba20447ac5",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/d178aef2b81d32a8ba303a59f0134ce7e4a8cd7bb294a51800db57478912062b.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/wording_boundary_confirmation_v1/HUMAN_REVIEW_STATUS.md",
+      "original_sha256": "a291f01589feda8acb271b4a92ec6348dba3b2c759458ae9c5679b34792584b1",
+      "current_sha256": "3d1e665b8f67c3466c4ecd34a30998e88ee61e70e280fb84ce00d9c3d4c51fcd",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/a291f01589feda8acb271b4a92ec6348dba3b2c759458ae9c5679b34792584b1.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/README.md",
+      "original_sha256": "c21828b1e6ed9395ab319ed09069c2d783a665f509f76d5250b6d8c933f61e92",
+      "current_sha256": "d50be4a7226e2b1bcb379f1414307c47669cc9fadeac3bb74abb16df33926f3e",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/c21828b1e6ed9395ab319ed09069c2d783a665f509f76d5250b6d8c933f61e92.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/PROCESS_LOG.md",
+      "original_sha256": "837ae2fa4c286a6a07c02248245f280324eb25f7d2bbde1bbac3d4d35180069d",
+      "current_sha256": "731723d7a71fe6de57b00c9f482b2f04c146608062514786e68ba72a1fe52003",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/837ae2fa4c286a6a07c02248245f280324eb25f7d2bbde1bbac3d4d35180069d.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/process_records.json",
+      "original_sha256": "78d045940b19da2d43ce18d1c2b2bdaecf1117e349e2396ab8d0caa7aa9e674f",
+      "current_sha256": "66dee189828f4fa4258482cd08574d4adf81d607a38901e94522d4a7b79e8cb6",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/78d045940b19da2d43ce18d1c2b2bdaecf1117e349e2396ab8d0caa7aa9e674f.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/trial_summary/FINAL_TRIAL_SUMMARY.md",
+      "original_sha256": "66768b85e16d4a4d5d61e6c1f22ef8552df78f953541aca217e51520cf1a3aa7",
+      "current_sha256": "f8b30327d2469bb91ef9f7afd34837bcf0969f8ad7be6cbb14bdd1fa773ad7ff",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/66768b85e16d4a4d5d61e6c1f22ef8552df78f953541aca217e51520cf1a3aa7.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/project_cleanup_2026-09-19/README.md",
+      "original_sha256": "dde1f0eaba4058845279bba176d58610e3ced43570c02ee269eb0dbd0270d587",
+      "current_sha256": "6a5a684d9c320f22d97873bd599fcd834534a94ee6c1e54b23c3a64ea6f13c12",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/dde1f0eaba4058845279bba176d58610e3ced43570c02ee269eb0dbd0270d587.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/english_conversion/manifest.json",
+      "original_sha256": "2299745db7b72d2c9722d01b9b1aa2e107b79349986a3debc5ffaeb7d67e2218",
+      "current_sha256": "d7cec41a52856de45867002c4db0e742c4a4272574b5fab9e9bab68cc7e20e74",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/2299745db7b72d2c9722d01b9b1aa2e107b79349986a3debc5ffaeb7d67e2218.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/rubric_v2_draft/manifest.json",
+      "original_sha256": "a5d5a85a23db1dd34d30afa5f76d8b92643833f63f56d1436a133fcf93a31f10",
+      "current_sha256": "0d9607b8e1425fba5b5661ccebb932c164a18808376b6cab366a21002a8edbfc",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/a5d5a85a23db1dd34d30afa5f76d8b92643833f63f56d1436a133fcf93a31f10.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/project_cleanup_2026-09-19/CLEANUP_RECORD.json",
+      "original_sha256": "1dca6f537d4733da31a73c11c3e9343d105e2e2752926fbe4a5b2bc071da1d6c",
+      "current_sha256": "dd9a4f5ab4a1b5e1ca83924309a5e8813c08050b057406230169caad54bab332",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/1dca6f537d4733da31a73c11c3e9343d105e2e2752926fbe4a5b2bc071da1d6c.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/rubric_v1_draft/manifest.json",
+      "original_sha256": "874109aec540a61c15082e7dac567305eb696ad89f18893f9beb31926494f2b0",
+      "current_sha256": "9889e89a594665b5d9cbf5be49ddf1a7d7be8957058ba249f00b29e9d27207f0",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/874109aec540a61c15082e7dac567305eb696ad89f18893f9beb31926494f2b0.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/candidate_v3_1/validation.json",
+      "original_sha256": "d764b60ec5555fe4a44a027bb5e0f6b2d8255357b688023ada43537cd78bad4b",
+      "current_sha256": "cfd5e433ccfaed0a1cb3af21a9610fa4cb8bb1f1aa53c0af367f3f555bc629d3",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/d764b60ec5555fe4a44a027bb5e0f6b2d8255357b688023ada43537cd78bad4b.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/sample_eligibility_v1/verification.json",
+      "original_sha256": "b6a260707daf6b37ca795c5e16ed2600bbd64faef897fb4cd13338bad64e15b7",
+      "current_sha256": "3d7a1d01c2c27d0edfffd43bc5a6140d2c4d8d044302d42ec3d31bc138062b03",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/b6a260707daf6b37ca795c5e16ed2600bbd64faef897fb4cd13338bad64e15b7.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/candidate_v3/integration_record.json",
+      "original_sha256": "8e0a5976b3d54d0a797fce9e6079d5ebb22cbc83ef480b64e8a48daff1d2b979",
+      "current_sha256": "12ef813a2fb8edb512c7126a9983c519da33b3834c5c0e804854997cc54d7e25",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/8e0a5976b3d54d0a797fce9e6079d5ebb22cbc83ef480b64e8a48daff1d2b979.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+      "original_sha256": "9f12b4afdbe719e914f09841782691350530a513945e77d229997a45fa12d69b",
+      "current_sha256": "6a288dd292ff43e12484036ebe1934ae08b5aa74df5573234b3ad806069a4075",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/9f12b4afdbe719e914f09841782691350530a513945e77d229997a45fa12d69b.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/manuscript_v1/MANUSCRIPT.html",
+      "original_sha256": "194aa8244eeb060d29c79a6ba8061408cecee318bfd2c04f4c7097e8f5a9a50e",
+      "current_sha256": "43ef0ce7bbf5c9138d5ce4cd8f5b27d56b97df6e68b6d09e6ffe2c7750434133",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/194aa8244eeb060d29c79a6ba8061408cecee318bfd2c04f4c7097e8f5a9a50e.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/confirmed_error_source_audit_v1/Confirmed_error_source_audit.xlsx",
+      "original_sha256": "6ec4f3806fd4d938c834aa97e90c699d50dd10bc82e03dfa5b69cb7aea599011",
+      "current_sha256": "65d589ddea6b2b9c6774e4713598db1f0b8b94cdd932fa9fa2f52a2e1294f436",
+      "changed_cells": [
+        "Read first!A2",
+        "Read first!B2"
+      ],
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/6ec4f3806fd4d938c834aa97e90c699d50dd10bc82e03dfa5b69cb7aea599011.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/formal_study/confirmed_error_source_audit_v1/BUILD_RECORD.json",
+      "original_sha256": "e8b7d8765c0291769b091dfa547ecd240e7a6cea2f7fe87022590d0da4846ed1",
+      "current_sha256": "12689eb9e2114ce4ef21f3cbe7c943f82173b18ab04ef5f13d8726288f6e985f",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/e8b7d8765c0291769b091dfa547ecd240e7a6cea2f7fe87022590d0da4846ed1.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/expert_trial/expert_rate/trial_2026-09-17_v1/trial_summary/FINAL_TRIAL_SUMMARY.md",
+      "original_sha256": "f8b30327d2469bb91ef9f7afd34837bcf0969f8ad7be6cbb14bdd1fa773ad7ff",
+      "current_sha256": "d0a0105923fb10deff43e737e52b3e95ea57b6cf59589dd8a2f9c3e5c3258a32",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/f8b30327d2469bb91ef9f7afd34837bcf0969f8ad7be6cbb14bdd1fa773ad7ff.original",
+      "scoring_decisions_unchanged": true
+    },
+    {
+      "active_path": "docs/english_conversion/manifest.json",
+      "original_sha256": "d7cec41a52856de45867002c4db0e742c4a4272574b5fab9e9bab68cc7e20e74",
+      "current_sha256": "0a44d7337ef323dc127cc73c871f3be9c4d2ce82cf22425e080d958a37d8ed9e",
+      "provenance_original": "/Users/lixinyu/ProjectArchives/LLM-Gait-EMG-Report/reviewer_identity_originals/d7cec41a52856de45867002c4db0e742c4a4272574b5fab9e9bab68cc7e20e74.original",
+      "scoring_decisions_unchanged": true
+    }
+  ],
+  "scores_changed": false,
+  "updated_at_utc": "2026-09-25T02:39:17.780211+00:00",
+  "current_working_sha256": {
+    "outputs/rater3_independent/Final_ratings_rater3.xlsx": "e4ad0384b77707f748cf1a58a0cc016a96828663187096dc3a09b42e1a4b1125",
+    "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/Dual_Rater_Discussion_Q055_Human_reviewed.xlsx": "4ab8e1f6c6e41e44f6001f3e92d0df033a342963d173d59744fc374782e050a5",
+    "docs/formal_study/wording_boundary_confirmation_v1/HUMAN_REVIEW_CONFIRMATION.json": "7739c48f548a094d8b3f82e7a3b263d9bd5ae3cae9f0bc34594a36ba20447ac5",
+    "docs/formal_study/wording_boundary_confirmation_v1/HUMAN_REVIEW_STATUS.md": "3d1e665b8f67c3466c4ecd34a30998e88ee61e70e280fb84ce00d9c3d4c51fcd",
+    "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/README.md": "898f78364bfd167976c3c26e774eb5045209dd597931855f9080b30e90ebbfbc",
+    "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/PROCESS_LOG.md": "731723d7a71fe6de57b00c9f482b2f04c146608062514786e68ba72a1fe52003",
+    "docs/expert_trial/expert_rate/trial_2026-09-17_v1/rating_reconciliation/process_records.json": "66dee189828f4fa4258482cd08574d4adf81d607a38901e94522d4a7b79e8cb6",
+    "docs/expert_trial/expert_rate/trial_2026-09-17_v1/trial_summary/FINAL_TRIAL_SUMMARY.md": "d0a0105923fb10deff43e737e52b3e95ea57b6cf59589dd8a2f9c3e5c3258a32",
+    "docs/formal_study/project_cleanup_2026-09-19/README.md": "6a5a684d9c320f22d97873bd599fcd834534a94ee6c1e54b23c3a64ea6f13c12",
+    "docs/english_conversion/manifest.json": "0a44d7337ef323dc127cc73c871f3be9c4d2ce82cf22425e080d958a37d8ed9e",
+    "docs/formal_study/rubric_v2_draft/manifest.json": "0d9607b8e1425fba5b5661ccebb932c164a18808376b6cab366a21002a8edbfc",
+    "docs/formal_study/project_cleanup_2026-09-19/CLEANUP_RECORD.json": "dd9a4f5ab4a1b5e1ca83924309a5e8813c08050b057406230169caad54bab332",
+    "docs/formal_study/rubric_v1_draft/manifest.json": "9889e89a594665b5d9cbf5be49ddf1a7d7be8957058ba249f00b29e9d27207f0",
+    "docs/formal_study/candidate_v3_1/validation.json": "cfd5e433ccfaed0a1cb3af21a9610fa4cb8bb1f1aa53c0af367f3f555bc629d3",
+    "docs/formal_study/sample_eligibility_v1/verification.json": "3d7a1d01c2c27d0edfffd43bc5a6140d2c4d8d044302d42ec3d31bc138062b03",
+    "docs/formal_study/candidate_v3/integration_record.json": "12ef813a2fb8edb512c7126a9983c519da33b3834c5c0e804854997cc54d7e25",
+    "docs/formal_study/manuscript_v1/MANUSCRIPT.md": "6a288dd292ff43e12484036ebe1934ae08b5aa74df5573234b3ad806069a4075",
+    "docs/formal_study/manuscript_v1/MANUSCRIPT.html": "43ef0ce7bbf5c9138d5ce4cd8f5b27d56b97df6e68b6d09e6ffe2c7750434133",
+    "docs/formal_study/confirmed_error_source_audit_v1/Confirmed_error_source_audit.xlsx": "65d589ddea6b2b9c6774e4713598db1f0b8b94cdd932fa9fa2f52a2e1294f436",
+    "docs/formal_study/confirmed_error_source_audit_v1/BUILD_RECORD.json": "12689eb9e2114ce4ef21f3cbe7c943f82173b18ab04ef5f13d8726288f6e985f"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "returns": {
+    "rater1": {
+      "file": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Personal_recheck_rater1_completed.xlsx",
+      "completion": {
+        "Reviewer name": "rater1",
+        "Date (YYYY-MM-DD)": "2026-09-19",
+        "Seen peer ratings or cross-rater comparisons before this recheck? Yes/No/Unsure": "Yes",
+        "Seen agent-proposed decisions before this recheck? Yes/No/Unsure": "Yes",
+        "Know or accidentally learned any report model identity? Yes/No/Unsure": "No",
+        "Exposure details if applicable": "Prior exposure disclosed: this conversation previously handled the rater3 completed workbook and background record for an administrative identity update, including original/revised cell comparison and aggregate completion/issue counts. Therefore freedom from prior peer-material exposure cannot be claimed. Earlier project discussion also included reviewer feedback and consensus tasks. During this personal recheck, no rater2/rater3 recheck workbook, cross-rater comparison, agent-advice file, or report-to-model identity mapping was consulted. The shared MESSAGES_TO_RATERS.md contains task instructions, not peer ratings. Original rater1 judgments and prior assistant-produced rater1 reasoning were available and consulted; no separate agent-proposed answers to this recheck were consulted. No report model identity is known from the available context. This return is the assistant acting as rater1, not a newly obtained human signature or a fresh independent human assessment.",
+        "All targeted recheck rows completed? Yes/No": "Yes",
+        "Reservations about rules or remaining questions": "Applied D01-D03. Correct substantive GVS numbers alone remain partial when the required principal-difference meaning is missing. Explicit narrative ordering or equivalent qualitative emphasis anywhere in the report can convey prominence; a bare list, or merely selecting a joint as an example, does not. A further-joint component need not be a second principal joint unless the checklist says so. Required similarity and pelvic GVS/ROM contrasts are retained. Clinical hypotheses are not diagnoses; explicit reduced/constrained ROM, incorrect facts, and asserted full-cycle continuity are assessed separately. Remaining degree-word ambiguities are preserved for adjudication under the approved rubric. This is a post-clarification personal recheck, not consensus, original independent agreement, or approval of generation. Original submission and all non-targeted judgments remain unchanged."
+      },
+      "coverage_actions": {
+        "Revise": 24,
+        "Keep": 81
+      },
+      "issue_actions": {
+        "Revise": 11,
+        "Keep": 15,
+        "Unresolved": 6
+      },
+      "clinical_actions": {
+        "Changes recorded": 9,
+        "Keep": 91,
+        "Unresolved": 5
+      },
+      "changed_original_fields": [],
+      "structural_problems": [],
+      "current_targeted_review": {
+        "file": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Targeted_review_items_rater1_completed_v2.xlsx",
+        "sha256": "c3aac57b51721d9a7939ac120d76226b251beaee27549826c7f147fb95abc243",
+        "status": "Targeted corrections verified; individual judgments preserved in current discussion assembly"
+      }
+    },
+    "rater2": {
+      "file": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Personal_recheck_rater2_completed.xlsx",
+      "completion": {
+        "Reviewer name": "rater2",
+        "Date (YYYY-MM-DD)": "2026-09-19",
+        "Seen peer ratings or cross-rater comparisons before this recheck? Yes/No/Unsure": "No",
+        "Seen agent-proposed decisions before this recheck? Yes/No/Unsure": "No",
+        "Know or accidentally learned any report model identity? Yes/No/Unsure": "No",
+        "Exposure details if applicable": "None. Only the rater2 recheck workbook, RECHECK_INSTRUCTIONS.md, MESSAGES_TO_RATERS.md and the original rater2 blinded package (reports, model inputs, rubric) were opened.",
+        "All targeted recheck rows completed? Yes/No": "Yes",
+        "Reservations about rules or remaining questions": "(1) D02 applied as follows: where the requirement asks for a leading joint AND \"another/a further difference using ankle OR hip\", an explicit leading-joint statement plus tabulated GVS values labelled as reference differences was accepted as Covered (three revisions: R8414BCE9A2D7D578 R140, R4835C5BD71F87EC3 R098, R9F780EDD1CAE80B6 R044). If the lead intends that the further difference must also be explained in a sentence, these three revert to Partially covered. (2) D03 was applied to mechanism, compensation and impairment possibilities inside questions; descriptors asserted about the data inside a question (\"prolonged\", \"observed joint limits\", \"reduced ROMs observed here\", \"constrained\", \"continuous ... seen/observed\", \"late stance\", \"severe\") were kept as errors because they claim an observed finding or a fact not supported by the input. (3) Two uses of \"continuous coverage\" inside questions were kept or added as Acceptable because the same reports explicitly disclaim continuity in Section 2 (R18C0D9D4DF5C8281 I001, RD78C2EBF0560C22B new I001); the boundary between shorthand and assertion for this word may need one shared rule. (4) Original independent ratings remain the baseline; these revisions are post-clarification only."
+      },
+      "coverage_actions": {
+        "Keep": 93,
+        "Revise": 12
+      },
+      "issue_actions": {
+        "Keep": 52,
+        "Revise": 3
+      },
+      "clinical_actions": {
+        "Keep": 101,
+        "Changes recorded": 4
+      },
+      "changed_original_fields": [],
+      "structural_problems": [],
+      "current_targeted_review": {
+        "file": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Targeted_review_items_rater2_completed_v2.xlsx",
+        "sha256": "6b33a378500f5530eb71840c82e8bb0e888df5b42d7af3b387749940870a0132",
+        "status": "Targeted corrections verified; individual judgments preserved in current discussion assembly"
+      }
+    },
+    "rater3": {
+      "file": "outputs/rater3_independent/Final_ratings_rater3.xlsx",
+      "sha256": "cbd4a35d10beefb8099190ba2fba55e5b70f4d5d3d55d7551e164ac559c05bea",
+      "stage": "Final consolidated post-feedback rater submission; not consensus",
+      "human_review_confirmation": {
+        "status": "Confirmed by study lead",
+        "scope": "Human review; no new signature or independent round inferred"
+      },
+      "coverage_rows": 552,
+      "report_count": 105,
+      "coverage_counts": {
+        "Covered": 510,
+        "Partially covered": 42
+      },
+      "issue_counts": {
+        "Error": 49,
+        "Acceptable": 41,
+        "Pending adjudication": 4
+      },
+      "remaining_pending": 4,
+      "additional_common_interpretation_items": 2,
+      "original_independent_baseline": "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx",
+      "original_independent_sha256": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+      "clinical_flags": "Existing flags preserved; unsupplied flags not inferred"
+    }
+  },
+  "provisional_two_return_comparison": {
+    "rows": 105,
+    "original_matches": 79,
+    "returned_matches": 96,
+    "differences": [
+      {
+        "report_id": "R1976A4BAD24C1414",
+        "requirement_id": "R080",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      },
+      {
+        "report_id": "R27E1D7A1FEF4C3AA",
+        "requirement_id": "R038",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      },
+      {
+        "report_id": "R35C7A84FBF5C7923",
+        "requirement_id": "R197",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      },
+      {
+        "report_id": "R370766F1A57479E3",
+        "requirement_id": "R172",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      },
+      {
+        "report_id": "R50EA6F09D1E119D6",
+        "requirement_id": "R172",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      },
+      {
+        "report_id": "R695105C813DF3F8D",
+        "requirement_id": "R044",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      },
+      {
+        "report_id": "R7162190F941CB937",
+        "requirement_id": "R086",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      },
+      {
+        "report_id": "RA857737CABCC0FB8",
+        "requirement_id": "R146",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      },
+      {
+        "report_id": "RAF417EE5FDC33A78",
+        "requirement_id": "R026",
+        "rater1": "Partially covered",
+        "rater2": "Covered"
+      }
+    ]
+  },
+  "status": "Use docs/formal_study/three_rater_discussion_v2/Three_rater_current_positions.xlsx for latest 38-item positions. Earlier inventory and original return metadata are historical stages; no common adjudication inferred.",
+  "validation_scope": "Rater3: 552 coverage rows, 105 reports, 67 issue-response decisions and 5 coverage-response decisions consolidated; exact quotes source matched; no formulas, Excel errors or Chinese characters. No model identity mapping read.",
+  "model_identity_key_read": false,
+  "original_ratings_changed": false,
+  "current_discussion": {
+    "file": "docs/formal_study/three_rater_discussion_v2/Three_rater_discussion.xlsx",
+    "sha256": "42c19d64058612aa464671ea9dc3c6f5374f9ab7883ffc808eb1c47649a20de0",
+    "stage": "Historical pre-discussion inventory; superseded for the 38 discussion items by latest_discussion_positions.",
+    "coverage_disagreements": 4,
+    "interpretation_comparisons": 24,
+    "other_existing_pending_claims": 10,
+    "current_full_submission_pending_labels": {
+      "rater1": 24,
+      "rater2": 6,
+      "rater3": 4
+    },
+    "model_identity_key_read": false,
+    "common_decisions_prefilled": false
+  },
+  "latest_discussion_positions": {
+    "file": "docs/formal_study/three_rater_discussion_v2/Three_rater_current_positions.xlsx",
+    "sha256": "0e9a858aaceadb7ab7326488141a1bedc0ece7267f0db2eda9074f778d336d3d",
+    "matching_substantive_decisions": 22,
+    "shared_pending": 12,
+    "different_positions": 4,
+    "common_signatures_inferred": false,
+    "later_feedback": "docs/formal_study/three_rater_discussion_v2/DISCUSSION_FEEDBACK.json",
+    "final_disposition_status": "All five targeted dispositions accepted as Pending; registered 2026-09-20 from source-linked acceptances. Different preferred readings preserved. No confirmed errors counted for these five.",
+    "accepted_targeted_pending_dispositions": 5,
+    "substantively_uncertain_discussion_items": 16,
+    "different_positions_scope": "Four preferred-interpretation differences; final disposition accepted for all four."
+  }
+}

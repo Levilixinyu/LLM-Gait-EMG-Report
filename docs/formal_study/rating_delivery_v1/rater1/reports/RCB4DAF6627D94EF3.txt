@@ -1,0 +1,42 @@
+1. Objective Findings
+Participant Sub39 is documented as a member of the healthy control group. As a control, a paretic/non-paretic affected side designation and a step length symmetry index are not applicable to this individual. Gait speed and cadence data were not provided for this participant. 
+
+The composite sagittal kinematic deviation score (GPS-like) is 6.91. Because gait speed is unrecorded, it is impossible to determine whether an appropriate speed-matched reference exists within the dataset. It must be noted that healthy-group membership does not inherently prove normal physiology, and differences from an empirical reference cohort do not necessarily establish pathology.
+
+2. EMG Envelope and Threshold Findings
+EMG metrics are based on ensemble-averaged envelopes, normalized to each muscle's respective maximum over available strides. Above-threshold intervals represent regions where the average envelope exceeded 20% of its own peak for at least 3% of the cycle. These metrics reflect average properties under this defined rule; they do not establish physiological onset, offset, duration, continuous contraction, or inactivity outside the intervals. "Wrapping" indicates the mean envelope remains above threshold across the 100% to 0% boundary, designated as the initial contact of contributing strides.
+
+- GAS: Retained interval at 0%-52%; 53% of the cycle is above threshold. Peak normalized amplitude is 0.59.
+- RF: Retained interval at 80%-70% (wrapping across the initial-contact boundary); 90% of the cycle is above threshold. Peak normalized amplitude is 0.50.
+- VL: Retained intervals at 70%-76% and 79%-60% (wrapping across the initial-contact boundary); 87% of the cycle is above threshold. Peak normalized amplitude is 0.62.
+- BF: Retained intervals at 27%-49%, 59%-68%, and 70%-9% (wrapping across the initial-contact boundary); 70% of the cycle is above threshold. Peak normalized amplitude is 0.61.
+- ST: Retained intervals at 36%-44% and 85%-10% (wrapping across the initial-contact boundary); 33% of the cycle is above threshold. Peak normalized amplitude is 0.66.
+- TA: Retained intervals at 37%-42%, 61%-79%, 81%-91%, and 92%-34% (wrapping across the initial-contact boundary); 76% of the cycle is above threshold. Peak normalized amplitude is 0.52.
+- ERS: Retained interval at 0%-100% (wrapping across the initial-contact boundary); 100% of the cycle is above threshold. Peak normalized amplitude is 0.53.
+
+Co-contraction indices (CCI) compute the whole-cycle overlap of these continuous normalized envelopes. The TA-vs-GAS CCI is 0.53, which is greater than the supplied reference median of 0.39 but within the empirical reference interval of 0.24 to 0.59. The RF-vs-BF CCI is 0.75, which is greater than the reference median of 0.68 and within the empirical interval of 0.48 to 0.83. Being within these reference intervals does not establish physiologically normal co-activation or specific muscular function, as these values depend heavily on the normalization method and capture algorithm.
+
+3. Kinematic and Reference Comparisons
+The kinematic and EMG deviation reference comprises 137 pooled healthy subjects (leave-one-out method, excluding Sub39), comparing 1001 phase points per cycle. This reference cohort is not matched to the participant by age, and matching by speed cannot be verified as the participant's speed is unrecorded. Consequently, comparability is limited; deviations from this empirical reference cannot be used to establish a clinical restriction or disease effect.
+
+Sagittal kinematic summary differences from the reference include:
+- Ankle: Range of motion is 38.7 degrees; Gait Variable Score (GVS) is 6.91.
+- Knee: Range of motion is 60.7 degrees; GVS is 11.32.
+- Hip: Range of motion is 45.2 degrees; GVS is 3.45.
+- Pelvis: Range of motion is 2.4 degrees; GVS is 1.75.
+The composite GPS-like score (6.91) falls between the reference median (5.1) and the 95th percentile (10.7). Sagittal ROM alone does not establish a clinical joint restriction.
+
+Maximum |z| deviations represent the single largest standardized difference from the phase-specific reference mean across the cycle, not necessarily the timing of peak envelope amplitude or a specific gait event.
+- GAS: max |z| = 1.3 (above the reference mean at 59% of the cycle).
+- RF: max |z| = 2.5 (above the reference mean at 86% of the cycle).
+- VL: max |z| = 7.4 (above the reference mean at 39% of the cycle).
+- BF: max |z| = 3.3 (above the reference mean at 41% of the cycle).
+- ST: max |z| = 2.0 (below the reference mean at 90% of the cycle).
+- TA: max |z| = 2.4 (below the reference mean at 99% of the cycle).
+- ERS: max |z| = 3.3 (above the reference mean at 61% of the cycle).
+
+4. Questions for Further Clinical Assessment
+- What is the participant's actual self-selected gait speed, and would measuring it clarify the degree of comparability between this subject's kinematic profiles and the unmatched reference cohort?
+- Do the fragmented intervals observed in the average TA and BF envelopes, as well as the near-continuous above-threshold activity seen in RF, VL, and ERS, reflect the subject's actual stride-to-stride neuromotor control, or are they primarily artifacts of the amplitude normalization and averaging algorithm?
+- Does the elevated deviation at the knee (GVS 11.32) correlate with any observable functional movement pattern, given that this participant belongs to the healthy control group?
+- Are the high max |z| extreme-value statistics (e.g., VL at 7.4) indicative of a genuine kinematic or biomechanical variation, taking into consideration that leave-one-out extremes in unmatched cohorts can naturally run high?

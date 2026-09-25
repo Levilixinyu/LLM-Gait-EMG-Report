@@ -1,45 +1,45 @@
-# 五例数据卡：使用与交回
+# Five-case data cards: Use and return
 
-当前使用[临床简版数据卡](data_cards_v5/index.html)。这是用户确认可用的审核材料，临床内容仍待专家审定。
+Currently use the [concise clinical data cards](data_cards_v5/index.html). These are review materials confirmed as usable by the user; their clinical content still awaits expert approval.
 
-## 怎么填写
+## How to complete
 
-1. 用浏览器打开总览，填写专家姓名或编号，点击“开始／载入审核”。
-2. 最前面的4项共同要求只确认一次。
-3. 看各例曲线，回答3—6个针对性问题，选择“保留／修改表述／不必写入”。需要修改时写出建议的报告表述和理由，也可补充重要发现。
-4. 对“哪些关节或活动时段值得描述”等开放问题，请填写具体发现后再冻结清单；只保留问题本身不算完成参考答案。
-5. 完成后导出审核JSON交回研究者。可同时导出CSV供Excel查看；续填或换设备用JSON导入。
+1. Open the overview in a browser, enter the expert's name or identifier, and click “Start／Load review”.
+2. Confirm the first 4 common requirements only once.
+3. Review each case's curves, answer 3—6 targeted questions, and select “Retain／Revise wording／No need to include”. If revision is needed, provide the suggested report wording and rationale; you may also add important findings.
+4. For open-ended questions such as “which joints or activity periods are worth describing”, enter specific findings before freezing the checklist; retaining only the question itself does not count as a completed reference answer.
+5. After completion, export the review JSON and return it to the researcher. You may also export a CSV for viewing in Excel; import the JSON to resume completion or switch devices.
 
-| 病例 | 单例入口 |
+| Case | Individual case entry |
 |---|---|
-| 卒中Sub09，患侧 | [数据卡](data_cards_v5/stroke_Sub09_P/card.html) |
-| 卒中Sub05，患侧 | [数据卡](data_cards_v5/stroke_Sub05_P/card.html) |
-| 卒中Sub50，患侧 | [数据卡](data_cards_v5/stroke_Sub50_P/card.html) |
-| 卒中Sub47，肌电缺失 | [数据卡](data_cards_v5/stroke_Sub47_P/card.html) |
-| 健康对照Sub49 | [数据卡](data_cards_v5/control_Sub49_avg/card.html) |
+| Stroke Sub09, affected side | [Data card](data_cards_v5/stroke_Sub09_P/card.html) |
+| Stroke Sub05, affected side | [Data card](data_cards_v5/stroke_Sub05_P/card.html) |
+| Stroke Sub50, affected side | [Data card](data_cards_v5/stroke_Sub50_P/card.html) |
+| Stroke Sub47, missing EMG | [Data card](data_cards_v5/stroke_Sub47_P/card.html) |
+| Healthy control Sub49 | [Data card](data_cards_v5/control_Sub49_avg/card.html) |
 
-单例页附带相同的通用区；同一浏览器、审核人和版本可复用已填通用意见。导出的`common_rules`是通用审核区，不是第六例受试者。含多个病例的审核文件请在总览导入。
+Individual case pages include the same general section; previously entered general comments can be reused with the same browser, reviewer, and version. The exported `common_rules` is the general review section, not a sixth subject. Import review files containing multiple cases through the overview.
 
-浏览器暂存不会自动交回，也不改写磁盘原文件，请务必导出。第一、第二位专家用不同编号；个人填写完整不等于联合定稿。不同材料版本不自动迁移意见。
+Browser storage does not automatically return your review or rewrite the original files on disk, so be sure to export. The first and second experts should use different identifiers; an individual's completed review does not constitute joint finalization. Comments are not automatically migrated between material versions.
 
-## 审核时注意
+## Points to note during review
 
-- 重点判断临床上值得描述的发现，不必逐项复述数字或逐段核对算法。
-- 0%是窗口边界，不自动等于肌肉生理激活起始。跨周期区间不在0%拆成新激活；全程过阈值也不能说明持续异常收缩。没有重复这条说明本身不扣分。
-- 完整模型输入、参考说明及计算方法可按需展开。曲线和精确参考表是专家补充材料，不能因模型未提及其没有收到的信息扣分。
-- 参考带仅描述健康参考人群分布，不是诊断界限。报告可以说明证据不足，不应凭这些资料单独诊断或提出治疗方案。
-- 缺失肌电不代表没有肌肉活动。核对数值用模型输入中的显示精度。
+- Focus on judging findings that are clinically worth describing; there is no need to restate every number or check the algorithm interval by interval.
+- 0% is the window boundary and does not automatically equal physiological muscle activation onset. Cross-cycle intervals are not split at 0% into new activations; exceeding the threshold throughout also does not establish sustained abnormal contraction. Failure to repeat this explanation alone does not incur a score deduction.
+- The complete model input, reference description, and calculation methods can be expanded as needed. Curves and precise reference tables are supplementary materials for experts; the model must not be penalized for failing to mention information it did not receive.
+- The reference band only describes the distribution of the healthy reference population; it is not a diagnostic boundary. Reports may state that evidence is insufficient and should not make a diagnosis or propose a treatment plan based on these materials alone.
+- Missing EMG does not mean no muscle activity. Use the display precision in the model input when checking numerical values.
 
-## 文件与维护
+## Files and maintenance
 
-保留`data_cards_v5/`作为唯一使用中的数据卡包。旧的`data_cards/`及v1—v4已清理；历史验证记录与清理清单留在audit中供追溯，不再作为审核入口。
+Retain `data_cards_v5/` as the only data-card package in use. The old `data_cards/` and v1—v4 have been removed; historical verification records and cleanup manifests remain in audit for traceability and are no longer review entry points.
 
-生成脚本：`scripts/build_expert_trial_package.py`。需要新版本时使用新的输出目录，避免覆盖专家材料：
+Generation script: `scripts/build_expert_trial_package.py`. When a new version is needed, use a new output directory to avoid overwriting expert materials:
 
 ```sh
 python scripts/build_expert_trial_package.py --verified-cache --out docs/expert_trial/data_cards_vNEXT
 ```
 
-省略`--verified-cache`可直接读取发布Excel/MAT；绘图依赖见`requirements-cards.txt`。生成器不调用模型API。包内manifest记录数据来源、代码及交付物哈希。
+Omit `--verified-cache` to read the released Excel/MAT files directly; see `requirements-cards.txt` for plotting dependencies. The generator does not call model APIs. The package manifest records data sources, code hashes, and deliverable hashes.
 
-五例均为开发病例，只用于准备专家清单与打磨流程。临床简版已通过4项相关测试和19项浏览器检查，证据见`audit/card_review_ui/v5/`。
+All five cases are development cases, used only to prepare expert checklists and refine the process. The concise clinical version has passed 4 related tests and 19 browser checks; see `audit/card_review_ui/v5/` for evidence.

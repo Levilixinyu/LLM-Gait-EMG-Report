@@ -1,0 +1,4 @@
+item_id,category,draft_statement,evidence,expert_decision,expert_edit,expert_id,review_date
+C01,must_describe_candidate,Gait speed is 0.54 m/s (below the gait-speed range of the healthy reference cohort in this study). Should this be included in the report?,gait_speed_m_s,PENDING,,,
+C02,must_describe_candidate,"Joint-motion curve differences from the reference, in descending order: Hip 11.73°、Knee 9.46°、Ankle 7.62°、Pelvis 5.01°. Select the joints and changes the report should emphasize; there is no need to repeat every score.",Joint kinematic findings,PENDING,,,
+C03,must_describe_candidate,No EMG recordings are available for this case. The report should state that only the available joint kinematics and walking parameters can be evaluated; missing EMG must not be described as no muscle activity.,missing_emg_channels; model input missing-data statement,PENDING,,,

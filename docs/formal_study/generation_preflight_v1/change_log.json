@@ -1,0 +1,108 @@
+[
+  {
+    "date": "2026-09-18",
+    "change": "Added actual SDK stream adapters and mocked HTTP/isolated worker integration; no live calls or scientific rule changes.",
+    "previous_validation_sha256": "499e304d327e8184197be6af0a7908625b76e5309adf90eb65f601c1210b5886",
+    "previous_validation_record": {
+      "recorded_at_utc": "2026-09-18T21:03:14.046948+00:00",
+      "status": "Offline preparation verified; live integration and release remain pending",
+      "tests": 46,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "model_api_calls": 0,
+      "formal_reports_generated": 0,
+      "verified_prompt_files": 70,
+      "planned_report_slots": 105,
+      "English_content_check": "Passed for all new source, documentation and generated planning artifacts",
+      "historical_generation_code_modified": false,
+      "historical_reports_or_expert_returns_modified": false,
+      "configuration_frozen": false,
+      "generation_authorized": false,
+      "remaining": [
+        "Live provider adapters and mocked HTTP integration tests",
+        "Authorized synthetic compatibility check",
+        "Concrete configuration freeze",
+        "Blinding, rating-lock and analysis validation",
+        "Separate formal generation authorization"
+      ],
+      "files_sha256": {
+        "src/llm/formal_generation.py": "d74bf9d0ddece6462dd53a5fcc211c12f3b4f94c381a0b64e656e3827c3cf705",
+        "tests/test_formal_generation.py": "8a3402d1f8ba2382420c4bb861201d560c6690f8d12cde6550d20d23f026cde4",
+        "scripts/prepare_formal_generation.py": "0802e074eb38ed35451e6748670b342589ae46a95857a2d630050d68b2bc013c",
+        "docs/formal_study/generation_preflight_v1/test_results.xml": "a68c0f191911ab77641c12b8dc1c0246f2d459a98018c717ccd24d0527eae7c5",
+        "docs/formal_study/generation_preflight_v1/README.md": "ce734c5240fbce4eb2363efe272d3507f471b5cabdd3081f3c9408b7971e4dd0",
+        "docs/formal_study/generation_preflight_v1/offline_validation.json": "7fdba66dd82faa82f35312fb70edf34f29f2adb9c5bfaa9927ebc3029e2bf68f",
+        "docs/formal_study/generation_preflight_v1/task_inventory_DRAFT.json": "0ac0185b5b6fd8a4775c5dfd6c16484efa37493e903b0436e4b0ac6537f8f35e",
+        "docs/formal_study/generation_preflight_v1/provider_candidates.json": "0fecb841eddee6acacfe65fa690daf59ddfb2a8989a833ee0532227617e03684"
+      }
+    },
+    "compatibility_fixes": [
+      "Anthropic httpx2 client bridge",
+      "Gemini nested JSON alias normalization and explicit AFC disabling",
+      "Response closure after stream interruption"
+    ],
+    "expert_reconfirmation_required": false,
+    "model_api_calls": 0
+  },
+  {
+    "date": "2026-09-18",
+    "change": "Added bounded synthetic live entry point, durable dispatch handshake and local technical recovery; authorization remains pending.",
+    "previous_validation_sha256": "2b2728cfa5174ec545397b1ebdd6d2447c3add0810d352e858a8dd8fac5a7775",
+    "previous_validation_record": {
+      "recorded_at_utc": "2026-09-18T21:16:14.766609+00:00",
+      "status": "Actual provider SDK adapters passed mocked HTTP and isolated-worker tests; live release remains pending",
+      "tests": 93,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "sdk_versions": {
+        "openai": "3.14.1",
+        "anthropic": "1.6.0",
+        "google-genai": "2.23.0",
+        "httpx": "0.28.1",
+        "httpx2": "2.13.0"
+      },
+      "model_api_calls": 0,
+      "formal_reports_generated": 0,
+      "verified_prompt_files": 70,
+      "planned_report_slots": 105,
+      "English_content_check": "Passed",
+      "historical_generation_code_modified": false,
+      "historical_reports_or_expert_returns_modified": false,
+      "configuration_frozen": false,
+      "generation_authorized": false,
+      "implemented": [
+        "Stream adapters using actual installed SDKs",
+        "Counted single HTTP dispatch and disabled SDK retries",
+        "Exact wire request/input validation",
+        "Error payload classification and Retry-After parsing",
+        "Complete visible text and usage/ID capture",
+        "SDK mock streams through durable ledger and isolated hard deadline"
+      ],
+      "remaining": [
+        "Authorized live entry point and transmission acknowledgement",
+        "Documented retrieval/recovery workflow for uncertain remote completion",
+        "Separate synthetic compatibility check authorization and execution",
+        "Concrete configuration freeze",
+        "Blinding, rating-lock and analysis validation",
+        "Separate formal generation authorization"
+      ],
+      "files_sha256": {
+        "src/llm/formal_generation.py": "2c2ac18319b0ce91cdb5670380b193a106d0146360948698d27b1c5782f21c74",
+        "src/llm/formal_providers.py": "7decc3f1e518d1c188e5645245d86a87aa8a34ac2ae98f14f5b416b40acfa3e4",
+        "tests/test_formal_generation.py": "8a3402d1f8ba2382420c4bb861201d560c6690f8d12cde6550d20d23f026cde4",
+        "tests/test_formal_providers.py": "8a35954af59d0d6757118c68b877f1d51362dc1525de736f19e11619ec9d6fa6",
+        "scripts/prepare_formal_generation.py": "c482a74243e317f10745c1fa2dbe89df650d14617e0cd9df03f070e8aa2acb39",
+        "docs/formal_study/generation_preflight_v1/change_log.json": "ee8aef9732f3e33cf8d5a054767b9555388630bc0aabf5f3b4c7547794267471",
+        "docs/formal_study/generation_preflight_v1/test_results.xml": "496ff0ce2591f320e6aaa38933dc496ebfc7532d6b01975a3f7cda5cb765ba0b",
+        "docs/formal_study/generation_preflight_v1/README.md": "95a20d0008694431c4e8567480dd4acfce0c7a3bee653ccf31cb87360a131755",
+        "docs/formal_study/generation_preflight_v1/offline_validation.json": "2375a91ddb9a3cdec965a8c43674502fac2fbf716544ccd9eacc652593099e0f",
+        "docs/formal_study/generation_preflight_v1/task_inventory_DRAFT.json": "9a6deed993ff5fcff8c0880136999ee7561640a6dfc20d96aba022efb9988297",
+        "docs/formal_study/generation_preflight_v1/provider_candidates.json": "cd14edf1b2911bf1f22593767fd2eedb1030c0870b7c933f8489747ec7ae7b67"
+      }
+    },
+    "current_validation": "docs/formal_study/compatibility_check_v1/validation_record.json",
+    "model_api_calls": 0
+  }
+]

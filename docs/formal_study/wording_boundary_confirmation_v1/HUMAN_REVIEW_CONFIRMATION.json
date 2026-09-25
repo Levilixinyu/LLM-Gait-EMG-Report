@@ -1,0 +1,26 @@
+{
+  "recorded_at_utc": "2026-09-24T02:52:56.391352+00:00",
+  "authority": "Direct study-lead confirmation in the current conversation",
+  "instruction_english_translation": "Search again. Remove the reviewer-identity disclaimers from the active records; all returns have been reviewed by human reviewers.",
+  "scope": "All three raters are human experts. Their original scoring judgments were independently made by the reviewers themselves, as confirmed by the study lead. Later targeted returns contain their own subsequent judgments.",
+  "confirmed_roles": [
+    "rater1",
+    "rater2",
+    "rater3"
+  ],
+  "applies_to": "Human reviewer identity and personal scoring responsibility; original independent scoring remains separate from later discussion and rechecks.",
+  "administrative_action": "Correct active reviewer-name fields and derived receipt summaries; preserve all scores, reasons, category choices, flags, dates and exposure responses. Preserve pre-correction originals in an isolated provenance-only archive excluded from scoring imports.",
+  "rater2_receipt_status": "Received and read; study lead reported completion on 2026-09-24",
+  "original_independent_ratings_changed": false,
+  "frozen_outcomes_changed": false,
+  "confirmed_current_return_roles": [
+    "rater1",
+    "rater2",
+    "rater3"
+  ],
+  "updated_at_utc": "2026-09-24T05:45:26.326330+00:00",
+  "rater2_source_sha256": "fa1011604ff6ea0505941f1c97404ff360f637aaa9b49221c01b5ad42242de28",
+  "rater2_initial_received_sha256": "4ea9e2b0cecce1c48f29e5b16a8d848899cdea0163a0983fa5fc7b0f85958558",
+  "rater2_rationale_update": "Three rationale cells revised; personal decision and control annotation unchanged. See return_review/RATER2_RATIONALE_CORRECTION.json.",
+  "latest_identity_confirmation_record": "../human_reviewer_identity_v1/CORRECTION_RECORD.json"
+}

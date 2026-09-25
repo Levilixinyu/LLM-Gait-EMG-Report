@@ -1,0 +1,41 @@
+**1. Objective Findings**
+*   **Participant Group and Evaluated Side:** Stroke cohort, paretic side. 
+*   **Gait Speed:** 0.39 m/s. This speed falls within the classification for a household ambulator speed band; however, this label denotes a speed range only and does not measure actual walking independence, real-world community mobility, or safety.
+*   **Cadence:** 72.7 steps/min.
+*   **Step Length Symmetry Index:** -4.8% (using the successive footfall definition). The negative value indicates that the step on the paretic side is shorter than the step on the non-paretic side.
+*   **Missing Channels/Data:** Data in the coronal and transverse planes are absent (analysis is restricted to the sagittal plane).
+
+**2. EMG Envelope and Threshold Findings**
+*Note: EMG metrics describe an ensemble-averaged envelope relative to its own peak across available strides. Detected intervals denote where the mean envelope met a 20% amplitude threshold and 3% duration rule. They do not represent absolute muscular force, stride-to-stride variability, or physiological onset/offset times, nor does the absence of a detected interval prove complete muscular inactivity.*
+
+*   **Continuous Above-Threshold Activity:** The rectus femoris (RF), vastus lateralis (VL), biceps femoris (BF), semitendinosus (ST), and erector spinae (ERS) maintained above-threshold activity for 100% of the gait cycle, remaining above threshold continuously across the cycle boundary (initial contact). Their peak normalized amplitudes were 0.67 (RF), 0.59 (VL), 0.48 (BF), 0.62 (ST), and 0.55 (ERS).
+*   **Gastrocnemius (GAS):** Displayed two above-threshold intervals at 3%-8% and 13%-68% of the cycle, yielding 61% overall coverage. Peak normalized amplitude was 0.51.
+*   **Tibialis Anterior (TA):** Displayed above-threshold intervals at 69%-88% and 89%-24% of the cycle (the latter wrapping across the cycle boundary), totaling 59% coverage. Peak normalized amplitude was 0.58.
+*   **Co-Contraction Indices (CCI):** Calculated using the Falconer-Winter method, this index represents whole-cycle continuous envelope overlap, dependent on normalization protocols, rather than simultaneous physiological activation time or force.
+    *   *TA vs. GAS:* CCI was 0.46, which falls within the median-centered healthy reference interval (median 0.39; 2.5th–97.5th percentile 0.24–0.59). Falling within this empirical interval does not independently establish physiologically normal co-activation or normal muscle function.
+    *   *RF vs. BF:* CCI was 0.83, which sits precisely at the upper boundary of the healthy reference interval (median 0.68; 2.5th–97.5th percentile 0.48–0.83).
+
+**3. Kinematic and Reference Comparisons**
+*Note: The reference comparisons rely on a pooled cohort of 138 healthy subjects spanning self-selected speeds from 0.80 m/s to 1.79 m/s. Because this participant’s gait speed is 0.39 m/s, no speed-matched healthy reference exists within this dataset. Therefore, the kinematic and EMG deviations reported below conflate the effects of slow walking with stroke-specific control changes. Deviations from this empirical reference cannot exclusively establish a specific disease effect or pathology.*
+
+*   **Composite Kinematic Deviation:** The sagittal GPS-like score is 11.62. This score exceeds the 95th percentile (10.7) of the unmatched pooled healthy reference (median 5.1).
+*   **Sagittal Joint Range of Motion (ROM) and Gait Variable Scores (GVS):**
+    *   Knee: ROM 48.9°, GVS 15.25
+    *   Hip: ROM 37.4°, GVS 12.46
+    *   Ankle: ROM 20.8°, GVS 11.28
+    *   Pelvis: ROM 5.5°, GVS 4.95
+    *   *Note: ROM values alone do not establish clinical restriction without an appropriate matched comparison.*
+*   **Maximum |z| Deviations (EMG):** These extreme-value statistics denote the single largest standardized difference from the phase-specific reference mean; they do not necessarily occur at the time of peak envelope amplitude or a specific physiological event. 
+    *   GAS: 12.6 (above reference mean at 57% of the cycle)
+    *   ST: 8.6 (above reference mean at 33% of the cycle)
+    *   RF: 7.2 (above reference mean at 37% of the cycle)
+    *   VL: 5.5 (above reference mean at 26% of the cycle)
+    *   BF: 4.8 (above reference mean at 47% of the cycle)
+    *   ERS: 4.4 (above reference mean at 86% of the cycle)
+    *   TA: 2.9 (below reference mean at 71% of the cycle)
+
+**4. Questions for Further Clinical Assessment**
+*   Are there clinically observable signs of spasticity, stiffness, or altered passive resistance at the knee or hip that might contextualize the 100% envelope coverage across all averaged thigh muscles (RF, VL, BF, ST) and the elevated sagittal GVS scores for these joints?
+*   How do the patient's balance and weight-shifting capabilities during clinical observation relate to the reliance on an overall very slow gait speed (0.39 m/s)?
+*   Does the moderately shorter step length (-4.8% symmetry index) on the paretic side correspond with observed limits in single-limb support time or impaired weight acceptance on the affected limb?
+*   Are there observable mechanical constraints at the ankle that could contribute to the timing of the maximum deviation in the gastrocnemius (at 57% of the cycle)?

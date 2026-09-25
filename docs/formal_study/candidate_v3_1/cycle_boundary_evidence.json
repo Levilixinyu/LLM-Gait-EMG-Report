@@ -1,0 +1,1133 @@
+{
+  "scope": "Documentary event anchor with stroke event-array consistency checks; not a new event detection audit",
+  "source_sha256": {
+    "data/raw/MATdatafiles_description.xlsx": "03ccac92dd48aec01be0abd4e5ab0a1632a50fa5b4edc26fab0d6fc8d44475b6",
+    "data/raw/AbleBodiedAdults.xlsx": "a579373a15e3a92e4812bc38460fd3022b2d9d1c6f9fbe2c9da80acf25b6ffab",
+    "data/raw/PostStrokeAdults.xlsx": "905512c4deb0f90d54d01032f577446886280d6a6f8b6ead9c7096aab1ad16dd",
+    "data/raw/MAT_normalizedData_PostStrokeAdults.mat": "e6abaea7e2f28e885b4332031cb2018583dd60f89b89cb79f33dbbc5ca38700b"
+  },
+  "script_sha256": "d727ff0f94ddb042624bdf8ca8a756c2e55857559ed2490e99a84715a2630ba8",
+  "dictionary_locations": {
+    "sheet": "MAT data Struct",
+    "rows": [
+      24,
+      25,
+      26,
+      36
+    ]
+  },
+  "healthy_excel_readme": "Left- and right-side strides are averaged; event details are in the MAT structures.",
+  "healthy_event_basis": "Release dictionary and Excel Readme; healthy MAT was not numerically reverified.",
+  "stroke_event_checks": [
+    {
+      "subject": "Sub01",
+      "side": "P",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub01",
+      "side": "N",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub02",
+      "side": "P",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub02",
+      "side": "N",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub03",
+      "side": "P",
+      "event_count": 15,
+      "hip_angle_shape": [
+        15,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub03",
+      "side": "N",
+      "event_count": 15,
+      "hip_angle_shape": [
+        15,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub04",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub04",
+      "side": "N",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub05",
+      "side": "P",
+      "event_count": 12,
+      "hip_angle_shape": [
+        12,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub05",
+      "side": "N",
+      "event_count": 14,
+      "hip_angle_shape": [
+        14,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub06",
+      "side": "P",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub06",
+      "side": "N",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub07",
+      "side": "P",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub07",
+      "side": "N",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub08",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub08",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub09",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub09",
+      "side": "N",
+      "event_count": 4,
+      "hip_angle_shape": [
+        4,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub10",
+      "side": "P",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub10",
+      "side": "N",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub11",
+      "side": "P",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub11",
+      "side": "N",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub12",
+      "side": "P",
+      "event_count": 3,
+      "hip_angle_shape": [
+        3,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub12",
+      "side": "N",
+      "event_count": 3,
+      "hip_angle_shape": [
+        3,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub13",
+      "side": "P",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub13",
+      "side": "N",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub14",
+      "side": "P",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub14",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub15",
+      "side": "P",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub15",
+      "side": "N",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub16",
+      "side": "P",
+      "event_count": 3,
+      "hip_angle_shape": [
+        3,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub16",
+      "side": "N",
+      "event_count": 3,
+      "hip_angle_shape": [
+        3,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub17",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub17",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub18",
+      "side": "P",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub18",
+      "side": "N",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub19",
+      "side": "P",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub19",
+      "side": "N",
+      "event_count": 11,
+      "hip_angle_shape": [
+        11,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub20",
+      "side": "P",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub20",
+      "side": "N",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub21",
+      "side": "P",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub21",
+      "side": "N",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub22",
+      "side": "P",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub22",
+      "side": "N",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub23",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub23",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub24",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub24",
+      "side": "N",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub25",
+      "side": "P",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub25",
+      "side": "N",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub26",
+      "side": "P",
+      "event_count": 17,
+      "hip_angle_shape": [
+        17,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub26",
+      "side": "N",
+      "event_count": 16,
+      "hip_angle_shape": [
+        16,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub27",
+      "side": "P",
+      "event_count": 5,
+      "hip_angle_shape": [
+        5,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub27",
+      "side": "N",
+      "event_count": 5,
+      "hip_angle_shape": [
+        5,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub28",
+      "side": "P",
+      "event_count": 13,
+      "hip_angle_shape": [
+        13,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub28",
+      "side": "N",
+      "event_count": 12,
+      "hip_angle_shape": [
+        12,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub29",
+      "side": "P",
+      "event_count": 11,
+      "hip_angle_shape": [
+        11,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub29",
+      "side": "N",
+      "event_count": 12,
+      "hip_angle_shape": [
+        12,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub30",
+      "side": "P",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub30",
+      "side": "N",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub31",
+      "side": "P",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub31",
+      "side": "N",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub32",
+      "side": "P",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub32",
+      "side": "N",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub33",
+      "side": "P",
+      "event_count": 13,
+      "hip_angle_shape": [
+        13,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub33",
+      "side": "N",
+      "event_count": 13,
+      "hip_angle_shape": [
+        13,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub34",
+      "side": "P",
+      "event_count": 15,
+      "hip_angle_shape": [
+        15,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub34",
+      "side": "N",
+      "event_count": 15,
+      "hip_angle_shape": [
+        15,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub35",
+      "side": "P",
+      "event_count": 5,
+      "hip_angle_shape": [
+        5,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub35",
+      "side": "N",
+      "event_count": 5,
+      "hip_angle_shape": [
+        5,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub36",
+      "side": "P",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub36",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub37",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub37",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub38",
+      "side": "P",
+      "event_count": 5,
+      "hip_angle_shape": [
+        5,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub38",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub39",
+      "side": "P",
+      "event_count": 3,
+      "hip_angle_shape": [
+        3,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub39",
+      "side": "N",
+      "event_count": 4,
+      "hip_angle_shape": [
+        4,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub40",
+      "side": "P",
+      "event_count": 12,
+      "hip_angle_shape": [
+        12,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub40",
+      "side": "N",
+      "event_count": 12,
+      "hip_angle_shape": [
+        12,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub41",
+      "side": "P",
+      "event_count": 13,
+      "hip_angle_shape": [
+        13,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub41",
+      "side": "N",
+      "event_count": 13,
+      "hip_angle_shape": [
+        13,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub42",
+      "side": "P",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub42",
+      "side": "N",
+      "event_count": 10,
+      "hip_angle_shape": [
+        10,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub43",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": [
+        {
+          "stride_index_zero_based": 3,
+          "start": 0.0,
+          "stop": 0.0
+        }
+      ]
+    },
+    {
+      "subject": "Sub43",
+      "side": "N",
+      "event_count": 5,
+      "hip_angle_shape": [
+        5,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub44",
+      "side": "P",
+      "event_count": 4,
+      "hip_angle_shape": [
+        4,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub44",
+      "side": "N",
+      "event_count": 4,
+      "hip_angle_shape": [
+        4,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub45",
+      "side": "P",
+      "event_count": 8,
+      "hip_angle_shape": [
+        8,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub45",
+      "side": "N",
+      "event_count": 9,
+      "hip_angle_shape": [
+        9,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub46",
+      "side": "P",
+      "event_count": 13,
+      "hip_angle_shape": [
+        13,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub46",
+      "side": "N",
+      "event_count": 13,
+      "hip_angle_shape": [
+        13,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub47",
+      "side": "P",
+      "event_count": 5,
+      "hip_angle_shape": [
+        5,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub47",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub48",
+      "side": "P",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub48",
+      "side": "N",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub49",
+      "side": "P",
+      "event_count": 6,
+      "hip_angle_shape": [
+        6,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub49",
+      "side": "N",
+      "event_count": 7,
+      "hip_angle_shape": [
+        7,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub50",
+      "side": "P",
+      "event_count": 4,
+      "hip_angle_shape": [
+        4,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    },
+    {
+      "subject": "Sub50",
+      "side": "N",
+      "event_count": 4,
+      "hip_angle_shape": [
+        4,
+        1001
+      ],
+      "stride_count_matches": true,
+      "invalid_intervals": []
+    }
+  ],
+  "side_records_with_invalid_intervals": 1,
+  "five_case_impact": "No invalid interval in the four stroke development cases; healthy event anchor is documentary.",
+  "follow_up": "Sub43 P has one zero-duration record. Review original events and existing exclusion logic before future selection; no automatic exclusion or metric change was applied.",
+  "no_inference": "No individual toe-off or intermediate gait-phase boundaries are added to model inputs."
+}

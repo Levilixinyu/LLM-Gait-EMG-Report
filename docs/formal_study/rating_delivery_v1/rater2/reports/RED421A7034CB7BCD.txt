@@ -1,0 +1,38 @@
+**1. Objective Findings**
+- Participant Sub14 belongs to the healthy control group (affected side: not applicable).
+- Gait speed, cadence, and the step length symmetry index are not provided or not applicable for this subject.
+- Sagittal plane kinematic ranges of motion are: Ankle 22.5 degrees, Knee 57.5 degrees, Hip 46.0 degrees, and Pelvis 2.0 degrees.
+- The composite kinematic deviation score (GPS-like) is 4.02.
+- EMG envelopes are available for the GAS, RF, VL, BF, ST, TA, and ERS muscles.
+
+**2. EMG Envelope and Threshold Findings**
+- The reported above-threshold intervals indicate regions where the averaged normalized EMG envelope exceeds 20% of its own peak for at least 3% of the initial-contact–aligned cycle. Amplitude values reflect relative envelope levels, not absolute neural activation or force. 
+- Six of the recorded muscles have envelopes that remain above the detection threshold across the cycle-defining boundary (initial contact of the contributing strides): RF (95%-24%), VL (92%-32%), BF (84%-25%), ST (85%-12%), TA (88%-28%), and ERS (94%-13%).
+- GAS has an above-threshold interval from 10% to 53% (44% of the cycle above threshold), with a peak normalized amplitude of 0.71.
+- RF has an additional interval from 52% to 71% (47% overall coverage), with a peak normalized amplitude of 0.66.
+- VL has additional intervals from 40% to 54% and 60% to 66% (61% overall coverage), with a peak normalized amplitude of 0.68.
+- BF has 41% overall coverage and a peak normalized amplitude of 0.77.
+- ST has 28% overall coverage and a peak normalized amplitude of 0.79.
+- TA has an additional interval from 55% to 88% (72% overall coverage), with a peak normalized amplitude of 0.57.
+- ERS has an additional interval from 43% to 61% (41% overall coverage), with a peak normalized amplitude of 0.80.
+- Falconer-Winter co-contraction indices (CCI), representing the whole-cycle overlap of normalized continuous envelopes, are 0.40 for TA vs GAS and 0.55 for RF vs BF.
+
+**3. Kinematic and Reference Comparisons**
+- The composite kinematic deviation score (4.02) is below the cohort reference median of 5.1 (95th percentile 10.7) when compared to a leave-one-out cohort of 137 healthy participants.
+- Per-joint Gait Variable Scores summarize sagittal plane differences from the reference over the full cycle: Ankle 4.05, Knee 3.54, Hip 4.77, and Pelvis 3.57. Range of motion values alone do not establish clinical restrictions without appropriate comparison.
+- Maximum absolute z-score deviations capture the largest standardized difference between the subject's envelope and the phase-specific leave-one-out reference mean. These are extreme-value statistics; they do not locate the time of peak amplitude, and deviations from an empirical reference do not by themselves establish abnormal muscle function or disease:
+  - GAS: 2.5 (above reference mean at 48% of the cycle)
+  - RF: 3.5 (above reference mean at 66% of the cycle)
+  - VL: 1.8 (below reference mean at 90% of the cycle)
+  - BF: 2.9 (above reference mean at 96% of the cycle)
+  - ST: 2.6 (above reference mean at 95% of the cycle)
+  - TA: 1.6 (above reference mean at 23% of the cycle)
+  - ERS: 2.3 (above reference mean at 52% of the cycle)
+- The TA vs GAS CCI (0.40) is near the reference median of 0.39 (empirical interval 0.24-0.59).
+- The RF vs BF CCI (0.55) falls within the empirical interval of 0.48-0.83, though below the reference median of 0.68. Being inside or near these reference distributions does not definitively establish normal physiological co-activation.
+- The reference cohort is pooled across all ages and speeds. Because the participant's gait speed is unrecorded, it is impossible to confirm if a speed-matched reference exists within the dataset. Furthermore, membership in the healthy control group does not prove normal physiology.
+
+**4. Questions for Further Clinical Assessment**
+- Since gait speed and cadence were not supplied, how does the participant's self-selected walking speed compare to typical clinical norms, and could it influence the recorded kinematic profiles?
+- Do the unprovided raw stride-level EMG signals support the pattern of sustained activity across the cycle-defining boundary seen in the averaged envelopes?
+- Are there any minor subclinical observations or anatomical variations in this control participant that might provide context for the measured deviations from the healthy aggregate?

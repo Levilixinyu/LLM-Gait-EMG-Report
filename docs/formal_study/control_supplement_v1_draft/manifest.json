@@ -1,0 +1,23 @@
+{
+  "package": "control-supplement-v1-draft",
+  "status": "User agreed to including controls; 40 controls is an agent recommendation, not an approved final sample.",
+  "outputs_sha256": {
+    "Control_supplement_design_review.xlsx": "8c1b3b704352258f9d13af03becf5e5c6c97f138a20987ed95f348f0f7f7d51c",
+    "README.md": "6e889c5b9f9a9bccc92da4bd2c6505bee385354940b94d46a06399f5f9fc9768",
+    "control_candidate_pool.csv": "bf79bbdd5231708e32dac242eab443841ac2ac64943d69507439dd0578685aab",
+    "design_record.json": "69e699f4a7b201a29e53c9c543dbaf1580db855001ec33025a012561452c35b1",
+    "sample_size_options.csv": "fe6a6f8ada3af3c8c3eb6aa572205159610afc7c1433a22d79447c8c7fdc05ef"
+  },
+  "validation": {
+    "candidate_pool_count": 98,
+    "workbook_csv_semantic_round_trip": true,
+    "zero_event_limits_independently_checked_with_scipy_beta": true,
+    "review_fields_blank": true,
+    "english_text_checked": true,
+    "local_links_checked": true,
+    "protected_files_unchanged": 37,
+    "existing_output_overwrite_refused": true,
+    "no_sample_drawn": true,
+    "no_model_calls": true
+  }
+}

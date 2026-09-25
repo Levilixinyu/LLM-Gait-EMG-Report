@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-20",
+  "scope": "Administrative intake of five targeted responses across three reports; no new clinical adjudication.",
+  "sources": {
+    "rater1": {
+      "path": "docs/formal_study/consolidated_ratings_v1/Residual_record_review_rater1.xlsx",
+      "sha256": "d446fa0e898492f8e0f434665503381f208b62eb3a4a470f10f1365974ef2768"
+    },
+    "rater2": {
+      "path": "docs/formal_study/consolidated_ratings_v1/Residual_record_review_rater2.xlsx",
+      "sha256": "745fbc181c350957670a482426bf71c6f623af7b7967976c6189435bae09d2dd"
+    },
+    "rater3": {
+      "path": "outputs/rater3_independent/Residual_record_review_rater3.xlsx",
+      "sha256": "fa9670d5a30af990320b1a5b10cebbfe187b1d98eb6ee5d5c3c713c828144b37",
+      "sha256_before_identity_correction": "45cdbc255c23786c0a850167f97c558dc358cb42ee4c16ac2b6383cfaa87d810"
+    }
+  },
+  "responses": [
+    {
+      "rater": "rater1",
+      "report_id": "RAF417EE5FDC33A78",
+      "disposition": "Error",
+      "category": "E03",
+      "reason": "Error E03 (threshold-coverage overinterpretation), limited to the whole-cycle assertion. The full line 11, under \"Continuous Above-Threshold Activity\", says RF, VL, BF, ST and ERS \"maintained above-threshold activity for 100% of the gait cycle\", followed by \"remaining above threshold continuously across the cycle boundary (initial contact)\". The supplied input explicitly reports boundary continuity for all five muscles; the latter clause is supported and is not the error. The heading and unqualified maintained-for-100% predicate together present sustained exceedance over the entire cycle, rather than simply reporting displayed coverage or retained interval extent. The input gives displayed 100% coverage and 0%-100% intervals, not an unrounded every-sample guarantee. Approved rubric section 8 and discussion rule R02 distinguish those propositions; the actual system prompt permits reported coverage and boundary continuity but disallows unsupported no-below-threshold conclusions. The preceding mean-envelope/physiological-onset disclaimer limits physiological inference, but does not qualify this whole-cycle precision claim. This judgment does not infer physiological continuous contraction, and does not treat the boundary clause or the word continuously alone as erroneous. Record one grouped E03 claim for the five muscles in this shared sentence, separate from the moderately-shorter-step E02 Pending item. The later clinical question refers to reported coverage and is not independently counted here. This is an explicit rater1 assessment of the passage, not agreement inferred from another rater or from an absent prior record. No closed Pending item is reopened and no consolidated counts or flags are changed in this return.",
+      "confirmation_date": "2026-09-20",
+      "source": "docs/formal_study/consolidated_ratings_v1/Residual_record_review_rater1.xlsx"
+    },
+    {
+      "rater": "rater2",
+      "report_id": "R31D0B47CA4DF36CF",
+      "disposition": "Error",
+      "category": "E03",
+      "reason": "Error, category E03 (threshold/detection-rule overinterpretation), low consequence. Model input: ERS retained interval 44%-34% (wraps the cycle boundary), 90% of cycle above threshold, minimum retained interval 3% of the cycle; the retained span (44%-100% plus 0%-34%) equals 90%. Read in context, the sentence first states correctly that each coverage below 100% leaves a remainder of the cycle not counted as above threshold, then gives the example \"the mean envelope below threshold between the retained interval endpoints at 34% and 44%\", i.e. it asserts that the mean envelope is below threshold throughout the 10% gap. What the input establishes: the retained run ended at 34% and resumed at 44%, so at least some samples in between did not exceed threshold; and the displayed coverage (90%) matches the retained span, so any above-threshold excursion inside the gap is short (within whole-percent rounding of the endpoints and coverage, at most about 1-1.5% of the cycle). What it does not establish: that every sample between 34% and 44% is below threshold. The rubric (section 8) states that the 3% minimum-duration rule filters short above-threshold runs, not below-threshold gaps, so a non-retained region cannot be equated with a strictly below-threshold region; equality-to-threshold and masked samples also fall in the complement (R03). The wording therefore makes a plausible but not supported statement about the envelope throughout the region. Same reading as applied to \"the mean envelope was below threshold outside those intervals\" (R0C44EC0AE866FB58, rater2 I003, Error E03). The same sentence's later caution about rounded coverage concerns the opposite direction (no-gap claims) and does not qualify this example. This assessment is separate from the report's normalization question (line 100), which rater2 does not record as an error. No control flag is involved (stroke report).",
+      "confirmation_date": "2026-09-20",
+      "source": "docs/formal_study/consolidated_ratings_v1/Residual_record_review_rater2.xlsx"
+    },
+    {
+      "rater": "rater3",
+      "report_id": "R25F5AA9361D9E14F",
+      "disposition": "Error",
+      "category": "E01",
+      "reason": "The medial-head designation has no support in the supplied inputs. The model user prompt lists \"GAS: above-threshold interval(s) 14%-51%, 37% of cycle above threshold, peak normalized amplitude 0.61\" (input line 29) with no medial/lateral head specification, and the word \"medial\" occurs nowhere in the Sub06 system prompt, user prompt, or reference card (full-directory grep, no match). The channel label alone does not identify which gastrocnemius head was recorded. Adding \"medial\" is an invented anatomical-identity fact (E01: invented/misreported facts, metric identities). Separate from the pelvic-ROM issue, which is not adjudicated here.",
+      "confirmation_date": "2026-09-20",
+      "source": "outputs/rater3_independent/Residual_record_review_rater3.xlsx"
+    },
+    {
+      "rater": "rater3",
+      "report_id": "R31D0B47CA4DF36CF",
+      "disposition": "Error",
+      "category": "E03",
+      "reason": "Revised from Pending to Error E03 under the strict rule adopted on 2026-09-20: any status assertion about a gap (non-retained) region that goes beyond the retained-interval output is Error, regardless of hedging. Numbers verified and unchanged: ERS retained interval 44%-34% wrapping with 90% coverage (input line 35), complement 34%-44%; all seven muscles below 100% coverage. The defect is the asserted region status itself: \"the mean envelope below threshold between the retained interval endpoints at 34% and 44%\" conflates not-retained with below-threshold. Under the supplied detector rule (above-threshold runs retained only if >=3% of cycle, input line 7), a sub-duration above-threshold burst inside 34%-44% would leave no retained interval, so the complement's strict below-threshold status is a detection result the input does not contain (same family as A003; equality/masking add the R03 caveat). The in-sentence coverage cautions limit the claim's scope but do not retract the asserted gap-region status, so they do not save it under the strict rule. Separate from the normalization question.",
+      "confirmation_date": "2026-09-20",
+      "source": "outputs/rater3_independent/Residual_record_review_rater3.xlsx"
+    },
+    {
+      "rater": "rater3",
+      "report_id": "RAF417EE5FDC33A78",
+      "disposition": "Error",
+      "category": "E03",
+      "reason": "Split the sentence. The boundary-continuity half is supported: inputs supply retained 0%-100% intervals with \"100% of cycle above threshold, above threshold across cycle boundary\" for exactly these five muscles (input lines 30-33, 35), and TA/GAS are correctly excluded (59%/61%). The whole-cycle half is not: \"maintained above-threshold activity for 100% of the gait cycle ... continuously\" asserts uninterrupted exceedance at every sample, but rounded 100% coverage plus one interval does not prove absence of short below-threshold gaps (reference card line 13). The line 9 detector note covers force, stride variability, and onset/offset only; it does not qualify the every-sample reading. Same input structure as D012 (Sub33 GAS/BF 0-100 with across-boundary flag), unanimously judged Error E03 for \"continuously above threshold\"; consistency requires Error E03 here. Separate from the \"moderately shorter step\" item (line 5/D014).",
+      "confirmation_date": "2026-09-20",
+      "source": "outputs/rater3_independent/Residual_record_review_rater3.xlsx"
+    }
+  ],
+  "original_workbooks_modified": true,
+  "consolidated_scores_modified": true,
+  "model_key_read": false,
+  "rater3_source_disclosure": "Targeted residual-record assessments by rater3 (human reviewer). Three items only; the five closed Pending items are not reopened. Date: 2026-09-20.",
+  "claim_positions": [
+    {
+      "report_id": "R25F5AA9361D9E14F",
+      "rater1": "Error",
+      "rater2": "Error",
+      "rater3": "Error",
+      "category": "E01",
+      "status": "Matching explicit Error judgments across all three human raters; incorporated into the working consolidation."
+    },
+    {
+      "report_id": "R31D0B47CA4DF36CF",
+      "rater1": "Error",
+      "rater2": "Error",
+      "rater3": "Error",
+      "category": "E03",
+      "status": "Matching explicit Error judgments across all three human raters; incorporated into the working consolidation."
+    },
+    {
+      "report_id": "RAF417EE5FDC33A78",
+      "rater1": "Error",
+      "rater2": "Error",
+      "rater3": "Error",
+      "category": "E03",
+      "status": "Matching explicit Error judgments across all three human raters; incorporated into the working consolidation."
+    }
+  ],
+  "next_actions": [
+    "Prepare final data-release and analysis compatibility checks; do not infer new signatures or unblind during administrative consolidation."
+  ],
+  "identity_correction": {
+    "date": "2026-09-20",
+    "authority": "Explicit user confirmation that this submission was reviewed by human rater3, with instruction to correct the declaration.",
+    "scope": "Read first!A2 only; all ratings, reasons, names and confirmation dates unchanged.",
+    "new_signature_created": false
+  },
+  "rater3_sub02_revision": {
+    "received_date": "2026-09-21",
+    "previous_disposition": "Pending adjudication",
+    "previous_reason": "Numbers verified: ERS retained interval is 44%-34% wrapping with 90% coverage (input line 35), so the non-retained complement is 34%-44%; all seven muscles are below 100% coverage (GAS 57%, RF 86%, VL 60%, BF 44%, ST 49%, TA 68%, ERS 90%), so each arithmetically leaves a remainder. The concern is the status asserted for the complement: \"below threshold\" conflates not-retained with below-threshold. Under the supplied detector rule (above-threshold runs retained only if >=3% of cycle, input line 7), a sub-duration above-threshold burst inside 34%-44% would leave no retained interval yet would falsify strict below-threshold throughout; equality/masking add the same R03 caveat. Against that, the sentence reports values as supplied and carries coverage cautions, unlike the unhedged A003 assertion judged Error. Genuine ambiguity between loose complement shorthand and an unsupplied gap-detection result: Pending E03 per R04, not Error and not Acceptable. Separate from the normalization question.",
+    "previous_sha256": "151bd311e1e0029ddbca197d8fbc2de07e336a587a96c84c1ea1868cb91fdd6d",
+    "new_disposition": "Error",
+    "source_confirmation_date": "2026-09-20",
+    "scope": "Explicit revision of this claim only; no global strict-rule adoption inferred and no closed Pending item reopened."
+  },
+  "latest_intake_date": "2026-09-21",
+  "consolidation_update": {
+    "date": "2026-09-21",
+    "responses_applied": 5,
+    "matching_error_claims": 3,
+    "original_independent_ratings_changed": false,
+    "prior_closed_pending_changed": false,
+    "model_key_read": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "version": "openai-credit-followup-v1",
+  "approved": true,
+  "parent_plan_sha256": "5dd87f902b0b5ec37194218e6e76a4b77c4daa1da82e7551a434d22c6cbd6fac",
+  "parent_journal_head": "b8350a9da393ed533600fa0d0d6c72c00aed1f4f4d0f29b649ce84e3a3825770",
+  "task_sha256": "217dd4f0687834df810a22b59c2ac32fa8815ce9f027361f9ed90e5fd7605576",
+  "runner_sha256": "6700b37358263846541c7e899f846193760d0dc21ee8d569e17e1067598f1828",
+  "max_additional_requests": 1,
+  "original_max_total_requests": 9,
+  "original_max_attempts_per_model": 3,
+  "original_budget_limit_usd": 3.0,
+  "prior_total_requests": 3,
+  "prior_openai_requests": 1,
+  "combined_max_requests_after_this_followup": 4,
+  "additional_cost_reservation_usd": 0.425,
+  "combined_cost_reservation_usd": 1.16,
+  "confirmation_source": "The user reports that API credits are now available, in direct response to the stated next step of funding the OpenAI account and repeating its synthetic check. This follow-up implements that request within the earlier explicit three-model authorization and original aggregate call/budget limits.",
+  "recorded_by": "Codex, recording user instruction; not a clinical expert signature",
+  "recorded_at_utc": "2026-09-18T22:10:47.990197+00:00",
+  "rationale": "The original OpenAI quota-failure slot remains terminal. One linked supplemental attempt uses the identical model, prompt and parameters after the user-reported account-state change. Claude and Gemini are not called. No settings, cap, formal inputs or clinical outcomes are changed.",
+  "formal_generation_authorized": false,
+  "offline_tests": "tests/test_openai_credit_followup.py: 3 passed"
+}

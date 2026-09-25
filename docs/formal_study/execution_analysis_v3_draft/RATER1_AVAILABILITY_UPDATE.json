@@ -1,0 +1,30 @@
+{
+  "recorded_at_utc": "2026-09-18T20:45:46.662110+00:00",
+  "source": "User acting as study lead, current conversation",
+  "statement_english": "Rater1 dates are flexible; availability can be 24/7.",
+  "language_provenance": "English translation; original-language message retained in conversation. Administrative record, not a new direct rater1 signature.",
+  "reviewer_concerned": "rater1",
+  "availability_status": "Confirmed by study lead: flexible dates, 24/7 scheduling availability",
+  "fixed_start_date": null,
+  "fixed_completion_date": null,
+  "turnaround_guarantee": null,
+  "scope": "Closes the outstanding availability question for planning. Does not alter independent review, workload, blinding or reconciliation requirements.",
+  "previous_capacity_record": {
+    "reviewer": "rater1",
+    "prior_capacity": "Workload acknowledged; capacity and dates pending",
+    "prior_start": "Pending: complete blinded review packet availability and agreed start date",
+    "prior_completion": "Pending: agreed independent-review deadline; reconciliation scheduled separately",
+    "capacity_confirmed": "Pending - workload acknowledged; availability and schedule not confirmed",
+    "actual_or_conditional_delivery_date": "Pending - no actual or agreed conditional delivery date supplied",
+    "independent_review_start": "Pending - start to be agreed after complete blinded packets and review forms are available",
+    "independent_review_completion": "Pending - no supported calendar deadline or delivery-relative duration established",
+    "reconciliation_window": "Pending - schedule separately after both independent reviews are completed and locked",
+    "available_sessions_or_conditions": "The workload remains up to 105 report reviews and 552 coverage judgments, plus issue review, evidence documentation, format checks and reconciliation. No new availability or review-session information has been supplied. No completion promise or hours-per-report estimate is inferred. Retain the fixed interleaved rater order when packets are delivered. This records the current pending status, not a capacity commitment or a signature for another reviewer.",
+    "confirmed_by": "rater1",
+    "date": "2026-09-18"
+  },
+  "previous_capacity_status": "Pending: no availability/schedule commitment",
+  "previous_plan_sha256": "ee50272d136f357c7e5ab657c76be4ff95ca0bc48e1290bc442eaebc8206dbb8",
+  "previous_manifest_sha256": "65ce3b27a653576b1f032c84762d335712da5f9b47895b00b9776cd7ba6bfbad",
+  "model_calls": 0
+}

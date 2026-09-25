@@ -1,144 +1,144 @@
-# Claude修复后的第二轮独立审查
+# Second-round independent review after Claude's fixes
 
-日期：2026-09-16。对象：当前src、scripts、tests、README、修复记录、v1冻结件及新校准/输入产物。
+Date: 2026-09-16. Scope: current src, scripts, tests, README, fix records, v1 frozen artifacts, and new calibration/input artifacts.
 
-## 结论
+## Conclusion
 
-**核心特征错误已得到实质修复，但还不能把整个项目标为验收完成或直接进入正式批量生成/专家评分。** 主Excel提取流程明显改善；剩余问题主要是生成入口不一致、缓存与留档不完整、研究/评分说明未同步，以及输入中的个体信息和缺失说明仍不完整。
+**The core feature errors have been substantially fixed, but the entire project still cannot be marked as having completed acceptance or proceed directly to formal batch generation/expert scoring.** The main Excel extraction pipeline has clearly improved; the remaining issues mainly concern inconsistent generation entry points, incomplete caching and archiving, study/scoring documentation that has not been synchronized, and still-incomplete individual information and missing-data explanations in the input.
 
-本次只增加审查文件，未修改正式实现或旧报告，未运行任何付费API。源代码复制到临时目录隔离测试；记录源码哈希，以免把同时发生的改动混入审查。
+This review added only review files, did not modify the production implementation or old reports, and did not run any paid APIs. The source code was copied to a temporary directory for isolated testing; source-code hashes were recorded to avoid mixing concurrent changes into the review.
 
-## 1. 独立验证通过的内容
+## 1. Items that passed independent validation
 
-- 项目现有测试：**10 passed**（隔离源码快照下运行）。
-- v1归档：清单113个文件均通过SHA256核对。正式目录与归档的逐文件比较另见 `review2/freeze_checks.json`。
-- 从上一轮已验证的原始发布曲线快照独立复算全部238份摘要（138健康+100卒中侧别），全部可序列化为严格JSON。没有把这次工作冒称为重新审核全部C3D。
-- Sub50 TA现输出56.6%→7.4%的跨界区间，后半周期活动不再遗漏；输入含最大偏差方向及相位。
-- Sub05 GAS后段仍在输出覆盖范围内，max|z|=13.33、发生于80.3%，方向为高于参考。
-- 双阈值表六行全部复现；各肌肉普通/留一法健康p95也与前次复算一致。
-- raw路径四块肌肉的10倍幅度缩放检查均通过，z相对变化约4.3e-12至2.0e-11，原先尺度不匹配错误修好。
-- 匿名化完整模型ID优先替换、文件排序固定的修改正确，相关测试通过。
-- 步长两种操作定义已明确，不再把内部一致性称为独立真值验证；临床裁定仍保留为未解决事项。
-- README已撤回无依据的模型排名，并补充速度支持范围与数据集限制。
+- Existing project tests: **10 passed** (run on an isolated source-code snapshot).
+- v1 archive: all 113 files in the manifest passed SHA256 verification. See `review2/freeze_checks.json` for a file-by-file comparison of the production directories and the archive.
+- Independently recalculated all 238 summaries (138 healthy+100 stroke sides) from the snapshot of the original released curves validated in the previous round; all can be serialized as strict JSON. This work was not misrepresented as a re-review of all C3D files.
+- Sub50 TA now outputs a boundary-crossing interval of 56.6%→7.4%, and activity in the second half of the cycle is no longer omitted; the input includes the direction and phase of the maximum deviation.
+- The later segment of Sub05 GAS remains within the output coverage, with max|z|=13.33, occurring at 80.3%, in the direction above the reference.
+- All six rows of the dual-threshold table were reproduced; the ordinary/leave-one-out healthy p95 for each muscle also matched the previous recalculation.
+- All 10-fold amplitude-scaling checks for the four muscles in the raw pathway passed, with relative changes in z of approximately 4.3e-12 to 2.0e-11; the previous scale-mismatch error has been fixed.
+- The changes to prioritize replacement of full model IDs during anonymization and to fix file ordering are correct, and the related tests passed.
+- The two operational definitions of step length have been clarified, and internal consistency is no longer described as independent ground-truth validation; clinical adjudication remains unresolved.
+- The README has withdrawn the unsupported model rankings and added the speed support range and dataset limitations.
 
-复算脚本与输出位于 `audit/review2/`。本轮没有生成v2模型报告，当前也未发现 `data/reports_v2/` 正式输出目录。
+Recalculation scripts and outputs are located in `audit/review2/`. No v2 model reports were generated in this round, and no production output directory `data/reports_v2/` has currently been found.
 
-## 2. 正式生成前仍应完成的工作
+## 2. Work still to be completed before formal generation
 
-### R1 / 高优先级：三个生成入口的版本和保护措施不一致
+### R1 / High priority: versions and safeguards are inconsistent across the three generation entry points
 
-位置：`scripts/generate_control_spotcheck.py:38–39,56,69`；`src/llm/report_generator.py`。
+Location: `scripts/generate_control_spotcheck.py:38–39,56,69`; `src/llm/report_generator.py`.
 
-患者主脚本改为reports_v2/v2，但健康脚本仍使用旧目录、`PROMPT_VERSION="v1"`、文件存在即跳过，并用包括测试者本人的全部对照构建参考。它却导入已经变成v2的特征与提示词代码。
+The main patient script has been changed to reports_v2/v2, but the healthy-participant script still uses the old directory, `PROMPT_VERSION="v1"`, skips whenever a file exists, and builds the reference from all controls, including the participant being tested. Yet it imports feature and prompt code that has already become v2.
 
-后果：当前12份旧文件齐全时会全部跳过；若缺文件或新增模型，则可能把新输入生成的报告标成v1，并与旧结果混放。这是潜在污染路径，本轮未发现它已经发生。
+Consequence: when all 12 current old files are present, all will be skipped; if files are missing or new models are added, reports generated from new inputs may be labeled v1 and mixed with old results. This is a potential contamination pathway; this review found no evidence that it had already occurred.
 
-通用 `generate_reports()` 仍默认v1、无完整输入留档，并直接按固定文件名写入；选择相同目录可能覆盖旧结果。只修一个脚本不能称所有生成流程已统一。
+The general-purpose `generate_reports()` still defaults to v1, lacks complete input archiving, and writes directly using fixed filenames; selecting the same directory may overwrite old results. Fixing only one script does not justify claiming that all generation workflows have been unified.
 
-建议：冻结旧入口为只读/显式历史路径，或统一生成基础设施与版本命名；对照v2单独目录并采用预先规定的留一/留出参考。所有活跃入口应共享请求留档、有效性检查和版本隔离规则。
+Recommendation: freeze old entry points as read-only/explicit historical paths, or unify the generation infrastructure and version naming; use a separate directory for control v2 and a predefined leave-one-out/held-out reference. All active entry points should share request-archiving, validity-checking, and version-isolation rules.
 
-验收：用本地假provider验证不调用网络，也能证明所有入口不会混写v1/v2；旧文件存在不应掩盖输入变化；测试对照不应参与自身参考，或将其明确限定为历史探索实验。
+Acceptance: validate with a local mock provider without network calls, while demonstrating that none of the entry points mix v1/v2 writes; the presence of old files should not conceal input changes; test controls should not contribute to their own reference, or the work should be explicitly limited to a historical exploratory experiment.
 
-### R2 / 高优先级：配置哈希未覆盖实际输入，缓存仍会错误接受旧结果
+### R2 / High priority: the configuration hash does not cover actual inputs, and the cache still incorrectly accepts old results
 
-位置：`scripts/generate_pilot_reports.py:41–68`。
+Location: `scripts/generate_pilot_reports.py:41–68`.
 
-当前哈希覆盖部分源码、system prompt和模型名，却不覆盖user prompt、数据/参考成员、实际生成参数，也漏掉providers.py、kinematic.py、spatiotemporal.py等依赖。
+The current hash covers some source code, the system prompt, and the model name, but does not cover the user prompt, data/reference membership, or actual generation parameters, and also omits dependencies such as providers.py, kinematic.py, and spatiotemporal.py.
 
-独立探针已复现：
+Independent probes have reproduced the following:
 
-- subject_id及user_prompt明显不匹配，只要config_hash相同仍判为有效。
-- 只有空格的report_text，且缺少终止/截断状态，也能判为有效。
-- 修改未纳入哈希的上述源码文件，哈希保持不变。模型最大输出参数目前位于被遗漏的provider实现中。
+- Even with clearly mismatched subject_id and user_prompt, the result is still judged valid as long as config_hash matches.
+- A report_text containing only spaces and lacking termination/truncation status can also be judged valid.
+- Modifying the above source files that are not included in the hash leaves the hash unchanged. The model's maximum-output parameter is currently located in the omitted provider implementation.
 
-建议以实际请求内容为核心构建任务标识：模型/提供商、system/user prompt、实际参数、输入及参考数据版本、代码版本。检查受试者、侧别、`report_text.strip()`和明确成功终止状态。历史版本用不同路径留存，避免配置变化后直接覆盖同名v2文件。
+Recommend constructing the task identifier around the actual request content: model/provider, system/user prompt, actual parameters, input and reference data versions, and code version. Check the subject, side, `report_text.strip()`, and an explicit successful termination status. Retain historical versions in different paths to avoid directly overwriting same-named v2 files after configuration changes.
 
-验收：更换输入、参考、参数或相关算法后，旧结果不能被跳过；无效状态和空白文本必须拒绝。以上可用本地测试完成。
+Acceptance criteria: after changing the input, reference, parameters, or relevant algorithms, old results must not be skipped; invalid statuses and blank text must be rejected. All of the above can be tested locally.
 
-### R3 / 高优先级：README下一步与新的研究方案相互矛盾
+### R3 / High priority: README next steps contradict the new research plan
 
-位置：README约303–319行；`src/eval/rubric.py:75–83`。
+Location: approximately lines 303–319 of README; `src/eval/rubric.py:75–83`.
 
-前文已声明v1仅探索，Next steps仍把旧报告和旧评分包标为完成，并指示分发旧 `data/rating_packets/`。仍要求同一开发子集的“gold-standard reference reports”，没有同步专家参考标准、试评与正式评价的区分。
+The preceding text already states that v1 is exploratory only, but Next steps still marks the old reports and old rating packets as complete and instructs distribution of the old `data/rating_packets/`. It still calls for “gold-standard reference reports” for the same development subset, without incorporating the distinction between expert reference standards, pilot rating, and formal evaluation.
 
-评分表仍以“4+ SD称为markedly deviant”等作正常/异常二分示例，缺少指标特定参考与“证据不足/不可判定”处理，容易把前述未校准解释重新带回评分。
+The rating form still uses examples such as “4+ SD termed markedly deviant” for a normal/abnormal dichotomy, lacking metric-specific references and handling of “insufficient evidence/indeterminate,” which can easily reintroduce the aforementioned uncalibrated interpretations into rating.
 
-另有具体事实错误：README称Sub46使用“assistive device”，原记录是物理治疗师提供扶手协助，不能写成使用辅助器械。
+There is also a specific factual error: README states that Sub46 used an “assistive device,” whereas the original record describes hand support provided by a physiotherapist; this cannot be described as use of an assistive device.
 
-建议完整重写Next steps和评分说明；增加事实准确性、无依据推断、不确定性处理及不可判定规则。先建立数据卡、允许/不允许推断清单和试评表，再生成最终评价包。
+Recommend completely rewriting Next steps and the rating instructions; add factual accuracy, unsupported inference, uncertainty handling, and rules for indeterminate cases. Establish data cards, a list of permitted/prohibited inferences, and a pilot rating form before generating the final evaluation packets.
 
-专家材料的框架与参考数据整理不依赖先付费生成v2报告，不能全部以“等待v2报告”为由推迟；只有最终打包需要报告文本。
+The framework for expert materials and the organization of reference data do not depend on paying to generate v2 reports first, and cannot all be postponed on the grounds of “waiting for v2 reports”; only final packaging requires the report text.
 
-### R4 / 生成前需要补齐：响应元数据与依赖锁定仍未完成
+### R4 / Must be completed before generation: response metadata and dependency locking remain incomplete
 
-`GenerationResult`仍只包含请求模型名、文本和终止状态，没有实际响应模型版本、request ID、usage等。requirements.lock.txt明确只覆盖本地验证环境，未锁定API SDK。
+`GenerationResult` still contains only the requested model name, text, and termination status, without the actual response model version, request ID, usage, etc. requirements.lock.txt explicitly covers only the local validation environment and does not lock the API SDK.
 
-Claude已如实标为部分完成，这一点不是隐瞒；但“下次真实调用时再补”不是必要技术依赖。可以先实现字段透传，用模拟响应对象验证，运行真实小样例时再核对接口兼容性。正式采集前应锁定完整运行依赖和实际生成配置。
+Claude has truthfully marked this as partially complete, so this is not concealment; however, “add it during the next real call” is not a necessary technical dependency. Field passthrough can be implemented first and verified with mock response objects, with interface compatibility checked when running a small real example. The full runtime dependencies and actual generation configuration should be locked before formal collection.
 
-## 3. 输入规范：改善明显，但仍只完成了一部分
+## 3. Input specification: significant improvement, but still only partially complete
 
-### R5 / 中优先级：健康参考与指标说明硬编码，不能用于通用raw路径
+### R5 / Medium priority: healthy reference and metric descriptions are hard-coded and cannot be used for the general raw pathway
 
-位置：`pipeline.py` 的 `METRIC_DEFINITIONS` 与 `to_prompt_text()`。
+Location: `METRIC_DEFINITIONS` and `to_prompt_text()` in `pipeline.py`.
 
-独立测试使用5个合成对照、101个相位点、3个关节；输出仍宣称参考为138人、统计量跨1001点、GPS-like由4项构成，并附带主数据集参考分位数。这些说明对通用raw路径不成立。
+An independent test used 5 synthetic controls, 101 phase points, and 3 joints; the output still claimed a reference of 138 people, statistics across 1001 points, and a GPS-like measure composed of 4 components, and included reference quantiles from the main dataset. These descriptions do not hold for the general raw pathway.
 
-当前主Excel路径用原参考时相应数字基本正确，因此不能把问题写成所有患者v2输入都错误。但换参考或换数据后也会失真。
+The corresponding numbers are largely correct when the current main Excel pathway uses the original reference, so the issue must not be described as all patient v2 inputs being incorrect. However, changing the reference or data will also make them inaccurate.
 
-建议把参考来源、人数、处理方法、相位点数和分位数作为结构化元数据传递；缺少适用校准时不要自动填主队列值。可以暂时明确限制入口为主数据集，但不要同时宣称通用raw报告也完成规范化。
+Recommend passing the reference source, number of people, processing method, number of phase points, and quantiles as structured metadata; do not automatically populate values from the main cohort when applicable calibration is unavailable. The entry point may temporarily be explicitly restricted to the main dataset, but do not simultaneously claim that general raw reports have also been standardized.
 
-### R6 / 中优先级：个体事件和缺失状态仍未充分进入输入
+### R6 / Medium priority: individual events and missingness statuses are still insufficiently incorporated into the input
 
-- 年龄、个人toe-off、临床背景等现在被明确声明为“已有但不提供”，改善了诚实性，却并未完成将这些信息加入输入。
-- Sub46实际仅ERS有效，当前文本只列ERS，没有逐一声明另外六块肌肉缺失。模型仍需猜测未出现肌肉是缺失还是未选择分析。
-- Sub47的全缺失说明仍一概称个体原因不在公开资料中，但它对应TVC55，原论文明确列为没有模拟采集的受试者之一。不能把原因未知套在所有病例。
-- 新增 `step_length_definition="instantaneous"` 后，该定义没有随结果传入摘要；提示词仍硬编码successive-footfall。默认主路径不受影响，但使用新选项会造成方法说明与数值不符。
+- Age, individual toe-off, clinical background, etc. are now explicitly described as “available but not provided,” which improves honesty but does not complete the incorporation of this information into the input.
+- Sub46 actually has valid data only for ERS. The current text lists only ERS without individually declaring the other six muscles missing. The model still has to guess whether unlisted muscles are missing or were not selected for analysis.
+- The explanation for Sub47's entirely missing data still makes the blanket statement that individual reasons are not in the public materials, but it corresponds to TVC55, which the original paper explicitly lists as one of the subjects without analog acquisition. Unknown reasons cannot be applied to all cases.
+- After adding `step_length_definition="instantaneous"`, this definition is not passed into the summary with the results; the prompt still hard-codes successive-footfall. The default main pathway is unaffected, but using the new option creates a mismatch between the method description and the numerical values.
 
-建议至少加入逐通道可用状态、已知缺失原因、个体toe-off和操作定义。若刻意研究简化输入，则将其写为预先确定的实验条件，限制对支撑/摆动阶段的解释，并将该项状态标为“有意未实现”，而非“输入信息已全部补全”。
+Recommend adding at least per-channel availability status, known reasons for missingness, individual toe-off, and operational definitions. If simplified input is deliberately being studied, document it as a prespecified experimental condition, restrict interpretations of stance/swing phases, and mark this item's status as “intentionally not implemented,” rather than “all input information has been completed.”
 
-## 4. 验证脚本与边界行为需要补强
+## 4. Verification scripts and boundary behavior need strengthening
 
-### R7 / 中优先级：修复验收存在假通过路径
+### R7 / Medium priority: fix acceptance has a false-pass pathway
 
-`scripts/audit_fix_verification.py` 的late-burst表达式最后只要发现任意wrapped interval就返回True。
+The late-burst expression in `scripts/audit_fix_verification.py` ultimately returns True whenever it finds any wrapped interval.
 
-独立反例：检测结果95%→5%，目标区间74%–87%，两者不重叠，当前逻辑仍通过。脚本打印并保存布尔值，但没有最终断言使失败以非零状态退出；保存prompt_line也不等于验证了文本语义与结构化区间一致。
+Independent counterexample: the detected result is 95%→5% and the target interval is 74%–87%; the two do not overlap, but the current logic still passes. The script prints and saves Boolean values but has no final assertion to exit with a nonzero status on failure; saving prompt_line also does not constitute verification that the text semantics are consistent with the structured intervals.
 
-注意：这不推翻实际Sub50/Sub05修复。本次另行复算，确认这两个病例正确。它说明未来回归不能只信“验收脚本运行成功”。
+Note: this does not invalidate the actual Sub50/Sub05 fixes. Separate recalculation in this review confirmed that these two cases are correct. It shows that future regression testing cannot rely solely on “the acceptance script ran successfully.”
 
-建议实现通用环形区间交集检查；明确所有验收断言，失败时非零退出；对结构化与文本一致性做真实检查。
+Recommend implementing a general circular-interval intersection check; making all acceptance assertions explicit and exiting with a nonzero status on failure; and performing actual checks of consistency between structured data and text.
 
-### R8 / 较低优先级：部分缺失被当作不激活，CCI可产生NaN
+### R8 / Lower priority: partial missingness is treated as inactivity, and CCI can produce NaN
 
-新测试把部分NaN当作inactive，并只检查区间端点有限。独立构造20个点缺失的曲线：缺失切断区间，但没有质量警示；CCI为NaN，严格JSON序列化失败。
+The new test treats partial NaN values as inactive and checks only that interval endpoints are finite. An independently constructed curve with 20 missing points: missingness breaks the interval, but there is no quality warning; CCI is NaN, and strict JSON serialization fails.
 
-原主数据集曲线已查无部分NaN，因此该反例不影响当前238份主数据摘要。它是通用路径/未来数据的质量处理缺陷。应将未知与低于阈值分开，约定拒绝、掩码或显式插值政策，统一CCI和z的有效性规则。
+The original main dataset curves have been checked and contain no partial NaN values, so this counterexample does not affect the current 238 main-data summaries. It is a quality-handling defect in the general pathway/future data. Unknown values should be distinguished from below-threshold values, a rejection, masking, or explicit interpolation policy should be specified, and validity rules for CCI and z should be unified.
 
-另需统一最短持续时间口径：1001点中保留30点时，输出端点10.0–12.9%，跨度2.9%，虽然配置写3%。这属于离散采样/端点约定问题，应定义清楚并补临界测试；不要夸大为目前临床结论的主要错误。
+The minimum-duration convention also needs to be unified: when 30 points out of 1001 are retained, the output endpoints are 10.0–12.9%, a span of 2.9%, although the configuration specifies 3%. This is a discrete-sampling/endpoint-convention issue and should be clearly defined and supplemented with boundary tests; do not exaggerate it into a major error in the current clinical conclusions.
 
-## 5. 阈值变化是方法变更，不只是修bug
+## 5. The threshold change is a methodological change, not just a bug fix
 
-v2将主定义改为平均曲线自身峰值的20%，已明确声明，并保留固定0.2敏感性分析；这部分比v1一致得多。
+v2 changes the primary definition to 20% of the mean curve's own peak, explicitly states this, and retains a fixed 0.2 sensitivity analysis; this part is much more consistent than v1.
 
-但不能据此称新定义已获得生理/临床验证。Sub05 GAS由固定阈值下的两段主要区间，变成相对阈值下约97%周期超阈值，跨界区间91.6%→88.4%。变化直接影响报告叙事。
+However, this does not justify claiming that the new definition has been physiologically/clinically validated. Sub05 GAS changes from two main intervals under the fixed threshold to approximately 97% of the cycle above threshold under the relative threshold, with a boundary-crossing interval of 91.6%→88.4%. The change directly affects the report narrative.
 
-固定0.2原本相对于原始跨周期归一化峰值也有明确操作意义；问题是实现、注释和统计使用不同口径，而不是数学上绝对阈值必然错误。
+The fixed 0.2 originally also had a clear operational meaning relative to the original cross-cycle normalization peak; the problem was that implementation, comments, and statistics used different conventions, not that an absolute threshold is necessarily mathematically wrong.
 
-建议在方法中明确“v2改变阈值定义”，保留两口径的特征对照。比较v1/v2时区分区间遗漏修复、阈值变化和提示词信息增加，不能把全部变化归为模型能力提升。
+Recommend explicitly stating in the methods that “v2 changes the threshold definition” and retaining feature comparisons under both conventions. When comparing v1/v2, distinguish the fix for omitted intervals, the threshold change, and the increase in prompt information; not all changes can be attributed to improved model capabilities.
 
-## 6. 下一次验收的合理范围
+## 6. Reasonable scope for the next acceptance review
 
-优先修R1–R4：统一入口、完善缓存与留档、同步README/评分流程。随后处理R5–R7中影响实际主数据输入的项目；R8可作为通用路径限制单列，不必为它否定已通过的主数据复算。
+Prioritize fixing R1–R4: unify entry points, improve caching and archiving, and synchronize README/the rating workflow. Then address items in R5–R7 that affect actual main-data input; R8 can be listed separately as a limitation of the general pathway and need not invalidate the main-data recalculations that have passed.
 
-完成后准备少量开发病例与健康病例的输入/评分材料，确认研究条件，再按用户授权进行小规模v2生成。现阶段不建议直接批量重跑全部报告或分发旧评分包。
+After completion, prepare input/rating materials for a small number of development cases and healthy cases, confirm the research conditions, and then conduct small-scale v2 generation as authorized by the user. At this stage, directly rerunning all reports in a batch or distributing the old rating packets is not recommended.
 
-## 证据文件
+## Evidence files
 
-- `review2/source_manifest.json`：受审源码哈希；`changed_files.json`：相对v1改动。
-- `review2/freeze_checks.json`：归档与当前历史产物比较。
-- `review2/probe.py` / `probes.json`：raw缩放、缓存、错误参考说明、部分NaN及验收假通过反例。
-- `review2/check_real_curves.py` / `real_curve_checks.json`：238份摘要、实际病例、阈值统计与普通/留一参考分布。
-- `review2/Sub05_input.txt`、`Sub46_input.txt`、`Sub47_input.txt`、`Sub50_input.txt`：当前特征输入片段核验；这些独立复算样例未加入时空参数，不冒充实际完整API请求。
-- `review2/review_end_source_check.json`：审查期间是否存在源码变化。
+- `review2/source_manifest.json`: hashes of the source code under review; `changed_files.json`: changes relative to v1.
+- `review2/freeze_checks.json`: comparison of archived and current historical artifacts.
+- `review2/probe.py` / `probes.json`: counterexamples for raw scaling, caching, incorrect reference descriptions, partial NaN values, and false acceptance passes.
+- `review2/check_real_curves.py` / `real_curve_checks.json`: 238 summaries, actual cases, threshold statistics, and ordinary/leave-one-out reference distributions.
+- `review2/Sub05_input.txt`, `Sub46_input.txt`, `Sub47_input.txt`, `Sub50_input.txt`: verification of current feature-input excerpts; these independently recalculated examples do not include spatiotemporal parameters and are not presented as actual complete API requests.
+- `review2/review_end_source_check.json`: whether source-code changes occurred during the review.
 
-审查只基于代码与本地执行证据评价实现，不以Claude的修复自述替代核查；未对新的模型输出作能力评价，因为v2模型报告尚未生成。
+The review evaluates the implementation solely on code and local execution evidence, without substituting Claude's self-reported fixes for verification; it does not evaluate capabilities based on new model outputs because v2 model reports have not yet been generated.

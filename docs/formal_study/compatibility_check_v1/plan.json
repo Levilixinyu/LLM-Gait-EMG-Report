@@ -1,0 +1,132 @@
+{
+  "version": "synthetic-compatibility-v1",
+  "scope": "Synthetic API compatibility only",
+  "formal_generation_authorized": false,
+  "tasks": [
+    {
+      "slot_id": "synthetic_v1_anthropic",
+      "case_id": "synthetic_bench_sensor_v1",
+      "provider": "anthropic",
+      "model": "claude-opus-5",
+      "parameters": {
+        "max_tokens": 8000,
+        "thinking": {
+          "type": "adaptive"
+        },
+        "output_config": {
+          "effort": "high"
+        }
+      },
+      "system_prompt": "You are testing a text generation interface using entirely fictional, nonclinical data. Use only the supplied data.",
+      "user_prompt": "Fictional bench sensor A recorded values 2, 4, and 6 arbitrary units. No reference range or threshold is supplied. Write four short numbered sections: 1. Repeat the observations. 2. Give their arithmetic mean. 3. State what cannot be concluded without a reference. 4. Ask one question about the missing reference. Keep the response under 180 words.",
+      "source_hashes": {
+        "src/llm/compatibility_check.py": "7c092e906dccaad78875ec86230632be5a21cad22a35b166ded2e77e6f7d8389",
+        "src/llm/formal_providers.py": "b52dddbef2793ac6fb0224ee935d04cfa7616b087d1d6ae57aba62c8a99af272",
+        "src/llm/formal_generation.py": "2c2ac18319b0ce91cdb5670380b193a106d0146360948698d27b1c5782f21c74",
+        "scripts/run_compatibility_check.py": "f7a2c053997b9b69fbf8605e6a8c5b1921ed6bb9b8d6fad1f88a4c30f1fb1e74",
+        "docs/formal_study/generation_preflight_v1/provider_candidates.json": "18b448308b7e9048ee80a3b9d52da1df9817d989413610018c6ff1a6d1df6f79"
+      }
+    },
+    {
+      "slot_id": "synthetic_v1_openai",
+      "case_id": "synthetic_bench_sensor_v1",
+      "provider": "openai",
+      "model": "gpt-6-astra",
+      "parameters": {
+        "max_completion_tokens": 8000,
+        "reasoning_effort": "high",
+        "n": 1,
+        "stream": true,
+        "stream_options": {
+          "include_usage": true
+        }
+      },
+      "system_prompt": "You are testing a text generation interface using entirely fictional, nonclinical data. Use only the supplied data.",
+      "user_prompt": "Fictional bench sensor A recorded values 2, 4, and 6 arbitrary units. No reference range or threshold is supplied. Write four short numbered sections: 1. Repeat the observations. 2. Give their arithmetic mean. 3. State what cannot be concluded without a reference. 4. Ask one question about the missing reference. Keep the response under 180 words.",
+      "source_hashes": {
+        "src/llm/compatibility_check.py": "7c092e906dccaad78875ec86230632be5a21cad22a35b166ded2e77e6f7d8389",
+        "src/llm/formal_providers.py": "b52dddbef2793ac6fb0224ee935d04cfa7616b087d1d6ae57aba62c8a99af272",
+        "src/llm/formal_generation.py": "2c2ac18319b0ce91cdb5670380b193a106d0146360948698d27b1c5782f21c74",
+        "scripts/run_compatibility_check.py": "f7a2c053997b9b69fbf8605e6a8c5b1921ed6bb9b8d6fad1f88a4c30f1fb1e74",
+        "docs/formal_study/generation_preflight_v1/provider_candidates.json": "18b448308b7e9048ee80a3b9d52da1df9817d989413610018c6ff1a6d1df6f79"
+      }
+    },
+    {
+      "slot_id": "synthetic_v1_gemini",
+      "case_id": "synthetic_bench_sensor_v1",
+      "provider": "gemini",
+      "model": "gemini-3.1-pro-preview",
+      "parameters": {
+        "max_output_tokens": 8000,
+        "thinking_config": {
+          "thinking_level": "HIGH",
+          "include_thoughts": false
+        },
+        "candidate_count": 1
+      },
+      "system_prompt": "You are testing a text generation interface using entirely fictional, nonclinical data. Use only the supplied data.",
+      "user_prompt": "Fictional bench sensor A recorded values 2, 4, and 6 arbitrary units. No reference range or threshold is supplied. Write four short numbered sections: 1. Repeat the observations. 2. Give their arithmetic mean. 3. State what cannot be concluded without a reference. 4. Ask one question about the missing reference. Keep the response under 180 words.",
+      "source_hashes": {
+        "src/llm/compatibility_check.py": "7c092e906dccaad78875ec86230632be5a21cad22a35b166ded2e77e6f7d8389",
+        "src/llm/formal_providers.py": "b52dddbef2793ac6fb0224ee935d04cfa7616b087d1d6ae57aba62c8a99af272",
+        "src/llm/formal_generation.py": "2c2ac18319b0ce91cdb5670380b193a106d0146360948698d27b1c5782f21c74",
+        "scripts/run_compatibility_check.py": "f7a2c053997b9b69fbf8605e6a8c5b1921ed6bb9b8d6fad1f88a4c30f1fb1e74",
+        "docs/formal_study/generation_preflight_v1/provider_candidates.json": "18b448308b7e9048ee80a3b9d52da1df9817d989413610018c6ff1a6d1df6f79"
+      }
+    }
+  ],
+  "source_sha256": {
+    "src/llm/compatibility_check.py": "7c092e906dccaad78875ec86230632be5a21cad22a35b166ded2e77e6f7d8389",
+    "src/llm/formal_providers.py": "b52dddbef2793ac6fb0224ee935d04cfa7616b087d1d6ae57aba62c8a99af272",
+    "src/llm/formal_generation.py": "2c2ac18319b0ce91cdb5670380b193a106d0146360948698d27b1c5782f21c74",
+    "scripts/run_compatibility_check.py": "f7a2c053997b9b69fbf8605e6a8c5b1921ed6bb9b8d6fad1f88a4c30f1fb1e74",
+    "docs/formal_study/generation_preflight_v1/provider_candidates.json": "18b448308b7e9048ee80a3b9d52da1df9817d989413610018c6ff1a6d1df6f79"
+  },
+  "sdk_versions": {
+    "openai": "3.14.1",
+    "anthropic": "1.6.0",
+    "google-genai": "2.23.0",
+    "httpx": "0.28.1",
+    "httpx2": "2.13.0"
+  },
+  "max_attempts_per_slot": 3,
+  "max_total_dispatches": 9,
+  "attempt_deadline_seconds": 600,
+  "backoff_seconds": [
+    5,
+    30
+  ],
+  "retry_after_pause_threshold_seconds": 300,
+  "live_output_directory": "data/compatibility_checks/synthetic_v1",
+  "budget_limit_usd": 3.0,
+  "input_token_reservation_per_attempt": 2000,
+  "reservation_usd_per_attempt": {
+    "anthropic": 0.21,
+    "openai": 0.425,
+    "gemini": 0.1
+  },
+  "estimated_maximum_usd": 2.205,
+  "price_checked_date": "2026-09-18",
+  "standard_prices_usd_per_million": {
+    "anthropic": {
+      "input": 5,
+      "output": 25
+    },
+    "openai": {
+      "input": 10,
+      "output": 50
+    },
+    "gemini": {
+      "input": 2,
+      "output": 12
+    }
+  },
+  "cost_scope": "Conservative token estimate, not an enforceable provider billing cap; excludes taxes and account-specific charges",
+  "price_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "https://platform.claude.com/docs/en/models/opus-5/whats-new-opus-5",
+    "https://ai.google.dev/gemini-api/docs/pricing"
+  ],
+  "remote_recovery_policy": "Pause uncertain no-text completions for documented retrieval review before any retry",
+  "content_policy": "Retain first captured text, including truncation/refusal; terminal empty responses are not regenerated"
+}

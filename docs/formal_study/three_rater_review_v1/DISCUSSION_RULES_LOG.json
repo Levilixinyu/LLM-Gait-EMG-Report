@@ -1,0 +1,304 @@
+{
+  "date": "2026-09-19",
+  "confirmed_by": "Study lead, explicit user instruction in conversation",
+  "status": "Post-independent-review discussion clarification; not three-rater agreement or case-level adjudication",
+  "rules": [
+    {
+      "id": "D01",
+      "topic": "Numerical findings without principal-difference interpretation",
+      "interpretation": "Partially covered when correct substantive numerical findings are supplied but the required principal-difference interpretation is absent. Names alone or unrelated content do not qualify."
+    },
+    {
+      "id": "D02",
+      "topic": "Descending lists require a brief explanation",
+      "interpretation": "Sorting values is not sufficient by itself. Briefly explain the required finding. Equivalent wording anywhere in the report is allowed; no exact keyword is required. Do not add a second-principal-joint requirement where the checklist asks only for another difference."
+    },
+    {
+      "id": "D03",
+      "topic": "Clinical follow-up questions present possibilities for verification",
+      "interpretation": "Interpret clinical follow-up questions as possibilities to be verified, not established mechanisms or diagnoses. Mentioning spasticity, compensation, instability, or a phase-related clinical task in a question is not itself an error. Separately inspect independently checkable false facts and explicit assertions that an abnormal finding has already been observed. This boundary preserves the existing factual-error rule; it is not an additional user signature."
+    }
+  ],
+  "coverage_advice_rows_updated": 14,
+  "issue_advice_rows_updated": 2,
+  "human_consensus_fields_changed": false,
+  "independent_submissions_changed": false,
+  "changes": [
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I8",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J8",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K8",
+      "previous": "Correct numerical GVS findings for pelvis and knee are present, but relative prominence is not expressed. Partial is defensible as substantive quantitative content; Not covered is defensible if the core is exclusively relational. Fix this boundary consistently before final labels.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I14",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J14",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K14",
+      "previous": "Hip/knee numerical reference differences are supplied, but not selected as principal. Apply the same numerical-content versus relational-content boundary as row 7; neither automatic full credit nor automatic zero is settled by the current divergent readings.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I21",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J21",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K21",
+      "previous": "Ankle/knee numerical differences are present, but relative prominence is not expressed. Use the same convention as row 7.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I25",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J25",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K25",
+      "previous": "Numerical knee/pelvis differences are present; relative prominence and similar magnitude are not expressed. Apply the quantitative-content boundary consistently; do not treat this as fully covered.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage. The separately required similar-magnitude relationship is also missing."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I30",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J30",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K30",
+      "previous": "Ankle/hip values are present without prominence. Rater3 also cites an ankle-GVS question in Section 4 that is absent: that section discusses pelvic ROM, not ankle GVS. Correct this evidence statement before discussing Partial versus Not covered.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage. Also correct the source rationale: Section 4 discusses pelvic ROM, not the ankle-GVS question cited by rater3."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I33",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J33",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K33",
+      "previous": "Meaningful GVS values are supplied without selecting ankle as leading. Apply the numerical-content boundary consistently; the absence of leading interpretation prevents full coverage.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I34",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J34",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K34",
+      "previous": "GVS values are present without knee-leading interpretation. Section 4 ROM questions do not themselves identify principal GVS differences. Apply the same table-content convention.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I38",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J38",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K38",
+      "previous": "The numerical three-joint findings are present, but the required distributed/similar pattern is not. Fix Partial versus Not covered consistently with the other table-only cases.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage. The separately required similar-magnitude relationship is also missing."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I40",
+      "previous": "Partially covered (proposed convention)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J40",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K40",
+      "previous": "The joint GVS values are substantive content but knee-leading is not expressed. Apply the same table-content boundary; full coverage is not supported merely by numerical availability.",
+      "current": "Under D01, correct quantitative findings without the required principal/relational interpretation receive partial coverage, not zero or full coverage."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I9",
+      "previous": "Partially covered (provisional preference)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J9",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K9",
+      "previous": "The knee/hip list is descending, without an explicit prominence statement. Decide whether intentional ordering itself conveys the requested principal findings. Do not require a particular keyword, but do not infer authorial emphasis from order alone.",
+      "current": "Under D02, descending order alone does not fulfill the interpretation component. A brief explanation of the required finding is still needed. The missing interpretation keeps this row partially covered."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I15",
+      "previous": "Covered (provisional preference)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J15",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K15",
+      "previous": "A descending list explicitly marks the highest and lowest channels, supporting a deliberate within-profile comparison. Pelvis and knee are the first two. This is stronger evidence of ranking than an unsorted table, but confirm the presentation rule consistently.",
+      "current": "Under D02, descending order alone does not fulfill the interpretation component. A brief explanation of the required finding is still needed. The missing interpretation keeps this row partially covered. Pelvis is explained as highest, but knee remains only second in the list; the required second relatively larger finding is not explained."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I17",
+      "previous": "Partially covered (provisional preference)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J17",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K17",
+      "previous": "Descending GVS values identify meaningful joint differences, but the knee-leading component is implicit in ordering. Resolve the same ordered-list convention as row 8.",
+      "current": "Under D02, descending order alone does not fulfill the interpretation component. A brief explanation of the required finding is still needed. The missing interpretation keeps this row partially covered."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I23",
+      "previous": "Partially covered (provisional preference)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J23",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K23",
+      "previous": "Descending values convey quantitative differences; whether they convey knee-leading sufficiently is the same ordered-list question as rows 8 and 16.",
+      "current": "Under D02, descending order alone does not fulfill the interpretation component. A brief explanation of the required finding is still needed. The missing interpretation keeps this row partially covered."
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "I35",
+      "previous": "Partially covered (provisional preference)",
+      "current": "Partially covered"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "J35",
+      "previous": "Calibration needed",
+      "current": "Application of study-lead-confirmed D01/D02; not expert consensus"
+    },
+    {
+      "sheet": "Agent coverage advice",
+      "cell": "K35",
+      "previous": "Hip is highlighted; pelvis is second in a descending list only. Apply the same ordered-list convention, without silently requiring exact ranking words.",
+      "current": "Under D02, descending order alone does not fulfill the interpretation component. A brief explanation of the required finding is still needed. The missing interpretation keeps this row partially covered. Hip is highlighted, but the required pelvic prominence is only inferred from list order."
+    },
+    {
+      "sheet": "Agent issue advice",
+      "cell": "D7",
+      "previous": "Acceptable favored; expert context review",
+      "current": "Acceptable for the proposed-mechanism question under D03; agent application"
+    },
+    {
+      "sheet": "Agent issue advice",
+      "cell": "F7",
+      "previous": "Rater2 Acceptable versus rater3 Pending. The full question includes a measurement alternative and asks what the coverage represents; it does not straightforwardly assert that spasticity exists. Mentioning spasticity is insufficient for Error. The to-what-extent framing warrants contextual review, not keyword scoring.",
+      "current": "Apply the study lead's D03 clarification: clinical mechanisms and measurement explanations are possibilities to be verified. This question does not establish spasticity or compensation merely by asking about them. Any separate factual or explicit observed-abnormality assertion must be assessed on its own evidence."
+    },
+    {
+      "sheet": "Agent issue advice",
+      "cell": "D8",
+      "previous": "Keep Pending adjudication",
+      "current": "Acceptable for the proposed-mechanism question under D03; agent application"
+    },
+    {
+      "sheet": "Agent issue advice",
+      "cell": "F8",
+      "previous": "All three already leave this claim pending. How much is stabilization versus impaired reciprocal inhibition can presuppose a physiological explanation, but an open-hypothesis reading is possible. Resolve the assertion-versus-question boundary, not the tag count. This is shared uncertainty, not a disagreement in final labels.",
+      "current": "Apply the study lead's D03 clarification: read stabilization versus impaired reciprocal inhibition as mechanisms proposed for clinical verification, rather than as confirmed physiology. The above-reference CCI value is supported; do not convert the mechanistic question alone into an error. Original pending judgments remain preserved. Any separate factual or explicit observed-abnormality assertion must be assessed on its own evidence."
+    }
+  ]
+}

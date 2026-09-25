@@ -1,0 +1,13 @@
+{
+  "file_sha256": {
+    "EVIDENCE_INDEX.json": "1eeca823641a36111cf03a49184e77aa7526d6b8db28bf933e840afb8cf95139",
+    "START_DECISION.md": "6ca00554d1ec24788f07cbaee51a16402e3e9a722aa523da861085365437f7e4",
+    "TECHNICAL_EVIDENCE_REVIEW.md": "aee4bdde698c0ca552c10229b4f3dffda5350742ca0afc3d47a095a2d1e2efe2",
+    "OFFLINE_EVIDENCE.json": "07b2efaacb638ee4daad39da7565c81b98a7d2240b5ba3349e239d60a325ebf9",
+    "EFFECTIVE_PARAMETERS.md": "cd31fe2ae55e2d895c198d02b637252e030b150cda1329c026cae3637bd92e73",
+    "authorization_READY_FOR_APPROVAL.json": "d9bce097ad9628ab1f200d6de66b7b7a19b0fcf4da45736090c43748bdb1afdf"
+  },
+  "plan_sha256": "726dbda2ef559cdfa33ecf7c851935a6bd7274ee85b8a27f31d15447352c6aa4",
+  "formal_generation_authorized": false,
+  "api_calls_during_preparation": 0
+}

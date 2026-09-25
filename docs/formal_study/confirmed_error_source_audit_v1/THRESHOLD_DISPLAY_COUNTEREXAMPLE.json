@@ -1,0 +1,97 @@
+{
+  "purpose": "Synthetic logical counterexample; not participant data or a discovered patient gap",
+  "implementation": "src/features/emg_signal.py:analyze_activation",
+  "implementation_sha256": "8b684bfb6edc349ed604235c39a27c36de6431420f3758af28e71c270f6d5666",
+  "threshold_fraction": 0.2,
+  "minimum_run_percent": 3.0,
+  "scenarios": [
+    {
+      "scenario": "All samples above",
+      "below_threshold_indices": [],
+      "sample_count": 1001,
+      "exact_coverage": 100.0,
+      "exact_intervals": [
+        [
+          0.0,
+          100.0
+        ]
+      ],
+      "boundary_continuity": true,
+      "displayed_coverage": "100%",
+      "displayed_intervals": [
+        [
+          "0%",
+          "100%"
+        ]
+      ]
+    },
+    {
+      "scenario": "One internal dip",
+      "below_threshold_indices": [
+        500
+      ],
+      "sample_count": 1001,
+      "exact_coverage": 99.9000999000999,
+      "exact_intervals": [
+        [
+          50.1,
+          49.9
+        ]
+      ],
+      "boundary_continuity": true,
+      "displayed_coverage": "100%",
+      "displayed_intervals": [
+        [
+          "50%",
+          "50%"
+        ]
+      ]
+    },
+    {
+      "scenario": "One endpoint dip",
+      "below_threshold_indices": [
+        0
+      ],
+      "sample_count": 1001,
+      "exact_coverage": 99.9000999000999,
+      "exact_intervals": [
+        [
+          0.1,
+          100.0
+        ]
+      ],
+      "boundary_continuity": false,
+      "displayed_coverage": "100%",
+      "displayed_intervals": [
+        [
+          "0%",
+          "100%"
+        ]
+      ]
+    },
+    {
+      "scenario": "Two near-boundary dips",
+      "below_threshold_indices": [
+        1,
+        999
+      ],
+      "sample_count": 1001,
+      "exact_coverage": 99.80019980019979,
+      "exact_intervals": [
+        [
+          0.2,
+          99.8
+        ]
+      ],
+      "boundary_continuity": true,
+      "displayed_coverage": "100%",
+      "displayed_intervals": [
+        [
+          "0%",
+          "100%"
+        ]
+      ]
+    }
+  ],
+  "explanation": "Two below-threshold samples at indices 1 and 999 leave a retained run from 0.2% to 99.8%, displayed 0%-100%. The two above-threshold boundary samples form a short circular run discarded by the ABOVE-threshold duration filter. Coverage 99.8001998% rounds to 100%; both endpoints remain above threshold. No below-threshold gap filling is performed."
+}

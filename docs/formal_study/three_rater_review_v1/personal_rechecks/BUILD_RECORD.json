@@ -1,0 +1,27 @@
+{
+  "status": "Blank personal recheck supplements; no new expert decisions",
+  "contents": {
+    "rater1": {
+      "file": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater1/Personal_recheck_rater1.xlsx",
+      "coverage_rows": 105,
+      "clinical_question_sections": 105,
+      "own_question_issue_records": 32,
+      "quote_corrections": 0,
+      "source_sha256": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160"
+    },
+    "rater2": {
+      "file": "docs/formal_study/three_rater_review_v1/personal_rechecks/rater2/Personal_recheck_rater2.xlsx",
+      "coverage_rows": 105,
+      "clinical_question_sections": 105,
+      "own_question_issue_records": 55,
+      "quote_corrections": 15,
+      "source_sha256": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5"
+    },
+    "rater3": {
+      "status": "Superseded by consolidated final post-feedback submission; blank personal-recheck supplement removed",
+      "file": "outputs/rater3_independent/Final_ratings_rater3.xlsx",
+      "original_source_sha256": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649"
+    }
+  },
+  "model_identity_key_read": false
+}

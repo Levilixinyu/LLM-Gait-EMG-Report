@@ -1,103 +1,103 @@
-# 项目全面准备度审查
+# Comprehensive project readiness review
 
-日期：2026-09-16。目的：判断项目能否进入下一阶段，而不是再次要求重做已经通过的打包修复。
+Date: 2026-09-16. Purpose: to determine whether the project can enter the next stage, rather than again requiring the packaging fixes that have already passed acceptance to be redone.
 
-## 总体判断
+## Overall assessment
 
-**可以进入下一阶段，但下一阶段应是完成评价材料并开展小规模开发试评，尚不适合直接启动全量正式比较。** 数据和核心工程已经具备基础，F1/F2、T1–T6 的验收结论保持。当前主要未完成的是研究评价的输入、参考标准、评分规则和样本/分析方案，不是数据集不可用或整个代码库需要重写。
+**The project can enter the next stage, but that stage should consist of completing the evaluation materials and conducting a small-scale developmental pilot evaluation; it is not yet appropriate to launch the full-scale formal comparison directly.** The data and core engineering foundations are in place, and the acceptance conclusions for F1/F2 and T1–T6 remain unchanged. The main unfinished work concerns the inputs, reference standards, scoring rules, and sample/analysis plan for the research evaluation, not an unusable dataset or a need to rewrite the entire codebase.
 
-| 环节 | 当前判断 | 可以开展的工作 |
+| Component | Current assessment | Work that can proceed |
 |---|---|---|
-| 主数据集与描述性任务 | 可用，限既定研究范围 | 基于已核验平均曲线制作病例材料 |
-| 提取、任务缓存、生成、盲评打包 | 本地验证通过 | 制作及核验试评材料、运行模拟流程 |
-| SDK 和依赖 | 已有成功小样例记录，环境一致 | 在授权后检查真实病例完整报告 |
-| 专家试评材料 | 草案，尚未齐备 | 先制作5例数据卡、参考清单和评分规则 |
-| 正式模型比较 | 尚未准备好 | 试评后冻结主终点、样本和分析计划 |
-| 临床诊断/部署有效性 | 不属于本研究可支持目标 | 不据此声明已验证 |
+| Main dataset and descriptive task | Usable within the defined research scope | Prepare case materials based on verified mean curves |
+| Extraction, task caching, generation, blinded-evaluation packaging | Local validation passed | Prepare and verify pilot-evaluation materials and run simulated workflows |
+| SDKs and dependencies | Successful small-example records available, environment consistent | Check complete reports for real cases after authorization |
+| Expert pilot-evaluation materials | Draft, not yet complete | First prepare data cards, reference checklists, and scoring rules for 5 cases |
+| Formal model comparison | Not yet ready | Freeze the primary endpoint, sample, and analysis plan after the pilot evaluation |
+| Clinical diagnostic/deployment validity | Outside the objectives this study can support | Do not claim validation on this basis |
 
-## 1. 本次实际核查与边界
+## 1. Checks actually performed in this review and their boundaries
 
-审阅 README、研究范围与数据审查记录、特征输入、provider/runner/cache、两个生成入口、打包与 rubric、依赖锁、SDK smoke 脚本和记录、新增专家试评草案及 CSV 模板。没有读取 .env 内容、启动真实 API 或修改生产代码。
+Reviewed the README, research scope and data-review records, feature inputs, provider/runner/cache, the two generation entry points, packaging and rubric, dependency lock, SDK smoke scripts and records, and the newly added expert pilot-evaluation draft and CSV templates. Did not read the contents of .env, initiate real API calls, or modify production code.
 
-- 33 个 Python 源码/脚本/测试文件快照，结束哈希无变化。
-- 当前测试：45 passed in 2.12s。
-- `pip check` 无依赖冲突；requirements.lock.txt 中46项与 ~/.venvs/gait-emg 实际安装版本一致，已包含三家 SDK。
-- 新增 generation_runner.py 和两个入口自身均已加入 CODE_FILES：第六轮非阻断溯源建议已落实。
-- curves.npz、metadata.json、spatiotemporal_original.json 的 SHA256 与最初留档一致；基于这些此前已核验的发布数据缓存，用当前代码重新生成238份摘要，其中138名健康对照使用排除自身的留一参考，严格 JSON 均通过。
-- 本轮未重新加载整套 Excel/MAT、未审核所有 C3D 或健康 MAT。此前1100条 Excel/MAT 曲线、100个公布步速的验证仍以先前证据为准，不冒称本轮重新完成。
-- `audit/outputs/sdk_smoke_check.json` 已记录三家返回 OK、成功终止、模型/ID/usage、序列化检查全部通过。本轮核对的是项目中已有记录，没有亲自重发在线请求。该脚本是单词回复测试，不能证明正式长报告输入、完整输出、成本和延迟都已验证。
-- 正式 v2 报告目录尚无报告；现有54份患者、12份健康报告属于历史 v1，不可因 SDK 已通过而将其视为新正式结果。
+- Snapshots of 33 Python source/script/test files; hashes were unchanged at the end.
+- Current tests: 45 passed in 2.12s.
+- `pip check` found no dependency conflicts; the 46 entries in requirements.lock.txt match the versions actually installed in ~/.venvs/gait-emg, and already include SDKs from all three providers.
+- The newly added generation_runner.py and both entry points themselves have all been added to CODE_FILES: the non-blocking provenance recommendation from the sixth round has been implemented.
+- The SHA256 hashes of curves.npz, metadata.json, and spatiotemporal_original.json match the initial archived records; using these previously verified released-data caches, 238 summaries were regenerated with the current code, including 138 healthy controls using leave-one-out references excluding themselves, and all passed strict JSON validation.
+- This round did not reload the full Excel/MAT collection or review all C3D or healthy MAT files. Validation of the previous 1100 Excel/MAT curves and 100 published walking speeds remains based on earlier evidence; no claim is made that it was repeated this round.
+- `audit/outputs/sdk_smoke_check.json` records OK responses from all three providers, successful termination, model/ID/usage, and all serialization checks passing. This round checked existing project records; no online requests were personally resent. This script is a single-word response test and does not demonstrate that formal long-report inputs, complete outputs, costs, and latency have all been validated.
+- The formal v2 report directory contains no reports yet; the existing 54 patient reports and 12 healthy reports are historical v1 reports and must not be treated as new formal results simply because the SDK checks passed.
 
-可复查文件：readiness/check.py、checks.json、各病例实际输入文本、source_manifest.json、source_end_check.json、document_manifest.json、test_results.txt。
+Files available for rechecking: readiness/check.py, checks.json, actual input text for each case, source_manifest.json, source_end_check.json, document_manifest.json, test_results.txt.
 
-## 2. 数据与样本：能用，但必须正确限定候选样本
+## 2. Data and sample: usable, but the candidate sample must be correctly delimited
 
-本轮重算与前轮一致：健康138人中102人七通道完整、7人部分通道、29人全缺失；卒中患侧50人中43人完整、3人部分、4人全缺失；非患侧44人完整、2人部分、4人全缺失。
+This round's recalculation agrees with the previous round: among 138 healthy participants, 102 had all seven channels complete, 7 had partial channels, and 29 had all channels missing; for the affected side of 50 stroke participants, 43 were complete, 3 partial, and 4 entirely missing; for the unaffected side, 44 were complete, 2 partial, and 4 entirely missing.
 
-18人开发集内有16名患侧七通道完整者。因此，43名完整者中只有27名在这18人之外。27名是按“未进入18人名单”计算的候选，不自动等于完全未参与任何探索：仍需结合历史查看/调参记录界定开发暴露，不能宣称天然构成独立确认性验证集。
+The 18-person development set includes 16 participants with all seven affected-side channels complete. Therefore, only 27 of the 43 complete participants are outside these 18. The 27 are candidates calculated as “not included in the 18-person list”; this does not automatically mean that they were entirely uninvolved in any exploration: development exposure still needs to be defined using historical viewing/tuning records, and they cannot be claimed to inherently constitute an independent confirmatory validation set.
 
-继续采用单数据集、回顾性、探索性“描述忠实性/不确定性表达/专家可评审性”目标。速度不匹配、峰值归一化而非绝对力量、平均曲线掩盖逐步变异、临床标签与纳入描述不一致等既有边界继续保留。不需要为了目前的描述性试评立即下载健康全量 MAT 或解决外部 CSV 通道映射。
+Continue using the single-dataset, retrospective, exploratory objective of “descriptive fidelity/uncertainty expression/expert reviewability.” Existing limitations remain, including unmatched speeds, peak normalization rather than absolute force, average curves masking step-to-step variability, and inconsistencies between clinical labels and inclusion descriptions. There is no need to immediately download the full healthy MAT collection or resolve external CSV channel mapping for the current descriptive pilot rating.
 
-对步态特征先做技术抽查并不自动使受试者全部失去评价资格；关键是不要再把用来选择提示词、错误规则和结果解释的病例当作未见确认性证据。正式方案可保持探索性，并如实披露开发过程。
+Performing technical spot checks of gait features first does not automatically disqualify all participants from evaluation; the key is not to subsequently treat cases used to select prompts, error rules, and result interpretations as unseen confirmatory evidence. The formal protocol can remain exploratory and transparently disclose the development process.
 
-## 3. 试评之前必须完成的评价材料
+## 3. Evaluation materials that must be completed before pilot rating
 
-### A. 将5例草案变成真实、可分发的病例包
+### A. Turn the 5-case draft into actual, distributable case packets
 
-docs/expert_trial/TRIAL_RATING_PLAN_DRAFT.md 已提出 Sub09_P、Sub05_P、Sub50_P、Sub47_P、健康 Sub49 留一参考，这是合理的开发试评组合。当前仅有草案和空 CSV 表头；生成数据卡的脚本、曲线图、逐例清单尚不存在。
+docs/expert_trial/TRIAL_RATING_PLAN_DRAFT.md has proposed Sub09_P, Sub05_P, Sub50_P, Sub47_P, and healthy Sub49 with a leave-one-out reference, which is a reasonable combination for developmental pilot rating. Currently, only the draft and empty CSV headers exist; the script for generating data cards, curve plots, and case-specific checklists do not yet exist.
 
-每例至少应包含：与模型相同的冻结输入；原始发布平均曲线及所用参考曲线；激活阈值和区间标记；指标定义与适用的经验参考；必须描述/允许解释/不可支持的推断清单。健康 Sub49 必须明确 group=control，避免与卒中同名病例混淆。
+Each case should contain at least: the same frozen input as provided to the model; the originally published average curves and the reference curves used; activation thresholds and interval annotations; metric definitions and applicable empirical references; and lists of required descriptions/permitted interpretations/unsupported inferences. Healthy Sub49 must explicitly specify group=control to avoid confusion with the stroke case of the same name.
 
-专家看到曲线是为了核实数字与解释是否有依据，不应因模型没描述仅在曲线里、但未进入其输入的细节而扣 completeness 分。逐例清单须明确“模型实际可获得的信息”。参与制订清单的专家，应在查看模型输出前先确定参考，避免参考答案跟着模型表达变化。
+Experts see the curves to verify whether the numbers and interpretations are supported; completeness scores should not be reduced because the model did not describe details present only in the curves but not included in its input. Case-specific checklists must specify “information actually available to the model.” Experts involved in developing the checklists should establish the reference before viewing model outputs, to prevent reference answers from changing with the model's wording.
 
-### B. 统一模型输入与专家评分的参考口径
+### B. Align the reference basis for model inputs and expert ratings
 
-当前输入只给 max|z| 健康 p95 的总体跨度3.65–4.61，并说明留一法更高；并没有逐肌肉完整列出适用阈值。JSON 已有更细分数据，例如 TA 的 pooled p95=4.605、LOO p95=5.174；专家试评草案仍笼统写3.65–4.61。健康 LOO 结果不能未经说明就用 pooled 界限评正常/异常，专家也不能因模型不知道未提供的精确范围而扣分。
+The current input provides only the overall span of healthy max|z| p95, 3.65–4.61, and states that leave-one-out values are higher; it does not fully list the applicable thresholds for each muscle. The JSON already contains more detailed data, such as TA pooled p95=4.605 and LOO p95=5.174; the expert pilot-rating draft still broadly states 3.65–4.61. Healthy LOO results cannot be rated normal/abnormal using pooled limits without explanation, and experts must not deduct points because the model does not know precise ranges that were not provided.
 
-试评前选定并实现一种一致方案：把与所用方法相容的逐肌肉参考随输入和数据卡一起提供；或明确这些统计量仅描述偏差、缺少适用范围时允许不可判定。CCI、GPS-like 也要注明经验分布来源，不能因为分位数存在就把它当作经过临床验证的疾病界值。参考均值±SD曲线带是相位描述，不等于整条曲线的诊断阈值。
+Before pilot rating, select and implement one consistent approach: provide muscle-specific references compatible with the method used alongside the input and data cards; or explicitly state that these statistics only describe deviations and permit an indeterminate judgment when applicable ranges are unavailable. CCI and GPS-like must also identify the sources of their empirical distributions; the existence of a percentile does not make it a clinically validated disease cutoff. The reference mean±SD curve band is a phase-specific description, not a diagnostic threshold for the entire curve.
 
-此项是正式评价标准冻结工作，不否定先前已通过的“实际参考137人/排除本人”等元数据修复。
+This item concerns freezing the formal evaluation criteria and does not negate previously passed metadata fixes such as “actual reference of 137 participants/exclusion of the participant themself.”
 
-### C. 区分“模型正确地不可判定”和“评分者无法评分”
+### C. Distinguish “the model correctly judges the result indeterminate” from “the rater cannot assess”
 
-试评草案最后把 INDETERMINATE 对应到各 Likert 项的 NA-indeterminate，存在混淆。模型因数据不足而正确表达不确定，仍可以在准确性/无依据推断等维度得到正常评分；不能自动把它变成缺失评分。NA 应限于该维度确实不适用或专家缺少足够材料，并记录理由和统计处理方法。
+The pilot-rating draft ends by mapping INDETERMINATE to NA-indeterminate for each Likert item, which introduces confusion. When the model correctly expresses uncertainty because of insufficient data, it can still receive regular ratings on dimensions such as accuracy/unsupported inference; this must not automatically become a missing rating. NA should be limited to cases where the dimension genuinely does not apply or the expert lacks sufficient materials, with the reason and statistical handling method recorded.
 
-同时补充1–5分的中间锚点、对重要遗漏/错误严重度的统一示例。安全项保留逐条证据引用；超出数据的机制解释仍然要作为过度推断评价，不能因为“不评价机制真值”就完全不评价报告的机制断言。
+Also add intermediate anchors for scores of 1–5 and standardized examples of important omissions/error severity. Retain item-by-item evidence citations for safety items; mechanistic explanations that go beyond the data must still be evaluated as overinterpretation. “Not evaluating the truth of mechanisms” must not mean entirely omitting evaluation of mechanistic assertions in reports.
 
-### D. 给评分表增加批次和病例身份
+### D. Add batch and case identity to the rating form
 
-新打包器各批次匿名编号都会从 R0001 开始。当前 CSV 只有 rater_id、anon_report_id、subject_case 等，没有 batch_id。患者和健康试评可能来自不同批次，后续重复生成也会产生相同匿名编号。
+The new packager starts anonymous numbering at R0001 for every batch. The current CSV contains only rater_id, anon_report_id, subject_case, etc., with no batch_id. Patient and healthy pilot ratings may come from different batches, and later regeneration will also produce identical anonymous IDs.
 
-评分数据至少使用 `(batch_id, anon_report_id, rater_id)` 唯一定位；病例身份保留 group、subject_id、side 或等价的不重复 case_id。加入评分表/规则版本。评分者不可看到 provider/model 或答案键；批次 ID 本身可为中性不泄露模型的编号。不要改变已通过的批次隔离实现，只需让评分表和导入校验匹配它。
+Rating data should use at least `(batch_id, anon_report_id, rater_id)` for unique identification; case identity should retain group, subject_id, side, or an equivalent nonduplicated case_id. Add the rating form/rule version. Raters must not see provider/model or the answer key; the batch ID itself can be a neutral identifier that does not reveal the model. Do not change the batch-isolation implementation that has already passed; simply make the rating form and import validation match it.
 
-## 4. 正式比较前冻结的研究选择
+## 4. Study choices to freeze before formal comparison
 
-这些问题无需在造图之前全部决定，但必须在看正式比较结果之前锁定：
+These issues do not all need to be decided before plotting, but they must be locked before viewing the formal comparison results:
 
-- 一个主要评价终点及其分母，例如报告是否含预定义的重要事实错误/无依据推断；其他 Likert 维度列为次要结果，最终选择与专家共同确定。
-- 样本纳入/排除、开发病例与后续评价病例、完整/缺失 EMG 子集和健康已知标签任务的角色。不要将所有输出合在一起称为同一种假阳性检测。
-- 每例每模型生成次数、有效输出条件、超时/截断/失败重试与保留规则；一份报告只能评价该次输出，不能代表模型输出稳定性。
-- 模型版本、SDK、输入/提示词、默认或显式采样/推理参数、输出预算、预算是否可跨厂商直接比较。现有记录只显式设置输出 token 上限；使用默认值可以，但要披露，不能声称推理计算量严格匹配。
-- ≥2专家独立评分，保留裁决前原始评分；选择适合终点和样本量的一致性及比较分析。受试者是重复测量/聚类单位，模型与评分者交叉，不把18人×3模型当54个独立患者。
-- NA、缺失报告和争议裁决的处理，效果量与不确定性，以及探索性结论的边界。小试评用于改流程，不用于宣布某模型胜出。
+- One primary evaluation endpoint and its denominator, for example whether a report contains a predefined important factual error/unsupported inference; list other Likert dimensions as secondary outcomes, with the final choice determined jointly with experts.
+- Sample inclusion/exclusion, development cases versus subsequent evaluation cases, and the roles of complete/missing EMG subsets and the healthy known-label task. Do not combine all outputs and call them the same type of false-positive detection.
+- Number of generations per case per model, valid-output conditions, and retry and retention rules for timeouts/truncations/failures; a single report can only evaluate that output and cannot represent model output stability.
+- Model version, SDK, input/prompt, default or explicit sampling/reasoning parameters, output budget, and whether budgets are directly comparable across providers. Existing records explicitly set only the output token limit; using defaults is acceptable, but this must be disclosed, and strictly matched reasoning computation cannot be claimed.
+- ≥2 experts rate independently, retaining original ratings before adjudication; select agreement and comparative analyses appropriate for the endpoint and sample size. Participants are the repeated-measures/clustering units, with models and raters crossed; do not treat 18 participants×3 models as 54 independent patients.
+- Handling of NA, missing reports, and dispute adjudication; effect sizes and uncertainty; and the boundaries of exploratory conclusions. The small pilot rating is for improving the process, not for declaring a winning model.
 
-现有草案已写出大方向，但未冻结上述操作细节。不能把“有 rubric.py”当作统计和评价设计已完善。
+The existing draft sets out the general direction but has not frozen the operational details above. The fact that “rubric.py exists” cannot be treated as evidence that the statistical and evaluation design is complete.
 
-## 5. 文档与方法说明需同步，但不重启工程审查
+## 5. Documentation and method descriptions need to be synchronized, without restarting the engineering review
 
-README 仍有旧路径和操作口径：项目树将生成器指向 data/reports/；状态写54份“verified clean”；setup 仍用旧 .venv；演示 main-cohort 参考没有传 source，按当前代码会得到 generic 文本。应改为当前环境、v2 目录、_meta 清单、返回的 batch 路径，清楚区分历史v1与未生成的v2。README 的健康参考 self-inclusion 描述也应标清属于历史 pooled 校准而非当前对照生成入口。
+README still contains old paths and operating instructions: the project tree points the generator to data/reports/; the status lists 54 reports as “verified clean”; setup still uses the old .venv; the demonstration main-cohort reference does not pass source, which produces generic text under the current code. Update these to the current environment, v2 directory, _meta manifest, and returned batch path, clearly distinguishing historical v1 from v2 that has not yet been generated. README's healthy-reference self-inclusion description should also clearly identify it as historical pooled calibration rather than the current control-generation entry point.
 
-归一化定义应明确“每人每肌肉跨可用步态周期的共同峰值，之后平均”，避免 each cycle 的现有表达被读成逐周期各自归一。原论文 Data processing 和 Data Records 明确为跨可用周期最大值：[原论文](https://www.nature.com/articles/s41597-023-02767-y)。这里是措辞澄清，本轮未发现 Excel 路径重新错误归一化。
+The normalization definition should explicitly state “a common peak across available gait cycles for each muscle of each participant, followed by averaging,” to prevent the existing wording each cycle from being read as separate normalization within each cycle. Data processing and Data Records in the original paper explicitly specify the maximum across available cycles: [Original paper](https://www.nature.com/articles/s41597-023-02767-y). This is a wording clarification; no renewed incorrect normalization in the Excel pathway was found this round.
 
-README 已说明 Sub46 有治疗师扶手协助，但实际 Sub46 输入尚未包含辅助行走状态。若未来把这类背景纳入评分要求，应同时加入模型输入与数据卡；若保持精简输入，则不得因为模型没提未提供背景而扣分。个体 toe-off、年龄等已声明未提供，同理处理。
+README already states that Sub46 received hand support from a therapist, but the actual Sub46 input does not yet include assisted-walking status. If such context is included in rating requirements in the future, it should also be added to the model input and data card; if the input remains streamlined, points must not be deducted because the model did not mention context that was not provided. Individual toe-off, age, etc., have already been declared not provided and should be handled in the same way.
 
-5例草案中的轻/中/重描述宜明确是按步速选择的开发例，不能未经独立依据当作全面临床严重度真值。
+The mild/moderate/severe descriptions in the 5-case draft should explicitly refer to development cases selected by walking speed; without independent evidence, they must not be treated as ground truth for overall clinical severity.
 
-## 6. 推荐执行顺序及完成条件
+## 6. Recommended execution order and completion criteria
 
-1. **先完成试评准备（现在可做）。** 生成5例数据卡与曲线；对齐参考口径；完善评分锚点、NA和批次字段；补齐 README 当前操作流程。验收：每个必评项目能追溯到模型实际输入或明确允许的参考。
-2. **小量真实病例验证。** 已有单词 SDK smoke 不需无理由反复重跑；在用户授权预算后，先1例×3模型检查完整报告、终止状态、请求参数留档、费用和打包，再补齐计划的5例试评报告。不要直接用固定18人脚本生成全量来代替试评选样。
-3. **≥2专家开发试评。** 独立评分，记录时间、分歧和材料不足；修订规则，保留版本与原始记录。
-4. **冻结正式方案后再生成正式批次。** 锁定样本与主要终点，执行预定失败处理及分析，原始报告、批次答案键、评分和裁决完整留档。
+1. **Complete pilot-rating preparation first (can be done now).** Generate data cards and curves for 5 cases; align the reference basis; complete rating anchors, NA, and batch fields; update README with the current operating workflow. Acceptance: every required rating item can be traced to the actual model input or an explicitly permitted reference.
+2. **Validate a small number of real cases.** There is no need to repeatedly rerun the existing single-word SDK smoke test without reason; after the user authorizes the budget, first use 1 case×3 models to check complete reports, termination status, request-parameter archiving, costs, and packaging, then complete the planned 5-case pilot-rating reports. Do not directly use the fixed 18-person script to generate the full set as a substitute for pilot-rating sample selection.
+3. **Developmental pilot rating by ≥2 experts.** Rate independently, recording time, disagreements, and insufficient materials; revise the rules and retain versions and original records.
+4. **Generate formal batches only after freezing the formal protocol.** Lock the sample and primary endpoint, execute the predefined failure handling and analysis, and fully archive original reports, batch answer keys, ratings, and adjudications.
 
-不应再无目标地开展一轮又一轮全代码审查。当前最有价值的推进是让专家能对同一证据稳定评分，并用真实病例小样例验证完整报告流程。
+There should be no further aimless rounds of full-code review. The most valuable progress now is to enable experts to rate the same evidence consistently and to validate the complete report workflow using a small sample of real cases.

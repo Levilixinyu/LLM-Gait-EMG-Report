@@ -1,0 +1,47 @@
+**1. Objective Findings**
+*   **Participant Context:** Stroke group, paretic side. 
+*   **Gait Speed:** 0.68 m/s (classified by the source as the limited community ambulator band; this denotes a speed category, not a direct measure of community independence or safety).
+*   **Cadence:** 90.8 steps/min.
+*   **Step Length Symmetry Index:** 5.7% (using the successive-footfall definition), indicating the paretic step is slightly longer than the non-paretic step.
+*   **Data Exclusions:** Coronal and transverse plane kinematics are not supplied. Specific gait-phase events (such as toe-off), temporal boundaries differentiating stance from swing, and matched normal muscle timing references are not included in this analysis cycle.
+
+**2. EMG Envelope and Threshold Findings**
+The following values describe properties of the participant’s ensemble-averaged EMG envelopes (threshold set at 20% of the muscle's own peak, minimum duration 3% of the cycle). They do not represent stride-to-stride variability, absolute physiological force, or individual stride contraction parameters.
+
+*   **Gastrocnemius (GAS):** Above-threshold interval from 4% to 63% of the gait cycle; total coverage 59%; peak relative amplitude 0.78.
+*   **Rectus Femoris (RF):** Two above-threshold intervals: 69% to 77% and 84% to 66% (wrapping across the initial-contact boundary); total coverage 91%; peak relative amplitude 0.68.
+*   **Vastus Lateralis (VL):** Above-threshold interval from 88% to 61% (wrapping across the boundary); total coverage 73%; peak relative amplitude 0.67.
+*   **Biceps Femoris (BF):** Three above-threshold intervals: 48% to 64%, 71% to 78%, and 83% to 26% (wrapping across the boundary); total coverage 68%; peak relative amplitude 0.83. 
+*   **Semitendinosus (ST):** Two above-threshold intervals: 43% to 68% and 85% to 26% (wrapping across the boundary); total coverage 67%; peak relative amplitude 0.55.
+*   **Tibialis Anterior (TA):** Above-threshold interval from 69% to 35% (wrapping across the boundary); total coverage 66%; peak relative amplitude 0.48.
+*   **Erector Spinae (ERS):** Above-threshold interval from 47% to 32% (wrapping across the boundary); total coverage 87%; peak relative amplitude 0.72.
+
+*   **Co-Contraction Indices (CCI):** Calculated as a whole-cycle overlap index on the continuous normalized envelopes.
+    *   **TA vs. GAS:** 0.60 (falls just above the provided healthy reference 2.5th–97.5th percentile interval of 0.24–0.59, median 0.39).
+    *   **RF vs. BF:** 0.66 (falls within the provided healthy reference interval of 0.48–0.83, near the median of 0.68). 
+    *   *Note:* Falling inside or outside these reference intervals depends on normalization methods and does not inherently establish physiologically normal function, pathological co-activation, stiffness, or an isolated diagnosis.
+
+**3. Kinematic and Reference Comparisons**
+*Reference limitation:* The participant's gait speed (0.68 m/s) falls below the minimum speed of the healthy reference cohort (0.80–1.79 m/s). As a result, no appropriately speed-matched healthy baseline is available. Standardized deviations from this reference conflate the mechanical effects of slow walking with stroke-specific control changes. Furthermore, deviations from the reference mean do not independently establish clinical restrictions or diagnoses.
+
+*   **Sagittal Plane Joint Kinematics:** 
+    *   **Ankle:** Range of Motion (ROM) 26.4°, Gait Variable Score (GVS) 13.71.
+    *   **Knee:** ROM 49.9°, GVS 12.00.
+    *   **Hip:** ROM 38.4°, GVS 4.94.
+    *   **Pelvis:** ROM 7.7°, GVS 5.08.
+*   **Composite Kinematic Deviation Score:** 9.77 (compared to a healthy cohort median of 5.1 and 95th percentile of 10.7).
+
+*   **EMG Maximum |z| Deviations:** This metric reports the single largest standardized deviation from the phase-specific reference mean across the 1001-point cycle, which may not correspond to peak amplitude or specific gait events.
+    *   GAS: 20.3 (above the phase-specific reference mean at 57% of the cycle).
+    *   RF: 7.4 (above reference mean at 37%).
+    *   VL: 8.3 (above reference mean at 32%).
+    *   BF: 3.1 (above reference mean at 95%).
+    *   ST: 5.6 (above reference mean at 57%).
+    *   TA: 3.3 (above reference mean at 14%).
+    *   ERS: 5.8 (above reference mean at 60%).
+
+**4. Questions for Further Clinical Assessment**
+*   Do the pronounced Gait Variable Scores at the ankle (13.71) and knee (12.00) correspond to any observed positional restrictions or joint compensations during clinical mobility tasks?
+*   How does the participant's step length asymmetry (5.7%, paretic step slightly longer) present during functional ambulation, and does it impact their dynamic balance?
+*   Does the continuous envelope overlap measured for the TA/GAS pair (CCI 0.60) correlate with any observable ankle stiffness or altered lower limb advancement during overground trials? 
+*   How do the extensive above-threshold interval coverage observed in the RF (91%) and ERS (87%) muscles align with clinical observations of the participant's trunk and lower extremity postural control strategies?

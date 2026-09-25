@@ -1,0 +1,61 @@
+{
+  "status": "Offline input and planning checks passed; live readiness pending",
+  "participants": 35,
+  "stroke": 25,
+  "controls": 10,
+  "report_slots": 105,
+  "verified_exact_prompt_files": 70,
+  "included_case_requirements": 149,
+  "case_coverage_rows_per_rater": 447,
+  "G03_rows_per_rater": 105,
+  "total_coverage_rows_per_rater": 552,
+  "model_calls": 0,
+  "configuration_frozen": false,
+  "generation_authorized": false,
+  "sdk_versions": {
+    "anthropic": "1.6.0",
+    "openai": "3.14.1",
+    "google-genai": "2.23.0"
+  },
+  "http_library_versions": {
+    "httpx": "0.28.1",
+    "httpx2": "2.13.0"
+  },
+  "verified_evidence_sha256": {
+    "docs/formal_study/execution_analysis_v3_draft/plan.json": "60937d892ab8dc6c8b666c13e904489f4f12c47077ec358690baa55bdc2227d2",
+    "docs/formal_study/execution_analysis_v3_draft/change_log.json": "8924320b996e377f65466468f6f91315f4977cc761532b46abc693dfc2185e05",
+    "docs/formal_study/execution_analysis_v3_draft/RATER1_AVAILABILITY_UPDATE.json": "7290903365c7cc78a355316f99aee2e4256772935d5185251374cef9bf92ba9b",
+    "docs/formal_study/execution_analysis_v3_draft/expert_return_records.json": "33b7cdc1e747aeebbde8cfdfdfcae2f61c77896da53c3d1df89fea2be3c09d89",
+    "docs/formal_study/execution_analysis_v3_draft/README.md": "ed037c4dd8d1a05a6385a1a67475427e7c47b14e207b2fa8b828a60c1b4de017",
+    "docs/formal_study/execution_analysis_v3_draft/validation.json": "182a82e8f236f487046687b17ac80d4399f0337974b2e00cfe7f66529ba5bcda",
+    "docs/formal_study/execution_analysis_v3_draft/Study_lead_decisions.xlsx": "dd18fb1974895a4a7e15863493007d231fff0c80b638ecc3391d4854943692a9",
+    "docs/formal_study/execution_analysis_v3_draft/STUDY_LEAD_CONFIRMATION.json": "be2f0ef62983574746b958bbfafc6ac1b8fdc30ce44eb465fbed94e376c40185",
+    "docs/formal_study/execution_analysis_v3_draft/APPROVAL_STATUS.md": "432a90f7240459e377a7afbaf8185b20150e0f203eef1764f230d5ed83b79453",
+    "docs/formal_study/execution_analysis_v3_draft/PROTOCOL.md": "62a6c7baaa28aa0ac3321768b1875aa47e98349b69e18d1d20db1a879bfabeb6",
+    "docs/formal_study/case_requirements_v1/summary.json": "50110114c452056e733bc970e72f449e0c3c99aa00956cdfc905d5fba8ee4a7b",
+    "docs/formal_study/case_requirements_v1/case_summary.csv": "466b0a009deeb0cbd8c7e6d09e8082f844d474fa32cddf71a85c13bff282139a",
+    "docs/formal_study/case_requirements_v1/Final_case_requirements_v1.xlsx": "29e83dd78d39e2f3dacc511fcc01bcae51b329b96874e50c8bdcf890e3bd82e2",
+    "docs/formal_study/case_requirements_v1/change_log.json": "8337285ed73e62090bdb59b6843d285c8d29b6d9bf2800baae74ecedc6f2d893",
+    "docs/formal_study/case_requirements_v1/case_requirements.csv": "c836e6fae801ee15da142a989764f79223843a6509df27c26d7fb763fac27806",
+    "docs/formal_study/case_requirements_v1/README.md": "4884b7a13ca10cab2bc866adfe1d265c3b0b830663b2b057a2de00103fd4a0f0",
+    "docs/formal_study/case_requirements_v1/validation.json": "fcc4842fdfd7459d0e22498b6a70b2fc13b6e7a45165b96b7974a2149e29a01b",
+    "docs/formal_study/case_requirements_v1/shared_rules.csv": "22f37d70af4d546bbdc55e8a9dc1f943bc888356fadf7880e58187a46e9a1224"
+  },
+  "inventory_sha256": "eb3a59e494c94ced5bb3ceb3e7268811b4ae3e08ed45b66eeaa1d56e1ef609be",
+  "source_sha256": {
+    "docs/formal_study/control_supplement_v2/selected_study_cases.csv": "41363eecd1cd2a2fd6cfc9f94a87cc0da9813c198e5bec31ccf2aa83010bf4fd",
+    "docs/formal_study/case_review_v1/manifest.json": "e25d744d06259b0b02fd6991a4d7df9ef879aaad79865c921878cfdfdbc33995",
+    "docs/formal_study/candidate_v3_1/APPROVAL_RECORD.json": "085bb60004b89dad7d6e46a5e41d43133328968ace39c5ce2296731871a0ca47",
+    "docs/formal_study/rubric_v2_draft/APPROVAL_RECORD.json": "44c9c85027a66195163c06aea7574ab1edf729bfba647f392195be7c1494233a",
+    "docs/formal_study/execution_analysis_v1_draft/exposure_confirmation.json": "2a12a0e0babf4726ab714510a8fb6cf0bfef8d7393dc806480988c37266fd53f",
+    "docs/formal_study/execution_analysis_v3_draft/plan.json": "60937d892ab8dc6c8b666c13e904489f4f12c47077ec358690baa55bdc2227d2",
+    "docs/formal_study/case_requirements_v1/case_requirements.csv": "c836e6fae801ee15da142a989764f79223843a6509df27c26d7fb763fac27806",
+    "docs/formal_study/case_requirements_v1/shared_rules.csv": "22f37d70af4d546bbdc55e8a9dc1f943bc888356fadf7880e58187a46e9a1224",
+    "docs/formal_study/generation_preflight_v1/provider_candidates.json": "18b448308b7e9048ee80a3b9d52da1df9817d989413610018c6ff1a6d1df6f79",
+    "src/llm/formal_generation.py": "2c2ac18319b0ce91cdb5670380b193a106d0146360948698d27b1c5782f21c74",
+    "src/llm/formal_providers.py": "b52dddbef2793ac6fb0224ee935d04cfa7616b087d1d6ae57aba62c8a99af272",
+    "scripts/prepare_formal_generation.py": "c482a74243e317f10745c1fa2dbe89df650d14617e0cd9df03f070e8aa2acb39",
+    "tests/test_formal_generation.py": "8a3402d1f8ba2382420c4bb861201d560c6690f8d12cde6550d20d23f026cde4",
+    "tests/test_formal_providers.py": "8a35954af59d0d6757118c68b877f1d51362dc1525de736f19e11619ec9d6fa6"
+  }
+}

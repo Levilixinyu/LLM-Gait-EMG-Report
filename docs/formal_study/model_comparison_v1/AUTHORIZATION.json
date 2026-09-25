@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-09-23T19:36:27.512564+00:00",
+  "authority": "Study lead, direct conversation confirmation",
+  "instruction_english_translation": "Okay.",
+  "context": "The assistant reported successful frozen-data validation and stated that the next step was comparing the three models based on that frozen dataset; the study lead confirmed proceeding.",
+  "scope": [
+    "Join the protected report-to-model mapping to the validated frozen dataset.",
+    "Run the planned stroke primary comparison and separate exploratory control analyses.",
+    "Retain Pending uncertainty, independent-review sensitivity, and individual category differences."
+  ],
+  "frozen_dataset_sha256": "9cf006f23d5660118f5ac4da9e631e68645fa17686a0742841e267e616ca9167",
+  "unblinding_authorized_for_analysis": true,
+  "expert_ratings_may_be_changed": false,
+  "new_generation_authorized": false,
+  "scope_limitation": "Analytical authorization, not a new expert signature or permission to distribute the identity key to rater materials."
+}

@@ -1,0 +1,44 @@
+**1. Objective Findings**
+*   **Subject:** Sub33_P (Stroke group, paretic side)
+*   **Gait Speed:** 0.22 m/s (categorized within the household ambulator band of <0.4 m/s; this label denotes a speed range and does not measure real-world community mobility, safety, or independence).
+*   **Cadence:** 62.7 steps/min
+*   **Step Length Symmetry Index:** 8.6% (successive-footfall definition).
+*   **Cycle Definition:** The analysis cycle runs from initial contact (0%) to the next initial contact (100%) of the paretic limb. Intermediate gait events are not supplied. 
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings are derived from ensemble-averaged envelopes normalized to each curve’s own available peak. Retained intervals represent regions where the averaged envelope exceeded 20% of its peak for at least 3% of the cycle. These relative amplitudes and interval boundaries do not represent absolute muscle force, physiological onset/offset, or stride-to-stride variability. 
+
+*   **Envelope Detection and Coverage:** All seven evaluated muscles maintained an averaged envelope above the threshold across the initial contact boundary (wrapping the 100% to 0% transition). 
+    *   **GAS:** 0%-100% (100% coverage, continuously above threshold); peak normalized amplitude 0.46.
+    *   **BF:** 0%-100% (100% coverage, continuously above threshold); peak normalized amplitude 0.39.
+    *   **ERS:** 22%-20% (98% coverage); peak normalized amplitude 0.51.
+    *   **TA:** 72%-58% (87% coverage); peak normalized amplitude 0.33.
+    *   **ST:** 46%-77% and 91%-36% (77% coverage); peak normalized amplitude 0.50.
+    *   **RF:** 87%-57% (73% coverage); peak normalized amplitude 0.48.
+    *   **VL:** 87%-58% (73% coverage); peak normalized amplitude 0.54.
+*   **Co-Contraction Indices (CCI):** The Falconer-Winter overlap index evaluates the full continuous envelopes (including sub-threshold regions) over the entire cycle.
+    *   **TA vs. GAS:** CCI = 0.78. This value is higher than the empirical healthy reference interval (median 0.39; 2.5th–97.5th percentile 0.24–0.59). Being outside this interval does not alone establish a diagnosis of pathological co-activation or stiffness.
+    *   **RF vs. BF:** CCI = 0.65. This falls within the supplied healthy reference interval (median 0.68; 2.5th–97.5th percentile 0.48–0.83). Being within this interval does not establish physiologically normal muscle control.
+
+**3. Kinematic and Reference Comparisons**
+*   **Reference Comparability Limit:** The deviation comparisons utilize a pooled reference of 138 healthy subjects whose self-selected walking speeds range from 0.80 to 1.79 m/s. Because this subject's gait speed (0.22 m/s) falls well below this range, no speed-matched reference exists in this dataset. Consequently, deviations from the reference conflate the mechanical effects of walking very slowly with stroke-specific pathology, and these two factors cannot be separated using this comparison.
+*   **Composite Kinematic Score:** The GPS-like composite score is 10.56. This is higher than the healthy reference median of 5.1 and falls just below the 95th percentile limit of 10.7. 
+*   **Sagittal Joint Kinematics:** 
+    *   **Ankle:** ROM 14.9°, Gait Variable Score (GVS) 6.91
+    *   **Knee:** ROM 26.6°, GVS 14.96
+    *   **Hip:** ROM 23.5°, GVS 11.51
+    *   **Pelvis:** ROM 4.1°, GVS 6.48
+*   **EMG Maximum |z| Deviations:** The max |z| score represents the largest standardized difference between the subject's mean envelope and the phase-specific reference mean; it is an extreme-value statistic, not a conventional 2-SD diagnostic threshold or an indicator of peak amplitude timing. 
+    *   **GAS:** 13.7 (above reference mean at 57% of cycle)
+    *   **ST:** 6.3 (above reference mean at 60% of cycle)
+    *   **VL:** 6.1 (above reference mean at 33% of cycle)
+    *   **BF:** 5.1 (above reference mean at 58% of cycle)
+    *   **ERS:** 4.8 (above reference mean at 72% of cycle)
+    *   **TA:** 4.6 (above reference mean at 37% of cycle)
+    *   **RF:** 4.5 (above reference mean at 39% of cycle)
+
+**4. Questions for Further Clinical Assessment**
+*   How do the extensive EMG envelope threshold coverages—specifically the 100% threshold coverage in GAS and BF and the elevated TA/GAS CCI—correlate with clinical assessments of paretic limb resting tone, spasticity, or passive range of motion?
+*   Does clinical observation suggest that the high Knee GVS (14.96) is associated with specific stance-stability compensations or swing-phase clearance challenges given the slow gait speed?
+*   Are the observed limits in sagittal joint ROM (particularly at the ankle and knee) mechanically driven by connective tissue changes, or do they primarily reflect dynamic control strategies for balance at 0.22 m/s?
+*   Is the step length symmetry index of 8.6% (successive footfall) perceived by the patient as a stability strategy during single-limb support on the paretic side, or is it mediated by contralateral advancement deficits?

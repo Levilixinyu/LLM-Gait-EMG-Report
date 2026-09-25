@@ -1,0 +1,21 @@
+{
+  "common_plus_five_case_forms": true,
+  "common_section_first": true,
+  "locked_until_reviewer": true,
+  "common_exported_once": true,
+  "export_preserves_revision": true,
+  "export_preserves_rejection": true,
+  "export_preserves_addition": true,
+  "common_decision_exported": true,
+  "unfinished_is_draft": true,
+  "csv_has_utf8_bom": true,
+  "csv_has_review_and_case_id": true,
+  "reload_restores_browser_draft": true,
+  "second_reviewer_is_separate": true,
+  "json_import_restores_review": true,
+  "wrong_version_rejected_without_mutation": true,
+  "import_text_not_html": true,
+  "single_case_ui_works": true,
+  "common_shared_with_single_page": true,
+  "no_browser_runtime_errors": true
+}

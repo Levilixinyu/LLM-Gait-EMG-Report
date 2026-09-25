@@ -1,0 +1,62 @@
+[
+  {
+    "item_id": "N01",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: describe the GPS-like value 4.27 as a composite difference from the reference. It does not classify overall gait as normal or abnormal.",
+    "evidence": "Composite kinematic deviation score (GPS-like): 4.27",
+    "proposed_components": "Displayed composite finding; no required claim of clinical normality. Decide whether this adds essential content beyond N02.",
+    "selection_basis": "Control input supplies no individual walking speed. This proposal can be omitted if redundant with joint findings.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N02",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: identify these leading displayed joint-curve differences: Pelvis GVS 5.48 degrees; Hip GVS 4.86 degrees. Choose which joints actually deserve emphasis; ranking is not clinical severity.",
+    "evidence": "- PelvisAngles: range of motion 2.4 deg, Gait Variable Score 5.48\n- HipAngles: range of motion 50.0 deg, Gait Variable Score 4.86",
+    "proposed_components": "Named joint findings selected by the expert. No unseen waveform direction or phase is required.",
+    "selection_basis": "Two largest displayed GVS values, including ties at the cutoff; not an automatic importance rule.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N03",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: describe Biceps femoris (BF) as above the phase-specific reference mean at about 29% of the analysis cycle, with displayed max |z| 6.0. Decide whether it merits inclusion or replace it with a more relevant input-supported finding.",
+    "evidence": "- BF: above-threshold interval(s) 9%-46%; 81%-86%; 90%-8% (wraps cycle boundary), 60% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.62, max |z| vs healthy reference: 6.0 (above reference, at 29% of cycle)",
+    "proposed_components": "Muscle AND mean-relative direction AND approximate cycle location; magnitude provides descriptive context, not a diagnostic threshold.",
+    "selection_basis": "One of two largest displayed max-|z| values; alphabetical tie-break only selects a review candidate. No uniqueness or exact rank is required.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N04",
+    "category": "must_describe_candidate",
+    "draft_statement": "Draft core: describe Rectus femoris (RF) as above the phase-specific reference mean at about 60% of the analysis cycle, with displayed max |z| 4.2. Decide whether it merits inclusion or replace it with a more relevant input-supported finding.",
+    "evidence": "- RF: above-threshold interval(s) 54%-72%; 95%-21% (wraps cycle boundary), 47% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.63, max |z| vs healthy reference: 4.2 (above reference, at 60% of cycle)",
+    "proposed_components": "Muscle AND mean-relative direction AND approximate cycle location; magnitude provides descriptive context, not a diagnostic threshold.",
+    "selection_basis": "One of two largest displayed max-|z| values; alphabetical tie-break only selects a review candidate. No uniqueness or exact rank is required.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  },
+  {
+    "item_id": "N05",
+    "category": "must_describe_candidate",
+    "draft_statement": "Optional candidate for a core finding: Biceps femoris (BF) has 60% displayed above-threshold coverage. Select this only if the envelope-extent finding adds useful case-specific content; otherwise omit it. Use the retained intervals in the input if helpful.",
+    "evidence": "- BF: above-threshold interval(s) 9%-46%; 81%-86%; 90%-8% (wraps cycle boundary), 60% of cycle above threshold, above threshold across cycle boundary, peak normalized amplitude 0.62, max |z| vs healthy reference: 6.0 (above reference, at 29% of cycle)",
+    "proposed_components": "If retained, describe measured above-threshold extent. Do not equate rounded coverage with continuous physiological activation or absence of brief threshold gaps.",
+    "selection_basis": "Largest displayed coverage, alphabetical tie-break. Optional candidate; the 100% display alone is not a pathological or physiological duration claim.",
+    "expert_decision": "PENDING",
+    "expert_edit": "",
+    "expert_id": "",
+    "review_date": ""
+  }
+]

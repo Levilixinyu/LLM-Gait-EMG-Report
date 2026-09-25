@@ -1,0 +1,256 @@
+{
+  "version": "execution-analysis-v2-draft",
+  "status": "D04 revised; expert reconfirmation, rater1 capacity and study-lead decisions pending",
+  "cases": 35,
+  "stroke_cases": 25,
+  "control_cases": 10,
+  "planned_report_slots": 105,
+  "raters": 2,
+  "report_assignments": 210,
+  "included_case_requirements": 149,
+  "proposed_G03_applications": 35,
+  "coverage_rows_per_rater": 552,
+  "coverage_rows_total": 1104,
+  "primary": {
+    "name": "Stroke case-specific full-coverage proportion",
+    "participant_equal_weight": true,
+    "denominator": "All included case requirements for that participant; common G03 separate",
+    "partial_credit": null,
+    "contrast": "Mean within-case difference",
+    "missing": "Complete triads plus all-planned-case bounds"
+  },
+  "analysis": {
+    "method": "Paired participant BCa bootstrap",
+    "resamples": 20000,
+    "seed": 20260918,
+    "primary_pairwise_contrasts": 3,
+    "descriptive_confidence": 0.95,
+    "adjusted_primary_confidence": 0.9833333333333333,
+    "secondary_inference": "Exploratory",
+    "binary_interval": "Clopper-Pearson, 95% two-sided; zero-control-event bound also 95% one-sided"
+  },
+  "generation": {
+    "candidate_models": [
+      {
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "verification": "Historical local configuration only; runtime availability/settings pending"
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-6-astra",
+        "verification": "Historical local configuration only; runtime availability/settings pending"
+      },
+      {
+        "provider": "gemini",
+        "model": "gemini-3.1-pro-preview",
+        "verification": "Historical local configuration only; runtime availability/settings pending"
+      }
+    ],
+    "proposed_output_token_budget": 8000,
+    "max_transmitted_attempts": 3,
+    "attempt_deadline_seconds": 600,
+    "backoff_seconds": [
+      5,
+      30
+    ],
+    "retry_after_pause_threshold_seconds": 300,
+    "allow_content_regeneration": false,
+    "allow_truncation_regeneration": false,
+    "sdk_retry_policy": "Disable or make every hidden request visible in the shared attempt budget"
+  },
+  "exposure_status": "User confirmed no additional known use for all 35 selected cases",
+  "plan_approved": false,
+  "clinical_operational_items_approved": false,
+  "provider_configuration_frozen": false,
+  "generation_authorized": false,
+  "model_calls": 0,
+  "decisions": [
+    {
+      "decision_id": "D01",
+      "responsible_role": "Study lead",
+      "topic": "Primary outcome",
+      "proposed_decision": "Mean case-specific full-coverage proportion in stroke cases; equal participant weight; no 0.5 partial credit or combined coverage/error score.",
+      "protocol_section": "4",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Outside my review scope",
+      "prior_rater2_decision": "Outside my review scope"
+    },
+    {
+      "decision_id": "D02",
+      "responsible_role": "Both experts; study lead",
+      "topic": "Common G03",
+      "proposed_decision": "Apply G03 once to all 35 reference-bearing tasks; report it separately from the primary denominator; permit shared evidence with case requirements.",
+      "protocol_section": "4",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Accept",
+      "prior_rater2_decision": "Accept"
+    },
+    {
+      "decision_id": "D03",
+      "responsible_role": "Study lead",
+      "topic": "Correctness and other outcomes",
+      "proposed_decision": "Any confirmed E01-E09 case error and unique issue counts; preserve contradictions; format/design concerns separate; joint fully-covered/G03/error-free outcome secondary only.",
+      "protocol_section": "5",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Outside my review scope",
+      "prior_rater2_decision": "Outside my review scope"
+    },
+    {
+      "decision_id": "D04",
+      "responsible_role": "Both experts; study lead",
+      "topic": "Control semantic flags",
+      "proposed_decision": "Confirm the unchanged semantic definitions plus the revised per-flag status rule and contextual examples in v2 section 6.",
+      "protocol_section": "6",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Revise",
+      "prior_rater2_decision": "Accept"
+    },
+    {
+      "decision_id": "D05",
+      "responsible_role": "Study lead; statistical reviewer if appointed",
+      "topic": "Paired analysis and multiplicity",
+      "proposed_decision": "Complete three-model stroke case sets; equal-case means and paired differences; 20000 BCa case resamples; descriptive 95% and approximate Bonferroni 98.3333% primary-pair intervals; no confirmatory secondary tests.",
+      "protocol_section": "8",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Outside my review scope",
+      "prior_rater2_decision": "Outside my review scope"
+    },
+    {
+      "decision_id": "D06",
+      "responsible_role": "Study lead",
+      "topic": "Missingness",
+      "proposed_decision": "Recover administrative material first; no unknown-to-zero conversion or denominator shrinkage; complete-triad analysis plus all-planned-case bounds and explicit delivery accounting.",
+      "protocol_section": "9",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Outside my review scope",
+      "prior_rater2_decision": "Outside my review scope"
+    },
+    {
+      "decision_id": "D07",
+      "responsible_role": "Both experts; study lead",
+      "topic": "Review and adjudication",
+      "proposed_decision": "Independent blinded reviews, original labels preserved, human resolution of remaining disputes; descriptive agreement from independent labels only.",
+      "protocol_section": "7",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Accept",
+      "prior_rater2_decision": "Accept"
+    },
+    {
+      "decision_id": "D08",
+      "responsible_role": "Study lead; technical operator",
+      "topic": "Generation and retries",
+      "proposed_decision": "One intended response; at most three transient-failure attempts, first usable output retained, no quality/truncation regeneration; persistent attempt ledger, 600-second deadline and controlled backoff.",
+      "protocol_section": "10",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Outside my review scope",
+      "prior_rater2_decision": "Outside my review scope"
+    },
+    {
+      "decision_id": "D09",
+      "responsible_role": "Study lead; technical operator",
+      "topic": "Provider settings",
+      "proposed_decision": "Review historical local candidate roster and proposed 8000-token budget; verify exact available identifiers and effective settings before freeze. No provider substitution or equal-compute claim.",
+      "protocol_section": "10",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Outside my review scope",
+      "prior_rater2_decision": "Outside my review scope"
+    },
+    {
+      "decision_id": "D10",
+      "responsible_role": "Both experts",
+      "topic": "Capacity",
+      "proposed_decision": "Each rater reviews up to 105 reports and 552 coverage rows, plus issue review and reconciliation; confirm capacity and enter a realistic schedule.",
+      "protocol_section": "3",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Revise",
+      "prior_rater2_decision": "Accept"
+    },
+    {
+      "decision_id": "D11",
+      "responsible_role": "Study lead; technical operator",
+      "topic": "Readiness and release",
+      "proposed_decision": "Implement offline tested formal runner, exact input hashes, private blinding, persisted retries and analysis checks before the separate batch-generation authorization.",
+      "protocol_section": "11-12",
+      "reviewer_decision": "",
+      "comments_or_revision": "",
+      "reviewer": "",
+      "date": "",
+      "prior_rater1_decision": "Outside my review scope",
+      "prior_rater2_decision": "Outside my review scope"
+    }
+  ],
+  "expert_accepted_v1_items": [
+    "D02",
+    "D07"
+  ],
+  "expert_reconfirmation_required": [
+    "D04"
+  ],
+  "pending_study_lead_items": [
+    "D01",
+    "D03",
+    "D05",
+    "D06",
+    "D08",
+    "D09",
+    "D11"
+  ],
+  "flag_status_rule": "Determine each semantic flag separately. A flag is positive once at least one confirmed in-scope issue satisfies its definition, even if another potentially qualifying issue remains pending. A flag is negative only after a complete issue review finds no confirmed or pending issue qualifying for that flag. Otherwise it is indeterminate. A pending issue relevant only to the other flag does not make this flag indeterminate once this flag has been fully assessed.",
+  "flag_clarifications": "A control EMG route-C statement that all seven displayed max |z| values are below the supplied 3.65 endpoint is a displayed-value comparison and does not itself trigger the normality flag. A question presupposing an unsupported clinical deficit is assessed as an assertion under the existing rubric; the pathology flag for that presupposition requires a confirmed E02 issue, not question syntax alone. Other flag-qualifying assertions remain assessed under their applicable existing error categories. No new mandatory report content, error category or penalty is introduced.",
+  "capacity": {
+    "rater1": {
+      "reviewer": "rater1",
+      "report_assignments": 105,
+      "coverage_judgments": 552,
+      "capacity_confirmed": "Pending - workload acknowledged; schedule not confirmed",
+      "planned_start": "Pending: complete blinded review packet availability and agreed start date",
+      "planned_completion": "Pending: agreed independent-review deadline; reconciliation scheduled separately",
+      "comments": "Up to 105 reports and 552 coverage judgments are acknowledged, plus issue review, evidence recording, format checks and reconciliation. Availability and a feasible calendar have not been established. This entry is not a promise of future completion or another reviewer's capacity confirmation."
+    },
+    "rater2": {
+      "reviewer": "rater2",
+      "report_assignments": 105,
+      "coverage_judgments": 552,
+      "capacity_confirmed": "Yes",
+      "planned_start": "2026-09-21",
+      "planned_completion": "2026-10-02",
+      "comments": "105 report assignments and 552 coverage judgments accepted. Planned pace about 10 to 12 reports per working day in case blocks, completing independent review within ten working days of packet delivery; reconciliation and third-reviewer referrals in the following week (target 2026-10-09). Start date assumes packets are delivered on or before 2026-09-21; if delivery is later, both dates shift by the same amount. Independent review will be exported before any discussion with rater1."
+    }
+  },
+  "capacity_status": {
+    "rater1": "Workload acknowledged; capacity and dates pending",
+    "rater2": "Accepted conditional on packet delivery; proposed dates are not a project delivery commitment"
+  },
+  "delivery_condition_to_clarify": "Interpret case blocks as delivery batches preserving the fixed interleaved rater order, not adjacent same-case comparisons; obtain rater2 acknowledgment."
+}

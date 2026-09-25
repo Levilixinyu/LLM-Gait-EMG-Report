@@ -1,0 +1,25 @@
+{
+  "recorded_at_utc": "2026-09-25T04:39:37.633990+00:00",
+  "authority": "Study lead; direct statement in conversation",
+  "confirmed_statement": "All three reviewers are PhD students at The University of Texas at Austin with at least five years of experience in EMG analysis and neuromuscular control research.",
+  "applies_to": [
+    "rater1",
+    "rater2",
+    "rater3"
+  ],
+  "confirmed_fields": {
+    "institution": "The University of Texas at Austin",
+    "academic_status": "PhD student",
+    "research_area": "EMG analysis and neuromuscular control research",
+    "relevant_experience": "At least five years for each reviewer"
+  },
+  "not_yet_specified": [],
+  "not_inferred": [
+    "Completed PhD degree",
+    "PhD candidacy milestone",
+    "Physician status or clinical licensure",
+    "Ethics approval from the reviewers institution"
+  ],
+  "scoring_judgments_modified": false,
+  "updated_at_utc": "2026-09-25T04:40:28.875345+00:00"
+}

@@ -19,15 +19,17 @@ class RawTrialData:
 @dataclass
 class NormalizedTrialData:
     """One subject-side trial already stride-time-normalized to a fixed-length gait
-    cycle grid and (for EMG) amplitude-normalized to that subject's own peak -- the
-    format the Van Criekinge et al. (2023) Figshare post-processed Excel files ship in.
+    cycle grid. EMG amplitude processing is recorded separately in emg_processing;
+    for the released cohort, scaling precedes stride averaging and uses a shared
+    across-stride maximum per recorded muscle.
     No fs/events needed since the segmentation and normalization are already done."""
 
     subject_id: str
     group: str  # "stroke" | "control"
     side: str  # "P" (paretic) | "N" (non-paretic) | "avg" (single trace, e.g. controls)
     joint_angles: dict  # joint_name -> 1D np.ndarray, angle trace (deg), fixed length
-    emg_norm: dict  # muscle_name -> 1D np.ndarray, peak-normalized envelope, same length
+    emg_norm: dict  # muscle_name -> 1D np.ndarray, supplied mean envelope, same length; see emg_processing
+    emg_processing: str | None = None  # provenance, independent of reference membership
 
 
 @dataclass
@@ -92,3 +94,4 @@ class PatientFeatureSummary:
     # so serialized text describes the REAL reference, not an assumed one (audit
     # round 3, T2: a 137-subject LOO reference was being described as 138)
     reference_meta: dict | None = None
+    emg_processing: str | None = None

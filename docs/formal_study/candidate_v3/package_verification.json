@@ -1,0 +1,52 @@
+{
+  "checks": {
+    "five_case_summaries_unchanged_except_processing_metadata": true,
+    "displayed_prompts_match_saved_messages": true,
+    "package_and_code_hashes_valid": true,
+    "all_cached_arrays_equal_released_excel": 2618,
+    "protected_historical_files_unchanged": 348
+  },
+  "cases": [
+    {
+      "case_id": "stroke_Sub09_P",
+      "numeric_summary_unchanged": true,
+      "old_system_sha256": "56a6f6142e3769be8ff3cd657f3c007fca2a8c968d7a7a2aa7b7edf5de37e7e4",
+      "new_system_sha256": "46770b0582c328881ef970740e7a536eef4c6add16c882717e1aae43570a1fdb",
+      "old_user_sha256": "f2ca515fa0da7533109ac727782dc82ebdf5f9652caa628b925392117e9d2ba0",
+      "new_user_sha256": "db1f01cd56359677f075eaa93b3f3cacafc119deeed4285752cebd9f3b18b4f6"
+    },
+    {
+      "case_id": "stroke_Sub05_P",
+      "numeric_summary_unchanged": true,
+      "old_system_sha256": "56a6f6142e3769be8ff3cd657f3c007fca2a8c968d7a7a2aa7b7edf5de37e7e4",
+      "new_system_sha256": "46770b0582c328881ef970740e7a536eef4c6add16c882717e1aae43570a1fdb",
+      "old_user_sha256": "584cb4427bfe503444f8c05ab8ceb1ef540522364906e0392ef373770e587c90",
+      "new_user_sha256": "d743105b26e6af6e3564edf1328021383cc25d5dba54b9dc14b68f9eb0da8acf"
+    },
+    {
+      "case_id": "stroke_Sub50_P",
+      "numeric_summary_unchanged": true,
+      "old_system_sha256": "56a6f6142e3769be8ff3cd657f3c007fca2a8c968d7a7a2aa7b7edf5de37e7e4",
+      "new_system_sha256": "46770b0582c328881ef970740e7a536eef4c6add16c882717e1aae43570a1fdb",
+      "old_user_sha256": "ef468718d30d6a076d507ca83fe7d0fa31a3997102802d84bcce79e77fd1f786",
+      "new_user_sha256": "cf6596dd8b3f7098bcf719517c48893f3008335e9c9ef4a6eaac5a050e774410"
+    },
+    {
+      "case_id": "stroke_Sub47_P",
+      "numeric_summary_unchanged": true,
+      "old_system_sha256": "56a6f6142e3769be8ff3cd657f3c007fca2a8c968d7a7a2aa7b7edf5de37e7e4",
+      "new_system_sha256": "46770b0582c328881ef970740e7a536eef4c6add16c882717e1aae43570a1fdb",
+      "old_user_sha256": "9efba5a093368e6e536c521f264227f60ac3539bf028ab42e183ad6937de2831",
+      "new_user_sha256": "47d5dc5beaa2307a15d9f9c23f6cb5e56601d1e3c6212aaff306010edad53c4b"
+    },
+    {
+      "case_id": "control_Sub49_avg",
+      "numeric_summary_unchanged": true,
+      "old_system_sha256": "56a6f6142e3769be8ff3cd657f3c007fca2a8c968d7a7a2aa7b7edf5de37e7e4",
+      "new_system_sha256": "46770b0582c328881ef970740e7a536eef4c6add16c882717e1aae43570a1fdb",
+      "old_user_sha256": "6e1cb25d1ec725ec052e99b6b84f38619fdd0ec38b122d4cd5de9f4864e38342",
+      "new_user_sha256": "d161b8ca5500113990e19dd5de75682fb132a1b5225aa6a9b10ef13539984ca2"
+    }
+  ],
+  "model_api_calls": 0
+}

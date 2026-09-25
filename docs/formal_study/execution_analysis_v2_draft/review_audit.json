@@ -1,0 +1,28 @@
+{
+  "status": "Returns verified; targeted revision prepared",
+  "source_sha256": {
+    "docs/formal_study/execution_analysis_v1_draft/Study_plan_review.xlsx": "475a34e96f899857152aeb64e93cda405c2327add84d9d226520c4cb83bfa819",
+    "docs/formal_study/execution_analysis_v1_draft/plan.json": "c8df13240571ea9d6074b56d1dcc2ad64d288d6679482d38a08740f184b4317d",
+    "docs/formal_study/execution_analysis_v1_draft/EXPOSURE_ATTESTATION.md": "2eaa96c12e5faece804eb7bc4e71521bdc775ded71671d7a88fc68cb306c862a",
+    "docs/formal_study/execution_analysis_v1_draft/input_registry.csv": "8a4266a5aa0055ad2aba2095239b3f65ff28d242cd65f82030411a619bf5ec8b",
+    "docs/formal_study/execution_analysis_v1_draft/README.md": "0c64b8e5b04714cd15206b656b6d8bdd0df66a6df5a92bc06a383e42f5bb31d0",
+    "docs/formal_study/execution_analysis_v1_draft/validation.json": "de186ec316e354e49713421f28e178ff4f1278b2dde138d7e70f8e8b5f9db79c",
+    "docs/formal_study/execution_analysis_v1_draft/exposure_confirmation.json": "2a12a0e0babf4726ab714510a8fb6cf0bfef8d7393dc806480988c37266fd53f",
+    "docs/formal_study/execution_analysis_v1_draft/PROTOCOL.md": "adbd0c7c2d0580c90a027cbf0ec2484f2cca207702b885da7d2218420bb722c6",
+    "docs/formal_study/execution_analysis_v1_draft/Study_plan_review_rater1.xlsx": "b5155c332da74f42643d7c6e89612fa7a3471d5bf4975098ba523c84e24c5b1b",
+    "docs/formal_study/execution_analysis_v1_draft/Study_plan_review_rater2.xlsx": "ec8698a75a0f0e112d132e9c96a496b7734f8f24b123d459822561d75b34c2be"
+  },
+  "both_experts_accepted_v1": [
+    "D02",
+    "D07"
+  ],
+  "revised_item": "D04",
+  "rater1_capacity": "Pending",
+  "rater2_capacity": "Conditionally accepted",
+  "study_lead_approval": "Pending",
+  "source_fields_unchanged": true,
+  "original_exposure_record_unchanged": true,
+  "no_other_reviewer_signed": true,
+  "model_calls": 0,
+  "final_case_requirements_unchanged": true
+}

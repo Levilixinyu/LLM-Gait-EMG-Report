@@ -1,0 +1,32 @@
+{
+  "received_utc": "2026-09-19T06:10:46.339469+00:00",
+  "scope": "Administrative immutable snapshots before cross-review; not accepted canonical review locks or final consensus",
+  "sources": {
+    "rater1": {
+      "path": "docs/formal_study/rating_delivery_v1/rater1/Independent_ratings_rater1_completed.xlsx",
+      "sha256": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160",
+      "snapshot": "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx",
+      "reviewer": "rater1",
+      "completed": "2026-09-18",
+      "attestation": "Yes"
+    },
+    "rater2": {
+      "path": "docs/formal_study/rating_delivery_v1/rater2/Independent_ratings_rater2_completed.xlsx",
+      "sha256": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5",
+      "snapshot": "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx",
+      "reviewer": "rater2",
+      "completed": "2026-09-18",
+      "attestation": "Yes"
+    },
+    "rater3": {
+      "path": "outputs/rater3_independent/Independent_ratings_rater3_completed.xlsx",
+      "sha256": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+      "snapshot": "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx",
+      "reviewer": "rater3",
+      "completed": "2026-09-19",
+      "attestation": "Yes"
+    }
+  },
+  "human_rater_basis": "Study lead confirmation in HUMAN_RATER_REGISTER.md",
+  "model_identity_key_read": false
+}

@@ -1,0 +1,621 @@
+{
+  "created_at_utc": "2026-09-23T20:04:03.636506+00:00",
+  "author": "Assistant; post-unblinding source audit, not human expert adjudication",
+  "frozen_dataset_sha256": "9cf006f23d5660118f5ac4da9e631e68645fa17686a0742841e267e616ca9167",
+  "package_sha256": "2c25ca12885059fcace1fe737bd4e2263ad7dc66cd98cf245ef7fd258f75d54d",
+  "delivery_integrity_snapshot_sha256": "cd81a134af843e136d5e16730b69720146753ef9933f0387580fbaca3fd90a07",
+  "script_sha256": "d78950f7bfd8d734cbfbe3f3d15139b0dcf009bbe58eb55d114bf11417927b56",
+  "all_report_hashes_verified": true,
+  "all_input_hashes_verified": true,
+  "confirmed_groups": 52,
+  "reports": 39,
+  "cases": 26,
+  "evidence_class_counts": {
+    "Direct inconsistency with supplied facts or definitions": 15,
+    "Wording-sensitive interpretation": 8,
+    "Unprovided participant or recording detail": 12,
+    "Inference exceeds supplied evidence": 17
+  },
+  "wording_sensitive_groups": [
+    "AG004",
+    "AG011",
+    "AG019",
+    "AG023",
+    "AG028",
+    "AG048",
+    "AG050",
+    "AG051"
+  ],
+  "reports_dependent_on_wording_sensitive_groups": [
+    "R3077041C029681A9",
+    "R248AD7BC90BAC7D5",
+    "RA857737CABCC0FB8",
+    "RAF417EE5FDC33A78"
+  ],
+  "source_workbooks_modified": false,
+  "frozen_dataset_modified": false,
+  "model_comparison_modified": false,
+  "new_human_decisions": 0,
+  "raw_signals_recomputed": false,
+  "new_model_calls": 0,
+  "synthetic_algorithm_scenarios": 4,
+  "algorithm_sha256": "8b684bfb6edc349ed604235c39a27c36de6431420f3758af28e71c270f6d5666",
+  "sources": [
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RDEBA7F747795D5A2.txt",
+      "SHA-256": "71d8e184fe2611828057e41cb5462a06b024a8140bf7d4a7502423c5281590ea",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub33_P/model_user_prompt.txt",
+      "SHA-256": "4985d06f559e9af17da06412e79cd95c7708af343161f74c5042208256be509e",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub33_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R3077041C029681A9.txt",
+      "SHA-256": "2d4ad99bda6435e18f8f648eb24a76662bb805fe7437fe4c1edb7d64fb3c4335",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub19_P/model_user_prompt.txt",
+      "SHA-256": "84b4aeeae6ceffb3e402d5b542751316a239a2302c0d5021d88d344fb1b07f74",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub19_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R1D4B237475466B91.txt",
+      "SHA-256": "cb385922cef4b2f7617ba0e9ce1afa9efa6538912c71cb0c0a79f7663690d3b5",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub27_P/model_user_prompt.txt",
+      "SHA-256": "fdb94230ab60b4910b47280358528d42271321621badb64634ca9bc660687784",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub27_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RE6F8701EEB40440A.txt",
+      "SHA-256": "4626d1aff52ed17d4eb0168c5170633438d6145976a9a5ad9ff507ac457f5c8d",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub07_P/model_user_prompt.txt",
+      "SHA-256": "999837c8b51c480c6366ae109455e101a9926420f9f5a85c427ff0030402b655",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub07_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/REB63B5C959B61142.txt",
+      "SHA-256": "0221bc5057dbe06c5912000a6832b693a0f4abd581e7329ec9c065554ea504bb",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub10_P/model_user_prompt.txt",
+      "SHA-256": "0320e47d2e763ceda3f0c62afe0ffe76058b584c9f41cf94cc96c84ac44d1c8d",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub10_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RE68C712B44209423.txt",
+      "SHA-256": "0eede6ec68270f1c673b5afe1ab9d58bd102b576216ecee982d26451bfaeba92",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub18_P/model_user_prompt.txt",
+      "SHA-256": "a724b48908273361ff8f22a23f417cd66da0499cc99d514662171095b3af9861",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub18_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R370766F1A57479E3.txt",
+      "SHA-256": "882e57f1e73d33861fbf3790db75d5f49ae2cac7dff2a8b0274dedac9e713df8",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub117_avg/model_user_prompt.txt",
+      "SHA-256": "a03f92f79558284aa1095a348e637bd9de7de24ca2fa59d764f45575c5c494c8",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub117_avg/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R248AD7BC90BAC7D5.txt",
+      "SHA-256": "ded684e8bca27c2449631c5026c956b7688d2fe3a0258f98b38fc28d39a34d79",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub02_P/model_user_prompt.txt",
+      "SHA-256": "f9a07ce570818e306a99c611b25e72c741a2bad51c9df9344c27b644f39f5e14",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub02_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R46397B55216F396B.txt",
+      "SHA-256": "cbf0ccb775ae96772d1a82c6c792cd0cef97a8f093a9039293d83d9e16546e15",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub38_P/model_user_prompt.txt",
+      "SHA-256": "9b2a9e26575bda7cf46a92c9aa5673748233928a108a7a54e863397fcef8afbe",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub38_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/REB6E8F4480E6599B.txt",
+      "SHA-256": "c1f81f4fd98325eb629a3e99d5a764c0b8535da008f0664297686ac69bba80df",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub73_avg/model_user_prompt.txt",
+      "SHA-256": "7381cfe625ee341d1aeffa95108ada833bfa637e31ddd0a8f90f83ef336bb5e3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub73_avg/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RF7FE7DBDE55034BF.txt",
+      "SHA-256": "f081a79e62a81655f98e77e6bc1a21117fcc2d3137abe73af9b2a93d485db68f",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub34_P/model_user_prompt.txt",
+      "SHA-256": "25899c6681c9daab1c7a3434a02c70fe59daef11862fcc160bc88817e210fb30",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub34_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RCB4DAF6627D94EF3.txt",
+      "SHA-256": "0a9c31769b61e4e2a297613bc48de1e714f2ab4732332db086aa2f8b8acbd86d",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub39_avg/model_user_prompt.txt",
+      "SHA-256": "7daed09b17c3f760b410dc571a78c6239b9df1bb52d5665c7a09778053792261",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub39_avg/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R20EBB14838E1771E.txt",
+      "SHA-256": "f87fb170239673ada7c3773eb9b3be1a3d1b2f683aa1d95410a2289920975eb6",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub25_P/model_user_prompt.txt",
+      "SHA-256": "ef02805b4890633ca4e5e82403e1cf8b7f45f29910b1b97d6474720b7ab80760",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub25_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R1E2D350548AA90DA.txt",
+      "SHA-256": "a7ab725326bec5ae850727fcaedb8e6136e519e6c5e24478d59050b0d4c1cb48",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub24_P/model_user_prompt.txt",
+      "SHA-256": "dc6797778349a1031e835e5e588159af0f3642166804574bdfb1c0bd5cb7d8ce",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub24_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RA5354EEC7114E5CC.txt",
+      "SHA-256": "3e49384cdd540ed81bef77ac379e8b3fae292ee96661d5b923e0eedec8e3e22e",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub62_avg/model_user_prompt.txt",
+      "SHA-256": "ed7818fe0bd00ce48c93456e255097e504781d98808aeea69af7a2a3b9db5193",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub62_avg/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/REB162D9F656B2188.txt",
+      "SHA-256": "59cd1874d3b9a02f53fc33ce1da4df79d8229c38337679cee24dabd9581864b6",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub01_P/model_user_prompt.txt",
+      "SHA-256": "07ee3567199cdbe1488541345ea6084b02bafaff1818ff58fdee228ca885d02d",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub01_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R25F5AA9361D9E14F.txt",
+      "SHA-256": "42b90c924fa9738969cc89af9a064410d599660958f5da4fc14481477e7ab6f0",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub06_avg/model_user_prompt.txt",
+      "SHA-256": "8ad0bfd7241d40eaf5955324fc912575731759a3e7921a9dcf98a19e5d12779a",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub06_avg/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R99084CAB7BCC7FC1.txt",
+      "SHA-256": "089ee8606f9b11ebf1c2b4c12aa6a0ded40004e6e9e6c8cb524765d46a958693",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub31_avg/model_user_prompt.txt",
+      "SHA-256": "31707206a93db4fabf9055ea7ccb0200073e69ea51e9fe4beac194de0f9d42a2",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub31_avg/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R84055C6AA9900A0E.txt",
+      "SHA-256": "981891d03e8aafae8a6a1c5913921cc4314151ff50dc30b33e24b0895947fc16",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub28_P/model_user_prompt.txt",
+      "SHA-256": "894807a9fbc3438d4c73d3d2b676c6dc3f3ac573116c4990c4d21a807082e785",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub28_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RDBE98A8F7EC455C5.txt",
+      "SHA-256": "a8421302b9cdf484b182541116f532c6cf9377edd7547330a013395e103d7429",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub22_P/model_user_prompt.txt",
+      "SHA-256": "a3b4d6de91934e94988bb30df977d7e89e92ccc8ec590b118b9c4e3d81fc722e",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub22_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R18C0D9D4DF5C8281.txt",
+      "SHA-256": "db582a4ca8b9831dccb821ee89f80c36e45e3e2b4318ebb8f1f4f77253915dde",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RDB18B7C593D48194.txt",
+      "SHA-256": "f7da314121acd4d80323f68e91c5870fcf1c8fc0d0aec51a28f60571ddf9638f",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub15_P/model_user_prompt.txt",
+      "SHA-256": "d8c71e09636805ee6abfed3a3a7ba6b953220151c3f5cf613a7bdccd13af372b",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub15_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R5C46511D7E171835.txt",
+      "SHA-256": "d0ce93f534e5f528644cca7d9df495ca0b0886427a7411340fb8904ef1c3e006",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub21_P/model_user_prompt.txt",
+      "SHA-256": "7b51972b85d82741c9a96005643c5be70f0bdbc90bbeaa4fd41b463dd8d585fe",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub21_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RED421A7034CB7BCD.txt",
+      "SHA-256": "36b2b9333fba1539f0afb79ad8cc6bdacfc53ad471f4e74f164937d654e3b32f",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub14_avg/model_user_prompt.txt",
+      "SHA-256": "85d7ead6a536961582f7351bbdd003b5c036fc9536a5f622ef957ba1aea8f902",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub14_avg/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RBCE2F0081BE4D5F4.txt",
+      "SHA-256": "e70d3585d2367408df6ee570a3c30cf73c1b30a930946abdb58ac9853886cbbb",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R458C2720FA49CDB2.txt",
+      "SHA-256": "63982a7d1a3fc1fa5285ecfdf90a340f0252815a9824ce1e845971def6bd17fb",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R320DCD2D7ECF50B9.txt",
+      "SHA-256": "fdc6d4e8e9074fb743812c276b06321784d7c0f43fd61baafe72fb4756acdaa4",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R3308905E05BE00CE.txt",
+      "SHA-256": "620a6c12b43ee5fbf315db79cd98366636b5c67f00c683a5e3f62240d9620a22",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R0C44EC0AE866FB58.txt",
+      "SHA-256": "74aa3cb9aa5833e2c8b75934a8f8b3dd529688353f8de3724862235612101de8",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RABAADEA37D48C316.txt",
+      "SHA-256": "5d3b7e05e56b2e201b6ad60540834f5407631eaaff5515f3c6e966e0836b402c",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub09_avg/model_user_prompt.txt",
+      "SHA-256": "d34df564ccfcde4be929908f7eb68ad0dd3656ff2f6c106c088286d850f465d5",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/control_Sub09_avg/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R31D0B47CA4DF36CF.txt",
+      "SHA-256": "a3ef191d09b501579d7442685b29ecbd61a250549ff85db36758e40772669c44",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RF973ED392216FC1A.txt",
+      "SHA-256": "b12638e47ca36f5a5d631b20fb5e55471246c6abb3ab0f11618de521e87ef1bc",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R84CDF9281B922AAC.txt",
+      "SHA-256": "286072cd637ab52bf82bfd1be0bb0cf420ae66df9dae715058cec6301f5995cc",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RACE6E7367BC5E74A.txt",
+      "SHA-256": "420895c87857894167f3d5fa083d9a0fcbc019e07c7780ab6330a7a8df8744f1",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub13_P/model_user_prompt.txt",
+      "SHA-256": "77f7e61aca75975fb4990eed8582d896f312bab5a1c6363fffd7076844d53092",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub13_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R695105C813DF3F8D.txt",
+      "SHA-256": "73897ed5876a167b81787ff9b4f5a9dae68bdc4939b608aeda1d81f1d7074a25",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RD6F72D3B31EDFA92.txt",
+      "SHA-256": "8ec16e48f456dd2e73257f4804ba903edbe55af097d80c8c7cabb08951437c84",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/R1C5F93E05D9CC9EA.txt",
+      "SHA-256": "778dc054d6afb7311bfd28f4be12f9d419686340581b52ea22ebcde98e257046",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RA857737CABCC0FB8.txt",
+      "SHA-256": "d04a9c07c4fbf41710b5d2fa9888e8d050eccb20a9f77090b8528466dda97ebe",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub49_P/model_user_prompt.txt",
+      "SHA-256": "ea39925ec6b8fb37a669827cd12494380df25ac35ae3065d963d7f238da09180",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Model input",
+      "Source": "independent_expert_review/materials/stroke_Sub49_P/model_system_prompt.txt",
+      "SHA-256": "eb1971430981910e1606c8e21374edf29842c61bac2b103b12bf20a15ce9a2f3",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Original report",
+      "Source": "docs/formal_study/rating_delivery_v1/rater2/reports/RAF417EE5FDC33A78.txt",
+      "SHA-256": "7715f7e549d11d973a4796ad4a5c9db6bcd138a11e89a36f5795097258a20f42",
+      "Verified against": "Freeze manifest and delivery integrity snapshot"
+    },
+    {
+      "Kind": "Delivered scoring material",
+      "Source": "independent_expert_review/materials/RUBRIC.md",
+      "SHA-256": "8ca337533cbf6868f5f5328061fd48550a5b1118fb1c145435fc1e6e71a338c1",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Delivered scoring material",
+      "Source": "independent_expert_review/materials/CURRENT_REVIEW_SCOPE.md",
+      "SHA-256": "e130906e7a4f6d4227a957612f151af6ff8621e63665831b27ca1f4b522df2b6",
+      "Verified against": "Frozen delivery integrity snapshot"
+    },
+    {
+      "Kind": "Delivered scoring material",
+      "Source": "independent_expert_review/materials/EXAMPLES.md",
+      "SHA-256": "44951690858316f0c653803980037b5dd20213e554a4b510ce0cd35fedd1db69",
+      "Verified against": "Frozen delivery integrity snapshot"
+    }
+  ],
+  "outputs_sha256": {
+    "Confirmed_error_source_audit.xlsx": "65d589ddea6b2b9c6774e4713598db1f0b8b94cdd932fa9fa2f52a2e1294f436",
+    "README.md": "f44380248d6d682fcec7b4f114b5dd243dc95176e274a8680489166951cb3aac",
+    "THRESHOLD_DISPLAY_COUNTEREXAMPLE.json": "5397f2733375db9eadf6f384c3b334ddea247830fd0fb85bacfb15ae5e3416eb"
+  },
+  "original_outputs_sha256": {
+    "Confirmed_error_source_audit.xlsx": "6ec4f3806fd4d938c834aa97e90c699d50dd10bc82e03dfa5b69cb7aea599011",
+    "README.md": "f44380248d6d682fcec7b4f114b5dd243dc95176e274a8680489166951cb3aac",
+    "THRESHOLD_DISPLAY_COUNTEREXAMPLE.json": "5397f2733375db9eadf6f384c3b334ddea247830fd0fb85bacfb15ae5e3416eb"
+  },
+  "administrative_correction": "Technical audit operator label distinguished from human expert reviewer identity. No clinical assessment, evidence classification or score changed. Original output hashes remain recorded separately.",
+  "current_generator_sha256": "7b649c2adfb8f285dc2700d2c9167f65639afd94a232d9b29823e682230e0c9a"
+}

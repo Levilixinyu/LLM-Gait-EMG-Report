@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "scope": "Synthetic API compatibility only",
+  "plan_sha256": "5dd87f902b0b5ec37194218e6e76a4b77c4daa1da82e7551a434d22c6cbd6fac",
+  "max_total_dispatches": 9,
+  "budget_limit_usd": 3.0,
+  "confirmation_source": "User explicitly agreed in the current conversation after reviewing the scope: three synthetic responses, at most nine total requests including retries, and a USD 3 budget. The original-language confirmation remains in the conversation; this is its English administrative record.",
+  "recorded_by": "Codex, transcribing the study lead decision; not an expert signature",
+  "confirmed_at": "2026-09-18T22:01:35.925910+00:00"
+}

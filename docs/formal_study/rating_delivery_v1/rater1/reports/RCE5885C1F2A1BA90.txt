@@ -1,0 +1,47 @@
+1. Objective Findings
+- Participant: Sub07_P (stroke group, paretic side).
+- Gait speed: 0.36 m/s (classified in the household ambulator band).
+- Cadence: 75.8 steps/min.
+- Step length symmetry index: 10.3% (using the successive-footfall definition).
+- The participant's gait speed of 0.36 m/s is below the minimum speed of the pooled healthy reference cohort (0.80 m/s). Consequently, no speed-matched healthy reference exists in this dataset. Any observed differences from the reference values conflate stroke-specific differences with the effects of slow walking and cannot definitively establish a disease effect or clinical diagnosis.
+
+2. EMG Envelope and Threshold Findings
+EMG findings describe averaged envelopes under the stated threshold (20% of the individual curve’s peak) and duration rules. Normalized amplitudes reflect relative envelope levels, not absolute neural activation, force, or physiological strength. Cycle percentages refer to the 0% to 100% analysis window demarcated by successive initial contacts. 
+
+- Above-Threshold Intervals and Coverage:
+  - BF, ST, and ERS envelopes were above threshold for 100% of the cycle.
+  - The GAS envelope (above threshold for 98% of the cycle) was retained from 83% to 81%, wrapping across the cycle boundary.
+  - The RF envelope (above threshold for 85% of the cycle) was retained from 56%-59%, 63%-75%, and 80%-48%, wrapping across the cycle boundary.
+  - The VL envelope (above threshold for 72% of the cycle) was retained from 54%-62% and 91%-52%, wrapping across the cycle boundary.
+  - The TA envelope (above threshold for 64% of the cycle) was retained from 60%-78% and 92%-33%, wrapping across the cycle boundary.
+- Peak Normalized Amplitudes:
+  - BF: 0.69; ST: 0.65; GAS: 0.57; RF: 0.55; ERS: 0.55; TA: 0.51; VL: 0.49.
+- Co-contraction Indices (CCI): 
+  CCI is a whole-cycle overlap index of normalized envelopes.
+  - The TA vs GAS CCI is 0.67. This is above the upper bound of the supplied healthy reference interval (median 0.39, 2.5th-97.5th percentiles 0.24-0.59).
+  - The RF vs BF CCI is 0.75. This is within the supplied healthy reference interval (median 0.68, 2.5th-97.5th percentiles 0.48-0.83).
+  - Note: CCI depends on the normalization and envelope methods used. Falling inside or outside the reference interval does not by itself establish physiological co-activation, normal muscle function, stiffness, or pathology.
+
+3. Kinematic and Reference Comparisons
+Kinematic variables represent sagittal-plane motions only. Comparisons are drawn against a pooled healthy reference (not matched for age or speed). Range of motion (ROM) values do not establish clinical restriction independently.
+
+- Sagittal Joint Kinematics (ROM and Gait Variable Scores):
+  - Ankle: ROM 15.8°, GVS 9.23
+  - Knee: ROM 45.2°, GVS 6.27
+  - Hip: ROM 31.8°, GVS 5.53
+  - Pelvis: ROM 1.8°, GVS 1.77
+- The composite kinematic deviation score (GPS-like) is 6.29. This falls between the healthy cohort median (5.1) and the 95th percentile (10.7).
+- EMG Maximum |z| Deviations:
+  The maximum |z| identifies the cycle percentage with the largest standardized difference from the phase-specific reference mean. It is an extreme-value statistic; a value above 2 does not denote an abnormality.
+  - ST: Max |z| = 11.0 (above the phase-specific reference mean at 52% of the cycle).
+  - GAS: Max |z| = 8.6 (above reference at 57% of the cycle).
+  - ERS: Max |z| = 5.1 (above reference at 83% of the cycle).
+  - BF: Max |z| = 4.3 (above reference at 49% of the cycle).
+  - VL: Max |z| = 3.8 (above reference at 24% of the cycle).
+  - RF: Max |z| = 3.4 (above reference at 24% of the cycle).
+  - TA: Max |z| = 3.3 (above reference at 11% of the cycle).
+
+4. Questions for Further Clinical Assessment
+- Do the participant's functional mobility, balance, or clinical presentation correspond with the measured walking speed (0.36 m/s) and reported step-length asymmetry?
+- Does a clinical joint assessment corroborate any functional ROM limitations or compensations suggested by the sagittal kinematic profiles (particularly at the ankle, which demonstrated the highest GVS)?
+- Are there clinically observable differences in motor control, joint stiffness, or tone that correlate with the high envelope cycle coverage and the elevated TA/GAS CCI observed in the instrumental summary?

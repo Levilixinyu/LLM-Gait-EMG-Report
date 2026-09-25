@@ -1,0 +1,21 @@
+{
+  "version": "case-requirements-v1",
+  "status": "Finalized from bilateral expert confirmations",
+  "original_rows": 200,
+  "addition_rows": 13,
+  "shared_topics": 8,
+  "participants": 35,
+  "included_requirements": 149,
+  "omitted_candidates": 64,
+  "unresolved_items": 0,
+  "counts_by_decision": {
+    "Retain": 61,
+    "Modify": 88,
+    "Omit": 64
+  },
+  "requirements_frozen": true,
+  "generation_authorized": false,
+  "model_calls": 0,
+  "external_exposure_confirmation": "Pending",
+  "scope": "Prospective case-specific requirements only; weights, outcomes, analysis and generation/failure policy are not approved by these confirmations."
+}

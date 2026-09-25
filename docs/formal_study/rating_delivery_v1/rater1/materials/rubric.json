@@ -1,0 +1,727 @@
+{
+  "version": "rubric-v2-draft-for-limited-evidence-v3.1",
+  "status": "DRAFT_PENDING_RECONFIRMATION",
+  "prompt_version": "limited-evidence-v3.1-candidate",
+  "model_calls": 0,
+  "case_requirements": [
+    {
+      "requirement_id": "stroke_Sub09_P/G03",
+      "case_id": "stroke_Sub09_P",
+      "source_item": "common_rules/G03",
+      "required_core_proposed": "Convey a meaningful limitation of reference comparability AND that the comparison cannot establish a disease effect or clinical diagnosis. For controls, do not treat the comparison as establishing disease or overall normality.",
+      "logic": "AND; once anywhere in the report; semantic equivalents accepted",
+      "model_visible_evidence": "SPEED SUPPORT LIMIT [user lines 14]; Deviation reference actually used [user lines 26]",
+      "optional_no_omission_penalty": "No requirement to list age and speed separately, repeat caveats, reproduce audit counts or every method definition.",
+      "partial_coverage_example": "Only comparability limitation, or only a generic diagnostic caveat; the other meaning is absent.",
+      "revision_note": "Carries forward the agreed substantive G03 rule. Proposed applicability: each of these five reference-bearing interpretation tasks. Output silence is not an applicability exemption.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub09_P/C01",
+      "case_id": "stroke_Sub09_P",
+      "source_item": "C01",
+      "required_core_proposed": "Describe speed 0.62 m/s AND explain that it is below the reference speed floor of 0.80 m/s, so this dataset supplies no healthy reference at that speed.",
+      "logic": "AND; factual case-speed requirement is separate from G03",
+      "model_visible_evidence": "Gait speed: [user lines 22]; SPEED SUPPORT LIMIT [user lines 14]",
+      "optional_no_omission_penalty": "Cadence and speed-band label are optional. If used, the band is not actual independence, safety or community function.",
+      "partial_coverage_example": "Speed is supplied, but its relation to reference support or matching limitation is missing.",
+      "revision_note": "One sentence may satisfy both C01 and G03; no duplicate caveat is required. The disease-attribution limit is assessed under G03 rather than counted twice as a separate omission.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub09_P/C02",
+      "case_id": "stroke_Sub09_P",
+      "source_item": "C02",
+      "required_core_proposed": "Prioritize the hip AND knee as the main joint-curve differences.",
+      "logic": "AND for the named priorities; synonyms accepted",
+      "model_visible_evidence": "- HipAngles: [user lines 44]; - KneeAngles: [user lines 43]",
+      "optional_no_omission_penalty": "Hip/knee GVS 11.70/9.22 degrees and ROM may be described, without requiring every number.",
+      "partial_coverage_example": "Only some required joints are discussed, or the stated relative priority is absent.",
+      "revision_note": "No unseen curve direction, phase, exact plot-derived morphology or clinical severity is required.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub09_P/C03",
+      "case_id": "stroke_Sub09_P",
+      "source_item": "C03",
+      "required_core_proposed": "Identify ERS as a principal numerical EMG difference AND describe it as above the phase-specific reference mean at approximately 81% of the analysis cycle. Its reported max |z| is 6.2.",
+      "logic": "AND for muscle, above-mean direction, approximate cycle location and prominence; prominence may be conveyed by the supplied magnitude or a within-case ranking",
+      "model_visible_evidence": "- ERS: [user lines 35]",
+      "optional_no_omission_penalty": "Exact numerical repetition is unnecessary if the main finding and direction/location are clear. A supplied empirical endpoint comparison is optional; clinical normality need not be determined.",
+      "partial_coverage_example": "Names the muscle and magnitude, but does not communicate the above-mean direction or cycle location.",
+      "revision_note": "Direction relative to the mean is not percentile exceedance. Cycle location is not amplitude-peak timing or an inferred gait phase.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub09_P/C04",
+      "case_id": "stroke_Sub09_P",
+      "source_item": "C04",
+      "required_core_proposed": "For BOTH ST and VL, convey one substantive finding: either a meaningful standardized deviation with an above-mean envelope direction, OR broad detected above-threshold extent that spans the cycle boundary.",
+      "logic": "AND across ST and VL; OR separately within each muscle. Mixed complete routes are allowed. Numerical route: meaningful deviation AND above-mean direction. Interval route: broad detected extent AND boundary spanning. Exact magnitudes, locations and interval endpoints are optional for this item.",
+      "model_visible_evidence": "- ST: [user lines 33]; - VL: [user lines 31]",
+      "optional_no_omission_penalty": "Numerical route: max |z| 4.2, ST above at 25%, VL above at 21%. Interval route: ST about 83% to 44%, VL about 88% to 48%, wrapping the boundary. Exact segment lists and muscle-specific p95 are not required.",
+      "partial_coverage_example": "A substantive finding for only one muscle is Partially covered. Merely naming ST and VL without a finding is Not covered.",
+      "revision_note": "Rater1 clarification accepted in this draft. Keep standardized magnitude distinct from envelope direction. No hidden muscle-specific percentile or full interval inventory is required.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub09_P/SL01",
+      "case_id": "stroke_Sub09_P",
+      "source_item": "NEW-stroke_Sub09_P-01",
+      "required_core_proposed": "Report the supplied successive-footfall step-length index (-9.9%) AND convey the paretic step is shorter.",
+      "logic": "AND; no formula recitation required",
+      "model_visible_evidence": "Step length symmetry index: [user lines 10,24]",
+      "optional_no_omission_penalty": "May be combined with speed/cadence; spelling out the operational definition again is optional.",
+      "partial_coverage_example": "Gives the index without its directional/near-zero meaning, or gives only a vague asymmetry statement without the supplied index.",
+      "revision_note": "Preserves the four previously confirmed step-index requirements under a new prospective ID. The index is not the percentage shortening relative to the other side.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub05_P/G03",
+      "case_id": "stroke_Sub05_P",
+      "source_item": "common_rules/G03",
+      "required_core_proposed": "Convey a meaningful limitation of reference comparability AND that the comparison cannot establish a disease effect or clinical diagnosis. For controls, do not treat the comparison as establishing disease or overall normality.",
+      "logic": "AND; once anywhere in the report; semantic equivalents accepted",
+      "model_visible_evidence": "SPEED SUPPORT LIMIT [user lines 14]; Deviation reference actually used [user lines 26]",
+      "optional_no_omission_penalty": "No requirement to list age and speed separately, repeat caveats, reproduce audit counts or every method definition.",
+      "partial_coverage_example": "Only comparability limitation, or only a generic diagnostic caveat; the other meaning is absent.",
+      "revision_note": "Carries forward the agreed substantive G03 rule. Proposed applicability: each of these five reference-bearing interpretation tasks. Output silence is not an applicability exemption.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub05_P/C01",
+      "case_id": "stroke_Sub05_P",
+      "source_item": "C01",
+      "required_core_proposed": "Describe speed 0.14 m/s AND explain that it is below the reference speed floor of 0.80 m/s, so this dataset supplies no healthy reference at that speed.",
+      "logic": "AND; factual case-speed requirement is separate from G03",
+      "model_visible_evidence": "Gait speed: [user lines 22]; SPEED SUPPORT LIMIT [user lines 14]",
+      "optional_no_omission_penalty": "Cadence and speed-band label are optional. If used, the band is not actual independence, safety or community function.",
+      "partial_coverage_example": "Speed is supplied, but its relation to reference support or matching limitation is missing.",
+      "revision_note": "One sentence may satisfy both C01 and G03; no duplicate caveat is required. The disease-attribution limit is assessed under G03 rather than counted twice as a separate omission.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub05_P/C02",
+      "case_id": "stroke_Sub05_P",
+      "source_item": "C02",
+      "required_core_proposed": "Identify the knee as the largest joint-curve difference AND include the ankle and hip as the next prominent differences.",
+      "logic": "AND for the named priorities; synonyms accepted",
+      "model_visible_evidence": "- KneeAngles: [user lines 43]; - AnkleAngles: [user lines 42]; - HipAngles: [user lines 44]",
+      "optional_no_omission_penalty": "GVS 22.24/12.53/12.32 degrees; ankle ROM 13.4 degrees is a measurement, not an established restriction. Exact ankle-versus-hip ordering need not be emphasized.",
+      "partial_coverage_example": "Only some required joints are discussed, or the stated relative priority is absent.",
+      "revision_note": "No unseen curve direction, phase, exact plot-derived morphology or clinical severity is required.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub05_P/C03",
+      "case_id": "stroke_Sub05_P",
+      "source_item": "C03",
+      "required_core_proposed": "Identify GAS as a principal numerical EMG difference AND describe it as above the phase-specific reference mean at approximately 80% of the analysis cycle. Its reported max |z| is 13.3.",
+      "logic": "AND for muscle, above-mean direction, approximate cycle location and prominence; prominence may be conveyed by the supplied magnitude or a within-case ranking",
+      "model_visible_evidence": "- GAS: [user lines 29]",
+      "optional_no_omission_penalty": "Exact numerical repetition is unnecessary if the main finding and direction/location are clear. A supplied empirical endpoint comparison is optional; clinical normality need not be determined.",
+      "partial_coverage_example": "Names the muscle and magnitude, but does not communicate the above-mean direction or cycle location.",
+      "revision_note": "Direction relative to the mean is not percentile exceedance. Cycle location is not amplitude-peak timing or an inferred gait phase.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub05_P/C04",
+      "case_id": "stroke_Sub05_P",
+      "source_item": "C04",
+      "required_core_proposed": "Describe ST above the reference mean at about 35% AND VL below the reference mean at about 5%. Their max |z| values are 7.0 and 5.3.",
+      "logic": "AND for both muscles and their respective directions/approximate locations",
+      "model_visible_evidence": "- ST: [user lines 33]; - VL: [user lines 31]",
+      "optional_no_omission_penalty": "TA below at 0% and RF below at 6% are optional. No muscle-strength inference is required.",
+      "partial_coverage_example": "Discusses only ST, or names both muscles but omits VL below-mean direction.",
+      "revision_note": "Exceeding a percentile is not a substitute for identifying the signed mean-relative direction.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub05_P/SL01",
+      "case_id": "stroke_Sub05_P",
+      "source_item": "NEW-stroke_Sub05_P-01",
+      "required_core_proposed": "Report the supplied successive-footfall step-length index (-23.1%) AND convey the paretic step is shorter.",
+      "logic": "AND; no formula recitation required",
+      "model_visible_evidence": "Step length symmetry index: [user lines 10,24]",
+      "optional_no_omission_penalty": "May be combined with speed/cadence; spelling out the operational definition again is optional.",
+      "partial_coverage_example": "Gives the index without its directional/near-zero meaning, or gives only a vague asymmetry statement without the supplied index.",
+      "revision_note": "Preserves the four previously confirmed step-index requirements under a new prospective ID. The index is not the percentage shortening relative to the other side.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub50_P/G03",
+      "case_id": "stroke_Sub50_P",
+      "source_item": "common_rules/G03",
+      "required_core_proposed": "Convey a meaningful limitation of reference comparability AND that the comparison cannot establish a disease effect or clinical diagnosis. For controls, do not treat the comparison as establishing disease or overall normality.",
+      "logic": "AND; once anywhere in the report; semantic equivalents accepted",
+      "model_visible_evidence": "SPEED SUPPORT LIMIT [user lines 14]; Deviation reference actually used [user lines 26]",
+      "optional_no_omission_penalty": "No requirement to list age and speed separately, repeat caveats, reproduce audit counts or every method definition.",
+      "partial_coverage_example": "Only comparability limitation, or only a generic diagnostic caveat; the other meaning is absent.",
+      "revision_note": "Carries forward the agreed substantive G03 rule. Proposed applicability: each of these five reference-bearing interpretation tasks. Output silence is not an applicability exemption.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub50_P/C01",
+      "case_id": "stroke_Sub50_P",
+      "source_item": "C01",
+      "required_core_proposed": "Describe speed 0.83 m/s AND describe it as near the lower end of the supplied 0.80\u20131.79 m/s span AND make clear that the pooled comparison is not thereby speed-matched.",
+      "logic": "AND; factual case-speed requirement is separate from G03",
+      "model_visible_evidence": "Gait speed: [user lines 22]; SPEED SUPPORT LIMIT [user lines 14]",
+      "optional_no_omission_penalty": "Cadence and speed-band label are optional. If used, the band is not actual independence, safety or community function.",
+      "partial_coverage_example": "Speed is supplied, but its relation to reference support or matching limitation is missing.",
+      "revision_note": "One sentence may satisfy both C01 and G03; no duplicate caveat is required. The disease-attribution limit is assessed under G03 rather than counted twice as a separate omission.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub50_P/C02",
+      "case_id": "stroke_Sub50_P",
+      "source_item": "C02",
+      "required_core_proposed": "Identify pelvis as the largest GVS difference AND knee as another prominent difference; distinguish the large pelvic GVS from the small supplied pelvic ROM.",
+      "logic": "AND: pelvis has the largest GVS; knee is also prominent; the pelvic GVS difference is distinguished from its small measured excursion. Exact numerical repetition is optional, but the GVS-versus-ROM contrast is required.",
+      "model_visible_evidence": "- PelvisAngles: [user lines 45]; - KneeAngles: [user lines 43]",
+      "optional_no_omission_penalty": "Exact numerical repetition is optional: pelvis/knee GVS 9.56/7.75 degrees and pelvic ROM 3.8 degrees. The descriptive GVS-versus-small-excursion contrast itself is required; pathological restriction, offset direction and a normative ROM claim are not.",
+      "partial_coverage_example": "Prioritizes pelvis and knee but omits the distinction between the large pelvic GVS difference and the small measured pelvic excursion.",
+      "revision_note": "No unseen curve direction, phase, exact plot-derived morphology or clinical severity is required.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub50_P/C03",
+      "case_id": "stroke_Sub50_P",
+      "source_item": "C03",
+      "required_core_proposed": "Identify ST as a principal numerical EMG difference AND describe it as above the phase-specific reference mean at approximately 33% of the analysis cycle. Its reported max |z| is 4.7.",
+      "logic": "AND for muscle, above-mean direction, approximate cycle location and prominence; prominence may be conveyed by the supplied magnitude or a within-case ranking",
+      "model_visible_evidence": "- ST: [user lines 33]",
+      "optional_no_omission_penalty": "Exact numerical repetition is unnecessary if the main finding and direction/location are clear. A supplied empirical endpoint comparison is optional; clinical normality need not be determined.",
+      "partial_coverage_example": "Names the muscle and magnitude, but does not communicate the above-mean direction or cycle location.",
+      "revision_note": "Direction relative to the mean is not percentile exceedance. Cycle location is not amplitude-peak timing or an inferred gait phase.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub50_P/SL01",
+      "case_id": "stroke_Sub50_P",
+      "source_item": "NEW-stroke_Sub50_P-01",
+      "required_core_proposed": "Report the supplied successive-footfall index (-0.7%) AND convey that it is near zero, meaning a small difference under this step-length definition.",
+      "logic": "AND for index and near-zero meaning. No mandatory negative disclaimer. IF the report generalizes to overall gait/bilateral symmetry, assess that assertion as an issue separately, not as missing coverage.",
+      "model_visible_evidence": "Step length symmetry index: [user lines 10,24]",
+      "optional_no_omission_penalty": "May be combined with speed/cadence; spelling out the operational definition again is optional.",
+      "partial_coverage_example": "Gives the index without its directional/near-zero meaning, or gives only a vague asymmetry statement without the supplied index.",
+      "revision_note": "Both reviewers converge on this meaning. A correctly scoped near-zero statement can be Covered without a disclaimer. Generalization to whole-gait symmetry is E07 (E01 only for a distinct metric/factual error). A narrowly scoped small step-length difference is not itself an error.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub47_P/G03",
+      "case_id": "stroke_Sub47_P",
+      "source_item": "common_rules/G03",
+      "required_core_proposed": "Convey a meaningful limitation of reference comparability AND that the comparison cannot establish a disease effect or clinical diagnosis. For controls, do not treat the comparison as establishing disease or overall normality.",
+      "logic": "AND; once anywhere in the report; semantic equivalents accepted",
+      "model_visible_evidence": "SPEED SUPPORT LIMIT [user lines 14]; Deviation reference actually used [user lines 26]",
+      "optional_no_omission_penalty": "No requirement to list age and speed separately, repeat caveats, reproduce audit counts or every method definition.",
+      "partial_coverage_example": "Only comparability limitation, or only a generic diagnostic caveat; the other meaning is absent.",
+      "revision_note": "Carries forward the agreed substantive G03 rule. Proposed applicability: each of these five reference-bearing interpretation tasks. Output silence is not an applicability exemption.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub47_P/C01",
+      "case_id": "stroke_Sub47_P",
+      "source_item": "C01",
+      "required_core_proposed": "Describe speed 0.54 m/s AND explain that it is below the reference speed floor of 0.80 m/s, so this dataset supplies no healthy reference at that speed.",
+      "logic": "AND; factual case-speed requirement is separate from G03",
+      "model_visible_evidence": "Gait speed: [user lines 22]; SPEED SUPPORT LIMIT [user lines 14]",
+      "optional_no_omission_penalty": "Cadence and speed-band label are optional. If used, the band is not actual independence, safety or community function.",
+      "partial_coverage_example": "Speed is supplied, but its relation to reference support or matching limitation is missing.",
+      "revision_note": "One sentence may satisfy both C01 and G03; no duplicate caveat is required. The disease-attribution limit is assessed under G03 rather than counted twice as a separate omission.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub47_P/C02",
+      "case_id": "stroke_Sub47_P",
+      "source_item": "C02",
+      "required_core_proposed": "Summarize the hip, knee AND ankle as the main available sagittal joint-curve differences.",
+      "logic": "AND for the named priorities; synonyms accepted",
+      "model_visible_evidence": "- HipAngles: [user lines 34]; - KneeAngles: [user lines 33]; - AnkleAngles: [user lines 32]",
+      "optional_no_omission_penalty": "GVS 11.73/9.46/7.62 degrees; avoid compulsory listing of all values.",
+      "partial_coverage_example": "Only some required joints are discussed, or the stated relative priority is absent.",
+      "revision_note": "No unseen curve direction, phase, exact plot-derived morphology or clinical severity is required.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub47_P/C03",
+      "case_id": "stroke_Sub47_P",
+      "source_item": "C03",
+      "required_core_proposed": "State that participant EMG is unavailable AND that its envelope timing, amplitude and CCI cannot be assessed.",
+      "logic": "AND; a concise statement that all EMG-derived interpretation is unavailable satisfies the domains collectively",
+      "model_visible_evidence": "No valid EMG data [user lines 29]",
+      "optional_no_omission_penalty": "Available gait/kinematic findings remain reportable. A brief unavailable-EMG section is sufficient; no fabricated EMG text is required.",
+      "partial_coverage_example": "States only that EMG is missing, without conveying that its derived timing, amplitude and CCI cannot be assessed.",
+      "revision_note": "A clear unavailability statement can satisfy coverage even if a separate later claim is erroneous; record that assertion independently. Do not infer absence of muscle activity.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "stroke_Sub47_P/SL01",
+      "case_id": "stroke_Sub47_P",
+      "source_item": "NEW-stroke_Sub47_P-01",
+      "required_core_proposed": "Report the supplied successive-footfall step-length index (-15.4%) AND convey the paretic step is shorter.",
+      "logic": "AND; no formula recitation required",
+      "model_visible_evidence": "Step length symmetry index: [user lines 10,24]",
+      "optional_no_omission_penalty": "May be combined with speed/cadence; spelling out the operational definition again is optional.",
+      "partial_coverage_example": "Gives the index without its directional/near-zero meaning, or gives only a vague asymmetry statement without the supplied index.",
+      "revision_note": "Preserves the four previously confirmed step-index requirements under a new prospective ID. The index is not the percentage shortening relative to the other side.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "control_Sub49_avg/G03",
+      "case_id": "control_Sub49_avg",
+      "source_item": "common_rules/G03",
+      "required_core_proposed": "Convey a meaningful limitation of reference comparability AND that the comparison cannot establish a disease effect or clinical diagnosis. For controls, do not treat the comparison as establishing disease or overall normality.",
+      "logic": "AND; once anywhere in the report; semantic equivalents accepted",
+      "model_visible_evidence": "SPEED SUPPORT LIMIT [user lines 14]; Deviation reference actually used [user lines 26]",
+      "optional_no_omission_penalty": "No requirement to list age and speed separately, repeat caveats, reproduce audit counts or every method definition.",
+      "partial_coverage_example": "Only comparability limitation, or only a generic diagnostic caveat; the other meaning is absent.",
+      "revision_note": "Carries forward the agreed substantive G03 rule. Proposed applicability: each of these five reference-bearing interpretation tasks. Output silence is not an applicability exemption.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "control_Sub49_avg/C01",
+      "case_id": "control_Sub49_avg",
+      "source_item": "C01",
+      "required_core_proposed": "Objectively identify knee AND ankle as the relatively larger joint-curve differences in this case.",
+      "logic": "AND for the named priorities; synonyms accepted",
+      "model_visible_evidence": "- KneeAngles: [user lines 43]; - AnkleAngles: [user lines 42]",
+      "optional_no_omission_penalty": "GVS 5.86/3.86 degrees; GPS-like 3.75 and supplied backgrounds may be compared descriptively without proving overall normality.",
+      "partial_coverage_example": "Only some required joints are discussed, or the stated relative priority is absent.",
+      "revision_note": "No unseen curve direction, phase, exact plot-derived morphology or clinical severity is required.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    },
+    {
+      "requirement_id": "control_Sub49_avg/C06",
+      "case_id": "control_Sub49_avg",
+      "source_item": "C06",
+      "required_core_proposed": "Respect healthy-control provenance AND describe the self-excluded leave-one-out comparison. IF speed/cadence or step symmetry is discussed, accurately distinguish not supplied from not applicable.",
+      "logic": "AND for control provenance and self-exclusion; each speed/cadence/symmetry branch is conditional on that domain being discussed. Mentioning speed does not trigger the other domains.",
+      "model_visible_evidence": "Subject: [user lines 21]; Deviation reference actually used [user lines 26]; Gait speed: not provided [user lines 22]; Cadence: not provided [user lines 23]; Step length symmetry index: [user lines 24]",
+      "optional_no_omission_penalty": "137 reference participants may be stated; verbatim count repetition is not required if self-exclusion is explicit. No obligation to enumerate every unavailable variable when not discussed.",
+      "partial_coverage_example": "Identifies the control group but omits self-exclusion; or addresses speed/cadence as measured or the paretic index as simply a missing control measurement.",
+      "revision_note": "Updated to approved v3.1: the task-specific paretic/non-paretic index is not applicable. General left/right symmetry remains definable. Pooled calibration is not a matched LOO normal limit.",
+      "review_decision": "",
+      "reviewer_comment": ""
+    }
+  ],
+  "policy_decisions": [
+    {
+      "id": "P01",
+      "topic": "Scope and optional content",
+      "proposal": "Retain the 25 five-case requirement rows below as a proposed development-case annex. CCI, cadence, formulas, audit counts and exhaustive interval lists remain optional unless an item explicitly requires the relevant finding. New formal cases need separately approved case requirements before viewing their generated outputs."
+    },
+    {
+      "id": "P02",
+      "topic": "Coverage categories",
+      "proposal": "Covered: all applicable semantic core components are conveyed. Partially covered: a meaningful proper subset is conveyed. Not covered: no substantive core finding is conveyed; names alone do not earn partial coverage. A wrong-only component earns no credit; the row is partial only if other substantive components are conveyed (as in X07). Record the false assertion separately. Cannot assess is for lost, corrupt, unreadable or mismatched review materials, not clinical caution or an actual captured short/truncated model response. Score assessable content of the actual response and its omissions; any technical-failure exclusion requires a separate prespecified rule."
+    },
+    {
+      "id": "P03",
+      "topic": "AND, OR and conditional rules",
+      "proposal": "Require all AND components; accept one complete OR route, including the specified mixed ST/VL routes. For Sub49 C06, keep missing-field statements conditional on discussion of those domains. Apply G03 to all five reference-bearing tasks; silence about reference comparisons is not an exemption. Apply each conditional missingness branch only to the domain actually discussed; discussing speed alone does not trigger cadence or symmetry statements."
+    },
+    {
+      "id": "P04",
+      "topic": "G03 and C01",
+      "proposal": "G03 needs both comparability limitation and inference limitation, stated once or across sections. Age and speed keywords are not individually compulsory. C01 separately assesses the case speed and its relationship to reference support. One sentence can support both; do not require repeated caveats or add a duplicate error for the same claim. For Sub50, correctly stating that in-range speed does not establish speed matching satisfies both the corresponding C01 component and the comparability half of G03. G03 still needs the inference limitation; do not search for another differently worded comparability sentence."
+    },
+    {
+      "id": "P05",
+      "topic": "Indeterminate conclusions and precision",
+      "proposal": "Credit appropriate uncertainty without demanding unavailable normal limits. It does not replace a required factual finding. Use model-visible precision and clinical meaning, not hidden full-precision values or pixel-derived facts. Do not treat max |z|>2 as abnormal or a pooled percentile as a matched LOO threshold. No fixed +/-2-percentage-point or nearest-5% tolerance is introduced in this revision. Preserve semantic/precision-based review; document and adjudicate disputed locations. This retains the prior rule; the optional numeric tolerance was not jointly confirmed."
+    },
+    {
+      "id": "P06",
+      "topic": "Coverage versus errors and deduplication",
+      "proposal": "Coverage and errors remain separate. An unambiguous correct required assertion anywhere can receive coverage even if an unretracted contradictory assertion appears elsewhere; log the false assertion separately. A wrong-only component is not covered. Ambiguous alternatives do not earn guessed credit: preserve evidence and mark coverage adjudication pending separately from the coverage category, not Cannot assess. Read explicit retractions/corrections in context; do not count a retracted statement as an additional endorsed claim. Group repetitions of the same finding, including presuppositions in follow-up questions, with all locations. Split independently assessable claims and cross-link records; tags do not multiply errors."
+    },
+    {
+      "id": "P07",
+      "topic": "Error scope and contextual judgment",
+      "proposal": "Record purely methodological guarantees, study-design advice and repeat-testing guarantees as design concerns, and format failures separately from case errors. A mixed sentence must be split when it includes an independently assessable participant conclusion: retain the design concern and the case error, cross-linked without duplication. Misstating a supplied metric identity (e.g. GPS-like as a spatiotemporal score) remains case error E01. Explicit clinical severity grades or statistical-significance assertions need a supplied basis. Reference-anchored descriptive magnitude words can be acceptable without establishing a severity class; unanchored or ambiguous degree words are Pending adjudication, not automatic errors. These added language boundaries require expert confirmation."
+    },
+    {
+      "id": "P08",
+      "topic": "Independent completion and approval",
+      "proposal": "Each rater records evidence quotes/locations, reasoning and explicit completion separately. Unresolved issues remain pending, not confirmed errors. No severity weights, composite score, partial-credit percentage, error rate denominator or statistical analysis is approved by this rubric. Both experts must approve the rubric separately from the already approved prompt."
+    }
+  ],
+  "error_categories": [
+    {
+      "id": "E01",
+      "name": "Invented or misreported facts",
+      "scope": "Invented values, channels, side, gait events or diagnoses presented as observed; incorrect arithmetic, metric identity or signed direction.",
+      "boundary": "A data discrepancy is checked against the exact saved input; not every harmless rounding difference is an error. Metric identity errors remain in case scope even in a methodological sentence; GPS-like is not a spatiotemporal score. Read factual contradictions and explicit corrections under P06."
+    },
+    {
+      "id": "E02",
+      "name": "Unsupported clinical or functional inference",
+      "scope": "Spasticity, weakness, contracture, compensation or treatment recommendation not supported by this limited input; speed band asserted as measured independence or safety. Also includes explicit clinical severity grades or explicit statistical-significance assertions without a supplied basis.",
+      "boundary": "A genuine open assessment question is allowed. A question that presupposes an observed deficit is evaluated in context. Reference-anchored degree words may be descriptive, not validated severity classes. Unanchored degree words, such as marked step-length asymmetry without a supplied comparator, are Pending adjudication rather than automatic errors. An ambiguous use of significant is read in context; a definite statistical claim without a supplied test is an error. A near-zero/small-difference description anchored to the supplied step index and its zero point is not a clinical severity grade."
+    },
+    {
+      "id": "E03",
+      "name": "Threshold or amplitude overinterpretation",
+      "scope": "Threshold coverage converted to physiological onset/duration, tonic contraction, absence of rest, force, weakness or stride variability.",
+      "boundary": "Above-threshold coverage is a mean-envelope property. The duration rule removes short above-threshold runs, not short below-threshold gaps."
+    },
+    {
+      "id": "E04",
+      "name": "Unsupported event, phase or function",
+      "scope": "Assigning toe-off, stance/swing or phase-specific clearance/push-off to percentages without evidence; confusing max-z location with amplitude peak. Includes a control report claiming timing is consistent with normal phasing without a supplied timing reference.",
+      "boundary": "Documented initial-contact boundary and anatomical muscle actions are allowed as in v3.1; healthy pooled-cycle qualification applies."
+    },
+    {
+      "id": "E05",
+      "name": "Invalid reference or diagnostic classification",
+      "scope": "Max |z|>2 called abnormal; hidden muscle-specific limits imported; clinical normality established from empirical percentiles; LOO equated with matching.",
+      "boundary": "Relative-to-mean direction and supplied endpoint comparisons remain allowed; descriptive exceedance is not diagnosis."
+    },
+    {
+      "id": "E06",
+      "name": "CCI overinterpretation",
+      "scope": "Within-range CCI asserted as physiological normal co-activation; outside-range CCI asserted as pathology/stiffness; time-percentage interpretation or transferred thresholds.",
+      "boundary": "Within/below/above the supplied interval and proximity to endpoints are allowed. Prospective wording does not reopen Q055."
+    },
+    {
+      "id": "E07",
+      "name": "Kinematic summary overinterpretation",
+      "scope": "GVS/ROM used to localize unseen waveform direction/phase or establish restriction, cause or overall normality. Includes generalizing a single step-length index to overall gait or whole-pattern bilateral symmetry.",
+      "boundary": "Report supplied GVS/ROM separately and compare visible values; no image-only finding is required. A correctly scoped small step-length difference is allowed and needs no obligatory negative disclaimer."
+    },
+    {
+      "id": "E08",
+      "name": "Missingness or applicability error",
+      "scope": "Absent EMG filled with zero or normality; expert reference curves treated as participant data; a task-inapplicable paretic index invented for a control.",
+      "boundary": "Explicitly unavailable is correct content for Sub47. General left/right symmetry is not impossible in controls."
+    },
+    {
+      "id": "E09",
+      "name": "Unsupported matching or disease attribution",
+      "scope": "Speed inside a cohort range treated as actual matching or proof of negligible confounding; deviation wholly attributed to stroke.",
+      "boundary": "G03 caveats may be covered elsewhere and the assertion can still be an error. Unknown control speed cannot establish matching. A participant-specific causal assertion remains in case-error scope even if joined to an excluded design guarantee."
+    }
+  ],
+  "synthetic_examples": [
+    {
+      "id": "X01",
+      "topic": "G03",
+      "proposed_assessment": "Covered",
+      "example": "The reference is not individually matched, so these differences cannot isolate a stroke effect.",
+      "rationale": "Both meanings are present; no age/speed word checklist."
+    },
+    {
+      "id": "X02",
+      "topic": "G03",
+      "proposed_assessment": "Not covered in isolation",
+      "example": "The reference is pooled.",
+      "rationale": "A source label alone conveys neither required limitation. With one meaningful limitation supplied elsewhere, the combined report may be Partially covered."
+    },
+    {
+      "id": "X03",
+      "topic": "G03",
+      "proposed_assessment": "Covered plus separate error",
+      "example": "These comparisons cannot separate slow-speed and stroke effects. Later: the deviation proves stroke-specific dysfunction.",
+      "rationale": "First statement conveys both meanings; assess the later unsupported assertion separately."
+    },
+    {
+      "id": "X04",
+      "topic": "Sub09 C04",
+      "proposed_assessment": "Covered",
+      "example": "ST and VL each have max |z| 4.2; at those locations, both envelopes are above their phase-specific reference means. Their muscle-specific percentile classification is indeterminate from the supplied endpoints.",
+      "rationale": "Sub09 C04: both complete numerical routes; cycle locations are optional for this item. Standardized magnitude is syntactically separate from above-mean envelope direction."
+    },
+    {
+      "id": "X05",
+      "topic": "Sub09 C04",
+      "proposed_assessment": "Not covered",
+      "example": "There is insufficient information to classify EMG normality.",
+      "rationale": "Correct general caution does not describe the required ST/VL findings."
+    },
+    {
+      "id": "X06",
+      "topic": "Sub09 C04",
+      "proposed_assessment": "Covered",
+      "example": "ST and VL have broad detected intervals extending across the initial-contact boundary, approximately 83 to 44% and 88 to 48%.",
+      "rationale": "Complete interval alternative; numerical z route is not additionally required."
+    },
+    {
+      "id": "X07",
+      "topic": "Sub05 C04",
+      "proposed_assessment": "Partially covered plus E01",
+      "example": "ST and VL are elevated relative to the mean reference at 35% and 5%.",
+      "rationale": "ST is correct; VL direction is wrong. Distinguish coverage of the components from the erroneous assertion."
+    },
+    {
+      "id": "X08",
+      "topic": "Sub05 TA optional",
+      "proposed_assessment": "Acceptable optional description",
+      "example": "The displayed TA max |z| is 4.6, below the displayed 4.61 endpoint; this does not settle its unrounded classification or clinical normality.",
+      "rationale": "Visible-number comparison only; no omission penalty if TA is not discussed."
+    },
+    {
+      "id": "X09",
+      "topic": "Sub50 ST",
+      "proposed_assessment": "Acceptable optional comparison",
+      "example": "ST max |z| 4.7 exceeds the highest supplied pooled endpoint, 4.61; this is a descriptive comparison, not a diagnosis.",
+      "rationale": "Do not require a hidden ST-specific percentile. In isolation this optional comparison does not fully cover Sub50 C03: above-mean direction and approximate location are still needed."
+    },
+    {
+      "id": "X10",
+      "topic": "Control Sub49",
+      "proposed_assessment": "E05",
+      "example": "GPS-like 3.75 is below pooled p95 10.7, confirming normal gait.",
+      "rationale": "Pooled background cannot establish overall normality for this LOO-based score."
+    },
+    {
+      "id": "X11",
+      "topic": "Sub09 CCI optional",
+      "proposed_assessment": "Acceptable optional description",
+      "example": "RF-BF CCI 0.82 is within 0.48-0.83, near the upper endpoint.",
+      "rationale": "Describes the index under the stated method."
+    },
+    {
+      "id": "X12",
+      "topic": "Sub09 CCI optional",
+      "proposed_assessment": "E06",
+      "example": "RF-BF CCI 0.82 confirms physiologically normal antagonist co-activation.",
+      "rationale": "New prospective boundary; no retrospective change to Q055."
+    },
+    {
+      "id": "X13",
+      "topic": "Sub09 RF threshold coverage",
+      "proposed_assessment": "Acceptable optional description",
+      "example": "The supplied summary reports RF above threshold for 100% of the cycle.",
+      "rationale": "Faithful to displayed coverage; does not claim every sample or every stride is continuously active."
+    },
+    {
+      "id": "X14",
+      "topic": "Sub09 RF threshold coverage",
+      "proposed_assessment": "E03",
+      "example": "100% threshold coverage proves tonic pathological contraction with no rest.",
+      "rationale": "Unsupported conversion from algorithm property to physiology."
+    },
+    {
+      "id": "X15",
+      "topic": "Sub05 TA event anchor",
+      "proposed_assessment": "Acceptable optional description",
+      "example": "TA maximum standardized difference occurs at the 0% initial-contact boundary.",
+      "rationale": "Sub05 explicitly supplies the TA max-|z| location at 0%. The event anchor alone would not establish a muscle maximum there. This is not an amplitude peak or physiological onset."
+    },
+    {
+      "id": "X16",
+      "topic": "Sub05 GAS phase and anatomy",
+      "proposed_assessment": "E04",
+      "example": "GAS is a plantarflexor, so its maximum standardized difference at 80% of the cycle reflects impaired push-off.",
+      "rationale": "The supplied Sub05 location is a maximum standardized difference, not an interval or phase. Anatomical naming is allowed; the inferred phase function is not."
+    },
+    {
+      "id": "X17",
+      "topic": "Sub47 C03",
+      "proposed_assessment": "Covered",
+      "example": "EMG was unavailable, so envelope timing, amplitude and CCI cannot be assessed.",
+      "rationale": "Sufficient EMG section; no invented additional content needed."
+    },
+    {
+      "id": "X18",
+      "topic": "Sub47 C03",
+      "proposed_assessment": "E08",
+      "example": "No EMG activity was measured, therefore these muscles were inactive.",
+      "rationale": "No recordings is not physiological inactivity. The ambiguous phrase no EMG activity was measured does not itself establish coverage of missing recordings; inspect the whole report."
+    },
+    {
+      "id": "X19",
+      "topic": "Control C06",
+      "proposed_assessment": "Covered for complete C06 when no conditional domain is discussed",
+      "example": "This is a healthy control compared with a leave-one-out reference excluding the participant.",
+      "rationale": "If speed/cadence/symmetry are not discussed, no compulsory missing-field inventory is added."
+    },
+    {
+      "id": "X20",
+      "topic": "Control C06",
+      "proposed_assessment": "Acceptable conditional statements",
+      "example": "Speed and cadence were not supplied; the paretic/non-paretic step-length index is not applicable to this control.",
+      "rationale": "General left/right symmetry remains definable, but is not this metric. These conditional statements alone do not cover C06 provenance and self-exclusion."
+    },
+    {
+      "id": "X21",
+      "topic": "Step index",
+      "proposed_assessment": "E01",
+      "example": "An index of -23.1% means the paretic step is exactly 23.1% shorter than the non-paretic step.",
+      "rationale": "The normalized difference formula uses a different denominator."
+    },
+    {
+      "id": "X22",
+      "topic": "Clinical questions",
+      "proposed_assessment": "Acceptable optional question",
+      "example": "Would direct strength testing help assess a possible contribution of weakness?",
+      "rationale": "Open question does not assert measured weakness."
+    },
+    {
+      "id": "X23",
+      "topic": "Clinical questions",
+      "proposed_assessment": "E02",
+      "example": "What treatment should correct the confirmed plantarflexor weakness?",
+      "rationale": "The question presupposes an unsupported confirmed deficit."
+    },
+    {
+      "id": "X24",
+      "topic": "Methodological statement",
+      "proposed_assessment": "Design concern; excluded from case-error tally under P07",
+      "example": "Repeating the trial at matched speed would eliminate every confound.",
+      "rationale": "Record the unsupported methodological guarantee separately; do not label it clinically validated. Prospective scope requires explicit expert agreement."
+    },
+    {
+      "id": "X25",
+      "topic": "Sub05 VL contradiction",
+      "proposed_assessment": "Covered for direction; separate E01 for unretracted false assertion",
+      "example": "VL is below the reference mean at about 5%. Later: VL is above the reference mean at 5%.",
+      "rationale": "The correct direction/location is explicit; the later unretracted opposite assertion is false. Other C04 components, including ST, must still be checked before assigning whole-row coverage."
+    },
+    {
+      "id": "X26",
+      "topic": "Sub05 VL wrong-only direction",
+      "proposed_assessment": "VL direction not covered; E01",
+      "example": "VL is above the reference mean at 5%.",
+      "rationale": "No correct VL direction is asserted. With correct ST and other substantive C04 content elsewhere the row is Partially covered; do not automatically label every wrong-only row partial."
+    },
+    {
+      "id": "X27",
+      "topic": "Sub05 VL explicit correction",
+      "proposed_assessment": "Accept corrected below-mean direction in context",
+      "example": "Correction: the earlier statement that VL was above the mean was wrong; VL is below the reference mean at approximately 5%.",
+      "rationale": "The false direction is explicitly retracted, not an additional endorsed claim. Assess whether the final wording actually corrects the report."
+    },
+    {
+      "id": "X28",
+      "topic": "Mixed design and case assertion",
+      "proposed_assessment": "Design concern plus E09; cross-linked",
+      "example": "Matching speed removes every confound, so this participant's deviation proves stroke dysfunction.",
+      "rationale": "Separate the universal design guarantee from the participant-specific causal assertion. Do not exclude the latter because it shares a sentence."
+    },
+    {
+      "id": "X29",
+      "topic": "Metric identity",
+      "proposed_assessment": "E01 case error",
+      "example": "This participant's GPS-like score combines temporal and spatial walking parameters.",
+      "rationale": "Misstates the supplied kinematic metric; this is not excluded as general design advice."
+    },
+    {
+      "id": "X30",
+      "topic": "Sub50 SL01 scoped finding",
+      "proposed_assessment": "Covered; no disclaimer required",
+      "example": "The index is -0.7%, with a marginally shorter paretic step and a small difference by this step-length definition.",
+      "rationale": "Conveys index and near-zero meaning. Does not assert whole-gait normality or overall symmetry."
+    },
+    {
+      "id": "X31",
+      "topic": "Sub50 SL01 overgeneralization",
+      "proposed_assessment": "Covered for the finding plus E07",
+      "example": "The -0.7% index is near zero, proving overall gait symmetry.",
+      "rationale": "The required finding is conveyed; the unsupported whole-gait conclusion is separately recorded. Do not turn the absent disclaimer into an omission."
+    },
+    {
+      "id": "X32",
+      "topic": "Sub50 descriptive magnitude anchored to visible background",
+      "proposed_assessment": "Proposed acceptable descriptive wording; no severity grade",
+      "example": "GPS-like 6.86 is above the supplied median 5.1 and below pooled p95 10.7; moderate here describes that relative position, not a clinical severity class.",
+      "rationale": "The visible comparison anchors the intended descriptive meaning. It does not establish a validated moderate category. This new example specifically requires expert confirmation."
+    },
+    {
+      "id": "X33",
+      "topic": "Sub05 unanchored degree word",
+      "proposed_assessment": "Pending adjudication; not automatic Error",
+      "example": "The -23.1% step-length index indicates marked asymmetry.",
+      "rationale": "No matched severity reference is supplied. Read marked in context and document whether it asserts a clinical grade or informal emphasis; do not settle the decision by a prohibited-word list."
+    },
+    {
+      "id": "X34",
+      "topic": "Control Sub49 timing normality",
+      "proposed_assessment": "E04; E05 may be an additional tag, not a second event",
+      "example": "The muscle intervals are consistent with normal gait phasing.",
+      "rationale": "Neither control membership nor the initial-contact anchor supplies the missing normal muscle timing references."
+    },
+    {
+      "id": "X35",
+      "topic": "Sub05 TA prohibited onset claim",
+      "proposed_assessment": "E03; E04 may be an additional tag",
+      "example": "TA activation begins at initial contact because its maximum standardized difference occurs at 0%.",
+      "rationale": "Naming the supplied boundary is allowed in X15; transforming the max-z location into physiological onset is unsupported."
+    },
+    {
+      "id": "X36",
+      "topic": "Duplicate presupposition",
+      "proposed_assessment": "One issue group, both locations",
+      "example": "Section 2: plantarflexor weakness is confirmed. Section 4: what drives the confirmed plantarflexor weakness?",
+      "rationale": "The question presupposes the same unsupported deficit; link it to the existing E02 claim rather than count a second occurrence as another independent issue."
+    },
+    {
+      "id": "X37",
+      "topic": "Explicit statistical claim",
+      "proposed_assessment": "E02; E05 may also tag the same claim",
+      "example": "The supplied max |z| establishes a statistically significant deviation, p < 0.05.",
+      "rationale": "No hypothesis test or p value was supplied. This is different from an ambiguous colloquial use of significant."
+    },
+    {
+      "id": "X38",
+      "topic": "Administrative missingness versus actual short output",
+      "proposed_assessment": "Assess actual captured content; no automatic Cannot assess",
+      "example": "The complete captured model output is: Walking speed is 0.62 m/s.",
+      "rationale": "Rate assessable case content and missing requirements; record short output/format. If the stored file itself is incomplete relative to what was generated, obtain the correct material. Any exclusion follows a separate prespecified technical-failure rule."
+    },
+    {
+      "id": "X39",
+      "topic": "Sub09 C04 names only",
+      "proposed_assessment": "Not covered",
+      "example": "ST and VL.",
+      "rationale": "Muscle names alone are not substantive findings and earn no partial coverage."
+    },
+    {
+      "id": "X40",
+      "topic": "Sub50 C02 omitted excursion contrast",
+      "proposed_assessment": "Partially covered",
+      "example": "The pelvis has the largest GVS, with the knee also prominent.",
+      "rationale": "The required contrast with the small measured pelvic excursion is absent. Exact numerical repetition is optional; the contrast is not."
+    },
+    {
+      "id": "X41",
+      "topic": "Sub05 ambiguous VL alternative",
+      "proposed_assessment": "Coverage adjudication pending; do not use Cannot assess",
+      "example": "VL may be either above or below the reference mean.",
+      "rationale": "No unambiguous correct direction is asserted. Record the competing reading and resolve before final coverage rather than infer credit from the word below."
+    },
+    {
+      "id": "X42",
+      "topic": "Explicit clinical severity grade",
+      "proposed_assessment": "E02",
+      "example": "The -23.1% step-length index places this participant in a validated severe clinical impairment class.",
+      "rationale": "A specific validated clinical grade is asserted without a supplied basis. Unlike informal marked in X33, this claim is explicitly classificatory."
+    }
+  ]
+}
