@@ -1,0 +1,37 @@
+**1. Objective Findings**
+*   **Participant Context:** Subject Sub40_P, stroke group, evaluating the paretic side. 
+*   **Gait Speed & Cadence:** Gait speed is 0.24 m/s, which falls into the household ambulator speed band classification (this label denotes a speed range, not measured real-world community mobility or safety). Cadence is 54.8 steps/minute.
+*   **Step Length Symmetry:** The step length symmetry index is -29.5% (using the successive_footfall definition). The negative value indicates that the paretic step is shorter than the non-paretic step.
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings are derived from ensemble-averaged envelopes normalized to their own peak available values. "Above-threshold" indicates regions where the mean envelope exceeds 20% of its own peak for at least 3% of the cycle, not absolute neural on/off times or force measurements. The analysis cycle runs from paretic initial contact (0%) to the subsequent initial contact (100%).
+
+*   **Continuous and Highly Retained Envelopes:** The Rectus Femoris (RF) and Erector Spinae (ERS) are above threshold for 100% of the gait cycle, remaining above threshold across the initial contact boundary. 
+*   **Boundary-Crossing Envelopes:** Vastus Lateralis (VL; 89% coverage, 87%-73%), Semitendinosus (ST; 87% coverage, 86%-74%), Gastrocnemius (GAS; 75% coverage, 5%-74% and 99%-4%), and Tibialis Anterior (TA; 71% coverage, 73%-39%) all have intervals that remain above threshold across the initial contact boundary. 
+*   **Fragmented Intervals:** Biceps Femoris (BF) demonstrates 78% total cycle coverage broken into four distinct above-threshold intervals (0%-9%, 14%-39%, 40%-77%, 89%-96%). 
+*   **Peak Normalized Amplitudes:** Relative peak values range from 0.27 (BF) to 0.63 (ERS). These values reflect within-muscle relative amplitudes and do not establish comparative strength or force.
+*   **Co-Contraction Indices (CCI):** Using the Falconer-Winter whole-cycle continuous envelope definition, the TA/GAS CCI is 0.60, which falls just above the provided healthy cohort 95% reference range (0.24-0.59; median 0.39). The RF/BF CCI is 0.46, which is marginally below the supplied healthy reference range (0.48-0.83; median 0.68). Placement inside or outside these empirical intervals does not alone establish physiological normalcy, pathological stiffness, or simultaneous active force.
+
+**3. Kinematic and Reference Comparisons**
+*Limitation regarding reference comparisons:* The pooled healthy reference cohort walked at self-selected speeds between 0.80 and 1.79 m/s. Because this participant walks at 0.24 m/s, no speed-matched reference exists in the dataset. Consequently, observed deviations from the reference mean conflate the effects of very slow walking with stroke-specific pathological changes; these two factors cannot be differentiated from this data alone.
+
+*   **Composite Kinematics:** The composite sagittal kinematic deviation score (GPS-like) is 9.28. This value is higher than the healthy median of 5.1 but remains within the supplied 95th percentile limit (10.7).
+*   **Sagittal Joint Kinematics (ROM and GVS):** 
+    *   Knee: ROM 44.1°, Gait Variable Score 13.94
+    *   Ankle: ROM 15.5°, Gait Variable Score 8.64
+    *   Hip: ROM 27.1°, Gait Variable Score 8.49
+    *   Pelvis: ROM 1.5°, Gait Variable Score 1.89
+*   **EMG Maximum |z| Deviations:** The max |z| values represent the largest standardized phase-specific difference from the healthy reference mean, not an event-specific peak or abnormality threshold:
+    *   VL: 6.4 (above reference mean at 30% of the cycle)
+    *   RF: 5.5 (above reference mean at 28% of the cycle)
+    *   GAS: 5.1 (above reference mean at 56% of the cycle)
+    *   ST: 5.0 (above reference mean at 32% of the cycle)
+    *   ERS: 3.9 (above reference mean at 80% of the cycle)
+    *   TA: 3.3 (below reference mean at 72% of the cycle)
+    *   BF: 3.0 (below reference mean at 98% of the cycle)
+
+**4. Questions for Further Clinical Assessment**
+*   How do the 100% threshold coverage in the RF and ERS and the high envelope coverage in the VL and ST clinically manifest during physical observation of the limb?
+*   To what degree are the observed variations—such as the elevated knee GVS, the short paretic step length, and the TA/GAS CCI of 0.60—adaptive strategies for the severely reduced walking speed (0.24 m/s) versus primary motor control deficits from the stroke?
+*   Does the elevated knee Gait Variable Score correspond clinically to observable sagittal-plane limitations, such as altered yield after initial contact or reduced clearance capabilities? 
+*   Is the specific fragmentation of the BF envelope (into four intervals) reflective of underlying spasticity, compensatory muscle substitution, or measurement artifact in this patient?

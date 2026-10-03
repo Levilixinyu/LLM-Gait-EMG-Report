@@ -1,0 +1,105 @@
+# Revised prospective scoring rubric
+
+Version: `rubric-v2-draft-for-limited-evidence-v3.1`
+
+Status: **DRAFT, returned for confirmation after both reviewers requested revisions.** Approved model inputs remain `limited-evidence-v3.1-candidate`. Prior row-level acceptance is not approval of this revision. No historical report was rescored.
+
+## 1. Material validity is different from a poor or incomplete response
+
+Check the exact saved system/user inputs, report identity and version before reviewing. Lost, corrupt, unreadable or mismatched review files can make an assessment **Cannot assess**. Obtain the correct materials rather than interpreting the missing file as a model omission.
+
+A faithfully captured response that is short, omits sections or ended early is still the actual model output. Assess its available content, omissions and format. Do not label it Cannot assess merely because it is incomplete as a report. Any technical-failure exclusion or regeneration belongs to a separate prospectively specified generation/analysis policy; this rubric creates no exclusion or retry rule.
+
+Clinical caution in a valid report is not an administrative failure. Graphs, source arrays and exact supplementary percentiles not sent to the model do not become required report content.
+
+## 2. Coverage categories and semantic components
+
+| Decision | Meaning |
+|---|---|
+| Covered | Every applicable substantive component is conveyed through an allowed route. |
+| Partially covered | A meaningful proper subset is conveyed; identify the missing or wrongly conveyed component. |
+| Not covered | No substantive core finding is conveyed. Names alone, unrelated statements or generic caution cannot earn partial coverage. |
+| Cannot assess | Required review materials are unavailable, corrupt or mismatched; not a label for clinical uncertainty or a captured short model response. |
+
+AND requires all components. OR accepts one complete permitted route. A conditional branch applies only to its specified domain. Discussing speed does not trigger cadence and symmetry inventories.
+
+A component stated only with a wrong direction is not correctly conveyed. The row is Partially covered if other substantive components are correct, as in X07; it is not automatically partial simply because something erroneous was written. Record the false assertion separately. Do not assign numerical points or silently convert partial coverage to 0.5.
+
+If wording is too ambiguous to identify a correct assertion, preserve the quote and competing readings. Mark **adjudication_status = Pending** separately from the coverage category; a provisional category may be recorded, but a final category need not be forced. This is not Cannot assess. Unresolved final labels must be resolved or handled by a separately approved missing-assessment policy before analysis.
+
+## 3. Correct assertions, contradictions and corrections
+
+Coverage and correctness are separate outcomes. An unambiguous correct required assertion anywhere in the report can receive coverage even if an unretracted contradiction appears elsewhere. Log the false assertion as an issue. Do not erase the correct fact or treat its presence as making the whole report error-free.
+
+If only the wrong assertion appears, that component has no coverage. If the text merely offers ambiguous alternatives, do not infer credit. Read an explicit retraction or correction in context: a clearly retracted wrong statement is not another endorsed assertion. Assess the final position and whether the correction is actually clear.
+
+Examples X25–X27 distinguish correct-then-wrong, wrong-only, and explicit correction. They assess the direction component; the other required components still determine the whole-row decision.
+
+## 4. Common G03, case C01 and overlapping evidence
+
+G03 requires BOTH a meaningful limitation of reference comparability AND why comparison cannot establish a disease effect or clinical diagnosis. For controls, it must not establish disease or overall normality. Once per report is enough; the meanings may be distributed across sections. An inability to separate speed effects from stroke effects may convey both. Unknown control speed may establish inability to assess speed matching.
+
+Age and speed are not individually required keywords. A pooled label or speed limits alone is insufficient. G03 applies once to each of these five reference-bearing tasks even if a report avoids explicitly calling its values comparisons.
+
+C01 separately assesses case speed and reference support. For Sub50, the required statement that in-range speed does not establish matching satisfies the comparability half of G03 as well as that C01 component. Do not seek a second sentence. G03 still needs the inference limitation. The same evidence can support distinct requirements without a repeated caveat or a duplicate error group.
+
+## 5. Required-core changes and optional findings
+
+The [case annex](CASE_REQUIREMENTS.md) retains 20 case-specific rows. G03 applied to five reports yields 25 application rows, not a formal sample size or 25 independent subjects.
+
+- **Sub09 C04:** ST AND VL must each have a meaningful finding. For either muscle, choose numerical deviation AND above-mean envelope direction, OR broad detected above-threshold extent AND boundary spanning. Mixed routes are valid. Exact 4.2 values, cycle locations and interval endpoints are optional for this item. A substantive finding for one muscle is partial; names alone are not covered.
+- **Sub50 C02:** pelvis largest GVS AND knee prominent AND a contrast between pelvic GVS difference and small measured pelvic excursion. Exact figures are optional; the contrast is not. It is descriptive and does not establish pathological restriction or a normative ROM classification.
+- **Sub50 SL01:** the index -0.7% AND its near-zero/small step-length-difference meaning are required. No negative disclaimer is mandatory. A separate whole-gait symmetry generalization is an issue, not an omission of the finding. A narrowly scoped statement of small step-length difference is allowed.
+- **Control C06:** healthy provenance AND self-exclusion are core. Missing speed/cadence and paretic-index applicability are conditional separately for each domain actually discussed. General left/right symmetry remains definable.
+
+CCI, cadence, audit counts, formulas and exhaustive interval lists remain optional unless an explicit case core requires the finding. Optional assertions can still be erroneous. Sub47 can satisfy its EMG requirement with a concise unavailable-EMG/assessment-consequence statement. Reference-only curves are not participant EMG.
+
+## 6. Uncertainty, precision and cycle locations
+
+Credit supported indeterminate conclusions without demanding hidden references. Such uncertainty does not replace available required case findings. A numerical ST/VL finding plus indeterminate muscle-specific percentile classification can cover Sub09 C04; a generic inability statement alone cannot.
+
+Mean-relative direction, percentile classification and clinical normality are different questions. A pooled endpoint comparison is not a matched LOO limit. Use model-visible values: Sub50 ST 4.7 can be descriptively compared with the supplied maximum endpoint 4.61; Sub05 TA 4.6 versus 4.61 does not classify hidden unrounded precision. Neither establishes diagnosis.
+
+Equivalent meaningful rounding and approximately stated locations can be accepted in context. **No fixed +/-2-percentage-point or nearest-5% rule is added.** Rater2 proposed it as optional; rater1 accepted the absence of a universal tolerance. Document disputed values for discussion rather than treating the suggestion as joint agreement. No new tolerance for max |z|, CCI or GVS is introduced either.
+
+## 7. Degree words, clinical grades and statistical language
+
+These explicit boundaries are new clarifications requiring confirmation in this rubric revision:
+
+| Statement type | Proposed treatment |
+|---|---|
+| Descriptive magnitude tied to a supplied value/comparison, without implying a validated severity category | May be acceptable in context; reference anchoring does not create severity cutoffs. See X32. |
+| Unanchored informal degree word, such as marked step-length asymmetry with no supplied comparator | Pending adjudication, not an automatic error or automatic acceptance. Record the intended/competing readings. See X33. |
+| Explicit clinical severity grade or validated classification asserted without a supplied basis | Error E02. See X42. |
+| Explicit statistical-significance or p-value claim without a supplied test/basis | Error E02; other reference tags may apply to the same issue. See X37. |
+| Ambiguous significant used colloquially | Read the context; if unresolved, refer for adjudication. Do not score a keyword automatically. |
+
+The required near-zero/small-difference description for Sub50 is anchored to the supplied index and its zero point; it is not a clinical severity grade and does not automatically become pending under the unanchored-degree-word rule.
+
+Even with a supplied percentile comparison, clinical normality or pathology is not established. These rules do not reopen historical degree-word decisions. An expert may reject the proposed descriptive example X32 or specify narrower wording before formal scoring.
+
+## 8. Error definitions and interpretation boundaries
+
+The nine proposed categories are in the workbook and rubric.json. They organize issues, not severity scores. Read context and exact input evidence rather than count keywords.
+
+E01 includes invented/misreported facts, arithmetic, metric identities and directions. E02 includes unsupported clinical/function/treatment conclusions plus the language boundaries above. E03 concerns threshold/amplitude overinterpretation. E04 covers unsupported timing, gait phase/function and max-z/peak confusion, including a control claim of normal phasing without timing references. E05 covers invalid reference classification. E06 covers CCI interpretation or cross-method substitution. E07 covers unsupported kinematic summary conclusions or whole-gait symmetry inferred from a single step-length index. E08 covers missingness/applicability. E09 covers unsupported matching and disease attribution.
+
+The supplied initial-contact anchor and anatomical actions remain allowed. Healthy pooled cycles retain their documentary qualification. The 3% rule filters short above-threshold runs, not short below-threshold gaps. A rounded 100% display is not proof of every sample being above threshold. CCI within-range wording does not establish physiological normal co-activation; this prospective rule does not alter Q055.
+
+## 9. Case errors, design concerns, formats and repeated claims
+
+Keep purely methodological guarantees, study-design advice and repeat-testing guarantees as separate **design concerns**, not silently included in case-error counts. Format problems are also separate. This preserves the proposed Q018 scope distinction without endorsing the excluded guarantee.
+
+Mixed statements require claim-level separation. “Matching speed removes every confound, so this participant's deviation proves stroke dysfunction” contains a design concern AND an independently assessable E09 case assertion. Cross-link the records; do not exclude the case assertion because of the sentence's methodological context. Misstating the identity of this participant's GPS-like score as spatiotemporal remains E01.
+
+One repeated equivalent claim about the same finding forms one issue group with all locations. A follow-up question presupposing the same confirmed deficit belongs to that group; a question mark is not an escape from assertion review. Multiple E tags do not multiply events. Split independently assessable claims and link their common source. Clearly retracted statements are interpreted under section 3.
+
+Issue decisions remain **Error / Acceptable / Pending adjudication / Outside case-error scope**. Pending is not a confirmed error. Coverage/error records are separate outcomes, not two summed deductions. No error-rate denominator or severity weights are approved here.
+
+## 10. Independent completion, confirmation and next work
+
+Each reviewer independently records decisions, exact evidence and reasons. Use explicit completed-with-issues or completed-with-no-issues states rather than a blank table. Preserve original independent records when later discussing disagreements; an agent suggestion is not a human adjudication.
+
+The workbook contains eight policies, 20 case-specific rows, nine definitions and 42 synthetic teaching examples. Reviewer/date/decisions are blank. Focus on the changes in [RESPONSE_TO_REVIEWERS.md](RESPONSE_TO_REVIEWERS.md), while confirming the revised document as a whole. An unchanged row previously accepted is not prefilled as approved for this version.
+
+After expert confirmation, freeze the rubric and prepare requirements for any new sample before inspecting outputs. Exposure, eligibility (including the separate Sub43 event flag), technical failures, statistical analysis, weighting and generation authorization remain separate decisions. No prompt changes, new reports or historical rerating were made for this revision.

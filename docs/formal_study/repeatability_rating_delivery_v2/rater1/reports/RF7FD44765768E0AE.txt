@@ -1,0 +1,46 @@
+**1. Objective Findings**
+*   **Subject/Group:** Sub35_P; Stroke group, evaluating the paretic side. 
+*   **Gait Speed:** 0.68 m/s (limited community ambulator band).
+*   **Cadence:** 90.8 steps/min.
+*   **Step Length Symmetry Index:** 5.7% (successive footfall definition; positive value indicates the paretic step is not the shorter step).
+*   **Available Channels:** Sagittal kinematics for the ankle, knee, hip, and pelvis. Normalized EMG data provided for GAS, RF, VL, BF, ST, TA, and ERS. No missing channels among the supplied parameters.
+
+**2. EMG Envelope and Threshold Findings**
+*(Note: Envelope properties reflect regions exceeding 20% of the mean curve's own peak for at least 3% of the cycle. Cycle boundaries represent successive initial contacts. Values are relative to the analysis envelope and do not represent absolute muscular force or continuous physiological onset/offset.)*
+
+*   **GAS:** Retained above-threshold interval from 4% to 63% of the cycle, yielding 59% coverage. Peak normalized amplitude is 0.78.
+*   **RF:** Retained above-threshold intervals at 69%-77% and 84%-66%, with the latter wrapping across the cycle boundary. Coverage is 91%. Peak normalized amplitude is 0.68.
+*   **VL:** Retained above-threshold interval from 88% to 61% (wrapping across the cycle boundary), with 73% coverage. Peak normalized amplitude is 0.67.
+*   **BF:** Retained above-threshold intervals at 48%-64%, 71%-78%, and 83%-26%, with the latter wrapping across the cycle boundary. Coverage is 68%. Peak normalized amplitude is 0.83.
+*   **ST:** Retained above-threshold intervals at 43%-68% and 85%-26%, with the latter wrapping across the cycle boundary. Coverage is 67%. Peak normalized amplitude is 0.55.
+*   **TA:** Retained above-threshold interval from 69% to 35% (wrapping across the cycle boundary), yielding 66% coverage. Peak normalized amplitude is 0.48.
+*   **ERS:** Retained above-threshold interval from 47% to 32% (wrapping across the cycle boundary), yielding 87% coverage. Peak normalized amplitude is 0.72.
+
+*   **Co-Contraction Indices (CCI):** *(Calculated as overlapping area on the full continuous envelopes, not just the detected intervals)*
+    *   **TA vs. GAS CCI:** 0.60
+    *   **RF vs. BF CCI:** 0.66
+
+**3. Kinematic and Reference Comparisons**
+*(Note: The empirical reference is based on a pooled cohort of 138 healthy subjects that is not matched by age or speed. The healthy cohort's self-selected walking speeds span 0.80–1.79 m/s. Because this subject's gait speed (0.68 m/s) is below this floor, deviations from the reference conflate the effects of slow walking with stroke-specific changes; such differences cannot independently establish pathology, disease effect, or clinical diagnosis.)*
+
+*   **Composite Kinematic Deviation:** The overall GPS-like score across the provided sagittal joints is 9.77, compared to a healthy-cohort median of 5.1 (95th percentile: 10.7).
+*   **Sagittal Joint Range of Motion (ROM) and Gait Variable Scores (GVS):**
+    *   **Ankle:** ROM 26.4°, GVS 13.71
+    *   **Knee:** ROM 49.9°, GVS 12.00
+    *   **Hip:** ROM 38.4°, GVS 4.94
+    *   **Pelvis:** ROM 7.7°, GVS 5.08
+*   **EMG Maximum |z| Deviations:** *(Reflects the largest standardized difference from the reference phase-mean along the 1001-point cycle, which does not necessarily coincide with peak amplitude)*
+    *   **GAS:** 20.3 (above the phase-specific reference mean, at 57% of cycle)
+    *   **RF:** 7.4 (above the phase-specific reference mean, at 37% of cycle)
+    *   **VL:** 8.3 (above the phase-specific reference mean, at 32% of cycle)
+    *   **BF:** 3.1 (above the phase-specific reference mean, at 95% of cycle)
+    *   **ST:** 5.6 (above the phase-specific reference mean, at 57% of cycle)
+    *   **TA:** 3.3 (above the phase-specific reference mean, at 14% of cycle)
+    *   **ERS:** 5.8 (above the phase-specific reference mean, at 60% of cycle)
+*   **CCI Reference Comparison:** The TA vs. GAS CCI of 0.60 is located just above the upper boundary of the healthy cohort reference interval (median 0.39, 2.5th–97.5th percentiles 0.24–0.59). The RF vs. BF CCI of 0.66 falls within the empirical reference interval (median 0.68, 2.5th–97.5th percentiles 0.48–0.83). Note that being inside or outside these intervals depends heavily on the envelope processing methods and does not by itself establish physiologically normal control or pathological stiffness.
+
+**4. Questions for Further Clinical Assessment**
+*   How much of the observed kinematic composite score (GPS-like 9.77) and the high ankle and knee GVS deviations are driven by the participant's slow gait speed rather than specific stroke-related motor impairments?
+*   Do the continuous above-threshold properties bridging the cycle boundary in multiple muscles (RF, VL, BF, ST, TA, and ERS) correlate with clinical observations of sustained muscle activation or compensatory joint stabilization around initial contact?
+*   What underlying biomechanical factors or local neuromuscular constraints might contribute to the distinct ankle deviation pattern, given the prominent GAS divergence (max |z| = 20.3) observed at 57% of the cycle?
+*   Is the slightly elevated TA vs. GAS CCI physically evident as impaired functional mobility at the ankle joint during clinical observation?

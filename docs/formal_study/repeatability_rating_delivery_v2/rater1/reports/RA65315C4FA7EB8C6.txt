@@ -1,0 +1,49 @@
+**1. Objective Findings**
+*   **Participant ID and Group:** Sub49_P (Stroke cohort, paretic side)
+*   **Gait Speed:** 0.79 m/s. This speed is operationally categorized in the dataset within the "limited community ambulator" band (0.4–0.8 m/s), which denotes a numerical speed range and does not measure real-world community mobility, safety, or independence.
+*   **Cadence:** 97.8 steps/minute
+*   **Step Length Symmetry Index:** -6.6% (computed via the successive-footfall method), indicating that the paretic-side step is shorter than the non-paretic step.
+*   **Data Constraints:** Kinematic data are restricted to the sagittal plane; coronal and transverse recordings are not included. 
+
+**2. EMG Envelope and Threshold Findings**
+The following values characterize the averaged EMG envelopes relative to a threshold of 20% of each muscle's respective peak normalized amplitude and a minimum duration of 3% of the cycle. The cycle begins and ends at successive initial contacts of the paretic limb (0% to 100%). Relative envelope amplitudes do not represent absolute muscular force or strength, and a lack of detected interval does not equate to physiological inactivity. 
+
+*   **GAS:** The averaged envelope was above threshold for 53% of the cycle, within a single interval from 5% to 58%. The peak normalized amplitude was 0.64.
+*   **TA:** The averaged envelope was above threshold for 67% of the cycle, in an interval from 64% to 31%. This interval remains above threshold across the initial-contact cycle boundary. The peak normalized amplitude was 0.51.
+*   **VL:** The averaged envelope was above threshold for 42% of the cycle, in an interval from 89% to 31%, remaining continuous across the cycle boundary. The peak normalized amplitude was 0.68.
+*   **RF:** The averaged envelope was above threshold for 100% of the cycle (interval from 0% to 100%), demonstrating continuous activity across the initial-contact boundary. The peak normalized amplitude was 0.72.
+*   **ST:** The averaged envelope was above threshold for 71% of the cycle, in an interval from 52% to 23%, remaining continuous across the cycle boundary. The peak normalized amplitude was 0.52.
+*   **BF:** The averaged envelope was above threshold for 62% of the cycle, in an interval from 68% to 28%, remaining continuous across the cycle boundary. The peak normalized amplitude was 0.62.
+*   **ERS:** The averaged envelope was above threshold for 100% of the cycle (interval from 0% to 100%), remaining continuous across the initial contact boundary. The peak normalized amplitude was 0.67.
+
+*Co-Contraction Indices (CCI):*
+Computed on the full continuous envelopes (0%-100%):
+*   **TA vs. GAS CCI:** 0.43. This value is just above the reference median of 0.39 and falls within the supplied empirical 2.5th–97.5th percentile interval of 0.24 to 0.59.
+*   **RF vs. BF CCI:** 0.77. This value is higher than the reference median of 0.68 but remains within the supplied empirical interval of 0.48 to 0.83.
+*Note: Being within the empirical interval does not establish physiologically normal muscle function or co-activation.*
+
+**3. Kinematic and Reference Comparisons**
+Comparisons in this section reference a pooled cohort of 138 healthy individuals. The participant's gait speed of 0.79 m/s falls just below the minimum threshold (0.80 m/s) of the healthy reference group. Because a speed-matched healthy reference does not exist in this dataset for this participant, calculated deviations conflate the effects of slow walking with stroke-specific physiological changes; these factors cannot be separated here. Furthermore, deviations from an un-matched reference do not establish a clinical diagnosis.
+
+*   **Composite Kinematic Deviation (GPS-like Score):** 5.33. This summary difference score is slightly above the reference median (5.1) and well below the 95th percentile (10.7) for the cohort.
+*   **Joint Kinematics (Sagittal Plane Only):**
+    *   **Ankle Angles:** Range of motion 28.3°, Gait Variable Score (GVS) 4.68
+    *   **Knee Angles:** Range of motion 56.4°, GVS 8.78
+    *   **Hip Angles:** Range of motion 45.3°, GVS 3.77
+    *   **Pelvis Angles:** Range of motion 3.1°, GVS 0.73
+
+*   **EMG Maximum |z| Deviations:**
+    The maximum |z| deviation represents the single point of greatest standardized difference from the reference mean; it does not indicate the timing of peak amplitude or clinical abnormality. 
+    *   **GAS:** Max |z| of 4.5 (above the phase-specific reference mean at 56% of the cycle)
+    *   **RF:** Max |z| of 2.9 (above the phase-specific reference mean at 22% of the cycle)
+    *   **VL:** Max |z| of 1.5 (below the phase-specific reference mean at 99% of the cycle)
+    *   **BF:** Max |z| of 2.7 (above the phase-specific reference mean at 17% of the cycle)
+    *   **ST:** Max |z| of 2.7 (above the phase-specific reference mean at 12% of the cycle)
+    *   **TA:** Max |z| of 2.3 (below the phase-specific reference mean at 62% of the cycle)
+    *   **ERS:** Max |z| of 4.7 (above the phase-specific reference mean at 65% of the cycle)
+
+**4. Questions for Further Clinical Assessment**
+*   How do the observed sagittal plane kinematic summary variations—particularly the knee (GVS of 8.78)—correspond to passive and active range of motion limitations during clinical examination?
+*   Given that the step length symmetry index indicates a shorter paretic step (-6.6%), does clinical observation demonstrate compensatory mechanisms or issues with weight shifting during the gait cycle?
+*   Does the continuous 100% above-threshold envelope coverage in the RF and ERS reflect functional posturing, stiffness, or necessary stabilizing strategies that can be observed on physical examination?
+*   Is the participant's ambulation speed (0.79 m/s) clinically adequate for their specific community mobility goals when assessed safely in their environment?

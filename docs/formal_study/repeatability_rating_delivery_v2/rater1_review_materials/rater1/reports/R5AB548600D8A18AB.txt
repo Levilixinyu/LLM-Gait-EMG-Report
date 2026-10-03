@@ -1,0 +1,52 @@
+**1. Objective Findings**
+The provided data apply to the paretic limb of a participant in the stroke group (Sub27_P). 
+- Gait speed was measured at 0.75 m/s. While this falls into a classification band designated "limited community ambulator," this label denotes a speed range and does not measure true real-world mobility, independence, or safety. 
+- Cadence was 82.5 steps/minute. 
+- Step length symmetry index (successive-footfall definition) was -15.8%, indicating that the paretic-side step is shorter than the non-paretic step.
+
+*Data Limitation Note:* The participant's gait speed of 0.75 m/s falls below the slowest self-selected walking speed (0.80 m/s) of the healthy reference cohort. Consequently, no speed-matched healthy reference exists in this dataset. Any observed deviations conflate the effects of slow walking with stroke-specific pathology, and these factors cannot be isolated from the supplied data. 
+
+**2. EMG Envelope and Threshold Findings**
+The following findings describe the mean EMG envelopes across the recorded strides. Intervals reflect where the averaged, normalized envelope exceeds 20% of its own peak for at least 3% of the analysis cycle. These algorithms do not document single-stride variability, true physiological onset/offset, continuous contraction, or inactivity outside the intervals. The cycle runs from initial contact (0%) to subsequent initial contact (100%).
+
+- **Gastrocnemius (GAS):** Above-threshold intervals occurred at 22%-28%, 36%-66%, and 99%-21% (wrapping across the initial contact boundary). Total coverage was 58% of the cycle, with a peak normalized amplitude of 0.55.
+- **Rectus Femoris (RF):** Above-threshold intervals occurred at 11%-61%, 69%-76%, 90%-95%, and 99%-11% (wrapping across the boundary). Total coverage was 76% of the cycle, with a peak normalized amplitude of 0.58.
+- **Vastus Lateralis (VL):** Retained one continuous above-threshold interval from 87%-56% (wrapping across the boundary). Total coverage was 69% of the cycle, with a peak normalized amplitude of 0.58.
+- **Biceps Femoris (BF):** Above-threshold intervals occurred at 16%-20%, 57%-60%, and 89%-15% (wrapping across the boundary). Total coverage was 35% of the cycle, with a peak normalized amplitude of 0.79.
+- **Semitendinosus (ST):** Above-threshold intervals occurred at 45%-62% and 86%-28% (wrapping across the boundary). Total coverage was 58% of the cycle, with a peak normalized amplitude of 0.68.
+- **Tibialis Anterior (TA):** Retained one continuous above-threshold interval from 68%-37% (wrapping across the boundary). Total coverage was 69% of the cycle, with a peak normalized amplitude of 0.63.
+- **Erector Spinae (ERS):** Retained one continuous above-threshold interval from 49%-28% (wrapping across the boundary). Total coverage was 81% of the cycle, with a peak normalized amplitude of 0.81.
+
+Notably, all seven evaluated muscles demonstrated envelopes that remained above the detection threshold across the 100% to 0% cycle-defining boundary.
+
+*Co-Contraction Indices (CCI):*
+CCI represents a whole-cycle overlap index of the continuous normalized envelopes. 
+- TA vs. GAS: CCI = 0.40. This value sits near the reference median of 0.39 and falls within the supplied 2.5th-97.5th percentile interval (0.24-0.59).
+- RF vs. BF: CCI = 0.54. This value falls below the reference median of 0.68, though it remains within the supplied empirical interval (0.48-0.83).
+*Note: Falling inside or outside these reference intervals does not independently establish physiologically normal co-activation, pathological stiffness, or normal muscle function.*
+
+**3. Kinematic and Reference Comparisons**
+Reference comparisons are made against a pooled healthy cohort (n=138 for kinematics; up to n=109 for EMG). Because the reference cohort is not matched for age or walking speed (as noted above), these metrics describe summary differences but cannot independently establish clinical diagnoses, restrictions, or stroke-related disease effects.
+
+*Kinematics (Sagittal Plane Only):*
+- The composite kinematic deviation score (GPS-like) was 6.81. This is above the reference median (5.1) but below the 95th percentile limit (10.7).
+- Ankle: Range of motion 34.8 degrees; Gait Variable Score (GVS) 7.82.
+- Knee: Range of motion 59.2 degrees; GVS 9.04.
+- Hip: Range of motion 41.6 degrees; GVS 5.03.
+- Pelvis: Range of motion 7.8 degrees; GVS 4.16.
+
+*EMG Maximum |z| Deviations:*
+The maximum |z| identifies the single point in the 1001-point cycle where the participant's standardized envelope differed most from the pooled reference mean. This is an extreme-value statistic; healthy individuals routinely demonstrate values exceeding 2.0. 
+- GAS: max |z| = 15.2 (above reference mean at 57% of cycle).
+- RF: max |z| = 6.2 (above reference mean at 36% of cycle).
+- VL: max |z| = 6.4 (above reference mean at 36% of cycle).
+- BF: max |z| = 2.9 (above reference mean at 97% of cycle).
+- ST: max |z| = 3.4 (above reference mean at 51% of cycle).
+- TA: max |z| = 5.9 (above reference mean at 32% of cycle).
+- ERS: max |z| = 8.2 (above reference mean at 63% of cycle).
+
+**4. Questions for Further Clinical Assessment**
+- Given that the step length symmetry index indicates a shorter step on the paretic limb, does clinical observation reveal concurrent balance challenges or compensatory weight-acceptance strategies?
+- Do hands-on clinical assessments identify any structural range of motion restrictions or altered control at the knee or ankle that might relate to the reported sagittal GVS deviations?
+- Considering that all seven muscles maintained above-threshold mean envelope amplitudes across the initial contact boundary (wrapping from the end to the start of the analysis window), does clinical examination reveal altered muscle tone or stiffness during limb transition, or could this widespread pattern point to a shared measurement artifact?
+- To what extent do the large mid-cycle deviations in knee extensor and plantarflexor envelopes (e.g., GAS at 57%, RF/VL at 36%) align with observable strategies used to compensate for walking at this slower gait speed?

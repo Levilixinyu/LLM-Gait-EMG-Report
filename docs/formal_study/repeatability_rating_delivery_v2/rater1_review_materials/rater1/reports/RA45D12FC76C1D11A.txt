@@ -1,0 +1,46 @@
+**1. Objective Findings**
+*   **Subject & Group:** Sub15_P; Stroke cohort; Paretic side evaluated.
+*   **Gait Speed & Cadence:** 0.42 m/s; 77.1 steps/min.
+*   **Step Length Symmetry Index:** 37.8% (calculated using the successive-footfall definition). A positive value indicates that the paretic-side step is longer than the non-paretic step.
+*   **Analyzed Data:** Sagittal plane kinematics (ankle, knee, hip, pelvis) and quantitative EMG mean curves were provided. Available EMG channels included the gastrocnemius (GAS), rectus femoris (RF), vastus lateralis (VL), biceps femoris (BF), semitendinosus (ST), tibialis anterior (TA), and erector spinae (ERS).
+
+**2. EMG Envelope and Threshold Findings**
+*Note: Evaluated EMG intervals reflect regions where an ensemble-averaged envelope exceeded 20% of its own peak for at least 3% of the analysis cycle (initial contact to successive initial contact, 0%–100%). Amplitude values are relative envelope values, not measures of absolute force or strength. Detected intervals do not establish continuous physiological contraction or stride-to-stride uniformity, nor does a lack of interval establish total muscle inactivity.*
+
+*   **GAS:** 59% of the cycle above threshold. Detected intervals were 33%–60% and 96%–28%. The latter interval wraps across the initial contact boundary. Peak normalized amplitude was 0.54.
+*   **RF:** 61% of the cycle above threshold. A single detected interval was present from 87%–46%, wrapping across the initial contact boundary. Peak normalized amplitude was 0.52.
+*   **VL:** 60% of the cycle above threshold. A single detected interval was present from 87%–47%, wrapping across the initial contact boundary. Peak normalized amplitude was 0.59.
+*   **BF:** 64% of the cycle above threshold. Detected intervals were 32%–59% and 92%–29%, with the latter wrapping across the initial contact boundary. Peak normalized amplitude was 0.55.
+*   **ST:** 75% of the cycle above threshold. Detected intervals were 9%–28%, 33%–64%, and 84%–9%, with the final interval wrapping across the initial contact boundary. Peak normalized amplitude was 0.22.
+*   **TA:** 63% of the cycle above threshold. Detected intervals were 18%–22%, 25%–32%, 64%–83%, and 85%–17%, with the final interval wrapping across the initial contact boundary. Peak normalized amplitude was 0.55.
+*   **ERS:** 87% of the cycle above threshold. A single detected interval was present from 42%–29%, wrapping across the initial contact boundary. Peak normalized amplitude was 0.41.
+
+**Co-contraction Indices (CCI):**
+*Note: CCI is calculated as a whole-cycle overlap index of normalized EMG envelopes. Falling within or outside a reference interval depends heavily on processing methods and does not definitively establish physiologically normal/abnormal co-activation or specific clinical diagnoses.*
+*   **TA vs GAS:** 0.47, which falls within the supplied empirical reference interval (median 0.39; 2.5th–97.5th percentile 0.24–0.59).
+*   **RF vs BF:** 0.62, which falls within the supplied empirical reference interval (median 0.68; 2.5th–97.5th percentile 0.48–0.83).
+
+**3. Kinematic and Reference Comparisons**
+*Note: The reference dataset used for kinematic and EMG deviation scoring consists of 138 pooled healthy subjects whose self-selected walking speeds span 0.80–1.79 m/s. Because this subject's gait speed (0.42 m/s) falls below the support limit of the healthy reference group, deviations from the reference conflate the effects of slow walking with stroke-specific physiological changes, and the two cannot be separated from these data. Maximum |z| describes the largest standardized difference from the reference at a single phase point, not necessarily the timing of peak envelope amplitude.*
+
+*   **Composite Kinematic Deviation Score (GPS-like):** 7.54 (reference median 5.1, 95th percentile 10.7).
+*   **Sagittal Plane Joint Kinematics:**
+    *   **Ankle Angles:** Range of motion was 14.5°, with a Gait Variable Score (GVS) of 5.79.
+    *   **Knee Angles:** Range of motion was 57.5°, with a GVS of 12.28.
+    *   **Hip Angles:** Range of motion was 34.1°, with a GVS of 6.40.
+    *   **Pelvis Angles:** Range of motion was 4.5°, with a GVS of 1.48.
+
+*   **Maximum |z| Envelope Deviations (Compared to Phase-Specific Reference Mean):**
+    *   **GAS:** 8.1 (above reference mean), located at 58% of the cycle.
+    *   **RF:** 4.4 (above reference mean), located at 27% of the cycle.
+    *   **VL:** 6.4 (above reference mean), located at 28% of the cycle.
+    *   **BF:** 6.9 (above reference mean), located at 51% of the cycle.
+    *   **ST:** 3.3 (above reference mean), located at 46% of the cycle.
+    *   **TA:** 2.3 (below reference mean), located at 62% of the cycle.
+    *   **ERS:** 2.7 (above reference mean), located at 79% of the cycle.
+
+**4. Questions for Further Clinical Assessment**
+*   How do the reported sagittal plane ranges of motion compare to the patient's passive and active limits observed during bedside goniometry?
+*   Are the observed periods of above-threshold EMG activity consistent with the biomechanical requirements and expected compensatory strategies for walking safely at a speed of 0.42 m/s?
+*   Does the positive step length symmetry index (indicating a longer paretic step) align with observable clinical asymmetries in weight acceptance or swing limb advancement?
+*   Is the elevated knee Gait Variable Score (12.28) clinically associated with stance-phase instability or swing-phase clearance challenges?

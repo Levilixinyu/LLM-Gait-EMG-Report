@@ -1,0 +1,36 @@
+**1. Objective Findings**
+*   **Participant Details:** Subject Sub29_P (Stroke group, paretic side).
+*   **Gait Speed:** 0.57 m/s (categorized as limited community ambulator band).
+*   **Cadence:** 102.0 steps/min.
+*   **Step Length Symmetry Index:** 13.7% (successive-footfall definition). A positive value indicates the paretic-side step is longer than the non-paretic-side step.
+*   **Reference Comparability Limitation:** The participant's gait speed (0.57 m/s) is below the lowest self-selected speed of the pooled healthy reference cohort (0.80–1.79 m/s). Consequently, no speed-matched healthy reference exists in this dataset. Any deviations from this reference conflate the effects of slow walking with stroke-specific control changes, and the two cannot be separated using these data. Furthermore, deviations from an empirical reference do not by themselves establish a disease effect, physiological abnormality, or a clinical diagnosis.
+
+**2. EMG Envelope and Threshold Findings**
+The following parameters describe the participant-, side-, and muscle-specific averaged EMG envelopes (normalized to a shared maximum across available strides). Above-threshold intervals denote regions where the averaged envelope exceeds 20% of its own peak. The analysis cycle runs from 0% (initial contact) to 100% (successive initial contact). Relative amplitudes do not represent absolute muscular force, strength, or neural activation, and average curves do not establish stride-to-stride variability. 
+
+*   **GAS:** Above threshold from 94% to 58% (wrapping across the initial contact cycle boundary), retaining coverage for 65% of the cycle. Peak relative amplitude is 0.55. Maximum |z| versus the healthy reference is 3.5 (envelope is above the reference mean at 1% of the cycle).
+*   **RF:** Above threshold from 80% to 75% (wrapping across the initial contact cycle boundary), retaining coverage for 95% of the cycle. Peak relative amplitude is 0.57. Maximum |z| is 4.1 (above the reference mean at 87% of the cycle).
+*   **VL:** Above threshold from 82% to 52% (wrapping across the initial contact cycle boundary), retaining coverage for 70% of the cycle. Peak relative amplitude is 0.63. Maximum |z| is 3.3 (above the reference mean at 31% of the cycle).
+*   **BF:** Above threshold from 85% to 48% (wrapping across the initial contact cycle boundary), retaining coverage for 63% of the cycle. Peak relative amplitude is 0.54. Maximum |z| is 5.1 (above the reference mean at 34% of the cycle).
+*   **ST:** Above threshold from 82% to 56% (wrapping across the initial contact cycle boundary), retaining coverage for 74% of the cycle. Peak relative amplitude is 0.54. Maximum |z| is 3.2 (above the reference mean at 27% of the cycle).
+*   **TA:** Above threshold from 56% to 46% (wrapping across the initial contact cycle boundary), retaining coverage for 90% of the cycle. Peak relative amplitude is 0.48. Maximum |z| is 3.9 (above the reference mean at 31% of the cycle).
+*   **ERS:** Above threshold from 0% to 100%, retaining coverage for 100% of the cycle (above threshold across the boundary). The supplied evidence establishes there is no below-threshold segment detected for this muscle. Peak relative amplitude is 0.41. Maximum |z| is 2.5 (below the reference mean at 2% of the cycle).
+
+**Co-Contraction Indices (CCI):**
+CCI represents a whole-cycle overlap index of the continuous normalized envelopes. Being within the empirical reference interval does not establish physiologically normal co-activation or muscle function, nor does being outside it establish pathological co-activation.
+*   **TA vs GAS:** CCI = 0.54. This value falls within the healthy-cohort reference range (2.5th–97.5th percentile: 0.24–0.59) and is above the median of 0.39.
+*   **RF vs BF:** CCI = 0.73. This value falls within the healthy-cohort reference range (2.5th–97.5th percentile: 0.48–0.83) and is above the median of 0.68.
+
+**3. Kinematic and Reference Comparisons**
+Only sagittal plane kinematics are supplied; coronal and transverse data are unavailable. Gait Variable Scores (GVS) and the GPS-like composite score are summary differences from the unmatched reference. Range of motion (ROM) alone does not establish a clinical restriction without an appropriate matched comparison.
+*   **Composite Score:** The composite kinematic deviation score (GPS-like) is 9.00 (reference median is 5.1, 95th percentile is 10.7).
+*   **Ankle Angles:** ROM is 17.1 degrees; GVS is 8.94.
+*   **Knee Angles:** ROM is 34.7 degrees; GVS is 12.84.
+*   **Hip Angles:** ROM is 27.2 degrees; GVS is 7.74.
+*   **Pelvis Angles:** ROM is 1.3 degrees; GVS is 4.43.
+
+**4. Questions for Further Clinical Assessment**
+*   How do the extensive EMG threshold coverages (e.g., ERS without a below-threshold segment, and RF/TA covering 95% and 90% of the cycle, respectively) correspond to clinical assessments of dynamic motor control and resting tone for this patient?
+*   Does the positive step length symmetry index of 13.7% align with observable spatial compensations, postural limitations, or structural asymmetries during physical examination?
+*   Are the observed sagittal plane ranges of motion sufficient to meet the patient's functional mobility and stability goals?
+*   To what extent might the observed deviations in kinematics and envelope amplitudes reflect necessary compensatory strategies for a slow walking speed (0.57 m/s) rather than direct consequences of primary stroke-related pathology?

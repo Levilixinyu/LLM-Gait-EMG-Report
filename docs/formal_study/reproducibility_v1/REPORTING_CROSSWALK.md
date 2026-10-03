@@ -1,5 +1,7 @@
 # Selected reporting topics and manuscript locations
 
+A populated assessment of the published TRIPOD-LLM main and abstract items is now available in [the reporting checklist](../reporting_checklist_v1/TRIPOD_LLM_CHECKLIST.md). It records missing declarations and partial reporting; neither document certifies complete compliance.
+
 This working crosswalk uses the transparency topics discussed in the [CHART explanation and elaboration](https://www.bmj.com/content/390/bmj-2024-083305). It is not the completed official checklist or a statement of journal compliance. The study evaluates constrained report interpretation, with diagnosis and treatment outside scope. Authors should select the journal and complete its applicable checklist before submission.
 
 | Topic | Present location | Remaining author action |

@@ -1,0 +1,19 @@
+## 1. Objective Findings
+
+- **Participant:** Sub22_P, stroke group; findings concern the **paretic side**. Anatomical left/right laterality is not supplied.
+- **Walking speed:** 0.45 m/s, within the supplied “limited community ambulator” speed band. This label does not establish walking independence, safety or actual community mobility.
+- **Cadence:** 78.8 steps/min.
+- **Step-length symmetry index:** 5.7%, using the **successive-footfall** definition. The positive value indicates a longer paretic-side step under this definition.
+- **GPS-like composite:** 15.30, calculated from the supplied sagittal kinematic channels; this is not the validated nine-variable GPS.
+
+Seven muscle-envelope summaries and four sagittal kinematic channels are available. Coronal/transverse kinematics, individual toe-off, matched muscle-specific timing references, stride-level variability and raw-signal quality checks are not supplied.
+
+## 2. EMG Envelope and Threshold Findings
+
+These are ensemble-averaged envelopes, normalized using a shared maximum across available strides before averaging, without further amplitude normalization. In this stroke release, denominators are participant-, side- and muscle-specific, not shared between sides. Amplitudes are relative envelope values, not strength, force or a basis for ranking muscles as stronger or weaker.
+
+Retained intervals exceed **20% of each mean curve’s own peak**, with a minimum interval of **3% of the cycle by sample count**.
+
+| Muscle | Retained intervals (% of analysis cycle) | Reported coverage | Peak normalized amplitude | Maximum \|z\|: direction relative to reference mean and location |
+|---|---|---:|---:|---|
+| GAS | 0%–13%; 14%–19%; 31%–

@@ -1,0 +1,21 @@
+{
+  "recorded_at_utc": "2026-09-25T07:52:38.344738+00:00",
+  "confirmation_source": "Study lead confirmed two additional responses per case/model, three including the original, then confirmed proceeding.",
+  "new_reports": 150,
+  "original_stroke_reports": 75,
+  "total_stroke_reports": 225,
+  "control_reports_unchanged": 30,
+  "excluded_repeat": 3,
+  "selection_rule": "Keep the already registered first two waves in their original order; no selection by report content.",
+  "prior_journal_record_count": 28215,
+  "prior_journal_head": "f0b9ea989d18da40e2d48491a16b5c44b393ad74511f5ad8d46509f1a56cde14",
+  "prior_payloads_sha256": "d1bba5b459a5250cf4b2360a87237ea84725c103b7d27543f642efeef3551e2f",
+  "prior_manifest_sha256": "027c28872b543f868924c3761833f892b5b0133ceb99ed5fa6f0ffa748e353b7",
+  "completed_reports_at_pause": 34,
+  "interrupted_slot": "repeat_v1_r01_stroke_Sub22_P_openai",
+  "interruption_reason": "Study-lead pause followed by scope reduction; the paused parent and worker were terminated.",
+  "interruption_handling": "Retain all durably captured text; record administrative interruption, do not regenerate this slot. No claim of complete capture.",
+  "remaining_transmissions_if_no_retries": 115,
+  "ratings_per_reviewer": 150,
+  "report_review_assignments": 450
+}

@@ -1,0 +1,45 @@
+**1. Objective Findings**
+Subject Sub01_P is a participant in the stroke group. Data were recorded from the paretic side. The subject’s gait speed is 0.25 m/s (categorized within the household ambulator band of <0.4 m/s), with a cadence of 64.7 steps/min. The step length symmetry index is -46.3% based on the successive-footfall definition, indicating that the paretic step is shorter than the non-paretic step.
+
+*Comparability Limitation:* The healthy reference cohort’s self-selected walking speeds span 0.80 to 1.79 m/s. Because this subject’s speed of 0.25 m/s falls well below this range, no speed-matched healthy reference exists in the supplied dataset. Consequently, observed deviations conflate the effects of very slow walking with stroke-specific physiological changes, and a definitive disease effect cannot be established from this comparison alone.
+
+**2. EMG Envelope and Threshold Findings**
+Reported EMG values are properties of ensemble-averaged envelopes normalized to their own peak across the available strides. These relative amplitudes do not quantify absolute neural activation, muscle force, or strength, and the average curves do not establish stride-to-stride variability. An interval is reported where the mean envelope exceeded 20% of its peak for at least 3% of the cycle.
+
+All seven evaluated muscles maintained regions above threshold that wrapped continuously across the cycle-defining boundary (initial contact at 0%/100%). Total above-threshold coverage ranged from 71% to 100% of the cycle:
+- **GAS:** Above-threshold interval spans 86%-76% (wraps cycle boundary). Total coverage is 90%. Peak normalized amplitude is 0.46. 
+- **RF:** Intervals span 77%-88% and 92%-66% (wraps cycle boundary). Total coverage is 86%. Peak normalized amplitude is 0.50.
+- **VL:** Interval spans 92%-63% (wraps cycle boundary). Total coverage is 71%. Peak normalized amplitude is 0.45.
+- **BF:** Intervals span 42%-50%, 50%-58%, 60%-76%, and 82%-39% (wraps cycle boundary). Total coverage is 89%. Peak normalized amplitude is 0.55.
+- **ST:** Intervals span 42%-46%, 51%-55%, 58%-76%, and 88%-37% (wraps cycle boundary). Total coverage is 74%. Peak normalized amplitude is 0.56.
+- **TA:** Intervals span 12%-63% and 75%-6% (wraps cycle boundary). Total coverage is 82%. Peak normalized amplitude is 0.51.
+- **ERS:** The mean envelope remained above threshold continuously across the entire cycle (0%-100%), yielding 100% coverage and wrapping across the boundary. Peak normalized amplitude is 0.63.
+
+*Co-Contraction Indices (CCI)* represent whole-cycle overlap of these continuous normalized envelopes:
+- The TA vs GAS CCI is 0.67. This value falls outside (above) the supplied empirical 2.5th-97.5th percentile reference interval (0.24-0.59, median 0.39). Being outside this interval does not alone establish pathological co-activation, stiffness, impaired control, or a specific diagnosis.
+- The RF vs BF CCI is 0.72. This falls near the median (0.68) and within the supplied empirical reference interval (0.48-0.83). Being within this interval does not establish physiologically normal co-activation or normal muscle function.
+
+**3. Kinematic and Reference Comparisons**
+Comparisons are made against a pooled un-matched cohort of 138 healthy subjects. As noted, these differences incorporate the impact of the subject's markedly slow speed and do not independently establish clinical pathology.
+
+The composite kinematic deviation score (GPS-like) is 15.32, which is higher than the reference median (5.1) and 95th percentile (10.7). 
+Sagittal plane joint kinematics yield the following range of motion (ROM) and Gait Variable Scores (GVS). ROM alone does not establish a clinical restriction, and GVS represents summary magnitude differences from the reference without localizing waveform direction or timing:
+- **Ankle:** ROM 11.6 deg, GVS 16.27
+- **Knee:** ROM 54.3 deg, GVS 22.25
+- **Hip:** ROM 46.8 deg, GVS 11.32
+- **Pelvis:** ROM 11.4 deg, GVS 7.17
+
+The location of maximum |z| deviation specifies the point in the cycle with the largest standardized difference from the phase-specific reference mean, which is not necessarily the time of peak envelope amplitude or a specific functional event:
+- **GAS:** Max |z| of 10.7, above the reference mean at 68% of the cycle.
+- **ERS:** Max |z| of 7.7, above the reference mean at 78% of the cycle.
+- **RF:** Max |z| of 4.3, above the reference mean at 81% of the cycle.
+- **VL:** Max |z| of 4.2, above the reference mean at 34% of the cycle.
+- **ST:** Max |z| of 4.1, above the reference mean at 24% of the cycle.
+- **TA:** Max |z| of 4.1, above the reference mean at 37% of the cycle.
+- **BF:** Max |z| of 2.3, above the reference mean at 21% of the cycle.
+
+**4. Questions for Further Clinical Assessment**
+- Does the step length asymmetry (paretic step 46.3% shorter) clinically correlate with specific range of motion limitations, such as the 11.6 deg sagittal ankle ROM, or with balance and weight-shifting apprehension during slow walking?
+- Are the extensive above-threshold EMG coverages (all ≥71%, ERS continuously 100%) and boundary-wrapping behaviors representative of altered central motor control, compensatory strategies, or increased passive resistance/spasticity?
+- Is there clinically detectable stiffness or mechanical restriction at the ankle that corresponds to the elevated whole-cycle TA/GAS co-contraction index?
+- Can bedside examination elucidate whether the large sagittal knee deviations (GVS 22.25) are driven by muscle weakness, joint contracture, or distinct control strategies used to advance the limb at 0.25 m/s?

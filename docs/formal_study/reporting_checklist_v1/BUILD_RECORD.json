@@ -1,0 +1,36 @@
+{
+  "created_at_utc": "2026-09-25T06:29:28.657441+00:00",
+  "source_sha256": {
+    "docs/formal_study/manuscript_v1/MANUSCRIPT.md": "80d6e29172241f874168094cfaaa8fa4e5da6b3ef55d67cb533cbfd64c29fb24",
+    "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md": "971d4868609335bb974fc3aa4ecbe80e384606ee54392f3d9206083a970bc511",
+    "docs/formal_study/manuscript_v1/AUTHOR_CONFIRMATION.md": "c5eaf93f93ff49562f46f6c63289e18c725766d12fa467f7352d85b0021649b6",
+    "scripts/build_reporting_checklist.py": "20cb86f2d1a31538e9cbb623cf63cb42231c9f1fb44a7d60e8ad453fa258db3b",
+    "docs/formal_study/candidate_v3_1/APPROVAL_RECORD.json": "085bb60004b89dad7d6e46a5e41d43133328968ace39c5ce2296731871a0ca47",
+    "docs/formal_study/rubric_v2_draft/RUBRIC.md": "8ca337533cbf6868f5f5328061fd48550a5b1118fb1c145435fc1e6e71a338c1",
+    "docs/formal_study/rubric_v2_draft/EXAMPLES.md": "44951690858316f0c653803980037b5dd20213e554a4b510ce0cd35fedd1db69",
+    "docs/formal_study/case_requirements_v1/case_requirements.csv": "c836e6fae801ee15da142a989764f79223843a6509df27c26d7fb763fac27806",
+    "docs/formal_study/execution_analysis_v3_draft/PROTOCOL.md": "62a6c7baaa28aa0ac3321768b1875aa47e98349b69e18d1d20db1a879bfabeb6"
+  },
+  "counts": {
+    "Main": {
+      "Partial": 7,
+      "Reported": 21,
+      "Reported with limits": 7,
+      "Not applicable": 11,
+      "Awaiting author": 3
+    },
+    "Abstract": {
+      "Partial": 3,
+      "Reported": 7,
+      "Not applicable": 2
+    }
+  },
+  "guideline": "https://www.tripod-statement.org/wp-content/uploads/2025/01/TRIPOD-LLM-Article.pdf",
+  "complete_compliance_claimed": false,
+  "new_expert_approval": false,
+  "output_sha256": {
+    "TRIPOD_LLM_CHECKLIST.md": "776f18959b60ffec199303c4b3a429648a181a46217700fce2c7ba4610983ce3",
+    "TRIPOD_LLM_CHECKLIST.xlsx": "eb007b12cb159c7aa286c0bdd69afe3b90aadd5c1a9ee263dd56aa96edcd7ea0",
+    "CHECKLIST.json": "66a485e0ef112bc2e372fee9ee9a2af51b5cb690d95def98b272fd3cd3c676e2"
+  }
+}

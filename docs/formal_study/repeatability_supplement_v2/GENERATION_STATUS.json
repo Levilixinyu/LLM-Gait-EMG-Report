@@ -1,0 +1,43 @@
+{
+  "recorded_at_utc": "2026-09-25T17:47:56.117802+00:00",
+  "scope": "Two new responses for all 25 original stroke cases and three models",
+  "planned_reports": 150,
+  "terminal_slots": 150,
+  "captured_reports": 150,
+  "attempts_reserved": 150,
+  "dispatches_reserved": 150,
+  "retry_attempts": 0,
+  "reservation_consumed_usd": 85.2,
+  "reservation_is_invoice": false,
+  "states": {
+    "captured": 150
+  },
+  "paused_or_stopped": {},
+  "completed_by_wave": {
+    "1": 75,
+    "2": 75
+  },
+  "completed_by_provider": {
+    "anthropic": 50,
+    "gemini": 50,
+    "openai": 50
+  },
+  "returned_model_identifiers": {
+    "anthropic": [
+      "claude-opus-5"
+    ],
+    "gemini": [
+      "gemini-3.1-pro-preview"
+    ],
+    "openai": [
+      "gpt-6-astra"
+    ]
+  },
+  "token_limit_finishes": 0,
+  "normal_stream_completions": 149,
+  "incomplete_captures": 1,
+  "journal_head": "014bfab00ef8582b708a24cbfe6bcdf64d7bb09a0e77eb110e8ddf532256331e",
+  "execution_plan_sha256": "85f0279639fd814a3fe338ee0c4baf8f4e4ce80c70b940bf530e1021471fe620",
+  "original_reports_modified": false,
+  "clinical_quality_assessed": false
+}

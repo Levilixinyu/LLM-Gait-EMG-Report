@@ -1,0 +1,36 @@
+**1. Objective Findings**
+*   **Participant Profile:** Stroke group, paretic side.
+*   **Gait Speed:** 0.34 m/s (household ambulator speed band). 
+*   **Cadence:** 74.1 steps/min.
+*   **Step Length Symmetry Index:** 15.1% (successive-footfall definition). The positive value indicates the paretic-side step is longer than the non-paretic-side step.
+
+**2. EMG Envelope and Threshold Findings**
+*   **Gastrocnemius (GAS):** Detected above-threshold intervals are present at 0%-74%, 78%-82%, and 96%-100% of the gait cycle, representing 82% overall coverage. The peak normalized envelope amplitude is 0.49.
+*   **Rectus Femoris (RF):** The envelope remains above threshold for 96% of the cycle in a single interval spanning 59%-56%, wrapping continuously across the initial-contact boundary. The peak normalized amplitude is 0.46.
+*   **Vastus Lateralis (VL):** The above-threshold interval covers 69% of the cycle from 88%-54%, wrapping across the initial-contact boundary. The peak normalized amplitude is 0.62.
+*   **Biceps Femoris (BF), Semitendinosus (ST), and Erector Spinae (ERS):** Each of these muscles demonstrates 100% envelope coverage, remaining continuously above the defined detection threshold throughout the 0%-100% cycle, wrapping across the initial-contact boundary. Peak normalized amplitudes are 0.52 for BF, 0.60 for ST, and 0.48 for ERS.
+*   **Tibialis Anterior (TA):** Detected above-threshold intervals occur at 68%-87% and 90%-54%, with the latter wrapping across the initial-contact boundary (83% total cycle coverage). The peak normalized amplitude is 0.50.
+*   **Co-Contraction Indices (CCI):** The TA vs. GAS whole-cycle continuous envelope overlap index is 0.59, which matches the upper boundary of the supplied healthy cohort median interval (median 0.39; 2.5th-97.5th percentile 0.24-0.59). The RF vs. BF CCI is 0.76, which falls within the supplied reference interval (median 0.68; 2.5th-97.5th percentile 0.48-0.83). Being within or at the limits of this empirical interval does not independently establish normal or pathological muscle function.
+
+**3. Kinematic and Reference Comparisons**
+*   *Reference Comparability Limitation:* The pooled healthy reference cohort walked at self-selected speeds between 0.80 m/s and 1.79 m/s. Because this participant’s gait speed (0.34 m/s) falls below this support limit, an appropriate speed-matched reference does not exist in this dataset. Observed deviations from the reference conflate the effects of slow walking with stroke-specific control alterations, and comparing to this cohort cannot independently isolate disease effects or establish a clinical diagnosis.
+*   **Composite Kinematic Deviation:** The sagittal composite GPS-like score is 20.60. For context, the reference median is 5.1 with a 95th percentile of 10.7.
+*   **Sagittal Joint Kinematics:** 
+    *   Hip: Range of motion is 38.1°, with a Gait Variable Score (GVS) of 29.35.
+    *   Knee: Range of motion is 48.3°, with a GVS of 22.59.
+    *   Ankle: Range of motion is 17.1°, with a GVS of 13.13.
+    *   Pelvis: Range of motion is 2.9°, with a GVS of 12.36.
+*   **EMG Maximum |z| Deviations:** The following values represent the largest standardized deviations from the healthy phase-specific mean:
+    *   GAS: max |z| = 16.8 (envelope is above the reference mean at 57% of the cycle).
+    *   VL: max |z| = 5.4 (above the reference mean at 28% of the cycle).
+    *   TA: max |z| = 5.1 (above the reference mean at 36% of the cycle).
+    *   BF: max |z| = 3.9 (above the reference mean at 68% of the cycle).
+    *   ST: max |z| = 3.9 (above the reference mean at 57% of the cycle).
+    *   ERS: max |z| = 3.9 (above the reference mean at 65% of the cycle).
+    *   RF: max |z| = 3.2 (above the reference mean at 38% of the cycle).
+
+**4. Questions for Further Clinical Assessment**
+*   Are there observable clinical correlates to the continuous, 100% above-threshold envelope durations seen in the hamstring (BF, ST) and ERS mean curves?
+*   How do the extensive sagittal kinematic deviations at the hip and knee (GVS 29.35 and 22.59, respectively) present during dynamic clinical observation?
+*   Does the measured step length asymmetry (paretic step longer than the non-paretic step) align with compensatory trunk or limb strategies utilized by the patient?
+*   To what degree are the noted kinematic patterns and prolonged EMG envelope intervals functionally linked to the biomechanics of navigating at a severely reduced gait speed (0.34 m/s)?

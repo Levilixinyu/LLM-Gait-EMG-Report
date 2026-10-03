@@ -1,0 +1,49 @@
+**1. Objective Findings**
+- **Participant:** Sub29_P (Group: Stroke, Evaluated side: Paretic)
+- **Gait Speed:** 0.57 m/s (categorized within the limited community ambulator band of 0.4-0.8 m/s). 
+- **Cadence:** 102.0 steps/min
+- **Step Length Symmetry Index:** 13.7% (calculated using the successive-footfall definition; a positive value indicates the paretic step is not shorter than the non-paretic step by this metric).
+- **Missing/Unavailable Channels:** No missing sagittal kinematic or EMG channels are noted among the evaluated variables. Coronal and transverse plane data, as well as individual toe-off timings, are not supplied.
+
+**2. EMG Envelope and Threshold Findings**
+Detected above-threshold intervals represent portions of the participant’s averaged and normalized EMG envelope that exceeded 20% of the muscle's own peak for at least 3% of the cycle. Cycle percentages run from initial contact (0%) to the next initial contact (100%).
+- **GAS:** The envelope was above threshold for 65% of the cycle. The interval was 94%-58%, remaining above threshold across the initial contact boundary. Peak normalized amplitude was 0.55.
+- **RF:** The envelope was above threshold for 95% of the cycle. The interval was 80%-75%, remaining above threshold across the initial contact boundary. Peak normalized amplitude was 0.57.
+- **VL:** The envelope was above threshold for 70% of the cycle. The interval was 82%-52%, remaining above threshold across the initial contact boundary. Peak normalized amplitude was 0.63.
+- **BF:** The envelope was above threshold for 63% of the cycle. The interval was 85%-48%, remaining above threshold across the initial contact boundary. Peak normalized amplitude was 0.54.
+- **ST:** The envelope was above threshold for 74% of the cycle. The interval was 82%-56%, remaining above threshold across the initial contact boundary. Peak normalized amplitude was 0.54.
+- **TA:** The envelope was above threshold for 90% of the cycle. The interval was 56%-46%, remaining above threshold across the initial contact boundary. Peak normalized amplitude was 0.48.
+- **ERS:** The envelope was above threshold for 100% of the cycle (0%-100%). Peak normalized amplitude was 0.41.
+
+*Co-Contraction Indices (CCI):*
+CCI is computed as a whole-cycle overlap index of the continuous normalized EMG envelopes.
+- **TA vs GAS:** CCI = 0.54. This value is higher than the empirical healthy-cohort median (0.39) but falls within the supplied 2.5th-97.5th percentile reference interval (0.24-0.59).
+- **RF vs BF:** CCI = 0.73. This value is higher than the empirical healthy-cohort median (0.68) and falls within the supplied 2.5th-97.5th percentile reference interval (0.48-0.83). 
+Being inside this statistical interval does not independently establish physiological normalcy, just as being outside would not establish pathology.
+
+**3. Kinematic and Reference Comparisons**
+*Sagittal Plane Joint Kinematics:*
+- **Ankle Angles:** Range of motion 17.1°; Gait Variable Score (GVS) 8.94
+- **Knee Angles:** Range of motion 34.7°; GVS 12.84
+- **Hip Angles:** Range of motion 27.2°; GVS 7.74
+- **Pelvis Angles:** Range of motion 1.3°; GVS 4.43
+- **Composite Kinematic Score (GPS-like):** 9.00. This summary difference is higher than the healthy reference median (5.1) and lower than the 95th percentile (10.7).
+
+*EMG Maximum |z| Deviations:*
+The maximum |z| score indicates the largest standardized difference between the participant's averaged envelope and the phase-specific healthy reference mean, evaluated across 1001 points. It does not necessarily occur at the time of peak envelope amplitude. 
+- **GAS:** 3.5 (above reference mean, at 1% of the cycle)
+- **RF:** 4.1 (above reference mean, at 87% of the cycle)
+- **VL:** 3.3 (above reference mean, at 31% of the cycle)
+- **BF:** 5.1 (above reference mean, at 34% of the cycle)
+- **ST:** 3.2 (above reference mean, at 27% of the cycle)
+- **TA:** 3.9 (above reference mean, at 31% of the cycle)
+- **ERS:** 2.5 (below reference mean, at 2% of the cycle)
+
+*Reference Comparison Limits:* 
+Comparisons are made against a pooled healthy cohort (n=138) that is not matched for age or walking speed. The participant's gait speed (0.57 m/s) is strictly below the healthy cohort's slowest speed (0.80 m/s). Consequently, no speed-matched reference exists for this participant in this dataset. Any observed kinematic or EMG deviations conflate the effects of slow walking with stroke-specific alterations. Thus, these deviations cannot independently establish a disease effect, abnormal control mechanism, or clinical diagnosis. Additionally, max |z| is an extreme-value statistic; healthy individuals routinely exceed |z| = 2 under this methodology.
+
+**4. Questions for Further Clinical Assessment**
+- Does clinical goniometry demonstrate passive restrictions in sagittal knee, hip, or ankle range of motion that correspond to the in-gait ROM findings?
+- Are there clinically observable signs of spasticity or altered motor control that might contextualize the extended threshold durations and cycle boundary crossings observed in the averaged EMG envelopes?
+- Does the patient's step length symmetry index reflect compensatory kinematic strategies, and does it align with step parameters during overground walking assessments?
+- Are there deficits in strength or balance that account for the patient's self-selected gait speed (0.57 m/s), and is the patient currently utilizing an assistive device?

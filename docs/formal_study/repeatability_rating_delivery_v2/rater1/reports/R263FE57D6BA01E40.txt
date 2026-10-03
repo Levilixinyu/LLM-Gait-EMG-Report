@@ -1,0 +1,74 @@
+## 1. Objective Findings
+
+- **Participant:** Sub28_P, stroke group; findings concern the **paretic side**. Right/left laterality is not supplied.
+- **Walking speed:** 0.21 m/s, within the supplied “household ambulator” speed band (<0.4 m/s). This label does not establish walking independence, safety, or real-world mobility.
+- **Cadence:** 46.8 steps/min.
+- **Step-length symmetry index:** −62.4%, using the **successive-footfall** definition, indicating a shorter paretic-side step.
+- Available measurements include seven muscle mean EMG envelopes and sagittal ankle, knee, hip, and pelvis kinematics. Coronal/transverse measurements are not included. Non-paretic EMG and joint curves, individual toe-off, stride-level variability, raw-signal quality checks, and expert plots are not supplied here.
+
+## 2. EMG Envelope and Threshold Findings
+
+The released envelopes were normalized using a participant-, side-, and muscle-specific maximum shared across available strides before averaging, without further amplitude normalization here. Their amplitudes are relative envelope values—not strength, force, or absolute neural activation.
+
+The following are **reported mean-envelope findings**, using a threshold of 20% of each curve’s own peak and a minimum retained interval of 3% of the cycle:
+
+| Muscle | Retained intervals (% of analysis cycle) | Reported coverage | Peak normalized amplitude |
+|---|---|---:|---:|
+| GAS | 22%–53%; 56%–60%; 74%–89%; 97%–20% (wrap) | 73% | 0.57 |
+| RF | 14%–17%; 28%–80%; 86%–3% (wrap) | 78% | 0.45 |
+| VL | 93%–80% (wrap) | 87% | 0.60 |
+| BF | 40%–64%; 76%–83%; 92%–15% (wrap) | 55% | 0.60 |
+| ST | 77%–88%; 90%–62% (wrap) | 82% | 0.53 |
+| TA | 32%–36%; 42%–47%; 50%–53%; 60%–64%; 69%–75%; 75%–78%; 87%–97%; 100%–3% (wrap) | 52% | 0.53 |
+| ERS | 0%–100% | 100% | 0.49 |
+
+All seven mean envelopes are explicitly reported as remaining above threshold across the cycle boundary. The analysis window extends from paretic initial contact at 0% to the next initial contact at 100%. ERS additionally has an explicitly supplied full-window interval, supporting above-threshold coverage throughout the analyzed mean envelope, rather than relying on rounded coverage alone.
+
+These intervals do not establish physiological onset, offset, continuous contraction, or inactivity elsewhere, and need not occur identically in every stride. Intermediate gait events and matched muscle-specific timing references are unavailable; therefore, intervals cannot be assigned gait phases or characterized as early, delayed, or prolonged.
+
+**Whole-cycle co-contraction indices**
+
+- **TA–GAS: 0.62**, above the supplied empirical interval of 0.24–0.59 and median of 0.39.
+- **RF–BF: 0.68**, equal to the supplied median of 0.68 and within the empirical interval of 0.48–0.83.
+
+These Falconer–Winter CCI values quantify whole-cycle overlap of continuous normalized envelopes, including subthreshold contributions. They are not simultaneous activation times, force estimates, or phase-specific findings. Their interpretation depends on the normalization and envelope methods; neither result establishes physiological normality, pathological co-activation, stiffness, or impaired control.
+
+## 3. Kinematic and Reference Comparisons
+
+The stated deviation reference comprises **138 pooled healthy participants**, evaluated at 1001 cycle points, from `main_cohort_excel`. Comparability is limited: the participant’s speed of 0.21 m/s is below the healthy cohort’s 0.80–1.79 m/s range, so no speed-matched healthy reference exists in this dataset. Consequently, reference differences cannot separate slow-walking effects from stroke-related effects or independently establish a disease effect or clinical diagnosis. The supplied pooled calibration percentiles are not matched leave-one-out normal limits.
+
+### Sagittal kinematics
+
+| Channel | ROM | Gait Variable Score |
+|---|---:|---:|
+| Ankle | 23.4° | 15.87 |
+| Knee | 35.6° | 21.84 |
+| Hip | 32.3° | 17.66 |
+| Pelvis | 7.9° | 5.00 |
+
+The **GPS-like composite is 16.32**, above the supplied reference median of 5.1 and pooled 95th percentile of 10.7. This is the sagittal-channel RMS composite, not the validated nine-variable GPS.
+
+The knee has the largest supplied GVS and the pelvis the smallest. These scores summarize waveform differences from the reference; they do not identify the direction or cycle location of those differences. ROM values alone do not establish clinical restriction without an appropriate comparison.
+
+### EMG standardized differences
+
+| Muscle | Maximum \|z\| | Direction relative to reference mean at that location | Cycle location |
+|---|---:|---|---:|
+| GAS | 21.7 | Above | 81% |
+| RF | 4.1 | Below | 6% |
+| VL | 6.4 | Above | 51% |
+| BF | 2.6 | Above | 50% |
+| ST | 6.4 | Above | 46% |
+| TA | 3.9 | Below | 99% |
+| ERS | 3.5 | Above | 88% |
+
+These locations mark the **largest standardized differences**, not necessarily peak envelope amplitudes or gait events. “Above” and “below” refer to the phase-specific reference mean, not a healthy percentile limit.
+
+GAS has the largest reported maximum |z|. TA’s 3.9 and ERS’s 3.5 are below their supplied pooled per-muscle 95th-percentile values of 4.61 and 3.65, respectively; exact percentiles for the other muscles are not supplied. These are across-cycle extreme-value statistics, so a conventional |z| > 2 rule is inappropriate and does not establish abnormality.
+
+## 4. Questions for Further Clinical Assessment
+
+- How do observed walking independence, safety, and mobility demands relate to the measured speed and step-length asymmetry?
+- Would subject-specific gait-event measurements and suitable muscle-specific timing references clarify the relationship between the retained envelope intervals and walking events?
+- Do stride-resolved data and signal-quality review support the reported patterns, particularly the GAS reference difference and ERS full-window threshold coverage, or could recording, averaging, or normalization factors contribute?
+- Are examination findings consistent with the sagittal waveform differences, and what additional comparisons would help distinguish speed-related, participant-specific, and measurement-related contributions?

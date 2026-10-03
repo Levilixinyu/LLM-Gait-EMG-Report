@@ -1,0 +1,59 @@
+## 1. Objective Findings
+
+**Sub36_P belongs to the stroke group; the reported side is paretic.** An anatomical left/right designation is not supplied.
+
+- **Gait speed:** 0.23 m/s, within the supplied “household ambulator” speed band (<0.4 m/s). This label does not establish walking independence, safety, or real-world mobility.
+- **Cadence:** 64.9 steps/min.
+- **Step-length symmetry index:** −35.9%, using the **successive-footfall** definition. The negative direction indicates a shorter paretic-side step.
+- **GPS-like composite:** 14.68, summarizing differences across the supplied sagittal kinematic channels.
+
+Seven muscle-envelope summaries and sagittal ankle, knee, hip, and pelvis measurements are available. Contralateral measurements, coronal/transverse kinematics, individual toe-off, matched muscle-specific timing references, stride-level data, and raw-signal quality checks are not supplied here.
+
+## 2. EMG Envelope and Threshold Findings
+
+These are **ensemble-averaged envelopes**, normalized using a shared maximum across available strides within each participant, side, and muscle—not independent peak normalization of each stride or a denominator shared between sides. Peak values are relative envelope amplitudes, not strength, force, or absolute neural activation.
+
+Retained intervals exceed **20% of each mean curve’s own peak**, with a minimum duration criterion of **3% of the cycle by sample count**.
+
+| Muscle | Retained intervals (% of analysis cycle) | Reported coverage | Peak normalized amplitude | Maximum \|z\|: direction relative to reference mean and location |
+|---|---|---:|---:|---|
+| GAS | 40%–49%; 54%–97%; 99%–34% (wrap) | 88% | 0.62 | 18.9, above at 78% |
+| RF | 72%–91%; 95%–65% (wrap) | 88% | 0.67 | 3.5, above at 28% |
+| VL | 96%–58% (wrap) | 61% | 0.57 | 3.0, below at 94% |
+| BF | 86%–22% (wrap) | 36% | 0.53 | 2.3, above at 8% |
+| ST | 55%–72%; 85%–33% (wrap) | 66% | 0.48 | 3.8, above at 61% |
+| TA | 18%–26%; 47%–52%; 80%–97%; 98%–10% (wrap) | 49% | 0.64 | 5.0, above at 87% |
+| ERS | 60%–100% | 40% | 0.53 | 6.3, above at 82% |
+
+GAS and RF have the greatest reported threshold coverage, both 88%. Above-threshold continuity across the **initial-contact cycle boundary** is explicitly reported for GAS, RF, VL, BF, ST, and TA. The ERS interval reaches the 100% initial-contact endpoint; continuity across the boundary is not established for ERS.
+
+These findings describe threshold behavior of the mean envelopes—not physiological onset, offset, continuous contraction, or inactivity elsewhere. They do not establish the same pattern in every stride. Without intermediate events and matched timing references, the intervals cannot be assigned gait-phase functions or characterized as early, delayed, or prolonged.
+
+**Whole-cycle CCI:**
+
+- **TA–GAS: 0.58**, within the supplied empirical interval of 0.24–0.59, near its upper endpoint and above the median of 0.39.
+- **RF–BF: 0.51**, within 0.48–0.83, near its lower endpoint and below the median of 0.68.
+
+CCI measures whole-cycle overlap of the full normalized envelopes, including sub-threshold contributions. It is not simultaneous activation time, force, or a phase-specific result. These interval comparisons do not establish physiologically normal co-activation or muscle function; values depend on the normalization and envelope methods used.
+
+## 3. Kinematic and Reference Comparisons
+
+The deviation reference actually used comprised **138 pooled healthy subjects**, evaluated over 1001 cycle points. Comparability is limited: it is not an individually matched reference, and the participant’s speed of **0.23 m/s** is below the healthy cohort’s **0.80–1.79 m/s** range. No speed-matched healthy reference exists in this dataset at this speed. Consequently, these comparisons cannot separate slow-walking effects from stroke-specific differences, establish a disease effect, or support a clinical diagnosis. Pooled calibration percentiles are not matched leave-one-out normal limits.
+
+| Sagittal channel | ROM | Gait Variable Score |
+|---|---:|---:|
+| Ankle | 17.9° | 16.68 |
+| Knee | 50.8° | 21.86 |
+| Hip | 44.8° | 8.79 |
+| Pelvis | 15.4° | 5.35 |
+
+The knee has the largest supplied GVS, followed by the ankle, hip, and pelvis. The **GPS-like score of 14.68** exceeds the supplied pooled median of **5.1** and 95th percentile of **10.7**. This is an RMS summary over the available sagittal channels, not the validated nine-variable GPS. Neither GVS nor GPS-like identifies the direction or cycle location of waveform differences. ROM values alone do not establish clinical restriction.
+
+For EMG, maximum |z| identifies the **largest standardized difference from the phase-specific reference mean**, not necessarily peak envelope amplitude or a gait event. GAS has the largest reported value, **18.9 at 78%**, above that reference mean. TA **5.0** and ERS **6.3** exceed their supplied pooled healthy 95th-percentile values of **4.61** and **3.65**, respectively. Corresponding muscle-specific percentile values are not supplied for the other muscles. These are extreme-value statistics across 1001 points; the conventional |z| > 2 rule is not an appropriate abnormality criterion.
+
+## 4. Questions for Further Clinical Assessment
+
+- What do the underlying joint waveforms and individually measured gait events show about the direction and location of the knee and ankle reference differences?
+- Are passive mobility, strength, selective motor control, sensation, or balance limitations present on examination that could help contextualize these measurements?
+- Are the envelope findings reproducible across individual strides, and do raw-signal review, electrode placement, signal quality, and normalization checks support their interpretation—particularly the GAS reference difference?
+- What do bilateral step measurements, assistive-device use if any, and direct assessment of walking safety and independence add to the low speed and paretic-shorter step-length finding?

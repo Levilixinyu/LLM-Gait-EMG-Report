@@ -1,0 +1,756 @@
+{
+  "order": [
+    "RB881E34A0E575406",
+    "R722F6777D1D184EC",
+    "RADB02909D248E217",
+    "R4CE63394408E303B",
+    "R230F8A96BF276FA3",
+    "R87A39ADECB82D884",
+    "R1661E3DCC8EAC133",
+    "R64A6DF07EE0E827C",
+    "R64DAC9B0B72AF982",
+    "RDBA96361A5B00FB1",
+    "R4CF525ACCEA4C891",
+    "RAB559E9D3049B448",
+    "R3FE015208C8C3C6C",
+    "R85743D70A822F622",
+    "R84F75A08A48B354C",
+    "R30EFCF9DDFCA7E02",
+    "R8ACEB9C301CCF79C",
+    "R8691FDFEFF9A2C98",
+    "RC7CA9743164F4DE7",
+    "R6A1A114D9C3296B3",
+    "RBC4D6D9F587860E9",
+    "R7ED5468F98D46061",
+    "RF31D7EFF8F4A1ED0",
+    "REF7434C6F8D912CE",
+    "R6D62C634819D3393",
+    "R3C71B1274CB8AE6A",
+    "R59BBDD414F39F5B6",
+    "R6D24F4E63930F446",
+    "RED4F6DCACA67D4E9",
+    "R6EA864A908B87738",
+    "R263FE57D6BA01E40",
+    "REDB48DCD8AFDBD4E",
+    "R558725362ACBA9A0",
+    "R99D33187D4BD21D7",
+    "RC9BDBA897003443E",
+    "R2F962F8526A5CEF2",
+    "RD8C2D30E6A5FFE47",
+    "R2E7E580761426A71",
+    "R2B686A8878EF980A",
+    "R12C4F2357E36DDF8",
+    "R94E05D85A21BD0DF",
+    "REC4E272DF9AEFD04",
+    "R8FDC53F5F29B9833",
+    "R1315FBB0C4459281",
+    "R41BC57207B7E1EC6",
+    "R5AB548600D8A18AB",
+    "R4BA30C01E6A53B67",
+    "RBF16B5D62D2E002F",
+    "R13CCF51FA2B41B30",
+    "RDC7B691555B67A4F",
+    "R74FD0DD6EF087EEB",
+    "R6150CE48197A8ED7",
+    "R101AF92A228E578A",
+    "RE4D13D822157999C",
+    "R64BAFD23A841188A",
+    "REE0797536D7382E0",
+    "REA320E5F5457930E",
+    "R30D7DB9191662FE2",
+    "RD74063D1D77DE6BB",
+    "R7A3A091004A150C4",
+    "R5E325ED291E84E45",
+    "R69FE85E74CC1CD70",
+    "R5EED4063F6D81881",
+    "R996138AF1B212E33",
+    "RAB340137ED6292F8",
+    "RD82E04C2FA35F771",
+    "R51CB06D690C617E4",
+    "RD6BCA9A4CA009F1E",
+    "R65BB4660667FEB36",
+    "RA2B510CF8C535F21",
+    "RCAA2C595400C1CE1",
+    "R6FC79C95D2F7B67B",
+    "R635703063B8679B7",
+    "R217ADF814F533E54",
+    "R64DC82FBE0213B0D",
+    "RE13389B15569126D",
+    "RBB44A537127CF6BD",
+    "RD97BE42B28B075FA",
+    "R424EFE57055353BD",
+    "R6858FE0A8BDEC453",
+    "R8ED41C5A87BDC35E",
+    "R440B039FEBD0C4E8",
+    "R5D6E2B5C0BD7D528",
+    "RCE1C7A987393DB28",
+    "R732CAB657624F711",
+    "R623BADC7F3DD0A28",
+    "RAFBB8122385CEEF8",
+    "RCBDEF2BFDB982CB9",
+    "R458B82DC4F130F75",
+    "READD0B4DB3491299",
+    "R5A6E93C0D7E36C38",
+    "RF1C7F7559C46BE81",
+    "R552CB55884A29C06",
+    "R741C4A19CD857105",
+    "RDC8636FCD2F1C6DB",
+    "RDDB26594B60B50E1",
+    "R854A297B8BB3D3A2",
+    "R2C5192695DBFEF3B",
+    "RB7EAF7A0758E924B",
+    "R8105DD72DAC06437",
+    "RA45D12FC76C1D11A",
+    "R05B1432CCB792DE5",
+    "R6280B9AEEEFCB3BD",
+    "R582FD3DE096226BD",
+    "R12270551B28B4A4A",
+    "RF7FD44765768E0AE",
+    "R002F65DD56F08612",
+    "RED639269025AA70C",
+    "R1724E8BB4ED2066C",
+    "R1FB71A2CE3F1109F",
+    "RD3BF5A1334C3631D",
+    "R70FC477E0B1A8030",
+    "R0C24E3AC588D7FAF",
+    "R62E563A0A7D3C2E4",
+    "R4EA237BBD16A0062",
+    "R605317CACEDA814B",
+    "R0F9DD46F1170C503",
+    "RDDF586E66DFF35F4",
+    "R2BDED0DA84CD2F11",
+    "R99F51AC09DCB2FF9",
+    "RCFE7BCB8E723FCF7",
+    "R9D0F0B7F4BDC7143",
+    "R5946FCA031926581",
+    "RD99E59DD7080867A",
+    "RB989C02800D1EBAB",
+    "RE325F415746CCBC8",
+    "R6C2836D55AAD3CC0",
+    "R4191B24EFE49F6D9",
+    "RA65315C4FA7EB8C6",
+    "R7B42015DAE198A6D",
+    "R6828B3B9C4B17057",
+    "R040E8C59F09034E2",
+    "RE7D1E3B2AE4C5981",
+    "RE9056CDCC3DABA40",
+    "R7CCF91975D851924",
+    "R46039F2CA47A4614",
+    "RBD36DB4973A111EE",
+    "R379F2107C5C6A4E9",
+    "RD1019AB545401771",
+    "R659689652E92742E",
+    "R27A22429D70275AB",
+    "R055CC867E2E5D57C",
+    "R7E7074DE8D4BEEE8",
+    "R55C1F4FFCD760CAD",
+    "RAC3EEA75680DB02F",
+    "R0277042B720E8A45",
+    "R3A11AE3A8F708B26",
+    "R61EF4E8D3B28A012",
+    "R76007ED2F26FEFB1",
+    "R0FE1F017C5D4FCFC"
+  ],
+  "reports": {
+    "R002F65DD56F08612": {
+      "case_id": "stroke_Sub24_P",
+      "material_status": "Available"
+    },
+    "R0277042B720E8A45": {
+      "case_id": "stroke_Sub16_P",
+      "material_status": "Available"
+    },
+    "R040E8C59F09034E2": {
+      "case_id": "stroke_Sub29_P",
+      "material_status": "Available"
+    },
+    "R055CC867E2E5D57C": {
+      "case_id": "stroke_Sub25_P",
+      "material_status": "Available"
+    },
+    "R05B1432CCB792DE5": {
+      "case_id": "stroke_Sub13_P",
+      "material_status": "Available"
+    },
+    "R0C24E3AC588D7FAF": {
+      "case_id": "stroke_Sub02_P",
+      "material_status": "Available"
+    },
+    "R0F9DD46F1170C503": {
+      "case_id": "stroke_Sub26_P",
+      "material_status": "Available"
+    },
+    "R0FE1F017C5D4FCFC": {
+      "case_id": "stroke_Sub38_P",
+      "material_status": "Available"
+    },
+    "R101AF92A228E578A": {
+      "case_id": "stroke_Sub49_P",
+      "material_status": "Available"
+    },
+    "R12270551B28B4A4A": {
+      "case_id": "stroke_Sub34_P",
+      "material_status": "Available"
+    },
+    "R12C4F2357E36DDF8": {
+      "case_id": "stroke_Sub13_P",
+      "material_status": "Available"
+    },
+    "R1315FBB0C4459281": {
+      "case_id": "stroke_Sub35_P",
+      "material_status": "Available"
+    },
+    "R13CCF51FA2B41B30": {
+      "case_id": "stroke_Sub30_P",
+      "material_status": "Available"
+    },
+    "R1661E3DCC8EAC133": {
+      "case_id": "stroke_Sub19_P",
+      "material_status": "Available"
+    },
+    "R1724E8BB4ED2066C": {
+      "case_id": "stroke_Sub29_P",
+      "material_status": "Available"
+    },
+    "R1FB71A2CE3F1109F": {
+      "case_id": "stroke_Sub30_P",
+      "material_status": "Available"
+    },
+    "R217ADF814F533E54": {
+      "case_id": "stroke_Sub07_P",
+      "material_status": "Available"
+    },
+    "R230F8A96BF276FA3": {
+      "case_id": "stroke_Sub15_P",
+      "material_status": "Available"
+    },
+    "R263FE57D6BA01E40": {
+      "case_id": "stroke_Sub28_P",
+      "material_status": "Available"
+    },
+    "R27A22429D70275AB": {
+      "case_id": "stroke_Sub07_P",
+      "material_status": "Available"
+    },
+    "R2B686A8878EF980A": {
+      "case_id": "stroke_Sub33_P",
+      "material_status": "Available"
+    },
+    "R2BDED0DA84CD2F11": {
+      "case_id": "stroke_Sub10_P",
+      "material_status": "Available"
+    },
+    "R2C5192695DBFEF3B": {
+      "case_id": "stroke_Sub02_P",
+      "material_status": "Available"
+    },
+    "R2E7E580761426A71": {
+      "case_id": "stroke_Sub15_P",
+      "material_status": "Available"
+    },
+    "R2F962F8526A5CEF2": {
+      "case_id": "stroke_Sub22_P",
+      "material_status": "Available"
+    },
+    "R30D7DB9191662FE2": {
+      "case_id": "stroke_Sub01_P",
+      "material_status": "Available"
+    },
+    "R30EFCF9DDFCA7E02": {
+      "case_id": "stroke_Sub33_P",
+      "material_status": "Available"
+    },
+    "R379F2107C5C6A4E9": {
+      "case_id": "stroke_Sub15_P",
+      "material_status": "Available"
+    },
+    "R3A11AE3A8F708B26": {
+      "case_id": "stroke_Sub40_P",
+      "material_status": "Available"
+    },
+    "R3C71B1274CB8AE6A": {
+      "case_id": "stroke_Sub38_P",
+      "material_status": "Available"
+    },
+    "R3FE015208C8C3C6C": {
+      "case_id": "stroke_Sub07_P",
+      "material_status": "Available"
+    },
+    "R4191B24EFE49F6D9": {
+      "case_id": "stroke_Sub35_P",
+      "material_status": "Available"
+    },
+    "R41BC57207B7E1EC6": {
+      "case_id": "stroke_Sub24_P",
+      "material_status": "Available"
+    },
+    "R424EFE57055353BD": {
+      "case_id": "stroke_Sub19_P",
+      "material_status": "Available"
+    },
+    "R440B039FEBD0C4E8": {
+      "case_id": "stroke_Sub29_P",
+      "material_status": "Available"
+    },
+    "R458B82DC4F130F75": {
+      "case_id": "stroke_Sub35_P",
+      "material_status": "Available"
+    },
+    "R46039F2CA47A4614": {
+      "case_id": "stroke_Sub01_P",
+      "material_status": "Available"
+    },
+    "R4BA30C01E6A53B67": {
+      "case_id": "stroke_Sub01_P",
+      "material_status": "Available"
+    },
+    "R4CE63394408E303B": {
+      "case_id": "stroke_Sub13_P",
+      "material_status": "Available"
+    },
+    "R4CF525ACCEA4C891": {
+      "case_id": "stroke_Sub34_P",
+      "material_status": "Available"
+    },
+    "R4EA237BBD16A0062": {
+      "case_id": "stroke_Sub40_P",
+      "material_status": "Available"
+    },
+    "R51CB06D690C617E4": {
+      "case_id": "stroke_Sub25_P",
+      "material_status": "Available"
+    },
+    "R552CB55884A29C06": {
+      "case_id": "stroke_Sub30_P",
+      "material_status": "Available"
+    },
+    "R558725362ACBA9A0": {
+      "case_id": "stroke_Sub49_P",
+      "material_status": "Available"
+    },
+    "R55C1F4FFCD760CAD": {
+      "case_id": "stroke_Sub13_P",
+      "material_status": "Available"
+    },
+    "R582FD3DE096226BD": {
+      "case_id": "stroke_Sub25_P",
+      "material_status": "Available"
+    },
+    "R5946FCA031926581": {
+      "case_id": "stroke_Sub21_P",
+      "material_status": "Available"
+    },
+    "R59BBDD414F39F5B6": {
+      "case_id": "stroke_Sub07_P",
+      "material_status": "Available"
+    },
+    "R5A6E93C0D7E36C38": {
+      "case_id": "stroke_Sub13_P",
+      "material_status": "Available"
+    },
+    "R5AB548600D8A18AB": {
+      "case_id": "stroke_Sub27_P",
+      "material_status": "Available"
+    },
+    "R5D6E2B5C0BD7D528": {
+      "case_id": "stroke_Sub10_P",
+      "material_status": "Available"
+    },
+    "R5E325ED291E84E45": {
+      "case_id": "stroke_Sub28_P",
+      "material_status": "Available"
+    },
+    "R5EED4063F6D81881": {
+      "case_id": "stroke_Sub30_P",
+      "material_status": "Available"
+    },
+    "R605317CACEDA814B": {
+      "case_id": "stroke_Sub28_P",
+      "material_status": "Available"
+    },
+    "R6150CE48197A8ED7": {
+      "case_id": "stroke_Sub38_P",
+      "material_status": "Available"
+    },
+    "R61EF4E8D3B28A012": {
+      "case_id": "stroke_Sub19_P",
+      "material_status": "Available"
+    },
+    "R623BADC7F3DD0A28": {
+      "case_id": "stroke_Sub40_P",
+      "material_status": "Available"
+    },
+    "R6280B9AEEEFCB3BD": {
+      "case_id": "stroke_Sub38_P",
+      "material_status": "Available"
+    },
+    "R62E563A0A7D3C2E4": {
+      "case_id": "stroke_Sub19_P",
+      "material_status": "Available"
+    },
+    "R635703063B8679B7": {
+      "case_id": "stroke_Sub15_P",
+      "material_status": "Available"
+    },
+    "R64A6DF07EE0E827C": {
+      "case_id": "stroke_Sub27_P",
+      "material_status": "Available"
+    },
+    "R64BAFD23A841188A": {
+      "case_id": "stroke_Sub33_P",
+      "material_status": "Available"
+    },
+    "R64DAC9B0B72AF982": {
+      "case_id": "stroke_Sub25_P",
+      "material_status": "Available"
+    },
+    "R64DC82FBE0213B0D": {
+      "case_id": "stroke_Sub40_P",
+      "material_status": "Available"
+    },
+    "R659689652E92742E": {
+      "case_id": "stroke_Sub30_P",
+      "material_status": "Available"
+    },
+    "R65BB4660667FEB36": {
+      "case_id": "stroke_Sub10_P",
+      "material_status": "Available"
+    },
+    "R6828B3B9C4B17057": {
+      "case_id": "stroke_Sub10_P",
+      "material_status": "Available"
+    },
+    "R6858FE0A8BDEC453": {
+      "case_id": "stroke_Sub24_P",
+      "material_status": "Available"
+    },
+    "R69FE85E74CC1CD70": {
+      "case_id": "stroke_Sub02_P",
+      "material_status": "Available"
+    },
+    "R6A1A114D9C3296B3": {
+      "case_id": "stroke_Sub30_P",
+      "material_status": "Available"
+    },
+    "R6C2836D55AAD3CC0": {
+      "case_id": "stroke_Sub27_P",
+      "material_status": "Available"
+    },
+    "R6D24F4E63930F446": {
+      "case_id": "stroke_Sub21_P",
+      "material_status": "Available"
+    },
+    "R6D62C634819D3393": {
+      "case_id": "stroke_Sub35_P",
+      "material_status": "Available"
+    },
+    "R6EA864A908B87738": {
+      "case_id": "stroke_Sub40_P",
+      "material_status": "Available"
+    },
+    "R6FC79C95D2F7B67B": {
+      "case_id": "stroke_Sub29_P",
+      "material_status": "Available"
+    },
+    "R70FC477E0B1A8030": {
+      "case_id": "stroke_Sub33_P",
+      "material_status": "Available"
+    },
+    "R722F6777D1D184EC": {
+      "case_id": "stroke_Sub10_P",
+      "material_status": "Available"
+    },
+    "R732CAB657624F711": {
+      "case_id": "stroke_Sub25_P",
+      "material_status": "Available"
+    },
+    "R741C4A19CD857105": {
+      "case_id": "stroke_Sub16_P",
+      "material_status": "Available"
+    },
+    "R74FD0DD6EF087EEB": {
+      "case_id": "stroke_Sub36_P",
+      "material_status": "Available"
+    },
+    "R76007ED2F26FEFB1": {
+      "case_id": "stroke_Sub21_P",
+      "material_status": "Available"
+    },
+    "R7A3A091004A150C4": {
+      "case_id": "stroke_Sub34_P",
+      "material_status": "Available"
+    },
+    "R7B42015DAE198A6D": {
+      "case_id": "stroke_Sub26_P",
+      "material_status": "Available"
+    },
+    "R7CCF91975D851924": {
+      "case_id": "stroke_Sub18_P",
+      "material_status": "Available"
+    },
+    "R7E7074DE8D4BEEE8": {
+      "case_id": "stroke_Sub33_P",
+      "material_status": "Available"
+    },
+    "R7ED5468F98D46061": {
+      "case_id": "stroke_Sub01_P",
+      "material_status": "Available"
+    },
+    "R8105DD72DAC06437": {
+      "case_id": "stroke_Sub22_P",
+      "material_status": "Available"
+    },
+    "R84F75A08A48B354C": {
+      "case_id": "stroke_Sub26_P",
+      "material_status": "Available"
+    },
+    "R854A297B8BB3D3A2": {
+      "case_id": "stroke_Sub49_P",
+      "material_status": "Available"
+    },
+    "R85743D70A822F622": {
+      "case_id": "stroke_Sub02_P",
+      "material_status": "Available"
+    },
+    "R8691FDFEFF9A2C98": {
+      "case_id": "stroke_Sub18_P",
+      "material_status": "Available"
+    },
+    "R87A39ADECB82D884": {
+      "case_id": "stroke_Sub40_P",
+      "material_status": "Available"
+    },
+    "R8ACEB9C301CCF79C": {
+      "case_id": "stroke_Sub36_P",
+      "material_status": "Available"
+    },
+    "R8ED41C5A87BDC35E": {
+      "case_id": "stroke_Sub28_P",
+      "material_status": "Available"
+    },
+    "R8FDC53F5F29B9833": {
+      "case_id": "stroke_Sub34_P",
+      "material_status": "Available"
+    },
+    "R94E05D85A21BD0DF": {
+      "case_id": "stroke_Sub19_P",
+      "material_status": "Available"
+    },
+    "R996138AF1B212E33": {
+      "case_id": "stroke_Sub16_P",
+      "material_status": "Available"
+    },
+    "R99D33187D4BD21D7": {
+      "case_id": "stroke_Sub02_P",
+      "material_status": "Available"
+    },
+    "R99F51AC09DCB2FF9": {
+      "case_id": "stroke_Sub36_P",
+      "material_status": "Available"
+    },
+    "R9D0F0B7F4BDC7143": {
+      "case_id": "stroke_Sub22_P",
+      "material_status": "Available"
+    },
+    "RA2B510CF8C535F21": {
+      "case_id": "stroke_Sub26_P",
+      "material_status": "Available"
+    },
+    "RA45D12FC76C1D11A": {
+      "case_id": "stroke_Sub15_P",
+      "material_status": "Available"
+    },
+    "RA65315C4FA7EB8C6": {
+      "case_id": "stroke_Sub49_P",
+      "material_status": "Available"
+    },
+    "RAB340137ED6292F8": {
+      "case_id": "stroke_Sub27_P",
+      "material_status": "Available"
+    },
+    "RAB559E9D3049B448": {
+      "case_id": "stroke_Sub21_P",
+      "material_status": "Available"
+    },
+    "RAC3EEA75680DB02F": {
+      "case_id": "stroke_Sub34_P",
+      "material_status": "Available"
+    },
+    "RADB02909D248E217": {
+      "case_id": "stroke_Sub28_P",
+      "material_status": "Available"
+    },
+    "RAFBB8122385CEEF8": {
+      "case_id": "stroke_Sub36_P",
+      "material_status": "Available"
+    },
+    "RB7EAF7A0758E924B": {
+      "case_id": "stroke_Sub07_P",
+      "material_status": "Available"
+    },
+    "RB881E34A0E575406": {
+      "case_id": "stroke_Sub49_P",
+      "material_status": "Available"
+    },
+    "RB989C02800D1EBAB": {
+      "case_id": "stroke_Sub18_P",
+      "material_status": "Available"
+    },
+    "RBB44A537127CF6BD": {
+      "case_id": "stroke_Sub33_P",
+      "material_status": "Available"
+    },
+    "RBC4D6D9F587860E9": {
+      "case_id": "stroke_Sub22_P",
+      "material_status": "Available"
+    },
+    "RBD36DB4973A111EE": {
+      "case_id": "stroke_Sub22_P",
+      "material_status": "Available"
+    },
+    "RBF16B5D62D2E002F": {
+      "case_id": "stroke_Sub18_P",
+      "material_status": "Available"
+    },
+    "RC7CA9743164F4DE7": {
+      "case_id": "stroke_Sub16_P",
+      "material_status": "Available"
+    },
+    "RC9BDBA897003443E": {
+      "case_id": "stroke_Sub26_P",
+      "material_status": "Available"
+    },
+    "RCAA2C595400C1CE1": {
+      "case_id": "stroke_Sub35_P",
+      "material_status": "Available"
+    },
+    "RCBDEF2BFDB982CB9": {
+      "case_id": "stroke_Sub15_P",
+      "material_status": "Available"
+    },
+    "RCE1C7A987393DB28": {
+      "case_id": "stroke_Sub34_P",
+      "material_status": "Available"
+    },
+    "RCFE7BCB8E723FCF7": {
+      "case_id": "stroke_Sub07_P",
+      "material_status": "Available"
+    },
+    "RD1019AB545401771": {
+      "case_id": "stroke_Sub36_P",
+      "material_status": "Available"
+    },
+    "RD3BF5A1334C3631D": {
+      "case_id": "stroke_Sub01_P",
+      "material_status": "Available"
+    },
+    "RD6BCA9A4CA009F1E": {
+      "case_id": "stroke_Sub18_P",
+      "material_status": "Available"
+    },
+    "RD74063D1D77DE6BB": {
+      "case_id": "stroke_Sub21_P",
+      "material_status": "Available"
+    },
+    "RD82E04C2FA35F771": {
+      "case_id": "stroke_Sub13_P",
+      "material_status": "Available"
+    },
+    "RD8C2D30E6A5FFE47": {
+      "case_id": "stroke_Sub29_P",
+      "material_status": "Available"
+    },
+    "RD97BE42B28B075FA": {
+      "case_id": "stroke_Sub38_P",
+      "material_status": "Available"
+    },
+    "RD99E59DD7080867A": {
+      "case_id": "stroke_Sub16_P",
+      "material_status": "Available"
+    },
+    "RDBA96361A5B00FB1": {
+      "case_id": "stroke_Sub38_P",
+      "material_status": "Available"
+    },
+    "RDC7B691555B67A4F": {
+      "case_id": "stroke_Sub10_P",
+      "material_status": "Available"
+    },
+    "RDC8636FCD2F1C6DB": {
+      "case_id": "stroke_Sub21_P",
+      "material_status": "Available"
+    },
+    "RDDB26594B60B50E1": {
+      "case_id": "stroke_Sub18_P",
+      "material_status": "Available"
+    },
+    "RDDF586E66DFF35F4": {
+      "case_id": "stroke_Sub27_P",
+      "material_status": "Available"
+    },
+    "RE13389B15569126D": {
+      "case_id": "stroke_Sub01_P",
+      "material_status": "Available"
+    },
+    "RE325F415746CCBC8": {
+      "case_id": "stroke_Sub24_P",
+      "material_status": "Available"
+    },
+    "RE4D13D822157999C": {
+      "case_id": "stroke_Sub22_P",
+      "material_status": "Available"
+    },
+    "RE7D1E3B2AE4C5981": {
+      "case_id": "stroke_Sub02_P",
+      "material_status": "Available"
+    },
+    "RE9056CDCC3DABA40": {
+      "case_id": "stroke_Sub28_P",
+      "material_status": "Available"
+    },
+    "REA320E5F5457930E": {
+      "case_id": "stroke_Sub19_P",
+      "material_status": "Available"
+    },
+    "READD0B4DB3491299": {
+      "case_id": "stroke_Sub26_P",
+      "material_status": "Available"
+    },
+    "REC4E272DF9AEFD04": {
+      "case_id": "stroke_Sub25_P",
+      "material_status": "Available"
+    },
+    "RED4F6DCACA67D4E9": {
+      "case_id": "stroke_Sub16_P",
+      "material_status": "Available"
+    },
+    "RED639269025AA70C": {
+      "case_id": "stroke_Sub49_P",
+      "material_status": "Available"
+    },
+    "REDB48DCD8AFDBD4E": {
+      "case_id": "stroke_Sub36_P",
+      "material_status": "Available"
+    },
+    "REE0797536D7382E0": {
+      "case_id": "stroke_Sub24_P",
+      "material_status": "Available"
+    },
+    "REF7434C6F8D912CE": {
+      "case_id": "stroke_Sub24_P",
+      "material_status": "Available"
+    },
+    "RF1C7F7559C46BE81": {
+      "case_id": "stroke_Sub27_P",
+      "material_status": "Available"
+    },
+    "RF31D7EFF8F4A1ED0": {
+      "case_id": "stroke_Sub29_P",
+      "material_status": "Available"
+    },
+    "RF7FD44765768E0AE": {
+      "case_id": "stroke_Sub35_P",
+      "material_status": "Available"
+    }
+  }
+}

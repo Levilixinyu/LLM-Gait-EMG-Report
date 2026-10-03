@@ -1,0 +1,17 @@
+{
+  "recorded_at_utc": "2026-09-25T06:58:50.773086+00:00",
+  "confirmed_by": "Study lead in conversation",
+  "confirmation_source": "Study lead selected all 25 stroke cases, accepted three new responses per model, confirmed that all three reviewers can complete the full workload, and then explicitly instructed the assistant to start.",
+  "scope": {
+    "participants": 25,
+    "new_responses_per_case_model": 3,
+    "models": 3,
+    "new_reports": 225
+  },
+  "three_human_raters_full_workload_confirmed": true,
+  "reports_per_rater": 225,
+  "report_review_assignments": 675,
+  "generation_requested": true,
+  "expert_signatures_created": false,
+  "note": "Study-lead confirmation of capacity and instruction to execute; not an individual reviewer signature or a declaration of current model-identity blindness."
+}

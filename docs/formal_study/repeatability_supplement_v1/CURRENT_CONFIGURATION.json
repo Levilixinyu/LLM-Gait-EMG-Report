@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-09-25T07:06:30.258507+00:00",
+  "requested_identifiers": {
+    "anthropic": "claude-opus-5",
+    "openai": "gpt-6-astra",
+    "gemini": "gemini-3.1-pro-preview"
+  },
+  "price_usd_per_million": {
+    "anthropic": {
+      "input": 5,
+      "output": 25
+    },
+    "openai": {
+      "input": 10,
+      "cache_write": 12.5,
+      "output": 50
+    },
+    "gemini": {
+      "input": 2,
+      "output_including_thinking": 12
+    }
+  },
+  "price_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "https://platform.claude.com/docs/en/models/opus-5/overview",
+    "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-pro-preview"
+  ],
+  "price_tier": "Standard API, short-context text; no tools, regional uplift request, fast mode or explicitly provisioned cache",
+  "input_token_reservation": 16000,
+  "output_allowance": 16000,
+  "maximum_original_stroke_prompt_utf8_bytes": 12444,
+  "input_reservation_note": "Same historical 16K token allowance, with under-15K UTF-8 prompt byte screen and margin for message serialization. Not a provider token-count assertion.",
+  "reservation_usd_per_attempt": {
+    "anthropic": 0.48,
+    "openai": 1.0,
+    "gemini": 0.224
+  },
+  "one_attempt_all_225_usd": 127.8,
+  "reservation_ceiling_usd": 383.4,
+  "reservation_interpretation": "All 225 slots once use USD 127.80 of conservative reservation; at most three attempts per slot gives USD 383.40. Actual spending is provider billed, not this counter; account-specific fees/taxes excluded.",
+  "word_limit": null,
+  "prompt_changes": false,
+  "settings_changed_from_original": false,
+  "client_retries": {
+    "anthropic": 0,
+    "openai": 0,
+    "gemini_total_attempts": 1
+  },
+  "model_access_record": "PROVIDER_ACCESS.json",
+  "actual_generation_quota_verified": false,
+  "backend_identity_limit": "Matching aliases and successful metadata lookup do not prove unchanged weights. Preserve returned model metadata for every new response."
+}

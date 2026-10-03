@@ -1,0 +1,1187 @@
+{
+  "guideline": "https://www.tripod-statement.org/wp-content/uploads/2025/01/TRIPOD-LLM-Article.pdf",
+  "version": "published 2025",
+  "research_design": "E",
+  "task": "DG",
+  "rows": [
+    {
+      "checklist": "Main",
+      "item": "1",
+      "topic": "Title",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 1,
+          "section": "Completeness and evidence fidelity of large language model gait reports",
+          "link": "../manuscript_v1/MANUSCRIPT.md#completeness-and-evidence-fidelity-of-large-language-model-gait-reports"
+        }
+      ],
+      "evidence_or_remaining_work": "The retained title names LLM gait reports and both dimensions, but omits the stroke population and explicit evaluation design. Title changes remain an author decision."
+    },
+    {
+      "checklist": "Main",
+      "item": "2",
+      "topic": "Abstract",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        }
+      ],
+      "evidence_or_remaining_work": "The separate abstract checklist records the remaining reporting gaps; no complete-compliance claim is made."
+    },
+    {
+      "checklist": "Main",
+      "item": "3a",
+      "topic": "Context",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 15,
+          "section": "Introduction",
+          "link": "../manuscript_v1/MANUSCRIPT.md#introduction"
+        }
+      ],
+      "evidence_or_remaining_work": "Numerical gait interpretation is distinguished from diagnosis, with AMAP, clinical summarization, CLEVER and gait-reporting research providing context."
+    },
+    {
+      "checklist": "Main",
+      "item": "3b",
+      "topic": "Users",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 15,
+          "section": "Introduction",
+          "link": "../manuscript_v1/MANUSCRIPT.md#introduction"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "Stroke participants and healthy controls are identified. Candidate users are researchers and gait professionals; only offline expert evaluation was tested."
+    },
+    {
+      "checklist": "Main",
+      "item": "4",
+      "topic": "Objectives",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 15,
+          "section": "Introduction",
+          "link": "../manuscript_v1/MANUSCRIPT.md#introduction"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 29,
+          "section": "Study design and data source",
+          "link": "../manuscript_v1/MANUSCRIPT.md#study-design-and-data-source"
+        }
+      ],
+      "evidence_or_remaining_work": "The comparison evaluates existing configurations and separate coverage/error outcomes; there was no model development or clinical deployment."
+    },
+    {
+      "checklist": "Main",
+      "item": "5a",
+      "topic": "Data sources",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 29,
+          "section": "Study design and data source",
+          "link": "../manuscript_v1/MANUSCRIPT.md#study-design-and-data-source"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "Released participant-average motion-capture/EMG data supply evaluation inputs. Provider training data are not established by the records; the project did not fine-tune models."
+    },
+    {
+      "checklist": "Main",
+      "item": "5b",
+      "topic": "Data profile",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 35,
+          "section": "Case selection and sample size",
+          "link": "../manuscript_v1/MANUSCRIPT.md#case-selection-and-sample-size"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 99,
+          "section": "Table 1. Retained participant characteristics",
+          "link": "../manuscript_v1/MANUSCRIPT.md#table-1-retained-participant-characteristics"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "Counts, age, sex, speed, channels and English task language are reported. Supplementary methods identify M2OCEAN in Antwerp, Belgium as the original collection setting."
+    },
+    {
+      "checklist": "Main",
+      "item": "5c",
+      "topic": "Data dates",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 55,
+          "section": "Model configuration and generation",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-configuration-and-generation"
+        }
+      ],
+      "evidence_or_remaining_work": "Inference dates are known; participant-level collection-date ranges and proprietary training-date ranges are not established. Do not substitute publication dates for collection dates."
+    },
+    {
+      "checklist": "Main",
+      "item": "5d",
+      "topic": "Preprocessing",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 41,
+          "section": "Model-visible information and feature definitions",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-visible-information-and-feature-definitions"
+        }
+      ],
+      "evidence_or_remaining_work": "Common case inputs, released normalization, pooling, phase grid, thresholding and reference calculations are described, including unequal documentary/numerical validation depth."
+    },
+    {
+      "checklist": "Main",
+      "item": "5e",
+      "topic": "Missingness",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 35,
+          "section": "Case selection and sample size",
+          "link": "../manuscript_v1/MANUSCRIPT.md#case-selection-and-sample-size"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 41,
+          "section": "Model-visible information and feature definitions",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-visible-information-and-feature-definitions"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "The eligibility flow and available-muscle reference denominators are reported. Unavailable/inapplicable inputs remain explicit; the task does not ask models to impute missing channels."
+    },
+    {
+      "checklist": "Main",
+      "item": "6a",
+      "topic": "Model identity",
+      "status": "Reported with limits",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 55,
+          "section": "Model configuration and generation",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-configuration-and-generation"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "Exact recorded API identifiers and inference dates are given. Final training dates are not established; permanent version pinning is not claimed."
+    },
+    {
+      "checklist": "Main",
+      "item": "6b",
+      "topic": "Model building",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "The project used existing services without training or fine-tuning. Development-only item; proprietary internal training was not investigated."
+    },
+    {
+      "checklist": "Main",
+      "item": "6c",
+      "topic": "Generation",
+      "status": "Reported with limits",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 55,
+          "section": "Model configuration and generation",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-configuration-and-generation"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 3,
+          "section": "Generation and retained evidence",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#generation-and-retained-evidence"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "Identical saved prompts, reasoning/output settings, provider-managed sampling and single-response design are reported. Within-model repeatability was not measured."
+    },
+    {
+      "checklist": "Main",
+      "item": "6d",
+      "topic": "Output handling",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 3,
+          "section": "Generation and retained evidence",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#generation-and-retained-evidence"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        }
+      ],
+      "evidence_or_remaining_work": "Saved prose and metadata were retained. Reviewer packets concealed identifiers and provider metadata while preserving report wording."
+    },
+    {
+      "checklist": "Main",
+      "item": "6e",
+      "topic": "Classification",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 29,
+          "section": "Study design and data source",
+          "link": "../manuscript_v1/MANUSCRIPT.md#study-design-and-data-source"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 41,
+          "section": "Model-visible information and feature definitions",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-visible-information-and-feature-definitions"
+        }
+      ],
+      "evidence_or_remaining_work": "The LLM task generated reports, not class probabilities or outcome forecasts. EMG thresholds describe input features; they are not LLM decision cutoffs."
+    },
+    {
+      "checklist": "Main",
+      "item": "7a",
+      "topic": "Output quality",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 77,
+          "section": "Outcomes and analysis",
+          "link": "../manuscript_v1/MANUSCRIPT.md#outcomes-and-analysis"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        }
+      ],
+      "evidence_or_remaining_work": "Case requirements and report-scoped errors are separate outcomes; unresolved claims remain distinct. The reference is researcher-defined, not clinical ground truth."
+    },
+    {
+      "checklist": "Main",
+      "item": "7b",
+      "topic": "Task relevance",
+      "status": "Reported with limits",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 15,
+          "section": "Introduction",
+          "link": "../manuscript_v1/MANUSCRIPT.md#introduction"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 77,
+          "section": "Outcomes and analysis",
+          "link": "../manuscript_v1/MANUSCRIPT.md#outcomes-and-analysis"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 209,
+          "section": "Discussion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#discussion"
+        }
+      ],
+      "evidence_or_remaining_work": "Coverage and supported claims matter for interpreting supplied summaries. No association with clinical benefit or downstream decisions was measured."
+    },
+    {
+      "checklist": "Main",
+      "item": "7c",
+      "topic": "Endpoints",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 77,
+          "section": "Outcomes and analysis",
+          "link": "../manuscript_v1/MANUSCRIPT.md#outcomes-and-analysis"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 55,
+          "section": "Model configuration and generation",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-configuration-and-generation"
+        }
+      ],
+      "evidence_or_remaining_work": "Definitions, API configurations, inference date, error denominators and paired participant analysis are supplied."
+    },
+    {
+      "checklist": "Main",
+      "item": "7d",
+      "topic": "Assessors",
+      "status": "Reported with limits",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 160,
+          "section": "Original independent agreement and stage sensitivity",
+          "link": "../manuscript_v1/MANUSCRIPT.md#original-independent-agreement-and-stage-sensitivity"
+        }
+      ],
+      "evidence_or_remaining_work": "Three human UT Austin PhD students have at least five years of EMG/neuromuscular-control experience. Development roles and original agreement are disclosed; clinical credentials and further demographics are not established."
+    },
+    {
+      "checklist": "Main",
+      "item": "7e",
+      "topic": "Comparators",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 77,
+          "section": "Outcomes and analysis",
+          "link": "../manuscript_v1/MANUSCRIPT.md#outcomes-and-analysis"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 125,
+          "section": "Table 3. Paired stroke coverage contrasts",
+          "link": "../manuscript_v1/MANUSCRIPT.md#table-3-paired-stroke-coverage-contrasts"
+        }
+      ],
+      "evidence_or_remaining_work": "All models receive identical within-case inputs. Paired coverage contrasts are distinguished from exploratory errors; no human-authored report benchmark was included."
+    },
+    {
+      "checklist": "Main",
+      "item": "8a",
+      "topic": "Annotation guide",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "The approved rubric, worked examples, formal case requirements and later clarifications are separately identified. Those materials should accompany any permitted submission release."
+    },
+    {
+      "checklist": "Main",
+      "item": "8b",
+      "topic": "Annotation extent",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 160,
+          "section": "Original independent agreement and stage sensitivity",
+          "link": "../manuscript_v1/MANUSCRIPT.md#original-independent-agreement-and-stage-sensitivity"
+        }
+      ],
+      "evidence_or_remaining_work": "All 105 reports had original independent review by three humans. Assessed/excluded denominators and original pairwise agreement are reported by cohort and domain."
+    },
+    {
+      "checklist": "Main",
+      "item": "8c",
+      "topic": "Annotator expertise",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        }
+      ],
+      "evidence_or_remaining_work": "Academic status, institution, experience and involvement in criterion development are stated without inferring clinical licensure."
+    },
+    {
+      "checklist": "Main",
+      "item": "9a",
+      "topic": "Prompt design",
+      "status": "Reported with limits",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "The five-case trial and expert-reviewed interpretation instructions precede the formal batch. Exact prompts and approval records are available locally; no exhaustive prompt search is claimed."
+    },
+    {
+      "checklist": "Main",
+      "item": "9b",
+      "topic": "Prompt cases",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 35,
+          "section": "Case selection and sample size",
+          "link": "../manuscript_v1/MANUSCRIPT.md#case-selection-and-sample-size"
+        }
+      ],
+      "evidence_or_remaining_work": "Development cases are named: stroke Sub09, Sub05, Sub50, Sub47 and control Sub49. Formal case selection accounts for recorded prior exposure."
+    },
+    {
+      "checklist": "Main",
+      "item": "10",
+      "topic": "Summarization inputs",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 41,
+          "section": "Model-visible information and feature definitions",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-visible-information-and-feature-definitions"
+        }
+      ],
+      "evidence_or_remaining_work": "Primary task is document generation from numerical features, not shortening source prose. Numerical preprocessing is nevertheless reported in Methods."
+    },
+    {
+      "checklist": "Main",
+      "item": "11",
+      "topic": "Alignment",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "No project instruction tuning, preference training or alignment optimization occurred; prompting is described separately."
+    },
+    {
+      "checklist": "Main",
+      "item": "12",
+      "topic": "Compute",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 55,
+          "section": "Model configuration and generation",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-configuration-and-generation"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 3,
+          "section": "Generation and retained evidence",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#generation-and-retained-evidence"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "Output allowances and batch timing are supplied. Provider hardware, actual comparable compute, total inference cost and per-model latency summaries were not measured here."
+    },
+    {
+      "checklist": "Main",
+      "item": "13",
+      "topic": "Ethics",
+      "status": "Awaiting author",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 29,
+          "section": "Study design and data source",
+          "link": "../manuscript_v1/MANUSCRIPT.md#study-design-and-data-source"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 364,
+          "section": "Declarations requiring author completion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#declarations-requiring-author-completion"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/AUTHOR_CONFIRMATION.md",
+          "line": 1,
+          "section": "Author confirmations before submission",
+          "link": "../manuscript_v1/AUTHOR_CONFIRMATION.md#author-confirmations-before-submission"
+        }
+      ],
+      "evidence_or_remaining_work": "Original dataset approvals do not establish this secondary analysis determination. Obtain the actual institutional determination and applicable reference number."
+    },
+    {
+      "checklist": "Main",
+      "item": "14a",
+      "topic": "Funding",
+      "status": "Awaiting author",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 364,
+          "section": "Declarations requiring author completion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#declarations-requiring-author-completion"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/AUTHOR_CONFIRMATION.md",
+          "line": 1,
+          "section": "Author confirmations before submission",
+          "link": "../manuscript_v1/AUTHOR_CONFIRMATION.md#author-confirmations-before-submission"
+        }
+      ],
+      "evidence_or_remaining_work": "Authors must provide funding sources, grant identifiers and funder roles, or explicitly confirm no funding."
+    },
+    {
+      "checklist": "Main",
+      "item": "14b",
+      "topic": "Conflicts",
+      "status": "Awaiting author",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 364,
+          "section": "Declarations requiring author completion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#declarations-requiring-author-completion"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/AUTHOR_CONFIRMATION.md",
+          "line": 1,
+          "section": "Author confirmations before submission",
+          "link": "../manuscript_v1/AUTHOR_CONFIRMATION.md#author-confirmations-before-submission"
+        }
+      ],
+      "evidence_or_remaining_work": "Obtain each author's relevant financial and nonfinancial interests; do not infer a no-conflict statement."
+    },
+    {
+      "checklist": "Main",
+      "item": "14c",
+      "topic": "Protocol",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        }
+      ],
+      "evidence_or_remaining_work": "The published item targets live healthcare evaluation. Voluntary disclosure: an internal protocol exists at docs/formal_study/execution_analysis_v3_draft/PROTOCOL.md; the main text describes material departures."
+    },
+    {
+      "checklist": "Main",
+      "item": "14d",
+      "topic": "Registration",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        }
+      ],
+      "evidence_or_remaining_work": "The published item targets live healthcare evaluation. Voluntary disclosure: the main manuscript explicitly states that the study was not preregistered."
+    },
+    {
+      "checklist": "Main",
+      "item": "14e",
+      "topic": "Data access",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 29,
+          "section": "Study design and data source",
+          "link": "../manuscript_v1/MANUSCRIPT.md#study-design-and-data-source"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 364,
+          "section": "Declarations requiring author completion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#declarations-requiring-author-completion"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/AUTHOR_CONFIRMATION.md",
+          "line": 1,
+          "section": "Author confirmations before submission",
+          "link": "../manuscript_v1/AUTHOR_CONFIRMATION.md#author-confirmations-before-submission"
+        }
+      ],
+      "evidence_or_remaining_work": "The source dataset is public. Permissions and exact public scope for derived inputs, reports and human ratings still require author confirmation."
+    },
+    {
+      "checklist": "Main",
+      "item": "14f",
+      "topic": "Code access",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 29,
+          "section": "Reporting scope",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#reporting-scope"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/AUTHOR_CONFIRMATION.md",
+          "line": 1,
+          "section": "Author confirmations before submission",
+          "link": "../manuscript_v1/AUTHOR_CONFIRMATION.md#author-confirmations-before-submission"
+        }
+      ],
+      "evidence_or_remaining_work": "An offline replay bundle exists locally. A publishable version, repository access and licensing must be specified; local reproducibility is not public availability."
+    },
+    {
+      "checklist": "Main",
+      "item": "15",
+      "topic": "Public involvement",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 29,
+          "section": "Study design and data source",
+          "link": "../manuscript_v1/MANUSCRIPT.md#study-design-and-data-source"
+        }
+      ],
+      "evidence_or_remaining_work": "No live healthcare evaluation was conducted. This applicability decision does not assert an unverified history of patient/public involvement."
+    },
+    {
+      "checklist": "Main",
+      "item": "16a",
+      "topic": "Participant flow",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 35,
+          "section": "Case selection and sample size",
+          "link": "../manuscript_v1/MANUSCRIPT.md#case-selection-and-sample-size"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 95,
+          "section": "Sample and report completion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#sample-and-report-completion"
+        }
+      ],
+      "evidence_or_remaining_work": "Stroke flow is 50 to 43 complete to 27 without prior local reports to 25 after exclusions; 10 controls selected from 98 eligible; all 105 slots completed."
+    },
+    {
+      "checklist": "Main",
+      "item": "16b",
+      "topic": "Characteristics",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 35,
+          "section": "Case selection and sample size",
+          "link": "../manuscript_v1/MANUSCRIPT.md#case-selection-and-sample-size"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 99,
+          "section": "Table 1. Retained participant characteristics",
+          "link": "../manuscript_v1/MANUSCRIPT.md#table-1-retained-participant-characteristics"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "Cohort characteristics, selection and prompt-development cases are described. Source collection-date ranges are not reconstructed, and provider training overlap remains unknown."
+    },
+    {
+      "checklist": "Main",
+      "item": "16c",
+      "topic": "Clinical outcomes",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 29,
+          "section": "Study design and data source",
+          "link": "../manuscript_v1/MANUSCRIPT.md#study-design-and-data-source"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 221,
+          "section": "Limitations",
+          "link": "../manuscript_v1/MANUSCRIPT.md#limitations"
+        }
+      ],
+      "evidence_or_remaining_work": "No patient outcome was predicted or evaluated and no clinical development/evaluation outcome comparison exists."
+    },
+    {
+      "checklist": "Main",
+      "item": "16d",
+      "topic": "Denominators",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 112,
+          "section": "Table 2. Final coverage and report-level errors, by cohort",
+          "link": "../manuscript_v1/MANUSCRIPT.md#table-2-final-coverage-and-report-level-errors-by-cohort"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 160,
+          "section": "Original independent agreement and stage sensitivity",
+          "link": "../manuscript_v1/MANUSCRIPT.md#original-independent-agreement-and-stage-sensitivity"
+        }
+      ],
+      "evidence_or_remaining_work": "Participant, report, requirement, evaluable and unknown counts are distinguished; rating assignments are not independent participants."
+    },
+    {
+      "checklist": "Main",
+      "item": "17",
+      "topic": "Performance",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 93,
+          "section": "Results",
+          "link": "../manuscript_v1/MANUSCRIPT.md#results"
+        }
+      ],
+      "evidence_or_remaining_work": "Main and original-independent results, paired coverage intervals, descriptive error counts, unresolved bounds and targeted sensitivity are reported without a global ranking."
+    },
+    {
+      "checklist": "Main",
+      "item": "18",
+      "topic": "Model updates",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 55,
+          "section": "Model configuration and generation",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-configuration-and-generation"
+        }
+      ],
+      "evidence_or_remaining_work": "No model updating was performed as part of this evaluation. Later service behavior is outside the saved-response study."
+    },
+    {
+      "checklist": "Main",
+      "item": "19a",
+      "topic": "Interpretation",
+      "status": "Reported with limits",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 209,
+          "section": "Discussion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#discussion"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "Interpretation separates coverage from evidence fidelity and notes rating-stage dependence. Demographic fairness and subgroup performance were not assessed."
+    },
+    {
+      "checklist": "Main",
+      "item": "19b",
+      "topic": "Limitations",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 221,
+          "section": "Limitations",
+          "link": "../manuscript_v1/MANUSCRIPT.md#limitations"
+        }
+      ],
+      "evidence_or_remaining_work": "Selected sample, single generation, researcher-defined reference, review changes, shared references, uncertain errors, length/compute and version drift are disclosed."
+    },
+    {
+      "checklist": "Main",
+      "item": "19c",
+      "topic": "Data constraints",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 41,
+          "section": "Model-visible information and feature definitions",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-visible-information-and-feature-definitions"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 221,
+          "section": "Limitations",
+          "link": "../manuscript_v1/MANUSCRIPT.md#limitations"
+        }
+      ],
+      "evidence_or_remaining_work": "Pooled references, missing muscle data, cohort differences and documentary validation limits constrain transfer and interpretation."
+    },
+    {
+      "checklist": "Main",
+      "item": "19d",
+      "topic": "Intended use",
+      "status": "Reported with limits",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 29,
+          "section": "Study design and data source",
+          "link": "../manuscript_v1/MANUSCRIPT.md#study-design-and-data-source"
+        }
+      ],
+      "evidence_or_remaining_work": "Only offline draft-report evaluation by specialists is supported. Autonomous clinical decisions and patient-facing deployment were not tested."
+    },
+    {
+      "checklist": "Main",
+      "item": "19e",
+      "topic": "Input quality",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 35,
+          "section": "Case selection and sample size",
+          "link": "../manuscript_v1/MANUSCRIPT.md#case-selection-and-sample-size"
+        }
+      ],
+      "evidence_or_remaining_work": "Clinical deployment is not part of this study. Research eligibility and missingness rules are reported; no validated deployment quality-control policy is claimed."
+    },
+    {
+      "checklist": "Main",
+      "item": "19f",
+      "topic": "User interaction",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        }
+      ],
+      "evidence_or_remaining_work": "No implemented clinical workflow or end-user interaction study exists. Expert-review requirements are described, but clinical training requirements remain unvalidated."
+    },
+    {
+      "checklist": "Main",
+      "item": "19g",
+      "topic": "Next studies",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 209,
+          "section": "Discussion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#discussion"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 235,
+          "section": "Conclusion",
+          "link": "../manuscript_v1/MANUSCRIPT.md#conclusion"
+        }
+      ],
+      "evidence_or_remaining_work": "Independent cases, prospectively specified wording rules, repeated outputs and a separate evaluation of clinical utility are proposed, not reported as completed."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2a",
+      "topic": "Title",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 1,
+          "section": "Completeness and evidence fidelity of large language model gait reports",
+          "link": "../manuscript_v1/MANUSCRIPT.md#completeness-and-evidence-fidelity-of-large-language-model-gait-reports"
+        }
+      ],
+      "evidence_or_remaining_work": "The title omits the stroke population and explicit evaluation label; see main item 1."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2b",
+      "topic": "Rationale",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        }
+      ],
+      "evidence_or_remaining_work": "The objective explains that fluent gait reports may omit findings or overstate evidence."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2c",
+      "topic": "Objective",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        }
+      ],
+      "evidence_or_remaining_work": "The stated objective is evaluation of completeness and evidence fidelity using a paired comparison."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2d",
+      "topic": "Setting",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        }
+      ],
+      "evidence_or_remaining_work": "An offline study using public motion-capture and EMG data is identified."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2e",
+      "topic": "Data selection",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        }
+      ],
+      "evidence_or_remaining_work": "The 25/10 cohort sizes are stated; eligibility selection and development-case exclusions remain in Methods rather than the abstract."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2f",
+      "topic": "Models",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 55,
+          "section": "Model configuration and generation",
+          "link": "../manuscript_v1/MANUSCRIPT.md#model-configuration-and-generation"
+        }
+      ],
+      "evidence_or_remaining_work": "The abstract supplies all three recorded model identifiers; Methods explains their versioning limits."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2g",
+      "topic": "Building",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/SUPPLEMENTARY_METHODS.md",
+          "line": 11,
+          "section": "Inputs, prompts and intended use",
+          "link": "../manuscript_v1/SUPPLEMENTARY_METHODS.md#inputs-prompts-and-intended-use"
+        }
+      ],
+      "evidence_or_remaining_work": "No model building, fine-tuning or preference training occurred."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2h",
+      "topic": "Task",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        }
+      ],
+      "evidence_or_remaining_work": "Structured gait summaries are interpreted into reports; inputs, outputs and separate coverage/error assessment are identified."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2i",
+      "topic": "Evaluation",
+      "status": "Partial",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        },
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 35,
+          "section": "Case selection and sample size",
+          "link": "../manuscript_v1/MANUSCRIPT.md#case-selection-and-sample-size"
+        }
+      ],
+      "evidence_or_remaining_work": "Cohorts and endpoints are given. External holdout status and unknown provider pretraining exposure are explained in Methods/supplement, not the abstract."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2j",
+      "topic": "Findings",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        }
+      ],
+      "evidence_or_remaining_work": "Coverage, paired-interval interpretation, evaluable errors, original error disagreement and targeted sensitivity are reported."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2k",
+      "topic": "Implications",
+      "status": "Reported",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 5,
+          "section": "Abstract",
+          "link": "../manuscript_v1/MANUSCRIPT.md#abstract"
+        }
+      ],
+      "evidence_or_remaining_work": "The conclusion separates the two quality dimensions and limits inference to the studied outputs and scoring procedure."
+    },
+    {
+      "checklist": "Abstract",
+      "item": "2l",
+      "topic": "Registration",
+      "status": "Not applicable",
+      "locations": [
+        {
+          "file": "docs/formal_study/manuscript_v1/MANUSCRIPT.md",
+          "line": 61,
+          "section": "Expert assessment and workflow changes",
+          "link": "../manuscript_v1/MANUSCRIPT.md#expert-assessment-and-workflow-changes"
+        }
+      ],
+      "evidence_or_remaining_work": "No live healthcare evaluation. Lack of preregistration is disclosed in the main Methods."
+    }
+  ]
+}

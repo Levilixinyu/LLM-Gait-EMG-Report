@@ -53,6 +53,7 @@ def run(root, output):
     from src.eval.frozen_model_analysis import analyze_report_metrics
     from src.eval.three_rater_blinded import blinded_report_metrics, pairwise_blinded_agreement
     from src.eval.wording_sensitivity import overlay_reports
+    from src.eval.agreement_sensitivity import analyze_original_agreement
 
     def read(name):
         if name not in manifest['files']:
@@ -108,6 +109,8 @@ def run(root, output):
     pairs = pairwise_blinded_agreement(reviews, frozen['roster'])
     saved_pairs = read('docs/formal_study/three_rater_analysis_v1/INDEPENDENT_AGREEMENT.json')['pairs']
     compare({k:v['cohorts'] for k,v in pairs.items()}, {k:v['cohorts'] for k,v in saved_pairs.items()}, 'original agreement')
+    ac1 = analyze_original_agreement(reviews, frozen['roster'])
+    compare(ac1, read('docs/formal_study/agreement_sensitivity_v1/AC1_ANALYSIS.json'), 'post-hoc original AC1')
 
     saved = read('data/rating_packets_formal_v1/private/wording_sensitivity_v1/ANALYSIS.json')
     summaries, per_report = [], []
@@ -135,7 +138,8 @@ def run(root, output):
     compare(per_report, saved['per_report'], 'wording per-report scenarios')
     output.mkdir(parents=True, exist_ok=False)
     for name, data in [('final_outcomes.json',final),('independent_outcomes.json',independent),
-                       ('independent_agreement.json',pairs),('wording_summaries.json',summaries)]:
+                       ('independent_agreement.json',pairs),('wording_summaries.json',summaries),
+                       ('original_ac1.json',ac1)]:
         (output/name).write_text(json.dumps(data,indent=2)+'\n')
     np.save(output/'resample_indices.npy',indices)
     subprocess.run([sys.executable, '-B', str(root/'scripts/build_manuscript_draft.py'),
@@ -145,8 +149,9 @@ def run(root, output):
     verify_bundle(root)
     result = {'status':'PASS','python':platform.python_version(), 'manifest_sha256':sha((root/'REPRODUCTION_MANIFEST.json').read_bytes()),
               'files_verified':len(manifest['files']), 'reports':len(frozen['reports']), 'participants':len(frozen['roster']),
-              'original_reviews':len(reviews), 'manuscript_tables':12, 'wording_scenarios':len(saved['scenario_definitions']),
+              'original_reviews':len(reviews), 'manuscript_tables':len(read('docs/formal_study/manuscript_v1/TABLE_DATA.json')['tables']), 'wording_scenarios':len(saved['scenario_definitions']),
               'frozen_estimates_exact':True,'original_estimates_exact':True,'agreement_exact':True,
+              'original_ac1_exact':True,
               'wording_summaries_and_report_rows_exact':True,'manuscript_tables_exact':True,
               'source_inputs_modified':False,'api_calls':0,
               'scope_limit':'Starts from preserved judgments and supplied summaries; does not regenerate model outputs or independently rerate reports or rebuild features from raw recordings.'}

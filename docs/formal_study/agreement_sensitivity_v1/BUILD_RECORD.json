@@ -1,0 +1,29 @@
+{
+  "created_at_utc": "2026-09-25T06:16:52.421234+00:00",
+  "source_sha256": {
+    "docs/formal_study/three_rater_analysis_v1/AGREEMENT_BUILD_RECORD.json": "5f402b0ed10aa7752bbd0c9d165cab451d4d2fdd2db3ac3b86fe798c81ad3070",
+    "docs/formal_study/three_rater_analysis_v1/AGREEMENT_AUTHORIZATION.json": "655ac07f824ce2eafdc3331f3dff2dfb50b3a7c2fe484dc0efde2d0b86167632",
+    "docs/formal_study/case_requirements_v1/case_requirements.csv": "c836e6fae801ee15da142a989764f79223843a6509df27c26d7fb763fac27806",
+    "docs/formal_study/three_rater_review_v1/private/rater1_submitted.xlsx": "e4474e0c857f0c06b59e181dee8e46a8d2293c117c11cecaf674c72a63344160",
+    "docs/formal_study/three_rater_review_v1/private/rater2_submitted.xlsx": "6c1881e2b638fa712f9335fcbe6259af54f003d5554c01af973a56d95986b5c5",
+    "docs/formal_study/three_rater_review_v1/private/rater3_submitted.xlsx": "d716ed0981aa287c38642dc5aa37ce59f626cc1b976f83247aa2f683cf53c649",
+    "src/eval/three_rater_blinded.py": "211dc937793f53e6546fd7957db55cc2493b87a0e262bb45f1f30579cfb11235",
+    "src/eval/formal_analysis.py": "445f730e37d7f0ea496be9c099f67728b49608be8993dfa973ff1017b05d46bd",
+    "scripts/analyze_three_rater_agreement.py": "29377d1cbce10a3f0798183cf00da5519ae7a8cd8fa4472d24682f77f101e850",
+    "docs/formal_study/three_rater_analysis_v1/INDEPENDENT_AGREEMENT.json": "aeae1c95a5b666b1e022ed2bfa02d6146550e7386fc451dff467f84b4c641574",
+    "docs/formal_study/three_rater_analysis_v1/Independent_agreement.xlsx": "1e6c30db07a1319ed963d7bf687611443a6f63c9456d44b0b0f7ce5dcf7ac21f",
+    "docs/formal_study/three_rater_analysis_v1/INDEPENDENT_AGREEMENT.md": "5c73af992eb1362b32ce7096893e9e17fed2f5a5af8f645117344f3de3d813da",
+    "scripts/analyze_agreement_sensitivity.py": "7a01ce87fde297a63d761df0cd9b218ab02ca26e4536a43d5deb293b888c8402",
+    "src/eval/agreement_sensitivity.py": "38ad1e6e2df27bef0a3b4ba2042dceb9c7dee55b05ca43d70e3b998b007c01e9"
+  },
+  "output_sha256": {
+    "AC1_ANALYSIS.json": "30c6bae36e77e2e249530d595c10ffdfa834cdadcade3bb5e946690bb7e1d60d",
+    "README.md": "14a9047af8d59ead3dc0ece50e0b9c1bd51618a9c78ab8961223545a3947ce3a",
+    "AC1_SUMMARY.csv": "1208befc0aab536e59341a354dd7dc91b1306eb070ab108d767d18e8a23370fd"
+  },
+  "point_estimates_checked_with_exact_fractions": true,
+  "original_ratings_changed": false,
+  "original_cross_tabs_reproduced": true,
+  "model_mapping_read": false,
+  "post_feedback_ratings_used": false
+}

@@ -1,0 +1,42 @@
+**1. Objective Findings**
+- **Participant:** Sub25_P (Stroke group, paretic side)
+- **Gait Speed:** 0.11 m/s (household ambulator classification)
+- **Cadence:** 33.6 steps/min
+- **Step Length Symmetry Index:** 8.6% (using the successive-footfall definition)
+- **Data Evaluated:** Seven EMG channels (GAS, RF, VL, BF, ST, TA, ERS) and four sagittal plane kinematic channels (ankle, knee, hip, pelvis). No missing channels within this supplied scope. 
+
+**2. EMG Envelope and Threshold Findings**
+Under the specified amplitude threshold and minimum duration criteria, all evaluated muscles demonstrate retained intervals of activity on the averaged envelope.
+- **GAS:** Envelope remains above threshold for 99% of the cycle, with an interval spanning 3%-2% that wraps across the initial contact boundary. The peak normalized amplitude is 0.37.
+- **RF:** Envelope remains above threshold for 86% of the cycle, with an interval spanning 97%-77% that wraps across the initial contact boundary. The peak normalized amplitude is 0.65.
+- **VL:** Envelope remains above threshold for 77% of the cycle, with an interval spanning 98%-76% that wraps across the initial contact boundary. The peak normalized amplitude is 0.53.
+- **BF:** Envelope remains above threshold for 81% of the cycle, with intervals spanning 80%-84% and 90%-65% (wrapping across the initial contact boundary). The peak normalized amplitude is 0.48.
+- **ST:** Envelope remains above threshold for 99% of the cycle, with an interval spanning 76%-75% that wraps across the initial contact boundary. The peak normalized amplitude is 0.37.
+- **TA:** Envelope remains above threshold for 89% of the cycle, with intervals spanning 84%-95% and 95%-70% (wrapping across the initial contact boundary). The peak normalized amplitude is 0.60.
+- **ERS:** Envelope remains continuously above threshold for 100% of the cycle (0%-100%), passing across the initial contact boundary. The peak normalized amplitude is 0.46.
+- **Co-contraction Indices (CCI):** Computed as a whole-cycle overlap index of normalized EMG envelopes, the TA vs GAS CCI is 0.71. This is outside (above) the provided empirical reference interval (median 0.39, 2.5th-97.5th percentile 0.24-0.59). The RF vs BF CCI is 0.76, which lies within its empirical reference interval (median 0.68, 2.5th-97.5th percentile 0.48-0.83). Note that CCI values depend on the normalization and envelope methods applied; being inside the reference interval does not establish physiologically normal co-activation or muscle function, nor does being outside the interval inherently establish pathological co-activation, impaired control, or a diagnosis. 
+
+**3. Kinematic and Reference Comparisons**
+*Limitation of Comparison:* The kinematic scores and standardized EMG deviations below utilize a pooled healthy reference cohort (n=138) whose self-selected walking speeds range from 0.80 to 1.79 m/s. Because the participant's gait speed (0.11 m/s) is considerably below this range, an appropriate speed-matched reference is not available. Deviations from this reference conflate slow-walking effects with stroke-specific control changes, and a disease effect or clinical diagnosis cannot be established from this comparison alone.
+
+- **Composite Kinematic Deviation:** The composite score (GPS-like) is 16.43, which exceeds the healthy reference median (5.1) and 95th percentile (10.7).
+- **Sagittal Joint Kinematics (ROM and Gait Variable Scores representing summary differences from the reference):**
+  - **Knee:** Range of motion 36.2 deg, GVS 22.02
+  - **Hip:** Range of motion 30.2 deg, GVS 16.78
+  - **Pelvis:** Range of motion 9.0 deg, GVS 14.13
+  - **Ankle:** Range of motion 8.3 deg, GVS 10.66
+  *(Note: ROM alone does not establish a clinical restriction without an appropriate matched comparison.)*
+- **Maximum |z| Deviations:** The values below represent the largest standardized difference from the phase-specific reference mean; they do not necessarily indicate the time of peak envelope amplitude or a specific gait event.
+  - **GAS:** 12.1 (above the reference mean at 77% of the cycle)
+  - **TA:** 9.9 (above the reference mean at 33% of the cycle)
+  - **RF:** 6.9 (above the reference mean at 38% of the cycle)
+  - **VL:** 5.8 (above the reference mean at 52% of the cycle)
+  - **ST:** 4.9 (above the reference mean at 42% of the cycle)
+  - **ERS:** 4.5 (above the reference mean at 28% of the cycle)
+  - **BF:** 3.8 (above the reference mean at 47% of the cycle)
+
+**4. Questions for Further Clinical Assessment**
+- Does the extensive above-threshold EMG coverage observed across almost all evaluated muscles correspond to a compensatory stabilization strategy necessary for walking at 0.11 m/s?
+- Is there a clinically identifiable mechanism—such as limited passive flexibility, joint stiffness, or specific muscular weakness—underlying the limited 8.3-degree sagittal plane ankle ROM?
+- How does the observed 8.6% asymmetry in step length affect the patient's balance, weight transfer, and overall safety during functional household ambulation?
+- Are the substantial deviations captured by the knee and hip Gait Variable Scores corroborated by clinically observable compensatory movement patterns?

@@ -1,0 +1,46 @@
+**1. Objective Findings**
+- **Participant:** Sub27_P (Group: Stroke, Affected side: Paretic)
+- **Gait Speed:** 0.75 m/s. This speed places the participant in the "limited community ambulator" classification band; this label reflects a speed range (0.4-0.8 m/s) rather than a direct measurement of community mobility, safety, or independence.
+- **Cadence:** 82.5 steps/min
+- **Step Length Symmetry Index:** -15.8% (using the successive-footfall definition). The negative value indicates that the step taken by the paretic limb is shorter than the non-paretic step.
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings describe averaged, normalized envelopes and regions where they exceed 20% of their respective peaks (for at least 3% of the cycle duration). These intervals do not represent raw muscle onset/offset, continuous contraction, or absolute force, nor do they rule out sub-threshold physiological activity. 
+
+Notably, every recorded muscle maintained an above-threshold interval wrapping across the initial-contact cycle boundary (from the end of the cycle through 0%).
+- **GAS:** Detected intervals at 22%-28%, 36%-66%, and 99%-21% (wrapping). Coverage was 58% of the cycle; peak normalized amplitude was 0.55.
+- **RF:** Detected intervals at 11%-61%, 69%-76%, 90%-95%, and 99%-11% (wrapping). Coverage was 76% of the cycle; peak normalized amplitude was 0.58.
+- **VL:** Detected interval at 87%-56% (wrapping). Coverage was 69% of the cycle; peak normalized amplitude was 0.58.
+- **BF:** Detected intervals at 16%-20%, 57%-60%, and 89%-15% (wrapping). Coverage was 35% of the cycle; peak normalized amplitude was 0.79.
+- **ST:** Detected intervals at 45%-62% and 86%-28% (wrapping). Coverage was 58% of the cycle; peak normalized amplitude was 0.68.
+- **TA:** Detected interval at 68%-37% (wrapping). Coverage was 69% of the cycle; peak normalized amplitude was 0.63.
+- **ERS:** Detected interval at 49%-28% (wrapping). Coverage was 81% of the cycle; peak normalized amplitude was 0.81.
+
+**Co-contraction Indices (CCI):**
+CCI reflects a whole-cycle overlap index of the continuous normalized envelopes, not simultaneous absolute force or localized stride-level activation. 
+- **TA vs GAS:** CCI = 0.40. This aligns closely with the reference dataset's healthy median (0.39) and falls well within the empirical interval (0.24-0.59).
+- **RF vs BF:** CCI = 0.54. This falls below the healthy median (0.68) but remains within the supplied empirical interval (0.48-0.83).
+
+**3. Kinematic and Reference Comparisons**
+*Important Reference Limitation:* The participant’s gait speed of 0.75 m/s is below the 0.80 m/s minimum speed of the pooled healthy reference cohort. Consequently, no speed-matched healthy reference exists for this participant in the dataset. Any deviations noted below conflate the mechanical effects of slow walking with stroke-specific physiological changes; these factors cannot be separated using this reference.
+
+- **Composite Kinematic Score:** The GPS-like composite deviation score is 6.81. This is higher than the healthy reference median (5.1) but remains below the 95th percentile (10.7) for the pooled cohort.
+- **Sagittal Joint Kinematics:** 
+  - Ankle: ROM 34.8 degrees (GVS 7.82)
+  - Knee: ROM 59.2 degrees (GVS 9.04)
+  - Hip: ROM 41.6 degrees (GVS 5.03)
+  - Pelvis: ROM 7.8 degrees (GVS 4.16)
+- **EMG Maximum Standardized Deviations (Max |z|):** The largest standardized difference between the participant's averaged envelope and the phase-specific mean of the pooled healthy reference occurred as follows:
+  - GAS: |z| = 15.2 (above reference mean at 57% of the cycle)
+  - RF: |z| = 6.2 (above reference mean at 36% of the cycle)
+  - VL: |z| = 6.4 (above reference mean at 36% of the cycle)
+  - BF: |z| = 2.9 (above reference mean at 97% of the cycle)
+  - ST: |z| = 3.4 (above reference mean at 51% of the cycle)
+  - TA: |z| = 5.9 (above reference mean at 32% of the cycle)
+  - ERS: |z| = 8.2 (above reference mean at 63% of the cycle)
+
+**4. Questions for Further Clinical Assessment**
+- Does clinical observation provide mechanical context for the -15.8% step length symmetry index, such as limb-advancement limitations on the paretic side or stability adaptations?
+- How much of the high phase-specific EMG divergence from the reference mean (e.g., GAS at 57%, ERS at 63%) is driven clinically by compensatory slow-walking biomechanics versus stroke-altered motor control?
+- Given that the averaged envelopes for all recorded muscles remained above threshold across the initial-contact cycle boundary, does clinical evaluation reveal a generalized multi-muscle stabilization strategy during the transition between cycles, or is this primarily an artifact of envelope averaging? 
+- Do clinical assessments of sagittal knee and ankle range of motion corroborate the kinematic excursion recorded during the gait cycle?

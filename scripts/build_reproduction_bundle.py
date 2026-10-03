@@ -45,6 +45,12 @@ def build(output):
         add(name, digest)
     for name in ('TABLE_DATA.json','AUTHOR_CONFIRMATION.md'):
         add(manuscript_dir+name, record['output_sha256'][name])
+    checklist_dir = 'docs/formal_study/reporting_checklist_v1/'
+    checklist_record = json.loads(add(checklist_dir+'BUILD_RECORD.json'))
+    for name,digest in checklist_record['source_sha256'].items():
+        add(name,digest)
+    for name,digest in checklist_record['output_sha256'].items():
+        add(checklist_dir+name,digest)
     frozen = json.loads(files['docs/formal_study/analysis_freeze_v1/BLINDED_OUTCOMES.json'])
     reviews, provenance = {}, {}
     fields = {
@@ -93,7 +99,7 @@ Dependency installation requires a package source (or a prepared wheelhouse).
 After installation, replay needs no network or API keys. The output directory must
 not exist and must be outside the bundle. The script checks every manifest SHA-256
 before computation and again afterward, then verifies exact equality of main and
-original-rater estimates, pairwise agreement, wording scenarios and all 12 manuscript
+original-rater estimates, pairwise agreement, post-hoc AC1, wording scenarios and all 12 manuscript
 tables. It writes new results, resample indices and a rebuilt manuscript separately.
 An existing explicit manuscript output directory is also refused.
 

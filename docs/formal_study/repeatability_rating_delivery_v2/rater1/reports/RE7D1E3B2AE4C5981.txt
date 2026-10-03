@@ -1,0 +1,49 @@
+### 1. Objective Findings
+This report pertains to participant Sub02_P (stroke group, paretic side). The analysis cycle is defined from 0% to 100% by successive initial contacts of the paretic foot.
+
+*   **Gait Speed:** 0.91 m/s (classified operationally within the >0.8 m/s community ambulator band).
+*   **Cadence:** 117.2 steps/min.
+*   **Step Length Symmetry Index:** -6.6% (using the successive-footfall definition). The negative value indicates that the paretic step is shorter than the non-paretic step.
+*   **Composite Kinematic Deviation Score:** 11.33 (GPS-like).
+
+### 2. EMG Envelope and Threshold Findings
+For the averaged normalized EMG envelopes, regions were detected where the mean curve exceeded 20% of its own peak for a duration of at least 3% of the cycle. Note that these amplitude ratios do not measure absolute muscular strength or force, and averaging precludes assessment of single-stride variation.
+
+*   **GAS:** Above-threshold intervals are present at 2%-48% and 63%-75%, covering 57% of the cycle. Peak normalized amplitude is 0.65.
+*   **RF:** A single above-threshold interval from 84%-70% covers 86% of the cycle, wrapping continuously across the initial contact boundary. Peak normalized amplitude is 0.66.
+*   **VL:** Above-threshold intervals are present at 40%-62% and 85%-22% (wrapping across the initial contact boundary), with a total coverage of 60%. Peak normalized amplitude is 0.67.
+*   **BF:** Above-threshold intervals are present at 65%-71% and 77%-15% (wrapping across the initial contact boundary), with a total coverage of 44%. Peak normalized amplitude is 0.76.
+*   **ST:** A single above-threshold interval from 81%-30% covers 49% of the cycle, wrapping continuously across the initial contact boundary. Peak normalized amplitude is 0.65.
+*   **TA:** Above-threshold intervals are present at 52%-79% and 89%-29% (wrapping across the initial contact boundary), with a total coverage of 68%. Peak normalized amplitude is 0.61.
+*   **ERS:** A single above-threshold interval from 44%-34% covers 90% of the cycle, wrapping continuously across the initial contact boundary. Peak normalized amplitude is 0.71.
+
+**Co-contraction Indices (CCI):**
+CCI values reflect the whole-cycle continuous overlap of normalized envelopes.
+*   **TA vs GAS:** CCI = 0.53. This value lies within the central 95% empirical interval of the supplied healthy reference cohort (0.24-0.59).
+*   **RF vs BF:** CCI = 0.67. This value is situated near the median (0.68) of the supplied healthy reference cohort and within its 95% empirical interval (0.48-0.83).
+*   *Note:* CCI values falling within the provided reference intervals do not inherently establish physiologically normal muscle function or co-activation patterns, nor does the index signify simultaneous absolute force output.
+
+### 3. Kinematic and Reference Comparisons
+Sagittal-plane joint range of motion (ROM) and Gait Variable Scores (GVS) representing differences from the reference are as follows:
+*   **Ankle:** ROM 22.3 degrees; GVS 5.53.
+*   **Knee:** ROM 50.1 degrees; GVS 11.07.
+*   **Hip:** ROM 37.4 degrees; GVS 17.74.
+*   **Pelvis:** ROM 2.5 degrees; GVS 6.77.
+
+The composite kinematic deviation score (11.33) is elevated compared to the 95th percentile of the healthy cohort (10.7). 
+
+For the EMG envelopes, the maximum absolute standardized deviations (max |z|) compared to the matched phase points of the healthy reference mean are:
+*   **GAS:** 5.8 (above reference mean at 70% of the cycle).
+*   **RF:** 2.9 (above reference mean at 93% of the cycle).
+*   **VL:** 1.9 (above reference mean at 16% of the cycle).
+*   **BF:** 2.9 (above reference mean at 86% of the cycle).
+*   **ST:** 2.3 (above reference mean at 7% of the cycle).
+*   **TA:** 1.4 (below reference mean at 80% of the cycle).
+*   **ERS:** 5.5 (above reference mean at 91% of the cycle).
+
+**Limits of Comparison:** These quantitative deviations are calculated against a fully pooled cohort of 138 healthy subjects, which is not matched to this subject's age or specific walking speed. Although this individual's gait speed (0.91 m/s) does fall within the overall speed range of the healthy reference group (0.80-1.79 m/s), comparisons to this unmatched composite data conflate potential underlying stroke-specific physiological changes with individual differences. Consequently, variations from this reference cannot solely establish a disease effect, clinical pathology, or clinical restriction.
+
+### 4. Questions for Further Clinical Assessment
+*   Do clinical evaluations of joint flexibility, active ROM, and lower limb strength align with the kinematic deviations, particularly the prominent sagittal Hip GVS observed in the objective findings?
+*   How does the individual's step length asymmetry (paretic side shorter by 6.6%) manifest visually, and is it associated with any specific compensatory strategies during physical evaluation?
+*   Can detailed physical assessment identify functional mechanisms that might correspond to the extensive cross-boundary threshold envelope coverage observed in the RF, VL, BF, ST, TA, and ERS muscles?

@@ -1,0 +1,59 @@
+## 1. Objective Findings
+
+- **Participant:** Sub10_P, stroke group; the reported side is **paretic**. Anatomical left/right designation is not supplied.
+- **Walking speed:** 0.24 m/s; **cadence:** 72.2 steps/min. The supplied “household ambulator” label describes a speed band only, not walking independence, safety, or real-world mobility.
+- **Step-length symmetry index:** **+16.3%**, using the successive-footfall definition. Under the supplied sign convention, the paretic-side step is longer than the non-paretic-side step.
+- Available findings include seven mean EMG envelopes, two whole-cycle CCI values, and four sagittal kinematic channels. Coronal/transverse kinematics and contralateral EMG/kinematic comparisons are not supplied.
+- The analysis cycle extends from paretic-limb initial contact at 0% to its next initial contact at 100%. Individual toe-off, intermediate event boundaries, matched muscle-specific timing references, stride-level variability, and raw-signal quality checks are not supplied here.
+
+## 2. EMG Envelope and Threshold Findings
+
+The released envelopes use a participant-, side-, and muscle-specific maximum shared across available strides before averaging, without further amplitude normalization. Peak values therefore represent **relative envelope amplitude**, not absolute neural activation, force, or strength.
+
+Retained intervals exceed **20% of each mean curve’s own peak**, with a minimum duration criterion of **3% of the cycle by sample count**.
+
+| Muscle | Retained intervals (% cycle) | Reported coverage | Peak normalized amplitude | Maximum absolute z: direction and location |
+|---|---|---:|---:|---|
+| GAS | 0%–100% | 100% | 0.31 | 10.6; above reference at 58% |
+| RF | 68%–72%; 72%–81%; 95%–61% (wrap) | 79% | 0.74 | 8.2; above reference at 37% |
+| VL | 94%–52% (wrap) | 59% | 0.62 | 5.7; above reference at 28% |
+| BF | 0%–100% | 100% | 0.34 | 3.0; above reference at 52% |
+| ST | 42%–74%; 80%–34% (wrap) | 89% | 0.38 | 1.5; below reference at 96% |
+| TA | 56%–46% (wrap) | 90% | 0.61 | 3.8; above reference at 11% |
+| ERS | 0%–100% | 100% | 0.58 | 6.5; above reference at 82% |
+
+All seven envelopes are explicitly reported above threshold across the initial-contact cycle boundary. GAS, BF, and ERS have explicitly reported full-cycle above-threshold intervals. RF intervals are retained separately as supplied; the displayed shared endpoint at 72% does not resolve any finer-scale boundary detail.
+
+These findings describe the **averaged envelopes under the stated detection rule**. They do not establish physiological onset, offset, contraction duration, continuous contraction, inactivity outside retained intervals, or the same pattern in every stride. Without intermediate events and matched timing references, intervals cannot be assigned gait-phase functions or characterized as early, delayed, or prolonged.
+
+Maximum absolute z locates the largest standardized difference from the reference—not necessarily peak envelope amplitude or a gait event. “Above” and “below” refer to the phase-specific reference mean at that location. These curvewise extrema should not be classified using a conventional 2-SD rule. ERS 6.5 exceeds its supplied pooled healthy 95th percentile of 3.65; TA 3.8 is below its supplied percentile of 4.61. Other muscle-specific percentiles are not supplied here.
+
+**Whole-cycle CCI comparisons**
+
+- **TA–GAS: 0.59**, above the supplied median of 0.39 and equal, at displayed precision, to the upper endpoint of the empirical 0.24–0.59 interval. Rounded equality does not establish the unrounded value’s position.
+- **RF–BF: 0.63**, below the supplied median of 0.68 and within the empirical 0.48–0.83 interval.
+
+CCI measures whole-cycle overlap of continuous normalized envelopes, including sub-threshold contributions. It is not simultaneous activation time, force, or a phase-specific finding. Its interpretation depends on the normalization and envelope methods; these comparisons do not establish normal or pathological muscle function.
+
+## 3. Kinematic and Reference Comparisons
+
+| Sagittal channel | ROM | Gait Variable Score |
+|---|---:|---:|
+| Ankle | 8.1° | 15.60 |
+| Knee | 35.1° | 16.70 |
+| Hip | 27.5° | 8.71 |
+| Pelvis | 0.7° | 3.27 |
+
+The knee has the largest supplied GVS, followed by ankle, hip, and pelvis. These scores summarize waveform differences from the reference; they do not identify their direction or cycle location. ROM values alone do not establish clinical restriction.
+
+The **GPS-like score is 12.34**, above the supplied pooled calibration median of **5.1** and 95th percentile of **10.7**. This is an RMS composite of the available sagittal GVS values, not the validated nine-variable GPS.
+
+**Reference limitation applying throughout this report:** The actual deviation reference comprises **138 pooled healthy subjects**, evaluated over **1001 phase points** from `main_cohort_excel`. It is not a subject-matched reference. At 0.24 m/s, this participant is below the healthy speed range of 0.80–1.79 m/s, so no speed-matched healthy reference exists in this dataset. Slow-walking effects cannot be separated from stroke-related effects using these comparisons. Pooled calibration percentiles are not matched leave-one-out normal limits, and reference differences do not independently establish a disease effect, diagnosis, or clinical severity.
+
+## 4. Questions for Further Clinical Assessment
+
+- Do examination and direct walking observation identify limitations in joint excursion, selective motor control, or assistance needs that are not established by these summary metrics?
+- Would individual gait-event measurements and appropriately matched timing references clarify the retained envelope intervals?
+- Do stride-level recordings reproduce the mean-envelope findings, or does averaging combine differing stride patterns?
+- Can raw-signal and processing review confirm signal quality, normalization, and the reported threshold-boundary behavior?
+- What portion of the reference differences might be explained by walking speed rather than participant-specific control characteristics?

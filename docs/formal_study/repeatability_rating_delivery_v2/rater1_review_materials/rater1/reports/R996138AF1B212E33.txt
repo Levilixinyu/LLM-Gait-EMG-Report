@@ -1,0 +1,42 @@
+**1. Objective Findings**
+Subject Sub16_P is a participant in the stroke group, with data collected from the paretic side. The analyzed gait cycle spans consecutive initial contacts (0% to 100%) of this limb. The participant’s gait speed is 1.36 m/s, with a cadence of 116.2 steps/min. The step length symmetry index is -5.1% according to the successive-footfall definition, indicating that the paretic-side step is shorter. The composite sagittal kinematic deviation score (GPS-like) is 7.39.
+
+**2. EMG Envelope and Threshold Findings**
+Analysis of the participant’s ensemble-averaged, normalized EMG envelopes revealed the following above-threshold intervals (regions where the mean envelope exceeded 20% of its own peak for at least 3% of the cycle):
+*   **GAS**: Retained intervals at 1%-6%, 9%-15%, and 21%-47%; the mean envelope was above threshold for 39% of the cycle, with a peak normalized amplitude of 0.88.
+*   **RF**: Retained intervals at 30%-33%, 40%-48%, 58%-67%, and 82%-13% (maintaining above-threshold continuity across the initial contact boundary); total envelope coverage 55%, with a peak normalized amplitude of 0.72.
+*   **VL**: Retained intervals at 22%-27%, 28%-34%, 36%-46%, and 82%-18% (maintaining above-threshold continuity across the initial contact boundary); total envelope coverage 61%, with a peak normalized amplitude of 0.63.
+*   **BF**: Retained intervals at 28%-43%, 60%-64%, and 85%-27% (maintaining above-threshold continuity across the initial contact boundary); total envelope coverage 61%, with a peak normalized amplitude of 0.63.
+*   **ST**: Retained intervals at 50%-64% and 79%-42% (maintaining above-threshold continuity across the initial contact boundary); total envelope coverage 79%, with a peak normalized amplitude of 0.84.
+*   **TA**: Retained intervals at 59%-75% and 94%-7% (maintaining above-threshold continuity across the initial contact boundary); total envelope coverage 30%, with a peak normalized amplitude of 0.74.
+*   **ERS**: Retained intervals at 47%-64% and 79%-82%; total envelope coverage 23%, with a peak normalized amplitude of 0.80.
+
+The whole-cycle Falconer-Winter co-contraction index (CCI) for the TA and GAS normalized envelopes is 0.38. The whole-cycle CCI for RF and BF is 0.73. These interval limits and indices describe the behavior of averaged, thresholded envelopes and do not establish patterns of absolute neural activation, stride-to-stride muscular variability, or periods of inactivity outside the retained regions.
+
+**3. Kinematic and Reference Comparisons**
+Comparisons in this section are drawn against an un-matched pooled healthy reference cohort (up to 138 subjects). Although this participant’s gait speed (1.36 m/s) falls within the reference cohort’s self-selected speed range (0.80–1.79 m/s), deviations from this empirical reference cannot solely isolate stroke pathology, nor do they by themselves establish a disease effect or clinical diagnosis. 
+
+Sagittal plane kinematic ranges of motion (ROM) and summary differences (Gait Variable Scores, GVS) from the reference are as follows:
+*   **AnkleAngles**: ROM 27.1 degrees, GVS 1.84.
+*   **KneeAngles**: ROM 56.4 degrees, GVS 10.83.
+*   **HipAngles**: ROM 45.0 degrees, GVS 3.14.
+*   **PelvisAngles**: ROM 2.1 degrees, GVS 9.38.
+
+The overall composite kinematic score of 7.39 is between the healthy reference cohort’s median (5.1) and 95th percentile (10.7). 
+
+The maximum absolute z-scores (max |z|) indicate the point of largest standardized difference between the participant's average EMG envelope and the phase-specific healthy reference mean:
+*   **GAS**: max |z| 3.4 (above the reference mean at 35% of the cycle).
+*   **RF**: max |z| 3.1 (above the reference mean at 43% of the cycle).
+*   **VL**: max |z| 1.5 (below the reference mean at 98% of the cycle).
+*   **BF**: max |z| 2.8 (above the reference mean at 35% of the cycle).
+*   **ST**: max |z| 4.6 (above the reference mean at 37% of the cycle).
+*   **TA**: max |z| 2.2 (below the reference mean at 76% of the cycle).
+*   **ERS**: max |z| 2.8 (above the reference mean at 56% of the cycle).
+
+The TA vs. GAS whole-cycle CCI (0.38) is situated near the healthy cohort median of 0.39 (2.5th–97.5th percentile interval: 0.24–0.59). The RF vs. BF CCI (0.73) also falls within its comparative reference interval (median 0.68, range 0.48–0.83). Placement within these reference boundaries does not inherently prove physiologically normal control or muscular co-activation.
+
+**4. Questions for Further Clinical Assessment**
+*   Do clinical evaluations of the patient's gait present visually apparent changes in sagittal knee or pelvic motion that correspond with their respective Gait Variable Scores?
+*   Is the relatively higher proportion of cycle coverage in hamstrings (ST and BF) reflective of an observable compensatory gait mechanism, or could this characteristic relate to surface measurement artifact or data normalization factors?
+*   Are there clinically identifiable adaptations in the coronal or transverse planes that might contribute context to the measured sagittal joint variations and the shorter paretic step length? 
+*   Does physical examination reveal alterations in structural joint mobility, muscle tone, or resting posture that offer context for the reported kinematic ranges of motion?

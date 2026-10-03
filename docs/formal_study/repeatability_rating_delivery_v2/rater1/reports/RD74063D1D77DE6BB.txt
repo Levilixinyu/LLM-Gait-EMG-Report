@@ -1,0 +1,57 @@
+## 1. Objective Findings
+
+- **Participant:** Sub21_P, stroke group; supplied findings concern the **paretic side**. Left/right laterality is not supplied.
+- **Walking speed:** 0.34 m/s, within the supplied “household ambulator” speed band (<0.4 m/s). This label does not establish walking independence, safety, or real-world mobility.
+- **Cadence:** 74.1 steps/min.
+- **Step-length symmetry index:** **15.1%**, indicating a longer paretic-side step under the **successive-footfall** definition. This compares heel positions at their respective initial contacts, rather than both heels at one instant.
+- Seven EMG channels and four **sagittal-plane** kinematic channels are summarized. Contralateral measurements and coronal/transverse kinematics are not supplied here.
+
+The analysis cycle extends from paretic-limb initial contact at 0% to its next initial contact at 100%. Individual toe-off and intermediate event boundaries are not supplied, so percentages cannot be assigned to stance, swing, or other gait phases.
+
+## 2. EMG Envelope and Threshold Findings
+
+These findings describe **ensemble-averaged envelopes**, using a threshold of >20% of each mean curve’s own peak and a minimum retained interval of 3% of the cycle by sample count. They are not physiological onset/offset measurements and do not establish the pattern in every stride or inactivity outside retained intervals.
+
+Normalization uses a participant-, side-, and muscle-specific maximum shared across available strides before averaging, with no further amplitude normalization in this analysis. Peak values therefore represent relative envelope amplitude—not strength, force, or absolute neural activation.
+
+| Muscle | Retained intervals (% cycle) | Reported coverage | Peak relative amplitude | Maximum \|z\| and location |
+|---|---|---:|---:|---|
+| GAS | 0%–74%; 78%–82%; 96%–100% | 82% | 0.49 | 16.8, above reference at 57% |
+| RF | 59%–56%, wrapping across boundary | 96% | 0.46 | 3.2, above reference at 38% |
+| VL | 88%–54%, wrapping across boundary | 69% | 0.62 | 5.4, above reference at 28% |
+| BF | 0%–100% | 100% | 0.52 | 3.9, above reference at 68% |
+| ST | 0%–100% | 100% | 0.60 | 3.9, above reference at 57% |
+| TA | 68%–87%; 90%–54%, wrapping across boundary | 83% | 0.50 | 5.1, above reference at 36% |
+| ERS | 0%–100% | 100% | 0.48 | 3.9, above reference at 65% |
+
+RF, VL, BF, ST, TA, and ERS explicitly show above-threshold mean-envelope continuity across the initial-contact cycle boundary. BF, ST, and ERS have retained intervals spanning the full analysis cycle. These findings do not establish continuous physiological contraction.
+
+The maximum \|z\| locations mark the **largest standardized differences from the phase-specific reference mean**, not necessarily envelope peaks or gait events. “Above reference” refers to that mean, not to a percentile limit. TA 5.1 and ERS 3.9 exceed their supplied pooled healthy maximum-\|z\| 95th-percentile values of 4.61 and 3.65, respectively. These extreme-value statistics should not be interpreted using a conventional 2-SD cutoff.
+
+**Whole-cycle CCI:**
+- **TA–GAS: 0.59**, above the reference median of 0.39 and equal to the displayed upper endpoint of the empirical 0.24–0.59 interval. Rounding does not establish the position of the hidden unrounded value relative to that endpoint.
+- **RF–BF: 0.76**, above the reference median of 0.68 and within the empirical 0.48–0.83 interval.
+
+CCI quantifies whole-cycle overlap of normalized continuous envelopes, including sub-threshold contributions. It is not simultaneous activation time, muscular force, or a phase-specific result. Its interpretation depends on normalization and envelope processing; these comparisons do not establish normal or pathological muscle function.
+
+## 3. Kinematic and Reference Comparisons
+
+| Sagittal channel | ROM | Gait Variable Score |
+|---|---:|---:|
+| Ankle | 17.1° | 13.13 |
+| Knee | 48.3° | 22.59 |
+| Hip | 38.1° | 29.35 |
+| Pelvis | 2.9° | 12.36 |
+
+The hip has the largest supplied GVS, followed by the knee. These scores summarize differences from reference waveforms; they do not identify the direction or cycle location of those differences. ROM values alone do not establish clinical restriction.
+
+The **GPS-like score is 20.60**, above the supplied pooled calibration median of 5.1 and 95th percentile of 10.7. This is an RMS composite over the supplied sagittal channels, not the validated nine-variable GPS.
+
+The stated deviation reference is **138 pooled healthy participants**, evaluated over 1001 cycle points, from `main_cohort_excel`. Reference comparability is limited: the participant’s speed of 0.34 m/s is below the healthy cohort’s 0.80–1.79 m/s range, so no speed-matched healthy reference exists in this dataset. Across the EMG, CCI, and kinematic comparisons, pooled calibration values are not matched leave-one-out normal limits. These comparisons cannot separate slow-walking effects from stroke-related effects or independently establish a disease effect or clinical diagnosis.
+
+## 4. Questions for Further Clinical Assessment
+
+- What do bilateral joint-angle waveforms and individually measured gait events reveal about the direction and timing of the hip and knee reference differences?
+- Are pain, strength deficits, altered passive mobility, sensory findings, or balance limitations present that could help contextualize the low speed and longer paretic-side step?
+- Do raw-signal quality checks and stride-level analyses support the broad mean-envelope threshold coverage, or could electrode, processing, or averaging effects contribute? Such checks are not supplied here.
+- What are the participant’s measured walking independence, safety, assistance requirements, and everyday mobility, beyond the speed-band designation?

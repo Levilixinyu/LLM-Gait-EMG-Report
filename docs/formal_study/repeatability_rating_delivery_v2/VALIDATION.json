@@ -1,0 +1,18 @@
+{
+  "verified_at_utc": "2026-09-25T18:16:20.858098+00:00",
+  "tests_passed": 8,
+  "junit_sha256": "d83aed946d198e1ff25446dc6c0d87692ce2ecb03bb419b63b8c2628df50c869",
+  "test_source_sha256": "dea8d8f17692bd45eabbd5a7846a74af22012a148a0d375c2dd3baca37a7b897",
+  "all_three_zip_contents_match_delivered_folders": true,
+  "all_judgments_and_signatures_blank": true,
+  "all_150_report_texts_and_exact_inputs_verified": true,
+  "coverage_rows_per_rater": 864,
+  "all_html_links_resolve_inside_packet": true,
+  "three_different_reading_orders": true,
+  "minimum_same_case_position_distance": 8,
+  "model_names_detected_in_supplied_materials": 0,
+  "report_texts_with_detected_provider_names": 0,
+  "blinding_limit": "Name scan is not proof that reviewers cannot infer identity from style or prior exposure.",
+  "synthetic_import_checks": "Completed in memory only; no expert scores or signatures written to delivery files.",
+  "delivery_sent": false
+}

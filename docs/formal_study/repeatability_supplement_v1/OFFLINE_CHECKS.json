@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-09-25T06:43:55.636090+00:00",
+  "status": "Offline planning checks passed; live readiness pending",
+  "cases": 25,
+  "slots": 225,
+  "models": 3,
+  "new_repeats": 3,
+  "exact_original_prompt_files_verified": 50,
+  "original_plan_matches_completion_digest": true,
+  "stroke_requirements": 119,
+  "unique_new_ids": true,
+  "historical_id_collisions": false,
+  "parameters_match_original": true,
+  "provider_position_counts": {
+    "anthropic": {
+      "3": 25,
+      "1": 25,
+      "2": 25
+    },
+    "gemini": {
+      "2": 25,
+      "3": 25,
+      "1": 25
+    },
+    "openai": {
+      "1": 25,
+      "2": 25,
+      "3": 25
+    }
+  },
+  "sdk_versions_match": true,
+  "model_calls": 0,
+  "current_provider_access_verified": false,
+  "human_capacity_confirmed": false,
+  "dedicated_runner_ready": false,
+  "original_outputs_modified": false,
+  "plan_sha256": "7610953668df37fde9002b2d2372d936c684ecabaee9ba2c03726e5df708c753"
+}

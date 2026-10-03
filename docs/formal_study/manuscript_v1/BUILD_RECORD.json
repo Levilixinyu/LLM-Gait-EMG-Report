@@ -1,5 +1,5 @@
 {
-  "created_at_utc": "2026-09-25T05:53:30.842465+00:00",
+  "created_at_utc": "2026-09-25T06:29:28.416099+00:00",
   "scope": "English full working manuscript; separate stroke/control results, review-stage comparison and descriptive report length",
   "source_sha256": {
     "data/rating_packets_formal_v1/private/three_rater_model_analysis_v1/ANALYSIS_BUILD_RECORD.json": "c41bb83b61a5195c415f924dd16885c899da4dbfca10ca899d96c9a3ec6cb57c",
@@ -8,6 +8,9 @@
     "docs/formal_study/analysis_freeze_v1/BLINDED_OUTCOMES.json": "9cf006f23d5660118f5ac4da9e631e68645fa17686a0742841e267e616ca9167",
     "docs/formal_study/three_rater_analysis_v1/AGREEMENT_BUILD_RECORD.json": "5f402b0ed10aa7752bbd0c9d165cab451d4d2fdd2db3ac3b86fe798c81ad3070",
     "docs/formal_study/three_rater_analysis_v1/INDEPENDENT_AGREEMENT.json": "aeae1c95a5b666b1e022ed2bfa02d6146550e7386fc451dff467f84b4c641574",
+    "docs/formal_study/agreement_sensitivity_v1/BUILD_RECORD.json": "428084d7fc75a46344422be2cf144f9ac69f238900748193a0368fe4fa0011d0",
+    "docs/formal_study/agreement_sensitivity_v1/AC1_ANALYSIS.json": "30c6bae36e77e2e249530d595c10ffdfa834cdadcade3bb5e946690bb7e1d60d",
+    "src/eval/agreement_sensitivity.py": "38ad1e6e2df27bef0a3b4ba2042dceb9c7dee55b05ca43d70e3b998b007c01e9",
     "docs/formal_study/wording_sensitivity_v1/BUILD_RECORD.json": "c4fe509397d4d66bacf95c1cca8dfe73318c2788b7c35d053fdf8af03bf019ad",
     "data/rating_packets_formal_v1/private/wording_sensitivity_v1/ANALYSIS.json": "e720706d5d8d5f7e66e0789736eb1801075ef85549a4eb5e234ececa80bd47e3",
     "docs/formal_study/analysis_freeze_v1/FREEZE_RECORD.json": "aedd2f87d020c19d25e48fb50d769fbaf6adf1d8ae793ab1ba5299d3bf1f5a35",
@@ -18,6 +21,10 @@
     "docs/formal_study/formal_execution_v2_candidate/provider_configuration.json": "d3a8e16c3fe58838f4247e5101df32d9ebbf407f894df57249b1eeb8b5724d62",
     "docs/formal_study/control_supplement_v2/selected_study_cases.csv": "41363eecd1cd2a2fd6cfc9f94a87cc0da9813c198e5bec31ccf2aa83010bf4fd",
     "docs/formal_study/REVIEWER_BACKGROUND_CONFIRMATION.json": "5978a44a9229bd7caf203f0e82f9db0e0ea8d38e8f4e8337b2fe27a5ae12227a",
+    "docs/formal_study/candidate_v3_1/APPROVAL_RECORD.json": "085bb60004b89dad7d6e46a5e41d43133328968ace39c5ce2296731871a0ca47",
+    "docs/formal_study/rubric_v2_draft/RUBRIC.md": "8ca337533cbf6868f5f5328061fd48550a5b1118fb1c145435fc1e6e71a338c1",
+    "docs/formal_study/rubric_v2_draft/EXAMPLES.md": "44951690858316f0c653803980037b5dd20213e554a4b510ce0cd35fedd1db69",
+    "docs/formal_study/case_requirements_v1/case_requirements.csv": "c836e6fae801ee15da142a989764f79223843a6509df27c26d7fb763fac27806",
     "docs/formal_study/execution_analysis_v3_draft/PROTOCOL.md": "62a6c7baaa28aa0ac3321768b1875aa47e98349b69e18d1d20db1a879bfabeb6",
     "docs/formal_study/execution_analysis_v1_draft/exposure_confirmation.json": "2a12a0e0babf4726ab714510a8fb6cf0bfef8d7393dc806480988c37266fd53f",
     "docs/formal_study/rating_delivery_rater3_v1/REVIEWER_ADDITION_RECORD.md": "08e4352acbd55f42d7c733a5d3f7ccc48cdbc81f67e06eeadffbdd803c56dc98",
@@ -29,7 +36,7 @@
     "docs/formal_study/sample_eligibility_v1/README.md": "f7e5ede1e729b6fd67e661d2c4adf67172898c95f760caf2f5ace5b0f5c9d209",
     "src/features/emg_signal.py": "8b684bfb6edc349ed604235c39a27c36de6431420f3758af28e71c270f6d5666",
     "src/features/kinematic.py": "c153b4a4e87f10faa0b5223490f00330a25bded59fb1f01f8c5802efbf8c5468",
-    "scripts/build_manuscript_draft.py": "cfe73c5b82aa054eb18c4742ac78e8ed2a656520884e151342ddb8119a1f7dd9",
+    "scripts/build_manuscript_draft.py": "1bb98b19633f2794d79ff51d5f699679e8d482f3db50d58ae1c8e3108b0b5965",
     "docs/formal_study/formal_stages_v1/stage_01/RESULTS.json": "3025aa2238f6b9dc22e78e777e42d5bb324a6d0e805e4fc9b6f14f150355fb70",
     "docs/formal_study/formal_stages_v1/stage_02/RESULTS.json": "699afe801126bf8afad8cc1ef6f1303b3cad63af1f242d90fc8dfea84090b273",
     "docs/formal_study/formal_stages_v1/stage_03/RESULTS.json": "7453dc4b0b6f71604ab45f1ed9269742e5161b33acda31f821d4e6c1c639a675",
@@ -141,16 +148,17 @@
     "docs/formal_study/rating_delivery_v1/rater2/reports/RFDBC4A9D68B47B2E.txt": "e5efb1ae26159bbd55e7ebf42f6662b7bc4a62e57d1141f25ef46f5aa03d7ec1"
   },
   "output_sha256": {
+    "SUPPLEMENTARY_METHODS.md": "971d4868609335bb974fc3aa4ecbe80e384606ee54392f3d9206083a970bc511",
     "AUTHOR_CONFIRMATION.md": "c5eaf93f93ff49562f46f6c63289e18c725766d12fa467f7352d85b0021649b6",
-    "README.md": "a6eae61d4923918e4ff3cbb64c5ccdf2d844901742f651c9a7cc82cd884417da",
-    "Manuscript_tables.xlsx": "f9c4cf3428ee379461022b17ed08bbbc92fa58b5f034fd7f9fc8cd89fbf05d59",
-    "MANUSCRIPT.md": "612408982b27de2122259433dea0063a78efdf879b9b1126508411537f47872d",
-    "TABLE_DATA.json": "eb66dedeab5b432bb715835485cc0690089812057a1145c32810a78c549715cc",
-    "MANUSCRIPT.html": "87ff56ee8b29cd9e6879b1fe6fa2ac1ce85be1f2dbabc3a32627a1b48ae46e3b",
-    "SOURCE_MAP.md": "70d9bc9b8c43e831f664142d284d80c5cb9214330570fe5e2694ac4ed574d4e5"
+    "README.md": "71489b2831a9b808f36604d495b482e0d6179363ac27de1d9c39f476b0151702",
+    "Manuscript_tables.xlsx": "66b6ec1b7c045c7684b050f03fb845ccb7e288713fe494350dcb378fa9bdab0a",
+    "MANUSCRIPT.md": "80d6e29172241f874168094cfaaa8fa4e5da6b3ef55d67cb533cbfd64c29fb24",
+    "TABLE_DATA.json": "020bb78e2bfd1c4f87659836d917362906df0066bbf465aabc3103751ed06474",
+    "MANUSCRIPT.html": "35a00d45874b03356cdf51109bf5f0563eedcfc22800c0e9fe969371e87cbda2",
+    "SOURCE_MAP.md": "7c4f024d5ed100dbc7e29cb735104fdfc85e14ac3faafa7fe5aa448e30177841"
   },
   "external_references_checked_on": "2026-09-25",
-  "table_count": 11,
+  "table_count": 12,
   "generation_plan_canonical_json_sha256": "726dbda2ef559cdfa33ecf7c851935a6bd7274ee85b8a27f31d15447352c6aa4",
   "scores_or_frozen_results_modified": false,
   "author_owned_declarations_inferred": false

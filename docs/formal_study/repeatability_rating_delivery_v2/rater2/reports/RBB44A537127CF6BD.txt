@@ -1,0 +1,39 @@
+**1. Objective Findings**
+- **Participant Group & Side:** Stroke cohort, paretic side assessed.
+- **Gait Speed & Cadence:** 0.22 m/s (categorized within the household ambulator band of <0.4 m/s) with a cadence of 62.7 steps/minute.
+- **Step Length Symmetry Index:** 8.6% (using the successive-footfall definition), indicating that the paretic-side step is longer than the non-paretic-side step.
+- **Data Available:** Sagittal-plane kinematics for the ankle, knee, hip, and pelvis. Ensemble-averaged EMG envelopes for seven muscles (GAS, RF, VL, BF, ST, TA, ERS). 
+
+**2. EMG Envelope and Threshold Findings**
+*(Note: Threshold intervals denote regions where the averaged normalized envelope exceeds 20% of its own peak for at least 3% of the cycle. They do not represent absolute physiological onset, offset, duration, or continuous muscular contraction.)*
+- **GAS and BF:** Both averaged envelopes remained above threshold for 100% of the gait cycle (interval 0%-100%), continuing continuously across the initial-contact boundary. 
+- **ERS:** The envelope was above threshold for 98% of the cycle (interval 22%-20%, wrapping across the boundary).
+- **TA:** The envelope was above threshold for 87% of the cycle (interval 72%-58%, wrapping across the boundary).
+- **ST:** The envelope was above threshold for 77% of the cycle, separated into two intervals (46%-77% and 91%-36%, with the latter wrapping across the boundary).
+- **RF and VL:** The envelopes were above threshold for 73% of the cycle (intervals of 87%-57% and 87%-58%, respectively, wrapping across the boundary).
+- **Peak Normalized Amplitudes:** Ranged from 0.33 (TA) to 0.54 (VL).
+- **Co-Contraction Indices (CCI):** The whole-cycle overlap index of the continuous envelopes was 0.78 for TA vs GAS, and 0.65 for RF vs BF.
+
+**3. Kinematic and Reference Comparisons**
+*(Note: Deviations in this section are compared to a pooled healthy reference cohort utilizing self-selected walking speeds between 0.80 and 1.79 m/s. Because the subject's gait speed of 0.22 m/s is below this support limit, no speed-matched healthy reference exists in the dataset. Therefore, any observed deviations conflate the effects of slow walking with stroke-specific factors. These comparisons do not independently establish clinical pathology or diagnose specific impairments.)*
+- **Composite Kinematics:** The composite kinematic deviation score (GPS-like) was 10.56, which falls between the reference median (5.1) and the 95th percentile (10.7).
+- **Sagittal Kinematics:** 
+  - Knee: Range of motion (ROM) 26.6°, Gait Variable Score (GVS) 14.96.
+  - Hip: ROM 23.5°, GVS 11.51.
+  - Ankle: ROM 14.9°, GVS 6.91.
+  - Pelvis: ROM 4.1°, GVS 6.48.
+- **EMG Envelope Deviations:** The maximum |z| values (the single largest standardized difference from the phase-specific reference mean across 1001 points) are reported below. All recorded maximum deviations were above the reference mean at their specific cycle percentage:
+  - GAS: 13.7 (at 57% of the cycle)
+  - ST: 6.3 (at 60% of the cycle)
+  - VL: 6.1 (at 33% of the cycle)
+  - BF: 5.1 (at 58% of the cycle)
+  - ERS: 4.8 (at 72% of the cycle)
+  - TA: 4.6 (at 37% of the cycle)
+  - RF: 4.5 (at 39% of the cycle)
+- **CCI Comparisons:** The TA vs GAS CCI of 0.78 falls outside (above) the supplied empirical reference interval (median 0.39, 2.5th-97.5th percentile 0.24-0.59). The RF vs BF CCI of 0.65 falls within the healthy reference interval (median 0.68, 2.5th-97.5th percentile 0.48-0.83). Note that values outside or inside these ranges do not inherently confirm pathological impairment or physiologically normal function, respectively.
+
+**4. Questions for Further Clinical Assessment**
+- To what extent does the patient's markedly reduced walking speed (0.22 m/s) mechanically necessitate the prolonged, multi-boundary-wrapping EMG envelope threshold intervals observed in muscles such as GAS, BF, and ERS?
+- Does a physical examination reveal clinical findings, such as spasticity, underlying weakness, or compensatory stiffness, that might contextualize the elevated TA vs GAS co-contraction index?
+- Are the observed sagittal knee and hip kinematic deviation scores related to fixed range-of-motion limitations, or do they represent dynamic compensatory strategies during forward progression?
+- How does the observed step-length asymmetry (where the paretic step is longer) interact with the limb's ability to achieve appropriate stability and limb advancement given the presented kinematic deviations?

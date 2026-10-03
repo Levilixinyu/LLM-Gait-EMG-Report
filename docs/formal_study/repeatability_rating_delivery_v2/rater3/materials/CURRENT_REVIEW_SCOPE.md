@@ -1,0 +1,3 @@
+# Current supplement review scope
+
+Review 150 new texts from 25 stroke cases. Use the 119 unchanged case-specific requirements already populated in Coverage, plus G03 once per report. There are no new control reports. The approved rubric is preserved verbatim; its historical draft wording and five-case annex are superseded in scope by this packet's requirements and supplement instructions. Its approval-status document is historical, not a request to repeat earlier study preparation. D01-D03 apply from the outset as explained in REVIEW_INSTRUCTIONS.md. Preserve your own first-pass judgments and any Pending interpretations. Do not copy historical scores or seek agreement before independent submissions are saved.

@@ -1,0 +1,47 @@
+**1. Objective Findings**
+Participant Sub22_P (stroke group) was evaluated on the paretic side. The participant’s self-selected gait speed was 0.45 m/s (categorized within the limited community ambulator band), with a cadence of 78.8 steps/min. Step length symmetry, calculated using the successive-footfall definition, was 5.7%. 
+
+Because the self-selected gait speed of 0.45 m/s falls below the slowest observed speed in the healthy reference cohort (0.80 m/s), no speed-matched reference data are available in this dataset. As a result, all comparisons to the reference cohort conflate the biomechanical effects of slow walking with stroke-specific control changes, and the two factors cannot be disentangled from these data alone.
+
+**2. EMG Envelope and Threshold Findings**
+EMG interval detection is based on an averaged envelope exceeding 20% of its own peak for a minimum of 3% of the cycle. Normalized amplitudes represent relative envelope peaks, not absolute force or stride-to-stride variability. Gait cycle boundaries occur at 0% and 100% (successive initial contacts). 
+
+Detected above-threshold intervals and normalized peaks are as follows:
+*   **GAS**: Activity detected from 0%-13%, 14%-19%, and 31%-64% of the cycle (60% total coverage); peak normalized amplitude 0.61.
+*   **RF**: Activity detected from 88%-53%, maintaining continuous above-threshold activity across the initial contact boundary (68% total coverage); peak normalized amplitude 0.45.
+*   **VL**: Activity detected from 69%-81% and 91%-54%, wrapping across the cycle boundary (75% total coverage); peak normalized amplitude 0.59.
+*   **BF**: Activity detected from 59%-38%, wrapping across the cycle boundary (80% total coverage); peak normalized amplitude 0.46.
+*   **ST**: Activity detected from 62%-35%, wrapping across the cycle boundary (73% total coverage); peak normalized amplitude 0.38.
+*   **TA**: Activity detected from 61%-37%, wrapping across the cycle boundary (77% total coverage); peak normalized amplitude 0.50.
+*   **ERS**: Activity detected from 0%-100%, indicating 100% total coverage with no below-threshold segment in the averaged envelope; peak normalized amplitude 0.64.
+
+Co-contraction indices (CCI) were calculated over the full continuous envelopes (0-100%):
+*   **TA vs GAS**: CCI is 0.56. This falls within the supplied empirical healthy reference interval (2.5th-97.5th percentile: 0.24-0.59) and is above the reference median (0.39).
+*   **RF vs BF**: CCI is 0.71. This is near the healthy reference median (0.68) and falls within the reference interval (0.48-0.83). 
+*Note: CCI falling within the empirical reference interval depends heavily on normalization and algorithm parameters and does not, by itself, establish normal muscle function or physiological coordination.*
+
+**3. Kinematic and Reference Comparisons**
+Kinematic measurements are restricted to the sagittal plane. Deviations from the pooled healthy cohort are summarized below. As noted, differences from the reference cannot establish a specific clinical diagnosis or determine which variations are solely due to pathology versus slow walking speed.
+
+Sagittal range of motion (ROM) and Gait Variable Scores (GVS):
+*   **Ankle**: ROM 24.6°, GVS 18.23
+*   **Knee**: ROM 27.0°, GVS 15.32
+*   **Hip**: ROM 30.2°, GVS 15.64
+*   **Pelvis**: ROM 3.0°, GVS 11.16
+
+The composite kinematic deviation score (GPS-like) is 15.30. This exceeds both the median (5.1) and 95th percentile (10.7) of the un-matched reference cohort.
+
+Maximum absolute z-scores (|z|) signify the largest standardized difference between the subject’s average envelope and the reference mean at a specific phase point. This is an extreme-value statistic, not a 2-standard-deviation diagnostic cutoff:
+*   **GAS**: Max |z| 10.1 (above reference mean at 57% of cycle)
+*   **RF**: Max |z| 2.5 (above reference mean at 20% of cycle)
+*   **VL**: Max |z| 4.5 (above reference mean at 23% of cycle)
+*   **BF**: Max |z| 2.3 (above reference mean at 10% of cycle)
+*   **ST**: Max |z| 2.3 (below reference mean at 0% of cycle / initial contact)
+*   **TA**: Max |z| 2.5 (above reference mean at 18% of cycle)
+*   **ERS**: Max |z| 5.8 (above reference mean at 80% of cycle)
+
+**4. Questions for Further Clinical Assessment**
+*   How do the observed sagittal plane kinematic deviations correlate with the patient’s clinical tests of dynamic balance, joint stability, and passive mobility?
+*   Is the pervasive boundary-wrapping EMG activity (observed in RF, VL, BF, ST, TA, and continuously in ERS) reflective of compensatory stabilization required at a low walking speed (0.45 m/s), or driven by underlying motor control deficits such as spasticity?
+*   Do clinical observations of the participant’s gait reveal specific kinematic mechanisms contributing to the elevated Gait Variable Scores, particularly at the ankle (18.23)?
+*   How does the 5.7% step length symmetry (successive-footfall definition) present clinically during continuous overground walking, and does it functionally impact ambulation endurance or safety?

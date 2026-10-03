@@ -1,0 +1,33 @@
+**1. Objective Findings**
+The participant is evaluated from the stroke group, with findings reported for the paretic side. The recorded gait speed is 0.11 m/s, placing the participant in the household ambulator band (<0.4 m/s). Cadence is 33.6 steps/min, and the step length symmetry index is 8.6% (using the successive-footfall definition). The composite kinematic deviation score (GPS-like) is 16.43.
+
+The pooled healthy reference cohort used for comparison has a self-selected walking speed range of 0.80 to 1.79 m/s. Because this participant's speed (0.11 m/s) falls entirely below the reference support limit, no speed-matched healthy reference exists in this dataset. Any observed deviations conflate the effects of extreme slow walking with potential stroke-specific control changes; these two factors cannot be separated from these data. 
+
+**2. EMG Envelope and Threshold Findings**
+The following findings are based on ensemble-averaged envelopes and depend on the selected 20% amplitude threshold and 3% duration rule. Reported normalized amplitudes are relative values for this participant and do not represent absolute neural activation, muscular force, or strength. The analysis cycle runs from initial contact (0%) to the subsequent initial contact (100%).
+
+- **Gastrocnemius (GAS):** Detected interval from 3%-2% (wrapping across the initial-contact boundary), with 99% of the cycle above threshold. The peak normalized amplitude is 0.37. The maximum |z| deviation from the reference is 12.1 (above the reference mean at 77% of the cycle).
+- **Rectus Femoris (RF):** Detected interval from 97%-77% (wrapping), with 86% of the cycle above threshold. The peak normalized amplitude is 0.65. The maximum |z| deviation is 6.9 (above the reference mean at 38% of the cycle).
+- **Vastus Lateralis (VL):** Detected interval from 98%-76% (wrapping), with 77% of the cycle above threshold. The peak normalized amplitude is 0.53. The maximum |z| deviation is 5.8 (above the reference mean at 52% of the cycle).
+- **Biceps Femoris (BF):** Detected intervals from 80%-84% and 90%-65% (wrapping), with 81% of the cycle above threshold. The peak normalized amplitude is 0.48. The maximum |z| deviation is 3.8 (above the reference mean at 47% of the cycle).
+- **Semitendinosus (ST):** Detected interval from 76%-75% (wrapping), with 99% of the cycle above threshold. The peak normalized amplitude is 0.37. The maximum |z| deviation is 4.9 (above the reference mean at 42% of the cycle).
+- **Tibialis Anterior (TA):** Detected intervals from 84%-95% and 95%-70% (wrapping), with 89% of the cycle above threshold. The peak normalized amplitude is 0.60. The maximum |z| deviation is 9.9 (above the reference mean at 33% of the cycle).
+- **Erector Spinae (ERS):** Detected interval from 0%-100%, with 100% of the cycle above threshold. The peak normalized amplitude is 0.46. The maximum |z| deviation is 4.5 (above the reference mean at 28% of the cycle).
+
+All evaluated muscles maintained above-threshold averaged envelope activity across the cycle-defining initial-contact boundary.
+
+Whole-cycle Falconer-Winter co-contraction indices (CCI) were calculated from the continuous normalized envelopes. The TA vs GAS CCI is 0.71, which falls above the empirical healthy reference median of 0.39 (2.5th-97.5th percentile interval: 0.24-0.59). The RF vs BF CCI is 0.76, which is within the empirical healthy reference interval of 0.48-0.83 (median 0.68). CCI values depend on the normalization and envelope methods and do not inherently establish normal or pathological co-activation, nor do they reflect simultaneous muscular force.
+
+**3. Kinematic and Reference Comparisons**
+Sagittal plane kinematic findings show the following ranges of motion (ROM) and joint-specific Gait Variable Scores (GVS):
+- **Ankle:** ROM 8.3 degrees, GVS 10.66
+- **Knee:** ROM 36.2 degrees, GVS 22.02
+- **Hip:** ROM 30.2 degrees, GVS 16.78
+- **Pelvis:** ROM 9.0 degrees, GVS 14.13
+
+The composite kinematic deviation score (GPS-like) of 16.43 is higher than the pooled healthy cohort median of 5.1 and 95th percentile of 10.7. However, the reference cohort is not matched for age or gait speed. Because the participant's speed is a fraction of the reference population's minimal speed, these numerical differences from the reference cannot be isolated to a disease effect and do not by themselves establish a clinical diagnosis or specific functional restriction.
+
+**4. Questions for Further Clinical Assessment**
+- Does clinical evaluation suggest the extensive above-threshold EMG coverages (ranging from 77% to 100% across the assessed muscles) result from intentional compensatory strategies for extreme slow walking, sustained underlying muscular tone, or potential baseline measurement artifact?
+- How do the observed sagittal joint excursions (e.g., ankle ROM of 8.3 degrees and knee ROM of 36.2 degrees) function mechanically at a highly reduced speed of 0.11 m/s during direct clinical observation?
+- Is the measured step length symmetry index of 8.6% corroborated by visibly observable step length asymmetries between the paretic and non-paretic limbs in the clinical setting?

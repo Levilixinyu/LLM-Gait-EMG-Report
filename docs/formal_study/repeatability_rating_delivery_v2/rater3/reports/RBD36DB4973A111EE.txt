@@ -1,0 +1,27 @@
+**1. Objective Findings**
+Participant Sub22_P was analyzed as part of the stroke group, with findings generated from the paretic side. The analyzed gait cycle is defined by successive initial contacts (0% and 100%). Gait speed was 0.45 m/s with a cadence of 78.8 steps/min. Step length symmetry index, using the successive-footfall definition, was 5.7%. The composite kinematic deviation score (GPS-like, representing sagittal channels) was 15.30.
+
+**2. EMG Envelope and Threshold Findings**
+EMG findings are derived from ensemble-averaged, normalized envelopes evaluated against a threshold of 20% of each muscle's peak amplitude, with a minimum duration of 3% of the cycle. Detected above-threshold intervals describe the mean envelope properties; they do not represent physiological onsets or offsets, and they do not confirm stride-to-stride consistency. Portions of the cycle not meeting these detection criteria do not signify muscular inactivity. Seven sagittal muscles were assessed, with no missing channels. 
+
+- The ERS average envelope maintained 100% coverage, remaining above threshold across the entire cycle and the initial contact boundary (0%-100%). Peak normalized amplitude was 0.64.
+- BF and ST showed 80% and 73% cycle coverage, respectively. Both demonstrated above-threshold activity wrapping across the initial contact boundary, with detected intervals of 59%-38% for BF and 62%-35% for ST.
+- VL and RF mean envelopes also wrapped the initial contact boundary. VL presented intervals at 69%-81% and 91%-54% (75% total coverage), while RF presented a single interval from 88%-53% (68% total coverage). 
+- TA demonstrated 77% above-threshold coverage in a single interval wrapping the boundary from 61%-37%.
+- GAS demonstrated above-threshold coverage for 60% of the cycle across three intervals: 0%-13%, 14%-19%, and 31%-64%. 
+
+Co-contraction indices (CCI), calculated as a whole-cycle overlap index of the continuous normalized envelopes, were 0.56 for TA vs. GAS and 0.71 for RF vs. BF. 
+
+**3. Kinematic and Reference Comparisons**
+Participant kinematics and EMG were compared to a pooled cohort of 138 healthy controls. Because the participant's gait speed (0.45 m/s) is below the self-selected speed range of the healthy reference group (0.80-1.79 m/s), no speed-matched reference exists in this dataset. Deviations from the empirical reference conflate the mechanical effects of slow walking with stroke-specific control changes, and these factors cannot be separated using the supplied data. Deviations from this reference do not inherently establish disease or pathology.
+
+- The participant's composite kinematic deviation score (15.30) is higher than the healthy cohort median (5.1) and 95th percentile (10.7).
+- Sagittal joint ranges of motion (ROM) and summary differences from the reference (Gait Variable Scores, GVS) were: Hip ROM 30.2 degrees (GVS 15.64); Knee ROM 27.0 degrees (GVS 15.32); Ankle ROM 24.6 degrees (GVS 18.23); and Pelvis ROM 3.0 degrees (GVS 11.16).
+- The CCI for TA vs. GAS (0.56) falls near the upper limit of the empirical healthy reference interval (median 0.39, 2.5th-97.5th percentiles 0.24-0.59). The RF vs. BF CCI (0.71) is within the empirical reference interval (median 0.68, 2.5th-97.5th percentiles 0.48-0.83). These relative proximities do not verify clinically normal or pathological co-activation.
+- Maximum absolute z-scores (max |z|) represent the largest standardized difference from the phase-specific reference mean; they do not indicate the time of peak envelope amplitude. Findings were: GAS 10.1 (above reference mean at 57% of the cycle); ERS 5.8 (above reference at 80%); VL 4.5 (above reference at 23%); TA 2.5 (above reference at 18%); RF 2.5 (above reference at 20%); BF 2.3 (above reference at 10%); and ST 2.3 (below reference at 0%). 
+
+**4. Questions for Further Clinical Assessment**
+- To what degree do the mechanical demands and compensatory strategies associated with a walking speed of 0.45 m/s account for the observed deviations from the unmatched healthy reference?
+- Are the observed sagittal joint excursions (e.g., knee ROM of 27.0 degrees and ankle ROM of 24.6 degrees) associated with clinically apparent restrictions in dynamic mobility or postural stability?
+- How does the broad, above-threshold EMG boundary-wrapping activity observed across the majority of the assessed proximal and distal muscles correlate with clinically observable movement strategies during the transition between analysis cycles?
+- Might the substantial max |z| deviation observed in the GAS mean envelope around 57% of the cycle correspond to a clinically measurable difference in lower limb control at that approximate stage of the gait cycle?

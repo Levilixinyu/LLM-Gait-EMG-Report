@@ -1,0 +1,47 @@
+### 1. Objective Findings
+*   **Participant Group and Side:** Stroke cohort, paretic side.
+*   **Gait Speed:** 0.39 m/s (falls within the household ambulator speed band, <0.4 m/s).
+*   **Cadence:** 72.7 steps/min.
+*   **Step Length Symmetry Index:** -4.8% (using the successive-footfall definition; the negative value indicates the paretic-side step is shorter).
+*   **Kinematics (Sagittal Plane Only):**
+    *   Knee: Range of motion 48.9 degrees.
+    *   Hip: Range of motion 37.4 degrees.
+    *   Ankle: Range of motion 20.8 degrees.
+    *   Pelvis: Range of motion 5.5 degrees.
+*   **Evaluated Channels:** Sagittal kinematics for the pelvis, hip, knee, and ankle are available. EMG recordings are present for all seven evaluated muscles (GAS, RF, VL, BF, ST, TA, ERS). 
+
+### 2. EMG Envelope and Threshold Findings
+The following findings are properties of the ensemble-averaged, normalized EMG envelopes using a 20% peak amplitude threshold and 3% minimum cycle duration rule. They do not establish absolute neural force, continuous contraction, or stride-to-stride variability. The analysis cycle is defined by successive initial contacts (0% to 100%).
+
+*   **RF:** Above-threshold interval at 0%-100% of the cycle (above threshold across the cycle boundary). Cycle coverage is 100%, with a peak normalized amplitude of 0.67.
+*   **VL:** Above-threshold interval at 0%-100% of the cycle (above threshold across the cycle boundary). Cycle coverage is 100%, with a peak normalized amplitude of 0.59.
+*   **BF:** Above-threshold interval at 0%-100% of the cycle (above threshold across the cycle boundary). Cycle coverage is 100%, with a peak normalized amplitude of 0.48.
+*   **ST:** Above-threshold interval at 0%-100% of the cycle (above threshold across the cycle boundary). Cycle coverage is 100%, with a peak normalized amplitude of 0.62.
+*   **ERS:** Above-threshold interval at 0%-100% of the cycle (above threshold across the cycle boundary). Cycle coverage is 100%, with a peak normalized amplitude of 0.55.
+*   **GAS:** Above-threshold intervals at 3%-8% and 13%-68% of the cycle. Cycle coverage is 61%, with a peak normalized amplitude of 0.51.
+*   **TA:** Above-threshold intervals at 69%-88% and 89%-24% (wrapping the cycle boundary). Cycle coverage is 59%, with a peak normalized amplitude of 0.58.
+
+*   **Co-Contraction Indices (CCI):** CCI is calculated as a whole-cycle overlap index of the normalized continuous envelopes. 
+    *   TA vs. GAS: CCI is 0.46, which is within the supplied healthy-cohort empirical interval (median 0.39, 2.5th-97.5th percentile 0.24-0.59).
+    *   RF vs. BF: CCI is 0.83, which lies precisely at the upper endpoint of the healthy-cohort empirical interval (median 0.68, 2.5th-97.5th percentile 0.48-0.83).
+
+### 3. Kinematic and Reference Comparisons
+*Comparability Note:* The participant's quantitative metrics are compared to a pooled reference cohort of up to 138 healthy participants. This cohort is not matched for age or speed. The participant's gait speed of 0.39 m/s falls well below the reference cohort's lower speed support limit of 0.80 m/s, meaning no speed-matched healthy reference exists in this dataset. Deviations from the reference conflate the effects of slow walking with any stroke-specific changes; a disease effect, physiological normalcy, or clinical diagnosis cannot be independently established from these reference comparisons.
+
+*   **Kinematic Deviations:** 
+    *   The composite kinematic deviation score (GPS-like) is 11.62. (The reference median is 5.1, and the 95th percentile is 10.7).
+    *   Sagittal Gait Variable Scores (GVS) are 15.25 for the knee, 12.46 for the hip, 11.28 for the ankle, and 4.95 for the pelvis.
+*   **EMG Maximum |z| Deviations:** (Max |z| indicates the largest standardized difference from the reference along the 1001-point cycle, not necessarily the time of peak amplitude).
+    *   GAS: Max |z| is 12.6, located at 57% of the cycle (above the phase-specific reference mean).
+    *   ST: Max |z| is 8.6, located at 33% of the cycle (above the phase-specific reference mean).
+    *   RF: Max |z| is 7.2, located at 37% of the cycle (above the phase-specific reference mean).
+    *   VL: Max |z| is 5.5, located at 26% of the cycle (above the phase-specific reference mean).
+    *   BF: Max |z| is 4.8, located at 47% of the cycle (above the phase-specific reference mean).
+    *   ERS: Max |z| is 4.4, located at 86% of the cycle (above the phase-specific reference mean).
+    *   TA: Max |z| is 2.9, located at 71% of the cycle (below the phase-specific reference mean).
+
+### 4. Questions for Further Clinical Assessment
+*   Does the 100% threshold coverage observed in the averaged envelopes of the RF, VL, BF, ST, and ERS correlate with clinical examinations of tone or voluntary control, or might it reflect the interaction between the normalization method and very slow household ambulation speeds?
+*   Are the highest kinematic deviations, seen in the knee (GVS 15.25) and hip (GVS 12.46), associated with physical range-of-motion restrictions or compensatory strategies visible during observational gait assessment?
+*   How does the step length asymmetry (shorter paretic step by -4.8%) relate to the patient's balance and weight-shifting capabilities during clinical evaluation?
+*   Do the calculated whole-cycle CCI metrics correspond to any clinically identifiable co-activation patterns that impact this patient's real-world mobility and stability?

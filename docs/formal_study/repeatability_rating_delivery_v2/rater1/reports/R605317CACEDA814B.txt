@@ -1,0 +1,45 @@
+**1. Objective Findings**
+*   **Subject/Group:** Sub28_P (Stroke cohort, paretic side).
+*   **Gait Speed:** 0.21 m/s (falls within the "household ambulator" band). 
+*   **Cadence:** 46.8 steps/min.
+*   **Step Length Symmetry:** The step length symmetry index is -62.4% (using the successive-footfall definition). The negative value indicates the paretic-side step is shorter than the non-paretic step.
+*   **Analysis Cycle:** Defined from the paretic limb’s initial contact at 0% to its subsequent initial contact at 100%.
+
+**2. EMG Envelope and Threshold Findings**
+Measurements in this section reflect properties of the averaged, normalized EMG envelopes against a 20%-of-peak threshold (minimum 3% cycle duration). Detected intervals indicate where the average curve exceeded its own threshold; they do not establish independent physiological onsets, offsets, single-stride continuous contraction, or absolute force. "Wrapping" indicates the average envelope remained above threshold across the initial contact cycle boundary (100% to 0%).
+
+*   **GAS:** Above threshold for 73% of the cycle. Peak normalized amplitude is 0.57. Four intervals were retained: 22%-53%, 56%-60%, 74%-89%, and 97%-20% (wrapping the cycle boundary). 
+*   **RF:** Above threshold for 78% of the cycle. Peak normalized amplitude is 0.45. Three intervals were retained: 14%-17%, 28%-80%, and 86%-3% (wrapping the cycle boundary).
+*   **VL:** Above threshold for 87% of the cycle. Peak normalized amplitude is 0.60. A single retained interval wraps the cycle boundary (93%-80%).
+*   **BF:** Above threshold for 55% of the cycle. Peak normalized amplitude is 0.60. Three intervals were retained: 40%-64%, 76%-83%, and 92%-15% (wrapping the cycle boundary).
+*   **ST:** Above threshold for 82% of the cycle. Peak normalized amplitude is 0.53. Two intervals were retained: 77%-88% and 90%-62% (wrapping the cycle boundary).
+*   **TA:** Above threshold for 52% of the cycle. Peak normalized amplitude is 0.53. The curve crossed the threshold multiple times, producing eight retained intervals: 32%-36%, 42%-47%, 50%-53%, 60%-64%, 69%-75%, 75%-78%, 87%-97%, and 100%-3% (wrapping the cycle boundary).
+*   **ERS:** Above threshold for 100% of the cycle (0%-100%, continuous envelope crossing the cycle boundary). Peak normalized amplitude is 0.49.
+*   **Co-contraction Indices (CCI):** CCI measures the whole-cycle area overlap of normalized envelopes.
+    *   TA vs GAS: CCI is 0.62. This is above the empirical healthy cohort median (0.39) and outside the 2.5th–97.5th percentile reference interval (0.24–0.59).
+    *   RF vs BF: CCI is 0.68. This exactly matches the healthy cohort median (0.68) and falls within the reference interval (0.48–0.83).
+
+**3. Kinematic and Reference Comparisons**
+*Reference Limit Caveat:* The subject’s gait speed of 0.21 m/s is significantly below the healthy reference cohort’s speed range (0.80–1.79 m/s). This cohort is pooled and neither age- nor speed-matched to this participant. Consequently, deviations from the reference conflate the mechanical effects of very slow walking with stroke-specific motor control changes, and the two cannot be isolated here. Deviation from this reference does not inherently establish pathological function.
+
+*   **Sagittal Plane Joint Kinematics:** 
+    *   Composite kinematic deviation score (GPS-like): 16.32 (reference median is 5.1; 95th percentile is 10.7).
+    *   Ankle: ROM 23.4°; Gait Variable Score (GVS) 15.87.
+    *   Knee: ROM 35.6°; GVS 21.84.
+    *   Hip: ROM 32.3°; GVS 17.66.
+    *   Pelvis: ROM 7.9°; GVS 5.00.
+*   **EMG Maximum Standardized Deviations (Max |z|):** Max |z| denotes the single cycle phase point of maximum standardized difference from the reference mean, which is not necessarily the time of peak amplitude.
+    *   GAS: max |z| = 21.7 (above reference mean, located at 81% of the cycle).
+    *   VL: max |z| = 6.4 (above reference mean, located at 51% of the cycle).
+    *   ST: max |z| = 6.4 (above reference mean, located at 46% of the cycle).
+    *   RF: max |z| = 4.1 (below reference mean, located at 6% of the cycle).
+    *   TA: max |z| = 3.9 (below reference mean, located at 99% of the cycle, near initial contact).
+    *   ERS: max |z| = 3.5 (above reference mean, located at 88% of the cycle).
+    *   BF: max |z| = 2.6 (above reference mean, located at 50% of the cycle).
+
+**4. Questions for Further Clinical Assessment**
+*   How do the patient's severe step length asymmetry and very slow walking speed (0.21 m/s) present on clinical observation, and do they correspond with specific deficits in balance or motor control on the paretic side?
+*   Do clinical evaluations of the knee joint reveal structural or neuromotor factors contributing to the relatively high sagittal kinematic deviation (Knee GVS: 21.84) during the gait cycle?
+*   Is the highly fragmented averaged TA envelope (characterized by 8 short above-threshold intervals) associated with observable alterations in dynamic ankle control or altered timing of neural recruitment?
+*   Does the elevated whole-cycle TA/GAS co-contraction index (0.62) reflect a compensatory strategy for dynamic stabilization of the ankle joint during slow walking?
+*   Are there observable clinical correlates (such as trunk compensatory movements or altered posture) related to the continuous, whole-cycle above-threshold activity of the erector spinae (ERS)?
